@@ -1,6 +1,5 @@
 # AutoPhrase: Automated Phrase Mining from Massive Text Corpora
 
-#### This keyphrase extraction tool comes from Jiawei Han's research group.
 ## Publications
 
 Please cite the following two papers if you are using our tools. Thanks!
