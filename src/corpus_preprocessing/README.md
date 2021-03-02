@@ -1,12 +1,13 @@
-This folder contains scripts to 1) process raw text corpus into a standard formatted file for feature extraction, and 2) to perform key term extraction. 
+## Step 1: Corpus pre-processing
 
-First, you need to have [SpaCy](https://spacy.io/usage/) installed:
+You need to first create a data folder with dataset name `$DATA` at the project root, and then put your raw text corpus (each line represents a single document) under the `$DATA/source/` folder. 
 
 ```
-$ pip3 install -U spacy
-$ python3 -m spacy download en
+data/$DATA
+└── source
+    └── corpus.txt
 ```
-Then, you need to provide a raw txt file: "../../data/{corpus_name}/source/corpus.txt". Each line in corpus.txt represents a document. 
+Each line in corpus.txt represents a document. 
 
 Finally, you can run the pre-processing pipeline by typing the following command:
 
@@ -22,6 +23,17 @@ put the raw text corpus in "../../data/wiki/source/corpus.txt". Then, you can ty
 
 ```
 $ ./corpusProcess_new.sh wiki 8
+```
+
+The above pipeline will output files, organized as follows:
+
+```
+data/$DATA
+└── intermediate
+    └── sentences.json: documents with entity phrases and noun-chunks
+    └── segmentation.txt: the highlighted phrases will be enclosed by the phrase tags (e.g., <phrase>data mining</phrase>).
+    └── AutoPhrase_multi-words.txt: the sub-ranked list for multi-word phrases only.
+    └── AutoPhrase_single-word.txt: the sub-ranked list for single-word phrases only.	
 ```
 
 
