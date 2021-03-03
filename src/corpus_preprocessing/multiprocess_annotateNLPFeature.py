@@ -7,9 +7,11 @@ def parsing(suffix):
     corpus_name = suffix[0]
     real_suffix = suffix[1]
 
+    keywords_path = "../../data/{}/intermediate/AutoPhrase_single-word.txt"
+    keyphrases_path = "../../data/{}/intermediate/AutoPhrase_multi-words.txt"
     input_path = "../../data/{}/intermediate/subcorpus-{}".format(corpus_name, real_suffix)
     output_path = "../../data/{}/intermediate/sentences.json-{}".format(corpus_name, real_suffix)
-    cmd = "python3 annotateNLPFeature_new.py -corpusName {} -input_path {} -output_path {} -real_suffix {}".format(corpus_name, input_path, output_path, real_suffix)
+    cmd = "python3 annotateNLPFeature.py -corpusName {} -input_path {} -output_path {} -real_suffix {}".format(corpus_name, input_path, output_path, real_suffix)
     os.system(cmd)
 
 

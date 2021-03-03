@@ -12,6 +12,7 @@ __latest_updates__: 05/07/2018
 import sys
 import time
 import json
+import pandas as pd
 import re
 from tqdm import tqdm
 from collections import deque
@@ -95,7 +96,39 @@ def obtain_p_tokens(p):
         return p_tokens
 
 
-def process_one_doc(article, articleId):
+def merge_entity_mentions(entity_mentions, tokens, single_words, multi_words):
+    if len(entity_mentions) < 2:
+        return entity_mentions
+    sorted_entity_mentions = sorted(entity_mentions, key=lambda x: (x['start'], x['end']))
+    already_merged_mentions = set()
+    merged_mentions = []
+    for i in range(len(sorted_entity_mentions) - 1):
+        m1 = sorted_entity_mentions[i]
+        m2 = sorted_entity_mentions[i+1]
+        if str(m1) in already_merged_mentions:
+            continue
+        if (m1['start'] <= m2['end']) & ((m2['start'] - 1) <= m1['end']):  # overlapping spans
+            print('overlapping span')
+            merged_span = tokens[m1['start']: m2['end'] + 1]
+            merged_text = ' '.join(merged_span).lower()
+            # print('merged_text: {}'.format(merged_text))
+            if merged_text in multi_words:
+                ent = {"text": merged_text, "start": m1['start'], "end": m2['end'], "type": "phrase"}
+                # print('merged_text in multi words: {}'.format(ent))
+                merged_mentions.append(ent)
+                already_merged_mentions.add(str(m1))
+                already_merged_mentions.add(str(m2))
+        else:
+            merged_mentions.append(m1)
+            already_merged_mentions.add(str(m1))
+    # any remaining unused mentions
+    for m in sorted_entity_mentions:
+        if str(m) not in already_merged_mentions:
+            merged_mentions.append(m)
+    return merged_mentions
+
+
+def process_one_doc(article, articleId, single_words, multi_words):
     result = []
     phrases = []
     output_token_list = []
@@ -173,9 +206,10 @@ def process_one_doc(article, articleId):
 
                     ## TODO: check why there are duplicates in entityMentions
                     entityMentions.append(ent)
-
+        merged_entity_mentions = merge_entity_mentions(entityMentions, tokens, single_words, multi_words)
         res = {"articleId": articleId, "sentId": sentId, "tokens": tokens, "pos": pos, "lemma": lemmas, "dep": deps,
-               "entityMentions": entityMentions,
+               "raw_entityMentions": entityMentions,
+               "entityMentions": merged_entity_mentions,
                "np_chunks": [{"text": t.text, "start": t.start - sent.start, "end": t.end - sent.start - 1} for t in
                              NPs]}
         result.append(res)
@@ -184,13 +218,16 @@ def process_one_doc(article, articleId):
     return result
 
 
-def process_corpus(input_path, output_path, real_suffix):
+def process_corpus(input_path, output_path, real_suffix, single_word_vocab_path, multi_word_vocab_path):
     start = time.time()
+    single_words = pd.read_csv(single_word_vocab_path, header=None, names=['prob', 'phrase'], delimiter='\t')['phrase'].tolist()
+    multi_words = pd.read_csv(multi_word_vocab_path, header=None, names=['prob', 'phrase'], delimiter='\t')
+    multi_words = multi_words[multi_words['prob'] >= 0.45]['phrase'].tolist()
     with open(input_path, "r") as fin, open(output_path, "w") as fout:
         for cnt, line in tqdm(enumerate(fin), total=get_num_lines(input_path)):
             line = line.strip()
             # try:
-            article_result = process_one_doc(line, "{}-{}".format(real_suffix, cnt))
+            article_result = process_one_doc(line, "{}-{}".format(real_suffix, cnt), single_words, multi_words)
             for sent in article_result:
                 json.dump(sent, fout)
                 fout.write("\n")
@@ -203,8 +240,11 @@ def process_corpus(input_path, output_path, real_suffix):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(prog='main.py', description='')
     parser.add_argument('-corpusName', required=False, default='sample_dataset', help='corpusName: sample_dataset or sample_wiki or wiki')
-    parser.add_argument('-input_path', required=False, default='/Users/wanzheng/Desktop/SetExpan-MultiFacet/data/sample_dataset/intermediate/segmentation.txt', help='input_path')
-    parser.add_argument('-output_path', required=False, default='/Users/wanzheng/Desktop/SetExpan-MultiFacet/data/sample_dataset/intermediate/sentences.json.spacy', help='output_path')
+    parser.add_argument('-input_path', required=False, default='data/sample_dataset/intermediate/segmentation.txt', help='input_path')
+    parser.add_argument('-output_path', required=False, default='data/sample_dataset/intermediate/sentences.json.spacy', help='output_path')
     parser.add_argument('-real_suffix', required=False, default="aa", help='real_suffix: used to prepend for articleID')  # used to prepend for articleID
+    parser.add_argument('-single_word_vocab', required=False, default='data/sample_dataset/intermediate/AutoPhrase_single-word.txt')
+    parser.add_argument('-multi_word_vocab', required=False,
+                        default='data/sample_dataset/intermediate/AutoPhrase_multi-words.txt')
     args = parser.parse_args()
-    process_corpus(args.input_path, args.output_path, args.real_suffix)
+    process_corpus(args.input_path, args.output_path, args.real_suffix, args.single_word_vocab, args.multi_word_vocab)
