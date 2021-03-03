@@ -108,7 +108,7 @@ def merge_entity_mentions(entity_mentions, tokens, single_words, multi_words):
         if str(m1) in already_merged_mentions:
             continue
         if (m1['start'] <= m2['end']) & ((m2['start'] - 1) <= m1['end']):  # overlapping spans
-            print('overlapping span')
+            # print('overlapping span')
             merged_span = tokens[m1['start']: m2['end'] + 1]
             merged_text = ' '.join(merged_span).lower()
             # print('merged_text: {}'.format(merged_text))
