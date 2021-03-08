@@ -13,8 +13,6 @@ import torch
 from pytorch_transformers import *
 import torch.nn.functional as F
 
-os.environ["CUDA_VISIBLE_DEVICES"] = "1"
-
 logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
 
 def processOneLine(line):
