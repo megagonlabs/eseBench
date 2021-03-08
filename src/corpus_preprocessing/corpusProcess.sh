@@ -24,6 +24,8 @@ QUALITY_WIKI_ENTITIES=data/EN/wiki_quality.txt
 HIGHLIGHT_MULTI=${HIGHLIGHT_MULTI:- 0.5}
 HIGHLIGHT_SINGLE=${HIGHLIGHT_SINGLE:- 0.9}
 
+#Following are the parameters used for generting BERT embeddings
+EMBED_PATH=${EMBED_PATH:- ../../../data/$DATA/intermediate/}
 
 echo ${green}===Running AutoPhrase===${reset}
 cd ../tools/AutoPhrase
@@ -61,3 +63,7 @@ rm ../../data/$DATA/intermediate/sentences.json-*
 echo ${green}===Key Term Extraction===${reset}
 python3 keyTermExtraction.py $DATA
 rm ../../data/$DATA/intermediate/sentences.json.raw
+
+echo ${green}===Generate BERT embeddings===${reset}
+python extractSegmentation.py $EMBED_PATH
+python extractBertEmbedding.py $EMBED_PATH $THREAD
