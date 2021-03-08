@@ -47,6 +47,12 @@ mv models/$DATA/segmentation.txt ../../../data/$DATA/intermediate/segmentation.t
 mv models/$DATA/AutoPhrase_multi-words.txt ../../../data/$DATA/intermediate/AutoPhrase_multi-words.txt
 mv models/$DATA/AutoPhrase_single-word.txt ../../../data/$DATA/intermediate/AutoPhrase_single-word.txt
 mv models/$DATA/AutoPhrase.txt ../../../data/$DATA/intermediate/AutoPhrase.txt
+
+echo ${green}===Generating Phrase Text===${reset}
+### Generating Output for Phrasified Dataset ###
+echo "process_segmentation.py parameters:" $EMBED_PATH $HIGHLIGHT_MULTI $HIGHLIGHT_SINGLE
+python process_segmentation.py --multi $HIGHLIGHT_MULTI --single $HIGHLIGHT_SINGLE --output $EMBED_PATH --mode whole
+
 cd $path
 
 echo ${green}===Running NLP Feature Extraction===${reset}

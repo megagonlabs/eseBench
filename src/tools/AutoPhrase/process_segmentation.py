@@ -8,12 +8,12 @@ if __name__=="__main__":
 	parser.add_argument('--mode', default='whole', choices=['phrase', 'whole'])
 	parser.add_argument('--output',default='20news')
 	args = parser.parse_args()
-	file_name = args.output+'/phrase_dataset_'+str(args.multi)+'_'+str(args.single)+'.txt'
+	file_name = args.output+'phrase_text.txt'
 	#if args.mode == 'whole':
 	#	file_name = 'models/new_nyt/dataset_'+str(args.multi)+'_'+str(args.single)+'.txt'
 	#with open('../out.txt') as f:
 	phrases = {}
-	with open(args.output+'/AutoPhrase_multi-words.txt') as f:
+	with open(args.output+'AutoPhrase_multi-words.txt') as f:
 		for line in f:
 			if len(line.strip().split('\t'))<2:
 				print(line)

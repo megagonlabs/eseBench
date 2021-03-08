@@ -132,6 +132,5 @@ dmypy.json
 
 # data
 /data/*
-
-
+src/data/source/corpus.clean.txt/*
 src/tools/AutoPhrase/models/*
