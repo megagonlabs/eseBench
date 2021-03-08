@@ -13,7 +13,7 @@ Finally, you can run the pre-processing pipeline by typing the following command
 
 ```
 $ chmod +x ./corpusProcess_new.sh
-$ ./corpusProcess_new.sh $corpus_name $thread_number
+$ ./corpusProcess_new.sh $corpus_name $thread_number $gpu_instance
 ```
 
 ### Example usage
@@ -33,7 +33,10 @@ data/$DATA
     └── sentences.json: documents with entity phrases and noun-chunks
     └── segmentation.txt: the highlighted phrases will be enclosed by the phrase tags (e.g., <phrase>data mining</phrase>).
     └── AutoPhrase_multi-words.txt: the sub-ranked list for multi-word phrases only.
-    └── AutoPhrase_single-word.txt: the sub-ranked list for single-word phrases only.	
+    └── AutoPhrase_single-word.txt: the sub-ranked list for single-word phrases only.
+    └── sent_segmentation.txt: sentence-wise the highlighted phrases will be enclosed by the phrase tags (e.g., <phrase>data mining</phrase>).
+    └── sentences.json: documents with entity phrases and noun-chunks
+	
 ```
 
 
