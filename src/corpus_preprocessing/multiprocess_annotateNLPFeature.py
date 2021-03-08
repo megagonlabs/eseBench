@@ -11,7 +11,8 @@ def parsing(suffix):
     keyphrases_path = "../../data/{}/intermediate/AutoPhrase_multi-words.txt".format(corpus_name)
     input_path = "../../data/{}/intermediate/subcorpus-{}".format(corpus_name, real_suffix)
     output_path = "../../data/{}/intermediate/sentences.json-{}".format(corpus_name, real_suffix)
-    cmd = "python3 annotateNLPFeature.py -corpusName {} -input_path {} -output_path {} -real_suffix {} -single_word_vocab {} -multi_word_vocab {}".format(corpus_name, input_path, output_path, real_suffix, keywords_path, keyphrases_path)
+    output_seg_path = "../../data/{}/intermediate/sent_segmentation.txt-{}".format(corpus_name, real_suffix)
+    cmd = "python3 annotateNLPFeature.py -corpusName {} -input_path {} -output_path {} -output_seg_path {} -real_suffix {} -single_word_vocab {} -multi_word_vocab {}".format(corpus_name, input_path, output_path, output_seg_path, real_suffix, keywords_path, keyphrases_path)
     os.system(cmd)
 
 

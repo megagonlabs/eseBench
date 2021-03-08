@@ -127,6 +127,23 @@ def merge_entity_mentions(entity_mentions, tokens, single_words, multi_words):
             merged_mentions.append(m)
     return merged_mentions
 
+def get_phrase_segments_from_merged_mentions(tokens, entityMentions):
+    if len(entityMentions) == 0:
+        return ' '.join(tokens)
+    sortedMentions = sorted(entityMentions, key=lambda x: (x['start'], x['end']))
+    segments = []
+    prev_end = 0
+    for m in sortedMentions:
+        span = ' '.join(tokens[prev_end : m['start']])
+        segments.append(span)
+        segments.append("<phrase>{}</phrase>".format(m['text']))
+        prev_end = m['end'] + 1
+
+    if prev_end != len(tokens):
+        segments.append(' '.join(tokens[prev_end: len(tokens)]))
+
+    segments = [s.strip() for s in segments if len(s.strip()) > 0]
+    return ' '.join(segments)
 
 def process_one_doc(article, articleId, single_words, multi_words):
     result = []
@@ -218,11 +235,12 @@ def process_one_doc(article, articleId, single_words, multi_words):
     return result
 
 
-def process_corpus(input_path, output_path, real_suffix, single_word_vocab_path, multi_word_vocab_path):
+def process_corpus(input_path, output_path, output_seg_path, real_suffix, single_word_vocab_path, multi_word_vocab_path):
     start = time.time()
     single_words = pd.read_csv(single_word_vocab_path, header=None, names=['prob', 'phrase'], delimiter='\t')['phrase'].tolist()
     multi_words = pd.read_csv(multi_word_vocab_path, header=None, names=['prob', 'phrase'], delimiter='\t')
     multi_words = multi_words[multi_words['prob'] >= 0.45]['phrase'].tolist()
+    merged_segments = []
     with open(input_path, "r") as fin, open(output_path, "w") as fout:
         for cnt, line in tqdm(enumerate(fin), total=get_num_lines(input_path)):
             line = line.strip()
@@ -230,9 +248,15 @@ def process_corpus(input_path, output_path, real_suffix, single_word_vocab_path,
             article_result = process_one_doc(line, "{}-{}".format(real_suffix, cnt), single_words, multi_words)
             for sent in article_result:
                 json.dump(sent, fout)
+                merged_segment = get_phrase_segments_from_merged_mentions(sent['tokens'], sent['entityMentions'])
+                merged_segments.append(merged_segment)
                 fout.write("\n")
             # except:
             #     print("exception")
+    with open(output_seg_path, "w") as fout:
+        for s in merged_segments:
+            fout.write(s)
+            fout.write("\n")
     end = time.time()
     print("Finish NLP processing, using time %s (second)" % (end - start))
 
@@ -241,10 +265,12 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(prog='main.py', description='')
     parser.add_argument('-corpusName', required=False, default='sample_dataset', help='corpusName: sample_dataset or sample_wiki or wiki')
     parser.add_argument('-input_path', required=False, default='data/sample_dataset/intermediate/segmentation.txt', help='input_path')
+    parser.add_argument('-output_seg_path', required=False, default='data/sample_dataset/intermediate/sent_segmentation.txt',
+                        help='output_seg_path')
     parser.add_argument('-output_path', required=False, default='data/sample_dataset/intermediate/sentences.json.spacy', help='output_path')
     parser.add_argument('-real_suffix', required=False, default="aa", help='real_suffix: used to prepend for articleID')  # used to prepend for articleID
     parser.add_argument('-single_word_vocab', required=False, default='data/sample_dataset/intermediate/AutoPhrase_single-word.txt')
     parser.add_argument('-multi_word_vocab', required=False,
                         default='data/sample_dataset/intermediate/AutoPhrase_multi-words.txt')
     args = parser.parse_args()
-    process_corpus(args.input_path, args.output_path, args.real_suffix, args.single_word_vocab, args.multi_word_vocab)
+    process_corpus(args.input_path, args.output_path, args.output_seg_path, args.real_suffix, args.single_word_vocab, args.multi_word_vocab)

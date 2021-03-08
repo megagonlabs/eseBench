@@ -55,15 +55,20 @@ split --number=l/$THREAD ../../data/$DATA/intermediate/segmentation.txt ../../da
 # split -b $(expr $myfilesize / $THREAD + 1) ../../data/$DATA/intermediate/segmentation.txt ../../data/$DATA/intermediate/subcorpus-
 python3 multiprocess_annotateNLPFeature.py $DATA $THREAD
 cat ../../data/$DATA/intermediate/sentences.json-* > ../../data/$DATA/intermediate/sentences.json.raw
+cat ../../data/$DATA/intermediate/sent_segmentation.txt-* > ../../data/$DATA/intermediate/sent_segmentation.txt
+
 
 echo ${green}===Clean unnecessary files===${reset}
 rm ../../data/$DATA/intermediate/subcorpus-*
 rm ../../data/$DATA/intermediate/sentences.json-*
+rm ../../data/$DATA/intermediate/sent_segmentation.txt-*
 
 echo ${green}===Key Term Extraction===${reset}
 python3 keyTermExtraction.py $DATA
 rm ../../data/$DATA/intermediate/sentences.json.raw
 
 echo ${green}===Generate BERT embeddings===${reset}
+mv ../../../data/$DATA/intermediate/phrase_dataset_${multi}_${single}.txt ../../../data/$DATA/intermediate/phrase_text.txt
+cd ../tools/AutoPhrase
 python extractSegmentation.py $EMBED_PATH
 python extractBertEmbedding.py $EMBED_PATH $THREAD

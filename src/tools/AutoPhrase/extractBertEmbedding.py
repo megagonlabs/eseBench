@@ -61,7 +61,7 @@ def extract_entity_embed_and_save(model, output_file, output_file2):
 if __name__ == "__main__":
     corpusName = sys.argv[1]
     num_thread = int(sys.argv[2])
-    inputFilePath = corpusName+"/segmentation.txt"
+    inputFilePath = corpusName+"/sent_segmentation.txt"
     saveFilePath = corpusName+"/BERTembed.txt"
     saveFilePath2 = corpusName+"/BERTembednum.txt"
 

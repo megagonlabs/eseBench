@@ -104,7 +104,7 @@ if __name__ == "__main__":
     neg = 5
     ws = 10
 
-    inputFilePath = corpusName+"/segmentation.txt"
+    inputFilePath = corpusName+"/sent_segmentation.txt"
 
     sentences = defaultdict(list)
     ent_sent_dict = defaultdict(list)
