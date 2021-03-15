@@ -4,6 +4,7 @@ There are two implementations for concept learning, Corel-Concept_Learn and LM-C
 The Corel-Concept_Learn is forked from https://github.com/teapot123/CoRel.
 The LM-Concept_Learn is based on running HDBSCAN on transformer-based embeddings.
 
+## Corel-Concept_Learn
 To run Corel-Concept_Learn:
 ```
 cd concept_learning
