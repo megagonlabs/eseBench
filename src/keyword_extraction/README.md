@@ -12,8 +12,8 @@ Each line in corpus.txt represents a document.
 Finally, you can run the pre-processing pipeline by typing the following command:
 
 ```
-$ chmod +x ./corpusProcess_new.sh
-$ ./corpusProcess_new.sh $corpus_name $thread_number $gpu_instance
+$ chmod +x ./corpusProcess.sh
+$ ./corpusProcess.sh $corpus_name $thread_number $gpu_instance
 ```
 
 ### Example usage

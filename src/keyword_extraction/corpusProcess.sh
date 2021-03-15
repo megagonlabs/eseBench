@@ -74,8 +74,8 @@ echo ${green}===Key Term Extraction===${reset}
 python3 keyTermExtraction.py $DATA
 rm ../../data/$DATA/intermediate/sentences.json.raw
 
-echo ${green}===Generate BERT embeddings===${reset}
+echo ${green}===Sentence-wise Entity Segmentation===${reset}
 mv ../../../data/$DATA/intermediate/phrase_dataset_${multi}_${single}.txt ../../../data/$DATA/intermediate/phrase_text.txt
 cd ../tools/AutoPhrase
 python extractSegmentation.py $EMBED_PATH
-CUDA_VISIBLE_DEVICES=$GPU python extractBertEmbedding.py $EMBED_PATH $THREAD
+
