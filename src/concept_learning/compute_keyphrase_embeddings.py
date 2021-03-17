@@ -1,24 +1,22 @@
 from tqdm import tqdm
-import logging
 import argparse
 import re
 import numpy as np
-
-import numpy as np
+import random
 import os
 import torch
-
 from transformers import AutoTokenizer, AutoModel
 
 
 def parse_arguments():
     parser = argparse.ArgumentParser()
-    parser.add_argument('-d', '--corpus_name', type=str,
-                        required=True, help='Name of the corpus')
+    parser.add_argument('-d', '--dataset_path', type=str,
+                        required=True, help='Dataset path with intermediate output')
     parser.add_argument('-et', '--embedding_type', type=str, default='ac', required=True,
                         help='ac if averaged context. Otherwise pt if pooled tokenized')
     parser.add_argument('-m', '--model_path', type=str, required=True, default= 'bert-base-uncased',
                         help='model_path')
+    parser.add_argument('-c', '--max_context_ct', type=int, default=500, help='max. no. of context to consider')
     args = parser.parse_args()
     return args
 
@@ -31,23 +29,36 @@ def get_masked_contexts(input_file):
     with open(input_file, "r") as fin:
         lines = fin.readlines()
         for line in tqdm(lines, total=len(lines), desc="loading corpus"):
-            line = line.strip()
+            line = str(line.strip())
             entities = [match.group(1) for match in re.finditer(pat, line)]
             for entity in entities:
-                context = line.replace('<phrase>' + entity, '</phrase', '[MASK]')
+                context = line.replace('<phrase>' + entity + '</phrase>', '[MASK]')
                 context = context.replace('<phrase>', '')
                 context = context.replace('</phrase>', '')
-                print(entity)
-                print(context)
+
+                # sanity to not have too many repeating phrases in the context
+                mask_count = sum(1 for _ in re.finditer(r'\b%s\b' % re.escape('[MASK]'), context))
+                if mask_count > 1:
+                    continue
+
+                # ignore too short contexts
+                if len(context) < 15:
+                    continue
+
+                # print(entity)
+                # print(context)
 
                 if entity not in ent_freq:
                     ent_freq[entity] = 0
                 ent_freq[entity] += 1
 
                 context_lst = ent_context.get(entity, [])
-                context_lst.append(entity)
+                context_lst.append(context)
                 ent_context[entity] = context_lst
-    return ent_freq, ent_context
+    dedup_context = {}
+    for e, v in ent_context.items():
+        dedup_context[e] = list(set(v))
+    return ent_freq, dedup_context
 
 
 def get_contexts(input_file):
@@ -58,26 +69,34 @@ def get_contexts(input_file):
     with open(input_file, "r") as fin:
         lines = fin.readlines()
         for line in tqdm(lines, total=len(lines), desc="loading corpus"):
-            line = line.strip()
+            line = str(line.strip())
             entities = [match.group(1) for match in re.finditer(pat, line)]
             for entity in entities:
                 context = line.replace('<phrase>', '')
                 context = context.replace('</phrase>', '')
-                print(entity)
-                print(context)
+
+                # ignore too short contexts
+                if len(context) < 15:
+                    continue
+
+                # print(entity)
+                # print(context)
 
                 if entity not in ent_freq:
                     ent_freq[entity] = 0
                 ent_freq[entity] += 1
 
                 context_lst = ent_context.get(entity, [])
-                context_lst.append(entity)
+                context_lst.append(context)
                 ent_context[entity] = context_lst
-    return ent_freq, ent_context
+    dedup_context = {}
+    for e, v in ent_context.items():
+        dedup_context[e] = list(set(v))
+    return ent_freq, dedup_context
 
 
-def ensure_tensor_on_device(self, **inputs):
-    return {name: tensor.to(self.device) for name, tensor in inputs.items()}
+def ensure_tensor_on_device(device, **inputs):
+    return {name: tensor.to(device) for name, tensor in inputs.items()}
 
 
 def mean_pooling(model_output, attention_mask):
@@ -121,7 +140,7 @@ def get_entity_span(context_ids, entity_ids):
     return []
 
 
-def get_avg_context_embeddings(model_path, input_file):
+def get_avg_context_embeddings(model_path, input_file, max_context_ct):
     '''
     mean pooling from sentence-transformers
     :param model_path:
@@ -138,13 +157,16 @@ def get_avg_context_embeddings(model_path, input_file):
     ent_freq, ent_context = get_masked_contexts(input_file)
     entity_embeddings = {}
     for entity, en_context_lst in tqdm(ent_context.items(), total=len(ent_context), desc="computing entity-wise embedding"):
+        en_context_lst = random.sample(en_context_lst, min(len(en_context_lst), max_context_ct))
         chunks = [en_context_lst[i:i + 100] for i in range(0, len(en_context_lst), 100)]
+        # print(entity)
+        # print(len(en_context_lst))
         all_context_embeddings = []
         for chunk in chunks:
-            encoded_input = tokenizer.batch_encode_plus(chunk, add_special_tokens=True, max_length=512, return_tensors='pt', padding=True, truncation=True)
+            encoded_input = tokenizer.batch_encode_plus(chunk, return_token_type_ids=True, add_special_tokens=True, max_length=128, return_tensors='pt', padding=True, pad_to_max_length=True, truncation=True)
             mask = encoded_input['input_ids'] != mask_token_id
             with torch.no_grad():
-                encoded_input = ensure_tensor_on_device(**encoded_input)
+                encoded_input = ensure_tensor_on_device(device, **encoded_input)
                 model_output = model(**encoded_input)  # Compute token embeddings
             context_embeddings = mean_pooling(model_output, mask)  # mean pooling
             all_context_embeddings.append(context_embeddings)
@@ -153,7 +175,7 @@ def get_avg_context_embeddings(model_path, input_file):
     return entity_embeddings, ent_freq
 
 
-def get_pooled_token_embeddings(model_path, input_file):
+def get_pooled_token_embeddings(model_path, input_file, max_context_ct):
     tokenizer = AutoTokenizer.from_pretrained(model_path)
     model = AutoModel.from_pretrained(model_path)
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -164,7 +186,8 @@ def get_pooled_token_embeddings(model_path, input_file):
     entity_embeddings = {}
     for entity, en_context_lst in tqdm(ent_context.items(), total=len(ent_context), desc="computing entity-wise embedding"):
         entity_ids = tokenizer.encode(entity)
-        chunks = [en_context_lst[i:i + 100] for i in range(0, len(en_context_lst), 100)]
+        en_context_lst = random.sample(en_context_lst, min(len(en_context_lst), max_context_ct))
+        chunks = [en_context_lst[i:i + 200] for i in range(0, len(en_context_lst), 200)]
         all_context_embeddings = []
         for chunk in chunks:
             encoded_input = tokenizer.batch_encode_plus(chunk, add_special_tokens=True, max_length=512, return_tensors='pt', padding=True, truncation=True)
@@ -189,14 +212,14 @@ def get_pooled_token_embeddings(model_path, input_file):
 
 def main():
     args = parse_arguments()
-    args.input_file = os.path.join(args.corpus_name, 'sent_segmentation.txt')
-    args.embed_dest = os.path.join(args.corpus_name, 'BERTembed.txt')
-    args.embed_num = os.path.join(args.corpus_name, 'BERTembednum.txt')
+    args.input_file = os.path.join(args.dataset_path, 'sent_segmentation.txt')
+    args.embed_dest = os.path.join(args.dataset_path, 'BERTembed.txt')
+    args.embed_num = os.path.join(args.dataset_path, 'BERTembednum.txt')
 
     if args.embedding_type == 'ac':
-        entity_embeddings, ent_freq = get_avg_context_embeddings(args.model_path, args.input_file)
+        entity_embeddings, ent_freq = get_avg_context_embeddings(args.model_path, args.input_file, args.max_context_ct)
     elif args.embedding_type == 'pt':
-        entity_embeddings, ent_freq = get_pooled_token_embeddings(args.model_path, args.input_file)
+        entity_embeddings, ent_freq = get_pooled_token_embeddings(args.model_path, args.input_file, args.max_context_ct)
 
     print("Saving embedding")
     with open(args.embed_dest, 'w') as f, open(args.embed_num, 'w') as f2:
