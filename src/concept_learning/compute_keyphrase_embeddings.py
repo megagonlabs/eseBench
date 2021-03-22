@@ -5,7 +5,7 @@ import numpy as np
 import random
 import os
 import torch
-from transformers import AutoTokenizer, AutoModel
+from transformers import AutoTokenizer, AutoModel, AutoConfig
 
 
 def parse_arguments():
@@ -35,10 +35,8 @@ def get_masked_contexts(input_file):
                 context = line.replace('<phrase>' + entity + '</phrase>', '[MASK]')
                 context = context.replace('<phrase>', '')
                 context = context.replace('</phrase>', '')
-
-                # sanity to not have too many repeating phrases in the context
-                mask_count = sum(1 for _ in re.finditer(r'\b%s\b' % re.escape('[MASK]'), context))
-                if mask_count > 1:
+                c = context.split('[MASK]')
+                if len(c) != 2:  # sanity to not have too many repeating phrases in the context
                     continue
 
                 # ignore too short contexts
@@ -58,6 +56,8 @@ def get_masked_contexts(input_file):
     dedup_context = {}
     for e, v in ent_context.items():
         dedup_context[e] = list(set(v))
+        # print(e)
+        # print(len(list(set(v))))
     return ent_freq, dedup_context
 
 
@@ -110,25 +110,28 @@ def mean_pooling(model_output, attention_mask):
 
 def get_vector(hidden_layers, token_index=0, mode='concat', top_n_layers=4):
     if mode == 'concat':
-        # concatenate last 4 layer outputs -> returns [batch_size x seq_len x dim]
-        # permute(1,0,2) swaps the the batch and seq_len dim , making it easy to return all the vectors for a particular token position
-        return torch.cat(hidden_layers[-top_n_layers:], dim=2).permute(1, 0, 2)[token_index]
+        out = torch.cat(tuple(hidden_layers[-top_n_layers:]), dim=-1)
+        if len(out[token_index]) != 3072:
+            print('shouldn"t happen')
+        # print('output', out.size())
+        # print(out[token_index].size())
+        return out[token_index]
 
     if mode == 'average':
-        # avg last 4 layer outputs -> returns [batch_size x seq_len x dim]
-        return torch.stack(hidden_layers[-top_n_layers:]).mean(0).permute(1, 0, 2)[token_index]
+        # avg last 4 layer outputs
+        return torch.stack(hidden_layers[-top_n_layers:]).mean(0)[token_index]
 
     if mode == 'sum':
-        # sum last 4 layer outputs -> returns [batch_size x seq_len x dim]
-        return torch.stack(hidden_layers[-top_n_layers:]).sum(0).permute(1, 0, 2)[token_index]
+        # sum last 4 layer outputs
+        return torch.stack(hidden_layers[-top_n_layers:]).sum(0)[token_index]
 
     if mode == 'last':
         # last layer output -> returns [batch_size x seq_len x dim]
-        return hidden_layers[-1:][0].permute(1, 0, 2)[token_index]
+        return hidden_layers[-1:][0][token_index]
 
     if mode == 'second_last':
         # last layer output -> returns [batch_size x seq_len x dim]
-        return hidden_layers[-2:-1][0].permute(1, 0, 2)[token_index]
+        return hidden_layers[-2:-1][0][token_index]
     return None
 
 
@@ -176,37 +179,57 @@ def get_avg_context_embeddings(model_path, input_file, max_context_ct):
 
 
 def get_pooled_token_embeddings(model_path, input_file, max_context_ct):
+    config = AutoConfig.from_pretrained(model_path, output_hidden_states=True)
     tokenizer = AutoTokenizer.from_pretrained(model_path)
-    model = AutoModel.from_pretrained(model_path)
+    model = AutoModel.from_pretrained(model_path, config=config)
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model.to(device)
     model.eval()
+    mask_token_id = tokenizer.mask_token_id
 
     ent_freq, ent_context = get_masked_contexts(input_file)
     entity_embeddings = {}
     for entity, en_context_lst in tqdm(ent_context.items(), total=len(ent_context), desc="computing entity-wise embedding"):
-        entity_ids = tokenizer.encode(entity)
         en_context_lst = random.sample(en_context_lst, min(len(en_context_lst), max_context_ct))
         chunks = [en_context_lst[i:i + 200] for i in range(0, len(en_context_lst), 200)]
         all_context_embeddings = []
         for chunk in chunks:
-            encoded_input = tokenizer.batch_encode_plus(chunk, add_special_tokens=True, max_length=512, return_tensors='pt', padding=True, truncation=True)
+            encoded_input = tokenizer.batch_encode_plus(chunk, return_token_type_ids=True, add_special_tokens=True, max_length=128, return_tensors='pt', padding=True, pad_to_max_length=True, truncation=True)
             with torch.no_grad():
-                model_output = model(**encoded_input)  # Holds the list of 12 layer embeddings for each token
+                encoded_input_tensor = ensure_tensor_on_device(device, **encoded_input)
+                model_output = model(**encoded_input_tensor)  # Holds the list of 12 layer embeddings for each token
                 hidden_states = model_output[2]  # [batch_size x seq_length x vector_dim]
-
+                all_hidden_embeddings = torch.stack(hidden_states, dim=0) # tuple of 13 layers to tensor [layer x batch_size x seq_length x vector_dim]
+                # print(all_hidden_embeddings.size())
+                all_hidden_embeddings = all_hidden_embeddings.permute(1, 0, 2, 3) # switch layer and batch [batch_size x layer x seq_length x vector_dim]
+                # print(all_hidden_embeddings.size())
                 for i, context in enumerate(chunk):
-                    input_ids = encoded_input[i]['input_ids']
-                    entity_start_token_index, entity_end_token_index = get_entity_span(input_ids, entity_ids)
-
-                    entity_vecs = []
-                    for index in range(entity_start_token_index, entity_end_token_index):
-                        vec = get_vector(hidden_states[i], index, mode='concat', top_n_layers=4)
-                        entity_vecs.append(vec)
-                    context_embedding = torch.mean(entity_vecs, dim=0).cpu().detach().numpy().tolist()
-                    all_context_embeddings.append(context_embedding)
-        entity_embedding = torch.mean(torch.cat(all_context_embeddings, dim=0), dim=0).cpu().detach().numpy().tolist()
-        entity_embeddings[entity] = entity_embedding
+                    try:
+                        ith_input_ids = encoded_input['input_ids'][i].cpu().detach().numpy().tolist()
+                        if mask_token_id in ith_input_ids:
+                            mask_id = ith_input_ids.index(mask_token_id)
+                            # print('mask id {}'.format(mask_id))
+                            ith_hidden_states = all_hidden_embeddings[i]
+                            # print('hidden states size {}'.format(ith_hidden_states.size()))
+                            context_embedding = get_vector(ith_hidden_states, mask_id, mode='concat',
+                                                           top_n_layers=4)
+                            if len(context_embedding) == 3072:  # 768 * 4
+                                all_context_embeddings.append(context_embedding)
+                            else:
+                                print(len(context_embedding))
+                        else:
+                            # print('####NOT FOUND#####')
+                    except IndexError:
+                        pass
+                    except KeyError:
+                        pass
+                    except ValueError:
+                        pass
+                    # context_embedding = torch.mean(entity_vecs, dim=0).cpu().detach().numpy().tolist()
+                    # all_context_embeddings.append(context_embedding)
+        if len(all_context_embeddings) > 0:
+            entity_embedding = torch.mean(torch.stack(all_context_embeddings), dim=0).cpu().detach().numpy().tolist()
+            entity_embeddings[entity] = entity_embedding
     return entity_embeddings, ent_freq
 
 
@@ -223,7 +246,7 @@ def main():
 
     print("Saving embedding")
     with open(args.embed_dest, 'w') as f, open(args.embed_num, 'w') as f2:
-        for eid in entity_embeddings:
+        for eid in entity_embeddings.keys():
             f.write("{} {}\n".format(eid, ' '.join([str(x) for x in entity_embeddings[eid]])))
             f2.write("{} {}\n".format(eid, ent_freq[eid]))
 

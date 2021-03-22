@@ -105,7 +105,7 @@ if __name__ == "__main__":
                 #     ent_record = []
                 #     continue
                 # print(input_ids.shape)
-                vec = model(input_ids)[0]
+                vec = model(input_ids)[0] #First element of model_output contains the last hidden-state of all the tokens
                 # print(vec.shape)
                 for i,e in enumerate(ent_record):
                     try:

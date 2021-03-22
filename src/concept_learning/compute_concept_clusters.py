@@ -72,7 +72,7 @@ def agg(embed_src, embedding_dim, cluster_size, thread_ct, cluster_dest, **kwarg
 
 def knn(embed_src, embedding_dim, cluster_size, thread_ct, cluster_dest, **kwargs):
     entity_embeddings = load_embeddings(embed_src, embedding_dim)
-    t = AnnoyIndex(768, 'angular')
+    t = AnnoyIndex(embedding_dim, 'angular')
     entities = entity_embeddings['entity'].tolist()
     for i, row in tqdm(entity_embeddings.iterrows(), total=entity_embeddings.shape[0], desc="building entity index"):
         t.add_item(i, row['embedding'])
