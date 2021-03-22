@@ -75,7 +75,6 @@ python3 keyTermExtraction.py $DATA
 rm ../../data/$DATA/intermediate/sentences.json.raw
 
 echo ${green}===Sentence-wise Entity Segmentation===${reset}
-mv ../../../data/$DATA/intermediate/phrase_dataset_${multi}_${single}.txt ../../../data/$DATA/intermediate/phrase_text.txt
 cd ../tools/AutoPhrase
 python extractSegmentation.py $EMBED_PATH
 
