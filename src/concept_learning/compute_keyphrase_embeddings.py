@@ -218,7 +218,7 @@ def get_pooled_token_embeddings(model_path, input_file, max_context_ct):
                             else:
                                 print(len(context_embedding))
                         else:
-                            # print('####NOT FOUND#####')
+                            print('####NOT FOUND#####')
                     except IndexError:
                         pass
                     except KeyError:
