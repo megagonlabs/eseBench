@@ -31,6 +31,8 @@ def get_masked_contexts(input_file):
         for line in tqdm(lines, total=len(lines), desc="loading corpus"):
             line = str(line.strip())
             entities = [match.group(1) for match in re.finditer(pat, line)]
+            if len(entities) < 2:
+                continue
             for entity in entities:
                 context = line.replace('<phrase>' + entity + '</phrase>', '[MASK]')
                 context = context.replace('<phrase>', '')
