@@ -87,4 +87,11 @@ python compute_concept_clusters.py -d <path_to_intermediate_files> -ca agg -s <c
 ```
 where ```<clus_size>``` is the number of clusters to find, ```<dim>``` is the embedding dim, ```<output_filename>``` is the path to the file for writing the clusters.
 
+## Test Concept Learning Methods
+
+``lm_concept_learn.sh`` autmates the excution of the clustering/concept learning algorithms. It takes six parameters: ``clustering algorithm, dataset path, embedding type, no. of clusters, dimension of embeddings, and min. length of keyphrase used``. You don't need to run this script. There are two other scripts to vary and run the test parameters for different clustering algorithms.
+* ``test_lm_kmeans.sh`` varies the datasets, embedding types, and cluster size parameters and runs a trial
+* ``test_lm_knn.sh`` varies the datasets, embedding types, and cluster size parameters and runs a trial
+
+
   
