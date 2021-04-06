@@ -2,11 +2,11 @@
 chmod +x lm_concept_learn.sh
 algo=knn
 
-for data in yelp indeeda 
+for data in tripadvisor 
 do
-    for embed in meg-ac meg-pt corel
+    for embed in meg-ac meg-pt
     do
-        for size in 50 100 300 500 800 1000 
+        for size in 20 50 100
         do
             if [ "$embed" = "meg-pt" ]; then
                 ./lm_concept_learn.sh $algo $data $embed $size 3072 1
