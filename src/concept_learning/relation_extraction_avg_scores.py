@@ -3,6 +3,7 @@ import logging
 import argparse
 from sklearn.cluster import KMeans, AgglomerativeClustering
 from scipy.spatial.distance import cosine
+from scipy.stats import gmean
 import numpy as np
 import pandas as pd
 import os
@@ -26,6 +27,8 @@ def parse_arguments():
                         required=True, help='Benchmark directory path')
     parser.add_argument('-cknn', '--concept_knn_path', type=str,
                         required=True, help='Path to concept knn file')
+    parser.add_argument('-r', '--relation', type=str, required=True,
+                        help='The relation to extract for')
     parser.add_argument('-o', '--dest', type=str, required=True,
                         help='Path to output file')
     parser.add_argument('-dim', '--embedding_dim', type=int, default=768,
@@ -125,7 +128,7 @@ class LMProbe(object):
             c_token_ids = self.tokenizer.convert_tokens_to_ids(c)
             for i, token_id in zip(mask_indices, c_token_ids):
                 _scores.append(probs[i, token_id].item())
-            score = np.prod(_scores)
+            score = gmean(_scores)
             cand_scores.append({"cand": c, "score": score})
 
         cand_scores.sort(key=lambda d : d["score"], reverse=True)
@@ -133,11 +136,12 @@ class LMProbe(object):
     
 
 
-def direct_probing_RE_v3(seed_aligned_concepts_path,
-                         seed_aligned_relations_path,
+def direct_probing_RE_v3(seed_concepts_path,
+                         seed_relations_path,
                          emb_path,
                          concept_knn_path,
                          templates_path,
+                         relation,
                          lm_probe=None,
                          embedding_dim=768,
                          scores_agg_func=None,
@@ -149,9 +153,9 @@ def direct_probing_RE_v3(seed_aligned_concepts_path,
     Current (default) overall score: 0.1 * ht_sim + 10 * concept_sim + 0.1 * log(lm_prob)
     '''
     
-    seed_concepts_df = load_seed_aligned_concepts(seed_aligned_concepts_path)
-#     seed_relations_df = pd.read_csv(seed_relations_path)
-#     seed_relations_df = seed_relations_df.iloc[1]
+    seed_concepts_df = load_seed_aligned_concepts(seed_concepts_path)
+    seed_relations_df = pd.read_csv(seed_relations_path)
+    relation_row = seed_relations_df[seed_relations_df['alignedRelationName'] == relation].iloc[0]
     entity_embeddings = load_embeddings(emb_path, embedding_dim)
     entity_emb_dict = dict(zip(entity_embeddings['entity'].tolist(),
                                entity_embeddings['embedding'].tolist()))
@@ -159,7 +163,7 @@ def direct_probing_RE_v3(seed_aligned_concepts_path,
     
     with open(templates_path, 'r') as f:
         all_templates = json.load(f)
-    templates = all_templates['has_dress_code']
+    templates = all_templates[relation]
     templates = templates['positive'] + templates['negative']
 
     if lm_probe is None:
@@ -167,11 +171,10 @@ def direct_probing_RE_v3(seed_aligned_concepts_path,
     if scores_agg_func is None:
         scores_agg_func = lambda ht_sim, concept_sim, lm_prob : 0.1 * ht_sim + 10 * concept_sim + 0.1 * np.log10(lm_prob)
     
-#     head_type = seed_relations_df['domain']
-#     tail_type = seed_relations_df['range']
-    ## TODO: expand to all relations 
-    head_type = "company"
-    tail_type = "dress_code"
+    head_type = relation_row['domain']
+    tail_type = relation_row['range']
+#     head_type = "company"
+#     tail_type = "dress_code"
     print(head_type, '\t', tail_type)
     seed_heads = seed_concepts_df[seed_concepts_df['alignedCategoryName'] == head_type]['seedInstances'].item()
 #     seed_heads = eval(list(seed_heads)[0])
@@ -245,7 +248,8 @@ def direct_probing_RE_v3(seed_aligned_concepts_path,
             concept_sim_score = cand_tails_dict[e_tail]
             overall_score = scores_agg_func(ht_sim_score, concept_sim_score, lm_score)
 
-            extraction_results.append({'head': seed_head, 'tail': e_tail, 'base': 'HEAD',
+            extraction_results.append({'head': seed_head, 'relation': relation, 'tail': e_tail,
+                                       'base': 'HEAD',
                                        'ht_sim_score': ht_sim_score,
                                        'concept_sim_score': concept_sim_score,
                                        'lm_score': lm_score,
@@ -302,7 +306,8 @@ def direct_probing_RE_v3(seed_aligned_concepts_path,
             concept_sim_score = cand_heads_dict[e_head]
             overall_score = scores_agg_func(ht_sim_score, concept_sim_score, lm_score)
         
-            extraction_results.append({'head': e_head, 'tail': seed_tail, 'base': 'TAIL',
+            extraction_results.append({'head': e_head, 'relation': relation, 'tail': seed_tail,
+                                       'base': 'TAIL',
                                        'ht_sim_score': ht_sim_score,
                                        'concept_sim_score': concept_sim_score,
                                        'lm_score': lm_score,
@@ -320,37 +325,14 @@ def direct_probing_RE_v3(seed_aligned_concepts_path,
     
 def main():
     args = parse_arguments()
-    args.seed_aligned_concepts_path = os.path.join(args.benchmark_path, 'seed_aligned_concepts.csv')
-    args.seed_aligned_relations_path = os.path.join(args.benchmark_path, 'seed_aligned_relations.csv')
+    args.seed_concepts_path = os.path.join(args.benchmark_path, 'seed_aligned_concepts.csv')
+    args.seed_relations_path = os.path.join(args.benchmark_path, 'seed_aligned_relations_nodup.csv')
     args.emb_path = os.path.join(args.dataset_path, 'BERTembed+seeds.txt')
     args.templates_path = 'templates_manual.json'
     
 #     args.dest = os.path.join(args.dataset_path, 'rel_extraction.csv')
 
     direct_probing_RE_v3(**vars(args))
-    
-    
-    '''
-    seed_concepts_path = os.path.join(base_dir, f'data/indeed-benchmark/seed_concepts.csv')
-    seed_relations_path = os.path.join(base_dir, f'data/indeed-benchmark/seed_relations.csv')
-    seed_aligned_concepts_path = os.path.join(base_dir, f'data/indeed-benchmark/seed_aligned_concepts.csv')
-    seed_aligned_relations_path = os.path.join(base_dir, f'data/indeed-benchmark/seed_aligned_relations.csv')
-    # knn_path = os.path.join(base_dir, f'data/{data_ac}/intermediate/knn_{cluster_size}.csv')
-    concept_knn_path = os.path.join(base_dir, f'data/{data_ac}/intermediate/concept_knn_1000.csv')
-    bert_emb_path = os.path.join(base_dir, f'data/{data_ac}/intermediate/BERTembed+seeds.txt')
-
-    extraction_save_path = os.path.join(base_dir, f'data/{data_ac}/intermediate/rel_extraction.csv')
-    # extraction_save_path = None
-
-    extraction_results = direct_probing_RE_v3(seed_aligned_concepts_path=seed_aligned_concepts_path,
-                                              seed_aligned_relations_path=seed_aligned_relations_path,
-                                              emb_path=bert_emb_path,
-                                              concept_knn_path=concept_knn_path,
-                                              templates=has_dress_code_templates,
-                                              lm_probe=lm_probe,
-                                              topk=300,
-                                              save_path=extraction_save_path)
-    '''
     
     
 if __name__ == "__main__":
