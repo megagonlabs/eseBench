@@ -11,7 +11,7 @@ import json
 from collections import defaultdict
 from annoy import AnnoyIndex
 
-from compute_concept_clusters import load_embeddings
+from utils import load_embeddings, load_seed_aligned_concepts, load_seed_aligned_relations
 
 from roberta_ses.interface import Roberta_SES_Entailment
 
@@ -43,16 +43,16 @@ def parse_arguments():
     args = parser.parse_args()
     return args
 
-def load_seed_aligned_concepts(path):
-    df = pd.read_csv(path)
-    df = df[df["generalizations"] != "x"]
-    df["seedInstances"] = df["seedInstances"].map(lambda s : eval(str(s)))
-    return df
+# def load_seed_aligned_concepts(path):
+#     df = pd.read_csv(path)
+#     df = df[df["generalizations"] != "x"]
+#     df["seedInstances"] = df["seedInstances"].map(lambda s : eval(str(s)))
+#     return df
 
-def load_seed_aligned_relations(path):
-    df = pd.read_csv(path)
-    df = df[df["range"] != "x"]
-    return df
+# def load_seed_aligned_relations(path):
+#     df = pd.read_csv(path)
+#     df = df[df["range"] != "x"]
+#     return df
 
 def find_evidences_RE(input_re_path,
                       corpus_path,

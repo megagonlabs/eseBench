@@ -88,7 +88,7 @@ def load_benchmark(benchmark_full_path,
 
             for inst in head_instances:
                 if len(inst) > 0:
-                    all_concepts[_h_type].add(inst)
+                    all_concepts[_h_type].add(inst.lower())
                     all_concepts[_t_type].add(row_n_tail)
                     all_rel_tuples[_r].add(
                         (inst.lower(), _r, row_n_tail)
@@ -246,15 +246,7 @@ class LMProbe_GPT2(object):
 
     
 def main():
-    args = parse_arguments()
-    args.seed_concepts_path = os.path.join(args.benchmark_path, 'seed_aligned_concepts.csv')
-    args.seed_relations_path = os.path.join(args.benchmark_path, 'seed_aligned_relations_nodup.csv')
-    args.emb_path = os.path.join(args.dataset_path, 'BERTembed+seeds.txt')
-    args.templates_path = 'templates_manual.json'
-    
-#     args.dest = os.path.join(args.dataset_path, 'rel_extraction.csv')
-
-    direct_probing_RE_v3(**vars(args))
+    pass
     
     
 if __name__ == "__main__":
