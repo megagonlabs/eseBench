@@ -241,7 +241,7 @@ def direct_probing_RE_v4(seed_concepts_path,
     '''
     For each head / tail, rank candidate tails / heads by overall scores. 
     (v4: Not limited to base -> new; can be new -> new; however, only head->tail, no tail->head)
-    Current (default) overall score: 0.1 * ht_sim + 10 * concept_sim + 0.1 * log(lm_prob)
+    Current (default) overall score: ht_sim + h_sim + t_sim + log(lm_prob)
     '''
     
     seed_concepts_df = load_seed_aligned_concepts(seed_concepts_path)
