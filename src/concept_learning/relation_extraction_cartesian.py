@@ -15,7 +15,7 @@ from annoy import AnnoyIndex
 from transformers import AutoTokenizer, AutoModel, AutoConfig
 from transformers import BertTokenizer, BertModel, BertForMaskedLM
 
-from utils import load_seed_aligned_concepts, load_seed_aligned_relations, load_embeddings, LMProbe
+from utils import load_seed_aligned_concepts, load_seed_aligned_relations, load_embeddings
 
 from roberta_ses.interface import Roberta_SES_Entailment
 

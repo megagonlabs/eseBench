@@ -30,13 +30,15 @@ def parse_arguments():
                         required=True, help='Path to EE prediction file')
     parser.add_argument('-lm', '--lm_probe_type', type=str,
                         required=True, help='The type of lm_probe to use')
+    parser.add_argument('-ex', '--template_extra_type', type=str, default=None,
+                        required=False, help='The type of extra tokens to add into templates')
     parser.add_argument('-r', '--relation', type=str, required=True,
                         help='The relation to extract for')
     parser.add_argument('-o', '--dest', type=str, required=True,
                         help='Path to output file')
     parser.add_argument('-dim', '--embedding_dim', type=int, default=768,
                         help='embedding_dim')
-    parser.add_argument('-topk', '--topk', type=int, default=300,
+    parser.add_argument('-topk', '--topk', type=int, default=3000,
                         help='The number of entities to keep for each base head/tail')
 
     args = parser.parse_args()
@@ -50,6 +52,7 @@ def RE_LMProbe(seed_concepts_path,
                templates_path,
                relation,
                lm_probe_type,
+               template_extra_type=None,
                embedding_dim=768,
                scores_agg_func=None,
                tmpl_agg_func=None,
@@ -88,7 +91,7 @@ def RE_LMProbe(seed_concepts_path,
         lm_probe = LMProbe_PMI_greedy()
     else:
         raise NotImplementedError(f"lm_probe_type = {lm_probe_type}")
-        
+
     if scores_agg_func is None:
         scores_agg_func = lambda h_sim, t_sim, lm_score : h_sim + t_sim + lm_score
     if tmpl_agg_func is None:
@@ -105,6 +108,17 @@ def RE_LMProbe(seed_concepts_path,
 #     seed_tails = eval(list(seed_tails)[0])
     print('seed_heads:', seed_heads)
     print('seed_tails:', seed_tails)
+    
+    
+    if template_extra_type is None:
+        probe_prompts = templates
+    elif template_extra_type == 'seeds':
+        _seeds = seed_tails[:2]
+        probe_prompts = []
+        for _tmpl in templates:
+            probe_prompts.append(_tmpl.format('{0}', f'{_seeds[0]}, {{1}} and {_seeds[1]}'))
+            probe_prompts.append(_tmpl.format('{0}', f'{_seeds[0]}, {{1}} or {_seeds[1]}'))
+    
 
     # Candidate heads / tails from concept knn 
     cand_heads_df = EE_results[EE_results['concept'] == head_type]
@@ -134,7 +148,7 @@ def RE_LMProbe(seed_concepts_path,
         if lm_probe_type in ['bert', 'gpt2', 'joint']:
             # Score: log_prob
             cand_scores_per_template = []
-            for template in templates:
+            for template in probe_prompts:
                 # template: {0} = head, {1} = tail
                 _input_txt = template.format(c_head, '[MASK]')
                 _cand_scores = lm_probe.score_candidates(_input_txt, cand_tails)

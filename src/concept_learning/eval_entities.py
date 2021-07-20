@@ -18,6 +18,9 @@ def parse_arguments():
                         required=True, help='File with predicted relations')
     parser.add_argument('-b', '--benchmark_path', type=str,
                         required=True, help='Benchmark directory path')
+    parser.add_argument('-rank', '--ranking_by', type=str, default=None,
+                        required=False, help='Ranking candidates by which column')
+    parser.add_argument('-rev', '--ranking_reverse', action='store_true', help='If set, ranking from high to low')
     args = parser.parse_args()
     return args
 
@@ -26,6 +29,8 @@ def evaluate_EE(predictions_path,
                 seed_concepts_path,
                 seed_relations_path,
                 benchmark_full_path,
+                ranking_by,
+                ranking_reverse,
                 **kwargs):
     '''Format of prediction file: CSV, with column "concept" and "neighbor"(entity) '''
     preds_df = pd.read_csv(predictions_path)
@@ -40,7 +45,12 @@ def evaluate_EE(predictions_path,
         seed_instances = d["seedInstances"]
 
 #         concept_knn_instances = concept_knn[concept_knn["concept"] == a_concept]["neighbor"].to_list()
-        pred_instances = preds_df[preds_df["concept"] == a_concept]["neighbor"].to_list()
+#         pred_instances = preds_df[preds_df["concept"] == a_concept]["neighbor"].to_list()
+        pred_rows = preds_df[preds_df["concept"] == a_concept].to_dict('records')
+        if ranking_by is not None:
+            assert ranking_by in preds_df.columns, f'{ranking_by} not in {preds_df.columns}'
+            pred_rows.sort(key=lambda r: r[ranking_by], reverse=ranking_reverse)
+        pred_instances = [r['neighbor'] for r in pred_rows]
 
 #         _b_head_instances = benchmark[benchmark["n_head_category"] == a_concept]["n_head"].to_list()
 #         _b_tail_instances = benchmark[benchmark["n_tail_category"] == a_concept]["n_tail"].to_list()

@@ -10,6 +10,10 @@ import os
 import torch
 import math
 import json
+import spacy
+from spacy.matcher import Matcher
+import networkx as nx
+import itertools
 from collections import defaultdict
 from annoy import AnnoyIndex
 from transformers import AutoTokenizer, AutoModel, AutoConfig
@@ -132,6 +136,88 @@ def get_masked_contexts(corpus_path, embed_num_path):
 
 def bert_untokenize(pieces):
     return ' '.join(pieces).replace(' ##', '')
+
+
+def learn_patterns(all_mentions, src, tgt, nlp=None):
+    if nlp is None:
+        nlp = spacy.load('en_core_web_sm')
+    
+    src_matcher = Matcher(nlp.vocab)
+    src_pattern = [{"LOWER": t} for t in src.split(' ')]
+    src_matcher.add("src", [src_pattern])
+
+    tgt_matcher = Matcher(nlp.vocab)
+    tgt_pattern = [{"LOWER": t} for t in tgt.split(' ')]
+    tgt_matcher.add("tgt", [tgt_pattern])
+    
+    patterns = {}
+    for mention in all_mentions:
+        doc = nlp(mention)
+        src_matches = src_matcher(doc)
+        if len(src_matches) == 0:
+            # print('src not matched')
+            continue
+        tgt_matches = tgt_matcher(doc)
+        if len(tgt_matches) == 0:
+            # print('tgt not matched')
+            continue
+        src_match = src_matches[0]
+        tgt_match = tgt_matches[0]
+        src_span = doc[src_match[1]: src_match[2]]
+        tgt_span = doc[tgt_match[1]: tgt_match[2]]
+        
+        if len(spacy.util.filter_spans([src_span, tgt_span])) != 2: # distinct_spans
+            print('overlapping spans')
+            continue
+        
+        src_root = src_span.root
+        tgt_root = tgt_span.root
+        
+        #  print(mention)
+        edges = []
+        for token in doc:
+            for child in token.children:
+                edges.append(('{}-{}'.format(token.lower_,token.i), '{}-{}'.format(child.lower_,child.i))) 
+        
+        graph = nx.Graph(edges) 
+        path = None
+        source = '{}-{}'.format(src_root.lower_, src_root.i)
+        target = '{}-{}'.format(tgt_root.lower_, tgt_root.i)
+        
+        try:
+            assert nx.has_path(graph, source=source, target=target)
+        except:
+            continue
+            
+        path = nx.shortest_path(graph, source=source, target=target)
+            
+        #  print(path)
+        if path is not None:
+            for t in src_span:
+                n = '{}-{}'.format(t.lower_, t.i)  
+                if n not in path:
+                    path.append(n)
+            for t in tgt_span:
+                n = '{}-{}'.format(t.lower_, t.i)
+                if n not in path:
+                    path.append(n)
+            path_nodes = {}
+            for p in path:
+                t, i = p.rsplit('-', 1)
+                i = int(i)
+                if i in range(src_match[1], src_match[2]):
+                    t = '<src>'
+                elif i in range(tgt_match[1], tgt_match[2]):
+                    t = '<tgt>'
+                path_nodes[i] = t
+            path_nodes = sorted(path_nodes.items(), key=lambda x: x[0])
+            pattern = ' '.join([p[1] for p in path_nodes])
+#             patterns[pattern] = patterns.get(pattern, 0) + 1
+            patterns[pattern] = patterns.get(pattern, []) + [mention]
+    patterns = {k:v for k,v in patterns.items() if len(v) > 1}
+    patterns = sorted(patterns.items(), key=lambda x: len(x[1]), reverse=True)
+    return patterns
+
 
 
 def main():
