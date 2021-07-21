@@ -35,6 +35,9 @@ def parse_arguments():
 #                         help='embedding_dim')
     parser.add_argument('-topk', '--topk', type=int, default=None,
                         help='The number of entities to keep for each base head/tail')
+    parser.add_argument('-rank', '--ranking_by', type=str, default=None,
+                        required=False, help='Ranking candidates by which column')
+    parser.add_argument('-rev', '--ranking_reverse', action='store_true', help='If set, ranking from high to low')
 
     args = parser.parse_args()
     return args
@@ -44,6 +47,8 @@ def full_Cartesian_RE(seed_concepts_path,
                       seed_relations_path,
                       concept_knn_path,
                       relation,
+                      ranking_by,
+                      ranking_reverse,
                       topk=None,
                       dest=None,
                       **kwargs):
@@ -66,26 +71,42 @@ def full_Cartesian_RE(seed_concepts_path,
     # Candidate heads / tails from concept knn 
     cand_heads_df = concept_knn_results[concept_knn_results['concept'] == head_type]
     cand_tails_df = concept_knn_results[concept_knn_results['concept'] == tail_type]
-    cand_heads = [(_h, 1.0) for _h in seed_heads] + \
-        list(zip(cand_heads_df['neighbor'].tolist(), cand_heads_df['sim'].tolist()))
-    cand_tails = [(_t, 1.0) for _t in seed_tails] + \
-        list(zip(cand_tails_df['neighbor'].tolist(), cand_tails_df['sim'].tolist()))
+    cand_heads = cand_heads_df['neighbor'].tolist()
+    cand_tails = cand_tails_df['neighbor'].tolist()
+    
+    if ranking_by is None:
+        heads = [(_h, 0.0) for _h in seed_heads] + [(_h, 0.0) for _h in cand_heads if _h not in seed_heads]
+        tails = [(_t, 0.0) for _t in seed_tails] + [(_t, 0.0) for _t in cand_tails if _t not in seed_tails]
+    else:
+        cand_h_pairs = list(zip(cand_heads, cand_heads_df[ranking_by].tolist()))
+        cand_h_pairs.sort(key=lambda p: p[1], reverse=ranking_reverse)
+        cand_t_pairs = list(zip(cand_tails, cand_tails_df[ranking_by].tolist()))
+        cand_t_pairs.sort(key=lambda p: p[1], reverse=ranking_reverse)
+        ## TODO: better way to decide seed score?
+        seed_h_score = 1.0 if ranking_by == 'sim' else cand_h_pairs[0][1]
+        seed_t_score = 1.0 if ranking_by == 'sim' else cand_t_pairs[0][1]
+        
+        heads = [(_h, seed_h_score) for _h in seed_heads] + cand_h_pairs
+        tails = [(_t, seed_t_score) for _t in seed_tails] + cand_t_pairs
 
     if topk is not None:
-        cand_heads = cand_heads[:topk]
-        cand_tails = cand_tails[:topk]
+        heads = heads[:topk]
+        tails = tails[:topk]
         
-    print('cand_heads:', list(zip(*cand_heads))[0])
-    print('cand_tails:', list(zip(*cand_tails))[0])
+    print('heads:', list(zip(*heads))[0])
+    print('tails:', list(zip(*tails))[0])
     
     out_rels = []
-    for _h, _hs in cand_heads:
-        for _t, _ts in cand_tails:
+    for _h, _hs in heads:
+        for _t, _ts in tails:
             out_rels.append({
                 'head': _h, 'relation': relation, 'tail': _t,
+                'head_score': _hs, 'tail_score': _ts,
                 'overall_score': _hs * _ts
             })
-    out_rels.sort(key=lambda d : d['overall_score'], reverse=True)
+    
+    if ranking_by is not None:
+        out_rels.sort(key=lambda d : d['overall_score'], reverse=True)
     
     out_rels_df = pd.DataFrame(out_rels)
     if dest is not None:

@@ -32,13 +32,15 @@ def evaluate_EE(predictions_path,
                 ranking_by,
                 ranking_reverse,
                 **kwargs):
-    '''Format of prediction file: CSV, with column "concept" and "neighbor"(entity) '''
+    '''Format of prediction file: CSV, with column "concept" and "neighbor"(entity), and "{ranking_by}" '''
     preds_df = pd.read_csv(predictions_path)
     
     all_benchmark_instances, _ = load_benchmark(benchmark_full_path, seed_concepts_path, seed_relations_path)
     seed_aligned_concepts = load_seed_aligned_concepts(seed_concepts_path)
     
     mrr_dict = dict()
+    recall_100_dict = dict()
+    recall_1k_dict = dict()
     for i, d in seed_aligned_concepts.iterrows():
         a_concept = d["alignedCategoryName"]
         u_concept = d["unalignedCategoryName"]
@@ -56,11 +58,14 @@ def evaluate_EE(predictions_path,
 #         _b_tail_instances = benchmark[benchmark["n_tail_category"] == a_concept]["n_tail"].to_list()
 #         benchmark_instances = list(set(_b_head_instances + _b_tail_instances))
         benchmark_instances = all_benchmark_instances[a_concept]
+        non_seed_instances = [e for e in benchmark_instances if e not in seed_instances]
 
         print(f'Concept: {a_concept} / {u_concept}')
         print(f'seeds: {seed_instances}')
         b_inst_ranks = dict()
         recip_ranks = []
+        rec_n_100 = 0
+        rec_n_1k = 0
         for _inst in benchmark_instances:
             if _inst in seed_instances:
                 b_inst_ranks[_inst] = -1
@@ -68,18 +73,32 @@ def evaluate_EE(predictions_path,
                 _rank = pred_instances.index(_inst) + 1
                 b_inst_ranks[_inst] = _rank
                 recip_ranks.append(1.0 / _rank)
+                if _rank <= 100:
+                    rec_n_100 += 1
+                if _rank <= 1000:
+                    rec_n_1k += 1
             else:
                 b_inst_ranks[_inst] = float('nan')
                 recip_ranks.append(0.0)
                 
         mrr = np.mean(recip_ranks) if len(recip_ranks) > 0 else 0.0
         mrr_dict[a_concept] = mrr
+        rec_100 = 1.0 * rec_n_100 / len(non_seed_instances)
+        recall_100_dict[a_concept] = rec_100
+        rec_1k = 1.0 * rec_n_1k / len(non_seed_instances)
+        recall_1k_dict[a_concept] = rec_1k
         print(json.dumps(b_inst_ranks, indent=4))
         print('MRR:', mrr)
+        print('R@100:', rec_100)
+        print('R@1k:', rec_1k)
         print()
 
     print('--- Summary ---')
-    print(json.dumps(mrr_dict, indent=2))
+    # print(json.dumps(mrr_dict, indent=2))
+    print('{:24s}{:^8s}{:^8s}{:^8s}'.format('Concept', 'MRR', 'R@100', 'R@1k'))
+    for cc in seed_aligned_concepts['alignedCategoryName'].tolist():
+        print('{:24s}{:^8.4f}{:^8.4f}{:^8.4f} '.format(cc, mrr_dict[cc], recall_100_dict[cc], recall_1k_dict[cc]))
+    print()
     
 
 def main():

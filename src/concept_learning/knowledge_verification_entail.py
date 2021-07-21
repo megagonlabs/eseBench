@@ -37,8 +37,8 @@ def parse_arguments():
                         help='Threshold to keep the evidence')
     parser.add_argument('-p_re', '--re_p_thres', type=float, default=0.9,
                         help='Threshold to keep the relation in prediction')
-    parser.add_argument('--fast_skip', action='store_true',
-                        help='If set, only aim to find 1 evidence > p_re')
+    parser.add_argument('--fast_skip', type=int, default=None,
+                        help='If set, only aim to find this many evidences > p_re')
 
     args = parser.parse_args()
     return args
@@ -65,17 +65,7 @@ def find_evidences_RE(input_re_path,
                       dest_re,
                       fast_skip,
                       **kwargs):
-    
-#     _pos_templates = [
-#         '{0} allows {1}',
-#         '{0} requires {1}',
-#     ]
 
-#     _neg_templates = [
-#         '{0} doesn\'t allow {1}',
-#         '{0} doesn\'t require {1}',
-#     ]
-    
     print('Loading files...')
     
     with open(templates_path, 'r') as f:
@@ -131,10 +121,10 @@ def find_evidences_RE(input_re_path,
         t_sents = entity2sents[_t]
         intersect_sents = h_sents & t_sents
         
-        max_score = 0.0
+        good_ev_cnt = 0
         
         for _s in intersect_sents:
-            if max_score > re_p_thres and fast_skip:
+            if (fast_skip is not None) and (good_ev_cnt >= fast_skip):
                 break
                 
             _ss = _s.strip()
@@ -147,7 +137,7 @@ def find_evidences_RE(input_re_path,
                 _entail_score = _entail_probs[2].item()
                 if _entail_score > _max_pos_ev[-1]:
                     _max_pos_ev = (_ss, _tmpl_filled, _entail_score)
-                    max_score = max(max_score, _entail_score)
+#                     max_score = max(max_score, _entail_score)
 
             _max_neg_ev = (None, None, 0)
             for _tmpl in _neg_templates:
@@ -156,12 +146,14 @@ def find_evidences_RE(input_re_path,
                 _entail_score = _entail_probs[2].item()
                 if _entail_score > _max_neg_ev[-1]:
                     _max_neg_ev = (_ss, _tmpl_filled, _entail_score)
-                    max_score = max(max_score, _entail_score)
+#                     max_score = max(max_score, _entail_score)
 
             if _max_pos_ev[-1] > kv_p_thres:
                 pos_evidences[(_h, _r, _t)].append(_max_pos_ev)
             if _max_neg_ev[-1] > kv_p_thres:
                 neg_evidences[(_h, _r, _t)].append(_max_neg_ev)
+            if max(_max_pos_ev[-1], _max_neg_ev[-1]) > re_p_thres:
+                good_ev_cnt += 1
     
     out_list = []
     out_rels_list = []
