@@ -10,7 +10,7 @@ import json
 from collections import defaultdict
 from transformers import AutoTokenizer, AutoModel, AutoConfig
 
-from utils import load_embeddings, load_seed_aligned_concepts, load_seed_aligned_relations, load_benchmark
+from utils import load_embeddings, load_seed_aligned_concepts, load_seed_aligned_relations, load_benchmark, load_EE_labels
 
 def parse_arguments():
     parser = argparse.ArgumentParser()
@@ -29,18 +29,22 @@ def evaluate_EE(predictions_path,
                 seed_concepts_path,
                 seed_relations_path,
                 benchmark_full_path,
+                ee_labels_path,
                 ranking_by,
                 ranking_reverse,
                 **kwargs):
     '''Format of prediction file: CSV, with column "concept" and "neighbor"(entity), and "{ranking_by}" '''
     preds_df = pd.read_csv(predictions_path)
     
-    all_benchmark_instances, _ = load_benchmark(benchmark_full_path, seed_concepts_path, seed_relations_path)
+#     all_benchmark_instances, _ = load_benchmark(benchmark_full_path, seed_concepts_path, seed_relations_path)
+    all_benchmark_instances = load_EE_labels(ee_labels_path)
     seed_aligned_concepts = load_seed_aligned_concepts(seed_concepts_path)
     
     mrr_dict = dict()
     recall_100_dict = dict()
     recall_1k_dict = dict()
+    prec_100_dict = dict()
+    prec_1k_dict = dict()
     for i, d in seed_aligned_concepts.iterrows():
         a_concept = d["alignedCategoryName"]
         u_concept = d["unalignedCategoryName"]
@@ -64,8 +68,8 @@ def evaluate_EE(predictions_path,
         print(f'seeds: {seed_instances}')
         b_inst_ranks = dict()
         recip_ranks = []
-        rec_n_100 = 0
-        rec_n_1k = 0
+        hit_n_100 = 0
+        hit_n_1k = 0
         for _inst in benchmark_instances:
             if _inst in seed_instances:
                 b_inst_ranks[_inst] = -1
@@ -74,30 +78,36 @@ def evaluate_EE(predictions_path,
                 b_inst_ranks[_inst] = _rank
                 recip_ranks.append(1.0 / _rank)
                 if _rank <= 100:
-                    rec_n_100 += 1
+                    hit_n_100 += 1
                 if _rank <= 1000:
-                    rec_n_1k += 1
+                    hit_n_1k += 1
             else:
                 b_inst_ranks[_inst] = float('nan')
                 recip_ranks.append(0.0)
                 
         mrr = np.mean(recip_ranks) if len(recip_ranks) > 0 else 0.0
         mrr_dict[a_concept] = mrr
-        rec_100 = 1.0 * rec_n_100 / len(non_seed_instances)
-        recall_100_dict[a_concept] = rec_100
-        rec_1k = 1.0 * rec_n_1k / len(non_seed_instances)
-        recall_1k_dict[a_concept] = rec_1k
+        r_100 = 1.0 * hit_n_100 / len(non_seed_instances)
+        p_100 = 1.0 * hit_n_100 / min(100, len(pred_instances))
+        recall_100_dict[a_concept] = r_100
+        prec_100_dict[a_concept] = p_100
+        r_1k = 1.0 * hit_n_1k / len(non_seed_instances)
+        p_1k = 1.0 * hit_n_1k / min(1000, len(pred_instances))
+        recall_1k_dict[a_concept] = r_1k
+        prec_1k_dict[a_concept] = p_1k
         print(json.dumps(b_inst_ranks, indent=4))
         print('MRR:', mrr)
-        print('R@100:', rec_100)
-        print('R@1k:', rec_1k)
+        print('P@100:', p_100)
+        print('R@100:', r_100)
+        print('P@1k:', p_1k)
+        print('R@1k:', r_1k)
         print()
 
     print('--- Summary ---')
     # print(json.dumps(mrr_dict, indent=2))
-    print('{:24s}{:^8s}{:^8s}{:^8s}'.format('Concept', 'MRR', 'R@100', 'R@1k'))
+    print('{:24s}{:^8s}{:^8s}{:^8s}{:^8s}{:^8s}'.format('Concept', 'MRR', 'P@100', 'R@100', 'P@1k', 'R@1k'))
     for cc in seed_aligned_concepts['alignedCategoryName'].tolist():
-        print('{:24s}{:^8.4f}{:^8.4f}{:^8.4f} '.format(cc, mrr_dict[cc], recall_100_dict[cc], recall_1k_dict[cc]))
+        print('{:24s}{:^8.4f}{:^8.4f}{:^8.4f}{:^8.4f}{:^8.4f}'.format(cc, mrr_dict[cc], prec_100_dict[cc], recall_100_dict[cc], prec_1k_dict[cc], recall_1k_dict[cc]))
     print()
     
 
@@ -106,6 +116,7 @@ def main():
     args.seed_concepts_path = os.path.join(args.benchmark_path, 'seed_aligned_concepts.csv')
     args.seed_relations_path = os.path.join(args.benchmark_path, 'seed_aligned_relations_nodup.csv')
     args.benchmark_full_path = os.path.join(args.benchmark_path, 'benchmark_evidence_clean.csv')
+    args.ee_labels_path = os.path.join(args.benchmark_path, 'ee-labels-temp.csv')
 
     evaluate_EE(**vars(args))
 

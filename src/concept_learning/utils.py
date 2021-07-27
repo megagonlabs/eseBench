@@ -107,6 +107,17 @@ def load_benchmark(benchmark_full_path,
     return all_concepts, all_rel_tuples
 
 
+def load_EE_labels(ee_labels_path):
+    ee_labels_df = pd.read_csv(ee_labels_path)
+    concept_list = list(set(ee_labels_df['concept'].tolist()))
+
+    ee_labels_dict = dict()
+    for _cc in concept_list:
+        ee_labels_dict[_cc] = ee_labels_df[ee_labels_df['concept'] == _cc]['neighbor'].tolist()
+
+    return ee_labels_dict
+
+
 def get_masked_contexts(corpus_path, embed_num_path):
     """Return a (list of) sentence(s) with entity replaced with MASK."""
     
