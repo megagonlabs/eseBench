@@ -53,11 +53,15 @@ def build_corpus(dataset_path,
         ans_nlp = nlp(ans)
         for sent in ans_nlp.sents:
             sent_tok_list = [str(t) for t in sent]
-            _s = f' {company} : {" ".join(sent_tok_list)} '.lower()
+            _s = f' {" ".join(sent_tok_list)} '.lower()
             _ents = []
+            if company.lower() in entities:
+                _ents.append(company.lower())
             for _e in entities:
                 if f' {_e} ' in _s:
                     _ents.append(_e)
+            _ents = list(set(_ents))
+            
             out_corpus.append({
                 "tokens": sent_tok_list,
                 "company": company,

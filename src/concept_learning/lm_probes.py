@@ -75,7 +75,7 @@ class LMProbe(object):
         for c in cands:
             c_tokenized = self.tokenizer.tokenize(c)
             if len(c_tokenized) > self.max_n_grams:
-                print(f'{c_tokenized}: too many wordpieces')
+#                 print(f'{c_tokenized}: too many wordpieces')
                 continue
             cand_bins[len(c_tokenized)].append(c_tokenized)
         
@@ -196,7 +196,7 @@ class LMProbe_Joint(object):
         for c in cands:
             c_tokenized = self.bert_tokenizer.tokenize(c)
             if len(c_tokenized) > self.max_n_grams:
-                print(f'{c_tokenized}: too many wordpieces')
+#                 print(f'{c_tokenized}: too many wordpieces')
                 continue
             cand_bins[len(c_tokenized)].append(c_tokenized)
         

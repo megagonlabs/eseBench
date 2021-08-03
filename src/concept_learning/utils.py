@@ -46,9 +46,11 @@ def load_seed_aligned_concepts(path):
     df["seedInstances"] = df["seedInstances"].map(lambda s : eval(str(s)))
     return df
 
-def load_seed_aligned_relations(path):
+def load_seed_aligned_relations(path, exclude_aux=False):
     df = pd.read_csv(path)
     df = df[df["range"] != "x"]
+    if exclude_aux:
+        df = df[df["auxiliary"] == 0]
     return df
 
 

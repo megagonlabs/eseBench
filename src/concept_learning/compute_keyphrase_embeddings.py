@@ -234,17 +234,84 @@ def get_pooled_token_embeddings(model_path, input_file, max_context_ct):
             entity_embeddings[entity] = entity_embedding
     return entity_embeddings, ent_freq
 
+## @YS
+def get_non_masking_avg_context_embeddings(model_path, input_file, max_context_ct):
+    '''
+    mean pooling from sentence-transformers
+    :param model_path:
+    :param input_file:
+    :return:
+    '''
+    tokenizer = AutoTokenizer.from_pretrained(model_path)
+    model = AutoModel.from_pretrained(model_path)
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    model.to(device)
+    model.eval()
+    mask_token_id = tokenizer.mask_token_id
+
+    ent_freq, ent_context = get_masked_contexts(input_file)
+    entity_embeddings = {}
+    for entity, en_context_lst in tqdm(ent_context.items(), total=len(ent_context), desc="computing entity-wise embedding"):
+        en_context_lst = random.sample(en_context_lst, min(len(en_context_lst), max_context_ct))
+        
+        entity_toks = tokenizer.tokenize(entity)
+        en_non_mask_context_lst = []
+        en_span_lst = []
+        for _ctx in en_context_lst:
+            _nm_ctx = _ctx.replace('[MASK]', entity)
+            _ctx_toks = tokenizer.tokenize(_ctx)
+            _nm_ctx_toks = tokenizer.tokenize(_nm_ctx)
+            try:
+                _mask_id = _ctx_toks.index('[MASK]')
+                assert _nm_ctx_toks[_mask_id : _mask_id + len(entity_toks)] == entity_toks
+            except:
+                raise ValueError(_ctx, _ctx_toks)
+            en_span_lst.append((_mask_id + 1, _mask_id + len(entity_toks) + 1))  # +1 for [CLS]
+            en_non_mask_context_lst.append(_nm_ctx)
+            
+        # chunks = [en_context_lst[i:i + 100] for i in range(0, len(en_context_lst), 100)]
+        # print(entity)
+        # print(len(en_context_lst))
+        all_context_embeddings = []
+        for i in range(0, len(en_context_lst), 100):
+            chunk = en_non_mask_context_lst[i:i+100]
+            en_span_chunk = en_span_lst[i:i+100]
+            
+            encoded_input = tokenizer.batch_encode_plus(chunk, return_token_type_ids=True, add_special_tokens=True, max_length=128, return_tensors='pt', padding=True, pad_to_max_length=True, truncation=True)
+            # mask = encoded_input['input_ids'] != mask_token_id
+            mask = torch.zeros_like(encoded_input['input_ids'])
+            for j in range(len(en_span_chunk)):
+                _s, _e = en_span_chunk[j]
+                mask[j, _s:_e] = 1
+                # print(tokenizer.convert_ids_to_tokens(encoded_input['input_ids'][j, _s:_e]))
+    
+            with torch.no_grad():
+                encoded_input = ensure_tensor_on_device(device, **encoded_input)
+                model_output = model(**encoded_input)  # Compute token embeddings
+            context_embeddings = mean_pooling(model_output, mask)  # mean pooling
+            all_context_embeddings.append(context_embeddings)
+        entity_embedding = torch.mean(torch.cat(all_context_embeddings, dim=0), dim=0).cpu().detach().numpy().tolist()
+        entity_embeddings[entity] = entity_embedding
+        
+    return entity_embeddings, ent_freq
+
 
 def main():
     args = parse_arguments()
     args.input_file = os.path.join(args.dataset_path, 'sent_segmentation.txt')
-    args.embed_dest = os.path.join(args.dataset_path, 'BERTembed.txt')
-    args.embed_num = os.path.join(args.dataset_path, 'BERTembednum.txt')
+    if args.embedding_type in ['ac', 'pt']:
+        args.embed_dest = os.path.join(args.dataset_path, 'BERTembed.txt')
+        args.embed_num = os.path.join(args.dataset_path, 'BERTembednum.txt')
+    else:
+        args.embed_dest = os.path.join(args.dataset_path, f'BERTembed_{args.embedding_type}.txt')
+        args.embed_num = os.path.join(args.dataset_path, f'BERTembednum_{args.embedding_type}.txt')
 
     if args.embedding_type == 'ac':
         entity_embeddings, ent_freq = get_avg_context_embeddings(args.model_path, args.input_file, args.max_context_ct)
     elif args.embedding_type == 'pt':
         entity_embeddings, ent_freq = get_pooled_token_embeddings(args.model_path, args.input_file, args.max_context_ct)
+    elif args.embedding_type == 'nm_ac':
+        entity_embeddings, ent_freq = get_non_masking_avg_context_embeddings(args.model_path, args.input_file, args.max_context_ct)
 
     print("Saving embedding")
     with open(args.embed_dest, 'w') as f, open(args.embed_num, 'w') as f2:

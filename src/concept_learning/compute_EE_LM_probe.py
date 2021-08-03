@@ -25,35 +25,28 @@ def parse_arguments():
                         help='Path to clusters')
     parser.add_argument('-lm', '--lm_probe_type', type=str,
                         required=True, help='The type of lm_probe to use')
+    parser.add_argument('-lm_model', '--lm_probe_model', type=str,
+                        default=None, help='The model (e.g. "bert-base-uncased") for lm_probe')
     parser.add_argument('-ng', '--max_n_grams', type=int, default=5,
                         help='Max length of ngrams (tokenized)')
+    parser.add_argument('-agg', '--template_agg', default='max', choices=['max', 'avg'],
+                        help='How to aggregate scores from each template')
     parser.add_argument('-topk', '--topk', type=int, default=None,
-                        help='Top-k to extract for each instance')
+                        help='Top-k to extract for each concept')
     parser.add_argument('-dim', '--embedding_dim', type=int, default=768,
                         help='embedding_dim')
 
     args = parser.parse_args()
     return args
 
-def load_seed_aligned_concepts(path):
-    df = pd.read_csv(path)
-    df = df[df["generalizations"] != "x"]
-    df["seedInstances"] = df["seedInstances"].map(lambda s : eval(str(s)))
-    return df
-
-def load_seed_aligned_relations(path):
-    df = pd.read_csv(path)
-    df = df[df["range"] != "x"]
-    return df
-
-
 
 def EE_LMProbe(seed_concepts_path,
                emb_path,
                lm_probe_type,
+               lm_probe_model,
+               tmpl_agg_func,
                concepts=None,
                embedding_dim=768,
-               tmpl_agg_func=None,
                max_n_grams=5,
                topk=None,
                dest=None,
@@ -83,11 +76,21 @@ def EE_LMProbe(seed_concepts_path,
     ]
 
     if lm_probe_type == 'bert':
-        lm_probe = LMProbe(max_n_grams=max_n_grams)
+        if lm_probe_model is None:
+            lm_probe = LMProbe(max_n_grams=max_n_grams)
+        else:
+            lm_probe = LMProbe(max_n_grams=max_n_grams, model_name=lm_probe_model)
     elif lm_probe_type == 'gpt2':
-        lm_probe = LMProbe_GPT2()
+        if lm_probe_model is None:
+            lm_probe = LMProbe_GPT2()
+        else:
+            lm_probe = LMProbe_GPT2(model_name=lm_probe_model)
     elif lm_probe_type == 'joint':
-        lm_probe = LMProbe_Joint(max_n_grams=max_n_grams)
+        if lm_probe_model is None:
+            lm_probe = LMProbe_Joint(max_n_grams=max_n_grams)
+        else:
+            ## TODO: bert_model_name and gpt2_model_name
+            lm_probe = LMProbe_Joint(max_n_grams=max_n_grams, bert_model_name=lm_probe_model)
 #     elif lm_probe_type == 'pmi':
 #         lm_probe = LMProbe_PMI()
 #     elif lm_probe_type == 'pmi_greedy':
@@ -175,6 +178,11 @@ def main():
     args.seed_concepts_path = os.path.join(args.benchmark_path, 'seed_aligned_concepts.csv')
 #     args.corpus_path = os.path.join(args.dataset_path, 'sentences_with_company.json')
     args.emb_path = os.path.join(args.dataset_path, 'BERTembed+seeds.txt')
+    
+    if args.template_agg == 'max':
+        args.tmpl_agg_func = lambda l : max(l)
+    elif args.template_agg == 'avg':
+        args.tmpl_agg_func = lambda l : (sum(l) / len(l))
     
     EE_LMProbe(**vars(args))
 

@@ -176,6 +176,65 @@ def get_avg_context_embedding_for_entities(entities, model_path, input_file, max
     return entity_embeddings, ent_freq
 
 
+def get_pooled_token_embeddings_for_entities(entities, model_path, input_file, max_context_ct):
+    config = AutoConfig.from_pretrained(model_path, output_hidden_states=True)
+    tokenizer = AutoTokenizer.from_pretrained(model_path)
+    model = AutoModel.from_pretrained(model_path, config=config)
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    model.to(device)
+    model.eval()
+    mask_token_id = tokenizer.mask_token_id
+
+    ent_freq, ent_context = get_masked_contexts_for_entities(entities, input_file)
+    
+    entity_embeddings = {}
+    for entity, en_context_lst in tqdm(ent_context.items(), total=len(ent_context), desc="computing entity-wise embedding"):
+        en_context_lst = random.sample(en_context_lst, min(len(en_context_lst), max_context_ct))
+        chunks = [en_context_lst[i:i + 200] for i in range(0, len(en_context_lst), 200)]
+        all_context_embeddings = []
+        for chunk in chunks:
+            encoded_input = tokenizer.batch_encode_plus(chunk, return_token_type_ids=True, add_special_tokens=True, max_length=128, return_tensors='pt', padding=True, pad_to_max_length=True, truncation=True)
+            with torch.no_grad():
+                encoded_input_tensor = ensure_tensor_on_device(device, **encoded_input)
+                model_output = model(**encoded_input_tensor)  # Holds the list of 12 layer embeddings for each token
+                hidden_states = model_output[2]  # [batch_size x seq_length x vector_dim]
+                all_hidden_embeddings = torch.stack(hidden_states, dim=0) # tuple of 13 layers to tensor [layer x batch_size x seq_length x vector_dim]
+                # print(all_hidden_embeddings.size())
+                all_hidden_embeddings = all_hidden_embeddings.permute(1, 0, 2, 3) # switch layer and batch [batch_size x layer x seq_length x vector_dim]
+                # print(all_hidden_embeddings.size())
+                for i, context in enumerate(chunk):
+                    try:
+                        ith_input_ids = encoded_input['input_ids'][i].cpu().detach().numpy().tolist()
+                        if mask_token_id in ith_input_ids:
+                            mask_id = ith_input_ids.index(mask_token_id)
+                            # print('mask id {}'.format(mask_id))
+                            ith_hidden_states = all_hidden_embeddings[i]
+                            # print('hidden states size {}'.format(ith_hidden_states.size()))
+                            context_embedding = get_vector(ith_hidden_states, mask_id, mode='concat',
+                                                           top_n_layers=4)
+                            if len(context_embedding) == 3072:  # 768 * 4
+                                all_context_embeddings.append(context_embedding)
+                            else:
+                                print(len(context_embedding))
+                        else:
+                            print('####NOT FOUND#####')
+                    except IndexError:
+                        pass
+                    except KeyError:
+                        pass
+                    except ValueError:
+                        pass
+                    # context_embedding = torch.mean(entity_vecs, dim=0).cpu().detach().numpy().tolist()
+                    # all_context_embeddings.append(context_embedding)
+        assert len(all_context_embeddings) > 0
+        
+        entity_embedding = torch.mean(torch.stack(all_context_embeddings), dim=0).cpu().detach().numpy().tolist()
+        entity_embeddings[entity] = entity_embedding
+        
+    return entity_embeddings, ent_freq
+
+
+
 def main():
     args = parse_arguments()
     args.input_file = os.path.join(args.dataset_path, 'sentences.json')
@@ -185,10 +244,15 @@ def main():
     args.new_embed_num = os.path.join(args.dataset_path, 'BERTembednum+seeds.txt')
     args.seed_aligned_concepts = os.path.join(args.benchmark_path, 'seed_aligned_concepts.csv')
     
-    if args.embedding_type != 'ac':
+    if args.embedding_type == 'ac':
+        emb_dim = 768
+    elif args.embedding_type == 'pt':
+        emb_dim = 3072
+    else:
         raise NotImplementedError()
 
-    orig_emb_df = load_embeddings(args.orig_embed_dest, 768)
+    
+    orig_emb_df = load_embeddings(args.orig_embed_dest, emb_dim)
     emb_dict = dict(zip(orig_emb_df['entity'].to_list(), orig_emb_df['embedding'].to_list()))
     with open(args.orig_embed_num, 'r') as f:
         lines = f.readlines()
@@ -201,16 +265,22 @@ def main():
     new_instances_list = [inst for inst in seed_instances_list if inst not in emb_dict]
     print('New instances:', new_instances_list)
     
-#     if args.embedding_type == 'ac':
-#         entity_embeddings, ent_freq = get_avg_context_embeddings(args.model_path, args.input_file, args.max_context_ct)
-#     elif args.embedding_type == 'pt':
-#         entity_embeddings, ent_freq = get_pooled_token_embeddings(args.model_path, args.input_file, args.max_context_ct)
+    if args.embedding_type == 'ac':
+        entity_embeddings, ent_freq = get_avg_context_embeddings_for_entities(entities=new_instances_list,
+                                                                              model_path=args.model_path, 
+                                                                              input_file=args.input_file, 
+                                                                              max_context_ct=args.max_context_ct)
+    elif args.embedding_type == 'pt':
+        entity_embeddings, ent_freq = get_pooled_token_embeddings_for_entities(entities=new_instances_list,
+                                                                               model_path=args.model_path, 
+                                                                               input_file=args.input_file, 
+                                                                               max_context_ct=args.max_context_ct)
 
-    entity_embeddings, ent_freq = \
-        get_avg_context_embedding_for_entities(entities=new_instances_list, 
-                                               model_path=args.model_path,
-                                               input_file=args.input_file,
-                                               max_context_ct=args.max_context_ct)
+#     entity_embeddings, ent_freq = \
+#         get_avg_context_embedding_for_entities(entities=new_instances_list, 
+#                                                model_path=args.model_path,
+#                                                input_file=args.input_file,
+#                                                max_context_ct=args.max_context_ct)
     
     for inst in new_instances_list:
         emb_dict[inst] = entity_embeddings[inst]
