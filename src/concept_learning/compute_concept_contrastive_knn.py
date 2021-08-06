@@ -22,6 +22,8 @@ def parse_arguments():
 #                         help='No. of threads')
 #     parser.add_argument('-ca', '--clustering_algorithm', type=str, default='kmeans',
 #                         help='agg or kmeans or knn')
+    parser.add_argument('-aux_cc', '--aux_concepts', action='store_true',
+                        help='including auxiliary concepts')
     parser.add_argument('-s', '--cluster_size', type=int, default=None,
                         help='cluster size for kmeans or min cluster size for hdbscan')
     parser.add_argument('-o', '--cluster_dest', type=str, required=True,
@@ -30,7 +32,7 @@ def parse_arguments():
                         help='embedding_dim')
 #     parser.add_argument('-kdt', '--kdt', action='store_true',
 #                         help='whether using kd-tree (Annoy)')
-
+    
     args = parser.parse_args()
     return args
 
@@ -49,6 +51,7 @@ def load_seed_aligned_relations(path):
 def get_concept_contrastive_knn(embed_src, embedding_dim, seed_aligned_concept_src, cluster_size, cluster_dest, **kwargs):
     
     seed_concepts_df = load_seed_aligned_concepts(seed_aligned_concept_src)
+    seed_concepts_dicts = seed_concepts_df.to_dict('record')
     
     entity_embeddings = load_embeddings(embed_src, embedding_dim)
     entities = entity_embeddings['entity'].tolist()
@@ -58,7 +61,11 @@ def get_concept_contrastive_knn(embed_src, embedding_dim, seed_aligned_concept_s
     neighbors = []
     
     concept_emb_dict = dict()
-    for i, (a_concept, u_concept, gnrl, seed_instances) in tqdm(seed_concepts_df.iterrows(), desc="finding nearest neighbors by concept"):
+#     for i, (a_concept, u_concept, gnrl, seed_instances) in tqdm(seed_concepts_df.iterrows(), desc="finding nearest neighbors by concept"):
+    for i, _cc_dict in tqdm(list(enumerate(seed_concepts_dicts))):
+        a_concept = _cc_dict['alignedCategoryName']
+        seed_instances = _cc_dict['seedInstances']
+        
         embs = []
         for inst in seed_instances:
             try:
@@ -122,8 +129,11 @@ def main():
 #     args.input_file = os.path.join(args.dataset_path, 'sent_segmentation.txt')
     args.embed_src = os.path.join(args.dataset_path, 'BERTembed+seeds.txt')
 #     args.embed_num = os.path.join(args.dataset_path, 'BERTembednum+seeds.txt')
-    args.seed_aligned_concept_src = os.path.join(args.benchmark_path, 'seed_aligned_concepts.csv')
-
+    if args.aux_concepts:
+        args.seed_aligned_concept_src = os.path.join(args.benchmark_path, 'seed_aligned_concepts_aux.csv')
+    else:
+        args.seed_aligned_concept_src = os.path.join(args.benchmark_path, 'seed_aligned_concepts.csv')
+    
     get_concept_contrastive_knn(**vars(args))
 
 

@@ -21,6 +21,8 @@ def parse_arguments():
                         required=True, help='Dataset path with intermediate output')
     parser.add_argument('-b', '--benchmark_path', type=str,
                         required=True, help='Benchmark directory path')
+    parser.add_argument('-aux_cc', '--aux_concepts', action='store_true',
+                        help='including auxiliary concepts')
     parser.add_argument('-o', '--dest', type=str, required=True,
                         help='Path to clusters')
     parser.add_argument('-lm', '--lm_probe_type', type=str,
@@ -175,7 +177,10 @@ def EE_LMProbe(seed_concepts_path,
 def main():
     args = parse_arguments()
 
-    args.seed_concepts_path = os.path.join(args.benchmark_path, 'seed_aligned_concepts.csv')
+    if args.aux_concepts:
+        args.seed_concepts_path = os.path.join(args.benchmark_path, 'seed_aligned_concepts_aux.csv')
+    else:
+        args.seed_concepts_path = os.path.join(args.benchmark_path, 'seed_aligned_concepts.csv')
 #     args.corpus_path = os.path.join(args.dataset_path, 'sentences_with_company.json')
     args.emb_path = os.path.join(args.dataset_path, 'BERTembed+seeds.txt')
     

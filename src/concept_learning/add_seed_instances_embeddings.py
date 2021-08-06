@@ -134,7 +134,7 @@ def get_masked_contexts_for_entities(entities, input_file):
     return ent_freq, dedup_context
 
 
-def get_avg_context_embedding_for_entities(entities, model_path, input_file, max_context_ct):
+def get_avg_context_embeddings_for_entities(entities, model_path, input_file, max_context_ct):
     '''
     mean pooling from sentence-transformers
     :param entity: List[str], the entities to compute embeddings for

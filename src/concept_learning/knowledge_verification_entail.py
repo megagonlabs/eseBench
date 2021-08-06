@@ -63,6 +63,7 @@ def find_evidences_RE(input_re_path,
                       re_p_thres,
                       dest_kv,
                       dest_re,
+                      kv_collection_path,
                       fast_skip,
                       **kwargs):
 
@@ -75,6 +76,11 @@ def find_evidences_RE(input_re_path,
     sent_dicts = []
     with open(corpus_path, 'r') as f:
         sent_dicts = [json.loads(l) for l in f.readlines()]
+    
+    with open(kv_collection_path, 'r') as f:
+        kv_collections = [json.loads(l) for l in f.readlines()]
+    kv_collections_dict = dict([(tuple(d['relation']), d) for d in kv_collections])
+#     new_relations = []  # relations not in kv_collections, either verified or not 
     
     entailment_model = Roberta_SES_Entailment(roberta_path=roberta_dir,
         ckpt_path=os.path.join(roberta_ses_path),
@@ -94,10 +100,6 @@ def find_evidences_RE(input_re_path,
         _t = row['tail']
         _r = row['relation']
         rels.append((_h, _r, _t))
-#         if row['base'] == 'HEAD':
-#             head2rels[_h].append((_h, _r, _t))
-#         else:
-#             tail2rels[_t].append((_h, _r, _t))
 
     # collect sents for each entity 
     entity2sents = defaultdict(set)
@@ -107,11 +109,15 @@ def find_evidences_RE(input_re_path,
             entity2sents[_e].add(_s)
     
     for _h, _r, _t in tqdm(rels, desc='Finding evidence for rels'):
-#         # assure key existence
-#         _ = pos_evidences[(_h, _r, _t)]
-#         _ = neg_evidences[(_h, _r, _t)]
-
         if _h == _t:  # such cases (_h == _t) are unlikely right and take a lot of time
+            continue
+        
+        if (_h, _r, _t) in kv_collections_dict:  # Already in kv_collections 
+            # Take from kv_collections 
+            _rel = (_h, _r, _t)
+            _d = kv_collections_dict[_rel]
+            pos_evidences[_rel] = _d['pos_evidences']
+            neg_evidences[_rel] = _d['neg_evidences']
             continue
 
         _pos_templates = all_templates[_r]['positive']
@@ -155,30 +161,50 @@ def find_evidences_RE(input_re_path,
             if max(_max_pos_ev[-1], _max_neg_ev[-1]) > re_p_thres:
                 good_ev_cnt += 1
     
-    out_list = []
+    out_kv_list = []
+    out_collection_list = []
     out_rels_list = []
     for _rel in rels:
+#         if _rel not in kv_collections_dict:
+#             new_relations.append(_rel)
+        
         _pos_evs = pos_evidences[_rel]
         _neg_evs = neg_evidences[_rel]
-        if len(_pos_evs) == len(_neg_evs) == 0:
-            continue
+        
         _pos_evs.sort(key=lambda p : p[-1], reverse=True)
         _neg_evs.sort(key=lambda p : p[-1], reverse=True)
-        out_list.append({
+        
+        _kv_d = {
             'relation': _rel,
             'pos_evidences': _pos_evs,
             'neg_evidences': _neg_evs,
-        })
+        }
+        
+        if _rel not in kv_collections_dict:
+            # not in collection, add to there (even if empty) 
+            out_collection_list.append(_kv_d)
+        
+        if len(_pos_evs) == len(_neg_evs) == 0:
+            # empty, don't add to current output
+            continue
+        
+        # non-empty, add to current output
+        out_kv_list.append(_kv_d)
         
         if (len(_pos_evs) > 0 and _pos_evs[0][-1] > re_p_thres) or (len(_neg_evs) > 0 and _neg_evs[0][-1] > re_p_thres):
+            # have good evidence, verified, add to relations output 
             out_rels_list.append({
                 'head': _rel[0],
                 'relation': _rel[1],
                 'tail': _rel[2]
             })
     
+    with open(kv_collection_path, 'a') as f:
+        for d in out_collection_list:
+            f.write(json.dumps(d) + '\n')
+    
     with open(dest_kv, 'w') as f:
-        for d in out_list:
+        for d in out_kv_list:
             f.write(json.dumps(d) + '\n')
     
     out_rels_df = pd.DataFrame(out_rels_list)
@@ -189,13 +215,14 @@ def find_evidences_RE(input_re_path,
 #     for _rel, _evidences in neg_evidences.items():
 #         _evidences.sort(key=lambda p : p[-1], reverse=True)
     
-    return out_list
+    return out_kv_list
     
     
 def main():
     args = parse_arguments()
 #     args.input_re_path = os.path.join(args.dataset_path, 'rel_extraction_RE.csv')
     args.corpus_path = os.path.join(args.dataset_path, 'sentences_with_company.json')
+    args.kv_collection_path = os.path.join(args.dataset_path, 'kv_evidences_collection.json')
     args.templates_path = 'templates_manual.json'
 
     find_evidences_RE(**vars(args))

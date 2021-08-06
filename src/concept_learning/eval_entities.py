@@ -68,6 +68,8 @@ def evaluate_EE(predictions_path,
             assert ranking_by in preds_df.columns, f'{ranking_by} not in {preds_df.columns}'
             pred_rows.sort(key=lambda r: r[ranking_by], reverse=ranking_reverse)
         pred_instances = [r['neighbor'] for r in pred_rows]
+        ## @YS: not including seeds for evaluation!
+        pred_instances = [_e for _e in pred_instances if _e not in seed_instances]
 
 #         _b_head_instances = benchmark[benchmark["n_head_category"] == a_concept]["n_head"].to_list()
 #         _b_tail_instances = benchmark[benchmark["n_tail_category"] == a_concept]["n_tail"].to_list()
@@ -160,9 +162,10 @@ def evaluate_EE(predictions_path,
 def main():
     args = parse_arguments()
     args.seed_concepts_path = os.path.join(args.benchmark_path, 'seed_aligned_concepts.csv')
-    args.seed_relations_path = os.path.join(args.benchmark_path, 'seed_aligned_relations_nodup.csv')
+#     args.seed_relations_path = os.path.join(args.benchmark_path, 'seed_aligned_relations_nodup.csv')
+    args.seed_relations_path = None
     args.benchmark_full_path = os.path.join(args.benchmark_path, 'benchmark_evidence_clean.csv')
-    args.ee_labels_path = os.path.join(args.benchmark_path, 'ee-labels.csv')
+    args.ee_labels_path = os.path.join(args.benchmark_path, 'ee-labels-2.csv')
 
     evaluate_EE(**vars(args))
 
