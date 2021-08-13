@@ -54,6 +54,7 @@ def evaluate_EE(predictions_path,
     
     mrr_dict = dict()
     max_k_dict = dict()
+    gold_k_dict = dict()
     recall_at_k_dicts = dict()  # Dict[cc, Dict[k, recall]]
     prec_at_k_dicts = dict()    # Dict[cc, Dict[k, recall]]
     for i, d in seed_aligned_concepts.iterrows():
@@ -76,12 +77,15 @@ def evaluate_EE(predictions_path,
 #         benchmark_instances = list(set(_b_head_instances + _b_tail_instances))
         benchmark_instances = all_benchmark_instances[a_concept]
         non_seed_instances = [e for e in benchmark_instances if e not in seed_instances]
+        gold_k = len(non_seed_instances)
 
         vprint(f'Concept: {a_concept} / {u_concept}')
         vprint(f'seeds: {seed_instances}')
         b_inst_ranks = dict()
         recip_ranks = []
         hit_n_dict = dict([(k, 0) for k in K_list])
+        hit_n_dict[gold_k] = 0
+        _ranked_k_list = sorted(list(hit_n_dict.keys()))
         for _inst in benchmark_instances:
             if _inst in seed_instances:
                 b_inst_ranks[_inst] = -1
@@ -89,7 +93,7 @@ def evaluate_EE(predictions_path,
                 _rank = pred_instances.index(_inst) + 1
                 b_inst_ranks[_inst] = _rank
                 recip_ranks.append(1.0 / _rank)
-                for k in reversed(K_list):
+                for k in reversed(_ranked_k_list):
                     if _rank <= k:
                         hit_n_dict[k] += 1
                     else:
@@ -110,7 +114,7 @@ def evaluate_EE(predictions_path,
 #         prec_1k_dict[a_concept] = p_1k
         _recall_d = dict()
         _prec_d = dict()
-        for k in K_list:
+        for k in K_list + [gold_k]:
             _r = 1.0 * hit_n_dict[k] / len(non_seed_instances)
             _p = 1.0 * hit_n_dict[k] / min(k, len(pred_instances))
             _recall_d[k] = _r
@@ -118,10 +122,14 @@ def evaluate_EE(predictions_path,
         recall_at_k_dicts[a_concept] = _recall_d
         prec_at_k_dicts[a_concept] = _prec_d
         max_k_dict[a_concept] = len(pred_instances)
+        gold_k_dict[a_concept] = gold_k
         
         vprint(json.dumps(b_inst_ranks, indent=4))
-        vprint('MRR:', mrr)
+#         vprint('MRR:', mrr)
         vprint('Max K:', len(pred_instances))
+        vprint('Gold K:', gold_k)
+        vprint(f'P@{k}:', _prec_d[gold_k])
+        vprint(f'R@{k}:', _recall_d[gold_k])
 #         vprint('P@100:', p_100)
 #         vprint('R@100:', r_100)
 #         vprint('P@1k:', p_1k)
@@ -133,20 +141,32 @@ def evaluate_EE(predictions_path,
 
     print('--- Summary ---')
     # print(json.dumps(mrr_dict, indent=2))
-    print('{:24s}{:^8s}{:^8s}{:^8s}{:^8s}{:^8s}{:^8s}'.format('Concept', 'Max K', 'MRR', 'P@20', 'R@20', 'P@100', 'R@100'))
+    print('{:24s}{:^8s}{:^8s}{:^8s}{:^8s}{:^8s}{:^8s}{:^8s}{:^8s}'.format(
+        'Concept', 'Max K', 'Gold K', 'P@K', 'R@K', 'P@20', 'R@20', 'P@100', 'R@100'))
     for cc in seed_aligned_concepts['alignedCategoryName'].tolist():
-        print('{:24s}{:^8d}{:^8.4f}{:^8.4f}{:^8.4f}{:^8.4f}{:^8.4f}'.format(cc, max_k_dict[cc], mrr_dict[cc], prec_at_k_dicts[cc][20], recall_at_k_dicts[cc][20], prec_at_k_dicts[cc][100], recall_at_k_dicts[cc][100]))
+        _gold_k = gold_k_dict[cc]
+        print('{:24s}{:^8d}{:^8d}{:^8.4f}{:^8.4f}{:^8.4f}{:^8.4f}{:^8.4f}{:^8.4f}'.format(
+            cc, max_k_dict[cc], _gold_k, prec_at_k_dicts[cc][_gold_k], recall_at_k_dicts[cc][_gold_k],
+            prec_at_k_dicts[cc][20], recall_at_k_dicts[cc][20], prec_at_k_dicts[cc][100], recall_at_k_dicts[cc][100]))
     print()
     
     if result_file_path is not None:
         # Dump to csv
         _cc_records = []
         for cc in seed_aligned_concepts['alignedCategoryName'].tolist():
+            _gold_k = gold_k_dict[cc]
             _d = {
                 'concept': cc,
                 'max_k': max_k_dict[cc],
+                'gold_k': _gold_k,
                 'MRR': mrr_dict[cc],
             }
+            _p = prec_at_k_dicts[cc][_gold_k]
+            _r = recall_at_k_dicts[cc][_gold_k]
+            _f1 = 2 * _p * _r / (_p + _r + 1e-9)
+            _d[f'P@K'] = _p
+            _d[f'R@K'] = _r
+            _d[f'F1@K'] = _f1
             for k in K_list:
                 _p = prec_at_k_dicts[cc][k]
                 _r = recall_at_k_dicts[cc][k]
