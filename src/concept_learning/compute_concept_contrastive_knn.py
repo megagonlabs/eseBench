@@ -125,6 +125,7 @@ def get_concept_contrastive_knn(embed_src, embedding_dim, seed_aligned_concept_s
     
     
 def main():
+    print("Warning: no longer maintained. Use post_proc contrastive")
     args = parse_arguments()
 #     args.input_file = os.path.join(args.dataset_path, 'sent_segmentation.txt')
     args.embed_src = os.path.join(args.dataset_path, 'BERTembed+seeds.txt')

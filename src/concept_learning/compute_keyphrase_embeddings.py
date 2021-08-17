@@ -14,7 +14,9 @@ def parse_arguments():
                         required=True, help='Dataset path with intermediate output')
     parser.add_argument('-et', '--embedding_type', type=str, default='ac', required=True,
                         help='ac if averaged context. Otherwise pt if pooled tokenized')
-    parser.add_argument('-m', '--model_path', type=str, required=True, default= 'bert-base-uncased',
+    parser.add_argument('-ename', '--embedding_name', type=str, default=None, required=False,
+                        help='Name of the embedding, to append to output file name. (optional)')
+    parser.add_argument('-m', '--model_path', type=str, required=False, default='bert-base-uncased',
                         help='model_path')
     parser.add_argument('-c', '--max_context_ct', type=int, default=500, help='max. no. of context to consider')
     args = parser.parse_args()
@@ -299,12 +301,12 @@ def get_non_masking_avg_context_embeddings(model_path, input_file, max_context_c
 def main():
     args = parse_arguments()
     args.input_file = os.path.join(args.dataset_path, 'sent_segmentation.txt')
-    if args.embedding_type in ['ac', 'pt']:
-        args.embed_dest = os.path.join(args.dataset_path, 'BERTembed.txt')
-        args.embed_num = os.path.join(args.dataset_path, 'BERTembednum.txt')
+    if args.embedding_name is None:
+        args.embed_dest = os.path.join(args.dataset_path, f'BERTembed.txt')
+        args.embed_num = os.path.join(args.dataset_path, f'BERTembednum.txt')
     else:
-        args.embed_dest = os.path.join(args.dataset_path, f'BERTembed_{args.embedding_type}.txt')
-        args.embed_num = os.path.join(args.dataset_path, f'BERTembednum_{args.embedding_type}.txt')
+        args.embed_dest = os.path.join(args.dataset_path, f'BERTembed_{args.embedding_name}.txt')
+        args.embed_num = os.path.join(args.dataset_path, f'BERTembednum_{args.embedding_name}.txt')
 
     if args.embedding_type == 'ac':
         entity_embeddings, ent_freq = get_avg_context_embeddings(args.model_path, args.input_file, args.max_context_ct)

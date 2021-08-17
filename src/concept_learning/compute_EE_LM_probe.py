@@ -78,6 +78,12 @@ def EE_LMProbe(seed_concepts_path,
     ]
 
     if lm_probe_type == 'bert':
+        print("lm_probe_type='bert' is deprecated, use 'mlm'")
+        if lm_probe_model is None:
+            lm_probe = LMProbe(max_n_grams=max_n_grams)
+        else:
+            lm_probe = LMProbe(max_n_grams=max_n_grams, model_name=lm_probe_model)
+    elif lm_probe_type == 'mlm':
         if lm_probe_model is None:
             lm_probe = LMProbe(max_n_grams=max_n_grams)
         else:
@@ -100,7 +106,7 @@ def EE_LMProbe(seed_concepts_path,
     else:
         raise NotImplementedError(f"lm_probe_type = {lm_probe_type}")
     
-    if lm_probe_type in ['bert', 'joint']:
+    if lm_probe_type in ['bert', 'mlm', 'joint']:
         all_cand_entities = [e for e in all_entities if len(lm_probe.tokenizer.tokenize(e)) <= max_n_grams]
     else:
         all_cand_entities = all_entities
@@ -126,7 +132,7 @@ def EE_LMProbe(seed_concepts_path,
         extraction_results = []
         cand_scores = []  # List[Dict["cand", "score"]], for each "cand" the average score 
         
-        if lm_probe_type in ['bert', 'gpt2', 'joint']:
+        if lm_probe_type in ['bert', 'mlm', 'gpt2', 'joint']:
             # Score: prob
             cand_scores_per_template = []
             for template in probe_prompts:

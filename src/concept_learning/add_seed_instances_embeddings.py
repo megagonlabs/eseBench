@@ -19,6 +19,8 @@ def parse_arguments():
                         required=True, help='Benchmark directory path')
     parser.add_argument('-et', '--embedding_type', type=str, default='ac', required=True,
                         help='ac if averaged context. Otherwise pt if pooled tokenized')
+    parser.add_argument('-ename', '--embedding_name', type=str, default=None, required=False,
+                        help='Name of the embedding, to append to output file name. (optional)')
     parser.add_argument('-m', '--model_path', type=str, required=True, default='bert-base-uncased',
                         help='model_path')
     parser.add_argument('-c', '--max_context_ct', type=int, default=500, help='max. no. of context to consider')
@@ -238,11 +240,23 @@ def get_pooled_token_embeddings_for_entities(entities, model_path, input_file, m
 def main():
     args = parse_arguments()
     args.input_file = os.path.join(args.dataset_path, 'sentences.json')
-    args.orig_embed_dest = os.path.join(args.dataset_path, 'BERTembed.txt')
-    args.orig_embed_num = os.path.join(args.dataset_path, 'BERTembednum.txt')
-    args.new_embed_dest = os.path.join(args.dataset_path, 'BERTembed+seeds.txt')
-    args.new_embed_num = os.path.join(args.dataset_path, 'BERTembednum+seeds.txt')
+#     args.orig_embed_dest = os.path.join(args.dataset_path, 'BERTembed.txt')
+#     args.orig_embed_num = os.path.join(args.dataset_path, 'BERTembednum.txt')
+#     args.new_embed_dest = os.path.join(args.dataset_path, 'BERTembed+seeds.txt')
+#     args.new_embed_num = os.path.join(args.dataset_path, 'BERTembednum+seeds.txt')
     args.seed_aligned_concepts = os.path.join(args.benchmark_path, 'seed_aligned_concepts.csv')
+    
+    if args.embedding_name is None:
+        args.orig_embed_dest = os.path.join(args.dataset_path, f'BERTembed.txt')
+        args.orig_embed_num = os.path.join(args.dataset_path, f'BERTembednum.txt')
+        args.new_embed_dest = os.path.join(args.dataset_path, f'BERTembed+seeds.txt')
+        args.new_embed_num = os.path.join(args.dataset_path, f'BERTembednum+seeds.txt')
+    else:
+        args.orig_embed_dest = os.path.join(args.dataset_path, f'BERTembed_{args.embedding_name}.txt')
+        args.orig_embed_num = os.path.join(args.dataset_path, f'BERTembednum_{args.embedding_name}.txt')
+        args.new_embed_dest = os.path.join(args.dataset_path, f'BERTembed_{args.embedding_name}+seeds.txt')
+        args.new_embed_num = os.path.join(args.dataset_path, f'BERTembednum_{args.embedding_name}+seeds.txt')
+        
     
     if args.embedding_type == 'ac':
         emb_dim = 768

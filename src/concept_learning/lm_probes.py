@@ -12,7 +12,7 @@ import math
 import json
 from collections import defaultdict
 from annoy import AnnoyIndex
-from transformers import AutoTokenizer, AutoModel, AutoConfig
+from transformers import AutoTokenizer, AutoModel, AutoModelForMaskedLM, AutoConfig
 from transformers import BertTokenizer, BertModel, BertForMaskedLM
 from transformers import GPT2Tokenizer, GPT2LMHeadModel
 
@@ -22,18 +22,23 @@ from roberta_ses.interface import Roberta_SES_Entailment
 
 
 class LMProbe(object):
+    ''' Now supporting bert / roberta '''
     def __init__(self, model_name='bert-base-uncased', max_n_grams=5, use_gpu=False):
         self.device = torch.device('cuda' if torch.cuda.is_available() and use_gpu else 'cpu')
-        self.tokenizer = BertTokenizer.from_pretrained(model_name)
-        self.model = BertForMaskedLM.from_pretrained(model_name)
+        self.tokenizer = AutoTokenizer.from_pretrained(model_name)
+        self.model = AutoModelForMaskedLM.from_pretrained(model_name)
         self.model.to(self.device)
         self.model.eval()
         
         self.max_n_grams = max_n_grams
 
         self.mask_token = self.tokenizer.mask_token
+        self.cls_token = self.tokenizer.cls_token
+        self.sep_token = self.tokenizer.sep_token
 
     def fill_multi_mask(self, input_txt, topk=3):
+        print('Warning: LMProbe.fill_multi_mask() is not maintained')
+        
         if not (input_txt.startswith('[CLS]') and input_txt.endswith('[SEP]')):
             raise Exception('Input string must start with [CLS] and end with [SEP]')
         if not '[MASK]' in input_txt:
@@ -73,7 +78,7 @@ class LMProbe(object):
         # cands: List[str], list of untokenized candidates with any length 
         cand_bins = {i : [] for i in range(1, self.max_n_grams + 1)}
         for c in cands:
-            c_tokenized = self.tokenizer.tokenize(c)
+            c_tokenized = self.tokenizer.tokenize(' ' + c)  ## prepending ' ' for roberta 
             if len(c_tokenized) > self.max_n_grams:
 #                 print(f'{c_tokenized}: too many wordpieces')
                 continue
@@ -85,12 +90,16 @@ class LMProbe(object):
             if len(_cands) == 0:
                 continue
             
-            _input = "[CLS] " + input_txt.replace("[MASK]", "[MASK]" + " [MASK]" * (c_len - 1)) + " [SEP]"
+            _input = self.cls_token + " " + \
+                input_txt.replace("[MASK]",
+                    self.mask_token + (" " + self.mask_token) * (c_len - 1)
+                ) + " " + self.sep_token
+                
             _cand_scores = self._score_ngram_candidates(_input, _cands)
             
             for d in _cand_scores:
                 all_cand_scores.append({
-                    'cand': bert_untokenize(d['cand']),
+                    'cand': self.tokenizer.convert_tokens_to_string(d['cand']).strip(),
                     'score': d['score']
                 })
         
@@ -100,14 +109,14 @@ class LMProbe(object):
         # cands: List[List[str]], list of tokenized candidates 
         tokenized_txt = self.tokenizer.tokenize(input_txt)
         
-        if tokenized_txt[0] != "[CLS]" or tokenized_txt[-1] != "[SEP]":
-            raise Exception(f'Input string must start with [CLS] and end with [SEP], got {input_txt}')
-        if "[MASK]" not in tokenized_txt:
-            raise Exception(f'Input string must have at least one mask token, got {input_txt}')
+        if tokenized_txt[0] != self.cls_token or tokenized_txt[-1] != self.sep_token:
+            raise Exception(f'Input string must start with {self.cls_token} and end with {self.sep_token}, got {tokenized_txt}')
+        if self.mask_token not in tokenized_txt:
+            raise Exception(f'Input string must have at least one {self.mask_token}, got {tokenized_txt}')
         
         indexed_tokens = self.tokenizer.convert_tokens_to_ids(tokenized_txt)
         tokens_tensor = torch.tensor([indexed_tokens])
-        mask_indices = [i for i, x in enumerate(tokenized_txt) if x == "[MASK]"]
+        mask_indices = [i for i, x in enumerate(tokenized_txt) if x == self.mask_token]
         segment_idx = tokens_tensor * 0
         tokens_tensor = tokens_tensor.to(self.device)
         segments_tensors = segment_idx.to(self.device)

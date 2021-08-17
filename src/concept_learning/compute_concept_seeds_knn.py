@@ -18,6 +18,8 @@ def parse_arguments():
                         required=True, help='Dataset path with intermediate output')
     parser.add_argument('-b', '--benchmark_path', type=str,
                         required=True, help='Benchmark directory path')
+    parser.add_argument('-e', '--embed_src', type=str, default=None,
+                        required=False, help='Dataset path with pre-computed embeddings')
     parser.add_argument('-c', '--thread_ct', type=int, default=1,
                         help='No. of threads')
 #     parser.add_argument('-ca', '--clustering_algorithm', type=str, default='kmeans',
@@ -112,9 +114,11 @@ def get_concept_knn(embed_src, embedding_dim, seed_aligned_concept_src, cluster_
 def main():
     args = parse_arguments()
 #     args.input_file = os.path.join(args.dataset_path, 'sent_segmentation.txt')
-    args.embed_src = os.path.join(args.dataset_path, 'BERTembed+seeds.txt')
 #     args.embed_num = os.path.join(args.dataset_path, 'BERTembednum+seeds.txt')
 #     args.seed_aligned_concept_src = os.path.join(args.benchmark_path, 'seed_aligned_concepts.csv')
+
+    if args.embed_src is None:
+        args.embed_src = os.path.join(args.dataset_path, 'BERTembed+seeds.txt')
 
     if args.aux_concepts:
         args.seed_aligned_concept_src = os.path.join(args.benchmark_path, 'seed_aligned_concepts_aux.csv')
