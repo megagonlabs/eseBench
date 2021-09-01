@@ -170,7 +170,9 @@ def get_avg_context_embeddings_for_entities(entities, model_path, input_file, ma
             context_embeddings = mean_pooling(model_output, mask)  # mean pooling
             all_context_embeddings.append(context_embeddings)
             
-        assert len(all_context_embeddings) > 0
+        if len(all_context_embeddings) == 0:
+            print(f'WARNING: "{entity}" has no context')
+            continue
             
         entity_embedding = torch.mean(torch.cat(all_context_embeddings, dim=0), dim=0).cpu().detach().numpy().tolist()
         entity_embeddings[entity] = entity_embedding

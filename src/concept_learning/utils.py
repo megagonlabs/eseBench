@@ -40,6 +40,23 @@ def load_embeddings(embed_src, embedding_dim):
     df = pd.DataFrame(embeddings.items(), columns=['entity', 'embedding'])
     return df
 
+def load_embeddings_dict(embed_src, embedding_dim):
+    with open(embed_src, 'r') as fin:
+        lines = fin.readlines()
+        lines = [l.strip() for l in lines]
+
+    embeddings = {}
+    for line in lines:
+        tmp = line.split(' ')
+        if len(tmp) < embedding_dim + 1:
+            continue
+        vec = tmp[-embedding_dim:]
+        vec = [float(v) for v in vec]
+        entity = ' '.join(tmp[:(len(tmp) - embedding_dim)])
+        embeddings[entity] = vec
+    
+    return embeddings
+
 def load_seed_aligned_concepts(path):
     df = pd.read_csv(path)
     df = df[df["generalizations"] != "x"]
