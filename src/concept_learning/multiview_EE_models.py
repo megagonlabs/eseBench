@@ -77,6 +77,8 @@ class EE_Classifier(pl.LightningModule):
 #                  cc_paths,
                  embeddings_dim,
                  clf_type='mlp',
+                 loss_type='xent', # 'xent' = cross entropy, 'rank' = margin ranking loss 
+                 ranking_loss_margin=None,
                  extra_feats=['mult', 'sub'],
                  ff_dims=[256, 64],
                  diff_loss_margin=0.2,
@@ -95,6 +97,9 @@ class EE_Classifier(pl.LightningModule):
         self.views = ['emb', 'lm']  # Hard-coded for now 
         self.embeddings_dim = embeddings_dim
         self.clf_type = clf_type
+        self.loss_type = loss_type
+        self.ranking_loss_margin = ranking_loss_margin
+        
         self.extra_feats = extra_feats
         self.input_dim = (2 + len(extra_feats)) * embeddings_dim
         self.ff_dims = ff_dims
@@ -126,8 +131,37 @@ class EE_Classifier(pl.LightningModule):
             
             _head = nn.Sequential(*_layers)
             self.views_clf_heads[_v] = _head
-        
+
     def forward(self, in_batch):
+        if self.loss_type == 'rank':
+            return self._forward_pair(in_batch)
+        else:
+            return self._forward_single(in_batch)
+    
+    # New: ranking loss
+    def _forward_pair(self, in_batch):
+        pos_batch = {
+            'emb_ent': in_batch['emb_pos_ent'],
+            'emb_cc': in_batch['emb_pos_cc'],
+            'lm_ent': in_batch['lm_pos_ent'],
+            'lm_cc': in_batch['lm_pos_cc'],
+        }
+        
+        neg_batch = {
+            'emb_ent': in_batch['emb_neg_ent'],
+            'emb_cc': in_batch['emb_neg_cc'],
+            'lm_ent': in_batch['lm_neg_ent'],
+            'lm_cc': in_batch['lm_neg_cc'],
+        }
+        
+        pos_logits = self._forward_single(pos_batch)
+        neg_logits = self._forward_single(neg_batch)
+        return {
+            'pos': pos_logits,
+            'neg': neg_logits
+        }
+    
+    def _forward_single(self, in_batch):
         v2ents = dict([(_v, in_batch[f'{_v}_ent']) for _v in self.views])
         v2ccs = dict([(_v, in_batch[f'{_v}_cc']) for _v in self.views])
         
@@ -162,7 +196,7 @@ class EE_Classifier(pl.LightningModule):
             'joint_logits': joint_logits,
         }
     
-    def training_step(self, batch, batch_idx):
+    def _compute_xent_loss(self, batch, batch_idx):
         pred_logits = self(batch)
         emb_logits = pred_logits['emb_logits']
         lm_logits = pred_logits['lm_logits']
@@ -172,7 +206,57 @@ class EE_Classifier(pl.LightningModule):
         emb_loss = F.binary_cross_entropy(emb_logits, labels)
         lm_loss = F.binary_cross_entropy(lm_logits, labels)
         joint_loss = F.binary_cross_entropy(joint_logits, labels)
-        diff_loss = torch.linalg.norm(emb_logits - lm_logits)
+        diff_loss = torch.linalg.norm(torch.clamp_min(torch.abs(emb_logits - lm_logits) - self.diff_loss_margin, 0))
+        
+        return {
+            'emb_loss': emb_loss,
+            'lm_loss': lm_loss,
+            'joint_loss': joint_loss,
+            'diff_loss': diff_loss,
+        }
+    
+    # New: ranking loss
+    def _compute_rank_loss(self, batch, batch_idx):
+        pred_logits = self(batch)
+        pos_emb_logits = pred_logits['pos']['emb_logits']
+        pos_lm_logits = pred_logits['pos']['lm_logits']
+        pos_joint_logits = pred_logits['pos']['joint_logits']
+        neg_emb_logits = pred_logits['neg']['emb_logits']
+        neg_lm_logits = pred_logits['neg']['lm_logits']
+        neg_joint_logits = pred_logits['neg']['joint_logits']
+        
+        emb_loss = F.margin_ranking_loss(pos_emb_logits, neg_emb_logits,
+                                         target=torch.ones_like(pos_emb_logits),
+                                         margin=self.ranking_loss_margin)
+        lm_loss = F.margin_ranking_loss(pos_lm_logits, neg_lm_logits,
+                                        target=torch.ones_like(pos_lm_logits),
+                                        margin=self.ranking_loss_margin)
+        joint_loss = F.margin_ranking_loss(pos_joint_logits, neg_joint_logits,
+                                           target=torch.ones_like(pos_joint_logits),
+                                           margin=self.ranking_loss_margin)
+        diff_loss = \
+            torch.linalg.norm(torch.clamp_min(torch.abs(pos_emb_logits - pos_lm_logits) - self.diff_loss_margin, 0)) + \
+            torch.linalg.norm(torch.clamp_min(torch.abs(neg_emb_logits - neg_lm_logits) - self.diff_loss_margin, 0))
+        
+        return {
+            'emb_loss': emb_loss,
+            'lm_loss': lm_loss,
+            'joint_loss': joint_loss,
+            'diff_loss': diff_loss,
+        }
+    
+    def training_step(self, batch, batch_idx):
+        if self.loss_type == 'rank':
+            loss_dict = self._compute_rank_loss(batch, batch_idx)
+        elif self.loss_type == 'xent':
+            loss_dict = self._compute_xent_loss(batch, batch_idx)
+        else:
+            raise ValueError(self.loss_type)
+        
+        emb_loss = loss_dict['emb_loss']
+        lm_loss = loss_dict['lm_loss']
+        joint_loss = loss_dict['joint_loss']
+        diff_loss = loss_dict['diff_loss']
         
         loss = self.emb_loss_coef * emb_loss + self.lm_loss_coef * lm_loss + \
             self.joint_loss_coef * joint_loss + self.diff_loss_coef * diff_loss
@@ -182,37 +266,37 @@ class EE_Classifier(pl.LightningModule):
         self.log("joint_loss", joint_loss, on_step=True, on_epoch=True, prog_bar=True, logger=True)
         self.log("diff_loss", diff_loss, on_step=True, on_epoch=True, prog_bar=True, logger=True)
         self.log("loss", loss, on_step=True, on_epoch=True, prog_bar=True, logger=True)
+        
         return loss
     
     def validation_step(self, batch, batch_idx):
         with torch.no_grad():
-            pred_logits = self(batch)
-            
-        emb_logits = pred_logits['emb_logits']
-        lm_logits = pred_logits['lm_logits']
-        joint_logits = pred_logits['joint_logits']
-        labels = batch['label'].to(torch.float32)
-
-        emb_loss = F.binary_cross_entropy(emb_logits, labels)
-        lm_loss = F.binary_cross_entropy(lm_logits, labels)
-        joint_loss = F.binary_cross_entropy(joint_logits, labels)
+            if self.loss_type == 'rank':
+                loss_dict = self._compute_rank_loss(batch, batch_idx)
+            elif self.loss_type == 'xent':
+                loss_dict = self._compute_xent_loss(batch, batch_idx)
+            else:
+                raise ValueError(self.loss_type)
         
-        diff_loss = torch.linalg.norm(torch.clamp_min(torch.abs(emb_logits - lm_logits) - self.diff_loss_margin, 0))
-
+        emb_loss = loss_dict['emb_loss']
+        lm_loss = loss_dict['lm_loss']
+        joint_loss = loss_dict['joint_loss']
+        diff_loss = loss_dict['diff_loss']
+        
         loss = self.emb_loss_coef * emb_loss + self.lm_loss_coef * lm_loss + \
             self.joint_loss_coef * joint_loss + self.diff_loss_coef * diff_loss
         
-        self.log("val_emb_loss", emb_loss, on_step=False, on_epoch=True, prog_bar=False, logger=True)
-        self.log("val_lm_loss", lm_loss, on_step=False, on_epoch=True, prog_bar=False, logger=True)
-        self.log("val_joint_loss", joint_loss, on_step=False, on_epoch=True, prog_bar=False, logger=True)
-        self.log("val_diff_loss", diff_loss, on_step=False, on_epoch=True, prog_bar=False, logger=True)
-        self.log("val_loss", loss, on_step=False, on_epoch=True, prog_bar=False, logger=True)
-        
+        self.log("emb_loss", emb_loss, on_step=True, on_epoch=True, prog_bar=True, logger=True)
+        self.log("lm_loss", lm_loss, on_step=True, on_epoch=True, prog_bar=True, logger=True)
+        self.log("joint_loss", joint_loss, on_step=True, on_epoch=True, prog_bar=True, logger=True)
+        self.log("diff_loss", diff_loss, on_step=True, on_epoch=True, prog_bar=True, logger=True)
+        self.log("loss", loss, on_step=True, on_epoch=True, prog_bar=True, logger=True)
+
         return loss
     
     def predict_step(self, batch, batch_idx):
         with torch.no_grad():
-            pred_logits = self(batch)
+            pred_logits = self._forward_single(batch)
             
         emb_logits = pred_logits['emb_logits'].detach().cpu().numpy()
         lm_logits = pred_logits['lm_logits'].detach().cpu().numpy()

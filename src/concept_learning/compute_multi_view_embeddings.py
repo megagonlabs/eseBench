@@ -282,13 +282,13 @@ if __name__ == "__main__":
         args.lm_cc_dest = os.path.join(args.dataset_path, f'BERTembed_lm_concepts.txt')
         args.lm_ent_dest = os.path.join(args.dataset_path, f'BERTembed_lm_entities.txt')
 
-#     get_emb_concept_embeddings(**vars(args))
+    get_emb_concept_embeddings(**vars(args))
     if args.lm_ent_hearst:
         args.lm_ent_dest = args.lm_ent_dest.replace('.txt', '_hearst.csv')
         get_lm_probe_entity_embeddings_hearst(**vars(args))
     else:
         get_lm_probe_entity_embeddings(**vars(args))
-#     get_lm_probe_concept_embeddings(**vars(args))
+    get_lm_probe_concept_embeddings(**vars(args))
     
     
     

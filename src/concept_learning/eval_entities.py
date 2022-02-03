@@ -14,10 +14,14 @@ from utils import load_embeddings, load_seed_aligned_concepts, load_seed_aligned
 
 def parse_arguments():
     parser = argparse.ArgumentParser()
-    parser.add_argument('-pred', '--predictions_path', type=str,
-                        required=True, help='File with predicted relations')
+    parser.add_argument('-p', '-pred', '--predictions_path', type=str,
+                        required=True, help='EE predictions file path')
     parser.add_argument('-b', '--benchmark_path', type=str,
-                        required=True, help='Benchmark directory path')
+                        required=True, help='Benchmark file path')
+    parser.add_argument('-b_col', '--benchmark_label_col', type=str, default=None,
+                        required=False, help='Benchmark file column for label. If provided, this value > 0 means entity correct. (Example: "Majority") If None (default), assume all entities listed are correct.')
+    parser.add_argument('-s', '--seed_concepts_path', type=str,
+                        required=True, help='Seed concept-entities file path')
     parser.add_argument('-o', '--result_file_path', type=str, default=None,
                         required=False, help='Output result file path')
     parser.add_argument('-rank', '--ranking_by', type=str, default=None,
@@ -30,9 +34,11 @@ def parse_arguments():
 
 def evaluate_EE(predictions_path,
                 seed_concepts_path,
-                seed_relations_path,
-                benchmark_full_path,
-                ee_labels_path,
+#                 seed_relations_path,
+#                 benchmark_full_path,
+#                 ee_labels_path,
+                benchmark_path,
+                benchmark_label_col,
                 ranking_by,
                 ranking_reverse,
                 result_file_path,
@@ -48,8 +54,9 @@ def evaluate_EE(predictions_path,
     
     preds_df = pd.read_csv(predictions_path)
     
-#     all_benchmark_instances, _ = load_benchmark(benchmark_full_path, seed_concepts_path, seed_relations_path)
-    all_benchmark_instances = load_EE_labels(ee_labels_path)
+#     all_benchmark_instances = load_EE_labels(ee_labels_path)
+    all_benchmark_instances = load_EE_labels(benchmark_path, label_col=benchmark_label_col)
+    
     seed_aligned_concepts = load_seed_aligned_concepts(seed_concepts_path)
     
     mrr_dict = dict()
@@ -61,26 +68,40 @@ def evaluate_EE(predictions_path,
         a_concept = d["alignedCategoryName"]
         u_concept = d["unalignedCategoryName"]
         seed_instances = d["seedInstances"]
+        seed_instances = [e.lower() for e in seed_instances]
+        ## It is possible that benchmark doesn't include all concepts (e.g. test-in-concept/domain)
+        if a_concept not in all_benchmark_instances:
+            continue
 
 #         concept_knn_instances = concept_knn[concept_knn["concept"] == a_concept]["neighbor"].to_list()
 #         pred_instances = preds_df[preds_df["concept"] == a_concept]["neighbor"].to_list()
         pred_rows = preds_df[preds_df["concept"] == a_concept].to_dict('records')
         if ranking_by is not None:
             assert ranking_by in preds_df.columns, f'{ranking_by} not in {preds_df.columns}'
+            random.seed(127)
+            random.shuffle(pred_rows)
             pred_rows.sort(key=lambda r: r[ranking_by], reverse=ranking_reverse)
-        pred_instances = [r['neighbor'] for r in pred_rows]
+            
+        pred_instances = []
+        ## @YS: dedup 
+        for r in pred_rows:
+            e = r['neighbor'].lower()
+            if e not in pred_instances:
+                pred_instances.append(e)
+        
         ## @YS: not including seeds for evaluation!
         pred_instances = [_e for _e in pred_instances if _e not in seed_instances]
 
 #         _b_head_instances = benchmark[benchmark["n_head_category"] == a_concept]["n_head"].to_list()
 #         _b_tail_instances = benchmark[benchmark["n_tail_category"] == a_concept]["n_tail"].to_list()
 #         benchmark_instances = list(set(_b_head_instances + _b_tail_instances))
-        benchmark_instances = all_benchmark_instances[a_concept]
+        benchmark_instances = list(set([e.lower() for e in all_benchmark_instances[a_concept]]))
         non_seed_instances = [e for e in benchmark_instances if e not in seed_instances]
         gold_k = len(non_seed_instances)
 
         vprint(f'Concept: {a_concept} / {u_concept}')
         vprint(f'seeds: {seed_instances}')
+        vprint(f'preds: {pred_instances[:20]}')
         b_inst_ranks = dict()
         recip_ranks = []
         hit_n_dict = dict([(k, 0) for k in K_list])
@@ -116,7 +137,9 @@ def evaluate_EE(predictions_path,
         _prec_d = dict()
         for k in K_list + [gold_k]:
             _r = 1.0 * hit_n_dict[k] / len(non_seed_instances)
-            _p = 1.0 * hit_n_dict[k] / min(k, len(pred_instances))
+            ## Using K even if exceeding # preds 
+            _p = 1.0 * hit_n_dict[k] / k
+            #_p = 1.0 * hit_n_dict[k] / min(k, len(pred_instances))
             _recall_d[k] = _r
             _prec_d[k] = _p
         recall_at_k_dicts[a_concept] = _recall_d
@@ -144,7 +167,11 @@ def evaluate_EE(predictions_path,
     print('{:24s}{:^8s}{:^8s}{:^8s}{:^8s}{:^8s}{:^8s}{:^8s}{:^8s}'.format(
         'Concept', 'Max K', 'Gold K', 'P@K', 'R@K', 'P@20', 'R@20', 'P@100', 'R@100'))
     for cc in seed_aligned_concepts['alignedCategoryName'].tolist():
-        _gold_k = gold_k_dict[cc]
+        try:
+            _gold_k = gold_k_dict[cc]
+        except KeyError:
+            ## cc not in benchmark
+            continue
         print('{:24s}{:^8d}{:^8d}{:^8.4f}{:^8.4f}{:^8.4f}{:^8.4f}{:^8.4f}{:^8.4f}'.format(
             cc, max_k_dict[cc], _gold_k, prec_at_k_dicts[cc][_gold_k], recall_at_k_dicts[cc][_gold_k],
             prec_at_k_dicts[cc][20], recall_at_k_dicts[cc][20], prec_at_k_dicts[cc][100], recall_at_k_dicts[cc][100]))
@@ -154,7 +181,12 @@ def evaluate_EE(predictions_path,
         # Dump to csv
         _cc_records = []
         for cc in seed_aligned_concepts['alignedCategoryName'].tolist():
-            _gold_k = gold_k_dict[cc]
+            try:
+                _gold_k = gold_k_dict[cc]
+            except KeyError:
+                ## cc not in benchmark
+                continue
+                
             _d = {
                 'concept': cc,
                 'max_k': max_k_dict[cc],
@@ -175,17 +207,25 @@ def evaluate_EE(predictions_path,
                 _d[f'R@{k}'] = _r
                 _d[f'F1@{k}'] = _f1
             _cc_records.append(_d)
+            
+        _avg_record = {'concept': 'Average'}
+        for k in _cc_records[0].keys():
+            if k == 'MRR' or '@' in k:
+                # can compute average
+                _avg_record[k] = 1.0 * sum([_d[k] for _d in _cc_records]) / len(_cc_records)
+        _cc_records.append(_avg_record)
+            
         pd.DataFrame(_cc_records).to_csv(result_file_path, index=None)
     
     return prec_at_k_dicts, recall_at_k_dicts
 
 def main():
     args = parse_arguments()
-    args.seed_concepts_path = os.path.join(args.benchmark_path, 'seed_aligned_concepts.csv')
+#     args.seed_concepts_path = os.path.join(args.benchmark_path, 'seed_aligned_concepts.csv')
 #     args.seed_relations_path = os.path.join(args.benchmark_path, 'seed_aligned_relations_nodup.csv')
-    args.seed_relations_path = None
-    args.benchmark_full_path = os.path.join(args.benchmark_path, 'benchmark_evidence_clean.csv')
-    args.ee_labels_path = os.path.join(args.benchmark_path, 'ee-labels-2.csv')
+#     args.seed_relations_path = None
+#     args.benchmark_full_path = os.path.join(args.benchmark_path, 'benchmark_evidence_clean.csv')
+#     args.ee_labels_path = os.path.join(args.benchmark_path, 'ee-labels-2.csv')
 
     evaluate_EE(**vars(args))
 

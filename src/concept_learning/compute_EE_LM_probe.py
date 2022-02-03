@@ -10,6 +10,7 @@ import math
 from annoy import AnnoyIndex
 from collections import defaultdict
 from scipy.stats import pearsonr, entropy, gmean
+import random
 
 
 from utils import load_embeddings, load_seed_aligned_concepts, load_seed_aligned_relations, get_masked_contexts
@@ -17,11 +18,13 @@ from lm_probes import LMProbe, LMProbe_GPT2, LMProbe_Joint
 
 def parse_arguments():
     parser = argparse.ArgumentParser()
-    parser.add_argument('-d', '--dataset_path', type=str,
-                        required=True, help='Dataset path with intermediate output')
-    parser.add_argument('-b', '--benchmark_path', type=str,
-                        required=True, help='Benchmark directory path')
-    parser.add_argument('-aux_cc', '--aux_concepts', action='store_true',
+    parser.add_argument('-d', '--dataset_dir', type=str, default=None,
+                        help='Dataset path with intermediate output')
+    parser.add_argument('-b', '--benchmark_dir', type=str, default=None,
+                        help='Benchmark directory path')
+    parser.add_argument('-e', '--emb_path', type=str, default=None,
+                        required=False, help='Dataset path with pre-computed embeddings')
+    parser.add_argument('-s', '--seed_concepts_path', type=str, default=None,
                         help='including auxiliary concepts')
     parser.add_argument('-o', '--dest', type=str, required=True,
                         help='Path to clusters')
@@ -31,6 +34,10 @@ def parse_arguments():
                         default=None, help='The model (e.g. "bert-base-uncased") for lm_probe')
     parser.add_argument('-ng', '--max_n_grams', type=int, default=5,
                         help='Max length of ngrams (tokenized)')
+    parser.add_argument('-s_size', '--seed_sample_size', type=int, default=None,
+                        help='Size of seed subset used in prediction. None (default) means no subset sampling')
+    parser.add_argument('-s_times', '--seed_sample_times', type=int, default=1,
+                        help='How many subsets to use (sample) in prediction.')
     parser.add_argument('-agg', '--template_agg', default='max', choices=['max', 'avg'],
                         help='How to aggregate scores from each template')
     parser.add_argument('-topk', '--topk', type=int, default=None,
@@ -50,6 +57,8 @@ def EE_LMProbe(seed_concepts_path,
                concepts=None,
                embedding_dim=768,
                max_n_grams=5,
+               seed_sample_size=None,
+               seed_sample_times=1,
                topk=None,
                dest=None,
                **kwargs):
@@ -58,6 +67,8 @@ def EE_LMProbe(seed_concepts_path,
     "dress code, such as jeans, [MASK] and shirts." or 
     "dress code, including jeans, [MASK] and shirts." or
     "jeans, [MASK], shirts and other dress code" or 
+    
+    seed_sample_size, seed_sample_times: for seed self-sampling (each time random sample x seeds, do y times, average)
     '''
     
     seed_concepts_df = load_seed_aligned_concepts(seed_concepts_path)
@@ -128,31 +139,56 @@ def EE_LMProbe(seed_concepts_path,
         # c_head_tokenized = lm_probe.tokenizer.tokenize(c_head)
         seeds = seed_instances_dict[cc]
         cc_phrase = ' '.join(cc.split('_'))
+        
+        if (seed_sample_size is None) or (seed_sample_size >= len(seeds)):
+            seed_subsets = [seeds]
+        else:
+            # subset sampling 
+            assert seed_sample_size >= 2, seed_sample_size
+            assert seed_sample_times >= 1, seed_sample_times
+            seed_subsets = [random.sample(seeds, k=seed_sample_size) for _ in range(seed_sample_times)]
 
         extraction_results = []
-        cand_scores = []  # List[Dict["cand", "score"]], for each "cand" the average score 
+        cand_scores = []  ## List[Dict["cand": str, "score": float]], the avg score of "cand" over templates & subsets 
         
         if lm_probe_type in ['bert', 'mlm', 'gpt2', 'joint']:
-            # Score: prob
-            cand_scores_per_template = []
+            ## Score: prob
+            
+            ## List[List[Dict["cand": str, "score": float]]], on each template, the avg score of each cand over subsets
+            cand_scores_per_template = []  
+            
             for template in probe_prompts:
-                # template: {0} = concept, {1-3} = instances
-                _input_txt = template.format(cc_phrase, ', '.join(seeds[:-1]), '[MASK]', seeds[-1])
-                # print(_input_txt)
-                _cand_scores = lm_probe.score_candidates(_input_txt, all_cand_entities)
-                _cand_scores.sort(key=lambda d : d["cand"])
-                # List[Dict["cand", "score"]]
+                ## List[List[Dict["cand": str, "score": float]]], on each subset, the score of each cand
+                _cand_scores_per_subset = []  
+                for _seeds in seed_subsets:
+                    ## template: {0} = concept, {1-3} = instances
+                    _input_txt = template.format(cc_phrase, ', '.join(_seeds[:-1]), '[MASK]', _seeds[-1])
+                    # print(_input_txt)
+                    _cand_scores = lm_probe.score_candidates(_input_txt, all_cand_entities)
+                    _cand_scores.sort(key=lambda d : d["cand"])
+                    _cand_scores_per_subset.append(_cand_scores)
+                
+                ## List[Dict["cand": str, "score": float]], the score of each cand (on this template)
+                _cand_scores = []
+                for _cand_score_lst in zip(*_cand_scores_per_subset):
+                    ## _cand_score_lst: List[Dict["cand": str, "score": float]], on each subset, the score of "cand"
+                    _cand = _cand_score_lst[0]["cand"]
+                    assert all(d["cand"] == _cand for d in _cand_score_lst), _cand_score_lst
+                    _score = sum([d["score"] for d in _cand_score_lst]) / len(_cand_score_lst)
+                    # _score = np.log(_score)
+                    _cand_scores.append({"cand": _cand, "score": _score})
+                    
                 cand_scores_per_template.append(_cand_scores)
 
             for _cand_score_lst in zip(*cand_scores_per_template):
-                # _cand_score_lst: List[Dict["cand", "score"]], for the same "cand" and different template 
+                ## _cand_score_lst: List[Dict["cand": str, "score": float]], on each template, the score of "cand" 
                 _cand = _cand_score_lst[0]["cand"]
                 assert all(d["cand"] == _cand for d in _cand_score_lst), _cand_score_lst
                 _score = tmpl_agg_func([d["score"] for d in _cand_score_lst])
                 # _score = np.log(_score)
                 cand_scores.append({"cand": _cand, "score": _score})
         elif lm_probe_type in ['pmi', 'pmi_greedy']:
-            # Score: PMI 
+            ## Score: PMI 
             raise NotImplementedError
             
 
@@ -183,18 +219,23 @@ def EE_LMProbe(seed_concepts_path,
 def main():
     args = parse_arguments()
 
-    if args.aux_concepts:
-        args.seed_concepts_path = os.path.join(args.benchmark_path, 'seed_aligned_concepts_aux.csv')
-    else:
-        args.seed_concepts_path = os.path.join(args.benchmark_path, 'seed_aligned_concepts.csv')
+    if args.seed_concepts_path is None:
+        args.seed_concepts_path = os.path.join(args.benchmark_dir, 'seed_aligned_concepts.csv')
+#     if args.aux_concepts:
+#         args.seed_concepts_path = os.path.join(args.benchmark_path, 'seed_aligned_concepts_aux.csv')
+#     else:
+#         args.seed_concepts_path = os.path.join(args.benchmark_path, 'seed_aligned_concepts.csv')
+        
 #     args.corpus_path = os.path.join(args.dataset_path, 'sentences_with_company.json')
-    args.emb_path = os.path.join(args.dataset_path, 'BERTembed+seeds.txt')
+    if args.emb_path is None:
+        args.emb_path = os.path.join(args.dataset_dir, 'BERTembed+seeds.txt')
     
     if args.template_agg == 'max':
         args.tmpl_agg_func = lambda l : max(l)
     elif args.template_agg == 'avg':
         args.tmpl_agg_func = lambda l : (sum(l) / len(l))
     
+    random.seed(123)
     EE_LMProbe(**vars(args))
 
 

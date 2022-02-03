@@ -126,13 +126,17 @@ def load_benchmark(benchmark_full_path,
     return all_concepts, all_rel_tuples
 
 
-def load_EE_labels(ee_labels_path):
+def load_EE_labels(ee_labels_path, label_col=None):
     ee_labels_df = pd.read_csv(ee_labels_path)
     concept_list = list(set(ee_labels_df['concept'].tolist()))
 
     ee_labels_dict = dict()
     for _cc in concept_list:
-        ee_labels_dict[_cc] = ee_labels_df[ee_labels_df['concept'] == _cc]['neighbor'].tolist()
+        _cc_df = ee_labels_df[ee_labels_df['concept'] == _cc]
+        # Added: label column 
+        if label_col is not None:
+            _cc_df = _cc_df[_cc_df[label_col] > 0]
+        ee_labels_dict[_cc] = _cc_df['neighbor'].tolist()
 
     return ee_labels_dict
 
