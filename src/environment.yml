@@ -34,4 +34,5 @@ dependencies:
     - transformers==3.0.2
     - wget==3.2
     - ipykernel
+    - gensim
 prefix: /nfs/local/miniconda3/envs/kb_entity_expan
