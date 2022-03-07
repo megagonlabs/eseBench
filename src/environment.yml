@@ -33,4 +33,5 @@ dependencies:
     - torch==1.5.0
     - transformers==3.0.2
     - wget==3.2
+    - ipykernel
 prefix: /nfs/local/miniconda3/envs/kb_entity_expan
