@@ -10,7 +10,7 @@ import torch
 import math
 from annoy import AnnoyIndex
 
-from compute_concept_clusters import load_embeddings
+from .compute_concept_clusters import load_embeddings
 
 def parse_arguments():
     parser = argparse.ArgumentParser()

@@ -154,14 +154,17 @@ def get_avg_context_embeddings(model_path, input_file, max_context_ct):
     :param input_file:
     :return:
     '''
+    ent_freq, ent_context = get_masked_contexts(input_file)
+
+    print('loading model')
     tokenizer = AutoTokenizer.from_pretrained(model_path)
     model = AutoModel.from_pretrained(model_path)
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    print(device)
     model.to(device)
     model.eval()
     mask_token_id = tokenizer.mask_token_id
 
-    ent_freq, ent_context = get_masked_contexts(input_file)
     entity_embeddings = {}
     for entity, en_context_lst in tqdm(ent_context.items(), total=len(ent_context), desc="computing entity-wise embedding"):
         en_context_lst = random.sample(en_context_lst, min(len(en_context_lst), max_context_ct))

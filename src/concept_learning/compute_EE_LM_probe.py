@@ -13,8 +13,8 @@ from scipy.stats import pearsonr, entropy, gmean
 import random
 
 
-from utils import load_embeddings, load_seed_aligned_concepts, load_seed_aligned_relations, get_masked_contexts
-from lm_probes import LMProbe, LMProbe_GPT2, LMProbe_Joint
+from .utils import load_embeddings, load_seed_aligned_concepts, load_seed_aligned_relations, get_masked_contexts
+from .lm_probes import LMProbe, LMProbe_GPT2, LMProbe_Joint
 
 def parse_arguments():
     parser = argparse.ArgumentParser()

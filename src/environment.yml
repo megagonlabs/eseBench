@@ -35,5 +35,7 @@ dependencies:
     - wget==3.2
     - ipykernel
     - gensim
+    - https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.2.5/en_core_web_sm-2.2.5.tar.gz
+
 prefix: /nfs/local/miniconda3/envs/kb_entity_expan
 

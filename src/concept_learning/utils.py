@@ -20,7 +20,7 @@ from transformers import AutoTokenizer, AutoModel, AutoConfig
 from transformers import BertTokenizer, BertModel, BertForMaskedLM
 from transformers import GPT2Tokenizer, GPT2LMHeadModel
 
-from roberta_ses.interface import Roberta_SES_Entailment
+# from roberta_ses.interface import Roberta_SES_Entailment
 
 
 def load_embeddings(embed_src, embedding_dim):

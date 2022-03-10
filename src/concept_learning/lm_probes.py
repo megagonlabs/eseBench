@@ -16,9 +16,9 @@ from transformers import AutoTokenizer, AutoModel, AutoModelForMaskedLM, AutoCon
 from transformers import BertTokenizer, BertModel, BertForMaskedLM
 from transformers import GPT2Tokenizer, GPT2LMHeadModel
 
-from utils import bert_untokenize
+from .utils import bert_untokenize
 
-from roberta_ses.interface import Roberta_SES_Entailment
+# from roberta_ses.interface import Roberta_SES_Entailment
 
 
 class LMProbe(object):
