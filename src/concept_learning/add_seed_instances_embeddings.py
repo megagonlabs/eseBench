@@ -7,6 +7,7 @@ import os
 import torch
 import pandas as pd
 import json
+from fuzzywuzzy import fuzz
 from transformers import AutoTokenizer, AutoModel, AutoConfig
 
 from compute_concept_clusters import load_embeddings
@@ -237,7 +238,12 @@ def get_pooled_token_embeddings_for_entities(entities, model_path, input_file, m
         
     return entity_embeddings, ent_freq
 
-
+def fuzzy_match(list_a, list_b):
+    tuples_list = [max([(fuzz.token_set_ratio(i,j),j) for j in list_b]) for i in list_a]
+    similarity_score, fuzzy_match = map(list,zip(*tuples_list))
+    df = pd.DataFrame({"entity":list_a, "matched_entity": fuzzy_match, "score":similarity_score})
+    df = df[df['score'] > 50]
+    return df
 
 def main():
     args = parse_arguments()
@@ -275,11 +281,27 @@ def main():
         emb_freq_dict = dict([l.strip().rsplit(' ', 1) for l in lines])
 
     concepts_df = load_seed_aligned_concepts(args.seed_aligned_concepts)
-    seed_instances_list = [inst for _, (_a_con, _u_con, _gnrl, _seed_instances) in concepts_df.iterrows()
-                               for inst in _seed_instances]
+    seed_instances_list = []
+    for e_list in concepts_df['seedInstances'].tolist():
+        for e in e_list:
+            seed_instances_list.append(e.lower())
+    # target_matches = list(emb_dict.keys())
+    # fuzzy_matched_df = fuzzy_match(seed_instances_list, target_matches)
+    # fuzzy_matched_df.to_csv('fuzzy_match.csv', index=None)
+    # fuzzy_matched_entites = fuzzy_matched_df['entity'].tolist()
+    # seed_instances_list = [inst for _, (_a_con, _u_con, _gnrl, _seed_instances) in concepts_df.iterrows()
+    #                           for inst in _seed_instances]
     print('Seed instances:', seed_instances_list)
     new_instances_list = [inst for inst in seed_instances_list if inst not in emb_dict]
-    print('New instances:', new_instances_list)
+    print('New instances: ', new_instances_list)
+    # print(len(fuzzy_matched_df))
+    # new_instances_list = [inst for inst in seed_instances_list if inst not in fuzzy_matched_entites]
+    # print('New instances:', new_instances_list)
+
+    # for i, row in fuzzy_matched_df.iterrows():
+    #     entity = row['entity']
+    #     tgt = row['matched_entity']
+    #     emb_dict[entity] = emb_dict[tgt]
     
     if args.embedding_type == 'ac':
         entity_embeddings, ent_freq = get_avg_context_embeddings_for_entities(entities=new_instances_list,
@@ -298,9 +320,11 @@ def main():
 #                                                input_file=args.input_file,
 #                                                max_context_ct=args.max_context_ct)
     
+    print('New entity embeddings: ', entity_embeddings.keys())
     for inst in new_instances_list:
-        emb_dict[inst] = entity_embeddings[inst]
-        emb_freq_dict[inst] = ent_freq[inst]
+        if inst in entity_embeddings:
+            emb_dict[inst] = entity_embeddings[inst]
+            emb_freq_dict[inst] = ent_freq[inst]
 
     print("Saving embedding")
     with open(args.new_embed_dest, 'w') as f, open(args.new_embed_num, 'w') as f2:

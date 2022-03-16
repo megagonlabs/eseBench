@@ -77,6 +77,7 @@ def get_concept_knn(embed_src, embedding_dim, seed_aligned_concept_src, cluster_
     for i, _cc_dict in tqdm(list(enumerate(seed_concepts_dicts))):
         a_concept = _cc_dict['alignedCategoryName']
         seed_instances = _cc_dict['seedInstances']
+        seed_instances = [e.lower() for e in seed_instances]
         
         embs = []
         for inst in seed_instances:
