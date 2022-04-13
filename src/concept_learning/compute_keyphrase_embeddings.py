@@ -157,7 +157,7 @@ def get_avg_context_embeddings(model_path, input_file, max_context_ct):
     ent_freq, ent_context = get_masked_contexts(input_file)
 
     print('loading model')
-    tokenizer = AutoTokenizer.from_pretrained(model_path)
+    tokenizer = AutoTokenizer.from_pretrained(model_path, use_fast=False)
     model = AutoModel.from_pretrained(model_path)
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     print(device)
