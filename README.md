@@ -1,4 +1,4 @@
-# ESEPerf: Unsupervised entity set expansion 
+# eseBench: Benchmarking low-resource entity set expansion methods 
 
 Given a corpus and a seed set of entities of user-defined categories, the goal is to find more entities that have the same categories.
 
