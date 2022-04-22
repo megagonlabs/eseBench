@@ -2,7 +2,7 @@
 
 Given a corpus and a seed set of entities of user-defined categories, entity set expansion (ESE) methods aim  to find more entities that have the same categories. In this work, we consider user-generated text to understand the generalizability of ESE methods. We develop new benchmarks and propose more rigorous evaluation metrics for assessing performance of ESE methods. Additionally, we identify phenomena such as non-named entities, multifaceted entities, vague concepts that are more prevalent in user-generated text than well-formed text, and use them to profile ESE methods.
 
-## Run the code
+# Running the code
 
 ## Step 1: Corpus pre-processing
 
@@ -85,3 +85,8 @@ For more details on the benchmark and experiments read our technical paper at [N
   year={2022}
 }
 ```
+
+# Contact
+To get help with problems using eseBench or replicating our results, please submit a GitHub issue.
+
+For personal communication related to eseBench, please contact Nikita Bhutani (nikita@megagon.ai), or Sajjadur Rahman (sajjadur@megagon.ai).
