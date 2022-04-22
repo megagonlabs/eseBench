@@ -46,14 +46,14 @@ Here is what it should look like:
 
 ## Step 3: Run the tool
 
-First create a conda environment from the provided `conda_entity_expan.yml` file. The run the following to create keywords as entity candidates from the corpus, learn their embeddings and create a ranked list of entities for each category.
+First create a conda environment from the provided `environements/conda_entity_expan.yml` file. The run the following to create keywords as entity candidates from the corpus, learn their embeddings and create a ranked list of entities for each category.
 ```
 cd src
 source activate conda_entity_expan
 ./expand_taxonomy.sh $DATASET_NAME
 ```
 
-This creates the following output files at: 
+This creates the following new output files at: 
 
 ```
 data/$DATA
