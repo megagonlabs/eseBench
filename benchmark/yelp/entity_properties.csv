@@ -1,0 +1,1635 @@
+concept,neighbor,multifaceted,non_named,vague
+ambience,comfortable vibe,False,True,False
+ambience,warm and inviting,False,True,False
+ambience,trendy spot,False,True,False
+ambience,fun atmosphere,False,True,False
+ambience,lively,False,True,False
+ambience,quiet and peaceful,False,True,False
+ambience,vintage,False,True,False
+ambience,fun loving,False,True,False
+ambience,dimly lit,False,False,False
+ambience,casual,False,True,False
+ambience,zen,False,True,False
+ambience,cozy cafe,False,True,False
+ambience,quirky,False,True,False
+ambience,social atmosphere,False,True,False
+ambience,homey feeling,False,True,False
+ambience,charming atmosphere,False,True,False
+ambience,romantic,False,True,False
+ambience,pretty chill,False,True,False
+ambience,artsy,True,True,False
+ambience,posh,False,True,False
+ambience,relaxing and enjoyable,False,True,False
+ambience,relaxed and comfortable,False,True,False
+ambience,romantic atmosphere,False,True,False
+ambience,cool vibe,False,True,False
+ambience,chic,True,True,False
+ambience,energy,False,True,False
+ambience,glam,False,True,False
+ambience,classical,False,True,False
+ambience,modern and clean,False,True,False
+ambience,casual setting,False,True,False
+ambience,an eclectic,False,True,False
+ambience,quiet atmosphere,False,True,False
+ambience,clean and bright,False,True,False
+ambience,chic atmosphere,False,True,False
+ambience,intimate setting,False,True,False
+ambience,bright and clean,False,True,False
+ambience,renovated,False,True,True
+ambience,sophisticated,True,True,False
+ambience,modern feel,False,True,False
+ambience,modern and hip,False,True,False
+ambience,hipster,False,True,False
+ambience,rich and smooth,False,True,False
+ambience,casual environment,False,True,False
+ambience,light,False,True,False
+ambience,quaint little,False,True,False
+ambience,unique,False,True,False
+ambience,an upscale,False,True,False
+ambience,modern and rustic,False,True,False
+ambience,fun environment,False,True,False
+ambience,high class,False,True,False
+ambience,warm and cozy,False,True,False
+ambience,old world charm,False,True,False
+ambience,super cool,False,True,False
+ambience,inviting and comfortable,False,True,False
+ambience,laid back atmosphere,False,True,False
+ambience,rich and hearty,False,True,False
+ambience,cozy and romantic,False,False,False
+ambience,bright and colorful,False,True,False
+ambience,warm lighting,False,True,False
+ambience,welcoming atmosphere,False,True,False
+ambience,casual and relaxed,False,True,False
+ambience,comfortable atmosphere,False,True,False
+ambience,relaxed and casual,False,True,False
+ambience,an intimate,False,True,False
+ambience,upbeat and fun,False,True,False
+ambience,groovy,False,True,False
+ambience,low_key atmosphere,False,True,False
+ambience,elegant,False,True,False
+ambience,an old school,False,True,False
+ambience,intimate vibe,False,True,False
+ambience,casual dining,True,True,False
+ambience,trendy,False,True,False
+ambience,such a great vibe,False,True,False
+ambience,nice,False,True,False
+ambience,homey,False,True,False
+ambience,casual and comfortable,False,True,False
+ambience,chill vibe,False,True,False
+ambience,fun and upbeat,False,True,False
+ambience,minimalist,False,True,False
+ambience,fun and lively,False,True,False
+ambience,urban,False,True,False
+ambience,very friendly and cheerful,False,True,False
+ambience,cool atmosphere,False,True,False
+ambience,friendly,False,True,False
+ambience,bright and modern,False,True,False
+ambience,cosmopolitan,True,True,False
+ambience,eclectic,False,True,False
+ambience,fun,False,True,False
+ambience,relaxed,False,True,False
+ambience,cute and cozy,False,True,False
+ambience,bright and airy,False,True,False
+ambience,bright and cheerful,False,True,False
+ambience,warm and comforting,False,True,False
+ambience,whimsical,False,True,False
+ambience,warm and welcoming,False,True,False
+ambience,elegant atmosphere,False,True,False
+ambience,higher end,False,True,False
+ambience,chill,False,True,False
+ambience,informal,False,True,False
+ambience,modern,True,True,False
+ambience,romantics,False,True,False
+ambience,energetic,False,True,False
+ambience,quiet and relaxing,False,True,False
+ambience,minimalistic,False,True,False
+ambience,clean and comfortable,False,True,False
+ambience,chill environment,False,True,False
+ambience,cozy and comfortable,False,False,False
+ambience,relaxed vibe,False,True,False
+ambience,retro,False,True,False
+ambience,laid back,False,True,False
+ambience,smooth and rich,False,True,False
+ambience,upscale,False,True,False
+ambience,old timey,False,True,False
+ambience,formal,False,True,False
+ambience,quiet,False,True,False
+ambience,intimate and romantic,False,True,False
+ambience,casual_dining experience,False,False,False
+ambience,clean and modern,False,True,False
+ambience,relaxed atmosphere,False,True,False
+ambience,hip ambiance,False,True,False
+ambience,fun vibe,False,True,False
+ambience,casual atmosphere,False,True,False
+ambience,hipster vibe,False,True,False
+ambience,luxurious,False,True,False
+ambience,hip,False,True,False
+ambience,first class,False,False,True
+ambience,well lit,False,True,False
+ambience,comfortable environment,False,True,False
+ambience,old school,False,True,False
+ambience,private,True,True,False
+ambience,high energy,False,True,False
+ambience,fast casual,False,True,False
+ambience,pleasant environment,False,True,False
+ambience,hip and modern,False,True,False
+ambience,bright,False,True,False
+ambience,comfortable and relaxing,False,True,False
+ambience,intricate,False,True,False
+ambience,modern and upscale,False,True,False
+ambience,no frills,False,True,False
+ambience,funky,False,True,False
+ambience,new age,False,True,False
+amenities,brewery,True,True,True
+amenities,free wifi,False,True,False
+amenities,free parking,True,True,False
+amenities,games,False,True,True
+amenities,fountain,False,True,False
+amenities,casino,True,True,True
+amenities,library,False,True,True
+amenities,jukebox,False,True,False
+amenities,parking spots,False,True,False
+amenities,plenty of tv,False,True,False
+amenities,wi fi,False,False,False
+amenities,wheelchair,False,True,False
+amenities,internet,False,True,False
+amenities,ladies room,False,True,False
+amenities,water,True,True,True
+amenities,theatre,False,False,True
+amenities,radio,False,True,True
+amenities,media,False,True,True
+amenities,sports games,False,True,True
+amenities,telephones,False,True,True
+amenities,wireless,False,True,False
+amenities,book,False,True,True
+amenities,valet,False,True,False
+amenities,big screen,False,True,False
+amenities,beach,True,True,True
+amenities,cup of coffee,True,True,True
+amenities,t.v,False,True,False
+amenities,telephone,False,True,False
+amenities,massage,False,True,True
+amenities,game,False,True,True
+amenities,play,False,True,True
+amenities,bike parking,False,True,False
+amenities,self park,True,True,False
+amenities,cafeteria,True,True,False
+amenities,flat screen tv,False,True,False
+amenities,valet park,True,True,False
+amenities,television,False,True,False
+amenities,free entertainment,False,True,False
+amenities,band,False,True,False
+amenities,play area,False,True,False
+amenities,entertainment,False,True,False
+amenities,televisions,False,True,False
+amenities,music,False,True,False
+amenities,credit card machine,False,True,False
+amenities,garage,True,True,False
+amenities,big screens,False,True,False
+amenities,flat screen tvs,False,True,False
+amenities,theater,False,True,False
+amenities,poker,False,True,True
+amenities,elevator,True,True,False
+amenities,plenty of tvs,False,True,False
+amenities,hookah,False,True,True
+amenities,bar lounge,True,True,False
+amenities,stroller,False,True,True
+amenities,kid friendly,False,True,True
+amenities,yoga,False,True,True
+amenities,free internet,False,True,False
+amenities,tv,False,True,False
+amenities,play games,False,True,True
+amenities,arcade,False,True,False
+amenities,bowling,False,True,True
+amenities,convenient parking,True,True,False
+amenities,flat screens,False,True,False
+amenities,piano,False,True,False
+amenities,computers,False,True,True
+amenities,kids play area,False,True,False
+amenities,lottery,False,True,True
+amenities,tvs,False,False,False
+amenities,water fountain,True,True,True
+amenities,board games,False,True,True
+amenities,coffees,False,True,True
+amenities,aquarium,False,True,True
+amenities,pool tables,True,True,False
+amenities,wifi,False,True,False
+amenities,playground,False,True,False
+amenities,free valet,True,True,False
+amenities,live entertainment,False,True,False
+amenities,valet parking,True,True,False
+amenities,carousel,False,True,True
+amenities,cable,False,True,False
+amenities,karaoke,False,True,False
+amenities,live band,False,True,False
+amenities,barbecue,True,False,True
+amenities,pool table,True,True,False
+amenities,self parking,False,True,False
+amenities,sports tv,False,True,False
+amenities,gym,False,True,True
+amenities,outdoor bar,True,True,False
+amenities,parking spot,False,True,False
+amenities,slide,False,True,False
+amenities,dj,False,True,False
+amenities,video games,False,True,True
+amenities,parking garage,True,True,False
+amenities,sports book,False,True,True
+customers,co workers,False,True,False
+customers,lawyers,False,True,True
+customers,teacher,False,True,True
+customers,large party,False,True,False
+customers,police,False,True,True
+customers,several members,False,True,False
+customers,large parties,False,True,False
+customers,first timer,False,False,True
+customers,singles,False,True,False
+customers,student,False,True,False
+customers,young couple,False,True,False
+customers,young families,False,True,False
+customers,friday night,False,False,True
+customers,regular customers,False,True,True
+customers,work colleagues,False,True,False
+customers,group of 8,False,False,False
+customers,foodie friends,False,False,False
+customers,club member,False,True,False
+customers,girlfriends,False,True,False
+customers,place to meet up,False,True,True
+customers,tourist,False,True,False
+customers,local residents,False,True,False
+customers,larger party,False,False,False
+customers,small groups,False,True,False
+customers,town visiting family,False,True,True
+customers,family member,False,True,False
+customers,larger group,False,True,False
+customers,celebrity,False,True,False
+customers,college student,False,True,False
+customers,business men,False,True,False
+customers,big parties,False,True,False
+customers,large groups,False,True,False
+customers,office workers,False,True,False
+customers,work mates,False,True,False
+customers,work colleague,False,True,False
+customers,group of 6,False,False,False
+customers,lawyer,False,True,True
+customers,large group,False,True,False
+customers,first timers,False,False,True
+customers,young professionals,False,True,False
+customers,big group,False,True,False
+customers,other couples,False,True,False
+customers,older couple,False,True,False
+customers,larger groups,False,True,False
+customers,two other couples,False,False,False
+customers,group of 4,False,False,True
+customers,friend or family member,False,True,False
+customers,general public,False,True,False
+customers,company,False,True,False
+customers,member,False,True,False
+customers,visiting family,True,True,True
+customers,men and women,False,True,True
+customers,other patrons,False,True,True
+customers,gang,False,True,False
+customers,hotel guest,False,True,False
+customers,doctors,False,True,True
+drinks,soda fountain,False,False,False
+drinks,olive juice,False,True,False
+drinks,pinot noir,False,True,False
+drinks,specialty coffees,False,True,False
+drinks,brews,False,True,False
+drinks,cold brew,False,True,False
+drinks,orange soda,False,False,False
+drinks,sprite,False,True,False
+drinks,iced coffee,False,True,False
+drinks,ale,False,True,False
+drinks,hot chocolates,False,True,False
+drinks,bottles of wine,False,True,False
+drinks,red wine,False,True,False
+drinks,horchata,False,True,False
+drinks,cappuccino,False,True,False
+drinks,kung fu tea,False,False,False
+drinks,wines by the glass,False,True,False
+drinks,thai tea,False,False,False
+drinks,water,True,True,False
+drinks,an americano,False,True,False
+drinks,strawberry juice,False,False,False
+drinks,wines,False,True,False
+drinks,coconut juice,False,False,False
+drinks,soda,False,True,False
+drinks,hot chocolate,False,True,False
+drinks,milk,False,True,False
+drinks,fountain drink,False,True,False
+drinks,bottled sodas,False,True,False
+drinks,limoncello,False,False,False
+drinks,cocktail,False,True,False
+drinks,toro,False,True,False
+drinks,cup of coffee,True,True,False
+drinks,french_press coffee,False,True,False
+drinks,water bottle,False,True,False
+drinks,vietnamese coffee,False,False,False
+drinks,spirits,False,True,False
+drinks,kombucha,False,False,False
+drinks,americano,False,True,False
+drinks,fruity drinks,False,True,False
+drinks,gin,False,True,False
+drinks,smoothies,False,True,False
+drinks,fresh squeezed juice,False,True,False
+drinks,craft beer,False,True,False
+drinks,macchiato,False,True,False
+drinks,fresh orange_juice,False,True,False
+drinks,mango juice,False,True,False
+drinks,soda water,False,True,False
+drinks,white mocha,False,True,False
+drinks,pinot,False,True,False
+drinks,strawberry milk,True,False,False
+drinks,bourbon,False,True,False
+drinks,bottle of water,False,True,False
+drinks,champagne,False,True,False
+drinks,strawberry lemonade,False,False,False
+drinks,oolong,False,True,False
+drinks,cider,False,True,False
+drinks,vodka,False,True,False
+drinks,jamba juice,False,False,False
+drinks,smoothie,False,True,False
+drinks,coffee,False,True,False
+drinks,sodas,False,True,False
+drinks,soy latte,False,False,False
+drinks,peach tea,False,True,False
+drinks,wine,False,True,False
+drinks,coke products,False,False,False
+drinks,ice water,False,True,False
+drinks,ginger tea,False,True,False
+drinks,selection of beers,False,True,False
+drinks,tapioca,False,True,False
+drinks,latte,False,True,False
+drinks,lime margaritas,False,False,False
+drinks,honey boba,False,False,False
+drinks,mochas,False,True,False
+drinks,white wine,False,True,False
+drinks,juice,False,True,False
+drinks,sapporo,False,False,False
+drinks,bubble tea,False,True,False
+drinks,hot green_tea,False,True,False
+drinks,chai latte,False,False,False
+drinks,cream soda,False,True,False
+drinks,green juice,False,True,False
+drinks,lager,False,True,False
+drinks,root beer,False,True,False
+drinks,ginger juice,False,True,False
+drinks,cocktails,False,True,False
+drinks,ice milk,False,True,False
+drinks,espresso,False,True,False
+drinks,carrot juice,False,False,False
+drinks,brandy,False,True,False
+drinks,mango lassi,False,True,False
+drinks,mocha,False,True,False
+drinks,moonshine,False,False,False
+drinks,black tea,False,True,False
+drinks,earl grey,False,False,False
+drinks,decaf,False,True,False
+drinks,sparkling water,False,True,False
+drinks,tequila,False,True,False
+drinks,pepsi,False,False,False
+drinks,chianti,False,True,False
+drinks,merlot,False,True,False
+drinks,coke,False,False,False
+drinks,mimosa,False,True,False
+drinks,beer,False,True,False
+drinks,bottle of wine,False,True,False
+drinks,sangria,False,True,False
+drinks,chardonnay,False,True,False
+drinks,kool aid,False,False,False
+drinks,ice tea,False,True,False
+drinks,craft beers,False,True,False
+drinks,specialty coffee drinks,False,True,False
+drinks,sake,False,True,False
+drinks,saki,False,True,False
+drinks,boba,False,True,False
+drinks,rum,False,True,False
+drinks,alcohol,False,True,False
+drinks,local beers,False,True,False
+drinks,lattes,False,True,False
+drinks,cabernet,False,True,False
+drinks,drip coffee,False,True,False
+drinks,milk tea,False,True,False
+drinks,milkshake,False,True,False
+drinks,sago,False,True,False
+drinks,jicama,False,True,False
+drinks,pale ale,False,True,False
+drinks,cup of water,False,True,False
+drinks,whisky,False,True,False
+drinks,cereal milk,False,True,False
+drinks,green tea,False,True,False
+drinks,lemonade,False,True,False
+drinks,chocolate milk,False,True,False
+drinks,diet coke,False,False,False
+food_category,japanese restaurant,False,False,False
+food_category,dutch,False,False,False
+food_category,iranian,False,False,False
+food_category,gourmet,False,True,False
+food_category,arabic,False,True,False
+food_category,organic,False,True,False
+food_category,hispanic,False,False,False
+food_category,argentine,False,True,False
+food_category,southern,False,True,False
+food_category,german,False,False,False
+food_category,tibetan,False,False,False
+food_category,irish,False,False,False
+food_category,korean,False,False,False
+food_category,caribbean,False,True,False
+food_category,chinese buffet,False,False,False
+food_category,lebanese food,False,False,False
+food_category,mexican american,False,False,False
+food_category,sea food,False,True,False
+food_category,thai,False,False,False
+food_category,vegetarian vegan,False,False,False
+food_category,mediterranean,False,True,False
+food_category,seafood,False,True,False
+food_category,japanese fusion,False,False,False
+food_category,belgian,False,False,False
+food_category,pakistani food,False,False,False
+food_category,swiss,False,True,False
+food_category,turkish,False,False,False
+food_category,chinese fusion,True,False,False
+food_category,venezuelan,False,False,False
+food_category,caribbean food,False,False,False
+food_category,cambodian food,False,False,False
+food_category,egyptian,False,False,False
+food_category,chinese cultural,False,False,False
+food_category,halal,False,True,False
+food_category,filipino food,False,False,False
+food_category,traditional spanish,False,True,False
+food_category,portuguese,False,False,False
+food_category,traditional german,False,False,False
+food_category,british,False,False,False
+food_category,traditional french,False,False,False
+food_category,cambodian,False,False,False
+food_category,english,False,True,False
+food_category,russian,False,False,False
+food_category,polish,False,False,False
+food_category,jewish,False,False,False
+food_category,japanese restaurants,False,False,False
+food_category,authentic japanese,False,False,False
+food_category,traditional italian,False,False,False
+food_category,moroccan,False,False,False
+food_category,szechuan,False,False,False
+food_category,hawaiian,False,False,False
+food_category,other korean restaurants,False,False,False
+food_category,both japanese and korean,False,False,False
+food_category,swiss cheese,False,False,False
+food_category,filipino,False,True,False
+food_category,american chinese,False,False,False
+food_category,malaysian,False,False,False
+food_category,nepalese,False,False,False
+food_category,american mexican,False,True,False
+food_category,roman,False,True,False
+food_category,spanish,False,False,False
+food_category,other indian restaurants,False,False,False
+food_category,mexican,False,False,False
+food_category,real italian,False,False,False
+food_category,american,False,False,False
+food_category,french bakery,True,False,False
+food_category,szechwan,False,True,False
+food_category,true italian,False,False,False
+food_category,mexican style,False,False,False
+food_category,armenian,False,False,False
+food_category,chinese cuisine,False,False,False
+food_category,afghan,False,False,False
+food_category,danish,False,True,False
+food_category,authentic indian,False,True,False
+food_category,raman,True,True,False
+food_category,scandinavian,False,False,False
+food_category,hungarian,False,True,False
+food_category,japanese korean,False,False,False
+food_category,peruvian,False,False,False
+food_category,korean restaurants,False,False,False
+food_category,island,False,True,False
+food_category,salad,True,True,False
+food_category,tibetan food,False,False,False
+food_category,canadian,False,False,False
+food_category,mexican fusion,False,False,False
+food_category,australian,False,False,False
+food_category,fusion,False,True,False
+food_category,southern indian,False,True,False
+food_category,vegetarian,False,False,False
+food_category,chinese,False,False,False
+food_category,greek,False,True,False
+food_category,dominican,False,True,False
+food_category,artisan,False,False,False
+food_category,thai style,False,False,False
+food_category,catalan,False,True,False
+food_category,brazilian,False,False,False
+food_category,asian fusion,False,False,False
+food_category,chinese bakery,True,False,False
+food_category,european,False,False,False
+food_category,korean japanese,False,False,False
+food_category,asian,False,False,False
+food_category,latino,False,True,False
+food_category,mexican restaurants,False,False,False
+food_category,traditional korean,False,False,False
+food_category,korean fusion,False,False,False
+food_category,western,False,True,False
+food_category,vietnamese,False,False,False
+food_category,hong kong style,False,False,False
+food_category,indian restaurant,False,False,False
+food_category,latin,False,False,False
+food_category,chinese restaurant,False,False,False
+food_category,lebanese,False,False,False
+food_category,mongolian,False,False,False
+food_category,chinese style,False,False,False
+food_category,swedish,False,False,False
+food_category,barbecue,True,False,False
+food_category,korean barbecue,False,False,False
+food_category,vegan vegetarian,False,False,False
+food_category,norwegian,False,False,False
+food_category,traditional indian,False,False,False
+food_category,other mexican restaurants,False,False,False
+food_category,non vegetarian,False,True,False
+food_category,mexican food,False,False,False
+food_category,greek mediterranean,False,False,False
+food_category,persian,False,False,False
+food_category,japanese,False,False,False
+food_category,mediterranean greek,False,False,False
+food_category,cantonese,False,False,False
+food_category,indian food,False,False,False
+food_category,mexican restaurant,False,False,False
+food_category,chinese restaurants,False,False,False
+food_category,colombian,False,False,False
+food_category,thai cuisine,False,False,False
+food_category,traditional vietnamese,False,False,False
+food_dish,grilled onions,False,True,False
+food_dish,bean burrito,False,False,False
+food_dish,dan dan noodles,False,False,False
+food_dish,truffle fries,False,False,False
+food_dish,pizza,False,True,False
+food_dish,las vegas roll,False,False,False
+food_dish,pork raman,False,True,False
+food_dish,chocolates,False,True,False
+food_dish,bean sprouts,False,True,True
+food_dish,eclairs,False,True,False
+food_dish,chili,True,False,False
+food_dish,pumpkin soup,False,True,False
+food_dish,slider,False,True,False
+food_dish,honey mustard,False,True,True
+food_dish,shawarma,False,True,False
+food_dish,raman noodle,False,False,False
+food_dish,tomato salsa,False,False,False
+food_dish,hamburger,False,True,False
+food_dish,fried rice,False,True,False
+food_dish,pierogi,False,False,False
+food_dish,chicken souvlaki,False,True,False
+food_dish,barbecue chicken,False,False,False
+food_dish,guacamole,True,True,False
+food_dish,goat curry,False,True,False
+food_dish,egg noodles,False,True,False
+food_dish,wonton,False,False,False
+food_dish,salmon,False,True,False
+food_dish,potato pancakes,False,False,False
+food_dish,butter cake,False,True,False
+food_dish,sausage gravy,False,True,False
+food_dish,mango salad,False,True,False
+food_dish,toffee,False,True,False
+food_dish,butter chicken,False,True,False
+food_dish,wontons,False,True,False
+food_dish,greek salad,False,False,False
+food_dish,pasta,False,True,False
+food_dish,red curry,True,True,False
+food_dish,ham and cheese,False,True,False
+food_dish,yakisoba,False,True,False
+food_dish,pulled_pork sandwich,False,True,False
+food_dish,cucumber salad,False,True,False
+food_dish,menudo,False,False,False
+food_dish,strawberry milk,True,False,False
+food_dish,macaroons,False,True,False
+food_dish,tom kha,False,False,False
+food_dish,chicken breast,False,True,True
+food_dish,pumpkin curry,False,False,False
+food_dish,papaya salad,False,True,False
+food_dish,wheat noodles,False,True,False
+food_dish,pear salad,False,True,False
+food_dish,jerk chicken,False,True,False
+food_dish,fries,False,True,False
+food_dish,scallion pancake,False,True,False
+food_dish,cheese curds,False,True,False
+food_dish,almond cake,False,True,False
+food_dish,cream corn,False,True,False
+food_dish,bok choy,False,True,True
+food_dish,cheeseburgers,False,True,False
+food_dish,roast_beef sandwich,False,True,False
+food_dish,cornbread,False,True,False
+food_dish,raman,True,True,False
+food_dish,pretzel,False,True,False
+food_dish,rice bowl,False,True,False
+food_dish,brisket,False,True,True
+food_dish,sorbet,False,False,False
+food_dish,garlic bread,False,False,False
+food_dish,salad,True,True,False
+food_dish,garlic edamame,False,False,False
+food_dish,rice,True,True,False
+food_dish,seafood pasta,False,True,False
+food_dish,meatloaf,False,True,False
+food_dish,new york steak,False,False,False
+food_dish,falafel,False,True,False
+food_dish,bruschetta,False,True,False
+food_dish,walnut cake,False,False,False
+food_dish,carnitas taco,False,False,False
+food_dish,shrimp tacos,False,True,False
+food_dish,mochi,False,False,False
+food_dish,tempura,False,True,False
+food_dish,flatbread pizza,False,True,False
+food_dish,gnocchi,False,False,False
+food_dish,onion soup,False,True,False
+food_dish,sweet potato fries,False,True,False
+food_dish,gyro,False,True,False
+food_dish,couscous,False,True,False
+food_dish,pork dumpling,False,True,False
+food_dish,frittata,False,False,False
+food_dish,octopus salad,False,True,False
+food_dish,pumpkin bread,False,True,False
+food_dish,pate,False,True,False
+food_dish,kimchi,False,False,False
+food_dish,turkey bacon,False,False,True
+food_dish,mac n cheese,False,False,False
+food_dish,chicken vindaloo,False,True,False
+food_dish,burrito bowl,False,False,False
+food_dish,teriyaki bowl,False,True,False
+food_dish,salmon sashimi,False,False,False
+food_dish,wonton soup,False,False,False
+food_dish,deep dish pizza,False,True,False
+food_dish,churro,False,True,False
+food_dish,grilled cheese sandwich,False,True,False
+food_dish,risotto,False,True,False
+food_dish,blueberry pancake,False,True,False
+food_dish,cake,False,True,False
+food_dish,sauerkraut,True,True,False
+food_dish,hangar steak,False,True,False
+food_dish,mushroom risotto,False,True,False
+food_dish,chowder,False,True,False
+food_dish,squash soup,False,True,False
+food_dish,tomato soup,False,False,False
+food_dish,katsu chicken,False,False,False
+food_dish,penne,False,True,True
+food_dish,birthday cake,False,True,False
+food_dish,corn beef hash,False,True,False
+food_dish,chow mien,False,False,False
+food_dish,teriyaki beef,False,False,False
+food_dish,lentil soup,False,True,False
+food_dish,cookies,False,True,False
+food_dish,chicken quesadilla,False,True,False
+food_dish,turkey sausage,False,False,False
+food_dish,onion pancakes,False,False,False
+food_dish,tiramisu,False,False,False
+food_dish,fresh baked breads,False,True,False
+food_dish,mango salsa,False,False,False
+food_dish,chili cheese,False,False,True
+food_dish,banchan,False,False,False
+food_dish,souvlaki,False,True,False
+food_dish,cakes,False,True,False
+food_dish,paella,False,True,False
+food_dish,tempura shrimp,False,True,False
+food_dish,meatball sandwich,False,True,False
+food_dish,cake pops,False,True,False
+food_dish,grilled_cheese sandwich,False,True,False
+food_dish,spring roll,False,True,False
+food_dish,wedding cake,False,True,False
+food_dish,kale salad,False,True,False
+food_dish,greek fry,False,False,False
+food_dish,noodles,False,True,False
+food_dish,gazpacho,False,False,False
+food_dish,fresh cut fries,False,True,False
+food_dish,torta,False,True,False
+food_dish,fresh baked bread,False,True,False
+food_dish,sweet potato tots,False,True,False
+food_dish,singapore noodle,False,False,False
+food_dish,soup,False,True,False
+food_dish,cannoli,False,False,False
+food_dish,chicken shawarma,False,True,False
+food_dish,mousse,False,True,False
+food_dish,banana pancakes,False,True,False
+food_dish,rotisserie chicken,False,True,False
+food_dish,fried pickles,False,True,False
+food_dish,mushroom soup,False,True,False
+food_dish,stew,False,True,False
+food_dish,monkey bread,False,True,False
+food_dish,ny style pizza,False,True,False
+food_dish,vermicelli,True,False,True
+food_dish,cabbage salad,False,True,False
+food_dish,udon,False,True,False
+food_dish,vanilla cake,False,False,False
+food_dish,miso salmon,False,False,False
+food_dish,tuna sandwich,False,True,False
+food_dish,plain rice,False,True,False
+food_dish,samosa,False,True,False
+food_dish,sweet and sour chicken,False,True,False
+food_dish,white pizza,False,True,False
+food_dish,ham and cheese sandwich,False,True,False
+food_dish,burrito,False,False,False
+food_dish,yakitori,False,True,False
+food_dish,pork sausage,False,True,True
+food_dish,taco,False,False,False
+food_dish,carpaccio,False,True,False
+food_dish,tuna taco,False,True,False
+food_dish,cajun fries,False,False,False
+food_dish,apple cake,False,False,False
+food_dish,muffin,False,True,False
+food_dish,chicago style pizza,False,False,False
+food_dish,congee,False,False,False
+food_dish,polenta,True,True,False
+food_dish,tomato cream,False,False,True
+food_dish,wheat bread,False,True,False
+food_dish,chicken teriyaki,False,True,False
+food_dish,shaved ice,False,True,False
+food_dish,croissant,False,True,False
+food_dish,spinach salad,False,True,False
+food_dish,blt,False,True,False
+food_dish,pancake,False,True,False
+food_dish,chicken satay,False,True,False
+food_dish,spicy rice cake,False,True,False
+food_dish,walnut bread,False,False,False
+food_dish,cheesecake,False,True,False
+food_dish,naan,False,True,False
+food_dish,fried chicken sandwich,False,True,False
+food_dish,cupcakes,False,True,False
+food_dish,sliders,False,True,False
+food_dish,belgian waffle,False,False,False
+food_dish,miso,True,True,False
+food_dish,pudding,False,True,False
+food_dish,kung pao chicken,False,False,False
+food_dish,catfish,True,True,True
+food_dish,coconut shrimp,False,False,False
+food_dish,borscht,False,True,False
+food_dish,chicken strips,False,True,False
+food_dish,lamb chop,False,True,False
+food_dish,brisket sandwich,False,True,False
+food_dish,noodle dish,False,True,False
+food_dish,tofu soup,False,True,False
+food_dish,schnitzel,False,True,False
+food_dish,sandwich,False,True,False
+food_dish,soy sauce,False,True,True
+food_dish,oatmeal,False,True,False
+food_dish,onion rings,False,True,False
+food_dish,bbq bean,False,False,False
+food_dish,panna cotta,False,False,False
+food_dish,chicken marsala,False,True,False
+food_dish,creme brulee,False,False,False
+food_dish,nachos,False,True,False
+food_dish,green_tea ice_cream,False,True,False
+food_dish,noodle,True,True,False
+food_dish,deep dish,False,True,False
+food_dish,tuna salad,False,True,False
+food_dish,pulled pork sandwich,False,True,False
+food_dish,orange beef,False,False,False
+food_dish,black cod,False,True,False
+food_dish,icecream,False,True,False
+food_dish,turkey sandwich,False,False,False
+food_dish,chow mein,False,False,False
+food_dish,beef carpaccio,False,True,False
+food_dish,curry goat,False,True,False
+food_dish,crab cake,False,True,False
+food_dish,mongolian beef,False,False,False
+food_dish,popcorn chicken,False,True,False
+food_dish,ice cream,False,True,False
+food_dish,beef teriyaki,False,True,False
+food_dish,waffle,False,True,False
+food_dish,macarons,False,True,False
+food_dish,ny strip,False,True,False
+food_dish,calzone,False,True,False
+food_dish,prosciutto pizza,False,True,False
+food_dish,shrimp ceviche,False,True,False
+food_dish,sesame chicken,False,True,False
+food_dish,pan fried dumplings,False,False,False
+food_dish,bread,True,True,False
+food_dish,escargot,False,True,False
+food_dish,grill beef,False,False,False
+food_dish,bulgogi,False,True,False
+food_dish,burger,False,True,False
+food_dish,bbq_chicken pizza,False,True,False
+food_dish,sweet_potato fries,False,False,False
+food_dish,poutine,False,True,False
+food_dish,flatbread,False,True,False
+food_dish,flan,False,True,False
+food_dish,bean soup,False,True,False
+food_dish,seafood pancake,False,True,False
+food_dish,bibimbap,False,True,False
+food_dish,sundae,False,True,False
+food_dish,basil fried rice,False,False,False
+food_dish,strawberry butter,False,False,True
+food_dish,coconut rice,False,False,False
+food_dish,olive bread,False,True,False
+food_dish,tarts,False,True,False
+food_dish,mac and cheese,False,False,False
+food_dish,fish taco,False,True,False
+food_dish,potato soup,False,False,False
+food_dish,sashimi,False,True,False
+food_dish,ny steak,False,True,False
+food_dish,takoyaki,False,True,False
+food_dish,sticky toffee pudding,False,True,False
+food_dish,ahi tuna salad,False,False,False
+food_dish,chicken cutlet,False,True,False
+food_dish,tuna sashimi,False,True,False
+food_dish,udon noodle,False,True,False
+food_dish,fried noodles,False,True,False
+food_dish,chopped chicken salad,False,True,False
+food_dish,seaweed salad,False,True,False
+food_dish,omelette,False,True,False
+food_dish,spicy beef soup,False,True,False
+food_dish,antipasto,False,True,False
+food_dish,lamb kabob,False,False,False
+food_dish,pozole,False,True,False
+food_dish,garlic naan,False,True,False
+food_dish,waffle fries,False,True,False
+food_dish,pretzel bun,False,True,False
+food_dish,onion straws,False,True,False
+food_dish,lobster ravioli,False,True,False
+food_dish,cheese fondue,False,True,False
+food_dish,garden salad,False,True,False
+food_dish,focaccia,False,True,False
+food_dish,coconut soup,False,False,False
+food_dish,meatball,False,True,False
+food_dish,banana cream,False,True,False
+food_dish,carrot cake,False,False,False
+food_dish,dumpling,False,True,False
+food_dish,tator tots,False,True,False
+food_dish,pork belly taco,False,False,False
+food_dish,sausage,True,True,True
+food_dish,lobster risotto,False,True,False
+food_dish,chocolate,True,True,True
+food_dish,noodle bowl,False,True,False
+food_dish,strawberry cake,False,False,False
+food_dish,gumbo,False,True,False
+food_dish,steak,False,True,False
+food_dish,soba noodle,False,True,False
+food_dish,spicy chicken sandwich,False,True,False
+food_dish,mediterranean salad,False,False,False
+food_dish,mushroom pasta,False,True,False
+food_dish,lemon butter,True,True,True
+food_dish,sherbet,False,True,False
+food_dish,cheeseburger,False,True,False
+food_dish,texas toast,False,False,False
+food_dish,skinny fries,False,True,False
+food_dish,panini,False,True,False
+food_dish,quiche,False,True,False
+food_dish,popcorn,False,True,False
+food_dish,shredded beef taco,False,True,False
+food_dish,quinoa salad,False,False,False
+food_dish,shrimp dumpling,False,True,False
+food_dish,regular fries,False,True,False
+food_dish,green curry,False,True,False
+food_dish,bacon cheeseburger,False,True,False
+food_dish,naan bread,False,True,False
+food_dish,lumpia,False,True,False
+food_dish,gelato,False,False,False
+food_dish,mango curry,False,True,False
+food_dish,coconut cake,False,False,False
+food_dish,fondue,False,True,False
+food_dish,dark chocolate,False,True,True
+food_dish,potato pancake,False,True,False
+food_dish,ravioli,False,True,False
+food_dish,peanut chicken,False,False,False
+food_dish,baklava,False,True,False
+food_dish,truffle fry,False,True,False
+food_dish,toasted bread,False,True,False
+food_dish,pancakes,False,True,False
+food_dish,desert,False,True,True
+food_dish,noodle soup,False,True,False
+food_dish,grilled_chicken sandwich,False,True,False
+food_dish,minestrone soup,False,False,False
+food_dish,sugar cookies,False,True,False
+food_dish,garlic fries,False,False,False
+food_dish,shrimp cocktail,False,True,False
+food_dish,crab rangoon,False,True,False
+food_dish,bbq_chicken sandwich,False,False,False
+food_dish,tortellini,False,True,True
+food_dish,vegetable tempura,False,True,False
+food_dish,quesadilla,False,True,False
+food_dish,hot and sour soup,False,True,False
+food_dish,scones,False,True,False
+food_dish,tater tots,False,True,False
+food_dish,jambalaya,False,False,False
+food_dish,teriyaki chicken,False,True,False
+food_dish,rice noodles,False,True,False
+food_dish,steamed rice,False,True,False
+food_dish,corn bread,False,True,False
+ingredient,salt pepper,False,True,False
+ingredient,squash,False,True,False
+ingredient,parsley,False,False,False
+ingredient,green chilis,False,False,False
+ingredient,parsnip,False,False,False
+ingredient,celery,False,True,False
+ingredient,marshmallow,False,True,False
+ingredient,banana pepper,False,True,False
+ingredient,onion,False,True,False
+ingredient,pancetta,False,False,False
+ingredient,seaweed,False,True,False
+ingredient,cauliflower,False,True,False
+ingredient,vegetable,False,True,False
+ingredient,miso,True,True,False
+ingredient,black olive,False,True,False
+ingredient,lobster,False,True,False
+ingredient,white onion,False,True,False
+ingredient,chili,True,False,False
+ingredient,beef,False,True,False
+ingredient,cream,False,True,False
+ingredient,carrots,False,True,False
+ingredient,flour,False,True,False
+ingredient,melon,False,True,False
+ingredient,roasted onion,False,True,False
+ingredient,green tomatoes,False,True,False
+ingredient,jalepenos,False,True,False
+ingredient,coriander,False,True,False
+ingredient,catfish,True,True,False
+ingredient,matcha,False,True,False
+ingredient,jalape o,False,False,False
+ingredient,gorgonzola,False,False,False
+ingredient,siracha,False,False,False
+ingredient,honey,False,True,False
+ingredient,kalamata olive,False,True,False
+ingredient,cilantro,False,False,False
+ingredient,white pepper,False,True,False
+ingredient,lime,False,True,False
+ingredient,nori,False,True,False
+ingredient,citrus,False,True,False
+ingredient,green leaf,False,True,False
+ingredient,carrot,False,True,False
+ingredient,green onion,False,True,False
+ingredient,daikon,False,True,False
+ingredient,pear,False,True,False
+ingredient,chickpea,False,True,False
+ingredient,provolone cheese,False,True,False
+ingredient,olives,False,True,False
+ingredient,iceberg lettuce,False,False,False
+ingredient,pumpkin,False,True,False
+ingredient,green olives,False,True,False
+ingredient,chives,False,True,False
+ingredient,mozzarella cheese,False,True,False
+ingredient,buttermilk,False,True,False
+ingredient,pomegranate,False,True,False
+ingredient,arugula,False,True,False
+ingredient,salami,False,False,False
+ingredient,leek,False,True,False
+ingredient,italian sausage,False,False,False
+ingredient,white bean,False,True,False
+ingredient,butter,False,True,False
+ingredient,eggplant,False,True,False
+ingredient,mayonnaise,False,True,False
+ingredient,feta cheese,False,True,False
+ingredient,tomatoes,False,True,False
+ingredient,spinach,False,True,False
+ingredient,zucchini,False,True,False
+ingredient,horseradish,False,True,False
+ingredient,squid,False,True,False
+ingredient,guacamole,True,True,False
+ingredient,lychee,False,False,False
+ingredient,red pepper,False,True,False
+ingredient,chestnut,False,True,False
+ingredient,crawfish,False,True,False
+ingredient,artichokes,False,True,False
+ingredient,goat,False,True,False
+ingredient,shrimp,False,True,False
+ingredient,cherry tomato,False,True,False
+ingredient,duck,False,True,False
+ingredient,gouda,False,True,False
+ingredient,dill,False,True,False
+ingredient,black olives,False,True,False
+ingredient,simple syrup,False,True,False
+ingredient,jackfruit,False,True,False
+ingredient,marmalade,False,True,False
+ingredient,truffle,False,True,False
+ingredient,bell peppers,False,False,False
+ingredient,ketchup,False,True,False
+ingredient,lemon,False,True,False
+ingredient,passionfruit,False,True,False
+ingredient,liver,False,True,False
+ingredient,cashew,False,True,False
+ingredient,scallion,False,True,False
+ingredient,pine nuts,False,True,False
+ingredient,banana leaves,False,True,False
+ingredient,roasted red peppers,False,True,False
+ingredient,cheese,False,True,False
+ingredient,salted caramel,False,True,False
+ingredient,tomatillo,False,True,False
+ingredient,pink pepper,False,True,False
+ingredient,blackberry,False,True,False
+ingredient,pecorino,False,True,False
+ingredient,garlic oil,False,True,False
+ingredient,pineapple,False,True,False
+ingredient,yuzu,False,True,False
+ingredient,cucumber,False,True,False
+ingredient,mayo,False,True,False
+ingredient,glass noodle,False,True,False
+ingredient,edamame,False,True,False
+ingredient,burnt sugar,False,True,False
+ingredient,habanero,False,True,False
+ingredient,herb,False,True,False
+ingredient,mussel,False,True,False
+ingredient,green peppers,False,True,False
+ingredient,andouille sausage,False,True,False
+ingredient,apples,False,True,False
+ingredient,fennel,False,True,False
+ingredient,garlic,False,True,False
+ingredient,cantaloupe,False,True,False
+ingredient,water chestnut,False,True,False
+ingredient,pecan,False,True,False
+ingredient,peanuts,False,True,False
+ingredient,watermelon,False,True,False
+ingredient,raspberry,False,False,False
+ingredient,corn,False,True,False
+ingredient,ginger lemon,False,True,False
+ingredient,pepperoni,False,True,False
+ingredient,sausage,True,True,False
+ingredient,crab,False,True,False
+ingredient,lemon ginger,False,True,False
+ingredient,bananas,False,True,False
+ingredient,ricotta,False,True,False
+ingredient,ginger,False,True,False
+ingredient,sourdough,False,True,False
+ingredient,chocolate,True,True,False
+ingredient,noodle,True,True,False
+ingredient,almond,False,True,False
+ingredient,black sesame,False,True,False
+ingredient,rock sugar,False,True,False
+ingredient,peppers,False,True,False
+ingredient,salsa,False,True,False
+ingredient,mozzarella,False,True,False
+ingredient,avocado,False,False,False
+ingredient,jalepeno,False,True,False
+ingredient,kielbasa,False,False,False
+ingredient,goat cheese,False,True,False
+ingredient,green olive,False,True,False
+ingredient,kale,False,True,False
+ingredient,red sauce,False,True,False
+ingredient,wasabi,False,True,False
+ingredient,pepper,False,True,False
+ingredient,apple,True,False,False
+ingredient,green pepper,False,True,False
+ingredient,radish,False,True,False
+ingredient,provolone,True,True,False
+ingredient,sriracha,False,True,False
+ingredient,lemon butter,True,True,False
+ingredient,chili oil,False,False,False
+ingredient,green apple,False,True,False
+ingredient,red potatoes,False,True,False
+ingredient,tofu,False,True,False
+ingredient,truffle oil,False,True,False
+ingredient,black bean,False,True,False
+ingredient,vermicelli,True,False,False
+ingredient,hot salsa,False,True,False
+ingredient,thyme,False,True,False
+ingredient,caramel,False,True,False
+ingredient,feta,False,True,False
+ingredient,macadamia,False,True,False
+ingredient,taro,False,False,False
+ingredient,whole wheat,False,True,False
+ingredient,strawberry,False,True,False
+ingredient,apple fritters,False,False,True
+ingredient,artichoke,False,True,False
+ingredient,blueberry,False,True,False
+ingredient,pistachio,False,True,False
+ingredient,vanilla bean,False,False,False
+ingredient,lime juice,False,True,False
+ingredient,roasted garlic,False,True,False
+ingredient,nutella,False,True,False
+ingredient,vinegar,False,True,False
+ingredient,rhubarb,False,True,False
+ingredient,pork,False,True,False
+ingredient,tangerine,False,True,False
+ingredient,snow crab,False,True,False
+ingredient,octopus,False,True,False
+ingredient,cabbage,False,True,False
+ingredient,salad,True,True,True
+ingredient,chorizo,False,False,False
+ingredient,rice,True,True,False
+ingredient,plum,False,True,False
+ingredient,roasted peppers,False,True,False
+ingredient,relish,False,True,False
+ingredient,red bean,False,False,False
+ingredient,lettuce,False,True,False
+ingredient,mango,False,True,False
+ingredient,veal,False,True,False
+ingredient,cajun,False,True,True
+ingredient,chicken,False,True,False
+ingredient,hummus,False,False,False
+ingredient,parmesan,False,False,False
+ingredient,cinnamon sugar,False,True,False
+ingredient,vanilla,False,True,False
+ingredient,walnut,False,True,False
+ingredient,papaya,False,True,False
+ingredient,mushroom,False,True,False
+ingredient,quinoa,False,True,False
+ingredient,saffron,False,True,False
+ingredient,plantain,False,True,False
+ingredient,scallop,False,True,False
+ingredient,onions,False,True,False
+ingredient,raisin,False,True,False
+ingredient,passion fruit,False,True,False
+ingredient,apricot,False,True,False
+ingredient,red onion,False,True,False
+ingredient,jalapenos,False,True,False
+ingredient,polenta,True,True,True
+ingredient,potato,False,True,False
+ingredient,cranberry,False,True,False
+ingredient,prosciutto,False,True,False
+ingredient,agave,False,True,False
+ingredient,mint,False,True,False
+ingredient,sugar,False,True,False
+ingredient,tomatos,False,True,False
+ingredient,lemon pepper,False,True,False
+ingredient,broccoli,False,False,False
+ingredient,okra,False,True,False
+ingredient,fresh mozzarella,False,True,False
+ingredient,asparagus,False,True,False
+ingredient,grapefruit,False,False,False
+ingredient,bbq sauce,False,False,False
+ingredient,hazelnut,False,True,False
+ingredient,lemongrass,False,True,False
+ingredient,brie,False,True,False
+ingredient,tamarind,False,True,False
+ingredient,sun dried tomatoes,False,False,False
+ingredient,bean,False,True,False
+ingredient,lentil,False,True,False
+ingredient,asiago,False,True,False
+ingredient,bread,True,True,False
+ingredient,cherry,True,True,False
+ingredient,chive,False,True,False
+ingredient,grape,False,True,False
+ingredient,gravy,False,True,False
+ingredient,maple,False,True,False
+ingredient,aioli,False,False,False
+ingredient,jalapeno,False,True,False
+ingredient,pesto sauce,False,True,False
+ingredient,peach,False,True,False
+ingredient,kiwi,False,True,False
+ingredient,egg,False,True,False
+ingredient,mushrooms,False,True,False
+ingredient,tomato,False,False,False
+ingredient,anchovy,False,True,False
+ingredient,artichoke heart,False,True,False
+ingredient,black garlic,False,True,False
+ingredient,tahini,False,True,False
+ingredient,granola,False,True,False
+ingredient,peanut,False,False,False
+ingredient,garlic butter,False,False,False
+ingredient,shiitake mushroom,False,True,False
+ingredient,clam,False,True,False
+ingredient,coleslaw,False,True,False
+ingredient,sauerkraut,True,True,True
+ingredient,sesame,False,True,False
+ingredient,turnip,False,False,False
+ingredient,turkey,False,False,False
+ingredient,chili sauce,False,False,False
+ingredient,olive,False,True,False
+meals_served,quick snack,False,True,False
+meals_served,buffet,True,True,True
+meals_served,seafood buffet,False,True,True
+meals_served,mid meal,False,True,False
+meals_served,an early dinner,False,True,False
+meals_served,birthday dinners,False,True,True
+meals_served,lunchtime,False,True,False
+meals_served,celebration dinner,True,True,True
+meals_served,four course meal,False,False,True
+meals_served,early evening,False,False,False
+meals_served,lunch and dinner menus,False,True,False
+meals_served,lunch specials,False,True,False
+meals_served,sweet treat,True,True,False
+meals_served,brunch,False,True,False
+meals_served,mid day,False,False,False
+meals_served,luncheon,False,True,False
+meals_served,high tea,False,True,False
+meals_served,early dinner,False,True,False
+meals_served,three course meal,False,False,True
+meals_served,quick lunch,True,True,False
+meals_served,late lunch early dinner,False,True,False
+meals_served,an early lunch,False,True,False
+meals_served,co worker,False,True,True
+meals_served,an afternoon_snack,False,True,False
+meals_served,breakfast and lunch spot,False,True,False
+meals_served,breakfast lunch and dinner,False,True,False
+meals_served,lunch,False,True,False
+meals_served,quick lunches,False,True,False
+meals_served,breakfast and lunch options,False,True,False
+meals_served,breakfast and lunch items,False,True,True
+meals_served,4 course meal,False,False,True
+meals_served,lunch combo,False,True,False
+meals_served,last supper,False,True,False
+meals_served,lunch special,False,True,False
+meals_served,3 course meal,False,False,True
+meals_served,breakfast,False,True,False
+meals_served,singer,False,True,True
+meals_served,late dinner,False,True,False
+meals_served,lunches,False,True,False
+meals_served,lunch and dinner specials,False,True,False
+meals_served,breakfast or lunch,False,True,False
+occasion,hangout spot,False,True,False
+occasion,anniversary,False,True,False
+occasion,intimate dining,False,True,False
+occasion,wedding anniversary,False,True,False
+occasion,date spot,False,True,False
+occasion,year anniversary,False,False,False
+occasion,casual dining,True,True,False
+occasion,honeymoon,False,True,False
+occasion,his birthday,False,True,False
+occasion,birthday,False,True,False
+occasion,our anniversary dinner,False,True,False
+occasion,halloween,False,False,False
+occasion,corporate event,False,True,False
+occasion,celebration dinner,True,True,False
+occasion,christmas party,False,False,False
+occasion,an intimate date,False,True,False
+occasion,restaurant week menu,False,False,True
+occasion,double date,False,True,False
+occasion,special occasions,False,True,False
+occasion,study spot,False,True,False
+occasion,sweet treat,True,True,True
+occasion,family outing,False,True,False
+occasion,30th birthday,False,False,False
+occasion,special trip,False,True,False
+occasion,birthday celebrations,False,True,False
+occasion,intimate dinner,False,True,False
+occasion,private function,False,True,False
+occasion,prom,False,True,False
+occasion,summer evening,False,False,False
+occasion,quick lunch,True,True,False
+occasion,our anniversary,False,True,False
+occasion,anniversary dinner,False,True,False
+occasion,private parties,False,True,False
+occasion,wedding party,False,True,False
+occasion,our wedding day,False,True,False
+occasion,company event,False,True,False
+occasion,private,True,True,True
+occasion,carnival,False,False,True
+occasion,business trip,False,True,False
+occasion,christmas,False,False,False
+occasion,homecoming,False,True,False
+occasion,bachelorette party,False,False,False
+occasion,birthday party,False,False,False
+occasion,casual date_night,False,True,False
+occasion,our honeymoon,False,True,False
+occasion,party,False,True,False
+occasion,special treat,False,True,False
+occasion,special occasion,False,True,False
+occasion,dinner outing,False,True,False
+occasion,wedding,False,True,False
+occasion,celebrate our anniversary,False,True,False
+occasion,girls_night out,False,True,False
+occasion,little getaway,False,True,False
+occasion,lunch outing,False,True,False
+occasion,picnic,False,True,False
+occasion,holiday,False,True,False
+occasion,birthday dinner,False,True,False
+occasion,private party,False,True,False
+occasion,function,False,True,False
+occasion,group outing,False,True,False
+occasion,birthday celebration,False,True,False
+occasion,business,False,True,False
+occasion,bday,False,True,False
+occasion,marriage,False,True,True
+occasion,new years eve,False,False,False
+occasion,reading,False,True,True
+occasion,relaxing evening,False,False,False
+occasion,birthday gathering,False,True,False
+occasion,visiting family,True,True,False
+occasion,bar hopping,False,True,False
+occasion,weekend trip,False,False,False
+occasion,celebrate my birthday,False,True,False
+occasion,festival,False,True,False
+occasion,valentine,False,True,False
+parking,convenient parking,True,True,False
+parking,garage,True,True,False
+parking,elevator,True,True,False
+parking,valet park,True,True,False
+parking,drive thru,True,True,False
+parking,free valet,True,True,False
+parking,valet parking,True,True,False
+parking,parking spaces,False,True,False
+parking,balcony,False,True,False
+parking,parking structure,False,True,False
+parking,free parking,True,True,False
+parking,self park,True,True,False
+parking,street corner,False,True,False
+parking,adequate parking,False,True,False
+parking,parking garage,True,True,False
+restaurant_name,red lobster,False,True,False
+restaurant_name,cajun queen,False,False,False
+restaurant_name,safari,False,False,False
+restaurant_name,pastas and pizzas,False,False,False
+restaurant_name,starbucks,False,True,False
+restaurant_name,black_bear diner,False,True,False
+restaurant_name,four peaks,False,False,False
+restaurant_name,firehouse,False,True,False
+restaurant_name,henry,False,True,False
+restaurant_name,vegas,False,False,False
+restaurant_name,ihop,False,True,False
+restaurant_name,michael mina,False,False,False
+restaurant_name,fox,False,False,False
+restaurant_name,shibuya,False,True,False
+restaurant_name,india palace,False,False,False
+restaurant_name,lawrenceville,False,False,False
+restaurant_name,cj,False,True,False
+restaurant_name,fez,False,True,False
+restaurant_name,lotus,False,False,False
+restaurant_name,china king,False,False,False
+restaurant_name,china town,False,False,False
+restaurant_name,hudson,False,True,False
+restaurant_name,india garden,False,False,False
+restaurant_name,keg,False,False,False
+restaurant_name,monarch,False,True,False
+restaurant_name,red,False,True,False
+restaurant_name,two hippies,False,False,False
+restaurant_name,pink taco,False,True,False
+restaurant_name,subway,False,True,False
+restaurant_name,chinatown,False,True,False
+restaurant_name,benihana,False,True,False
+restaurant_name,lawry,False,True,False
+restaurant_name,palace station,False,True,False
+restaurant_name,white castle,False,True,False
+restaurant_name,chinese fusion,True,False,False
+restaurant_name,excalibur,False,False,False
+restaurant_name,bobbie,False,True,False
+restaurant_name,nola,False,True,False
+restaurant_name,flemings,False,True,False
+restaurant_name,tea station,False,True,False
+restaurant_name,tiger,False,True,False
+restaurant_name,nypd,False,True,False
+restaurant_name,red dragon,False,True,False
+restaurant_name,quiznos,False,True,False
+restaurant_name,black dog,False,True,False
+restaurant_name,scottsdale,False,True,False
+restaurant_name,serendipity,False,True,False
+restaurant_name,yorkdale,False,True,False
+restaurant_name,oasis,False,True,False
+restaurant_name,orient,False,True,False
+restaurant_name,sun,False,False,False
+restaurant_name,z tejas,False,True,False
+restaurant_name,sugar factory,False,True,False
+restaurant_name,omelet house,False,True,False
+restaurant_name,holly,False,True,False
+restaurant_name,green valley,False,False,False
+restaurant_name,cactus garden,False,True,False
+restaurant_name,sammich,False,True,False
+restaurant_name,red curry,True,True,False
+restaurant_name,sunrise,False,True,False
+restaurant_name,kent,False,True,False
+restaurant_name,mango tango,False,True,False
+restaurant_name,lion,False,True,False
+restaurant_name,empire,False,True,False
+restaurant_name,olive ivy,False,True,False
+restaurant_name,ayce kbbq,False,False,False
+restaurant_name,ti,False,True,False
+restaurant_name,jersey mikes,False,False,False
+restaurant_name,jimmy john,False,False,False
+restaurant_name,subways,False,True,False
+restaurant_name,little italy,False,False,False
+restaurant_name,whole foods,False,True,False
+restaurant_name,paradise,False,True,False
+restaurant_name,red rose,False,False,False
+restaurant_name,cheesecake factory,False,False,False
+restaurant_name,apple,True,False,False
+restaurant_name,max brenner,False,False,False
+restaurant_name,provolone,True,True,False
+restaurant_name,aria,False,True,False
+restaurant_name,red rock,False,True,False
+restaurant_name,paris,False,False,False
+restaurant_name,lolita,False,True,False
+restaurant_name,jade palace,False,False,False
+restaurant_name,la bocca,False,False,False
+restaurant_name,orchid,False,True,False
+restaurant_name,phoenix,False,False,False
+restaurant_name,margaritaville,False,False,False
+restaurant_name,roast pork,False,True,False
+restaurant_name,red delicious,False,True,False
+restaurant_name,sunrise coffee,False,True,False
+restaurant_name,firefly,False,True,False
+restaurant_name,mesa,False,False,False
+restaurant_name,roma,False,True,False
+restaurant_name,cosmopolitan,True,True,False
+restaurant_name,baby stacks,False,True,False
+restaurant_name,palace,False,True,False
+restaurant_name,cafe zupas,False,True,False
+restaurant_name,pearl,False,True,False
+restaurant_name,rose,False,True,False
+restaurant_name,mesa grill,False,False,False
+restaurant_name,peter_piper pizza,False,True,False
+restaurant_name,phoenix palace,False,False,False
+restaurant_name,t bones,False,True,False
+restaurant_name,buca,False,True,False
+restaurant_name,sammie,False,True,False
+restaurant_name,gary,False,True,False
+restaurant_name,salad king,False,True,False
+restaurant_name,barrio queen,False,True,False
+restaurant_name,orchids garden,False,True,False
+restaurant_name,pei wei,False,False,False
+restaurant_name,paradise bakery,False,True,False
+restaurant_name,sysco,False,True,False
+restaurant_name,rainbow,False,True,False
+restaurant_name,five guys,False,False,False
+restaurant_name,midwood,False,True,False
+restaurant_name,rose garden,False,False,False
+restaurant_name,victoria,False,True,False
+restaurant_name,lotus leaf,False,False,False
+restaurant_name,village pub,False,True,False
+restaurant_name,mcdonalds,False,False,False
+restaurant_name,windsor,False,True,False
+restaurant_name,jersey mike,False,False,False
+restaurant_name,top golf,False,True,False
+restaurant_name,cherry,True,True,False
+restaurant_name,five guy,False,False,False
+restaurant_name,barrio,False,True,False
+restaurant_name,native new yorker,False,False,False
+restaurant_name,midwood smokehouse,False,True,False
+restaurant_name,momofuku,False,True,False
+restaurant_name,kabuki,False,True,False
+restaurant_name,yama,False,True,False
+restaurant_name,village inn,False,True,False
+restaurant_name,meat lovers,False,True,False
+restaurant_name,grassroots,False,True,False
+restaurant_name,flamingo,False,True,False
+restaurant_name,hickory tavern,False,True,False
+restaurant_name,sun city,False,False,False
+restaurant_name,thai elephant,False,False,False
+restaurant_name,honey salt,False,True,False
+restaurant_name,dragon pearl,False,False,False
+restaurant_name,opera,False,True,False
+restaurant_name,paramount,False,False,False
+restaurant_type,coffeehouse,False,True,False
+restaurant_type,school cafeteria,False,True,False
+restaurant_type,buffet,True,True,False
+restaurant_type,bakery,False,True,False
+restaurant_type,chinese bakery,True,False,False
+restaurant_type,restaurant,False,True,False
+restaurant_type,bistro,False,True,False
+restaurant_type,local bakery,False,True,False
+restaurant_type,24 hour,False,False,True
+restaurant_type,bar lounge,True,True,False
+restaurant_type,brewery,True,True,False
+restaurant_type,french bakery,True,False,False
+restaurant_type,sophisticated,True,True,True
+restaurant_type,cafeteria style,False,True,False
+restaurant_type,boutique,False,True,True
+restaurant_type,deli,False,True,False
+restaurant_type,steak house,False,False,False
+restaurant_type,fast food restaurant,False,True,False
+restaurant_type,cafe,False,True,False
+restaurant_type,supermarket,False,True,False
+restaurant_type,gastropub,False,True,False
+restaurant_type,casino,True,True,False
+restaurant_type,cafeteria,True,True,False
+restaurant_type,steakhouse,False,True,False
+restaurant_type,sit down,False,True,False
+restaurant_type,catering business,False,True,False
+restaurant_type,breakfast joint,False,True,False
+restaurant_type,local diner,False,True,False
+restaurant_type,artsy,True,True,True
+restaurant_type,diner style,False,True,True
+restaurant_type,local tavern,False,True,False
+restaurant_type,lounge club,True,True,False
+restaurant_type,fast food type,False,True,False
+restaurant_type,outdoor bar,True,True,False
+restaurant_type,tavern,False,True,False
+restaurant_type,bakeries,False,True,False
+restaurant_type,taco truck,False,False,False
+restaurant_type,noodle house,False,False,False
+restaurant_type,grocery shop,False,True,False
+restaurant_type,chic,True,True,True
+restaurant_type,food court,False,True,False
+restaurant_type,pub,False,True,False
+restaurant_type,izakaya,False,True,False
+restaurant_type,modern,True,True,True
+restaurant_type,diner,False,True,False
+restaurant_type,fast food joint,False,True,False
+restaurant_type,hospital cafeteria,False,True,False
+restaurant_type,brew house,False,True,False
+restaurant_type,patisserie,False,True,False
+seating_arrangement,an outdoor_patio,False,True,False
+seating_arrangement,bar style seating,False,True,False
+seating_arrangement,many open tables,False,True,False
+seating_arrangement,window seat,False,True,False
+seating_arrangement,separate room,False,True,False
+seating_arrangement,open seats,False,True,False
+seating_arrangement,outdoor area,False,True,False
+seating_arrangement,patio _ seating area,False,True,False
+seating_arrangement,outside terrace,False,True,False
+seating_arrangement,high top tables,False,True,False
+seating_arrangement,pond,False,True,False
+seating_arrangement,vip area,False,True,False
+seating_arrangement,casino,True,True,False
+seating_arrangement,comfy booths,False,True,False
+seating_arrangement,wooden table,False,True,False
+seating_arrangement,outdoor seating,False,True,False
+seating_arrangement,sit on the patio,False,True,False
+seating_arrangement,outdoor_patio area,False,True,False
+seating_arrangement,stadium seating,False,True,False
+seating_arrangement,dining room,False,True,False
+seating_arrangement,lake,False,True,False
+seating_arrangement,river,False,True,False
+seating_arrangement,smoking floor,False,True,False
+seating_arrangement,bowling area,False,True,False
+seating_arrangement,auditorium,False,True,False
+seating_arrangement,beach,True,True,False
+seating_arrangement,canal,False,True,False
+seating_arrangement,pool deck,False,True,False
+seating_arrangement,sit outside,False,True,False
+seating_arrangement,large outdoor_patio,False,True,False
+seating_arrangement,vip seating,False,False,False
+seating_arrangement,small seating_area,False,True,False
+seating_arrangement,beautiful patio,False,True,False
+seating_arrangement,covered patio,False,True,False
+seating_arrangement,rooftop patio,False,True,False
+seating_arrangement,wood tables,False,True,False
+seating_arrangement,veranda,False,False,False
+seating_arrangement,booth or table,False,True,False
+seating_arrangement,outside eating area,False,True,False
+seating_arrangement,cafeteria,True,True,False
+seating_arrangement,front yard,False,True,False
+seating_arrangement,patio area,False,True,False
+seating_arrangement,jacuzzi,False,True,False
+seating_arrangement,patio,False,True,False
+seating_arrangement,outdoor_patio seating,False,True,False
+seating_arrangement,rooftop deck,False,True,False
+seating_arrangement,interior space,False,False,False
+seating_arrangement,outdoor _ seating area,False,True,False
+seating_arrangement,fire pit,False,True,False
+seating_arrangement,outdoor,False,True,False
+seating_arrangement,out door seating,False,True,False
+seating_arrangement,outside seating area,False,True,False
+seating_arrangement,front porch,False,True,False
+seating_arrangement,bar lounge _ area,False,True,False
+seating_arrangement,bar lounge,True,True,False
+seating_arrangement,indoor _ seating area,False,True,False
+seating_arrangement,porch,False,True,False
+seating_arrangement,main dining_area,False,False,False
+seating_arrangement,outside patio _ area,False,False,False
+seating_arrangement,outdoor _ patio area,False,False,False
+seating_arrangement,several open tables,False,True,False
+seating_arrangement,garden,False,True,False
+seating_arrangement,indoors,False,True,False
+seating_arrangement,outside patio_area,False,True,False
+seating_arrangement,courtyard,False,True,False
+seating_arrangement,outside deck,False,True,False
+seating_arrangement,lounge club,True,True,False
+seating_arrangement,upstairs patio,False,True,False
+seating_arrangement,outside seating,False,True,False
+seating_arrangement,lovely patio,False,True,False
+seating_arrangement,picnic tables,False,True,False
+seating_arrangement,water fountain,True,True,False
+seating_arrangement,private area,False,True,False
+seating_arrangement,main pool,False,True,False
+seating_arrangement,outdoor patio,False,True,False
+seating_arrangement,outside seating_area,False,True,False
+seating_arrangement,booth seating,False,True,False
+seating_arrangement,verandah,False,False,False
+seating_arrangement,pool tables,True,True,False
+seating_arrangement,open_air bar,False,True,False
+seating_arrangement,rooftop,False,True,False
+seating_arrangement,indoor and outdoor,False,True,False
+seating_arrangement,inside and outside seating,False,True,False
+seating_arrangement,outside patio,False,True,False
+seating_arrangement,an outdoor table,False,True,False
+seating_arrangement,arena,False,True,False
+seating_arrangement,pool table,True,True,False
+seating_arrangement,lounge bar _ area,False,True,False
+seating_arrangement,main dining_room,False,True,False
+seating_arrangement,large seating_area,False,True,False
+seating_arrangement,small seating _ area,False,False,False
+seating_arrangement,an upstairs area,False,True,False
+seating_arrangement,large seating _ area,False,False,False
+seating_arrangement,outside seating _ area,False,False,False
+seating_arrangement,an open_kitchen,False,True,False
+seating_arrangement,outdoor_seating area,False,True,False
+seating_arrangement,courtyard area,False,True,False
+seating_arrangement,picnic area,False,True,False
+seating_arrangement,outdoor bar,True,True,False
+seating_arrangement,patio_seating area,False,True,False
+seating_arrangement,upstairs area,False,True,False
+seating_arrangement,outdoor _ seating areas,False,True,False
+seating_arrangement,indoor_seating area,False,True,False
+seating_arrangement,indoor,False,True,False
+service,an online order,False,True,False
+service,mobile order,False,True,False
+service,carryout,False,True,False
+service,drive thru,True,True,False
+service,transport,False,True,True
+service,custom orders,False,True,True
+service,customer services,False,True,True
+service,carry out,False,True,False
+service,phone call,False,True,False
+service,take out orders,False,True,False
+service,website,False,True,False
+service,kung pao,False,False,True
+service,phone orders,False,True,False
+service,togo order,False,False,False
+service,drive up window,False,True,False
+service,takeout,False,True,False
+service,kiosk,False,False,True
+service,front counter,False,True,True
+service,online orders,False,True,False
+service,mobile orders,False,True,False
+service,takeout orders,False,True,False
+service,cater,False,True,False
+service,delivery,False,True,False
+service,pickup,False,True,False
+service,guest services,False,True,True
+service,takeaway,False,False,False
+service,delivery services,False,True,False
+service,ordering delivery,False,True,False
+service,grocery delivery,False,True,False
+service,concierge,False,True,True
+service,ordering online,False,True,False
+service,catering,False,True,False

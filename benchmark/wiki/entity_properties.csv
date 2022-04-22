@@ -1,0 +1,2054 @@
+concept,neighbor,multifaceted,non_named,vague
+china_provinces,guangxi,False,False,False
+china_provinces,shanxi province,False,False,False
+china_provinces,jilin,False,True,False
+china_provinces,yunnan,False,False,False
+china_provinces,hebei,False,True,False
+china_provinces,hubei,False,True,False
+china_provinces,peking,False,True,False
+china_provinces,fujian province,False,False,False
+china_provinces,anhui province,False,False,False
+china_provinces,zhejiang,False,False,False
+china_provinces,wuhan,False,False,False
+china_provinces,tianjin,False,False,False
+china_provinces,henan province,False,False,False
+china_provinces,shanghai,False,False,False
+china_provinces,ganzhou,False,False,False
+china_provinces,zhejiang province,False,False,False
+china_provinces,hubei province,False,False,False
+china_provinces,heilongjiang,False,True,False
+china_provinces,shandong province,False,False,False
+china_provinces,shaanxi,False,False,False
+china_provinces,jiangxi province,False,False,False
+china_provinces,qinghai province,False,False,False
+china_provinces,hong kong,False,False,False
+china_provinces,macau,False,False,False
+china_provinces,hunan,False,False,False
+china_provinces,jiangxi,False,False,False
+china_provinces,yunnan province,False,False,False
+china_provinces,jiangsu,False,False,False
+china_provinces,liaoning,False,True,False
+china_provinces,shaanxi province,False,False,False
+china_provinces,hebei province,False,False,False
+china_provinces,hunan province,False,False,False
+china_provinces,hainan province,False,False,False
+china_provinces,jing province,False,False,False
+china_provinces,fujian,False,False,False
+china_provinces,jilin province,False,False,False
+china_provinces,gansu,False,False,False
+china_provinces,inner mongolia,False,False,False
+china_provinces,qinghai,False,False,False
+china_provinces,guangdong,False,False,False
+china_provinces,ningxia,False,True,False
+china_provinces,shandong,False,False,False
+china_provinces,xinjiang uyghur autonomous region,False,False,False
+china_provinces,anhui,False,False,False
+china_provinces,jiangsu province,False,False,False
+china_provinces,heilongjiang province,False,False,False
+china_provinces,taiwan,False,False,False
+china_provinces,guangdong province,False,False,False
+china_provinces,liaoning province,False,False,False
+china_provinces,henan,False,False,False
+china_provinces,sichuan province,False,False,False
+china_provinces,tibet,False,False,False
+china_provinces,gyeonggi province,False,False,False
+china_provinces,beijing,False,False,False
+china_provinces,guizhou,False,False,False
+china_provinces,guangzhou,False,False,False
+china_provinces,shanxi,False,True,False
+china_provinces,xinjiang,False,False,False
+china_provinces,hainan,False,False,False
+china_provinces,gansu province,False,False,False
+china_provinces,sichuan,False,False,False
+china_provinces,chongqing,False,False,False
+us_states,colorado,False,False,False
+us_states,virginia,False,False,False
+us_states,new jersey,False,False,False
+us_states,north carolina,False,False,False
+us_states,iowa state,False,False,False
+us_states,florida state,False,False,False
+us_states,carolinas,False,False,False
+us_states,south dakota,False,False,False
+us_states,louisville,False,False,False
+us_states,oregon state,False,False,False
+us_states,maryland,False,False,False
+us_states,tennessee,False,False,False
+us_states,washington,False,False,False
+us_states,texas,False,False,False
+us_states,colorados,False,True,False
+us_states,michigan,False,False,False
+us_states,utah,False,False,False
+us_states,arkansas,False,False,False
+us_states,delawares,False,True,False
+us_states,louisiana,False,False,False
+us_states,indiana,False,False,False
+us_states,california,False,False,False
+us_states,west virginia,False,False,False
+us_states,new mexico,False,False,False
+us_states,new yorks,False,True,False
+us_states,manitoba,False,True,False
+us_states,ohio state,False,False,False
+us_states,connecticut,False,False,False
+us_states,arizona,False,False,False
+us_states,dakotas,False,True,False
+us_states,missouri,False,False,False
+us_states,north dakota,False,False,False
+us_states,minnesota,False,False,False
+us_states,kansas state,False,False,False
+us_states,wisconsin,False,False,False
+us_states,wyoming,False,True,False
+us_states,florida,False,False,False
+us_states,nevada,False,False,False
+us_states,alaska,False,False,False
+us_states,ohio,False,False,False
+us_states,western virginia,False,True,False
+us_states,maine,False,False,False
+us_states,alabama,False,False,False
+us_states,oklahoma,False,False,False
+us_states,mississippi,False,False,False
+us_states,montana,False,False,False
+us_states,washington state,False,False,False
+us_states,rhode island,False,False,False
+us_states,georgia,False,False,False
+us_states,pennsylvania,False,False,False
+us_states,idaho,False,False,False
+us_states,oregon,False,False,False
+us_states,new hampshire,False,False,False
+us_states,nj,False,True,False
+us_states,vermont,False,False,False
+us_states,iowa,False,False,False
+us_states,new york state,False,False,False
+us_states,delaware,False,False,False
+us_states,colorado state,False,False,False
+us_states,kentucky,False,False,False
+us_states,illinois,False,False,False
+us_states,kansas,False,False,False
+us_states,arizona state,False,False,False
+us_states,pa,False,True,False
+us_states,michigan state,False,False,False
+us_states,hawaii,False,True,False
+us_states,nebraska,False,False,False
+us_states,massachusetts,False,False,False
+us_states,south carolina,False,False,False
+us_states,state of colorado,False,False,False
+companies,texaco,False,False,False
+companies,nortel networks,False,False,False
+companies,kraft foods,False,False,False
+companies,playboys,False,True,False
+companies,cnet,False,True,False
+companies,logo,False,True,False
+companies,cablevision,False,True,False
+companies,gulf oil,False,True,False
+companies,staples,True,True,False
+companies,thomson reuters,False,False,False
+companies,lg electronics,False,True,False
+companies,wells fargo,False,False,False
+companies,myspace,False,True,False
+companies,ntt,False,False,False
+companies,kpmg,False,True,False
+companies,universal records,False,False,False
+companies,nec,False,False,False
+companies,pricewaterhousecoopers,False,True,False
+companies,tandem computers,False,False,False
+companies,deloitte,False,False,False
+companies,flickr,False,True,False
+companies,sony corporation,False,False,False
+companies,universal international,False,True,False
+companies,bp,False,True,False
+companies,gap,False,True,False
+companies,the guardians,False,False,False
+companies,fannie mae,False,False,False
+companies,asda,False,True,False
+companies,best buy,False,True,False
+companies,dark horse comics,False,True,False
+companies,ubs,False,True,False
+companies,verizon,False,False,False
+companies,mitsubishi motors,False,False,False
+companies,subway,False,True,False
+companies,wordpress,False,True,False
+companies,sears,False,False,False
+companies,union pacific railroad,False,False,False
+companies,dells,False,True,False
+companies,showtime,True,False,False
+companies,macromedia,False,True,False
+companies,atari,False,False,False
+companies,hudson soft,False,True,False
+companies,tata group,False,True,False
+companies,nabisco,False,False,False
+companies,radio-canada,False,False,False
+companies,sm prime holdings,False,True,False
+companies,nintendo,False,False,False
+companies,shell oil,False,False,False
+companies,duke energy,False,True,False
+companies,basf,False,False,False
+companies,spike tv,True,True,False
+companies,lloyds tsb,False,False,False
+companies,fox film corporation,False,False,False
+companies,bet,True,True,False
+companies,audi,False,False,False
+companies,adams,False,True,False
+companies,jcpenney,False,True,False
+companies,mitsubishi,False,False,False
+companies,american express,False,False,False
+companies,t mobile,False,True,False
+companies,silicon graphics,False,False,False
+companies,lufthansa,False,False,False
+companies,barclays,False,True,False
+companies,caterpillars,False,True,False
+companies,logitech,False,False,False
+companies,advanced micro devices,False,False,False
+companies,saks fifth avenue,False,False,False
+companies,fedex,False,False,False
+companies,sotheby 's,False,False,False
+companies,john hancock,False,False,False
+companies,hitachi,False,False,False
+companies,snk,False,True,False
+companies,simon property group,False,False,False
+companies,avaya,False,True,False
+companies,hbo,True,False,False
+companies,paramount pictures,False,False,False
+companies,warner bros,False,False,False
+companies,virgin america,False,False,False
+companies,apple,False,False,False
+companies,ims,False,True,False
+companies,bmw,False,False,False
+companies,huawei,False,True,False
+companies,philips,False,True,False
+companies,rolling stone,False,True,False
+companies,telus,False,True,False
+companies,intercity,False,True,False
+companies,vauxhall,False,False,False
+companies,harrises,False,True,False
+companies,american international group,False,False,False
+companies,diageo,False,True,False
+companies,pepsico,False,True,False
+companies,british telecom,False,False,False
+companies,jvc,False,True,False
+companies,asian development bank,False,False,False
+companies,interplay,False,True,False
+companies,siemens,False,False,False
+companies,china radio international,False,False,False
+companies,canadian national railways,False,False,False
+companies,nascar,True,True,False
+companies,metro-goldwyn-mayer,False,False,False
+companies,sony entertainment,False,False,False
+companies,mgm,False,False,False
+companies,sun microsystems,False,False,False
+companies,lucasarts,False,True,False
+companies,bbc one,True,False,False
+companies,digg,False,True,False
+companies,abb,False,False,False
+companies,autodesk,False,True,False
+companies,walgreens,False,True,False
+companies,gte,False,False,False
+companies,coles,False,True,False
+companies,telstra,False,True,False
+companies,abc television,True,False,False
+companies,npr,True,False,False
+companies,emc,False,False,False
+companies,the new york times,False,False,False
+companies,american financial group,False,False,False
+companies,upn,True,False,False
+companies,berkshire hathaway,False,False,False
+companies,compass,False,True,False
+companies,diamond,False,True,False
+companies,accenture,False,True,False
+companies,wal-mart,False,False,False
+companies,psa peugeot citroen,False,True,False
+companies,infosys,False,False,False
+companies,dhl,False,True,False
+companies,siemens ag,False,False,False
+companies,safeway,False,True,False
+companies,lockheed martin,False,False,False
+companies,no limit records,False,True,False
+companies,general motors,False,False,False
+companies,deutsche bank,False,False,False
+companies,intel,False,False,False
+companies,african development bank,False,False,False
+companies,costco,False,False,False
+companies,isuzu,False,False,False
+companies,cnn,True,False,False
+companies,renault,False,False,False
+companies,ford australia,False,False,False
+companies,viacom,True,False,False
+companies,bhp billiton,False,False,False
+companies,herald sun,False,False,False
+companies,morgan stanley,False,False,False
+companies,british aerospace,False,False,False
+companies,opera,False,True,False
+companies,belk,False,True,False
+companies,rockwell international,False,False,False
+companies,tata motors,False,False,False
+companies,k-mart,False,False,False
+companies,american motors corporation,False,False,False
+companies,kohl 's,False,False,False
+companies,abn amro,False,False,False
+companies,motown,False,True,False
+companies,gs,False,True,False
+companies,oracle corporation,False,False,False
+companies,konami,False,False,False
+companies,image comics,False,True,False
+companies,aim,False,True,False
+companies,lego,False,True,False
+companies,amazon.com,False,False,False
+companies,genentech,False,False,False
+companies,sainsbury 's,False,False,False
+companies,klm,False,False,False
+companies,daewoo,False,False,False
+companies,anheuser busch,False,False,False
+companies,data general,False,True,False
+companies,metacritic,False,True,False
+companies,disney music group,False,False,False
+companies,citibank,False,False,False
+companies,nasdaq,False,False,False
+companies,tesco,False,False,False
+companies,sequoia capital,False,True,False
+companies,british sky broadcasting,False,False,False
+companies,yahoo !,False,False,False
+companies,union carbide,False,True,False
+companies,macy 's,False,False,False
+companies,citigroup,False,False,False
+companies,sony ericsson,False,False,False
+companies,coca cola,False,False,False
+companies,coca-cola,False,False,False
+companies,apple inc.,False,False,False
+companies,the walt disney company,False,False,False
+companies,t-mobile,False,True,False
+companies,borland,False,True,False
+companies,rte,True,False,False
+companies,mediacorp,False,False,False
+companies,next,False,True,False
+companies,rolls royce,False,False,False
+companies,virgin interactive,False,True,False
+companies,the gap,False,True,False
+companies,acclaim entertainment,False,False,False
+companies,the age,False,True,False
+companies,mattel,False,False,False
+companies,sun,False,False,False
+companies,paypal,False,True,False
+companies,cox communications,False,False,False
+companies,satellite,False,True,False
+companies,dolphin,False,True,False
+companies,frontline,False,True,False
+companies,virgin group,False,True,False
+companies,cisco,False,False,False
+companies,glaxosmithkline,False,True,False
+companies,microsoft,False,False,False
+companies,apples,False,True,False
+companies,aol,False,False,False
+companies,sprints,False,True,False
+companies,world bank group,False,False,False
+companies,hyundai,False,False,False
+companies,syfy,True,False,False
+companies,novell,False,True,False
+companies,exxonmobil,False,True,False
+companies,univision,True,True,False
+companies,fox broadcasting company,True,False,False
+companies,directv,True,True,False
+companies,sony music,False,False,False
+companies,monsanto company,False,True,False
+companies,united states army,False,False,False
+companies,ibm,False,False,False
+companies,matsushita,False,False,False
+companies,chrysler,False,False,False
+companies,gm,False,False,False
+companies,lowe 's,False,False,False
+companies,america online,False,False,False
+companies,suzuki,False,True,False
+companies,american airlines,False,False,False
+companies,star tv,True,False,False
+companies,dillard 's,False,False,False
+companies,bmw group,False,False,False
+companies,ebay,False,False,False
+companies,lloyds banking group,False,False,False
+companies,bank of america,False,False,False
+companies,ncr,False,True,False
+companies,sony online entertainment,False,False,False
+companies,blizzard entertainment,False,False,False
+companies,psa international,False,True,False
+companies,general dynamics,False,False,False
+companies,kimberleys,False,False,False
+companies,woolworths,False,True,False
+companies,at&amp;t,False,True,False
+companies,ciscoes,False,True,False
+companies,capcom,False,True,False
+companies,tottenham hotspur,False,False,False
+companies,honda,False,False,False
+companies,time warner,False,False,False
+companies,ford motor company,False,False,False
+companies,facebook,False,True,False
+companies,amd,False,True,False
+companies,mitsui,False,False,False
+companies,the home depot,False,True,False
+companies,revlon,False,False,False
+companies,toyota,False,False,False
+companies,irix,False,True,False
+companies,chevrolet,False,False,False
+companies,carrefour,False,False,False
+companies,goldman sachs,False,False,False
+companies,cnbc,True,False,False
+companies,sap,False,False,False
+companies,warner music group,False,False,False
+companies,zara,False,True,False
+companies,warner bros .,False,False,False
+companies,target corporation,False,False,False
+companies,virgin music,False,True,False
+companies,alcoa,False,True,False
+companies,xm satellite radio,False,True,False
+companies,dish network,False,True,False
+companies,foxtel,False,False,False
+companies,hyundai group,False,False,False
+companies,mazda,False,False,False
+companies,sourceforge,False,True,False
+companies,merrill lynch,False,False,False
+companies,news corporation,False,False,False
+companies,samsung electronics,False,False,False
+companies,wrexham,False,True,False
+companies,us airways,False,False,False
+companies,bear stearns,False,False,False
+companies,kodak,False,False,False
+companies,netflix,False,True,False
+companies,gamespy,False,False,False
+companies,pizza hut,False,False,False
+companies,"toys "" r "" us",False,True,False
+companies,lg,False,True,False
+companies,fujitsu,False,False,False
+companies,freescale,False,True,False
+companies,kroger,False,True,False
+companies,home depot,False,False,False
+companies,standard chartered bank,False,False,False
+companies,starbucks,False,True,False
+companies,ikea,False,True,False
+companies,cisco systems,False,False,False
+companies,general electric,False,False,False
+companies,red hat,False,True,False
+companies,wal mart,False,False,False
+companies,prodigy,False,True,False
+companies,halliburton,False,False,False
+companies,porsche,False,False,False
+companies,espn,True,True,False
+companies,land rovers,False,True,False
+companies,dow chemicals,False,False,False
+companies,ign,False,True,False
+companies,british petroleum,False,False,False
+companies,bioware,False,True,False
+companies,coca-cola company,False,False,False
+companies,bombardier aerospace,False,False,False
+companies,hasbro,False,True,False
+companies,debenhams,False,True,False
+companies,shells,False,True,False
+companies,boeing,False,False,False
+companies,electronic arts,False,True,False
+companies,itt,False,True,False
+companies,nvidia,False,True,False
+companies,warner bros.,False,False,False
+companies,freddie mac,False,False,False
+companies,ericsson,False,True,False
+companies,gma network,True,False,False
+companies,oracle,False,True,False
+companies,kmart,False,False,False
+companies,twitter,False,True,False
+companies,3com,False,False,False
+companies,lehman brothers,False,False,False
+companies,ibm corporation,False,False,False
+companies,bebo,False,True,False
+companies,apple inc,False,False,False
+companies,symantec,False,True,False
+companies,rogers communications,False,True,False
+companies,kia motors,False,False,False
+companies,bayer,False,False,False
+companies,chase manhattan bank,False,False,False
+companies,de beers,False,False,False
+companies,eclipse,False,True,False
+companies,digital research,False,False,False
+companies,volvo,False,False,False
+companies,western electric,False,False,False
+companies,mcdonald 's,False,False,False
+companies,thq,False,True,False
+companies,ubisoft,False,True,False
+companies,bombardier,False,False,False
+companies,fairchild semiconductor,False,False,False
+companies,bell laboratory,False,False,False
+companies,civilian conservation corps,False,False,False
+companies,o'reilly media,False,True,False
+companies,michelin,False,False,False
+companies,netscape,False,True,False
+companies,verizon wireless,False,False,False
+companies,office depot,False,False,False
+companies,ford,False,False,False
+companies,20th century fox,True,False,False
+companies,bae systems,False,False,False
+companies,marshalls,False,True,False
+companies,game rankings,False,True,False
+companies,ge energy,False,False,False
+companies,3m,False,False,False
+companies,pinnacle,False,False,False
+companies,zellers,False,True,False
+companies,westinghouse,False,False,False
+companies,delphi,False,True,False
+companies,sanyo,False,True,False
+companies,jpmorgan chase,False,False,False
+companies,mcafee,False,True,False
+companies,canons,False,True,False
+companies,royal dutch shell,False,False,False
+companies,nestle,False,False,False
+companies,northwest airlines,False,False,False
+companies,worldcom,False,False,False
+companies,philips electronics,False,False,False
+companies,volkswagen group,False,False,False
+companies,elf,False,True,False
+companies,samsung,False,False,False
+companies,sony pictures,False,False,False
+companies,broadcom,False,True,False
+companies,apple computers,False,False,False
+companies,american electric power,False,False,False
+companies,intel corporation,False,False,False
+companies,lucent,False,True,False
+companies,aeg,False,False,False
+companies,morrisons,False,True,False
+companies,juniper,False,True,False
+companies,target,False,True,False
+companies,citroen,False,False,False
+companies,eli lilly and company,False,False,False
+companies,sap ag,False,False,False
+companies,vodafone,False,True,False
+companies,mobil,False,False,False
+companies,motorola,False,False,False
+companies,japan airlines,False,False,False
+companies,compaq,False,False,False
+companies,sega,False,True,False
+companies,hulu,False,True,False
+companies,nokia,False,False,False
+companies,msnbc,True,False,False
+companies,montgomery ward,False,False,False
+companies,nordstrom,False,True,False
+companies,chevron corporation,False,False,False
+companies,wizards of the coast,False,True,False
+companies,hallmark,False,True,False
+companies,gms,False,True,False
+companies,sybase,False,True,False
+companies,square enix,False,True,False
+companies,ralph lauren,False,False,False
+companies,nbc,True,False,False
+companies,taco bell,False,False,False
+companies,albertsons,False,True,False
+companies,novartis,False,True,False
+companies,nec corporation,False,False,False
+companies,bloomingdale 's,False,False,False
+companies,menards,False,True,False
+companies,gateways,False,True,False
+companies,clear channel communications,False,False,False
+companies,national power corporation,False,False,False
+companies,airbus,False,False,False
+companies,hallmark cards,False,False,False
+companies,marks and spencers,False,False,False
+companies,trident,False,True,False
+companies,digital equipment corporation,False,False,False
+companies,excel,False,True,False
+companies,reebok,False,False,False
+companies,victoria 's secret,False,False,False
+companies,bbc worldwide,False,False,False
+companies,philip morris,False,False,False
+companies,credit suisse,False,False,False
+companies,toshiba,False,False,False
+companies,channel 4,True,True,False
+companies,cds,False,True,False
+companies,esso,False,False,False
+companies,pfizer,False,True,False
+companies,northrop grumman,False,False,False
+companies,virgin australia,False,True,False
+companies,monsanto,False,True,False
+companies,enron,False,False,False
+companies,montgomery wards,False,True,False
+companies,universal studios,False,False,False
+companies,televisa,True,True,False
+companies,lloyd 's of london,False,False,False
+companies,nissan,False,False,False
+companies,general mills,False,True,False
+companies,urban outfitters,False,True,False
+companies,western digital,False,True,False
+companies,comcast,False,True,False
+companies,amc,False,True,False
+companies,j.p. morgan,False,False,False
+companies,livejournal,False,True,False
+companies,namco,False,True,False
+companies,volkswagen,False,False,False
+companies,emi,False,False,False
+companies,disney,True,True,False
+companies,amazons,False,True,False
+companies,salomon brothers,False,False,False
+companies,kfc,False,False,False
+companies,virgin games,False,True,False
+companies,conocophillips,False,True,False
+companies,rite aid,False,False,False
+companies,burger king,False,False,False
+companies,sony music entertainment,False,False,False
+companies,nike,False,False,False
+companies,ibm research,False,False,False
+companies,panasonic,False,False,False
+companies,vh1,True,False,False
+companies,dick 's sporting goods,False,False,False
+companies,british airways,False,False,False
+companies,puma,False,True,False
+companies,college of arms,False,True,False
+companies,blackberry,False,True,False
+companies,visa,False,False,False
+companies,texas instruments,False,False,False
+companies,eads,False,True,False
+companies,microsoft corporation,False,False,False
+companies,ups,False,True,False
+companies,vivendi,False,True,False
+companies,apple 's,False,False,False
+companies,wb,True,True,False
+companies,j.c. penney,False,False,False
+companies,epson,False,True,False
+companies,acorn,False,True,False
+companies,border,False,True,False
+companies,tivo,False,False,False
+companies,microsoft research,False,False,False
+companies,unilever,False,False,False
+companies,youtube,False,True,False
+companies,digital spy,False,False,False
+companies,honeywell,False,False,False
+companies,xerox,False,False,False
+companies,nasa,False,False,False
+companies,caterpillar,False,True,False
+companies,lacoste,False,True,False
+companies,schlumberger,False,True,False
+companies,dow chemical,False,False,False
+companies,chevron,False,False,False
+companies,aig,False,False,False
+companies,virgin atlantic,False,True,False
+companies,neiman marcus,False,False,False
+companies,bell canada,False,False,False
+companies,raytheon,False,True,False
+companies,wachovia,False,False,False
+companies,old navy,False,True,False
+companies,bergdorf goodman,False,False,False
+companies,hewlett-packard,False,False,False
+companies,bbc,True,False,False
+companies,funimation,False,True,False
+companies,hewlett packard,False,False,False
+companies,vmware,False,False,False
+companies,linkedin,False,True,False
+companies,sony music australia,False,False,False
+companies,amazon,False,False,False
+companies,universal healthcare,False,True,False
+companies,reuters,False,False,False
+companies,qualcomm,False,False,False
+companies,sgi,False,False,False
+companies,pepsi,False,False,False
+companies,lenovo,False,False,False
+companies,dupont,False,False,False
+companies,hp,False,True,False
+companies,daimler,False,False,False
+companies,skype,False,True,False
+companies,l'oreal,False,True,False
+companies,adidas,False,True,False
+companies,discogs,False,False,False
+companies,blockbusters,False,True,False
+companies,air new zealand,False,False,False
+companies,dell,False,True,False
+companies,mcdonalds,False,False,False
+companies,fords,False,True,False
+companies,sony,False,False,False
+companies,gucci,False,True,False
+companies,national semiconductor,False,False,False
+companies,bt,False,True,False
+companies,bellsouth,False,True,False
+companies,google,False,True,False
+companies,hsbc,False,False,False
+companies,qvc,False,False,False
+companies,the rolling stones,False,True,False
+companies,walmart,False,True,False
+companies,france telecom,False,False,False
+companies,virgin media,True,True,False
+companies,canadian pacific railway,False,False,False
+companies,sp,True,True,False
+companies,dec,False,True,False
+companies,unisys,False,False,False
+companies,rca,False,False,False
+companies,ge,False,False,False
+companies,ubs ag,False,False,False
+companies,universal music group,False,False,False
+companies,petrobras,False,True,False
+companies,napster,False,False,False
+companies,compuserve,False,True,False
+tv_channels,rtl,False,True,False
+tv_channels,sbs,False,True,False
+tv_channels,rogers sportsnet,False,True,False
+tv_channels,g4,False,True,False
+tv_channels,fox8,False,True,False
+tv_channels,ard,False,False,False
+tv_channels,e4,False,True,False
+tv_channels,staples,True,True,False
+tv_channels,star plus,False,True,False
+tv_channels,fuse tv,False,True,False
+tv_channels,court tv,False,True,False
+tv_channels,space,False,True,False
+tv_channels,discovery kids,False,False,False
+tv_channels,espn,True,True,False
+tv_channels,hdnet,False,True,False
+tv_channels,history,False,True,False
+tv_channels,telemundo,False,True,False
+tv_channels,espn2,False,True,False
+tv_channels,fox,False,False,False
+tv_channels,channel 4,True,True,False
+tv_channels,citytv,False,True,False
+tv_channels,channel seven,False,False,False
+tv_channels,kabc,False,True,False
+tv_channels,the score,False,True,False
+tv_channels,american broadcasting company,False,False,False
+tv_channels,bbc1,False,True,False
+tv_channels,cmt,False,False,False
+tv_channels,nhk,False,False,False
+tv_channels,citv,False,True,False
+tv_channels,cbc newsworld,False,False,False
+tv_channels,abc family,False,False,False
+tv_channels,televisa,True,True,False
+tv_channels,bbc 1,False,False,False
+tv_channels,c span,False,False,False
+tv_channels,national geographic channel,False,False,False
+tv_channels,ctv,False,False,False
+tv_channels,abc sports,False,False,False
+tv_channels,nba tv,False,False,False
+tv_channels,cbs news,False,False,False
+tv_channels,teennick,False,True,False
+tv_channels,comedy central,False,True,False
+tv_channels,syndication,False,True,False
+tv_channels,gma network,True,False,False
+tv_channels,fox sports,False,False,False
+tv_channels,catania,False,False,False
+tv_channels,tf1,False,True,False
+tv_channels,itv television,False,True,False
+tv_channels,tv4,False,True,False
+tv_channels,itv2,False,True,False
+tv_channels,bbc two,False,False,False
+tv_channels,performance racing network,False,True,False
+tv_channels,abc news,False,False,False
+tv_channels,animal planet,False,True,False
+tv_channels,espn.com,False,True,False
+tv_channels,nbc tv,False,False,False
+tv_channels,the learning channel,False,False,False
+tv_channels,cbs radio,False,False,False
+tv_channels,fx,False,True,False
+tv_channels,ytv,False,False,False
+tv_channels,cartoon network,False,True,False
+tv_channels,deutsche welle,False,True,False
+tv_channels,abc2,False,True,False
+tv_channels,disney,True,True,False
+tv_channels,discovery,False,True,False
+tv_channels,mtv,False,False,False
+tv_channels,itv1,False,True,False
+tv_channels,fox kids,False,False,False
+tv_channels,itn,False,False,False
+tv_channels,abc radio,False,False,False
+tv_channels,showtime,True,False,False
+tv_channels,fox network,False,False,False
+tv_channels,starz,False,True,False
+tv_channels,the wb,False,False,False
+tv_channels,tnt,False,False,False
+tv_channels,wnet,False,True,False
+tv_channels,usa networks,False,True,False
+tv_channels,rte,True,False,False
+tv_channels,nbc news,False,False,False
+tv_channels,one hd,False,False,False
+tv_channels,tvontario,False,True,False
+tv_channels,turner network television,False,False,False
+tv_channels,mynetworktv,False,True,False
+tv_channels,channel four,False,False,False
+tv_channels,france 3,False,False,False
+tv_channels,bbc news channel,False,False,False
+tv_channels,pb,False,True,False
+tv_channels,nickelodeon,False,False,False
+tv_channels,vh1,True,False,False
+tv_channels,bbc entertainment,False,False,False
+tv_channels,abc1,False,True,False
+tv_channels,bbc northern ireland,False,False,False
+tv_channels,cnn international,False,False,False
+tv_channels,spike tv,True,True,False
+tv_channels,bet,True,True,False
+tv_channels,bbc news 24,False,False,False
+tv_channels,the history channel,False,True,False
+tv_channels,20th century fox,True,False,False
+tv_channels,itv news channel,False,False,False
+tv_channels,bbc radio 4,False,False,False
+tv_channels,channel 5,False,True,False
+tv_channels,france 2,False,False,False
+tv_channels,turners,False,True,False
+tv_channels,espnu,False,False,False
+tv_channels,tvb,False,True,False
+tv_channels,thames television,False,True,False
+tv_channels,sky,False,True,False
+tv_channels,food network,False,True,False
+tv_channels,stv,False,False,False
+tv_channels,versus,False,True,False
+tv_channels,trinity broadcasting network,False,False,False
+tv_channels,bbc news,False,False,False
+tv_channels,bbc television,False,False,False
+tv_channels,tv tokyo,False,False,False
+tv_channels,fox news,False,False,False
+tv_channels,fox family,False,False,False
+tv_channels,ny1,False,True,False
+tv_channels,wb,True,True,False
+tv_channels,bbc hd,False,False,False
+tv_channels,virgin media,True,True,False
+tv_channels,big ten,False,False,False
+tv_channels,syfy,True,False,False
+tv_channels,tsn,False,False,False
+tv_channels,freeview,False,True,False
+tv_channels,premiere radio networks,False,True,False
+tv_channels,bbc three,False,False,False
+tv_channels,public broadcasting service,False,False,False
+tv_channels,network ten,False,False,False
+tv_channels,cbc television,False,False,False
+tv_channels,hbo,True,False,False
+tv_channels,tlc,False,False,False
+tv_channels,canadian broadcasting corporation,False,False,False
+tv_channels,tvnz,False,True,False
+tv_channels,espn classic,False,True,False
+tv_channels,foxes,False,True,False
+tv_channels,bbc world news,False,False,False
+tv_channels,zee tv,False,False,False
+tv_channels,fsn,False,True,False
+tv_channels,turner entertainment,False,False,False
+tv_channels,mbc,False,False,False
+tv_channels,bloomberg,False,True,False
+tv_channels,yorkshire television,False,True,False
+tv_channels,adult swim,False,False,False
+tv_channels,rte two,False,False,False
+tv_channels,univision,True,True,False
+tv_channels,wgbh,False,False,False
+tv_channels,fox broadcasting company,True,False,False
+tv_channels,directv,True,True,False
+tv_channels,tv2,False,True,False
+tv_channels,discovery channel,False,True,False
+tv_channels,techtv,False,True,False
+tv_channels,bbc2,False,True,False
+tv_channels,rte one,False,True,False
+tv_channels,tv asahi,False,False,False
+tv_channels,fox news channel,False,False,False
+tv_channels,hallmark channel,False,True,False
+tv_channels,sky1,False,True,False
+tv_channels,national geographic,False,False,False
+tv_channels,tv3,False,True,False
+tv_channels,british television channel,False,False,False
+tv_channels,tbs,False,True,False
+tv_channels,nine network,False,False,False
+tv_channels,mtv3,False,True,False
+tv_channels,television new zealand,False,False,False
+tv_channels,air america radio,False,False,False
+tv_channels,star tv,True,False,False
+tv_channels,global television network,False,False,False
+tv_channels,sky sports news,False,True,False
+tv_channels,c-span,False,True,False
+tv_channels,black entertainment television,False,False,False
+tv_channels,five,False,False,False
+tv_channels,tg4,False,True,False
+tv_channels,bbc one,True,False,False
+tv_channels,uktv,False,True,False
+tv_channels,bbc prime,False,False,False
+tv_channels,sky news,False,True,False
+tv_channels,zdf,False,True,False
+tv_channels,the cw,False,True,False
+tv_channels,bbc,True,False,False
+tv_channels,itv,False,False,False
+tv_channels,cbeebies,False,True,False
+tv_channels,gmtv,False,True,False
+tv_channels,hgtv,False,True,False
+tv_channels,history channel,False,True,False
+tv_channels,bravo,False,True,False
+tv_channels,eurosport,False,True,False
+tv_channels,muchmusic,False,True,False
+tv_channels,bbc tv,False,False,False
+tv_channels,london weekend television,False,False,False
+tv_channels,game show network,False,True,False
+tv_channels,sky sports,False,True,False
+tv_channels,fuji tv,False,False,False
+tv_channels,abc television,True,False,False
+tv_channels,espnews,False,False,False
+tv_channels,npr,True,False,False
+tv_channels,cbs sports,False,False,False
+tv_channels,spike,False,True,False
+tv_channels,upn,True,False,False
+tv_channels,seven network,False,False,False
+tv_channels,itv4,False,True,False
+tv_channels,abc3,False,False,False
+tv_channels,the weather channel,False,True,False
+tv_channels,nfl network,False,False,False
+tv_channels,fox sports net,False,False,False
+tv_channels,sbt,False,False,False
+tv_channels,cbbc,False,True,False
+tv_channels,msnbc,True,False,False
+tv_channels,disney xd,False,False,False
+tv_channels,mtv2,False,True,False
+tv_channels,cbs,False,False,False
+tv_channels,bbc america,False,False,False
+tv_channels,comcast sportsnet,False,True,False
+tv_channels,travel channel,False,True,False
+tv_channels,cnbc,True,False,False
+tv_channels,abc tv,False,False,False
+tv_channels,speed channel,False,True,False
+tv_channels,lifetime,False,True,False
+tv_channels,canal +,False,True,False
+tv_channels,abc,False,False,False
+tv_channels,bbc world,False,False,False
+tv_channels,bbc online,False,False,False
+tv_channels,ntv,False,False,False
+tv_channels,sky one,False,False,False
+tv_channels,gsn,False,True,False
+tv_channels,cbc,False,False,False
+tv_channels,channel nine,False,False,False
+tv_channels,boomerang,False,True,False
+tv_channels,cnn,True,False,False
+tv_channels,dateline,False,True,False
+tv_channels,bbc sport,False,False,False
+tv_channels,viacom,True,False,False
+tv_channels,public radio international,False,True,False
+tv_channels,bbc news online,False,False,False
+tv_channels,arte,False,False,False
+tv_channels,ctv news channel,False,False,False
+tv_channels,bbc 2,False,False,False
+tv_channels,bbc kids,False,False,False
+tv_channels,logos,False,True,False
+tv_channels,sci-fi channel,False,False,False
+tv_channels,rds,False,False,False
+tv_channels,disney channel,False,True,False
+tv_channels,nbc,True,False,False
+tv_channels,bbc four,False,False,False
+tv_channels,rede globo,False,False,False
+tv_channels,sat .1,False,True,False
+tv_channels,abs cbn,False,False,False
+tv_channels,setanta sports,False,False,False
+tv_channels,s4c,False,True,False
+tv_channels,e !,False,True,False
+tv_channels,cinemax,False,True,False
+tv_channels,tv land,False,True,False
+tv_channels,nbc universal,False,False,False
+tv_channels,lifetime television,False,True,False
+diseases,bone cancer,False,True,False
+diseases,lymphoma,False,True,False
+diseases,paralysis,False,True,False
+diseases,esophageal cancer,False,True,False
+diseases,foot and mouth disease,False,True,False
+diseases,parkinson,False,True,False
+diseases,als,False,True,False
+diseases,mitochondrial disease,False,True,False
+diseases,lung cancer,False,True,False
+diseases,cardiac arrest,False,True,False
+diseases,chronic kidney disease,False,True,False
+diseases,alzheimer 's disease,False,True,False
+diseases,brain cancer,False,True,False
+diseases,measle,False,True,False
+diseases,botulism,False,True,False
+diseases,psychosis,False,True,False
+diseases,spinal cord injury,False,True,False
+diseases,metabolic syndrome,False,True,False
+diseases,hodgkin 's lymphoma,False,False,False
+diseases,leukemia,False,True,False
+diseases,diabetes mellitus,False,True,False
+diseases,hepatitis b,False,True,False
+diseases,typhoid fever,False,False,False
+diseases,depressions,False,True,False
+diseases,fibromyalgia,False,False,False
+diseases,multiple personality disorder,False,True,False
+diseases,diarrhea,False,True,False
+diseases,ulcers,False,True,False
+diseases,asthma,False,True,False
+diseases,eye disease,False,True,False
+diseases,stroke,False,True,False
+diseases,malnutrition,False,True,False
+diseases,anaphylaxi,False,True,False
+diseases,cancer,False,True,False
+diseases,cerebral palsy,False,True,False
+diseases,cervical cancer,False,True,False
+diseases,hypoglycemia,False,True,False
+diseases,deep vein thrombosis,False,False,False
+diseases,narcolepsy,False,True,False
+diseases,gonorrhea,False,True,False
+diseases,alcoholism,False,True,False
+diseases,pcp,False,False,False
+diseases,parkinson 's disease,False,True,False
+diseases,eczema,False,True,False
+diseases,colon cancer,False,True,False
+diseases,sleep apnea,False,True,False
+diseases,plague,False,True,False
+diseases,typhoid,False,True,False
+diseases,muscular dystrophy,False,True,False
+diseases,hiv/aids,False,True,False
+diseases,liver disease,False,True,False
+diseases,holocaust,False,False,False
+diseases,tachycardia,False,False,False
+diseases,hypothyroidism,False,True,False
+diseases,brain damage,False,True,False
+diseases,epilepsy,False,True,False
+diseases,inflammation,False,True,False
+diseases,dementia,False,True,False
+diseases,hiv / aids,False,True,False
+diseases,autoimmune disease,False,True,False
+diseases,diabete mellitus,False,False,False
+diseases,atherosclerosis,False,True,False
+diseases,rheumatism,False,True,False
+diseases,yellow fever,False,True,False
+diseases,substance abuse,False,True,False
+diseases,traumatic brain injury,False,True,False
+diseases,bladder cancer,False,True,False
+diseases,colorectal cancer,False,True,False
+diseases,downs syndrome,False,True,False
+diseases,hepatitis,False,True,False
+diseases,emphysema,False,True,False
+diseases,high blood pressure,False,True,False
+diseases,endocarditis,False,True,False
+diseases,diabete,False,True,False
+diseases,edema,False,True,False
+diseases,ulcerative colitis,False,True,False
+diseases,tetanus,False,True,False
+diseases,alzheimer 's,False,True,False
+diseases,chlamydia,False,False,False
+diseases,syphili,False,False,False
+diseases,hemophilia,False,True,False
+diseases,guillain-barre syndrome,False,True,False
+diseases,pulmonary edema,False,False,False
+diseases,dystonia,False,True,False
+diseases,abscess,False,True,False
+diseases,congestive heart failure,False,True,False
+diseases,headache,False,False,False
+diseases,sars,False,True,False
+diseases,psoriasis,False,True,False
+diseases,clostridium difficile,False,True,False
+diseases,metabolic acidosis,False,True,False
+diseases,prostate cancer,False,True,False
+diseases,cataract,False,True,False
+diseases,hay fever,False,True,False
+diseases,attention-deficit hyperactivity disorder,False,True,False
+diseases,pulmonary embolism,False,True,False
+diseases,pancreatic cancer,False,True,False
+diseases,scurvy,False,True,False
+diseases,hepatocellular carcinoma,False,True,False
+diseases,thyroid cancer,False,False,False
+diseases,kidney cancer,False,True,False
+diseases,chronic fatigue syndrome,False,True,False
+diseases,thrombosis,False,True,False
+diseases,cerebral hemorrhage,False,True,False
+diseases,anxiety,False,True,False
+diseases,anaphylaxis,False,True,False
+diseases,tourette syndrome,False,True,False
+diseases,breast cancer,False,True,False
+diseases,throat cancer,False,True,False
+diseases,miscarriage,False,True,False
+diseases,hiv,False,True,False
+diseases,rheumatoid arthritis,False,False,False
+diseases,cholera,False,False,False
+diseases,flatulence,False,True,False
+diseases,ataxia,False,True,False
+diseases,gout,False,True,False
+diseases,personality disorder,False,True,False
+diseases,polio,False,True,False
+diseases,kidney failure,False,True,False
+diseases,renal failure,False,True,False
+diseases,anxiety disorder,False,True,False
+diseases,congenital heart disease,False,True,False
+diseases,amnesia,False,True,False
+diseases,encephalitis,False,True,False
+diseases,schizophrenia,False,True,False
+diseases,bubonic plague,False,True,False
+diseases,migraine,False,True,False
+diseases,hypertension,False,True,False
+diseases,renal disease,False,True,False
+diseases,infection,False,True,False
+diseases,oral cancer,False,True,False
+diseases,hypercholesterolemia,False,True,False
+diseases,leprosy,False,True,False
+diseases,sinusitis,False,True,False
+diseases,hypotension,False,True,False
+diseases,alcohol abuse,False,True,False
+diseases,arthritis,False,True,False
+diseases,alzheimer disease,False,True,False
+diseases,pulmonary hypertension,False,True,False
+diseases,chronic obstructive pulmonary disease,False,True,False
+diseases,obesity,False,True,False
+diseases,anemia,False,True,False
+diseases,respiratory disease,False,True,False
+diseases,insulin resistance,False,True,False
+diseases,appendicitis,False,True,False
+diseases,dissociative identity disorder,False,True,False
+diseases,drug addiction,False,True,False
+diseases,crohn 's disease,False,False,False
+diseases,ischemia,False,True,False
+diseases,addison 's disease,False,False,False
+diseases,syphilis,False,True,False
+diseases,panic disorder,False,True,False
+diseases,multiple sclerosis,False,True,False
+diseases,mumps,False,True,False
+diseases,thrombocytopenia,False,False,False
+diseases,peritonitis,False,True,False
+diseases,thyroid disease,False,True,False
+diseases,diphtheria,False,True,False
+diseases,stomach cancer,False,True,False
+diseases,west nile virus,False,False,False
+diseases,mental retardation,False,True,False
+diseases,rabie,False,True,False
+diseases,gastroenteritis,False,True,False
+diseases,multiple myeloma,False,True,False
+diseases,hypogonadism,False,True,False
+diseases,hypotonia,False,False,False
+diseases,bone fracture,False,True,False
+diseases,aneurysm,False,True,False
+diseases,coronary artery disease,False,True,False
+diseases,anal cancer,False,True,False
+diseases,myocardial infarction,False,True,False
+diseases,lupus,False,True,False
+diseases,heart disease,False,True,False
+diseases,liver failure,False,True,False
+diseases,scoliosis,False,True,False
+diseases,aids,False,True,False
+diseases,lyme disease,False,True,False
+diseases,angina,False,True,False
+diseases,vertigo,False,True,False
+diseases,dyslexia,False,False,False
+diseases,attention deficit hyperactivity disorder,False,True,False
+diseases,alopecia,False,True,False
+diseases,influenza,False,False,False
+diseases,dyspepsia,False,True,False
+diseases,bipolar disorder,False,True,False
+diseases,smallpox,False,True,False
+diseases,spina bifida,False,False,False
+diseases,cough,False,True,False
+diseases,cystic fibrosis,False,True,False
+diseases,pancreatitis,False,True,False
+diseases,dengue fever,False,True,False
+diseases,clinical depression,False,True,False
+diseases,huntington 's disease,False,False,False
+diseases,bacterial pneumonia,False,True,False
+diseases,osteoarthritis,False,True,False
+diseases,drug abuse,False,True,False
+diseases,breast cancers,False,True,False
+diseases,cirrhosis,False,True,False
+diseases,constipation,False,True,False
+diseases,chronic liver disease,False,True,False
+diseases,sickle cell anemia,False,True,False
+diseases,aphasia,False,True,False
+diseases,asperger syndrome,False,False,False
+diseases,liver cancer,False,True,False
+diseases,typhus,False,True,False
+diseases,lung disease,False,True,False
+diseases,peripheral vascular disease,False,True,False
+diseases,ovarian cancer,False,False,False
+diseases,alzheimer,False,True,False
+diseases,toxic shock syndrome,False,True,False
+diseases,coma,False,True,False
+diseases,peripheral artery disease,False,True,False
+diseases,adhd,False,False,False
+diseases,strabismus,False,True,False
+diseases,rabies,False,True,False
+diseases,bronchitis,False,True,False
+diseases,anorexia,False,True,False
+diseases,down syndrome,False,True,False
+diseases,heart failure,False,True,False
+diseases,fever,False,True,False
+diseases,pleurisy,False,True,False
+diseases,heart attacks,False,True,False
+diseases,major depression,False,True,False
+diseases,tourettes syndrome,False,True,False
+diseases,melanoma,False,True,False
+diseases,meningitis,False,True,False
+diseases,hodgkin 's disease,False,False,False
+diseases,skin cancer,False,True,False
+diseases,obsessive-compulsive disorder,False,True,False
+diseases,vomiting,False,True,False
+diseases,sarcoidosis,False,True,False
+diseases,diabetes,False,True,False
+diseases,osteoporosis,False,True,False
+diseases,malaria,False,True,False
+diseases,diarrhoea,False,True,False
+diseases,insomnia,False,True,False
+diseases,dengue,False,True,False
+diseases,kidney disease,False,True,False
+diseases,amyotrophic lateral sclerosis,False,True,False
+diseases,brain tumor,False,True,False
+diseases,concussion,False,True,False
+diseases,conjunctivitis,False,True,False
+diseases,hiv infection,False,True,False
+diseases,autism,False,True,False
+diseases,inflammatory bowel disease,False,True,False
+diseases,bright 's disease,False,True,False
+diseases,multiple organ dysfunction syndrome,False,True,False
+diseases,thyroid,False,True,False
+diseases,hypokalemia,False,True,False
+diseases,skin rash,False,True,False
+diseases,mental illness,False,True,False
+diseases,thyroiditis,False,True,False
+diseases,autoimmunity,False,True,False
+diseases,myopia,False,False,False
+diseases,strokes,False,True,False
+diseases,multiple organ failure,False,True,False
+diseases,dysentery,False,True,False
+diseases,irritable bowel syndrome,False,True,False
+diseases,tuberculosis,False,True,False
+diseases,jaundice,False,True,False
+diseases,peripheral neuropathy,False,True,False
+diseases,hydrocephalus,False,True,False
+countries,samoa,False,True,False
+countries,myanmar,False,False,False
+countries,niger,False,True,False
+countries,turkeys,False,True,False
+countries,el salvador,False,False,False
+countries,zambia,False,False,False
+countries,u.s.a.,False,True,False
+countries,san marino,False,False,False
+countries,guyanas,False,True,False
+countries,cuba,False,False,False
+countries,germany,False,False,False
+countries,korea,False,False,False
+countries,nigeria,False,True,False
+countries,belarus,False,True,False
+countries,botswana,False,True,False
+countries,serbia,False,False,False
+countries,u.k.,False,False,False
+countries,united states .,False,False,False
+countries,montenegro,False,False,False
+countries,venezuela,False,False,False
+countries,malawi,False,True,False
+countries,the bahamas,False,False,False
+countries,mozambique,False,True,False
+countries,slovenia,False,False,False
+countries,togo,False,True,False
+countries,philippines,False,False,False
+countries,mexico,False,False,False
+countries,irish,False,False,False
+countries,yugoslavia,False,False,False
+countries,gabon,False,True,False
+countries,cameroons,False,True,False
+countries,us,False,True,False
+countries,morocco,False,False,False
+countries,cape verde,False,False,False
+countries,turkmenistan,False,False,False
+countries,trinidad and tobago,False,False,False
+countries,zimbabwe,False,False,False
+countries,afghanistan,False,False,False
+countries,djibouti,False,False,False
+countries,brazil,False,False,False
+countries,japan,False,False,False
+countries,latvia,False,False,False
+countries,united kingdom,False,False,False
+countries,south africa,False,False,False
+countries,algeria,False,False,False
+countries,nepal,False,True,False
+countries,united states,False,False,False
+countries,greece,False,False,False
+countries,north korea,False,False,False
+countries,honduras,False,False,False
+countries,dr congo,False,False,False
+countries,bavaria,False,True,False
+countries,madagascar,False,True,False
+countries,the philippines,False,False,False
+countries,guatemala,False,True,False
+countries,great britain,False,False,False
+countries,burma,False,True,False
+countries,republic of china,False,True,False
+countries,denmark,False,True,False
+countries,burkina faso,False,False,False
+countries,suriname,False,True,False
+countries,saint vincent and the grenadines,False,False,False
+countries,poland,False,False,False
+countries,sierra leone,False,False,False
+countries,kuwait,False,False,False
+countries,uk,False,False,False
+countries,brunei,False,True,False
+countries,british guiana,False,False,False
+countries,republic of south africa,False,True,False
+countries,east timor,False,False,False
+countries,east germany,False,False,False
+countries,panama,False,False,False
+countries,albania,False,False,False
+countries,jordan,False,False,False
+countries,china,False,False,False
+countries,dominican republic,False,False,False
+countries,moldova,False,False,False
+countries,slovakia,False,True,False
+countries,west germany,False,False,False
+countries,belgium,False,False,False
+countries,portugal,False,False,False
+countries,barbados,False,True,False
+countries,romania,False,False,False
+countries,imperial japan,False,False,False
+countries,switzerland,False,False,False
+countries,liberia,False,True,False
+countries,bulgaria,False,False,False
+countries,veracruz,False,True,False
+countries,israel,False,False,False
+countries,republic of ireland,False,True,False
+countries,croatia,False,True,False
+countries,costa rica,False,False,False
+countries,saudi arabia,False,False,False
+countries,lithuania,False,False,False
+countries,republic of macedonia,False,False,False
+countries,eritrea,False,True,False
+countries,russia,False,False,False
+countries,bangladesh,False,True,False
+countries,papua new guinea,False,False,False
+countries,u.s.,False,False,False
+countries,senegal,False,True,False
+countries,aruba,False,False,False
+countries,laos,False,False,False
+countries,cameroon,False,True,False
+countries,malta,False,True,False
+countries,liechtenstein,False,True,False
+countries,haiti,False,False,False
+countries,bosnia,False,False,False
+countries,yemen,False,False,False
+countries,tajikistan,False,True,False
+countries,qatar,False,False,False
+countries,thailand,False,False,False
+countries,fiji,False,True,False
+countries,united arab emirates,False,False,False
+countries,iceland,False,False,False
+countries,czechoslovakia,False,False,False
+countries,azerbaijan,False,False,False
+countries,macedonia,False,False,False
+countries,holland,False,False,False
+countries,ireland,False,False,False
+countries,france,False,False,False
+countries,egypt,False,False,False
+countries,belize,False,True,False
+countries,sweden,False,False,False
+countries,ecuador,False,False,False
+countries,frances,False,True,False
+countries,uae,False,True,False
+countries,kyrgyzstan,False,False,False
+countries,cyprus,False,True,False
+countries,rwanda,False,False,False
+countries,namibia,False,False,False
+countries,uganda,False,False,False
+countries,timor-leste,False,True,False
+countries,norway,False,False,False
+countries,libya,False,False,False
+countries,surinam,False,True,False
+countries,usa,False,True,False
+countries,grenada,False,False,False
+countries,britain,False,False,False
+countries,mauritania,False,True,False
+countries,netherlands,False,False,False
+countries,the netherlands,False,False,False
+countries,kenya,False,False,False
+countries,iraq,False,False,False
+countries,indonesia,False,False,False
+countries,jamaica,False,False,False
+countries,pakistan,False,False,False
+countries,uzbekistan,False,True,False
+countries,seychelles,False,True,False
+countries,oman,False,True,False
+countries,finland,False,False,False
+countries,paraguay,False,True,False
+countries,serbia and montenegro,False,False,False
+countries,singapore,False,False,False
+countries,vanuatu,False,True,False
+countries,st. lucia,False,False,False
+countries,wales,False,True,False
+countries,vietnams,False,True,False
+countries,"india ,",False,False,False
+countries,tanzania,False,False,False
+countries,tunisia,False,True,False
+countries,ukraine,False,False,False
+countries,mongolia,False,True,False
+countries,chad,False,False,False
+countries,saint lucia,False,False,False
+countries,ceylon,False,True,False
+countries,vietnam,False,False,False
+countries,sri lanka,False,False,False
+countries,spain,False,False,False
+countries,somalia,False,False,False
+countries,bolivia,False,False,False
+countries,india,False,False,False
+countries,tonga,False,True,False
+countries,zaire,False,True,False
+countries,england,False,False,False
+countries,northern ireland,False,False,False
+countries,angola,False,False,False
+countries,swaziland,False,True,False
+countries,kosovo,False,False,False
+countries,cambodia,False,False,False
+countries,syria,False,False,False
+countries,maldives,False,True,False
+countries,italy,False,False,False
+countries,monaco,False,False,False
+countries,uruguay,False,True,False
+countries,colombia,False,False,False
+countries,canada,False,False,False
+countries,new zealand,False,False,False
+countries,chile,False,False,False
+countries,bhutan,False,True,False
+countries,comoros,False,True,False
+countries,hungary,False,False,False
+countries,ethiopia,False,False,False
+countries,south korea,False,False,False
+countries,andorra,False,False,False
+countries,iran,False,False,False
+countries,malaysia,False,False,False
+countries,sudan,False,False,False
+countries,argentina,False,False,False
+countries,ivory coast,False,False,False
+countries,bahrain,False,True,False
+countries,mauritius,False,True,False
+countries,kazakhstan,False,False,False
+countries,bosnia and herzegovina,False,False,False
+countries,austria,False,False,False
+countries,peru,False,False,False
+countries,estonia,False,False,False
+countries,cote d'ivoire,False,False,False
+countries,czech republic,False,False,False
+countries,lebanon,False,False,False
+countries,republic of moldova,False,False,False
+countries,trinidad,False,False,False
+countries,ghana,False,False,False
+countries,nicaragua,False,False,False
+countries,russian sfsr,False,False,False
+countries,united states of america,False,False,False
+countries,scotland,False,False,False
+countries,timor leste,False,True,False
+countries,armenia,False,True,False
+countries,luxembourg,False,False,False
+countries,curacao,False,True,False
+countries,jersey,False,True,False
+countries,americas,False,True,False
+countries,australia,False,False,False
+countries,turkey,False,False,False
+countries,congo,False,False,False
+parties,republican party,False,False,False
+parties,australian democrats,False,False,False
+parties,constitution party,False,False,False
+parties,parti quebecois,False,False,False
+parties,janata dal,False,False,False
+parties,ontario liberal party,False,False,False
+parties,progressive conservative party of ontario,False,False,False
+parties,new democracy,False,True,False
+parties,christian democratic appeal,False,False,False
+parties,scottish national party,False,False,False
+parties,democratic liberal party,False,False,False
+parties,national christian party,False,False,False
+parties,democratic union,False,False,False
+parties,the people of freedom,False,True,False
+parties,labor unions,False,True,False
+parties,green party of england and wales,False,False,False
+parties,social democratic,False,True,False
+parties,italian republican party,False,False,False
+parties,unionists,False,True,False
+parties,social democrats,False,True,False
+parties,progress party,False,False,False
+parties,co operative commonwealth federation,False,False,False
+parties,janatha vimukthi peramuna,False,False,False
+parties,fdp,False,False,False
+parties,american party,False,False,False
+parties,united development party,False,False,False
+parties,national coalition party,False,False,False
+parties,green parties,False,True,False
+parties,congress party,False,False,False
+parties,janata party,False,False,False
+parties,christian democrats,False,False,False
+parties,federalists,False,True,False
+parties,people 's democratic party,False,False,False
+parties,herut,False,True,False
+parties,forza italia,False,False,False
+parties,socialist unity party,False,False,False
+parties,christianunion,False,True,False
+parties,maoris,False,True,False
+parties,norwegian labour party,False,False,False
+parties,gop,False,False,False
+parties,electoral alliance,False,True,False
+parties,liberal-progressive,False,True,False
+parties,communist party of germany,False,False,False
+parties,ontario new democratic party,False,False,False
+parties,unionist,False,True,False
+parties,french communist party,False,False,False
+parties,social democratic labour party,False,False,False
+parties,popular democratic party,False,False,False
+parties,democratic-republican,False,False,False
+parties,democratic alliance,False,False,False
+parties,australian labor party,False,False,False
+parties,jacksonian,False,False,False
+parties,aiadmk,False,True,False
+parties,united federal party,False,False,False
+parties,green party of canada,False,False,False
+parties,prawo i sprawiedliwosc,False,True,False
+parties,nationalists,False,True,False
+parties,splinter group,False,True,False
+parties,action democratique du quebec,False,False,False
+parties,ppp,False,True,False
+parties,new zealand first,False,False,False
+parties,fpo,False,False,False
+parties,lega nord,False,True,False
+parties,italian socialist party,False,False,False
+parties,law and justice,False,True,False
+parties,labour union,False,True,False
+parties,conservatives,False,True,False
+parties,federalist party,False,False,False
+parties,rhodesian front,False,False,False
+parties,european green party,False,False,False
+parties,liberal democrats,False,False,False
+parties,national socialist party,False,False,False
+parties,republican,False,False,False
+parties,national democratic party,False,False,False
+parties,liberal conservative,False,True,False
+parties,liberal party of canada,False,False,False
+parties,chartists,False,True,False
+parties,bharatiya lok dal,False,False,False
+parties,south african communist party,False,False,False
+parties,liberals,False,True,False
+parties,populist,False,True,False
+parties,liberal people 's party,False,False,False
+parties,national alliance,False,True,False
+parties,christian social union of bavaria,False,False,False
+parties,scottish socialist party,False,False,False
+parties,progressive democrats,False,False,False
+parties,csp,False,True,False
+parties,sri lanka freedom party,False,False,False
+parties,italian communist party,False,False,False
+parties,united russia,False,False,False
+parties,pakistan peoples party,False,False,False
+parties,progressive party,False,False,False
+parties,cda,False,False,False
+parties,ump,False,True,False
+parties,co-operative commonwealth federation,False,False,False
+parties,centre party,False,False,False
+parties,bharatiya janata party,False,False,False
+parties,palestine liberation organization,False,False,False
+parties,people 's party for freedom and democracy,False,False,False
+parties,northern ireland labour party,False,False,False
+parties,pacifist socialist party,False,False,False
+parties,vvd,False,False,False
+parties,union nationale,False,False,False
+parties,jd,False,True,False
+parties,green league,False,False,False
+parties,alliance ' 90/the greens,False,False,False
+parties,national party of australia,False,False,False
+parties,upa,False,True,False
+parties,national alliance party,False,False,False
+parties,meretz,False,True,False
+parties,shiv sena,False,False,False
+parties,freedom party,False,False,False
+parties,british national party,False,False,False
+parties,united kingdom independence party,False,False,False
+parties,bloc quebecois,False,False,False
+parties,radicals,False,True,False
+parties,whig party,False,False,False
+parties,european political party,False,False,False
+parties,sdlp,False,True,False
+parties,labor,False,True,False
+parties,liberal political party,False,True,False
+parties,sdf,False,False,False
+parties,democratic republican party,False,False,False
+parties,democrats of the left,False,False,False
+parties,christian democratic union,False,False,False
+parties,bjp,False,False,False
+parties,peace and democracy party,False,True,False
+parties,national liberal party,False,False,False
+parties,sps,False,True,False
+parties,justicialist party,False,False,False
+parties,socialist party of america,False,False,False
+parties,australian greens,False,False,False
+parties,national labor party,False,False,False
+parties,federal new democratic party,False,False,False
+parties,democratic labor party,False,False,False
+parties,liberal national party,False,False,False
+parties,independence party,False,False,False
+parties,socialist left party,False,False,False
+parties,cdu,False,False,False
+parties,ukip,False,False,False
+parties,irish parliamentary party,False,False,False
+parties,democratic party,False,False,False
+parties,plaid cymru,False,True,False
+parties,labor party,False,False,False
+parties,tories,False,True,False
+parties,social liberal,False,True,False
+parties,fianna fail,False,False,False
+parties,german democratic party,False,False,False
+parties,cooperative commonwealth federation,False,False,False
+parties,independent labour party,False,False,False
+parties,democratic labour party,False,False,False
+parties,democratic progressive party,False,False,False
+parties,cvp,False,False,False
+parties,communists,False,True,False
+parties,liberal unionists,False,True,False
+parties,african national congress,False,False,False
+parties,democrats,False,False,False
+parties,social democratic political party,False,False,False
+parties,radical party,False,False,False
+parties,democratic society party,False,False,False
+parties,communist,False,False,False
+parties,epp,False,True,False
+parties,popular front,False,True,False
+parties,national unity,False,True,False
+parties,democratic,False,False,False
+parties,canadian alliance,False,False,False
+parties,christian democratic,False,False,False
+parties,militant tendency,False,True,False
+parties,scottish labour party,False,False,False
+parties,social liberal party,False,False,False
+parties,solidarity,False,False,False
+parties,united,False,True,False
+parties,national religious party,False,False,False
+parties,moderate party,False,False,False
+parties,barisan nasional,False,True,False
+parties,communist party of china,False,False,False
+parties,national,False,True,False
+parties,ps,False,True,False
+parties,panhellenic socialist movement,False,False,False
+parties,ticino league,False,False,False
+parties,workers ' party,False,True,False
+parties,libertarian party,False,False,False
+parties,civic democratic party,False,False,False
+parties,alberta liberal party,False,False,False
+parties,ndp,False,True,False
+parties,clann na talmhan,False,False,False
+parties,maoists,False,True,False
+parties,quaker,False,False,False
+parties,people 's party,False,False,False
+parties,croatian democratic union,False,False,False
+parties,methodists,False,True,False
+parties,new democratic party,False,False,False
+parties,irish labour party,False,False,False
+parties,social credit party,False,False,False
+parties,sdp,False,False,False
+parties,united australia party,False,False,False
+parties,japan socialist party,False,False,False
+parties,main opposition party,False,True,False
+parties,swapo,False,True,False
+parties,labour party,False,True,False
+parties,socialist party,False,False,False
+parties,progressives party,False,False,False
+parties,scottish conservative party,False,False,False
+parties,national party,False,False,False
+parties,italian social movement,False,False,False
+parties,nationalist party,False,False,False
+parties,socialists,False,True,False
+parties,ecological democratic party,False,False,False
+parties,fine gael,False,True,False
+parties,united socialist party,False,False,False
+parties,parliamentary labour party,False,True,False
+parties,national democratic alliance,False,False,False
+parties,armenian revolutionary federation,False,False,False
+parties,likud,False,False,False
+parties,vlaams belang,False,False,False
+parties,freedom socialist party,False,False,False
+parties,snp,False,True,False
+parties,sinn fein,False,False,False
+parties,communist refoundation party,False,False,False
+parties,liberal conservative party,False,False,False
+parties,croatian peasant party,False,False,False
+parties,national front,False,True,False
+parties,nationalist,False,True,False
+parties,greens,False,True,False
+parties,social democrat,False,True,False
+parties,british socialist party,False,False,False
+parties,united democratic movement,False,False,False
+parties,spo,False,False,False
+parties,democratic unionist party,False,False,False
+parties,democratic left,False,False,False
+parties,svp,False,False,False
+parties,social democratic federation,False,False,False
+parties,left party,False,True,False
+parties,progressive conservative party,False,False,False
+parties,national action party,False,False,False
+parties,civic party,False,False,False
+parties,one nation,False,False,False
+parties,liberal reformist party,False,False,False
+parties,opposition party,False,True,False
+parties,ncp,False,False,False
+parties,christian democracy,False,False,False
+parties,social credit party of canada,False,False,False
+parties,spd,False,False,False
+parties,national independence party,False,False,False
+parties,basque nationalist party,False,False,False
+parties,unionist party,False,False,False
+parties,united malays national organisation,False,False,False
+parties,liberal democratic party,False,False,False
+parties,socialist labor party,False,False,False
+parties,indian national congress,False,False,False
+parties,labour,False,True,False
+parties,social democratic party of germany,False,False,False
+parties,nazi party,False,False,False
+parties,greenleft,False,True,False
+parties,republican socialist party,False,False,False
+parties,united national party,False,False,False
+parties,calvinists,False,True,False
+parties,liberal party of australia,False,False,False
+parties,trinamool congress,False,False,False
+parties,alliance party,False,False,False
+parties,social democratic party,False,False,False
+parties,country party,False,False,False
+parties,national democratic congress,False,False,False
+parties,ulster unionists,False,True,False
+parties,workers party,False,True,False
+parties,socialist workers party,False,False,False
+parties,communist party of india ( marxist ),False,False,False
+parties,german green party,False,False,False
+parties,swedish social democratic party,False,False,False
+parties,german social democratic party,False,False,False
+parties,european people 's party,False,False,False
+parties,quebec liberal party,False,False,False
+parties,progressive socialist party,False,False,False
+parties,reformists,False,True,False
+parties,social democratic and labour party,False,False,False
+parties,new zealand labour party,False,False,False
+parties,libertarian,False,False,False
+parties,conservative party,False,True,False
+parties,independents,False,True,False
+parties,liberal-conservative,False,True,False
+parties,reform party of canada,False,False,False
+parties,democratic action party,False,False,False
+parties,shinui,False,True,False
+parties,progressive conservative party of canada,False,False,False
+parties,spanish socialist workers ' party,False,False,False
+parties,socialist,False,True,False
+parties,communist party of canada,False,False,False
+parties,nepali congress,False,False,False
+parties,liberal party,False,True,False
+parties,conservative party of canada,False,False,False
+parties,country liberal party,False,False,False
+parties,national federation party,False,False,False
+parties,samajwadi party,False,False,False
+parties,progressive federal party,False,False,False
+parties,reform party,False,False,False
+parties,coalition government,False,True,False
+parties,italian democratic socialist party,False,False,False
+parties,party of european socialists,False,False,False
+parties,prohibition party,False,False,False
+parties,kuomintang,False,False,False
+parties,ccf,False,True,False
+parties,rjd,False,True,False
+parties,shas,False,True,False
+parties,new democratic,False,True,False
+parties,fiji labour party,False,False,False
+parties,european democratic party,False,False,False
+parties,socialist political party,False,False,False
+parties,communist party of great britain,False,False,False
+parties,mapam,False,True,False
+parties,american independent party,False,False,False
+parties,communist party,False,False,False
+parties,dmk,False,False,False
+parties,cumann na ngaedheal,False,False,False
+parties,progressive conservatives,False,True,False
+parties,parliamentary party,False,False,False
+parties,dravida munnetra kazhagam,False,False,False
+parties,green party,False,False,False
+parties,national republican party,False,False,False
+parties,french socialist party,False,False,False
+parties,hungarian socialist party,False,False,False
+parties,whigs,False,False,False
+parties,progressive,False,True,False
+parties,ulster unionist party,False,False,False
+parties,christian democratic party,False,False,False
+parties,rashtriya janata dal,False,False,False
+parties,manitoba liberal party,False,False,False
+parties,mapai,False,True,False
+parties,democratic socialist party,False,False,False
+parties,scottish green party,False,False,False
+parties,reform,False,True,False
+parties,free democratic party,False,False,False
+parties,sp,True,True,False
+parties,alternative democratic reform party,False,True,False
+parties,golkar,False,True,False
+sportsleagues,french league,False,False,False
+sportsleagues,isthmian league premier division,False,False,False
+sportsleagues,spartan league,False,False,False
+sportsleagues,nbl,False,False,False
+sportsleagues,florida state league,False,False,False
+sportsleagues,american association,False,False,False
+sportsleagues,negro league baseball,False,False,False
+sportsleagues,national football league,False,False,False
+sportsleagues,queensland cup,False,False,False
+sportsleagues,conference south,False,True,False
+sportsleagues,ukrainian premier league,False,False,False
+sportsleagues,alpha ethniki,False,False,False
+sportsleagues,united hockey league,False,False,False
+sportsleagues,international soccer league,False,False,False
+sportsleagues,usfl,False,True,False
+sportsleagues,usisl,False,True,False
+sportsleagues,olympic games,False,True,False
+sportsleagues,continental football league,False,False,False
+sportsleagues,turkish super lig,False,False,False
+sportsleagues,usl premier development league,False,False,False
+sportsleagues,nhl,False,False,False
+sportsleagues,english premier league,False,False,False
+sportsleagues,canadian hockey league,False,False,False
+sportsleagues,north atlantic league,False,False,False
+sportsleagues,australian rugby league,False,False,False
+sportsleagues,california league,False,False,False
+sportsleagues,nippon professional baseball,False,False,False
+sportsleagues,horizon league,False,False,False
+sportsleagues,eastern hockey league,False,False,False
+sportsleagues,negro leagues,False,True,False
+sportsleagues,western baseball league,False,False,False
+sportsleagues,sm-liiga,False,True,False
+sportsleagues,portuguese liga,False,False,False
+sportsleagues,carolina league,False,False,False
+sportsleagues,ipl,False,False,False
+sportsleagues,sanfl,False,True,False
+sportsleagues,ncaa division iii,False,False,False
+sportsleagues,elitserien,False,True,False
+sportsleagues,american hockey league,False,False,False
+sportsleagues,union association,False,False,False
+sportsleagues,lebanese basketball league,False,False,False
+sportsleagues,danish superliga,False,False,False
+sportsleagues,greek league,False,False,False
+sportsleagues,ushl,False,True,False
+sportsleagues,super league greece,False,False,False
+sportsleagues,vfa,False,True,False
+sportsleagues,european super league,False,False,False
+sportsleagues,cfl,False,False,False
+sportsleagues,british national league,False,False,False
+sportsleagues,minor league baseball,False,False,False
+sportsleagues,english league,False,False,False
+sportsleagues,south atlantic league,False,False,False
+sportsleagues,chl,False,False,False
+sportsleagues,women 's national basketball league,False,False,False
+sportsleagues,spanish league,False,False,False
+sportsleagues,primera division de mexico,False,False,False
+sportsleagues,american professional soccer league,False,False,False
+sportsleagues,iba,False,False,False
+sportsleagues,big ten conference,False,False,False
+sportsleagues,scottish football league,False,False,False
+sportsleagues,ekstraklasa,False,False,False
+sportsleagues,canadian football league,False,False,False
+sportsleagues,nswrl premier league,False,False,False
+sportsleagues,maltese premier league,False,False,False
+sportsleagues,central hockey league,False,False,False
+sportsleagues,arena football league,False,False,False
+sportsleagues,uefa champions league,False,False,False
+sportsleagues,argentine primera division,False,False,False
+sportsleagues,austrian football bundesliga,False,False,False
+sportsleagues,united soccer league,False,False,False
+sportsleagues,hanseatic league,False,False,False
+sportsleagues,scottish league,False,False,False
+sportsleagues,atlantic coast hockey league,False,False,False
+sportsleagues,conference league,False,False,False
+sportsleagues,western soccer league,False,True,False
+sportsleagues,pacific coast hockey association,False,False,False
+sportsleagues,appalachian league,False,False,False
+sportsleagues,eastern league,False,False,False
+sportsleagues,pioneer league,False,False,False
+sportsleagues,central league,False,False,False
+sportsleagues,canadian soccer league,False,False,False
+sportsleagues,dutch eredivisie,False,False,False
+sportsleagues,players ' league,False,True,False
+sportsleagues,indian premier league,False,False,False
+sportsleagues,national basketball association,False,False,False
+sportsleagues,premier development league,False,False,False
+sportsleagues,national hockey league,False,False,False
+sportsleagues,national league,False,False,False
+sportsleagues,southern league,False,False,False
+sportsleagues,new zealand football championship,False,False,False
+sportsleagues,british basketball league,False,False,False
+sportsleagues,united states hockey league,False,False,False
+sportsleagues,serie b,False,False,False
+sportsleagues,football league two,False,False,False
+sportsleagues,national premier soccer league,False,False,False
+sportsleagues,world hockey association,False,False,False
+sportsleagues,swedish elitserien,False,False,False
+sportsleagues,polish league,False,False,False
+sportsleagues,the football league,False,True,False
+sportsleagues,xfl,False,False,False
+sportsleagues,united soccer leagues,False,False,False
+sportsleagues,football league championship,False,False,False
+sportsleagues,western hockey league,False,False,False
+sportsleagues,wnba,False,False,False
+sportsleagues,wchl,False,True,False
+sportsleagues,premier league,False,False,False
+sportsleagues,aba,False,True,False
+sportsleagues,jupiler league,False,False,False
+sportsleagues,ihl,False,True,False
+sportsleagues,scottish premier league,False,False,False
+sportsleagues,pacific coast league,False,False,False
+sportsleagues,texas league,False,False,False
+sportsleagues,united states football league,False,False,False
+sportsleagues,swiss super league,False,False,False
+sportsleagues,premier soccer league,False,True,False
+sportsleagues,premier division,False,False,False
+sportsleagues,canadian professional soccer league,False,False,False
+sportsleagues,soviet top league,False,False,False
+sportsleagues,english football league,False,False,False
+sportsleagues,continental indoor football league,False,False,False
+sportsleagues,manitoba junior hockey league,False,False,False
+sportsleagues,united football league,False,False,False
+sportsleagues,south australian national football league,False,False,False
+sportsleagues,northern premier league premier division,False,False,False
+sportsleagues,continental indoor soccer league,False,False,False
+sportsleagues,cuban national series,False,False,False
+sportsleagues,nfl,False,False,False
+sportsleagues,russian superleague,False,False,False
+sportsleagues,southern football league,False,False,False
+sportsleagues,victorian football association,False,False,False
+sportsleagues,rugby league,False,False,False
+sportsleagues,american indoor soccer association,False,False,False
+sportsleagues,british hockey league,False,False,False
+sportsleagues,north american hockey league,False,False,False
+sportsleagues,english premiership,False,False,False
+sportsleagues,basketball association of america,False,False,False
+sportsleagues,usl second division,False,False,False
+sportsleagues,victorian football leagues,False,False,False
+sportsleagues,american league west,False,False,False
+sportsleagues,gulf coast league,False,False,False
+sportsleagues,new york - penn league,False,False,False
+sportsleagues,western international league,False,False,False
+sportsleagues,formula one,False,True,False
+sportsleagues,american bar association,False,False,False
+sportsleagues,american soccer league,False,False,False
+sportsleagues,american basketball association,False,False,False
+sportsleagues,northeast league,False,False,False
+sportsleagues,euroleague,False,True,False
+sportsleagues,international hockey league,False,False,False
+sportsleagues,sm liiga,False,True,False
+sportsleagues,major indoor soccer league,False,True,False
+sportsleagues,echl,False,True,False
+sportsleagues,portuguese league,False,False,False
+sportsleagues,isthmian league,False,False,False
+sportsleagues,football leagues one,False,True,False
+sportsleagues,american basketball league,False,False,False
+sportsleagues,major league lacrosse,False,False,False
+sportsleagues,women 's football alliance,False,True,False
+sportsleagues,national conference league,False,False,False
+sportsleagues,2nd bundesliga,False,False,False
+sportsleagues,nsl,False,True,False
+sportsleagues,qmjhl,False,True,False
+sportsleagues,vfl/afl,False,True,False
+sportsleagues,eihl,False,True,False
+sportsleagues,whl,False,False,False
+sportsleagues,golden baseball league,False,False,False
+sportsleagues,national hurling league,False,False,False
+sportsleagues,nba d-league,False,False,False
+sportsleagues,western football league,False,False,False
+sportsleagues,pbl,False,True,False
+sportsleagues,british league,False,False,False
+sportsleagues,federal league,False,False,False
+sportsleagues,nba,False,False,False
+sportsleagues,serie c1,False,False,False
+sportsleagues,la liga,False,False,False
+sportsleagues,american football league,False,False,False
+sportsleagues,primera division,False,False,False
+sportsleagues,essendon football club,False,True,False
+sportsleagues,a-league,False,True,False
+sportsleagues,serie a,False,True,False
+sportsleagues,wha,False,False,False
+sportsleagues,bundesliga,False,False,False
+sportsleagues,new york-penn league,False,False,False
+sportsleagues,european football league,False,False,False
+sportsleagues,mexican league,False,False,False
+sportsleagues,national indoor football league,False,False,False
+sportsleagues,elite league,False,False,False
+sportsleagues,conference national,False,True,False
+sportsleagues,southern leagues,False,True,False
+sportsleagues,women 's premier soccer league,False,True,False
+sportsleagues,ncaa,False,False,False
+sportsleagues,usbl,False,True,False
+sportsleagues,victorian premier league,False,False,False
+sportsleagues,dutch league,False,False,False
+sportsleagues,fa premier league,False,False,False
+sportsleagues,nascar,True,True,False
+sportsleagues,world football league,False,False,False
+sportsleagues,nl,False,True,False
+sportsleagues,ehl,False,True,False
+sportsleagues,northwest league,False,False,False
+sportsleagues,rsl,False,True,False
+sportsleagues,cba,False,True,False
+sportsleagues,atlantic league,False,False,False
+sportsleagues,major league soccer,False,False,False
+sportsleagues,vfl,False,True,False
+sportsleagues,eredivisie,False,True,False
+sportsleagues,world series,False,True,False
+sportsleagues,ligue 1,False,False,False
+sportsleagues,new south wales rugby league,False,False,False
+sportsleagues,wafl,False,True,False
+sportsleagues,canadian national soccer league,False,False,False
+sportsleagues,khl,False,False,False
+sportsleagues,league two,False,False,False
+sportsleagues,league of ireland,False,False,False
+sportsleagues,international league,False,False,False
+sportsleagues,leagues one,False,True,False
+sportsleagues,nbdl,False,True,False
+sportsleagues,west australian football league,False,False,False
+sportsleagues,english national league,False,False,False
+sportsleagues,northern league,False,False,False
+sportsleagues,k-league,False,True,False
+sportsleagues,national lacrosse league,False,False,False
+sportsleagues,champions league,False,False,False
+sportsleagues,central baseball league,False,False,False
+sportsleagues,football league third division,False,False,False
+sportsleagues,mls,False,True,False
+sportsleagues,american league east,False,False,False
+sportsleagues,regional league,False,False,False
+sportsleagues,serie d,False,False,False
+sportsleagues,wbc,False,True,False
+sportsleagues,northern premier league,False,False,False
+sportsleagues,major league baseball,False,False,False
+sportsleagues,nationalliga a,False,False,False
+sportsleagues,east coast hockey league,False,False,False
+sportsleagues,nrl,False,False,False
+sportsleagues,rugby football league,False,False,False
+sportsleagues,western soccer alliance,False,False,False
+sportsleagues,north american soccer league,False,False,False
+sportsleagues,liga i,False,False,False
+sportsleagues,continental basketball association,False,False,False
+sportsleagues,northern football league,False,True,False
+sportsleagues,midwest league,False,False,False
+sportsleagues,adriatic league,False,False,False
+sportsleagues,afl,False,True,False
+sportsleagues,w-league,False,True,False
+sportsleagues,ontario hockey league,False,False,False
+sportsleagues,all-america football conference,False,False,False
+sportsleagues,af2,False,True,False
+sportsleagues,usl first division,False,False,False
+sportsleagues,southern association,False,False,False
+sportsleagues,football league fourth division,False,False,False
+sportsleagues,kent league,False,False,False
+sportsleagues,wfl,False,True,False
+sportsleagues,lega pro prima divisione,False,False,False
+sportsleagues,australian football league,False,False,False
+sportsleagues,national soccer league,False,False,False
+sportsleagues,ufc,False,False,False
+sportsleagues,philippine basketball association,False,False,False
+sportsleagues,scottish second division,False,False,False
+sportsleagues,russian super league,False,False,False
+sportsleagues,national hockey association,False,False,False
+sportsleagues,lancashire league,False,False,False
+sportsleagues,norwegian premier league,False,False,False
+sportsleagues,super league,False,False,False
+sportsleagues,eastern football league,False,False,False
+sportsleagues,national rugby league,False,False,False
+sportsleagues,ohl,False,True,False
+sportsleagues,nba development league,False,False,False
+sportsleagues,nfl europa,False,False,False
+sportsleagues,celtic league,False,False,False
+sportsleagues,w league,False,False,False
+sportsleagues,football league,False,False,False
+sportsleagues,elite ice hockey league,False,False,False
+sportsleagues,co-operative championship,False,True,False
+sportsleagues,magners league,False,False,False
+sportsleagues,american football conference,False,False,False
+sportsleagues,lkl,False,True,False
+sportsleagues,yugoslav first league,False,False,False
+sportsleagues,nfl europe,False,False,False
+sportsleagues,world league of american football,False,False,False
+sportsleagues,national basketball league,False,False,False
+sportsleagues,european league,False,False,False
+sportsleagues,welsh premier league,False,False,False
+sportsleagues,american league,False,False,False
+sportsleagues,european cups,False,False,False
+sportsleagues,western league,False,False,False
+sportsleagues,allsvenskan,False,True,False
+sportsleagues,nasl,False,True,False
+sportsleagues,professional arena soccer league,False,False,False
+sportsleagues,mlb,False,True,False
+sportsleagues,new south wales rugby football league premiership,False,False,False
+sportsleagues,women 's national basketball association,False,False,False
+sportsleagues,serie c,False,False,False
+sportsleagues,ahl,False,False,False
+sportsleagues,uefa,False,True,False
+sportsleagues,north american football league,False,False,False
+sportsleagues,western canada hockey league,False,False,False
+sportsleagues,national professional soccer league,False,False,False
+sportsleagues,indoor football league,False,False,False
+sportsleagues,pacific league,False,False,False
+sportsleagues,quebec major junior hockey league,False,False,False
+sportsleagues,junior league,False,True,False
+sportsleagues,israeli premier league,False,False,False
+sportsleagues,auckland rugby league,False,False,False

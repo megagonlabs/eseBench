@@ -1,0 +1,959 @@
+concept,neighbor,multifaceted,non_named,vague
+amenities,dive bar,False,True,False
+amenities,hot shower,True,True,True
+amenities,sight seeing,False,True,True
+amenities,game room,False,True,False
+amenities,starbucks,True,True,True
+amenities,coffee table,True,True,True
+amenities,rental car,False,True,True
+amenities,morning paper,False,False,True
+amenities,free wifi,True,True,False
+amenities,cable tv,True,False,True
+amenities,salad bar,False,True,False
+amenities,workout facility,False,True,False
+amenities,free parking,False,True,False
+amenities,lounge chairs,True,True,False
+amenities,tour bus,False,True,False
+amenities,internet.,False,True,False
+amenities,business center,False,True,False
+amenities,sports car,False,True,True
+amenities,gift shop,False,True,False
+amenities,sports club,True,True,False
+amenities,honor bar,False,True,False
+amenities,screen tvs,True,True,True
+amenities,shuttle,False,True,False
+amenities,library,True,True,False
+amenities,pier,True,True,True
+amenities,wi fi,True,False,False
+amenities,local restaurant,False,True,True
+amenities,internet,True,True,False
+amenities,glass,True,True,True
+amenities,wi-fi,False,True,False
+amenities,travel books,False,True,False
+amenities,sauna,False,True,False
+amenities,park benches,False,True,True
+amenities,water,True,True,True
+amenities,grocery store,False,True,True
+amenities,printer,False,True,False
+amenities,free wireless internet,False,True,False
+amenities,theatre,False,False,True
+amenities,free continental breakfast,False,True,False
+amenities,pub,False,True,True
+amenities,fitness facility,False,True,False
+amenities,magazine,False,True,True
+amenities,continental breakfast,False,False,False
+amenities,pool,False,True,False
+amenities,free internet access,True,True,False
+amenities,maid service,True,True,False
+amenities,club floor,False,True,False
+amenities,wireless,True,True,False
+amenities,cocktail,False,True,False
+amenities,tour buses,False,True,False
+amenities,valet,True,True,False
+amenities,cable cars,True,True,True
+amenities,health club,False,True,False
+amenities,bus,True,True,True
+amenities,transport,False,True,True
+amenities,swim pool,False,True,False
+amenities,bus garage,False,True,True
+amenities,trolley bus,False,True,True
+amenities,starbuck,False,False,True
+amenities,massage,False,True,False
+amenities,restaurants,True,True,True
+amenities,indoor pool,False,True,False
+amenities,starlight room,False,True,True
+amenities,tours,False,True,False
+amenities,tour,False,True,False
+amenities,cable car station,False,True,True
+amenities,water closet,True,True,True
+amenities,movie,False,True,True
+amenities,high speed internet access,True,True,False
+amenities,bar,False,True,True
+amenities,cable car museum,False,True,True
+amenities,park,True,True,False
+amenities,locker room,False,True,False
+amenities,happy hour,False,False,False
+amenities,jacuzzi,True,True,False
+amenities,nightclub,True,True,True
+amenities,entertainment,False,True,False
+amenities,patio,False,True,False
+amenities,horses,False,True,True
+amenities,steam room,True,True,False
+amenities,music,False,True,False
+amenities,mini bar,False,True,True
+amenities,dog park,False,True,False
+amenities,body shop,False,True,True
+amenities,italian restaurant,True,False,True
+amenities,garage,False,True,True
+amenities,hot tub,True,True,False
+amenities,lounge chair,True,True,True
+amenities,bicycle,False,True,False
+amenities,theater,True,True,True
+amenities,cable television,True,True,True
+amenities,lap pool,False,True,False
+amenities,elevator,False,True,True
+amenities,parking garages,False,True,False
+amenities,coffee,True,True,True
+amenities,wine,True,True,True
+amenities,hire car,False,True,True
+amenities,car park,False,True,False
+amenities,fitness center,False,True,False
+amenities,cable car,True,True,True
+amenities,free internet,True,True,False
+amenities,tv,True,True,True
+amenities,shuttle bus,False,True,False
+amenities,brunch,False,True,False
+amenities,fitness centre,False,True,False
+amenities,exercise equipment,False,True,False
+amenities,internet access,True,True,False
+amenities,wireless internet,True,True,False
+amenities,supermarket,True,True,True
+amenities,bike rental,False,True,False
+amenities,ice,True,True,False
+amenities,outdoor pool,False,True,False
+amenities,garden,True,True,False
+amenities,parking.,False,True,False
+amenities,internet service,False,True,False
+amenities,computers,True,True,False
+amenities,courtyard,False,True,True
+amenities,coffee shops,False,True,True
+amenities,pet store,False,True,True
+amenities,smoking room,True,True,True
+amenities,daily newspaper,True,False,False
+amenities,lounge,False,True,False
+amenities,trolley buses,False,True,True
+amenities,parking lot,False,True,False
+amenities,cat food,False,True,True
+amenities,electricity,False,True,True
+amenities,pool.,False,True,False
+amenities,cocktails,False,True,False
+amenities,guest services,True,True,False
+amenities,walks,False,True,True
+amenities,bottled water,True,True,True
+amenities,dining table,True,True,True
+amenities,fax machine,True,True,False
+amenities,wine tasting,False,True,False
+amenities,trolley car,False,True,True
+amenities,club lounge,True,True,False
+amenities,cable car line,False,True,True
+amenities,piano bar,False,True,False
+amenities,furniture,True,True,True
+amenities,bike,False,True,False
+amenities,fishermans wharf,True,False,True
+amenities,free covered parking,False,True,False
+amenities,wifi,True,True,False
+amenities,pool area,False,True,False
+amenities,playground,False,True,False
+amenities,restaurant,True,True,False
+amenities,free wine,False,True,False
+amenities,liquor store,False,True,True
+amenities,motorcycles,False,True,True
+amenities,valet parking,False,True,False
+amenities,carousel,True,True,True
+amenities,vend machine,False,True,False
+amenities,cable,True,True,True
+amenities,bicycles,False,True,False
+amenities,bus tours,False,True,False
+amenities,breakfast buffet,False,True,False
+amenities,swimming pool,False,True,False
+amenities,buses,False,True,True
+amenities,mobile telephone,False,True,True
+amenities,complimentary continental breakfast,False,False,False
+amenities,exercise room,False,True,False
+amenities,parking,False,True,False
+amenities,electric car,False,True,True
+amenities,candy bar,True,True,True
+amenities,swimming pools,False,True,False
+amenities,green room,False,True,True
+amenities,complimentary breakfast,False,True,False
+amenities,car rental,False,True,True
+amenities,health food store,False,True,True
+amenities,newspaper,True,True,True
+amenities,gym,False,True,False
+amenities,trolley cars,False,True,True
+amenities,free wireless,True,True,False
+amenities,spa,False,True,False
+amenities,video games,False,True,True
+amenities,high speed internet,False,True,False
+amenities,club / lounge,False,True,False
+amenities,complimentary coffee,False,True,False
+amenities,overnight parking,False,True,False
+amenities,breakfast,False,True,False
+amenities,cable internet,True,True,False
+amenities,printing,False,True,False
+amenities,parking garage,False,True,False
+amenities,live music,False,True,False
+amenities,food,True,True,True
+location,bangkok,False,True,False
+location,virginia,False,False,False
+location,dubai,False,False,False
+location,anaheim,False,False,False
+location,marin county,False,False,False
+location,golden gate park,True,False,False
+location,texas,False,False,False
+location,seattle,False,False,False
+location,vegas,False,False,False
+location,atlanta,False,False,False
+location,polk street,False,True,False
+location,financial district,True,True,False
+location,germany,False,False,False
+location,dc,False,True,False
+location,napa valley,False,False,False
+location,arizona,False,False,False
+location,palomar,False,True,True
+location,sydney australia,False,False,False
+location,san francisco!,False,False,False
+location,kensington park,True,False,False
+location,san fransisco,False,False,False
+location,mexico,False,False,False
+location,hollywood florida,False,False,False
+location,newport,False,False,False
+location,las vegas,False,False,False
+location,us,False,False,False
+location,haight ashbury,True,True,False
+location,portland,False,False,False
+location,s.f.,False,True,False
+location,oregon,False,False,False
+location,pasadena,False,False,False
+location,daly city,False,True,False
+location,japantown,True,False,False
+location,brazil,False,False,False
+location,san fran.,False,False,False
+location,japan,False,False,False
+location,marina district,True,False,False
+location,los angeles,False,False,False
+location,orange county,False,False,False
+location,chinatown,True,True,False
+location,central europe,False,False,False
+location,san francisco bay,True,False,False
+location,greece,False,False,False
+location,chelsea,False,False,False
+location,northern california,False,False,False
+location,fillmore,True,True,False
+location,asia,False,False,False
+location,mission street,True,True,False
+location,soma,False,True,False
+location,hollywood,True,False,False
+location,san fran,False,False,False
+location,san francisco,False,False,False
+location,le meridien,False,False,True
+location,uk,False,False,False
+location,philadelphia,False,False,False
+location,sfo,False,True,False
+location,china,False,False,False
+location,ghiardelli square,True,False,False
+location,beverly hills,False,False,False
+location,monterey,False,False,False
+location,sacramento valley,False,False,False
+location,boston,False,False,False
+location,valencia,False,False,False
+location,venice beach,False,False,False
+location,sunnyvale,False,True,False
+location,stockton,False,False,False
+location,san francisco.,False,False,False
+location,ohio,False,False,False
+location,sfo airport,False,True,False
+location,honolulu,False,False,False
+location,golden gate,True,True,False
+location,israel,False,False,False
+location,polk st,False,False,False
+location,powell st,False,False,False
+location,lombard street,True,True,False
+location,castro,False,False,False
+location,sydney,False,True,False
+location,manhattan,False,False,False
+location,nyc,False,False,False
+location,taiwan,False,False,False
+location,vancouver,False,False,False
+location,russia,False,False,False
+location,larkspur,False,True,False
+location,maui,False,False,False
+location,sf.,False,False,False
+location,wharf area,True,False,False
+location,hawaii,False,True,False
+location,orlando,False,False,False
+location,vallejo,False,True,False
+location,london uk,False,False,False
+location,south beach,False,False,False
+location,fisherman wharf,True,False,False
+location,oak,False,True,False
+location,sausalito,False,True,False
+location,santa barbara,False,False,False
+location,colorado,False,False,False
+location,thailand,False,False,False
+location,miami,False,False,False
+location,half moon bay,False,False,False
+location,chicago,False,False,False
+location,europe,False,False,False
+location,washington square,True,False,False
+location,san franscisco,False,False,False
+location,moscone center,True,False,False
+location,san fransico,False,False,False
+location,market street,True,True,False
+location,ireland,False,False,False
+location,france,False,False,False
+location,paris,False,False,False
+location,richmond,False,False,False
+location,phoenix,False,False,False
+location,amsterdam,False,True,False
+location,yosemite,False,True,False
+location,nevada,False,False,False
+location,sf,False,True,False
+location,lake tahoe,False,True,False
+location,usa,False,True,False
+location,mission district,True,True,False
+location,disneyland,True,True,False
+location,van ness,False,False,False
+location,downtown san francisco,True,False,False
+location,london england,False,False,False
+location,singapore,False,False,False
+location,post st,False,True,False
+location,silicon valley,False,False,False
+location,palo alto,False,False,False
+location,san diego,False,False,False
+location,sutter street,False,True,False
+location,toronto,False,False,False
+location,san jose,False,False,False
+location,auckland,False,False,False
+location,new york,False,False,False
+location,spain,False,False,False
+location,fishermans wharf,True,False,False
+location,america,False,False,False
+location,tahoe,False,True,False
+location,india,False,False,False
+location,airport,True,True,False
+location,washington,False,False,False
+location,reno,False,True,False
+location,japan town,True,False,False
+location,london,False,False,False
+location,sacramento,False,False,False
+location,england,False,False,False
+location,fresno,False,True,False
+location,downtown san fran,False,False,False
+location,fisherman 's wharf,True,False,False
+location,california,False,False,False
+location,nob hill,True,False,False
+location,italy,False,False,False
+location,monaco,False,False,False
+location,bay city,False,False,False
+location,columbus,False,False,False
+location,canada,False,False,False
+location,new zealand,False,False,False
+location,central california,False,False,False
+location,riverside,False,True,False
+location,st francis,False,False,True
+location,new orleans,False,False,False
+location,bay area,False,False,False
+location,hong kong,False,False,False
+location,market st,False,True,False
+location,florida,False,False,False
+location,san franciso,False,True,False
+location,ny,False,True,False
+location,rome,False,False,False
+location,vancouver canada,False,False,False
+location,tokyo,False,False,False
+location,alaska,False,False,False
+location,malibu,False,True,False
+location,long beach,False,True,False
+location,argentina,False,False,False
+location,monterey bay,False,False,False
+location,twin peaks,False,False,False
+location,santa cruz,False,False,False
+location,berkeley,False,False,False
+location,civic center,True,False,False
+location,palm springs,False,True,False
+location,north beach,True,False,False
+location,southern california,False,True,False
+location,scotland,False,False,False
+location,oakland coliseum,False,False,False
+location,australia,False,False,False
+location,oakland,False,False,False
+location,turkey,False,False,False
+location,santa monica,False,False,False
+location,california.,False,False,False
+nearby_attractions,japanese restaurant,False,False,True
+nearby_attractions,alcatraz,False,True,False
+nearby_attractions,starbucks,True,True,True
+nearby_attractions,golden gate park,True,False,False
+nearby_attractions,music station,False,True,True
+nearby_attractions,hyde street,False,False,False
+nearby_attractions,museums,False,True,False
+nearby_attractions,pier 39,False,False,False
+nearby_attractions,zoo,False,True,False
+nearby_attractions,times square,False,True,False
+nearby_attractions,boardwalk,False,True,False
+nearby_attractions,financial district,True,True,True
+nearby_attractions,temple,False,True,False
+nearby_attractions,theatres,False,True,False
+nearby_attractions,sports club,True,True,True
+nearby_attractions,kensington park,True,False,False
+nearby_attractions,casino,True,True,False
+nearby_attractions,art museum,False,True,False
+nearby_attractions,movie theater,False,True,True
+nearby_attractions,library,True,True,True
+nearby_attractions,castle,True,True,False
+nearby_attractions,pier,True,True,False
+nearby_attractions,china town,False,False,False
+nearby_attractions,bay,False,True,True
+nearby_attractions,business district,False,True,True
+nearby_attractions,lincoln park,False,False,False
+nearby_attractions,haight ashbury,True,True,True
+nearby_attractions,convention center,False,True,False
+nearby_attractions,shopping center,False,True,True
+nearby_attractions,seafood restaurant,False,True,True
+nearby_attractions,japantown,True,False,True
+nearby_attractions,science museum,False,True,False
+nearby_attractions,amusement park,False,True,False
+nearby_attractions,comedy club,False,True,True
+nearby_attractions,marina district,True,False,False
+nearby_attractions,fort mason,False,False,False
+nearby_attractions,waterfront park,False,True,False
+nearby_attractions,chinatown,True,True,False
+nearby_attractions,circus,False,True,False
+nearby_attractions,grand central station,False,False,False
+nearby_attractions,grand cafe,False,False,True
+nearby_attractions,grant plaza,False,False,False
+nearby_attractions,san francisco bay,True,False,False
+nearby_attractions,sears,False,False,True
+nearby_attractions,ferry,False,True,False
+nearby_attractions,orchard,False,True,False
+nearby_attractions,fillmore,True,True,True
+nearby_attractions,petite auberge,False,True,True
+nearby_attractions,fisherman 's warf,False,False,False
+nearby_attractions,mall,False,True,True
+nearby_attractions,auditorium,False,True,True
+nearby_attractions,target market,False,True,True
+nearby_attractions,shopping area,False,True,True
+nearby_attractions,central park,False,True,False
+nearby_attractions,mission street,True,True,True
+nearby_attractions,cable cars,True,True,True
+nearby_attractions,stanyan park,False,False,False
+nearby_attractions,beach,False,True,True
+nearby_attractions,hollywood,True,False,False
+nearby_attractions,muir woods,False,True,False
+nearby_attractions,yerba buena gardens,False,False,False
+nearby_attractions,ghiardelli square,True,False,False
+nearby_attractions,disney store,False,True,True
+nearby_attractions,restaurants,True,True,True
+nearby_attractions,museum,False,True,False
+nearby_attractions,galleria park,False,False,False
+nearby_attractions,cafeteria,False,True,True
+nearby_attractions,ocean beach,False,False,False
+nearby_attractions,international house,False,True,True
+nearby_attractions,broadway,False,True,False
+nearby_attractions,golden gate,True,True,False
+nearby_attractions,national park,False,True,False
+nearby_attractions,park,True,True,True
+nearby_attractions,north point,False,False,True
+nearby_attractions,asian art museum,False,False,False
+nearby_attractions,theater district,False,True,True
+nearby_attractions,apple store,False,False,True
+nearby_attractions,renoir,False,True,True
+nearby_attractions,lombard street,True,True,False
+nearby_attractions,nightclub,True,True,True
+nearby_attractions,japan center,False,False,True
+nearby_attractions,crissy field,False,False,False
+nearby_attractions,presidio,False,True,False
+nearby_attractions,french restaurant,False,False,True
+nearby_attractions,italian restaurant,True,False,True
+nearby_attractions,wharf area,True,False,False
+nearby_attractions,golden gate bridge,False,False,False
+nearby_attractions,hollywood bowl,False,False,False
+nearby_attractions,gg bridge,False,True,False
+nearby_attractions,theater,True,True,True
+nearby_attractions,anime,False,True,True
+nearby_attractions,fisherman wharf,True,False,False
+nearby_attractions,boat,False,True,True
+nearby_attractions,parc 55,False,False,False
+nearby_attractions,bakery,False,True,True
+nearby_attractions,dance hall,False,True,True
+nearby_attractions,washington square,True,False,False
+nearby_attractions,olympic club,False,True,True
+nearby_attractions,japanese gardens,False,False,False
+nearby_attractions,moscone center,True,False,False
+nearby_attractions,imperial club,False,False,True
+nearby_attractions,capitol building,False,False,False
+nearby_attractions,hollywood hotel,False,False,True
+nearby_attractions,orchard garden,False,False,False
+nearby_attractions,market street,True,True,True
+nearby_attractions,harbor court,False,False,True
+nearby_attractions,cable car,True,True,True
+nearby_attractions,sf moma,False,True,False
+nearby_attractions,lombard,False,True,False
+nearby_attractions,arcade,False,True,True
+nearby_attractions,downtown,False,True,True
+nearby_attractions,supermarket,True,True,True
+nearby_attractions,bay bridge,False,False,False
+nearby_attractions,grace cathedral,False,False,False
+nearby_attractions,gate theatre,False,True,False
+nearby_attractions,yerba buena garden,False,False,False
+nearby_attractions,garden,True,True,True
+nearby_attractions,civic centre,False,False,True
+nearby_attractions,palace,False,True,False
+nearby_attractions,mission district,True,True,True
+nearby_attractions,disneyland,True,True,False
+nearby_attractions,downtown san francisco,True,False,False
+nearby_attractions,angel island,False,False,False
+nearby_attractions,marina,False,True,False
+nearby_attractions,baseball park,False,True,True
+nearby_attractions,ocean,False,True,True
+nearby_attractions,theatre district,False,False,True
+nearby_attractions,bart station,False,False,True
+nearby_attractions,ghirardelli square,False,True,False
+nearby_attractions,club lounge,True,True,True
+nearby_attractions,subway restaurant,False,False,True
+nearby_attractions,music festival,False,True,False
+nearby_attractions,ferry building,False,True,False
+nearby_attractions,parade,False,True,False
+nearby_attractions,aquarium,False,True,False
+nearby_attractions,great american music hall,False,False,False
+nearby_attractions,opera house,False,False,False
+nearby_attractions,fishermans warf,False,False,False
+nearby_attractions,fishermans wharf,True,False,False
+nearby_attractions,exploratorium,False,True,False
+nearby_attractions,restaurant,True,True,True
+nearby_attractions,moscone convention center,False,False,False
+nearby_attractions,airport,True,True,True
+nearby_attractions,farmer 's market,False,True,True
+nearby_attractions,japan town,True,False,False
+nearby_attractions,tommy 's joynt,False,False,False
+nearby_attractions,japanese garden,False,False,False
+nearby_attractions,carousel,True,True,True
+nearby_attractions,ghiradelli square,False,False,False
+nearby_attractions,powell street,False,False,True
+nearby_attractions,fisherman 's wharf,True,False,False
+nearby_attractions,nob hill,True,False,True
+nearby_attractions,washington square park,False,False,False
+nearby_attractions,indian restaurant,False,False,True
+nearby_attractions,chinese restaurant,False,False,True
+nearby_attractions,sbc park,False,True,False
+nearby_attractions,metro station,False,False,True
+nearby_attractions,shopping mall,False,True,True
+nearby_attractions,arena,False,True,False
+nearby_attractions,coit tower,False,False,False
+nearby_attractions,warehouse,False,True,True
+nearby_attractions,film festival,False,True,False
+nearby_attractions,knob hill,False,False,True
+nearby_attractions,tram,False,True,True
+nearby_attractions,shopping district,False,True,True
+nearby_attractions,south park,False,False,False
+nearby_attractions,train station,False,True,True
+nearby_attractions,wine country,False,True,True
+nearby_attractions,heritage marina,False,True,True
+nearby_attractions,movie theatre,False,True,True
+nearby_attractions,main shopping area,False,True,True
+nearby_attractions,civic center,True,False,True
+nearby_attractions,north beach,True,False,False
+nearby_attractions,cabaret,False,True,True
+nearby_attractions,embarcadero center,False,False,False
+nearby_attractions,bridge,False,True,True
+nearby_attractions,independence square,False,True,False
+nearby_attractions,opera,False,True,False
+nearby_attractions,sfmoma,False,True,False
+nearby_attractions,bart,False,False,True
+nearby_attractions,westfield mall,False,True,False
+property_type,historic building,False,True,False
+property_type,fishermans wharf,True,False,False
+property_type,hostel,False,True,False
+property_type,house,False,False,False
+property_type,bus,True,True,False
+property_type,beach hut,False,False,False
+property_type,villa,False,True,False
+property_type,motor lodge,False,True,False
+property_type,club quarters,False,True,False
+property_type,camping,False,True,False
+property_type,studio apartment,False,True,False
+property_type,casino,True,True,False
+property_type,castle,True,True,False
+property_type,boutique hotel,True,True,False
+property_type,pier,True,True,False
+property_type,office building,False,True,False
+property_type,seaside resort,False,True,False
+property_type,apartment,True,True,False
+property_type,boarding house,False,True,False
+property_type,inn,False,True,False
+property_type,marina motel,False,False,False
+property_type,luxury hotels,False,True,False
+property_type,marina inn,False,True,False
+property_type,chain hotels,False,True,False
+property_type,apartment hotel,False,True,False
+property_type,mansion,False,True,False
+property_type,apartment building,False,True,False
+property_type,beach house,False,False,False
+property_type,boutique hotels,False,False,False
+property_type,hotel chain,False,True,False
+room_features,hot shower,True,True,False
+room_features,flat panel tv,False,False,False
+room_features,electrical outlets,False,True,False
+room_features,sliding door,False,True,False
+room_features,cd,False,True,False
+room_features,table wine,False,True,False
+room_features,pc,False,True,True
+room_features,shower curtain,False,True,False
+room_features,coffee table,True,True,False
+room_features,window seat,False,True,True
+room_features,free wifi,True,True,True
+room_features,cable tv,True,False,False
+room_features,starbucks coffee,False,True,False
+room_features,double bed,False,True,False
+room_features,lounge chairs,True,True,False
+room_features,drawer space,False,True,False
+room_features,remote control,False,True,False
+room_features,toilet seat,False,False,False
+room_features,weight machine,False,True,False
+room_features,bath products,False,True,False
+room_features,earplugs,False,True,False
+room_features,extra towels,False,True,False
+room_features,large lcd tv,False,True,False
+room_features,fresh towels,False,True,False
+room_features,screen tvs,True,True,False
+room_features,kitchen cabinet,False,True,False
+room_features,video camera,False,True,True
+room_features,shampoo,False,True,False
+room_features,large flat screen tv,False,True,False
+room_features,shower / tub,False,True,False
+room_features,bathroom product,False,True,False
+room_features,sofa bed,False,False,False
+room_features,shower curtains,False,True,False
+room_features,basin,False,True,False
+room_features,bed sheet,False,True,False
+room_features,two double beds,False,False,False
+room_features,wi fi,True,False,True
+room_features,internet,True,True,True
+room_features,clock radio,False,True,False
+room_features,lcd tv,False,False,False
+room_features,glass,True,True,False
+room_features,mirror,False,True,False
+room_features,iron board,False,True,False
+room_features,a/c,False,True,False
+room_features,water,True,True,False
+room_features,cabinet,False,True,False
+room_features,dvd player,False,False,False
+room_features,shower,False,True,False
+room_features,dvd,False,True,False
+room_features,radio,False,True,False
+room_features,tub shower,False,False,False
+room_features,stereo,False,True,False
+room_features,free internet access,True,True,True
+room_features,poster,False,True,True
+room_features,shower gel,False,True,False
+room_features,storage space,False,True,False
+room_features,chairs,False,True,False
+room_features,towels,False,True,False
+room_features,separate tub,False,True,False
+room_features,flatscreen tv,False,True,False
+room_features,2 double beds,False,False,False
+room_features,wireless,True,True,True
+room_features,fax,False,True,True
+room_features,linen,False,True,False
+room_features,extra pillow,False,True,False
+room_features,book,False,True,False
+room_features,sit area,False,True,True
+room_features,hair dryer,False,True,False
+room_features,bath tub,False,True,False
+room_features,shower tub,False,False,False
+room_features,aveda products,False,True,False
+room_features,tea,False,True,False
+room_features,well stocked mini bar,False,True,False
+room_features,electrical outlet,False,True,False
+room_features,comfy bed,False,True,False
+room_features,lcd,False,False,False
+room_features,fridge,False,True,False
+room_features,light,False,True,False
+room_features,soap,False,True,False
+room_features,telephone,False,True,False
+room_features,closet.,False,True,False
+room_features,tea coffee,False,True,False
+room_features,bar fridge,False,True,False
+room_features,modern furnishing,False,True,True
+room_features,aveda product,False,True,False
+room_features,baby shower,False,True,True
+room_features,toothbrush,False,True,False
+room_features,full length mirror,False,True,False
+room_features,microwave,False,True,False
+room_features,plasma tv,False,False,False
+room_features,desk / chair,False,False,False
+room_features,phones,False,True,False
+room_features,bed linen,False,True,False
+room_features,curtains,False,True,False
+room_features,kitchen,False,True,False
+room_features,water closet,True,True,False
+room_features,ethernet,False,True,False
+room_features,carpet,True,True,False
+room_features,high speed internet access,True,True,True
+room_features,closet space,False,True,False
+room_features,chair,False,True,False
+room_features,blankets,False,True,False
+room_features,wash basin,False,True,False
+room_features,soda water,False,True,False
+room_features,light bulb,False,True,False
+room_features,jacuzzi,True,True,False
+room_features,full size bed,False,True,False
+room_features,personal items,False,True,True
+room_features,bed linens,False,True,False
+room_features,bathroom / sink,False,True,False
+room_features,small refrigerator,False,True,False
+room_features,tub / shower,False,False,False
+room_features,steam room,True,True,True
+room_features,lotion,False,True,False
+room_features,table,False,True,False
+room_features,hot tub,True,True,False
+room_features,extra blankets,False,True,False
+room_features,lounge chair,True,True,False
+room_features,bath / shower,False,True,False
+room_features,refrigerators,False,True,False
+room_features,wine bottle,False,True,False
+room_features,cable television,True,True,False
+room_features,screen tv,False,True,False
+room_features,kitchen area,False,True,False
+room_features,vcr,False,True,False
+room_features,closet,False,True,False
+room_features,flower,False,True,False
+room_features,coffee,True,True,False
+room_features,alarm clock,False,True,False
+room_features,hdtv,False,True,False
+room_features,wine,True,True,False
+room_features,kingsize bed,False,True,False
+room_features,radiator,False,True,False
+room_features,thermostat,False,True,False
+room_features,air conditioner,False,True,False
+room_features,free internet,True,True,True
+room_features,tv,True,True,False
+room_features,counter space,False,True,False
+room_features,wallpaper,False,True,True
+room_features,internet access,True,True,True
+room_features,separate shower,False,True,False
+room_features,bath shower,False,True,False
+room_features,ironing board,False,True,False
+room_features,wireless internet,True,True,True
+room_features,flat screen,False,True,False
+room_features,ice,True,True,True
+room_features,popcorn,False,True,False
+room_features,ac,False,True,False
+room_features,heater,False,True,False
+room_features,makeup mirror,False,True,False
+room_features,heat,False,True,True
+room_features,sleeper sofa,False,True,False
+room_features,computers,True,True,True
+room_features,desk chair,False,True,False
+room_features,food / wine,False,True,True
+room_features,shower stall,False,False,False
+room_features,cutlery,False,True,False
+room_features,computer,False,True,True
+room_features,daily newspaper,True,False,False
+room_features,huge flat screen tv,False,True,False
+room_features,blow dryer,False,True,False
+room_features,complimentary wine,False,True,False
+room_features,seperate shower,False,True,False
+room_features,mini fridge,False,False,False
+room_features,shower.,False,True,False
+room_features,fax machine,True,True,True
+room_features,bottled water,True,True,False
+room_features,dining table,True,True,False
+room_features,bath product,False,True,False
+room_features,stereos,False,True,False
+room_features,kitchenette,False,False,False
+room_features,coffee tea,False,True,False
+room_features,bedside table,False,True,False
+room_features,toaster,False,True,False
+room_features,ipod,False,True,False
+room_features,cd player,False,True,False
+room_features,fluffy towel,False,True,False
+room_features,toilet paper,False,False,False
+room_features,hot water,False,True,False
+room_features,furniture,True,True,False
+room_features,bathroom sink,False,True,False
+room_features,fresh towel,False,True,False
+room_features,wifi,True,True,True
+room_features,pull out sofa,False,True,False
+room_features,extra pillows,False,True,False
+room_features,steam,False,True,True
+room_features,tablet,False,True,True
+room_features,cable,True,True,False
+room_features,chocolate bar,False,True,False
+room_features,microwaves,False,True,False
+room_features,tv cabinet,False,True,False
+room_features,2 queen beds,False,False,False
+room_features,double beds,False,True,False
+room_features,microwave oven,False,False,False
+room_features,laptop,False,True,True
+room_features,bath,False,True,False
+room_features,dvd library,False,False,True
+room_features,flat screen television,False,True,False
+room_features,bed / linens,False,True,False
+room_features,extra towel,False,True,False
+room_features,beer,False,True,False
+room_features,air conditioning,False,True,False
+room_features,clock,False,True,False
+room_features,newspapers,False,True,False
+room_features,soak tub,False,False,False
+room_features,windows,False,True,False
+room_features,candy bar,True,True,False
+room_features,dvds,False,True,False
+room_features,commode,False,True,False
+room_features,ceiling fan,False,False,False
+room_features,toiletries,False,True,False
+room_features,bed sheets,False,True,False
+room_features,ear plug,False,False,False
+room_features,fresh flower,False,True,False
+room_features,candy,False,True,False
+room_features,two queen beds,False,False,False
+room_features,newspaper,True,True,False
+room_features,soaking tub,False,True,False
+room_features,free wireless,True,True,True
+room_features,condoms,False,True,False
+room_features,big tv,False,True,False
+room_features,paper,False,True,False
+room_features,cologne,False,True,False
+room_features,sitting area,False,True,True
+room_features,living room,False,True,True
+room_features,towels.,False,True,False
+room_features,wet bar,False,True,False
+room_features,ottoman,False,True,False
+room_features,air con,False,False,False
+room_features,baby food,False,True,True
+room_features,telephone card,False,True,True
+room_features,living room area,False,True,True
+room_features,teddy bear,False,True,False
+room_features,large closet,False,True,False
+room_features,evening wine,False,True,True
+room_features,ac unit,False,False,False
+room_features,cable internet,True,True,True
+room_features,deep tub,False,True,False
+room_features,seating area,False,True,True
+room_features,food,True,True,True
+room_type,junior suite,False,True,False
+room_type,two bedroom suite,False,False,False
+room_type,single queen,False,True,False
+room_type,non smoking,False,True,False
+room_type,double standard,False,True,False
+room_type,suite.,False,True,False
+room_type,honeymoon suite,False,False,False
+room_type,california suite,False,False,False
+room_type,standard king room,False,True,False
+room_type,smoking,False,True,False
+room_type,super deluxe,False,True,False
+room_type,family,False,True,False
+room_type,one bedroom suite,False,False,False
+room_type,suites,False,True,False
+room_type,double queen,False,True,False
+room_type,double / double,False,True,False
+room_type,deluxe king room,False,False,False
+room_type,superior king,False,True,False
+room_type,standard queen,False,True,False
+room_type,rainbow room,False,True,False
+room_type,apartment,True,True,False
+room_type,non-smoking,False,True,False
+room_type,queen,False,True,False
+room_type,suite,False,True,False
+room_type,double / queen,False,True,False
+room_type,corner suite,False,True,False
+room_type,executive lounge,False,True,True
+room_type,2 bedroom suite,False,False,False
+room_type,deluxe double,False,False,False
+room_type,smoking room,True,True,False
+room_type,redwood room,False,True,False
+room_type,studio suite,False,True,False
+room_type,standard double,False,True,False
+room_type,deluxe king,False,False,False
+room_type,1 bedroom suite,False,False,False
+room_type,deluxe,False,True,False
+room_type,double double,False,True,False
+room_type,en suite,False,True,False
+room_type,business class,False,True,True
+room_type,king,False,True,False
+room_type,executive king,False,True,False
+staff,hotel room service,False,True,True
+staff,carman,False,True,False
+staff,elevator operator,False,True,False
+staff,valet,True,True,False
+staff,desk attendant,False,True,False
+staff,bell hop,False,False,False
+staff,security guard,False,True,False
+staff,bellhop,False,True,False
+staff,engineer,False,True,True
+staff,maintenance guy,False,True,False
+staff,porter,False,True,False
+staff,executive chef,False,True,False
+staff,nurse,False,True,True
+staff,general manager,False,True,False
+staff,desk staff,False,False,False
+staff,staff members,False,True,False
+staff,desk agent,False,True,False
+staff,desk clerks,False,True,False
+staff,butler,False,True,False
+staff,desk person,False,False,False
+staff,pastry chef,False,True,False
+staff,busboy,False,True,False
+staff,cleaning crew,False,True,False
+staff,door man,False,True,False
+staff,bellman,False,True,False
+staff,gm,False,False,False
+staff,manager,False,True,False
+staff,parking attendant,False,True,False
+staff,security,False,True,False
+staff,bell man,False,False,False
+staff,police officer,False,True,True
+staff,tour operator,False,True,False
+staff,duty manager,False,True,False
+staff,laundry service,False,True,True
+staff,physician,False,True,True
+staff,front desk personnel,False,True,False
+staff,travel agent,False,True,True
+staff,bell men,False,True,False
+staff,front desk clerk,False,True,False
+staff,cleaning lady,False,True,False
+staff,secretary,False,True,True
+staff,guard,False,True,False
+staff,staff member,False,True,False
+staff,waiting staff,False,True,False
+staff,bell boy,False,False,False
+staff,bartender,False,True,False
+staff,guest services,True,True,True
+staff,mgr,False,False,False
+staff,bell captain,False,False,False
+staff,chef,False,False,False
+staff,door men,False,True,False
+staff,desk personnel,False,True,False
+staff,concierge,False,True,False
+staff,maid service,True,True,True
+staff,photographer,False,True,True
+staff,accountant,False,True,True
+staff,bell boys,False,True,False
+staff,dentist,False,True,True
+style,5 star,False,False,True
+style,budget,False,True,False
+style,4 star,False,False,True
+style,modern design,False,True,False
+style,mid range,False,True,False
+style,boutique type,False,True,False
+style,british,False,False,False
+style,reasonably priced,False,True,False
+style,boutique,False,True,False
+style,four star,False,False,True
+style,modern style,False,True,False
+style,reasonable price,False,True,True
+style,tropical,False,True,False
+style,older style,False,True,False
+style,modern decor,False,True,False
+style,french,False,False,False
+style,friendly,False,True,True
+style,boutique hotel,True,True,False
+style,carpet,True,True,True
+style,romantic,False,True,False
+style,edwardian,False,False,False
+style,reasonable rate,False,True,True
+style,central location,False,True,True
+style,friendly.,False,True,True
+style,budget.,False,True,False
+style,tourism,False,True,True
+style,fusion,False,True,True
+style,italian,False,False,False
+style,higher end,False,True,False
+style,reasonable rates,False,True,True
+style,five star,False,False,True
+style,convenient location,False,True,True
+style,retro style,False,False,False
+style,business,False,True,False
+style,antique,False,True,False
+style,world class,False,True,False

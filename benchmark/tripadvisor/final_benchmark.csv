@@ -1,0 +1,4036 @@
+concept,neighbor,gt_label
+amenities,massage,1
+amenities,bicycles,1
+amenities,computers,1
+amenities,motorcycles,1
+amenities,free internet access,1
+amenities,club lounge,1
+amenities,restaurant,1
+amenities,walks,1
+amenities,food,1
+amenities,horses,1
+amenities,cable tv,1
+amenities,fitness center,1
+amenities,swimming pool,1
+amenities,electricity,1
+amenities,water,1
+amenities,outdoor pool,1
+amenities,internet,1
+amenities,playground,1
+amenities,gym,1
+amenities,cable car,1
+amenities,fitness centre,1
+amenities,restaurants,1
+amenities,indoor pool,1
+amenities,cable cars,1
+amenities,entertainment,1
+amenities,steam room,1
+amenities,trolley cars,1
+amenities,furniture,1
+amenities,electric car,1
+amenities,exercise room,1
+amenities,sports car,1
+amenities,bottled water,1
+amenities,buses,1
+amenities,pool area,1
+amenities,gift shop,1
+amenities,club floor,1
+amenities,cable internet,1
+amenities,health club,1
+amenities,tv,1
+amenities,library,1
+amenities,continental breakfast,1
+amenities,mini bar,1
+amenities,complimentary continental breakfast,1
+amenities,park,1
+amenities,garden,1
+amenities,movie,1
+amenities,internet access,1
+amenities,cable television,1
+amenities,rental car,1
+amenities,cable car line,1
+amenities,piano bar,1
+amenities,wireless internet,1
+amenities,game room,1
+amenities,free internet,1
+amenities,lounge chairs,1
+amenities,carousel,1
+amenities,starbucks,1
+amenities,parking garage,1
+amenities,coffee table,1
+amenities,cable car station,1
+amenities,happy hour,1
+amenities,bus,1
+amenities,shuttle bus,1
+amenities,elevator,1
+amenities,car park,1
+amenities,free wireless,1
+amenities,music,1
+amenities,glass,1
+amenities,wine tasting,1
+amenities,honor bar,1
+amenities,coffee shops,1
+amenities,sports club,1
+amenities,bus garage,1
+amenities,tours,1
+amenities,swimming pools,1
+amenities,lap pool,1
+amenities,cocktails,1
+amenities,park benches,1
+amenities,trolley buses,1
+amenities,tour bus,1
+amenities,bike rental,1
+amenities,free wine,1
+amenities,bus tours,1
+amenities,courtyard,1
+amenities,trolley bus,1
+amenities,wine,1
+amenities,trolley car,1
+amenities,locker room,1
+amenities,breakfast buffet,1
+amenities,hot tub,1
+amenities,free parking,1
+amenities,green room,1
+amenities,brunch,1
+amenities,video games,1
+amenities,cocktail,1
+amenities,parking garages,1
+amenities,dog park,1
+amenities,cat food,1
+amenities,water closet,1
+amenities,bicycle,1
+amenities,free wireless internet,1
+amenities,screen tvs,1
+amenities,car rental,1
+amenities,smoking room,1
+amenities,candy bar,1
+amenities,lounge chair,1
+amenities,travel books,1
+amenities,club / lounge,1
+amenities,dining table,1
+amenities,dive bar,1
+amenities,overnight parking,1
+amenities,salad bar,1
+amenities,fitness facility,1
+amenities,internet service,1
+amenities,cable,1
+amenities,exercise equipment,1
+amenities,business center,1
+amenities,workout facility,1
+amenities,hire car,1
+amenities,italian restaurant,1
+amenities,body shop,1
+amenities,free continental breakfast,1
+amenities,theatre,1
+amenities,health food store,1
+amenities,tour buses,1
+amenities,wifi,1
+amenities,pet store,1
+amenities,cable car museum,1
+amenities,hot shower,1
+amenities,guest services,1
+amenities,parking lot,1
+amenities,mobile telephone,1
+amenities,starlight room,1
+amenities,free covered parking,1
+amenities,ice,1
+amenities,newspaper,1
+amenities,coffee,1
+amenities,magazine,1
+amenities,tour,1
+amenities,complimentary coffee,1
+amenities,swim pool,1
+amenities,theater,1
+amenities,jacuzzi,1
+amenities,sauna,1
+amenities,valet,1
+amenities,nightclub,1
+amenities,grocery store,1
+amenities,high speed internet,1
+amenities,liquor store,1
+amenities,starbuck,1
+amenities,pub,1
+amenities,supermarket,1
+amenities,local restaurant,1
+amenities,transport,1
+amenities,printing,1
+amenities,vend machine,1
+amenities,free WiFi,1
+amenities,wi fi,1
+amenities,daily newspaper,1
+amenities,high speed internet access,1
+amenities,maid service,1
+amenities,live music,1
+amenities,sight seeing,1
+amenities,fax machine,1
+amenities,morning paper,1
+amenities,Bar,1
+amenities,bike,1
+amenities,breakfast,1
+amenities,complimentary breakfast,1
+amenities,Fishermans Wharf,1
+amenities,garage,1
+amenities,Internet,1
+amenities,Internet access,1
+amenities,internet.,1
+amenities,lounge,1
+amenities,Parking,1
+amenities,parking,1
+amenities,parking.,1
+amenities,patio,1
+amenities,pier,1
+amenities,pool,1
+amenities,pool.,1
+amenities,printer,1
+amenities,shuttle,1
+amenities,spa,1
+amenities,Valet parking,1
+amenities,valet parking,1
+amenities,wi-fi,1
+amenities,WiFi,1
+amenities,wireless,1
+amenities,daily,0
+amenities,free,0
+amenities,dogs,0
+amenities,reception area,0
+amenities,arrangement,0
+amenities,club level,0
+amenities,house,0
+amenities,private,0
+amenities,basic,0
+amenities,hotel,0
+amenities,motel,0
+amenities,late night,0
+amenities,central location,0
+amenities,city,0
+amenities,area,0
+amenities,dog,0
+amenities,24 hour,0
+amenities,gas,0
+amenities,high,0
+amenities,range,0
+amenities,sun,0
+amenities,nice,0
+amenities,chinese,0
+amenities,an added bonus,0
+amenities,tennis,0
+amenities,car,0
+amenities,light,0
+amenities,clean room,0
+amenities,ground floor,0
+amenities,property,0
+amenities,executive lounge,0
+amenities,superior,0
+amenities,order,0
+amenities,american,0
+amenities,fish,0
+amenities,atmosphere,0
+amenities,gold,0
+amenities,paper,0
+amenities,laptops,0
+amenities,reading,0
+amenities,beach,0
+amenities,community,0
+amenities,water / gas,0
+amenities,mini,0
+amenities,turndown service,0
+amenities,period,0
+amenities,fifth floor,0
+amenities,windows,0
+amenities,street smarts,0
+amenities,live,0
+amenities,surrounding area,0
+amenities,real bonus,0
+amenities,castle,0
+amenities,holiday inn,0
+amenities,single,0
+amenities,security,0
+amenities,trees,0
+amenities,camping,0
+amenities,local restaurants,0
+amenities,subway restaurant,0
+amenities,walking shoes,0
+amenities,hyatt,0
+amenities,party,0
+amenities,weather,0
+amenities,refrigerator,0
+amenities,iron,0
+amenities,flat screen tv,0
+amenities,hair dryer,0
+amenities,free newspaper,0
+amenities,comfy bed,0
+amenities,game,0
+amenities,cd player,0
+amenities,bath,0
+amenities,dvd player,0
+amenities,television,0
+amenities,alarm clock,0
+amenities,microwave,0
+amenities,radio,0
+amenities,museum,0
+amenities,concierge,0
+amenities,ceiling fan,0
+amenities,telephone,0
+amenities,dvd,0
+amenities,shampoo,0
+amenities,air conditioning,0
+amenities,2 double bed,0
+amenities,stereo,0
+amenities,air con,0
+amenities,laptop,0
+amenities,soap,0
+amenities,clock radio,0
+amenities,large flat screen tv,0
+amenities,toaster,0
+amenities,fax,0
+amenities,comfortable bed,0
+amenities,plasma tv,0
+amenities,lcd tv,0
+amenities,beer,0
+amenities,flat screen,0
+amenities,bath product,0
+amenities,local call,0
+amenities,heat,0
+amenities,flat panel tv,0
+amenities,street noise,0
+amenities,two double bed,0
+amenities,hot water,0
+amenities,Aveda product,0
+amenities,kitchenette,0
+amenities,sit area,0
+amenities,extra pillow,0
+amenities,evening wine,0
+amenities,cd,0
+amenities,MUNI,0
+amenities,customer service,0
+amenities,phone,0
+amenities,website,0
+amenities,small refrigerator,0
+amenities,computer,0
+amenities,flatscreen tv,0
+amenities,bathroom product,0
+amenities,pizza,0
+amenities,thermostat,0
+amenities,thin wall,0
+amenities,plastic,0
+amenities,business,0
+amenities,wet bar,0
+amenities,muni,0
+amenities,toothpaste,0
+amenities,Aveda,0
+amenities,Bath,0
+amenities,large lcd tv,0
+amenities,Wi Fi,0
+amenities,flower,0
+amenities,champagne,0
+amenities,mirror,0
+amenities,sushi,0
+amenities,Subway,0
+amenities,plumbing,0
+amenities,pc,0
+amenities,fresh towel,0
+amenities,Starbucks coffee,0
+amenities,complimentary wine,0
+amenities,chocolate,0
+amenities,ear plug,0
+amenities,goody,0
+amenities,art,0
+amenities,shared bathroom,0
+amenities,share bathroom,0
+amenities,air conditioner,0
+amenities,neighborhood,0
+amenities,alcatraz,0
+amenities,afternoon tea,0
+amenities,dessert,0
+amenities,popcorn,0
+amenities,traffic noise,0
+amenities,two queen bed,0
+amenities,sofa bed,0
+amenities,sherry,0
+amenities,seafood,0
+amenities,big tv,0
+amenities,bell boy,0
+amenities,construction,0
+amenities,10,0
+amenities,15,0
+amenities,20,0
+amenities,25,0
+amenities,30,0
+amenities,35,0
+amenities,40,0
+amenities,45,0
+amenities,50,0
+amenities,100,0
+amenities,able,0
+amenities,access,0
+amenities,airport,0
+amenities,Alcatraz,0
+amenities,apples,0
+amenities,ate,0
+amenities,available,0
+amenities,bagels,0
+amenities,balcony,0
+amenities,bar,0
+amenities,bar.,0
+amenities,BART,0
+amenities,bartender,0
+amenities,bedroom.,0
+amenities,boarding,0
+amenities,Cafe,0
+amenities,catch,0
+amenities,caught,0
+amenities,center.,0
+amenities,cereal,0
+amenities,charge,0
+amenities,charged,0
+amenities,charges,0
+amenities,closed,0
+amenities,coffee.,0
+amenities,cold,0
+amenities,complimentary,0
+amenities,connect,0
+amenities,connection,0
+amenities,cost,0
+amenities,crowd,0
+amenities,curtains,0
+amenities,delicious,0
+amenities,desk,0
+amenities,dine,0
+amenities,dinner,0
+amenities,dinner.,0
+amenities,dollars,0
+amenities,downstairs,0
+amenities,drink,0
+amenities,drinks,0
+amenities,drinks.,0
+amenities,eggs,0
+amenities,equipment,0
+amenities,evening,0
+amenities,evenings,0
+amenities,fee,0
+amenities,ferry,0
+amenities,Ferry,0
+amenities,fitness,0
+amenities,food.,0
+amenities,FREE,0
+amenities,Free,0
+amenities,free.,0
+amenities,fruit,0
+amenities,Giants,0
+amenities,Golden Gate Bridge,0
+amenities,Grill,0
+amenities,hang,0
+amenities,high speed,0
+amenities,included,0
+amenities,Italian,0
+amenities,jazz,0
+amenities,juice,0
+amenities,lady,0
+amenities,line,0
+amenities,lobby,0
+amenities,meal,0
+amenities,menu,0
+amenities,morning,0
+amenities,morning.,0
+amenities,muffins,0
+amenities,Muni,0
+amenities,newspapers,0
+amenities,open,0
+amenities,open.,0
+amenities,opened,0
+amenities,outdoor,0
+amenities,paid,0
+amenities,park.,0
+amenities,parked,0
+amenities,pass,0
+amenities,pastries,0
+amenities,pay,0
+amenities,paying,0
+amenities,per,0
+amenities,Pier 39,0
+amenities,plus tax,0
+amenities,plus.,0
+amenities,print,0
+amenities,rate,0
+amenities,reception.,0
+amenities,relax,0
+amenities,ride,0
+amenities,rode,0
+amenities,rooftop,0
+amenities,served,0
+amenities,sit,0
+amenities,slow.,0
+amenities,sold out,0
+amenities,stop,0
+amenities,stops,0
+amenities,streetcar,0
+amenities,Take,0
+amenities,tax,0
+amenities,tea,0
+amenities,temperature,0
+amenities,terminal,0
+amenities,toast,0
+amenities,Tonga,0
+amenities,train,0
+amenities,tram,0
+amenities,transfer,0
+amenities,trolley,0
+amenities,tub,0
+amenities,unlimited,0
+amenities,wall.,0
+amenities,warm,0
+amenities,window,0
+amenities,worked,0
+amenities,workout,0
+location,bay area,1
+location,berkeley,1
+location,sfo,1
+location,hollywood,1
+location,america,1
+location,hawaii,1
+location,oakland,1
+location,japan,1
+location,nob hill,1
+location,venice beach,1
+location,pasadena,1
+location,europe,1
+location,fisherman 's wharf,1
+location,mexico,1
+location,san fran,1
+location,florida,1
+location,canada,1
+location,bay city,1
+location,golden gate park,1
+location,orange county,1
+location,sacramento,1
+location,monterey bay,1
+location,china,1
+location,sacramento valley,1
+location,france,1
+location,san fransisco,1
+location,london,1
+location,anaheim,1
+location,malibu,1
+location,arizona,1
+location,texas,1
+location,monterey,1
+location,japantown,1
+location,spain,1
+location,london england,1
+location,chicago,1
+location,fisherman wharf,1
+location,wharf area,1
+location,vancouver canada,1
+location,england,1
+location,nevada,1
+location,italy,1
+location,riverside,1
+location,seattle,1
+location,golden gate,1
+location,long beach,1
+location,singapore,1
+location,usa,1
+location,sydney australia,1
+location,north beach,1
+location,brazil,1
+location,disneyland,1
+location,fishermans wharf,1
+location,st francis,1
+location,paris,1
+location,germany,1
+location,monaco,1
+location,taiwan,1
+location,fresno,1
+location,san diego,1
+location,marina district,1
+location,beverly hills,1
+location,south beach,1
+location,los angeles,1
+location,dubai,1
+location,ireland,1
+location,lombard street,1
+location,uk,1
+location,london uk,1
+location,valencia,1
+location,argentina,1
+location,asia,1
+location,moscone center,1
+location,alaska,1
+location,marin county,1
+location,kensington park,1
+location,hollywood florida,1
+location,sutter street,1
+location,stockton,1
+location,daly city,1
+location,israel,1
+location,sydney,1
+location,phoenix,1
+location,greece,1
+location,oregon,1
+location,palomar,1
+location,washington,1
+location,india,1
+location,thailand,1
+location,vancouver,1
+location,vegas,1
+location,richmond,1
+location,napa valley,1
+location,boston,1
+location,oakland coliseum,1
+location,san fransico,1
+location,reno,1
+location,san francisco bay,1
+location,chinatown,1
+location,sunnyvale,1
+location,colorado,1
+location,downtown san francisco,1
+location,silicon valley,1
+location,scotland,1
+location,miami,1
+location,mission district,1
+location,russia,1
+location,nyc,1
+location,newport,1
+location,orlando,1
+location,central europe,1
+location,virginia,1
+location,palm springs,1
+location,central california,1
+location,san franciso,1
+location,southern california,1
+location,columbus,1
+location,japan town,1
+location,chelsea,1
+location,yosemite,1
+location,tokyo,1
+location,turkey,1
+location,santa monica,1
+location,market street,1
+location,New York,1
+location,Las Vegas,1
+location,California,1
+location,Sausalito,1
+location,DC,1
+location,Philadelphia,1
+location,Haight Ashbury,1
+location,Santa Barbara,1
+location,Santa Cruz,1
+location,Van Ness,1
+location,Tahoe,1
+location,NY,1
+location,San Jose,1
+location,Financial District,1
+location,Castro,1
+location,SoMa,1
+location,New Orleans,1
+location,SOMA,1
+location,Palo Alto,1
+location,Market St,1
+location,Australia,1
+location,Manhattan,1
+location,Polk Street,1
+location,Civic Center,1
+location,SFO airport,1
+location,Maui,1
+location,las vegas,1
+location,Powell St,1
+location,Atlanta,1
+location,Toronto,1
+location,downtown San Fran,1
+location,Ghiardelli Square,1
+location,Honolulu,1
+location,Le Meridien,1
+location,Twin Peaks,1
+location,castro,1
+location,Rome,1
+location,Post St,1
+location,airport,1
+location,soma,1
+location,Hong Kong,1
+location,Auckland,1
+location,New Zealand,1
+location,Portland,1
+location,OAK,1
+location,Mission Street,1
+location,San Franscisco,1
+location,Fillmore,1
+location,Amsterdam,1
+location,Northern California,1
+location,Lake Tahoe,1
+location,Polk St,1
+location,Bangkok,1
+location,northern California,1
+location,Half Moon Bay,1
+location,Washington Square,1
+location,Ohio,1
+location,Larkspur,1
+location,Airport,1
+location,new york,1
+location,Vallejo,1
+location,California.,1
+location,NYC,1
+location,S.F.,1
+location,San Fran,1
+location,San Fran.,1
+location,San Francisco,1
+location,san francisco,1
+location,San Francisco!,1
+location,San Francisco.,1
+location,San Fransisco,1
+location,SF,1
+location,SF.,1
+location,UK,1
+location,US,1
+location,USA,1
+location,town,0
+location,inn,0
+location,city,0
+location,downtown,0
+location,holiday inn,0
+location,beach,0
+location,hyatt,0
+location,park,0
+location,grand hyatt,0
+location,intercontinental,0
+location,alcatraz,0
+location,comfort inn,0
+location,mark hopkins,0
+location,hotel,0
+location,best western,0
+location,tour,0
+location,stanford,0
+location,club quarters,0
+location,campton place,0
+location,orchard,0
+location,area,0
+location,travelodge,0
+location,tuscan inn,0
+location,kabuki,0
+location,road,0
+location,ramada,0
+location,zoo,0
+location,frisco,0
+location,savoy,0
+location,ocean beach,0
+location,motor inn,0
+location,chancellor,0
+location,corona,0
+location,center,0
+location,ritz carlton,0
+location,mandarin,0
+location,mayflower,0
+location,motel,0
+location,business,0
+location,big city,0
+location,stanford court,0
+location,donatello,0
+location,jw marriott,0
+location,pan pacific,0
+location,theatre,0
+location,four seasons,0
+location,coventry,0
+location,palace,0
+location,oakland airport,0
+location,holiday inn express,0
+location,close proximity,0
+location,country,0
+location,hyatt regency,0
+location,golden gate bridge,0
+location,carriage inn,0
+location,tourist,0
+location,buena vista,0
+location,fusion,0
+location,chinese,0
+location,sir francis drake,0
+location,marina motel,0
+location,huntington park,0
+location,marina,0
+location,crowne plaza,0
+location,property,0
+location,diva,0
+location,ucla,0
+location,argent,0
+location,o'farrell,0
+location,theater,0
+location,ocean park,0
+location,marina inn,0
+location,museum,0
+location,house,0
+location,bay,0
+location,hotels,0
+location,China Town,0
+location,Little Italy,0
+location,China town,0
+location,Coit Tower,0
+location,Muir Woods,0
+location,Wine Country,0
+location,Fisherman 's Warf,0
+location,Ghirardelli Square,0
+location,Big Sur,0
+location,wine country,0
+location,Cable Cars,0
+location,little italy,0
+location,Grace Cathedral,0
+location,Coit tower,0
+location,Powell station,0
+location,Fishermen 's Wharf,0
+location,Crissy Field,0
+location,Alcatraz Island,0
+location,little Italy,0
+location,Fort Mason,0
+location,Embarcadero Center,0
+location,Fisherman 's warf,0
+location,SBC Park,0
+location,Bay Bridge,0
+location,Powell Station,0
+location,Fishermans Warf,0
+location,Moscone Convention Center,0
+location,Civic Centre,0
+location,Powell Street Station,0
+location,Treasure Island,0
+location,fishermans warf,0
+location,UCSF,0
+location,mid November,0
+location,mid July,0
+location,Villa Florence,0
+location,fisherman 's warf,0
+location,Muir wood,0
+location,large city,0
+location,early March,0
+location,North America,0
+location,Montgomery Station,0
+location,4,0
+location,8,0
+location,200,0
+location,2007,0
+location,a 4,0
+location,again!,0
+location,ages,0
+location,all.,0
+location,already,0
+location,anyway,0
+location,anyway.,0
+location,apart,0
+location,apartment,0
+location,awesome,0
+location,because,0
+location,blocked,0
+location,booked,0
+location,brilliant,0
+location,but,0
+location,cant,0
+location,cause,0
+location,chilly,0
+location,city!,0
+location,city.,0
+location,city.The,0
+location,complain,0
+location,considering,0
+location,cool.,0
+location,cosy,0
+location,Day,0
+location,decide,0
+location,decided,0
+location,definately,0
+location,definately recommend,0
+location,definetly,0
+location,deluxe,0
+location,describe,0
+location,didnt,0
+location,dont,0
+location,drink,0
+location,early.,0
+location,easy,0
+location,eat.,0
+location,everywhere,0
+location,exactly,0
+location,excited,0
+location,expect,0
+location,expectations,0
+location,explained,0
+location,explore,0
+location,fall,0
+location,felt,0
+location,friends,0
+location,funny,0
+location,game,0
+location,girlfriend,0
+location,glad,0
+location,go,0
+location,go.,0
+location,got,0
+location,got.,0
+location,happened,0
+location,here!,0
+location,holiday,0
+location,honeymoon,0
+location,hotel!,0
+location,how,0
+location,i,0
+location,idea,0
+location,is.,0
+location,it,0
+location,it!,0
+location,Its,0
+location,knew,0
+location,know,0
+location,knowing,0
+location,Labor,0
+location,learned,0
+location,life,0
+location,like.,0
+location,likely,0
+location,looking forward,0
+location,loved,0
+location,lucky,0
+location,luxury,0
+location,massive,0
+location,matter,0
+location,memorable,0
+location,mind,0
+location,modern.,0
+location,month,0
+location,much,0
+location,November,0
+location,Now,0
+location,oh,0
+location,ok,0
+location,packed,0
+location,park.,0
+location,photos,0
+location,picky,0
+location,pictures,0
+location,place,0
+location,planning,0
+location,pretty,0
+location,read,0
+location,reading,0
+location,ready,0
+location,really,0
+location,remember,0
+location,rest,0
+location,reviews,0
+location,Ritz,0
+location,Ritz Carlton,0
+location,San,0
+location,say,0
+location,see,0
+location,see.,0
+location,sit in,0
+location,So,0
+location,so,0
+location,SO,0
+location,sold out,0
+location,somewhere,0
+location,sorry,0
+location,spend,0
+location,standards,0
+location,stay,0
+location,staying,0
+location,stuff,0
+location,summer,0
+location,super,0
+location,tell,0
+location,Thanks,0
+location,that's,0
+location,thats,0
+location,there!,0
+location,there.,0
+location,thing.,0
+location,things,0
+location,thinking,0
+location,this,0
+location,thought,0
+location,too,0
+location,touring,0
+location,travelled,0
+location,trip,0
+location,Trip Advisor,0
+location,trip advisor,0
+location,Tripadvisor,0
+location,try.,0
+location,vacation,0
+location,vacation.,0
+location,view,0
+location,view.,0
+location,visit,0
+location,wanted,0
+location,was.,0
+location,wasnt,0
+location,we,0
+location,wedding,0
+location,week,0
+location,week.,0
+location,Well,0
+location,What,0
+location,what,0
+location,whole,0
+location,why,0
+location,wind,0
+location,world,0
+location,write,0
+location,wrong,0
+location,wrote,0
+location,years ago,0
+location,Yes,0
+nearby_attractions,chinatown,1
+nearby_attractions,fisherman 's wharf,1
+nearby_attractions,park,1
+nearby_attractions,broadway,1
+nearby_attractions,downtown,1
+nearby_attractions,hollywood hotel,1
+nearby_attractions,market street,1
+nearby_attractions,movie theatre,1
+nearby_attractions,beach,1
+nearby_attractions,restaurant,1
+nearby_attractions,nob hill,1
+nearby_attractions,pier,1
+nearby_attractions,theater,1
+nearby_attractions,museum,1
+nearby_attractions,opera,1
+nearby_attractions,movie theater,1
+nearby_attractions,cable cars,1
+nearby_attractions,golden gate park,1
+nearby_attractions,restaurants,1
+nearby_attractions,china town,1
+nearby_attractions,washington square park,1
+nearby_attractions,ferry,1
+nearby_attractions,wharf area,1
+nearby_attractions,casino,1
+nearby_attractions,art museum,1
+nearby_attractions,civic center,1
+nearby_attractions,japanese restaurant,1
+nearby_attractions,financial district,1
+nearby_attractions,japanese gardens,1
+nearby_attractions,marina,1
+nearby_attractions,ferry building,1
+nearby_attractions,convention center,1
+nearby_attractions,subway restaurant,1
+nearby_attractions,zoo,1
+nearby_attractions,north beach,1
+nearby_attractions,arcade,1
+nearby_attractions,waterfront park,1
+nearby_attractions,marina district,1
+nearby_attractions,ghirardelli square,1
+nearby_attractions,auditorium,1
+nearby_attractions,mall,1
+nearby_attractions,disneyland,1
+nearby_attractions,presidio,1
+nearby_attractions,aquarium,1
+nearby_attractions,theatre district,1
+nearby_attractions,cable car,1
+nearby_attractions,library,1
+nearby_attractions,carousel,1
+nearby_attractions,starbucks,1
+nearby_attractions,lombard,1
+nearby_attractions,washington square,1
+nearby_attractions,opera house,1
+nearby_attractions,japanese garden,1
+nearby_attractions,golden gate,1
+nearby_attractions,olympic club,1
+nearby_attractions,chinese restaurant,1
+nearby_attractions,fisherman wharf,1
+nearby_attractions,nightclub,1
+nearby_attractions,hollywood,1
+nearby_attractions,farmer 's market,1
+nearby_attractions,comedy club,1
+nearby_attractions,science museum,1
+nearby_attractions,central park,1
+nearby_attractions,asian art museum,1
+nearby_attractions,theater district,1
+nearby_attractions,japan center,1
+nearby_attractions,boardwalk,1
+nearby_attractions,tram,1
+nearby_attractions,bridge,1
+nearby_attractions,music station,1
+nearby_attractions,south park,1
+nearby_attractions,shopping mall,1
+nearby_attractions,circus,1
+nearby_attractions,national park,1
+nearby_attractions,hyde street,1
+nearby_attractions,dance hall,1
+nearby_attractions,disney store,1
+nearby_attractions,fillmore,1
+nearby_attractions,ocean,1
+nearby_attractions,shopping center,1
+nearby_attractions,moscone center,1
+nearby_attractions,museums,1
+nearby_attractions,theatres,1
+nearby_attractions,italian restaurant,1
+nearby_attractions,hollywood bowl,1
+nearby_attractions,fort mason,1
+nearby_attractions,cabaret,1
+nearby_attractions,warehouse,1
+nearby_attractions,civic centre,1
+nearby_attractions,film festival,1
+nearby_attractions,temple,1
+nearby_attractions,ocean beach,1
+nearby_attractions,independence square,1
+nearby_attractions,metro station,1
+nearby_attractions,garden,1
+nearby_attractions,japan town,1
+nearby_attractions,train station,1
+nearby_attractions,fishermans warf,1
+nearby_attractions,cafeteria,1
+nearby_attractions,grand cafe,1
+nearby_attractions,great american music hall,1
+nearby_attractions,times square,1
+nearby_attractions,imperial club,1
+nearby_attractions,gg bridge,1
+nearby_attractions,club lounge,1
+nearby_attractions,bay,1
+nearby_attractions,airport,1
+nearby_attractions,sports club,1
+nearby_attractions,grand central station,1
+nearby_attractions,apple store,1
+nearby_attractions,lincoln park,1
+nearby_attractions,capitol building,1
+nearby_attractions,pier 39,1
+nearby_attractions,amusement park,1
+nearby_attractions,boat,1
+nearby_attractions,business district,1
+nearby_attractions,supermarket,1
+nearby_attractions,coit tower,1
+nearby_attractions,international house,1
+nearby_attractions,seafood restaurant,1
+nearby_attractions,bakery,1
+nearby_attractions,music festival,1
+nearby_attractions,shopping district,1
+nearby_attractions,indian restaurant,1
+nearby_attractions,target market,1
+nearby_attractions,arena,1
+nearby_attractions,sears,1
+nearby_attractions,mission street,1
+nearby_attractions,anime,1
+nearby_attractions,fisherman 's warf,1
+nearby_attractions,haight ashbury,1
+nearby_attractions,parade,1
+nearby_attractions,french restaurant,1
+nearby_attractions,mission district,1
+nearby_attractions,westfield mall,1
+nearby_attractions,castle,1
+nearby_attractions,gate theatre,1
+nearby_attractions,baseball park,1
+nearby_attractions,Ghiradelli Square,1
+nearby_attractions,Lombard Street,1
+nearby_attractions,Alcatraz,1
+nearby_attractions,Japantown,1
+nearby_attractions,SFMOMA,1
+nearby_attractions,Golden Gate Bridge,1
+nearby_attractions,BART station,1
+nearby_attractions,Yerba Buena Gardens,1
+nearby_attractions,Embarcadero Center,1
+nearby_attractions,Exploratorium,1
+nearby_attractions,Palace,1
+nearby_attractions,Petite Auberge,1
+nearby_attractions,Golden Gate bridge,1
+nearby_attractions,North Point,1
+nearby_attractions,Grace Cathedral,1
+nearby_attractions,Orchard,1
+nearby_attractions,Moscone Convention Center,1
+nearby_attractions,Lombard street,1
+nearby_attractions,Muir Woods,1
+nearby_attractions,Knob Hill,1
+nearby_attractions,Kensington Park,1
+nearby_attractions,downtown San Francisco,1
+nearby_attractions,Yerba Buena garden,1
+nearby_attractions,Renoir,1
+nearby_attractions,Orchard Garden,1
+nearby_attractions,SF MOMA,1
+nearby_attractions,Bay Bridge,1
+nearby_attractions,Harbor Court,1
+nearby_attractions,SBC Park,1
+nearby_attractions,Tommy 's Joynt,1
+nearby_attractions,Crissy Field,1
+nearby_attractions,Ghiardelli Square,1
+nearby_attractions,Angel Island,1
+nearby_attractions,Galleria Park,1
+nearby_attractions,San Francisco Bay,1
+nearby_attractions,shopping area,1
+nearby_attractions,Grant Plaza,1
+nearby_attractions,main shopping area,1
+nearby_attractions,Stanyan Park,1
+nearby_attractions,Heritage Marina,1
+nearby_attractions,Parc 55,1
+nearby_attractions,Bart station,1
+nearby_attractions,Wine Country,1
+nearby_attractions,BART,1
+nearby_attractions,Fishermans Wharf,1
+nearby_attractions,Powell Street,1
+nearby_attractions,subway,0
+nearby_attractions,center,0
+nearby_attractions,market st,0
+nearby_attractions,hotel,0
+nearby_attractions,plaza hotel,0
+nearby_attractions,soma,0
+nearby_attractions,chelsea hotel,0
+nearby_attractions,public transport,0
+nearby_attractions,tourist,0
+nearby_attractions,apartment hotel,0
+nearby_attractions,transport,0
+nearby_attractions,area,0
+nearby_attractions,ocean park,0
+nearby_attractions,bus,0
+nearby_attractions,short,0
+nearby_attractions,action,0
+nearby_attractions,close proximity,0
+nearby_attractions,city,0
+nearby_attractions,station,0
+nearby_attractions,castro,0
+nearby_attractions,road,0
+nearby_attractions,van ness,0
+nearby_attractions,powell street,0
+nearby_attractions,south,0
+nearby_attractions,walking distance,0
+nearby_attractions,quick walk,0
+nearby_attractions,neighborhood,0
+nearby_attractions,china,0
+nearby_attractions,boutique hotel,0
+nearby_attractions,regency club,0
+nearby_attractions,sfo,0
+nearby_attractions,main tourist,0
+nearby_attractions,movie,0
+nearby_attractions,sutter st,0
+nearby_attractions,post street,0
+nearby_attractions,columbus,0
+nearby_attractions,district,0
+nearby_attractions,post st,0
+nearby_attractions,town,0
+nearby_attractions,rainbow room,0
+nearby_attractions,apartments,0
+nearby_attractions,geary street,0
+nearby_attractions,holiday inn,0
+nearby_attractions,little italy,0
+nearby_attractions,moma,0
+nearby_attractions,motel,0
+nearby_attractions,polk street,0
+nearby_attractions,film,0
+nearby_attractions,main attractions,0
+nearby_attractions,union,0
+nearby_attractions,inn,0
+nearby_attractions,o'farrell,0
+nearby_attractions,central location,0
+nearby_attractions,sutter street,0
+nearby_attractions,california,0
+nearby_attractions,10 mins,0
+nearby_attractions,major,0
+nearby_attractions,symphony,0
+nearby_attractions,powell st,0
+nearby_attractions,quick cab ride,0
+nearby_attractions,neighbourhood,0
+nearby_attractions,arts,0
+nearby_attractions,Sausalito,0
+nearby_attractions,Diva,0
+nearby_attractions,Palomar,0
+nearby_attractions,Mel 's Diner,0
+nearby_attractions,Four Seasons,0
+nearby_attractions,Stockton,0
+nearby_attractions,Sacramento,0
+nearby_attractions,Mark Twain,0
+nearby_attractions,Carlton,0
+nearby_attractions,Coventry,0
+nearby_attractions,Campton Place,0
+nearby_attractions,Mark Hopkins,0
+nearby_attractions,Oakland,0
+nearby_attractions,Polk St,0
+nearby_attractions,NYC,0
+nearby_attractions,Kearny,0
+nearby_attractions,Castle Inn,0
+nearby_attractions,Le Meridien,0
+nearby_attractions,Buena Vista,0
+nearby_attractions,Sir Francis Drake,0
+nearby_attractions,Cornell,0
+nearby_attractions,Powell Station,0
+nearby_attractions,New York,0
+nearby_attractions,Ramada,0
+nearby_attractions,Fusion,0
+nearby_attractions,Kabuki,0
+nearby_attractions,Powell station,0
+nearby_attractions,SFO airport,0
+nearby_attractions,Powell Mason,0
+nearby_attractions,Jefferson,0
+nearby_attractions,Stratford,0
+nearby_attractions,Phoenix,0
+nearby_attractions,Villa Florence,0
+nearby_attractions,Beresford Arms,0
+nearby_attractions,Argent,0
+nearby_attractions,Courtyard,0
+nearby_attractions,Slanted Door,0
+nearby_attractions,tenderloin district,0
+nearby_attractions,Monarch,0
+nearby_attractions,York,0
+nearby_attractions,BART / MUNI,0
+nearby_attractions,Opal,0
+nearby_attractions,Donatello,0
+nearby_attractions,Mandarin,0
+nearby_attractions,Monaco,0
+nearby_attractions,Washington,0
+nearby_attractions,White Swan,0
+nearby_attractions,olympic,0
+nearby_attractions,Coventry Motor Inn,0
+nearby_attractions,Chelsea,0
+nearby_attractions,Pine,0
+nearby_attractions,Vintage Court,0
+nearby_attractions,Taylor Street,0
+nearby_attractions,Mason Street,0
+nearby_attractions,Larkspur,0
+nearby_attractions,Le Meridian,0
+nearby_attractions,Mandarin Oriental,0
+nearby_attractions,Pickwick,0
+nearby_attractions,Crowne Plaza,0
+nearby_attractions,Tuscan Inn,0
+nearby_attractions,-,0
+nearby_attractions,15 minutes,0
+nearby_attractions,amazing.,0
+nearby_attractions,among,0
+nearby_attractions,And,0
+nearby_attractions,approached,0
+nearby_attractions,are,0
+nearby_attractions,as,0
+nearby_attractions,attentive,0
+nearby_attractions,away,0
+nearby_attractions,bathroom,0
+nearby_attractions,bathrooms,0
+nearby_attractions,beautiful,0
+nearby_attractions,bit,0
+nearby_attractions,block,0
+nearby_attractions,body,0
+nearby_attractions,bottles,0
+nearby_attractions,boutique hotels,0
+nearby_attractions,brick,0
+nearby_attractions,brunch,0
+nearby_attractions,budget,0
+nearby_attractions,busy,0
+nearby_attractions,but,0
+nearby_attractions,by,0
+nearby_attractions,cable,0
+nearby_attractions,car,0
+nearby_attractions,cars,0
+nearby_attractions,charges,0
+nearby_attractions,charm,0
+nearby_attractions,charming,0
+nearby_attractions,cheese,0
+nearby_attractions,classy,0
+nearby_attractions,closet,0
+nearby_attractions,closet.,0
+nearby_attractions,coffee,0
+nearby_attractions,comfort,0
+nearby_attractions,couples,0
+nearby_attractions,Court,0
+nearby_attractions,crowded,0
+nearby_attractions,date,0
+nearby_attractions,dealt,0
+nearby_attractions,decor,0
+nearby_attractions,departure,0
+nearby_attractions,Do,0
+nearby_attractions,Don't,0
+nearby_attractions,down,0
+nearby_attractions,drawback,0
+nearby_attractions,ear plugs,0
+nearby_attractions,easy,0
+nearby_attractions,Easy,0
+nearby_attractions,elegant,0
+nearby_attractions,elevator,0
+nearby_attractions,entrance,0
+nearby_attractions,eventually,0
+nearby_attractions,ever.,0
+nearby_attractions,experience,0
+nearby_attractions,fabulous.,0
+nearby_attractions,Fairmont,0
+nearby_attractions,far,0
+nearby_attractions,form,0
+nearby_attractions,fresh fruit,0
+nearby_attractions,fridge,0
+nearby_attractions,from,0
+nearby_attractions,fruit,0
+nearby_attractions,furnishings,0
+nearby_attractions,furniture,0
+nearby_attractions,get.,0
+nearby_attractions,Giants,0
+nearby_attractions,gives,0
+nearby_attractions,goes,0
+nearby_attractions,Grand Hyatt,0
+nearby_attractions,guy,0
+nearby_attractions,guys,0
+nearby_attractions,gym,0
+nearby_attractions,Heights,0
+nearby_attractions,high,0
+nearby_attractions,higher,0
+nearby_attractions,highly,0
+nearby_attractions,home.,0
+nearby_attractions,ignored,0
+nearby_attractions,indeed,0
+nearby_attractions,international,0
+nearby_attractions,is,0
+nearby_attractions,isn't,0
+nearby_attractions,Italian,0
+nearby_attractions,journey,0
+nearby_attractions,juice,0
+nearby_attractions,just,0
+nearby_attractions,Kensington,0
+nearby_attractions,left.,0
+nearby_attractions,literally,0
+nearby_attractions,little,0
+nearby_attractions,lived,0
+nearby_attractions,long.,0
+nearby_attractions,looking,0
+nearby_attractions,maintained,0
+nearby_attractions,makes,0
+nearby_attractions,Mark,0
+nearby_attractions,market,0
+nearby_attractions,Market Street.,0
+nearby_attractions,mins,0
+nearby_attractions,More,0
+nearby_attractions,much.,0
+nearby_attractions,muffins,0
+nearby_attractions,name,0
+nearby_attractions,neat,0
+nearby_attractions,nervous,0
+nearby_attractions,night),0
+nearby_attractions,noon,0
+nearby_attractions,nothing.,0
+nearby_attractions,Now,0
+nearby_attractions,Oh,0
+nearby_attractions,old,0
+nearby_attractions,older,0
+nearby_attractions,opinion,0
+nearby_attractions,pastries,0
+nearby_attractions,picky,0
+nearby_attractions,pillows,0
+nearby_attractions,place,0
+nearby_attractions,plus.,0
+nearby_attractions,pool,0
+nearby_attractions,pool area,0
+nearby_attractions,Powell,0
+nearby_attractions,printer,0
+nearby_attractions,problem.,0
+nearby_attractions,rarely,0
+nearby_attractions,really,0
+nearby_attractions,Regis,0
+nearby_attractions,right,0
+nearby_attractions,rooftop,0
+nearby_attractions,rooms,0
+nearby_attractions,rough,0
+nearby_attractions,rude.,0
+nearby_attractions,runs,0
+nearby_attractions,send,0
+nearby_attractions,Service,0
+nearby_attractions,service,0
+nearby_attractions,SF,0
+nearby_attractions,shower.,0
+nearby_attractions,side,0
+nearby_attractions,sink,0
+nearby_attractions,sink.,0
+nearby_attractions,small,0
+nearby_attractions,spa,0
+nearby_attractions,Sq,0
+nearby_attractions,standards,0
+nearby_attractions,Starwood,0
+nearby_attractions,stop,0
+nearby_attractions,store,0
+nearby_attractions,street,0
+nearby_attractions,street noise,0
+nearby_attractions,take,0
+nearby_attractions,Tenderloin,0
+nearby_attractions,that's,0
+nearby_attractions,thats,0
+nearby_attractions,think,0
+nearby_attractions,thoroughly,0
+nearby_attractions,tiny,0
+nearby_attractions,toast,0
+nearby_attractions,toiletries.,0
+nearby_attractions,Too,0
+nearby_attractions,too,0
+nearby_attractions,total,0
+nearby_attractions,touch,0
+nearby_attractions,towards,0
+nearby_attractions,travelers.,0
+nearby_attractions,trolley,0
+nearby_attractions,trying,0
+nearby_attractions,tub,0
+nearby_attractions,unique,0
+nearby_attractions,unit,0
+nearby_attractions,upscale,0
+nearby_attractions,usually,0
+nearby_attractions,view,0
+nearby_attractions,view.,0
+nearby_attractions,Vitale,0
+nearby_attractions,Walgreens,0
+nearby_attractions,walk,0
+nearby_attractions,walked,0
+nearby_attractions,wanting,0
+nearby_attractions,water.,0
+nearby_attractions,Which,0
+nearby_attractions,whilst,0
+nearby_attractions,wine,0
+nearby_attractions,worse,0
+nearby_attractions,writing,0
+nearby_attractions,wrote,0
+nearby_attractions,Yes,0
+nearby_attractions,yes,0
+property_type,apartment hotel,1
+property_type,casino,1
+property_type,inn,1
+property_type,marina motel,1
+property_type,office building,1
+property_type,house,1
+property_type,beach house,1
+property_type,villa,1
+property_type,boutique hotel,1
+property_type,marina inn,1
+property_type,apartment,1
+property_type,boarding house,1
+property_type,club quarters,1
+property_type,hostel,1
+property_type,castle,1
+property_type,camping,1
+property_type,motor lodge,1
+property_type,apartment building,1
+property_type,chain hotels,1
+property_type,studio apartment,1
+property_type,seaside resort,1
+property_type,luxury hotels,1
+property_type,boutique hotels,1
+property_type,mansion,1
+property_type,historic building,1
+property_type,beach hut,1
+property_type,hotel chain,1
+property_type,bus,1
+property_type,Fishermans Wharf,1
+property_type,Inn,1
+property_type,pier,1
+property_type,holiday inn,0
+property_type,restaurant,0
+property_type,property,0
+property_type,hyatt,0
+property_type,motor inn,0
+property_type,marina,0
+property_type,four seasons,0
+property_type,city,0
+property_type,ritz carlton,0
+property_type,area,0
+property_type,hotels,0
+property_type,intercontinental,0
+property_type,home office,0
+property_type,town,0
+property_type,park,0
+property_type,san fran,0
+property_type,sports club,0
+property_type,grand hyatt,0
+property_type,monaco,0
+property_type,st regis,0
+property_type,residential area,0
+property_type,holiday inn express,0
+property_type,mark hopkins,0
+property_type,beach,0
+property_type,garage,0
+property_type,neighborhood,0
+property_type,central location,0
+property_type,tea house,0
+property_type,plaza hotel,0
+property_type,business,0
+property_type,health club,0
+property_type,best western,0
+property_type,country,0
+property_type,comfort inn,0
+property_type,airport,0
+property_type,argent,0
+property_type,palace,0
+property_type,castle inn,0
+property_type,neighbourhood,0
+property_type,club lounge,0
+property_type,post office,0
+property_type,bank,0
+property_type,hotel room service,0
+property_type,days inn,0
+property_type,car / rental,0
+property_type,edwardian,0
+property_type,club / lounge,0
+property_type,san francisco,0
+property_type,pub,0
+property_type,farm,0
+property_type,parking garage,0
+property_type,stratford,0
+property_type,bay area,0
+property_type,alternative,0
+property_type,main building,0
+property_type,5 star,0
+property_type,company,0
+property_type,office depot,0
+property_type,hotel metropolis,0
+property_type,ranch,0
+property_type,pool / spa,0
+property_type,san fransisco,0
+property_type,bath / spa,0
+property_type,holiday inns,0
+property_type,home base,0
+property_type,warehouse,0
+property_type,new york,0
+property_type,tour,0
+property_type,downtown,0
+property_type,shopping centre,0
+property_type,dining area,0
+property_type,hospital,0
+property_type,nyc,0
+property_type,villa florence,0
+property_type,business center,0
+property_type,grocery store,0
+property_type,amusement park,0
+property_type,residential neighborhood,0
+property_type,money,0
+property_type,palomar,0
+property_type,renoir,0
+property_type,medical school,0
+property_type,garden,0
+property_type,liquor store,0
+property_type,reasonable price,0
+property_type,carriage inn,0
+property_type,america,0
+property_type,seafood restaurant,0
+property_type,kimpton hotels,0
+property_type,vineyard,0
+property_type,surrounding area,0
+property_type,columbus motor inn,0
+property_type,downtown san francisco,0
+property_type,car park,0
+property_type,retirement home,0
+property_type,bedroom apartment,0
+property_type,private bath,0
+property_type,big city,0
+property_type,food / wine,0
+property_type,diva,0
+property_type,opera house,0
+property_type,arrangement,0
+property_type,mandarin,0
+property_type,prime location,0
+property_type,orchard,0
+property_type,adjoining restaurant,0
+property_type,nob hill,0
+property_type,apartments,0
+property_type,pet store,0
+property_type,convenient location,0
+property_type,museum,0
+property_type,family,0
+property_type,sir francis drake,0
+property_type,jw marriott,0
+property_type,nightclub,0
+property_type,bus garage,0
+property_type,living room area,0
+property_type,international house,0
+property_type,car rental,0
+property_type,hotel monaco,0
+property_type,bit,0
+property_type,medical center,0
+property_type,steak house,0
+property_type,chinese,0
+property_type,shopping center,0
+property_type,winery,0
+property_type,campton place,0
+property_type,health food store,0
+property_type,major,0
+property_type,movie,0
+property_type,donatello,0
+property_type,indian restaurant,0
+property_type,strip club,0
+property_type,fusion,0
+property_type,main shopping area,0
+property_type,five star,0
+property_type,convenience store,0
+property_type,theatre,0
+property_type,parking lot,0
+property_type,chancellor,0
+property_type,village,0
+property_type,stanford court,0
+property_type,personal property,0
+property_type,reality,0
+property_type,book,0
+property_type,tuscan inn,0
+property_type,web site,0
+property_type,rental car,0
+property_type,waterfront park,0
+property_type,sfo,0
+property_type,function,0
+property_type,high,0
+property_type,community,0
+property_type,customer service,0
+property_type,school,0
+property_type,carlton,0
+property_type,club level,0
+property_type,italian restaurant,0
+property_type,wharf area,0
+property_type,website,0
+property_type,chinese restaurant,0
+property_type,road,0
+property_type,american,0
+property_type,kabuki,0
+property_type,boarding school,0
+property_type,personal service,0
+property_type,dog,0
+property_type,action,0
+property_type,tourist,0
+property_type,fair,0
+property_type,ocean park,0
+property_type,theme restaurant,0
+property_type,cable car,0
+property_type,Chinatown,0
+property_type,chinatown,0
+property_type,China Town,0
+property_type,Civic Center,0
+property_type,Fisherman 's Wharf,0
+property_type,Alcatraz,0
+property_type,North Beach,0
+property_type,Ghirardelli Square,0
+property_type,Golden Gate Park,0
+property_type,Golden Gate Bridge,0
+property_type,financial district,0
+property_type,fishermans wharf,0
+property_type,Market Street,0
+property_type,alcatraz,0
+property_type,Financial District,0
+property_type,Cable Cars,0
+property_type,Moscone Center,0
+property_type,Embarcadero Center,0
+property_type,fisherman 's wharf,0
+property_type,China town,0
+property_type,Coit Tower,0
+property_type,Castro,0
+property_type,Fisherman 's wharf,0
+property_type,Exploratorium,0
+property_type,Little Italy,0
+property_type,Haight Ashbury,0
+property_type,north beach,0
+property_type,Powell Street,0
+property_type,Japantown,0
+property_type,SFMOMA,0
+property_type,Sausalito,0
+property_type,Fisherman 's Warf,0
+property_type,Market St,0
+property_type,SOMA,0
+property_type,Golden Gate bridge,0
+property_type,SoMa,0
+property_type,golden gate bridge,0
+property_type,Golden Gate park,0
+property_type,Muir Woods,0
+property_type,Broadway,0
+property_type,market street,0
+property_type,Yerba Buena Gardens,0
+property_type,Powell St,0
+property_type,Petite Auberge,0
+property_type,Vegas,0
+property_type,Fishermans wharf,0
+property_type,California,0
+property_type,Fort Mason,0
+property_type,Bloomingdales,0
+property_type,Polk Street,0
+property_type,Coit tower,0
+property_type,Monterey,0
+property_type,Napa Valley,0
+property_type,Market street,0
+property_type,Powell street,0
+property_type,Las Vegas,0
+property_type,Los Angeles,0
+property_type,Fisherman Wharf,0
+property_type,Mel 's Diner,0
+property_type,Ghiardelli Square,0
+property_type,Pan Pacific,0
+property_type,Yosemite,0
+property_type,Golden Gate,0
+property_type,Japan town,0
+property_type,Hotel,0
+property_type,fisherman wharf,0
+property_type,Oakland,0
+property_type,Ocean Beach,0
+property_type,Grace Cathedral,0
+property_type,San Diego,0
+property_type,Wine Country,0
+property_type,Boston,0
+property_type,Chicago,0
+property_type,Santa Barbara,0
+property_type,Angel Island,0
+property_type,SF MOMA,0
+property_type,Courtyard,0
+property_type,DC,0
+property_type,London,0
+property_type,Coventry,0
+property_type,Le Meridien,0
+property_type,Alcatraz Island,0
+property_type,Moscone Convention Center,0
+property_type,SBC Park,0
+property_type,Crissy Field,0
+property_type,soma,0
+property_type,Sacramento,0
+property_type,Twin Peaks,0
+property_type,Neiman Marcus,0
+property_type,SFO airport,0
+property_type,Mandarin Oriental,0
+property_type,Tommy 's Joynt,0
+property_type,Powell station,0
+property_type,little italy,0
+property_type,castro,0
+property_type,little Italy,0
+property_type,Philadelphia,0
+property_type,Powell Station,0
+property_type,North beach,0
+property_type,Sears,0
+property_type,bay,0
+property_type,Santa Cruz,0
+property_type,Seattle,0
+property_type,Paris,0
+property_type,wine country,0
+property_type,Manhattan,0
+property_type,Post St,0
+property_type,Kensington Park,0
+property_type,Harbor Court,0
+property_type,Tokyo,0
+property_type,Civic Centre,0
+property_type,Big Sur,0
+property_type,Crowne Plaza,0
+property_type,NY,0
+property_type,Hawaii,0
+property_type,Europe,0
+property_type,San Franciso,0
+property_type,Frisco,0
+property_type,Japan Town,0
+property_type,Oakland Airport,0
+property_type,Santa Monica,0
+property_type,USA,0
+property_type,Fishermen 's Wharf,0
+property_type,Washington,0
+property_type,New Orleans,0
+property_type,fishermans warf,0
+property_type,Tahoe,0
+property_type,Knob Hill,0
+property_type,Fillmore,0
+property_type,Palo Alto,0
+property_type,Berkeley,0
+property_type,Atlanta,0
+property_type,Japan,0
+property_type,Australia,0
+property_type,surround area,0
+property_type,Mark Twain,0
+property_type,california,0
+property_type,Vancouver,0
+property_type,Maui,0
+property_type,San Jose,0
+property_type,Marin County,0
+property_type,Honolulu,0
+property_type,downtown San Fran,0
+property_type,Mission Street,0
+property_type,Ferry,0
+property_type,Fisherman 's warf,0
+property_type,Fishermans Warf,0
+property_type,San Francisco Bay,0
+property_type,Miami,0
+property_type,ChinaTown,0
+property_type,las vegas,0
+property_type,Polk St,0
+property_type,Washington Square,0
+property_type,Canada,0
+property_type,Powell Street Station,0
+property_type,Sydney,0
+property_type,Stockton,0
+property_type,Toronto,0
+property_type,UK,0
+property_type,San Fransico,0
+property_type,Montgomery,0
+property_type,Buena Vista,0
+property_type,Coventry Motor Inn,0
+property_type,(or,0
+property_type,about.,0
+property_type,admit,0
+property_type,airport.,0
+property_type,Alcatraz.,0
+property_type,Also,0
+property_type,and,0
+property_type,asked,0
+property_type,asking,0
+property_type,attractions.,0
+property_type,average,0
+property_type,average.,0
+property_type,bad,0
+property_type,bagels,0
+property_type,Beach,0
+property_type,Best Western,0
+property_type,bike,0
+property_type,bother,0
+property_type,bugs,0
+property_type,buses,0
+property_type,but,0
+property_type,came,0
+property_type,car,0
+property_type,car.,0
+property_type,cars,0
+property_type,Castle,0
+property_type,cause,0
+property_type,Chestnut,0
+property_type,Columbus,0
+property_type,constantly,0
+property_type,continental breakfast.,0
+property_type,could,0
+property_type,courtyard,0
+property_type,courtyard.,0
+property_type,Cow,0
+property_type,crazy,0
+property_type,curtains,0
+property_type,dead,0
+property_type,did,0
+property_type,didn't,0
+property_type,didnt,0
+property_type,do,0
+property_type,doesn't,0
+property_type,don't,0
+property_type,dont,0
+property_type,drive,0
+property_type,driving,0
+property_type,ear plugs,0
+property_type,early,0
+property_type,EMPTY DOC PLACEHOLDER,0
+property_type,etc,0
+property_type,even,0
+property_type,felt safe,0
+property_type,ferry,0
+property_type,fine,0
+property_type,fine.,0
+property_type,Fisherman's Wharf,0
+property_type,Fishermans Wharf.,0
+property_type,For,0
+property_type,free,0
+property_type,FREE,0
+property_type,fridge,0
+property_type,get,0
+property_type,go,0
+property_type,going,0
+property_type,Golden Gate Bridge.,0
+property_type,good,0
+property_type,got,0
+property_type,guess,0
+property_type,hadn't,0
+property_type,head,0
+property_type,Holiday Inn Express,0
+property_type,Hollow,0
+property_type,honest,0
+property_type,hop,0
+property_type,hotel,0
+property_type,however,0
+property_type,However,0
+property_type,i,0
+property_type,If,0
+property_type,if,0
+property_type,IHOP,0
+property_type,Inn.,0
+property_type,isn't,0
+property_type,it,0
+property_type,knew,0
+property_type,know,0
+property_type,laundry,0
+property_type,let,0
+property_type,Lombard,0
+property_type,Lombard Street,0
+property_type,lot,0
+property_type,maps,0
+property_type,Marina,0
+property_type,mean,0
+property_type,microwave,0
+property_type,mile,0
+property_type,milk,0
+property_type,Mission,0
+property_type,motel,0
+property_type,Motel,0
+property_type,motel.,0
+property_type,motels,0
+property_type,Motor Inn,0
+property_type,muffins,0
+property_type,Muni,0
+property_type,MUNI,0
+property_type,need,0
+property_type,nice.,0
+property_type,ok,0
+property_type,OK.,0
+property_type,okay,0
+property_type,ones,0
+property_type,owners,0
+property_type,parked,0
+property_type,Parking,0
+property_type,parking,0
+property_type,parking.,0
+property_type,Pier 39,0
+property_type,pizza,0
+property_type,place to sleep,0
+property_type,places to eat,0
+property_type,point,0
+property_type,Presidio,0
+property_type,pretty,0
+property_type,put,0
+property_type,putting,0
+property_type,quite,0
+property_type,really,0
+property_type,rented a car,0
+property_type,routes,0
+property_type,runs,0
+property_type,safe,0
+property_type,safe.,0
+property_type,Safeway,0
+property_type,said,0
+property_type,say,0
+property_type,secure,0
+property_type,send,0
+property_type,sheet,0
+property_type,sights.,0
+property_type,So,0
+property_type,so,0
+property_type,some,0
+property_type,somewhere,0
+property_type,spoke,0
+property_type,Still,0
+property_type,stop,0
+property_type,stops,0
+property_type,strange,0
+property_type,Street,0
+property_type,street,0
+property_type,sure,0
+property_type,talk,0
+property_type,that,0
+property_type,thats,0
+property_type,the,0
+property_type,them,0
+property_type,then,0
+property_type,there,0
+property_type,therefore,0
+property_type,they,0
+property_type,think,0
+property_type,tight,0
+property_type,told him,0
+property_type,traffic noise,0
+property_type,tray,0
+property_type,trips,0
+property_type,trolley,0
+property_type,Tuscan,0
+property_type,up,0
+property_type,Van Ness,0
+property_type,Varsa,0
+property_type,vehicle,0
+property_type,want,0
+property_type,was,0
+property_type,wasn't,0
+property_type,weird,0
+property_type,were,0
+property_type,Wharf,0
+property_type,wharf,0
+property_type,wharf.,0
+property_type,when,0
+property_type,you,0
+property_type,you're,0
+room_features,tv,1
+room_features,microwave,1
+room_features,internet,1
+room_features,small refrigerator,1
+room_features,stereo,1
+room_features,light,1
+room_features,soap,1
+room_features,water,1
+room_features,radio,1
+room_features,coffee table,1
+room_features,bath,1
+room_features,telephone,1
+room_features,ice,1
+room_features,cable tv,1
+room_features,bath shower,1
+room_features,kitchenette,1
+room_features,coffee,1
+room_features,laptop,1
+room_features,cabinet,1
+room_features,baby shower,1
+room_features,clock,1
+room_features,cable internet,1
+room_features,mirror,1
+room_features,hot water,1
+room_features,air con,1
+room_features,sofa bed,1
+room_features,toilet seat,1
+room_features,lcd tv,1
+room_features,shower tub,1
+room_features,dvd,1
+room_features,food,1
+room_features,bathroom sink,1
+room_features,computers,1
+room_features,wireless internet,1
+room_features,cd player,1
+room_features,popcorn,1
+room_features,electrical outlets,1
+room_features,bar fridge,1
+room_features,steam,1
+room_features,makeup mirror,1
+room_features,hot shower,1
+room_features,cable,1
+room_features,hair dryer,1
+room_features,alarm clock,1
+room_features,toothbrush,1
+room_features,tablet,1
+room_features,ironing board,1
+room_features,flat panel tv,1
+room_features,toilet paper,1
+room_features,two double beds,1
+room_features,desk chair,1
+room_features,phones,1
+room_features,bed linen,1
+room_features,cd,1
+room_features,bed sheets,1
+room_features,coffee tea,1
+room_features,bath tub,1
+room_features,wireless,1
+room_features,clock radio,1
+room_features,shower curtains,1
+room_features,baby food,1
+room_features,paper,1
+room_features,extra pillows,1
+room_features,shower gel,1
+room_features,ceiling fan,1
+room_features,sliding door,1
+room_features,2 double beds,1
+room_features,lounge chair,1
+room_features,bedside table,1
+room_features,seating area,1
+room_features,tea coffee,1
+room_features,plasma tv,1
+room_features,linen,1
+room_features,air conditioner,1
+room_features,shower / tub,1
+room_features,free wireless,1
+room_features,cable television,1
+room_features,bath / shower,1
+room_features,furniture,1
+room_features,newspaper,1
+room_features,desk / chair,1
+room_features,kingsize bed,1
+room_features,window seat,1
+room_features,bottled water,1
+room_features,hot tub,1
+room_features,water closet,1
+room_features,tub shower,1
+room_features,heat,1
+room_features,glass,1
+room_features,sitting area,1
+room_features,full size bed,1
+room_features,personal items,1
+room_features,ipod,1
+room_features,flat screen,1
+room_features,free internet access,1
+room_features,extra pillow,1
+room_features,book,1
+room_features,microwave oven,1
+room_features,well stocked mini bar,1
+room_features,cologne,1
+room_features,shower stall,1
+room_features,double bed,1
+room_features,extra blankets,1
+room_features,double beds,1
+room_features,aveda products,1
+room_features,windows,1
+room_features,bed / linens,1
+room_features,wine bottle,1
+room_features,free internet,1
+room_features,tv cabinet,1
+room_features,two queen beds,1
+room_features,screen tv,1
+room_features,counter space,1
+room_features,shower curtain,1
+room_features,dvd library,1
+room_features,internet access,1
+room_features,table wine,1
+room_features,full length mirror,1
+room_features,sleeper sofa,1
+room_features,beer,1
+room_features,bed linens,1
+room_features,chocolate bar,1
+room_features,drawer space,1
+room_features,free wifi,1
+room_features,soaking tub,1
+room_features,telephone card,1
+room_features,lounge chairs,1
+room_features,bathroom / sink,1
+room_features,comfy bed,1
+room_features,screen tvs,1
+room_features,refrigerators,1
+room_features,candy,1
+room_features,soda water,1
+room_features,tub / shower,1
+room_features,dvds,1
+room_features,kitchen cabinet,1
+room_features,large flat screen tv,1
+room_features,stereos,1
+room_features,extra towels,1
+room_features,fresh towels,1
+room_features,condoms,1
+room_features,poster,1
+room_features,flatscreen tv,1
+room_features,bath products,1
+room_features,candy bar,1
+room_features,closet space,1
+room_features,wet bar,1
+room_features,dvd player,1
+room_features,bed sheet,1
+room_features,newspapers,1
+room_features,jacuzzi,1
+room_features,food / wine,1
+room_features,2 queen beds,1
+room_features,microwaves,1
+room_features,mini fridge,1
+room_features,living room area,1
+room_features,living room,1
+room_features,video camera,1
+room_features,cutlery,1
+room_features,bath product,1
+room_features,fax,1
+room_features,computer,1
+room_features,pc,1
+room_features,blow dryer,1
+room_features,large lcd tv,1
+room_features,ear plug,1
+room_features,wallpaper,1
+room_features,thermostat,1
+room_features,iron board,1
+room_features,fax machine,1
+room_features,flat screen television,1
+room_features,high speed internet access,1
+room_features,big tv,1
+room_features,LCD,1
+room_features,WiFi,1
+room_features,ethernet,1
+room_features,sit area,1
+room_features,bathroom product,1
+room_features,large closet,1
+room_features,basin,1
+room_features,separate shower,1
+room_features,toaster,1
+room_features,shampoo,1
+room_features,Starbucks coffee,1
+room_features,Aveda product,1
+room_features,wine,1
+room_features,dining table,1
+room_features,ottoman,1
+room_features,fresh flower,1
+room_features,radiator,1
+room_features,remote control,1
+room_features,storage space,1
+room_features,huge flat screen tv,1
+room_features,steam room,1
+room_features,lotion,1
+room_features,weight machine,1
+room_features,commode,1
+room_features,kitchen area,1
+room_features,fluffy towel,1
+room_features,fresh towel,1
+room_features,flower,1
+room_features,hdtv,1
+room_features,seperate shower,1
+room_features,lcd,1
+room_features,separate tub,1
+room_features,wash basin,1
+room_features,evening wine,1
+room_features,daily newspaper,1
+room_features,electrical outlet,1
+room_features,wi fi,1
+room_features,teddy bear,1
+room_features,vcr,1
+room_features,extra towel,1
+room_features,soak tub,1
+room_features,AC unit,1
+room_features,light bulb,1
+room_features,pull out sofa,1
+room_features,WIFI,1
+room_features,tea,1
+room_features,deep tub,1
+room_features,Wi Fi,1
+room_features,modern furnishing,1
+room_features,A/C,1
+room_features,AC,1
+room_features,air conditioning,1
+room_features,blankets,1
+room_features,carpet,1
+room_features,chair,1
+room_features,chairs,1
+room_features,closet,1
+room_features,closet.,1
+room_features,complimentary wine,1
+room_features,curtains,1
+room_features,earplugs,1
+room_features,fridge,1
+room_features,heater,1
+room_features,kitchen,1
+room_features,shower,1
+room_features,shower.,1
+room_features,table,1
+room_features,toiletries,1
+room_features,towels,1
+room_features,towels.,1
+room_features,TV,1
+room_features,mini,0
+room_features,reading,0
+room_features,massage,0
+room_features,honor bar,0
+room_features,plastic,0
+room_features,basic,0
+room_features,shared bathrooms,0
+room_features,electricity,0
+room_features,gas,0
+room_features,privacy,0
+room_features,telephone booth,0
+room_features,cover,0
+room_features,master,0
+room_features,channel,0
+room_features,shower head,0
+room_features,cell phone,0
+room_features,shared bathroom,0
+room_features,shared bath,0
+room_features,clothing,0
+room_features,single,0
+room_features,clean room,0
+room_features,movie,0
+room_features,firm,0
+room_features,recycling,0
+room_features,private,0
+room_features,exercise room,0
+room_features,white,0
+room_features,water / gas,0
+room_features,camera,0
+room_features,mobile phone,0
+room_features,black,0
+room_features,hanging,0
+room_features,comfort food,0
+room_features,products,0
+room_features,one night stand,0
+room_features,pressure,0
+room_features,temperature,0
+room_features,two bedroom suite,0
+room_features,video,0
+room_features,elevator,0
+room_features,mobile telephone,0
+room_features,two double bed,0
+room_features,2 double bed,0
+room_features,fitness center,0
+room_features,phone,0
+room_features,window,0
+room_features,treadmill,0
+room_features,surround sound,0
+room_features,plumbing,0
+room_features,comfortable bed,0
+room_features,sauna,0
+room_features,marble,0
+room_features,health club,0
+room_features,game,0
+room_features,vend machine,0
+room_features,two queen bed,0
+room_features,2 queen bed,0
+room_features,swim pool,0
+room_features,sound,0
+room_features,paint,0
+room_features,tile,0
+room_features,water pressure,0
+room_features,bathroom fixture,0
+room_features,dishwasher,0
+room_features,Aveda,0
+room_features,heavenly bed,0
+room_features,comfortable king size bed,0
+room_features,thin wall,0
+room_features,cardio equipment,0
+room_features,duvet cover,0
+room_features,no air conditioning,0
+room_features,housekeeping staff,0
+room_features,separate bedroom,0
+room_features,share bathroom,0
+room_features,bike,0
+room_features,hair,0
+room_features,wood,0
+room_features,card,0
+room_features,bay window,0
+room_features,shower pressure,0
+room_features,car,0
+room_features,open window,0
+room_features,0.7083333333,0
+room_features,15,0
+room_features,150,0
+room_features,44230,0
+room_features,(but,0
+room_features,(with,0
+room_features,afternoon wine,0
+room_features,air,0
+room_features,airport,0
+room_features,also.,0
+room_features,AM,0
+room_features,arrived,0
+room_features,assistance,0
+room_features,attendant,0
+room_features,attitude,0
+room_features,average.,0
+room_features,bad.,0
+room_features,BART station,0
+room_features,bathroom,0
+room_features,bed,0
+room_features,bed was comfortable.,0
+room_features,bedding,0
+room_features,beds,0
+room_features,bellman,0
+room_features,big,0
+room_features,body,0
+room_features,bottle,0
+room_features,budget,0
+room_features,budget.,0
+room_features,cab,0
+room_features,champagne,0
+room_features,cheap.,0
+room_features,cheese,0
+room_features,class.,0
+room_features,cocktail,0
+room_features,cold,0
+room_features,comfy.,0
+room_features,control,0
+room_features,cookies,0
+room_features,cool,0
+room_features,cost,0
+room_features,couples,0
+room_features,courtyard,0
+room_features,dealt,0
+room_features,delivered,0
+room_features,dining,0
+room_features,dirty.,0
+room_features,double,0
+room_features,downside,0
+room_features,drinks,0
+room_features,driver,0
+room_features,dry,0
+room_features,efficient.,0
+room_features,explain,0
+room_features,facing,0
+room_features,families,0
+room_features,fan,0
+room_features,fine.,0
+room_features,Fisherman's wharf,0
+room_features,Florence,0
+room_features,Food,0
+room_features,fresh air,0
+room_features,fresh fruit,0
+room_features,fruit,0
+room_features,full.,0
+room_features,future,0
+room_features,handle,0
+room_features,hands,0
+room_features,happy.,0
+room_features,Having,0
+room_features,He,0
+room_features,heating,0
+room_features,her,0
+room_features,hole,0
+room_features,honeymoon,0
+room_features,inner,0
+room_features,insisted,0
+room_features,items,0
+room_features,itself,0
+room_features,join,0
+room_features,jump,0
+room_features,light sleeper,0
+room_features,linens,0
+room_features,me.,0
+room_features,meals,0
+room_features,milk,0
+room_features,minimal,0
+room_features,mix,0
+room_features,neat,0
+room_features,nights,0
+room_features,nowhere,0
+room_features,ok,0
+room_features,okay,0
+room_features,open,0
+room_features,open.,0
+room_features,passed,0
+room_features,Petite Auberge,0
+room_features,Phoenix,0
+room_features,police,0
+room_features,prices.,0
+room_features,provided.,0
+room_features,reasonably,0
+room_features,renovation.,0
+room_features,requests,0
+room_features,reservation,0
+room_features,roomy,0
+room_features,rude,0
+room_features,safe,0
+room_features,San Fransisco,0
+room_features,she,0
+room_features,She,0
+room_features,sheet,0
+room_features,sightseeing,0
+room_features,sink,0
+room_features,situation,0
+room_features,snacks,0
+room_features,soft,0
+room_features,sports,0
+room_features,spotless.,0
+room_features,stains,0
+room_features,staying,0
+room_features,street noise,0
+room_features,street noise.,0
+room_features,stuffy,0
+room_features,superb,0
+room_features,sweet,0
+room_features,system,0
+room_features,tasting,0
+room_features,taxi,0
+room_features,terrible.,0
+room_features,them.,0
+room_features,things.,0
+room_features,this.,0
+room_features,took advantage,0
+room_features,touch.,0
+room_features,tour,0
+room_features,tour.,0
+room_features,traffic noise,0
+room_features,travel,0
+room_features,traveling,0
+room_features,Trip Advisor,0
+room_features,trip.,0
+room_features,tub.,0
+room_features,unit,0
+room_features,Upon,0
+room_features,vacation,0
+room_features,views,0
+room_features,walls,0
+room_features,warm,0
+room_features,Warwick,0
+room_features,weather,0
+room_features,Whitcomb,0
+room_features,who,0
+room_features,window open,0
+room_features,Wine,0
+room_features,work.,0
+room_features,worse,0
+room_features,yes,0
+room_type,junior suite,1
+room_type,deluxe king,1
+room_type,standard queen,1
+room_type,single queen,1
+room_type,double queen,1
+room_type,deluxe king room,1
+room_type,standard king room,1
+room_type,two bedroom suite,1
+room_type,double / queen,1
+room_type,2 bedroom suite,1
+room_type,executive lounge,1
+room_type,corner suite,1
+room_type,double double,1
+room_type,one bedroom suite,1
+room_type,executive king,1
+room_type,honeymoon suite,1
+room_type,studio suite,1
+room_type,smoking room,1
+room_type,deluxe double,1
+room_type,1 bedroom suite,1
+room_type,super deluxe,1
+room_type,en suite,1
+room_type,apartment,1
+room_type,rainbow room,1
+room_type,california suite,1
+room_type,superior king,1
+room_type,double standard,1
+room_type,business class,1
+room_type,family,1
+room_type,redwood room,1
+room_type,standard double,1
+room_type,double / double,1
+room_type,deluxe,1
+room_type,King,1
+room_type,king,1
+room_type,non smoking,1
+room_type,non-smoking,1
+room_type,Queen,1
+room_type,queen,1
+room_type,smoking,1
+room_type,Suite,1
+room_type,suite,1
+room_type,suite.,1
+room_type,suites,1
+room_type,nikko floor,0
+room_type,diva,0
+room_type,club section,0
+room_type,higher floor,0
+room_type,5th floor,0
+room_type,club lounge,0
+room_type,rollaway bed,0
+room_type,double bed,0
+room_type,party,0
+room_type,adjoining rooms,0
+room_type,private bath,0
+room_type,hotel,0
+room_type,superior,0
+room_type,executive level,0
+room_type,tower,0
+room_type,opal,0
+room_type,hospital,0
+room_type,living room,0
+room_type,lounge chair,0
+room_type,best western,0
+room_type,extra cost,0
+room_type,green room,0
+room_type,mini,0
+room_type,recently renovated,0
+room_type,web site,0
+room_type,play,0
+room_type,hilton financial district,0
+room_type,lower,0
+room_type,mini bar,0
+room_type,tuscan,0
+room_type,club / lounge,0
+room_type,sixth floor,0
+room_type,regency club,0
+room_type,lounge area,0
+room_type,fourth floor,0
+room_type,plush,0
+room_type,full size bed,0
+room_type,vegas,0
+room_type,private,0
+room_type,restaurant,0
+room_type,period,0
+room_type,hostel,0
+room_type,club floor,0
+room_type,parc 55,0
+room_type,grand tour,0
+room_type,buffet,0
+room_type,dog,0
+room_type,no extra charge,0
+room_type,1st floor,0
+room_type,clean room,0
+room_type,hotel room service,0
+room_type,exercise room,0
+room_type,court,0
+room_type,9th floor,0
+room_type,single,0
+room_type,ritz carlton,0
+room_type,cocktail,0
+room_type,discounted rate,0
+room_type,beauty salon,0
+room_type,large group,0
+room_type,long,0
+room_type,starwood preferred,0
+room_type,hotel imperial,0
+room_type,modern style,0
+room_type,club level,0
+room_type,hotel des arts,0
+room_type,coffee,0
+room_type,kensington park,0
+room_type,grand cafe,0
+room_type,living room area,0
+room_type,coffee table,0
+room_type,3rd floor,0
+room_type,fifth floor,0
+room_type,two double beds,0
+room_type,boutique hotel,0
+room_type,hyatt,0
+room_type,bank,0
+room_type,coffee tea,0
+room_type,car park,0
+room_type,nice,0
+room_type,orchard,0
+room_type,saturday night,0
+room_type,vintage court,0
+room_type,big box,0
+room_type,two queen beds,0
+room_type,2 double beds,0
+room_type,platinum,0
+room_type,gold,0
+room_type,ny,0
+room_type,white,0
+room_type,apartment hotel,0
+room_type,state,0
+room_type,wedding party,0
+room_type,friday night,0
+room_type,luxury collection,0
+room_type,sleep,0
+room_type,tea,0
+room_type,basic,0
+room_type,lounge chairs,0
+room_type,reasonable rate,0
+room_type,executive floor,0
+room_type,library,0
+room_type,health club,0
+room_type,game room,0
+room_type,sports club,0
+room_type,2 queen beds,0
+room_type,guest services,0
+room_type,12th floor,0
+room_type,imperial club,0
+room_type,low price,0
+room_type,chancellor,0
+room_type,holiday inn,0
+room_type,marina inn,0
+room_type,small kitchenette,0
+room_type,31st floor,0
+room_type,edwardian,0
+room_type,locker room,0
+room_type,smaller size,0
+room_type,queen size bed,0
+room_type,la quinta,0
+room_type,love,0
+room_type,tea coffee,0
+room_type,main building,0
+room_type,honor bar,0
+room_type,desk chair,0
+room_type,desk / chair,0
+room_type,kabuki,0
+room_type,personal service,0
+room_type,pan pacific,0
+room_type,company,0
+room_type,b / c,0
+room_type,cafeteria,0
+room_type,a 4,0
+room_type,baby food,0
+room_type,ramada,0
+room_type,dining table,0
+room_type,jw marriott,0
+room_type,french restaurant,0
+room_type,28th floor,0
+room_type,steam room,0
+room_type,dining area,0
+room_type,boutique style,0
+room_type,queen sized bed,0
+room_type,small children,0
+room_type,house,0
+room_type,arrangement,0
+room_type,dressing room,0
+room_type,dessert,0
+room_type,twin beds,0
+room_type,baby shower,0
+room_type,twin bed,0
+room_type,chicago,0
+room_type,double beds,0
+room_type,heritage marina,0
+room_type,high,0
+room_type,last minute,0
+room_type,older style,0
+room_type,8th floor,0
+room_type,club quarters,0
+room_type,higher price,0
+room_type,2nd floor,0
+room_type,motel,0
+room_type,great deal,0
+room_type,pretty standard,0
+room_type,penthouse apartment,0
+room_type,la luna,0
+room_type,super comfortable,0
+room_type,Four Seasons,0
+room_type,Palace,0
+room_type,Palomar,0
+room_type,Mark Hopkins,0
+room_type,Campton Place,0
+room_type,Grand Hyatt,0
+room_type,Monaco,0
+room_type,Orchard Garden,0
+room_type,Galleria Park,0
+room_type,Sir Francis Drake,0
+room_type,Mandarin Oriental,0
+room_type,Renoir,0
+room_type,Harbor Court,0
+room_type,Phoenix,0
+room_type,Carlton,0
+room_type,Savoy,0
+room_type,Monarch,0
+room_type,Beresford Arms,0
+room_type,Stratford,0
+room_type,Donatello,0
+room_type,Argent,0
+room_type,Cornell,0
+room_type,Mandarin,0
+room_type,Courtyard,0
+room_type,Petite Auberge,0
+room_type,York,0
+room_type,Stanyan Park,0
+room_type,Villa Florence,0
+room_type,Mark Twain,0
+room_type,Grant Plaza,0
+room_type,Pickwick,0
+room_type,Holiday Inn Express,0
+room_type,Le Meridien,0
+room_type,olympic,0
+room_type,Intercontinental,0
+room_type,Warwick,0
+room_type,Larkspur,0
+room_type,Crowne Plaza,0
+room_type,Fusion,0
+room_type,White Swan,0
+room_type,Metropolis,0
+room_type,Mayflower,0
+room_type,Ocean Park,0
+room_type,Inn,0
+room_type,Stanford Court,0
+room_type,Buena Vista,0
+room_type,Hyatt Regency,0
+room_type,St Francis,0
+room_type,Coventry,0
+room_type,5 star,0
+room_type,Miyako,0
+room_type,St Regis,0
+room_type,Park,0
+room_type,Renaissance,0
+room_type,Chelsea,0
+room_type,Grosvenor Suites,0
+room_type,Park Hyatt,0
+room_type,Tuscan Inn,0
+room_type,Griffon,0
+room_type,Urban Tavern,0
+room_type,good Western,0
+room_type,Slanted Door,0
+room_type,Sheraton Fisherman 's Wharf,0
+room_type,Hollywood,0
+room_type,Presidio Inn,0
+room_type,InterContinental,0
+room_type,fusion,0
+room_type,Blue Mermaid,0
+room_type,palace,0
+room_type,Sears,0
+room_type,Comfort Inn,0
+room_type,Garden Court,0
+room_type,Columbus Motor Inn,0
+room_type,Michael Mina,0
+room_type,Hotel Del Sol,0
+room_type,Hotel California,0
+room_type,Mark Hopkins Hotel,0
+room_type,Hotel Griffon,0
+room_type,Star,0
+room_type,4 star,0
+room_type,Vertigo,0
+room_type,Millennium,0
+room_type,Castle,0
+room_type,good western,0
+room_type,Laurel Inn,0
+room_type,Kensington,0
+room_type,Olympic,0
+room_type,four star,0
+room_type,Redwood Inn,0
+room_type,Elephant,0
+room_type,HI Express,0
+room_type,Hotel Milano,0
+room_type,Monticello,0
+room_type,Cheesecake Factory,0
+room_type,Days Inn,0
+room_type,Cow Hollow Motor Inn,0
+room_type,Del Sol,0
+room_type,BA,0
+room_type,Hotel del Sol,0
+room_type,hotel 's restaurant,0
+room_type,five star,0
+room_type,intercontinental,0
+room_type,Drake,0
+room_type,Monticello Inn,0
+room_type,Golden Gateway,0
+room_type,Archbishop 's Mansion,0
+room_type,Cafe Pescatore,0
+room_type,hotel Metropolis,0
+room_type,Savoy Hotel,0
+room_type,Greenwich,0
+room_type,Travelodge,0
+room_type,IHOP,0
+room_type,Sir Francis,0
+room_type,Carriage Inn,0
+room_type,attach restaurant,0
+room_type,inn,0
+room_type,Garden,0
+room_type,Seal Rock Inn,0
+room_type,Seal Rock,0
+room_type,Joie de,0
+room_type,Daily,0
+room_type,Resort,0
+room_type,carlton,0
+room_type,argent,0
+room_type,Laurel Court,0
+room_type,resort,0
+room_type,chain hotel,0
+room_type,tuscan inn,0
+room_type,Motor Inn,0
+room_type,Astoria,0
+room_type,Embassy,0
+room_type,palomar,0
+room_type,FS,0
+room_type,Equinox,0
+room_type,european,0
+room_type,Holiday Inns,0
+room_type,Mansion,0
+room_type,Ansonia,0
+room_type,high end,0
+room_type,american,0
+room_type,Chelsea Motor Inn,0
+room_type,average,0
+room_type,Great American Music Hall,0
+room_type,Opera,0
+room_type,Ihop,0
+room_type,Luxor,0
+room_type,Kimpton hotel,0
+room_type,french,0
+room_type,chinese,0
+room_type,Swan,0
+room_type,Farmer 's Market,0
+room_type,cookie cutter,0
+room_type,diner,0
+room_type,Castle Inn,0
+room_type,Mel 's Diner,0
+room_type,Golden Gate,0
+room_type,MOMA,0
+room_type,property,0
+room_type,ACT,0
+room_type,Le Meridian,0
+room_type,Coventry Motor Inn,0
+room_type,air,0
+room_type,amazing,0
+room_type,ambience,0
+room_type,awesome.,0
+room_type,balcony,0
+room_type,bath,0
+room_type,bath.,0
+room_type,bathrobes,0
+room_type,Bathroom,0
+room_type,bathroom,0
+room_type,bathroom.,0
+room_type,bathtub,0
+room_type,bay,0
+room_type,beautiful,0
+room_type,beautiful.,0
+room_type,bed,0
+room_type,Bed,0
+room_type,bed.,0
+room_type,bedroom,0
+room_type,bedroom.,0
+room_type,begin,0
+room_type,birthday,0
+room_type,black,0
+room_type,blankets,0
+room_type,blocked,0
+room_type,body,0
+room_type,bottle of champagne,0
+room_type,bridge,0
+room_type,bugs,0
+room_type,cable,0
+room_type,carpet,0
+room_type,carpets,0
+room_type,ceiling fan,0
+room_type,celebrating,0
+room_type,chair,0
+room_type,chairs,0
+room_type,champagne,0
+room_type,change,0
+room_type,changed,0
+room_type,channels,0
+room_type,cigarette,0
+room_type,classic,0
+room_type,cleaned,0
+room_type,cleaning,0
+room_type,clock,0
+room_type,closet,0
+room_type,closet.,0
+room_type,Club,0
+room_type,comfortable,0
+room_type,comforter,0
+room_type,contemporary,0
+room_type,corridor,0
+room_type,cups,0
+room_type,desk,0
+room_type,dingy,0
+room_type,dirty,0
+room_type,dirty.,0
+room_type,double,0
+room_type,drawers,0
+room_type,drink.,0
+room_type,drug,0
+room_type,dry,0
+room_type,elevator.,0
+room_type,entry,0
+room_type,fabulous.,0
+room_type,Fairmont,0
+room_type,filthy,0
+room_type,fireplace,0
+room_type,flat screen,0
+room_type,floor.,0
+room_type,floors,0
+room_type,fresh,0
+room_type,fridge,0
+room_type,garbage,0
+room_type,getaway,0
+room_type,glasses,0
+room_type,gorgeous,0
+room_type,halls,0
+room_type,hallways,0
+room_type,happy hour,0
+room_type,hot water,0
+room_type,housekeeping,0
+room_type,huge,0
+room_type,iron,0
+room_type,ironing board,0
+room_type,jacuzzi,0
+room_type,kids,0
+room_type,kitchen,0
+room_type,Large,0
+room_type,large,0
+room_type,LCD,0
+room_type,looked,0
+room_type,lounge,0
+room_type,lovely,0
+room_type,lovely.,0
+room_type,luxurious,0
+room_type,maker,0
+room_type,marble,0
+room_type,mirror,0
+room_type,mold,0
+room_type,NO,0
+room_type,noise,0
+room_type,outdoor,0
+room_type,overlooking,0
+room_type,paint,0
+room_type,phone,0
+room_type,pillow,0
+room_type,pillows,0
+room_type,pillows.,0
+room_type,plain,0
+room_type,pool,0
+room_type,privacy,0
+room_type,putting,0
+room_type,radio,0
+room_type,refrigerator,0
+room_type,relaxing,0
+room_type,rooftop,0
+room_type,room,0
+room_type,room faced,0
+room_type,roomy,0
+room_type,rude,0
+room_type,Sausalito,0
+room_type,screaming,0
+room_type,separate,0
+room_type,shabby,0
+room_type,shampoo,0
+room_type,sheets,0
+room_type,shower,0
+room_type,shower.,0
+room_type,sign,0
+room_type,signs,0
+room_type,sink,0
+room_type,sitting area,0
+room_type,size,0
+room_type,sized,0
+room_type,small,0
+room_type,smell,0
+room_type,smelled,0
+room_type,smells,0
+room_type,smoke,0
+room_type,soap,0
+room_type,sofa,0
+room_type,soft,0
+room_type,sounded like,0
+room_type,spa,0
+room_type,spacious,0
+room_type,spectacular.,0
+room_type,spread,0
+room_type,stained,0
+room_type,stains,0
+room_type,stairs,0
+room_type,terrible.,0
+room_type,thoroughly enjoyed,0
+room_type,tiny,0
+room_type,toilet,0
+room_type,took advantage,0
+room_type,towel,0
+room_type,towels,0
+room_type,towels.,0
+room_type,trash,0
+room_type,truly,0
+room_type,tub,0
+room_type,TV,0
+room_type,tv,0
+room_type,TV.,0
+room_type,tv.,0
+room_type,twin,0
+room_type,unpleasant,0
+room_type,upgrade,0
+room_type,upgraded,0
+room_type,upon,0
+room_type,vanity,0
+room_type,view,0
+room_type,views,0
+room_type,views.,0
+room_type,wall,0
+room_type,walls,0
+room_type,wet,0
+room_type,with,0
+room_type,worn,0
+room_type,worst,0
+room_type,yelling,0
+staff,bellman,1
+staff,secretary,1
+staff,manager,1
+staff,nurse,1
+staff,security,1
+staff,front desk clerk,1
+staff,security guard,1
+staff,valet,1
+staff,desk staff,1
+staff,guest services,1
+staff,desk clerks,1
+staff,hotel room service,1
+staff,butler,1
+staff,porter,1
+staff,bartender,1
+staff,door man,1
+staff,staff members,1
+staff,desk attendant,1
+staff,front desk personnel,1
+staff,general manager,1
+staff,bellhop,1
+staff,staff member,1
+staff,police officer,1
+staff,bell man,1
+staff,desk person,1
+staff,parking attendant,1
+staff,desk personnel,1
+staff,accountant,1
+staff,waiting staff,1
+staff,cleaning lady,1
+staff,desk agent,1
+staff,chef,1
+staff,maid service,1
+staff,photographer,1
+staff,bell hop,1
+staff,physician,1
+staff,elevator operator,1
+staff,cleaning crew,1
+staff,dentist,1
+staff,laundry service,1
+staff,engineer,1
+staff,travel agent,1
+staff,bell boy,1
+staff,executive chef,1
+staff,duty manager,1
+staff,bell men,1
+staff,carman,1
+staff,bell boys,1
+staff,guard,1
+staff,maintenance guy,1
+staff,door men,1
+staff,bell captain,1
+staff,tour operator,1
+staff,pastry chef,1
+staff,busboy,1
+staff,Concierge,1
+staff,Mgr,1
+staff,GM,1
+staff,management,0
+staff,information,0
+staff,young man,0
+staff,dog,0
+staff,customer service,0
+staff,knowledge,0
+staff,airline,0
+staff,executive lounge,0
+staff,english,0
+staff,order,0
+staff,department,0
+staff,party,0
+staff,cards,0
+staff,house,0
+staff,club lounge,0
+staff,previous reviews,0
+staff,aide,0
+staff,member,0
+staff,elevator,0
+staff,pharmacy,0
+staff,club level,0
+staff,restaurant,0
+staff,flight attendant,0
+staff,hotel,0
+staff,phone call,0
+staff,previous reviewers,0
+staff,desk / chair,0
+staff,insurance company,0
+staff,oscar,0
+staff,director,0
+staff,cafeteria,0
+staff,single,0
+staff,great job,0
+staff,company,0
+staff,emergency service,0
+staff,card,0
+staff,telephone card,0
+staff,telephone,0
+staff,aspect,0
+staff,goldfish,0
+staff,safety,0
+staff,personal service,0
+staff,taxi driver,0
+staff,phone calls,0
+staff,david,0
+staff,web site,0
+staff,warm welcome,0
+staff,social security number,0
+staff,club floor,0
+staff,per / person,0
+staff,massage,0
+staff,arrangement,0
+staff,travel company,0
+staff,lawyer,0
+staff,auditor,0
+staff,top notch,0
+staff,tours,0
+staff,communication,0
+staff,medical school,0
+staff,mechanics,0
+staff,post office,0
+staff,camera,0
+staff,paper,0
+staff,writing desk,0
+staff,reception area,0
+staff,solution,0
+staff,cab driver,0
+staff,registration desk,0
+staff,adjoining rooms,0
+staff,family,0
+staff,accounting,0
+staff,telephones,0
+staff,property,0
+staff,first impressions,0
+staff,young lady,0
+staff,office building,0
+staff,turndown service,0
+staff,complimentary breakfast,0
+staff,motel,0
+staff,email,0
+staff,bed / linens,0
+staff,room service menu,0
+staff,social services,0
+staff,internet service,0
+staff,function,0
+staff,shower head,0
+staff,living room area,0
+staff,website,0
+staff,nanny,0
+staff,everytime,0
+staff,smoking room,0
+staff,taste,0
+staff,shared bathroom,0
+staff,medical center,0
+staff,phone number,0
+staff,food,0
+staff,bright and airy,0
+staff,gold,0
+staff,desk chair,0
+staff,previous review,0
+staff,club / lounge,0
+staff,young woman,0
+staff,internet,0
+staff,bank,0
+staff,ordered room service,0
+staff,daily,0
+staff,space heater,0
+staff,breakfast buffet,0
+staff,professional,0
+staff,bell desk,0
+staff,rental car,0
+staff,first rate,0
+staff,valet parking,0
+staff,internet services,0
+staff,architect,0
+staff,late checkout,0
+staff,previous reviewer,0
+staff,social security,0
+staff,office depot,0
+staff,strike,0
+staff,castle inn,0
+staff,health food store,0
+staff,no extra charge,0
+staff,local restaurants,0
+staff,friends,0
+staff,junior suite,0
+staff,home office,0
+staff,travel agency,0
+staff,long,0
+staff,extra mile,0
+staff,electronic control unit,0
+staff,state,0
+staff,library,0
+staff,saturday night,0
+staff,small children,0
+staff,medical emergency,0
+staff,telephone directory,0
+staff,business card,0
+staff,late night,0
+staff,music station,0
+staff,young children,0
+staff,tour,0
+staff,personalized service,0
+staff,discounted rate,0
+staff,kitchen area,0
+staff,police,0
+staff,friend,0
+staff,gift shop,0
+staff,Expedia,0
+staff,wireless,0
+staff,2,0
+staff,44230,0
+staff,:),0
+staff,(a,0
+staff,(about,0
+staff,(as,0
+staff,(I,0
+staff,(The,0
+staff,15 minutes,0
+staff,4 star,0
+staff,about.,0
+staff,add,0
+staff,again,0
+staff,amazingly,0
+staff,attractions,0
+staff,attractions.,0
+staff,avoid,0
+staff,bag,0
+staff,BART,0
+staff,bedding,0
+staff,before,0
+staff,big,0
+staff,bonus,0
+staff,Booked,0
+staff,breakfast,0
+staff,brought,0
+staff,California.,0
+staff,called,0
+staff,carpets,0
+staff,cars,0
+staff,ceiling,0
+staff,Center,0
+staff,centrally located,0
+staff,chair,0
+staff,charge.,0
+staff,children,0
+staff,convenient.,0
+staff,conversation,0
+staff,cool.,0
+staff,corridors,0
+staff,could,0
+staff,days,0
+staff,dealt,0
+staff,decorated,0
+staff,delivered,0
+staff,deposit,0
+staff,did,0
+staff,dingy,0
+staff,directed,0
+staff,dirty,0
+staff,district,0
+staff,doesn't,0
+staff,done,0
+staff,door,0
+staff,downtown,0
+staff,downtown.,0
+staff,dust,0
+staff,eat,0
+staff,EMPTY DOC PLACEHOLDER,0
+staff,etc,0
+staff,etc.,0
+staff,Even,0
+staff,everyone.,0
+staff,facility,0
+staff,fee,0
+staff,feel.,0
+staff,feels,0
+staff,figured,0
+staff,financial district.,0
+staff,first,0
+staff,Fisherman's Wharf,0
+staff,Fisherman's Wharf.,0
+staff,flew,0
+staff,frequently,0
+staff,garden,0
+staff,gas,0
+staff,get,0
+staff,girlfriend,0
+staff,girls,0
+staff,giving,0
+staff,Grill,0
+staff,guy,0
+staff,hands,0
+staff,head,0
+staff,Hilton,0
+staff,hole,0
+staff,holiday.,0
+staff,Hollow,0
+staff,immediate,0
+staff,inexpensive,0
+staff,info,0
+staff,insisted,0
+staff,Internet,0
+staff,jump,0
+staff,June,0
+staff,Kensington,0
+staff,kids,0
+staff,kids.,0
+staff,known,0
+staff,lacked,0
+staff,lady,0
+staff,laundry,0
+staff,left,0
+staff,liked,0
+staff,linens.,0
+staff,loads,0
+staff,lock,0
+staff,looked,0
+staff,looks,0
+staff,lost,0
+staff,lower,0
+staff,Many,0
+staff,Market St.,0
+staff,may,0
+staff,mean,0
+staff,mind.,0
+staff,motel.,0
+staff,Motor Inn,0
+staff,nasty,0
+staff,Needless,0
+staff,New,0
+staff,Nob Hill.,0
+staff,North Beach,0
+staff,old,0
+staff,old.,0
+staff,opinion,0
+staff,option.,0
+staff,options.,0
+staff,out,0
+staff,outdated,0
+staff,parking,0
+staff,parking.,0
+staff,payed,0
+staff,photos,0
+staff,pizza,0
+staff,pleasantly,0
+staff,price.,0
+staff,promised,0
+staff,public,0
+staff,Ramada,0
+staff,rarely,0
+staff,rates,0
+staff,reason,0
+staff,rent,0
+staff,room.,0
+staff,room).,0
+staff,rude.,0
+staff,ruined,0
+staff,run,0
+staff,runs,0
+staff,saw,0
+staff,say,0
+staff,saying,0
+staff,seedy,0
+staff,set,0
+staff,setting,0
+staff,sheet,0
+staff,sight,0
+staff,someone,0
+staff,something,0
+staff,spaces,0
+staff,spots,0
+staff,spread,0
+staff,standing,0
+staff,storage,0
+staff,stuck,0
+staff,style.,0
+staff,Suite,0
+staff,suite,0
+staff,table,0
+staff,take advantage,0
+staff,tall,0
+staff,telling,0
+staff,Tenderloin,0
+staff,thanks,0
+staff,then,0
+staff,there's,0
+staff,things,0
+staff,though,0
+staff,To,0
+staff,touch,0
+staff,transit,0
+staff,transportation,0
+staff,transportation.,0
+staff,trips,0
+staff,two,0
+staff,urban,0
+staff,us.,0
+staff,using,0
+staff,waiting,0
+staff,we'll,0
+staff,Wharf,0
+staff,Which,0
+staff,with.,0
+staff,world,0
+staff,world.,0
+staff,worry,0
+style,5 star,1
+style,modern style,1
+style,reasonably priced,1
+style,boutique hotel,1
+style,modern design,1
+style,four star,1
+style,retro style,1
+style,world class,1
+style,modern decor,1
+style,five star,1
+style,mid range,1
+style,business,1
+style,4 star,1
+style,higher end,1
+style,antique,1
+style,older style,1
+style,reasonable price,1
+style,convenient location,1
+style,reasonable rates,1
+style,edwardian,1
+style,tourism,1
+style,reasonable rate,1
+style,boutique type,1
+style,british,1
+style,french,1
+style,italian,1
+style,tropical,1
+style,boutique,1
+style,budget,1
+style,budget.,1
+style,carpet,1
+style,central location,1
+style,friendly,1
+style,friendly.,1
+style,Fusion,1
+style,romantic,1
+style,business casual,0
+style,diva,0
+style,home office,0
+style,hotel,0
+style,fashion,0
+style,centrally located,0
+style,country,0
+style,urban,0
+style,kabuki,0
+style,brand,0
+style,property,0
+style,architectural style,0
+style,resort,0
+style,restaurant,0
+style,apartment hotel,0
+style,price range,0
+style,sports club,0
+style,hyatt,0
+style,family,0
+style,mayflower,0
+style,best western,0
+style,home service,0
+style,ritz carlton,0
+style,industrial design,0
+style,hostel,0
+style,professional,0
+style,holiday inn,0
+style,motel,0
+style,four seasons,0
+style,beauty salon,0
+style,luxury collection,0
+style,prime location,0
+style,art,0
+style,house,0
+style,sports,0
+style,club lounge,0
+style,hotel chain,0
+style,apartment,0
+style,period,0
+style,adventure,0
+style,city,0
+style,interior design,0
+style,hotel des arts,0
+style,personal care,0
+style,wedding,0
+style,high,0
+style,beach house,0
+style,modern art,0
+style,retail,0
+style,old school,0
+style,interior designer,0
+style,international house,0
+style,personal service,0
+style,contemporary decor,0
+style,parc 55,0
+style,american,0
+style,private,0
+style,health club,0
+style,area,0
+style,romance,0
+style,carlton,0
+style,basic,0
+style,entertainment,0
+style,above average,0
+style,italian restaurant,0
+style,web design,0
+style,boutique hotels,0
+style,hotels,0
+style,atmosphere,0
+style,appeal,0
+style,contemporary art,0
+style,luxury hotels,0
+style,design,0
+style,community,0
+style,modern architecture,0
+style,history,0
+style,intercontinental,0
+style,san francisco,0
+style,club / lounge,0
+style,tourist,0
+style,food,0
+style,alternative,0
+style,hotel room service,0
+style,cosmopolitan,0
+style,sports car,0
+style,european,0
+style,garden,0
+style,food / wine,0
+style,travel website,0
+style,industrial,0
+style,orchard,0
+style,personal touch,0
+style,major,0
+style,neighborhood,0
+style,cookie cutter,0
+style,monaco,0
+style,office building,0
+style,theme restaurant,0
+style,aspect,0
+style,street food,0
+style,cocktail,0
+style,taste,0
+style,house music,0
+style,a 4,0
+style,home base,0
+style,bedroom apartment,0
+style,retirement home,0
+style,business class,0
+style,palomar,0
+style,travel company,0
+style,fusion,0
+style,san fransisco,0
+style,chic,0
+style,beach,0
+style,health food store,0
+style,inn,0
+style,cornell,0
+style,average,0
+style,green,0
+style,home run,0
+style,campton place,0
+style,japanese,0
+style,san fran,0
+style,art nouveau,0
+style,big city,0
+style,diamond,0
+style,health food,0
+style,chain hotels,0
+style,french restaurant,0
+style,gold,0
+style,italian food,0
+style,car / rental,0
+style,studio apartment,0
+style,nice,0
+style,olympic,0
+style,italian cuisine,0
+style,kensington park,0
+style,apartment building,0
+style,art museum,0
+style,motor inn,0
+style,asian,0
+style,mansion,0
+style,personal taste,0
+style,newly renovated,0
+style,court,0
+style,independent,0
+style,mandarin,0
+style,americana,0
+style,arrangement,0
+style,downtown,0
+style,pool / spa,0
+style,local food,0
+style,heritage marina,0
+style,wedding party,0
+style,state,0
+style,wedding dress,0
+style,vertigo,0
+style,penthouse apartment,0
+style,white house,0
+style,holiday inns,0
+style,indie,0
+style,food quality,0
+style,ok,0
+style,hotel monaco,0
+style,chinese,0
+style,wine country,0
+style,ultra modern,0
+style,movie,0
+style,art deco,0
+style,organic,0
+style,galleria park,0
+style,fair,0
+style,Le Meridien,0
+style,good western,0
+style,Hollywood,0
+style,Mark Hopkins,0
+style,Mel 's Diner,0
+style,Pan Pacific,0
+style,Palace,0
+style,Grand Hyatt,0
+style,Nob Hill,0
+style,Mandarin Oriental,0
+style,Holiday Inn Express,0
+style,Courtyard,0
+style,Orchard Garden,0
+style,Crowne Plaza,0
+style,Phoenix,0
+style,Petite Auberge,0
+style,Sir Francis Drake,0
+style,Harbor Court,0
+style,Stratford,0
+style,Renoir,0
+style,Ferry Building,0
+style,Fisherman 's Wharf,0
+style,Chinatown,0
+style,Fishermans Wharf,0
+style,Marina,0
+style,China Town,0
+style,Alcatraz,0
+style,chinatown,0
+style,North Beach,0
+style,Market Street,0
+style,Coit Tower,0
+style,China town,0
+style,Ghiradelli Square,0
+style,Fisherman 's wharf,0
+style,Golden Gate Park,0
+style,Lombard Street,0
+style,Financial District,0
+style,Castro,0
+style,financial district,0
+style,Cable Cars,0
+style,Japantown,0
+style,Little Italy,0
+style,fisherman 's wharf,0
+style,Sausalito,0
+style,north beach,0
+style,Haight Ashbury,0
+style,Ghirardelli Square,0
+style,MOMA,0
+style,Market St,0
+style,Fisherman 's Warf,0
+style,Powell Street,0
+style,Presidio,0
+style,SOMA,0
+style,Golden Gate Bridge,0
+style,Moscone Center,0
+style,Civic Center,0
+style,Broadway,0
+style,SFMOMA,0
+style,china town,0
+style,fishermans wharf,0
+style,Muir Woods,0
+style,SoMa,0
+style,Golden Gate park,0
+style,Golden Gate bridge,0
+style,Yerba Buena Gardens,0
+style,Van Ness,0
+style,Exploratorium,0
+style,alcatraz,0
+style,BART station,0
+style,theatre,0
+style,market street,0
+style,Embarcadero Center,0
+style,Fisherman Wharf,0
+style,California,0
+style,Lombard,0
+style,Fort Mason,0
+style,Monterey,0
+style,New York,0
+style,public transport,0
+style,SFO,0
+style,Powell St,0
+style,Fishermans wharf,0
+style,Market street,0
+style,Polk Street,0
+style,Coit tower,0
+style,Napa Valley,0
+style,NYC,0
+style,Powell street,0
+style,Golden Gate,0
+style,golden gate bridge,0
+style,Bay Bridge,0
+style,Alcatraz Island,0
+style,lombard street,0
+style,Japan town,0
+style,fisherman wharf,0
+style,Grace Cathedral,0
+style,Vegas,0
+style,Yosemite,0
+style,Las Vegas,0
+style,Ocean Beach,0
+style,little italy,0
+style,Ghiardelli Square,0
+style,Coventry,0
+style,airport,0
+style,Buena Vista,0
+style,Crissy Field,0
+style,Ferry building,0
+style,Cliff House,0
+style,Oakland,0
+style,SFO airport,0
+style,little Italy,0
+style,Los Angeles,0
+style,Sacramento,0
+style,downtown San Francisco,0
+style,soma,0
+style,Castle Inn,0
+style,San Diego,0
+style,Mark Twain,0
+style,Lombard street,0
+style,transport,0
+style,Boston,0
+style,Powell station,0
+style,Chicago,0
+style,Angel Island,0
+style,Moscone Convention Center,0
+style,Tommy 's Joynt,0
+style,Ocean Park,0
+style,Villa Florence,0
+style,DC,0
+style,SF MOMA,0
+style,Coventry Motor Inn,0
+style,Powell Station,0
+style,Big Sur,0
+style,NY,0
+style,London,0
+style,Seattle,0
+style,shopping area,0
+style,Cable car,0
+style,Santa Barbara,0
+style,sfo,0
+style,castro,0
+style,Fishermen 's Wharf,0
+style,SBC Park,0
+style,Philadelphia,0
+style,Santa Cruz,0
+style,North beach,0
+style,fishermans warf,0
+style,San Franciso,0
+style,Tokyo,0
+style,Manhattan,0
+style,Japan Town,0
+style,Oakland Airport,0
+style,San Francisco Bay,0
+style,Palo Alto,0
+style,Civic Centre,0
+style,Fisherman 's warf,0
+style,Twin Peaks,0
+style,Santa Monica,0
+style,Berkeley,0
+style,Post St,0
+style,Paris,0
+style,Europe,0
+style,Columbus,0
+style,Yerba Buena garden,0
+style,Marin County,0
+style,Washington,0
+style,Fishermans Warf,0
+style,Hawaii,0
+style,Powell Street Station,0
+style,San Jose,0
+style,Polk St,0
+style,Frisco,0
+style,nob hill,0
+style,Vancouver,0
+style,downtown San Fran,0
+style,2004,0
+style,2005,0
+style,2008,0
+style,accomodating,0
+style,accomodation,0
+style,Adagio,0
+style,advice,0
+style,affordable,0
+style,Andrews,0
+style,anniversary,0
+style,answered,0
+style,are,0
+style,aren't,0
+style,arrival,0
+style,attentive,0
+style,attitude,0
+style,August,0
+style,base,0
+style,bellman,0
+style,Bijou,0
+style,black,0
+style,brick,0
+style,California.,0
+style,Cartwright,0
+style,Castle,0
+style,ceiling,0
+style,ceilings,0
+style,cell,0
+style,Chancellor,0
+style,check,0
+style,choice.,0
+style,clean room,0
+style,color,0
+style,concierge,0
+style,concierge.,0
+style,concierges,0
+style,consider,0
+style,courteous,0
+style,Cow,0
+style,dark,0
+style,dealt,0
+style,December,0
+style,directions,0
+style,doesn't,0
+style,don't,0
+style,doorman,0
+style,dresser,0
+style,elevators,0
+style,entry,0
+style,European,0
+style,exceptional,0
+style,extremely helpful,0
+style,families,0
+style,family.,0
+style,finish,0
+style,For,0
+style,furniture,0
+style,gentleman,0
+style,genuinely,0
+style,getaway,0
+style,gorgeous,0
+style,greeted,0
+style,hallways,0
+style,He,0
+style,help,0
+style,helped,0
+style,helpful,0
+style,helpful.,0
+style,helpfull,0
+style,highly recommend,0
+style,hold,0
+style,hole,0
+style,hoping,0
+style,Hotel,0
+style,Hotel.,0
+style,ideal,0
+style,If,0
+style,if,0
+style,Inn,0
+style,Inn.,0
+style,isn't,0
+style,it's,0
+style,July,0
+style,Kensington,0
+style,knowledgeable,0
+style,lady,0
+style,last,0
+style,looking,0
+style,luxury,0
+style,main building,0
+style,marble,0
+style,may,0
+style,May,0
+style,met,0
+style,might,0
+style,mind,0
+style,minibar,0
+style,mins,0
+style,minute,0
+style,missing,0
+style,mold,0
+style,Monaco,0
+style,Motor Inn,0
+style,musty,0
+style,need,0
+style,nights,0
+style,noon,0
+style,old,0
+style,onto,0
+style,open,0
+style,Orchard,0
+style,paint,0
+style,Palomar,0
+style,parents,0
+style,paying,0
+style,picture,0
+style,place to sleep,0
+style,planning,0
+style,polite,0
+style,power,0
+style,prefer,0
+style,price,0
+style,questions,0
+style,reasons,0
+style,recent,0
+style,recommend,0
+style,recommendations,0
+style,recommended,0
+style,recommending,0
+style,required,0
+style,Rex,0
+style,roof,0
+style,rude,0
+style,San Francisco,0
+style,San Francisco!,0
+style,San Francisco.,0
+style,save,0
+style,serious,0
+style,seriously,0
+style,She,0
+style,shouldn't,0
+style,shower,0
+style,sister,0
+style,smell,0
+style,smile,0
+style,smoke,0
+style,somewhere,0
+style,spectacular.,0
+style,spoke,0
+style,staff,0
+style,staff.,0
+style,stains,0
+style,station.,0
+style,stayed,0
+style,stroll,0
+style,suggest,0
+style,suggestions,0
+style,summer,0
+style,Swan,0
+style,there's,0
+style,those,0
+style,tours,0
+style,tower,0
+style,traveler,0
+style,traveling,0
+style,treated,0
+style,tub,0
+style,Tuscan,0
+style,vacation,0
+style,vacation.,0
+style,value,0
+style,Villa,0
+style,Vitale,0
+style,want,0
+style,wants,0
+style,welcomed,0
+style,welcoming,0
+style,White,0
+style,who,0
+style,window,0
+style,wonderful.,0
+style,wonderfully,0
+style,wood,0
+style,you,0
+style,you.,0
+style,you'd,0
+style,you're,0
+style,your,0

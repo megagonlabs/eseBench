@@ -1,0 +1,593 @@
+concept,neighbor,multifaceted,non_named,vague
+countries,burundi,False,True,False
+countries,myanmar,False,False,False
+countries,bermuda,False,False,False
+countries,niger,False,True,False
+countries,solomon islands,False,False,False
+countries,el salvador,False,False,False
+countries,united_arab_emirates,False,True,False
+countries,bahamas,False,False,False
+countries,zambia,False,False,False
+countries,japans,False,True,False
+countries,cuba,False,False,False
+countries,guinea,False,True,False
+countries,belarus,False,True,False
+countries,germany,False,False,False
+countries,botswana,False,True,False
+countries,serbia,False,False,False
+countries,switzerlands,False,True,False
+countries,iraqi kurdistan,False,False,False
+countries,venezuela,False,False,False
+countries,malawi,False,True,False
+countries,mozambique,False,True,False
+countries,the uae,False,True,False
+countries,slovenia,False,False,False
+countries,cape verde,False,True,False
+countries,democratic republic of the congo,False,False,False
+countries,philippines,False,False,False
+countries,mexico,False,False,False
+countries,us,False,True,False
+countries,morocco,False,False,False
+countries,kiribati,False,True,False
+countries,democratic republic of congo,False,False,False
+countries,trinidad and tobago,False,False,False
+countries,turkmenistan,False,False,False
+countries,zimbabwe,False,False,False
+countries,brazil,False,False,False
+countries,mali,False,True,False
+countries,japan,False,False,False
+countries,united kingdom,False,False,False
+countries,south africa,False,False,False
+countries,algeria,False,False,False
+countries,nepal,False,True,False
+countries,united states,False,False,False
+countries,greece,False,False,False
+countries,north korea,False,False,False
+countries,honduras,False,False,False
+countries,dr congo,False,False,False
+countries,madagascar,False,True,False
+countries,the philippines,False,False,False
+countries,republic of china,False,True,False
+countries,burma,False,True,False
+countries,united_states,False,True,False
+countries,denmark,False,True,False
+countries,burkina faso,False,False,False
+countries,united sates,False,False,False
+countries,poland,False,False,False
+countries,kuwait,False,False,False
+countries,sierra leone,False,False,False
+countries,uk,False,False,False
+countries,brunei,False,True,False
+countries,mexicos,False,True,False
+countries,china,False,False,False
+countries,albania,False,False,False
+countries,panama,False,False,False
+countries,jordan,False,False,False
+countries,dominican republic,False,False,False
+countries,moldova,False,False,False
+countries,slovakia,False,True,False
+countries,belgium,False,False,False
+countries,portugal,False,False,False
+countries,barbados,False,True,False
+countries,romania,False,False,False
+countries,bulgaria,False,False,False
+countries,liberia,False,True,False
+countries,tuvalu,False,False,False
+countries,switzerland,False,False,False
+countries,croatia,False,True,False
+countries,israel,False,False,False
+countries,republic of ireland,False,True,False
+countries,costa rica,False,False,False
+countries,saudi arabia,False,False,False
+countries,eritrea,False,True,False
+countries,south sudan,False,False,False
+countries,st_lucia,False,False,False
+countries,islamic republic of afghanistan,False,False,False
+countries,taiwan,False,False,False
+countries,russia,False,False,False
+countries,bangladesh,False,True,False
+countries,the united states of america,False,False,False
+countries,papua new guinea,False,False,False
+countries,senegal,False,True,False
+countries,laos,False,False,False
+countries,kuwaitis,False,False,False
+countries,cameroon,False,True,False
+countries,malta,False,True,False
+countries,islamic republic of iran,False,False,False
+countries,liechtenstein,False,True,False
+countries,yemens,False,True,False
+countries,haiti,False,False,False
+countries,tajikistan,False,True,False
+countries,samoas,False,True,False
+countries,qatar,False,False,False
+countries,thailand,False,False,False
+countries,new_zealand,False,True,False
+countries,fiji,False,True,False
+countries,united arab emirates,False,False,False
+countries,the united states,False,False,False
+countries,iceland,False,False,False
+countries,gambia,False,False,False
+countries,palestine,False,False,False
+countries,azerbaijan,False,False,False
+countries,macedonia,False,False,False
+countries,ireland,False,False,False
+countries,france,False,False,False
+countries,guyana,False,True,False
+countries,egypt,False,False,False
+countries,belize,False,True,False
+countries,russian federation,False,False,False
+countries,sweden,False,False,False
+countries,ecuador,False,False,False
+countries,uae,False,True,False
+countries,cyprus,False,True,False
+countries,rwanda,False,False,False
+countries,uganda,False,False,False
+countries,norway,False,False,False
+countries,libya,False,False,False
+countries,the czech republic,False,False,False
+countries,usa,False,True,False
+countries,britain,False,False,False
+countries,netherlands,False,False,False
+countries,kenya,False,False,False
+countries,indias,False,True,False
+countries,iraq,False,False,False
+countries,indonesia,False,False,False
+countries,jamaica,False,False,False
+countries,pakistan,False,False,False
+countries,uzbekistan,False,True,False
+countries,seychelles,False,True,False
+countries,oman,False,True,False
+countries,finland,False,False,False
+countries,vanuatu,False,True,False
+countries,singapore,False,False,False
+countries,tanzania,False,False,False
+countries,tunisia,False,True,False
+countries,ukraine,False,False,False
+countries,chad,False,False,False
+countries,the united kingdom,False,False,False
+countries,mongolia,False,True,False
+countries,the yemen,False,False,False
+countries,vietnam,False,False,False
+countries,sri lanka,False,False,False
+countries,spain,False,False,False
+countries,somalia,False,False,False
+countries,america,False,False,False
+countries,ivory_coast,False,True,False
+countries,england,False,False,False
+countries,northern ireland,False,False,False
+countries,angola,False,False,False
+countries,kingdom of saudi arabia,False,False,False
+countries,philippine,False,False,False
+countries,syria,False,False,False
+countries,maldives,False,True,False
+countries,afghans,False,False,False
+countries,chiles,False,True,False
+countries,vatican,False,False,False
+countries,italy,False,False,False
+countries,saudi_arabia,False,True,False
+countries,monaco,False,False,False
+countries,uruguay,False,True,False
+countries,colombia,False,False,False
+countries,canada,False,False,False
+countries,new zealand,False,False,False
+countries,chile,False,False,False
+countries,hungary,False,False,False
+countries,ethiopia,False,False,False
+countries,south korea,False,False,False
+countries,republic of congo,False,True,False
+countries,iran,False,False,False
+countries,sudan,False,False,False
+countries,malaysia,False,False,False
+countries,argentina,False,False,False
+countries,ivory coast,False,True,False
+countries,saudis,False,False,False
+countries,bahrain,False,True,False
+countries,kazakhstan,False,False,False
+countries,austria,False,False,False
+countries,peru,False,False,False
+countries,lebanon,False,False,False
+countries,czech republic,False,False,False
+countries,n korea,False,True,False
+countries,guinea_bissau,False,True,False
+countries,ghana,False,False,False
+countries,nigerias,False,True,False
+countries,united states of america,False,False,False
+countries,scotland,False,False,False
+countries,central african republic,False,False,False
+countries,armenia,False,True,False
+countries,luxembourg,False,False,False
+countries,u s,False,True,False
+countries,the united arab emirates,False,False,False
+countries,australia,False,False,False
+countries,turkey,False,False,False
+countries,congo,False,False,False
+usstates,virginia,False,False,False
+usstates,iowa state,False,False,False
+usstates,nc,False,True,False
+usstates,wv,False,True,False
+usstates,texas,False,False,False
+usstates,nh,False,True,False
+usstates,utah,False,False,False
+usstates,indiana,False,False,False
+usstates,west virginia,False,False,False
+usstates,mississippi state,False,False,False
+usstates,arizona,False,False,False
+usstates,kansas state,False,False,False
+usstates,georgia state,False,False,False
+usstates,il,False,True,False
+usstates,montana,False,False,False
+usstates,oregon,False,False,False
+usstates,fl,False,True,False
+usstates,kentucky,False,False,False
+usstates,wy,False,True,False
+usstates,kansas,False,False,False
+usstates,illinois,False,False,False
+usstates,vt,False,False,False
+usstates,tx,False,False,False
+usstates,ks,False,False,False
+usstates,tennessee,False,False,False
+usstates,penn,False,True,False
+usstates,louisiana,False,False,False
+usstates,new mexico,False,False,False
+usstates,az,False,False,False
+usstates,minnesota,False,False,False
+usstates,ohio,False,False,False
+usstates,mississippi,False,False,False
+usstates,pennsylvania,False,False,False
+usstates,californias,False,False,False
+usstates,nj,False,True,False
+usstates,vermont,False,False,False
+usstates,delaware,False,False,False
+usstates,nv,False,True,False
+usstates,hawaii,False,True,False
+usstates,south carolina,False,False,False
+usstates,ohio state,False,False,False
+usstates,colorado,False,False,False
+usstates,new jersey,False,False,False
+usstates,north carolina,False,False,False
+usstates,maryland,False,False,False
+usstates,colorados,False,True,False
+usstates,michigan,False,False,False
+usstates,north carolina state,False,False,False
+usstates,florida_state,False,True,False
+usstates,connecticut,False,False,False
+usstates,wyoming,False,True,False
+usstates,nevada,False,False,False
+usstates,sc,False,True,False
+usstates,maine,False,False,False
+usstates,oklahoma,False,False,False
+usstates,rhode island,False,False,False
+usstates,idaho,False,False,False
+usstates,new_york,False,True,False
+usstates,nc state,False,True,False
+usstates,north_dakota,False,True,False
+usstates,south_dakota,False,True,False
+usstates,michigan state,False,False,False
+usstates,nebraska,False,False,False
+usstates,new york,False,False,False
+usstates,wisc,False,True,False
+usstates,utah state,False,False,False
+usstates,south dakota,False,False,False
+usstates,washington,False,False,False
+usstates,mi,False,True,False
+usstates,arkansas,False,False,False
+usstates,delawares,False,True,False
+usstates,missouri,False,False,False
+usstates,va,False,False,False
+usstates,north dakota,False,False,False
+usstates,wisconsin,False,False,False
+usstates,idaho state,False,False,False
+usstates,florida,False,False,False
+usstates,ny,False,True,False
+usstates,alaska,False,False,False
+usstates,ak,False,True,False
+usstates,alabama,False,False,False
+usstates,michigan_state,False,True,False
+usstates,georgia,False,False,False
+usstates,new hampshire,False,True,False
+usstates,iowa,False,False,False
+usstates,ohio_state,False,True,False
+usstates,ut,False,True,False
+usstates,md,False,True,False
+usstates,massachusetts,False,False,False
+parties,united national party,False,False,False
+parties,progressive party,False,False,False
+parties,civic_platform_party,False,True,False
+parties,kulanu_party,False,True,False
+parties,republican_party,False,True,False
+parties,all party parliamentary group,False,True,False
+parties,ak party,False,True,False
+parties,nationalist movement party,False,False,False
+parties,pakistan peoples party,False,False,False
+parties,alternative for germany,False,False,False
+parties,republican party,False,False,False
+parties,tea party patriots,False,False,False
+parties,south carolina gop,False,False,False
+parties,ruling liberal party,False,True,False
+parties,opposition_party,False,False,False
+parties,moderate party,False,False,False
+parties,leftist_party,False,True,False
+parties,beach party,False,False,False
+parties,constitution party,False,True,False
+parties,california republican party,False,False,False
+parties,golden_dawn_party,False,True,False
+parties,progressive alternative,False,True,False
+parties,alliance party,False,False,False
+parties,oklahoma democratic party,False,False,False
+parties,barisan nasional,False,True,False
+parties,social democratic party,False,False,False
+parties,socially_liberal,False,True,False
+parties,small_party,False,True,False
+parties,bharatiya janata party,False,False,False
+parties,country party,False,False,False
+parties,republican ] party,False,False,False
+parties,new democracy,False,True,False
+parties,socialist popular alliance party,False,False,False
+parties,sweden democrats,False,False,False
+parties,national league for democracy,False,False,False
+parties,missouri republican party,False,False,False
+parties,zionist union,False,False,False
+parties,scottish national party,False,False,False
+parties,single party,False,False,False
+parties,ruling party,False,True,False
+parties,south carolina republican party,False,False,False
+parties,to potami,False,True,False
+parties,yesh atid,False,True,False
+parties,arizona republican,False,False,False
+parties,libertarian party,False,False,False
+parties,brazilian democratic movement party,False,False,False
+parties,african_national_congress,False,True,False
+parties,national republicans,False,False,False
+parties,independent greeks,False,True,False
+parties,ndp,False,True,False
+parties,liberty party,False,False,False
+parties,likud party,False,False,False
+parties,podemos,False,False,False
+parties,bangladesh nationalist party,False,False,False
+parties,christian social union,False,False,False
+parties,florida gop,False,False,False
+parties,labor_party,False,True,False
+parties,new hampshire republicans,False,False,False
+parties,liberation party - front,False,False,False
+parties,progress party,False,False,False
+parties,tamil national alliance,False,False,False
+parties,baath party,False,False,False
+parties,joint list,False,True,False
+parties,rule_liberal_democratic_party,False,True,False
+parties,the uk independence party,False,False,False
+parties,labour_party,False,False,False
+parties,progressive socialist party,False,False,False
+parties,centrist party,False,False,False
+parties,social democratic and labour party,False,False,False
+parties,unp,False,False,False
+parties,single party state,False,False,False
+parties,tea party republicans,False,True,False
+parties,nationalist_party,False,False,False
+parties,central party school,False,False,False
+parties,reformist party,False,False,False
+parties,progressive_party,False,True,False
+parties,labour party,False,True,False
+parties,meretz,False,True,False
+parties,syriza_party,False,True,False
+parties,hezbollah,False,False,False
+parties,democratic_unionist_party,False,True,False
+parties,lib dems,False,False,False
+parties,socialist party,False,False,False
+parties,conservative party,False,True,False
+parties,national coalition,False,True,False
+parties,freedom party,False,False,False
+parties,al - mourabitoun,False,False,False
+parties,leftist party,False,False,False
+parties,british national party,False,False,False
+parties,kmt,False,False,False
+parties,balad,False,True,False
+parties,golden dawn party,False,False,False
+parties,united kingdom independence party,False,False,False
+parties,uk_independence_party,False,True,False
+parties,national party,False,False,False
+parties,dpp,False,False,False
+parties,nationalist party,False,False,False
+parties,democratic action party,False,False,False
+parties,iraqi communist party,False,False,False
+parties,iowa republican party,False,False,False
+parties,governing party,False,True,False
+parties,the snp,False,True,False
+parties,congress party,False,False,False
+parties,rule_party,False,True,False
+parties,aam_aadmi_party,False,True,False
+parties,iowa republicans,False,False,False
+parties,social_democratic,False,True,False
+parties,new hampshire gop,False,False,False
+parties,republican party of iowa,False,False,False
+parties,japanese communist party,False,False,False
+parties,left_wing_party,False,True,False
+parties,left wing party,False,True,False
+parties,lib dem,False,False,False
+parties,rafi,False,False,False
+parties,baath_party,False,True,False
+parties,pkk,False,False,False
+parties,justice and development party,False,False,False
+parties,independent greeks party,False,False,False
+parties,michigan republican party,False,False,False
+parties,yisrael_beitenu,False,False,False
+parties,arab_party,False,True,False
+parties,opposition labor party,False,True,False
+parties,fine gael,False,True,False
+parties,jobbik,False,False,False
+parties,liberal party,False,True,False
+parties,nepali congress,False,False,False
+parties,nationalist congress party,False,False,False
+parties,democrat party,False,False,False
+parties,michigan democratic party,False,False,False
+parties,pakistan tehreek - e - insaf,False,False,False
+parties,iowa gop,False,False,False
+parties,new hampshire republican party,False,False,False
+parties,united socialist party,False,False,False
+parties,california democratic party,False,False,False
+parties,kentucky republican,False,False,False
+parties,parliamentary labour party,False,True,False
+parties,gop,False,False,False
+parties,alberta party,False,False,False
+parties,greens party,False,False,False
+parties,nazis,False,False,False
+parties,institutional revolutionary party,False,False,False
+parties,communist_party,False,True,False
+parties,fatah_party,False,True,False
+parties,liberal_party,False,True,False
+parties,uk independence party,False,False,False
+parties,kulanu,False,False,False
+parties,likud,False,False,False
+parties,texas republican party,False,False,False
+parties,liberty union party,False,False,False
+parties,socialist_party,False,True,False
+parties,tea party conservatives,False,True,False
+parties,national democratic front,False,False,False
+parties,christian democratic union,False,False,False
+parties,soviet communist party,False,False,False
+parties,social_democratic_party,False,True,False
+parties,bjp,False,True,False
+parties,multi party,False,False,False
+parties,serbian progressive party,False,False,False
+parties,main_opposition_party,False,True,False
+parties,tory,False,True,False
+parties,national front,False,True,False
+parties,libertarian_party,False,True,False
+parties,kurdish democratic union party,False,False,False
+parties,ndc,False,True,False
+parties,union solidarity and development party,False,False,False
+parties,reform party,False,False,False
+parties,black panther party,False,True,False
+parties,scottish liberal democrats,False,False,False
+parties,islamic dawa party,False,False,False
+parties,social democratic union,False,False,False
+parties,greens,False,True,False
+parties,kurdistan democratic party,False,False,False
+parties,aam aadmi party,False,False,False
+parties,australian labor party,False,False,False
+parties,bachelor party,False,False,False
+parties,south carolina democratic party,False,False,False
+parties,jewish home,False,False,False
+parties,hunting party,False,True,False
+parties,chinese communist party,False,False,False
+parties,solidarity party,False,False,False
+parties,govern_party,False,True,False
+parties,bayit yehudi,False,False,False
+parties,national conservative,False,True,False
+parties,civic platform party,False,False,False
+parties,democratic unionist party,False,False,False
+parties,likud_party,False,True,False
+parties,republican party chairman,False,False,False
+parties,liberal national party,False,False,False
+parties,indian national congress party,False,False,False
+parties,troika,False,True,False
+parties,bangladesh_nationalist_party,False,True,False
+parties,independent_greeks_party,False,True,False
+parties,tami,False,True,False
+parties,democratic party of japan,False,False,False
+parties,conservative_party,False,True,False
+parties,ruling communist party,False,False,False
+parties,pasok,False,True,False
+parties,ppp,False,True,False
+parties,anc,False,False,False
+parties,kuomintang,False,False,False
+parties,party,False,True,False
+parties,massachusetts republican party,False,False,False
+parties,kentucky gop,False,False,False
+parties,bharatiya_janata_party,False,True,False
+parties,cdu,False,True,False
+parties,united_kingdom_independence_party,False,True,False
+parties,black panthers,False,True,False
+parties,progressive conservative party,False,False,False
+parties,ukip,False,False,False
+parties,hindu nationalist party,False,False,False
+parties,labor party leader,False,False,False
+parties,yisrael beytenu,False,True,False
+parties,working family party,False,True,False
+parties,republicans,False,False,False
+parties,the liberal democrats,False,False,False
+parties,communist party,False,False,False
+parties,green_party,False,True,False
+parties,yesh_atid_party,False,False,False
+parties,civic party,False,False,False
+parties,nidaa tounes,False,False,False
+parties,conservative_likud_party,False,True,False
+parties,democratic party,False,False,False
+parties,liberal democrats,False,False,False
+parties,alabama republican party,False,False,False
+parties,leftist_syriza_party,False,True,False
+parties,dpj,False,True,False
+parties,kurdistan_workers_party,False,False,False
+parties,opposition party,False,True,False
+parties,liberation party front,False,False,False
+parties,respect party,False,False,False
+parties,peoples_democratic_party,False,True,False
+parties,plaid cymru,False,True,False
+parties,french_socialist_party,False,True,False
+parties,general national congress,False,False,False
+parties,labor party,False,False,False
+parties,national democratic party,False,False,False
+parties,spd,False,False,False
+parties,florida republicans,False,False,False
+parties,ruling liberal democratic party,False,False,False
+parties,liberal_democratic_party,False,True,False
+parties,justice_and_development_party,False,True,False
+parties,liberal conservative,False,True,False
+parties,yisrael beitenu,False,True,False
+parties,renewal,False,True,False
+parties,green party,False,False,False
+parties,united_national_party,False,False,False
+parties,right_wing_likud_party,False,True,False
+parties,peoples democratic party,False,False,False
+parties,national republican party,False,False,False
+parties,hatnua,False,True,False
+parties,labour party leader,False,False,False
+parties,scottish_national_party,False,True,False
+parties,kurdistan workers party,False,False,False
+parties,american party,False,False,False
+parties,democratic progressive party,False,False,False
+parties,french socialist party,False,False,False
+parties,the republicans,False,False,False
+parties,national_party,False,True,False
+parties,political party,False,True,False
+parties,liberals,False,True,False
+parties,congress_party,False,True,False
+parties,the republican party,False,False,False
+parties,block party,False,True,False
+parties,liberal democratic party,False,False,False
+parties,cuban communist party,False,False,False
+parties,birthday party,False,False,False
+parties,national alliance,False,True,False
+parties,liberation party / front,False,False,False
+parties,ulster unionist party,False,False,False
+parties,democratic party chairman,False,False,False
+parties,wedding party,False,True,False
+parties,zionist union party,False,False,False
+parties,russian communist party,False,False,False
+parties,south carolina republicans,False,False,False
+parties,american communist party,False,False,False
+parties,syriza,False,True,False
+parties,iowa democratic party,False,False,False
+parties,singapore democratic party,False,False,False
+parties,democratic,False,False,False
+parties,communist ] party,False,False,False
+parties,party platform,False,True,False
+parties,jamaat_e_islami_party,False,True,False
+parties,pis,False,True,False
+parties,tea party,False,True,False
+parties,free democratic party,False,False,False
+parties,freedom caucus,False,True,False
+parties,labour,False,True,False
+parties,democratic_party,False,True,False
+parties,tea party caucus,False,False,False
+parties,sri lanka freedom party,False,False,False
+parties,komeito,False,True,False
+parties,united torah judaism,False,False,False
+parties,african christian democratic party,False,False,False
+parties,centrist_party,False,True,False
+parties,nazi party,False,False,False
+parties,ultra_orthodox_party,False,True,False
+parties,the democratic party,False,False,False
+parties,scottish labour party,False,False,False
+parties,popular alliance,False,True,False
+parties,fatah party,False,False,False
+parties,social liberal party,False,False,False
