@@ -1,6 +1,6 @@
 # eseBench: Benchmarking low-resource entity set expansion methods 
 
-Given a corpus and a seed set of entities of user-defined categories, the goal is to find more entities that have the same categories.
+Given a corpus and a seed set of entities of user-defined categories, entity set expansion (ESE) methods aim  to find more entities that have the same categories. In this work, we consider user-generated text to understand the generalizability of ESE methods. We develop new benchmarks and propose more rigorous evaluation metrics for assessing performance of ESE methods. Additionally, we identify phenomena such as non-named entities, multifaceted entities, vague concepts that are more prevalent in user-generated text than well-formed text, and use them to profile ESE methods.
 
 ## Run the code
 
