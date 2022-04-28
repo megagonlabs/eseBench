@@ -1,0 +1,9 @@
+alignedCategoryName,unalignedCategoryName,generalizations,seedInstances
+location,location,,"['north america', 'san francisco', 'ghirardelli square', 'financial district', 'sausalito', 'australia', 'california']"
+property_type,property type,,"['hotel', 'travelodge', 'motel', 'resort']"
+style,style,,"['low budget', 'pet friendly', 'eco friendly', 'romantic', 'business travel', 'boutique style']"
+amenities,amenities,,"['free wifi', 'complimentary breakfast', 'heated pool', 'valet parking', 'golf', 'yoga', 'lounge area', 'bikes']"
+room_features,room features,,"['mini bar', 'air conditioning', 'private bath', 'television', 'refrigerator', 'iron', 'extra blanket', 'toothpaste', 'flat screen tv']"
+room_type,room type,,"['deluxe queen', 'executive suite', 'presidential suite', 'smoke free', 'pet friendly', 'non smoking', 'petite queen']"
+nearby_attractions,nearby attractions,,"['alcatraz', 'fishermans wharf', 'golden gate bridge', 'bart station', 'lombard street', 'theatre', 'japantown']"
+staff,staff,,"['bell staff', 'cleaning staff', 'housekeeping staff', 'desk clerk', 'concierge']"

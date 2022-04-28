@@ -1,0 +1,4 @@
+alignedCategoryName,unalignedCategoryName,generalizations,seedInstances
+countries,countries,,"['united arab emirates', 'north korea', 'burundi', 'mauritania', 'panama', 'oman', 'usa', 'england', 'malta', 'indonesia']"
+usstates,us states,,"['texas', 'new hampshire', 'hawaii', 'idaho']"
+parties,parties,,"['ak party', 'sri lanka muslim congress', 'anp', 'marxists', 'social democratic party', 'conservative movement', 'black panther party', 'snp', 'liberal', 'conservative party', 'labour party']"

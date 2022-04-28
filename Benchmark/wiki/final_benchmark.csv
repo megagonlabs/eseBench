@@ -1,0 +1,6072 @@
+concept,neighbor,gt_label
+china_provinces,Hebei province,1
+china_provinces,Hebei Province,1
+china_provinces,Heilongjiang Province,1
+china_provinces,Jiangxi Province,1
+china_provinces,Kashgar,0
+china_provinces,Kyushu,0
+china_provinces,Zhoukoudian,0
+china_provinces,Yichang,0
+china_provinces,Tientsin,0
+china_provinces,Dunhuang,0
+china_provinces,Zhangjiakou,0
+china_provinces,Baoding,0
+china_provinces,Nara,0
+china_provinces,Tangshan,0
+china_provinces,Guiyang,0
+china_provinces,Xianyang,0
+china_provinces,Taipei,0
+china_provinces,Kerman,0
+china_provinces,Tainan City,0
+china_provinces,Fengtian,0
+china_provinces,Nanning,0
+china_provinces,Outer Mongolia,0
+china_provinces,Kaohsiung,0
+china_provinces,Qinhuangdao,0
+china_provinces,Tashkent,0
+china_provinces,Kyoto,0
+china_provinces,Grozny,0
+china_provinces,Heilongjiang province,1
+china_provinces,Barnaul,0
+china_provinces,Kamakura,0
+china_provinces,Gansu province,1
+china_provinces,Lhasa,0
+china_provinces,Begemder,0
+china_provinces,Niigata,0
+china_provinces,Gondar,0
+china_provinces,Gyeonggi Province,1
+china_provinces,Gojjam,0
+china_provinces,Hengshui,0
+china_provinces,Sendai,0
+china_provinces,Boeotia,0
+china_provinces,Gifu,0
+china_provinces,Shiraz,0
+china_provinces,Bukhara,0
+china_provinces,Isfahan,0
+china_provinces,Uppland,0
+china_provinces,Attica,0
+china_provinces,Manchukuo,0
+china_provinces,Xingtai,0
+china_provinces,Xizang,0
+china_provinces,Wenzhou,0
+china_provinces,Bithynia,0
+china_provinces,Jingzhou,0
+china_provinces,Samarkand,0
+china_provinces,Qazvin,0
+china_provinces,Tokushima Prefecture,0
+china_provinces,Jing Province,1
+china_provinces,Liaodong,0
+china_provinces,Tsingtao,0
+china_provinces,Gifu Prefecture,0
+china_provinces,Lu'an,0
+china_provinces,Daegu,0
+china_provinces,Yaroslavl,0
+china_provinces,Mino,0
+china_provinces,Friuli,0
+china_provinces,Mukden,0
+china_provinces,Ghazni,0
+china_provinces,Balkh,0
+china_provinces,Thrace,0
+china_provinces,Cappadocia,0
+china_provinces,Paphlagonia,0
+china_provinces,Dacia,0
+china_provinces,Ingushetia,0
+china_provinces,Guizhou Province,0
+china_provinces,Olsztyn,0
+china_provinces,Przemysl,0
+china_provinces,Konya,0
+china_provinces,Miyagi Prefecture,0
+china_provinces,Dalarna,0
+china_provinces,Buddhists,0
+china_provinces,converted to Islam,0
+china_provinces,best,0
+china_provinces,scorer,0
+china_provinces,served as President,0
+china_provinces,Euboea,0
+china_provinces,tribes,0
+china_provinces,Glass,0
+china_provinces,CHL,0
+china_provinces,Steve,0
+china_provinces,received his bachelor,0
+china_provinces,Marin County,0
+china_provinces,textiles,0
+china_provinces,Manchu,0
+china_provinces,settlers,0
+china_provinces,1945,0
+china_provinces,German military,0
+china_provinces,Fang,0
+china_provinces,colonists,0
+china_provinces,merchants,0
+china_provinces,Armenians,0
+china_provinces,Kanagawa Prefecture,0
+china_provinces,Detroit Red Wings,0
+china_provinces,Egyptians,0
+china_provinces,Chinese,0
+china_provinces,fourth quarter,0
+china_provinces,indigenous,0
+china_provinces,Quechua,0
+china_provinces,June,0
+china_provinces,Shizuoka Prefecture,0
+china_provinces,County Donegal,0
+china_provinces,earned a master,0
+china_provinces,Dong,0
+china_provinces,missionaries,0
+china_provinces,Olomouc,0
+china_provinces,enslaved,0
+china_provinces,fleeing,0
+china_provinces,before,0
+china_provinces,tribal,0
+china_provinces,Inca,0
+china_provinces,Hyogo,0
+china_provinces,43rd,0
+china_provinces,Indians,0
+china_provinces,Taranto,0
+china_provinces,1944,0
+china_provinces,displaced,0
+china_provinces,Bantu,0
+china_provinces,Rabaul,0
+china_provinces,25th,0
+china_provinces,South China Sea,0
+china_provinces,short film,0
+china_provinces,75th,0
+china_provinces,Sparta,0
+china_provinces,Ho Chi Minh City,0
+china_provinces,wreck,0
+china_provinces,Akkadian,0
+china_provinces,Academy Award,0
+china_provinces,1954,0
+china_provinces,third round,0
+china_provinces,Native American,0
+china_provinces,recalled,0
+china_provinces,labourers,0
+china_provinces,Rhode Island,0
+china_provinces,57th,0
+china_provinces,Starring,0
+china_provinces,Indonesian,0
+china_provinces,Toronto Maple Leafs,0
+china_provinces,Vietnam,0
+china_provinces,fields,0
+china_provinces,slaves,0
+china_provinces,Hua,0
+china_provinces,task force,0
+china_provinces,70th,0
+china_provinces,Hui,0
+china_provinces,Javanese,0
+china_provinces,Africans,0
+china_provinces,Mughal,0
+china_provinces,Qi,0
+china_provinces,Jews,0
+china_provinces,prolific,0
+china_provinces,Nordland,0
+china_provinces,peoples,0
+china_provinces,Shan,0
+china_provinces,pursuit,0
+china_provinces,Persian,0
+china_provinces,39th,0
+china_provinces,Beta,0
+china_provinces,Somerville,0
+china_provinces,November,0
+china_provinces,Amherst College,0
+china_provinces,Indo-European,0
+china_provinces,Native Americans,0
+china_provinces,minute,0
+china_provinces,Penang,0
+china_provinces,Cantonese,0
+china_provinces,Kagoshima,0
+china_provinces,Cape,0
+china_provinces,caste,0
+china_provinces,Aegean Sea,0
+china_provinces,Rajputs,0
+china_provinces,Lenape,0
+china_provinces,79th,0
+china_provinces,settled,0
+china_provinces,Original,0
+china_provinces,Henley Royal Regatta,0
+china_provinces,North Vietnam,0
+china_provinces,being,0
+china_provinces,Vancouver Canucks,0
+china_provinces,Lao,0
+china_provinces,Buddhist,0
+china_provinces,Tibetan,0
+china_provinces,1955,0
+china_provinces,bizarre,0
+china_provinces,post-season,0
+china_provinces,fourth round,0
+china_provinces,NHL Entry Draft,0
+china_provinces,minutes,0
+china_provinces,Vietnamese,0
+china_provinces,warrior,0
+china_provinces,Han Chinese,0
+china_provinces,Bollywood film,0
+china_provinces,inscriptions,0
+china_provinces,Han Dynasty,0
+china_provinces,oppression,0
+china_provinces,NFL,0
+china_provinces,Malay,0
+china_provinces,South Vietnam,0
+china_provinces,years ago,0
+china_provinces,directors,0
+china_provinces,interests,0
+china_provinces,mechanical engineering,0
+china_provinces,Dallas Stars,0
+china_provinces,Puget Sound,0
+china_provinces,55th,0
+china_provinces,violinist,0
+china_provinces,amphibious,0
+china_provinces,Sakhalin,0
+china_provinces,Han,0
+china_provinces,sixth round,0
+china_provinces,83rd,0
+china_provinces,Persians,0
+china_provinces,traders,0
+china_provinces,Chiba Prefecture,0
+china_provinces,people,0
+china_provinces,logistics,0
+china_provinces,Sinhalese,0
+china_provinces,Ioannina,0
+china_provinces,80th,0
+china_provinces,international relations,0
+china_provinces,December,0
+china_provinces,March,0
+china_provinces,tribe,0
+china_provinces,Sumatra,0
+china_provinces,Southeast Asia,0
+china_provinces,0-1,0
+china_provinces,BCE,0
+china_provinces,Hokkaido,0
+china_provinces,recording,0
+china_provinces,Airborne,0
+china_provinces,Reggio Calabria,0
+china_provinces,televised,0
+china_provinces,Solomon Islands,0
+china_provinces,82nd,0
+china_provinces,73rd,0
+china_provinces,served as president,0
+china_provinces,90th,0
+china_provinces,Korea,0
+china_provinces,Busan,0
+china_provinces,rope,0
+china_provinces,cancelled,0
+china_provinces,Loch,0
+china_provinces,selected,0
+china_provinces,motion picture,0
+china_provinces,Gunter,0
+china_provinces,nominees,0
+china_provinces,Qing Dynasty,0
+china_provinces,laborers,0
+china_provinces,refugees,0
+china_provinces,Shinto,0
+china_provinces,Arabs,0
+china_provinces,Hakka,0
+china_provinces,scored twice,0
+china_provinces,44th,0
+china_provinces,goaltender,0
+china_provinces,September,0
+china_provinces,thousand,0
+china_provinces,poorly,0
+china_provinces,Fujian,1
+china_provinces,Fujian province,1
+china_provinces,Sichuan,1
+china_provinces,Henan,1
+china_provinces,Yunnan,1
+china_provinces,Henan province,1
+china_provinces,Yunnan province,1
+china_provinces,Sichuan province,1
+china_provinces,Hainan,1
+china_provinces,Peking,1
+china_provinces,Liaoning,1
+china_provinces,Hunan,1
+china_provinces,Hunan province,1
+china_provinces,Hubei,1
+china_provinces,Hubei province,1
+china_provinces,Liaoning province,1
+china_provinces,Jilin,1
+china_provinces,Jiangsu,1
+china_provinces,Gansu,1
+china_provinces,Jiangsu province,1
+china_provinces,Jiangxi,1
+china_provinces,Ningxia,1
+china_provinces,Inner Mongolia,1
+china_provinces,Macau,1
+china_provinces,Ganzhou,1
+china_provinces,Shaanxi,1
+china_provinces,Tibet,1
+china_provinces,Wuhan,1
+china_provinces,Guangdong,1
+china_provinces,Guangdong province,1
+china_provinces,Xinjiang,1
+china_provinces,Guizhou,1
+china_provinces,Guangxi,1
+china_provinces,Anhui,1
+china_provinces,Anhui province,1
+china_provinces,Xinjiang Uyghur Autonomous Region,1
+china_provinces,Zhejiang,1
+china_provinces,Beijing,1
+china_provinces,Zhejiang province,1
+china_provinces,Heilongjiang,1
+china_provinces,Guangzhou,1
+china_provinces,Shandong,1
+china_provinces,Hebei,1
+china_provinces,Taiwan,1
+china_provinces,Shanxi,1
+china_provinces,Chongqing,1
+china_provinces,Shandong province,1
+china_provinces,Qinghai,1
+china_provinces,Shanghai,1
+china_provinces,Hong Kong,1
+china_provinces,Tianjin,1
+china_provinces,Khuzestan,0
+china_provinces,Nanjing,0
+china_provinces,Sindh,0
+china_provinces,Salta,0
+china_provinces,Tang dynasty,0
+china_provinces,North Brabant,0
+china_provinces,Ningbo,0
+china_provinces,Zhongshan,0
+china_provinces,Adana,0
+china_provinces,East Java,0
+china_provinces,Central Java,0
+china_provinces,Taiyuan,0
+china_provinces,Khyber Pakhtunkhwa,0
+china_provinces,Yantai,0
+china_provinces,Central Kalimantan,0
+china_provinces,Khyber-Pakhtunkhwa,0
+china_provinces,Kaifeng,0
+china_provinces,Hohhot,0
+china_provinces,Handan,0
+china_provinces,Cadiz,0
+china_provinces,West Papua,0
+china_provinces,Korean peninsula,0
+china_provinces,Eastern Cape,0
+china_provinces,Kwazulu-Natal,0
+china_provinces,Zhuhai,0
+china_provinces,Chang ' an,0
+china_provinces,New Brunswick,0
+china_provinces,Changchun,0
+china_provinces,Lanzhou,0
+china_provinces,Laos,0
+china_provinces,Second Sino-Japanese war,0
+china_provinces,Huelva,0
+china_provinces,Mongolia,0
+china_provinces,Western Cape,0
+china_provinces,Yellow river,0
+china_provinces,Punjab,0
+china_provinces,Gauteng,0
+china_provinces,Limpopo,0
+china_provinces,Anyang,0
+china_provinces,Changsha,0
+china_provinces,Shenyang,0
+china_provinces,Namur,0
+china_provinces,Jakarta,0
+china_provinces,Shenzhen,0
+china_provinces,auroras,0
+china_provinces,Hangzhou,0
+china_provinces,Shantou,0
+china_provinces,Quanzhou,0
+china_provinces,Chubut,0
+china_provinces,Teruel,0
+china_provinces,Mpumalanga,0
+china_provinces,Cavite,0
+china_provinces,Occidental Mindoro,0
+china_provinces,Trabzon,0
+china_provinces,Burma,0
+china_provinces,Gelderland,0
+china_provinces,Xi'an,0
+china_provinces,Toledo,0
+china_provinces,Dalian,0
+china_provinces,Xiamen,0
+china_provinces,Yan ' an,0
+china_provinces,Batangas,0
+china_provinces,Nova Scotia,0
+china_provinces,Aceh,0
+china_provinces,Almeria,0
+china_provinces,Flemish Brabant,0
+china_provinces,Chiang Kai-shek,0
+china_provinces,Datong,0
+china_provinces,Wuxi,0
+china_provinces,British Columbia,0
+china_provinces,Fuzhou,0
+china_provinces,Lorestan,0
+china_provinces,Luoyang,0
+china_provinces,Negros Occidental,0
+china_provinces,Shijiazhuang,0
+china_provinces,prefecture-level city,0
+china_provinces,North Sumatra,0
+china_provinces,Quebec,0
+china_provinces,Jaen,0
+china_provinces,Zeeland,0
+china_provinces,Overijssel,0
+china_provinces,Chengdu,0
+china_provinces,East Flanders,0
+china_provinces,Sanya,0
+china_provinces,Yogyakarta,0
+china_provinces,Avila,0
+china_provinces,Harbin,0
+china_provinces,Friesland,0
+china_provinces,Kunming,0
+china_provinces,Gipuzkoa,0
+china_provinces,North Gyeongsang,0
+china_provinces,Jinan,0
+china_provinces,West Java,0
+china_provinces,Entre Rios,0
+china_provinces,Trentino,0
+china_provinces,Dongguan,0
+china_provinces,Papua,0
+china_provinces,Gyeonggi,0
+china_provinces,South Holland,0
+china_provinces,Republic of China,0
+china_provinces,South Tyrol,0
+china_provinces,Gyeonggi-do,0
+china_provinces,Saskatchewan,0
+china_provinces,North Holland,0
+china_provinces,Yangtze river,0
+china_provinces,Yangzhou,0
+china_provinces,Xining,0
+china_provinces,Manchuria,0
+china_provinces,Drenthe,0
+china_provinces,Kuomintang,0
+china_provinces,China,0
+china_provinces,Vietnams,0
+china_provinces,Guilin,0
+china_provinces,South Jeolla,0
+china_provinces,Suzhou,0
+china_provinces,Qingdao,0
+china_provinces,Urumqi,0
+china_provinces,Balochistan,0
+china_provinces,Nueva Ecija,0
+china_provinces,Zhengzhou,0
+china_provinces,north bengal,0
+china_provinces,north carolina,0
+china_provinces,central tibet,0
+china_provinces,north island,0
+china_provinces,northern ontario,0
+china_provinces,northern yan,0
+china_provinces,south tibet,0
+china_provinces,inner mongolia,0
+china_provinces,northeast china,0
+china_provinces,northern sonora,0
+china_provinces,east bengal,0
+china_provinces,northern cape,0
+china_provinces,south carolina,0
+china_provinces,northern plains,0
+china_provinces,northern quebec,0
+china_provinces,south island,0
+china_provinces,north korea,0
+china_provinces,north korean,0
+china_provinces,southern yan,0
+china_provinces,fujian province,0
+china_provinces,north china,0
+china_provinces,central norte,0
+china_provinces,west bengal,0
+china_provinces,southern ontario,0
+china_provinces,guangdong province,1
+china_provinces,north goa,0
+china_provinces,east malaysia,0
+china_provinces,yunnan province,1
+china_provinces,central java,0
+china_provinces,north vietnam,0
+china_provinces,western carolina,0
+china_provinces,sichuan province,1
+china_provinces,northern wei,0
+china_provinces,southern plains,0
+china_provinces,west malaysia,0
+china_provinces,south korea,0
+china_provinces,korean,0
+china_provinces,southern highlands,0
+china_provinces,shandong province,1
+china_provinces,northern territory,0
+china_provinces,south korean,0
+china_provinces,northwest territories,0
+china_provinces,southern province,0
+china_provinces,southern philippines,0
+china_provinces,yangtze river,0
+china_provinces,east azerbaijan,0
+china_provinces,hunan province,1
+china_provinces,south goa,0
+china_provinces,southwest china,0
+china_provinces,northeast region,0
+china_provinces,jiangsu province,1
+china_provinces,puebla,0
+china_provinces,south china,0
+china_provinces,northern poland,0
+china_provinces,northern arizona,0
+china_provinces,eastern wu,0
+china_provinces,northern transvaal,0
+china_provinces,southern song,0
+china_provinces,mainland china,0
+china_provinces,northern qi,0
+china_provinces,uttar pradesh,0
+china_provinces,northern mongolia,0
+china_provinces,northwest china,0
+china_provinces,assam,0
+china_provinces,south vietnam,0
+china_provinces,yellow river,0
+china_provinces,henan province,1
+china_provinces,hefei,0
+china_provinces,south mountain,0
+china_provinces,liaoning province,1
+china_provinces,west azerbaijan,0
+china_provinces,malaysia,0
+china_provinces,zhejiang province,1
+china_provinces,qing,0
+china_provinces,northern han,0
+china_provinces,ming,0
+china_provinces,coastal carolina,0
+china_provinces,northern areas,0
+china_provinces,southern maryland,0
+china_provinces,northern rivers,0
+china_provinces,shanxi province,1
+china_provinces,north canton,0
+china_provinces,yangtze,0
+china_provinces,northeastern vietnam,0
+china_provinces,southern siberia,0
+china_provinces,northern zhou,0
+china_provinces,northeast india,0
+china_provinces,southern dynasties,0
+china_provinces,hankou,0
+china_provinces,shaanxi province,1
+china_provinces,east carolina,0
+china_provinces,central ontario,0
+china_provinces,hubei province,1
+china_provinces,northern mariana islands,0
+china_provinces,shang,0
+china_provinces,northern neck,0
+china_provinces,xuzhou,0
+china_provinces,republic of china,0
+china_provinces,han chinese,0
+china_provinces,north indian,0
+china_provinces,jilin province,1
+china_provinces,central provinces,0
+china_provinces,southern poland,0
+china_provinces,bengal,0
+china_provinces,nevada,0
+china_provinces,east china,0
+china_provinces,pearl river delta,0
+china_provinces,singapore,0
+china_provinces,north india,0
+china_provinces,anhui province,1
+china_provinces,bhutan,0
+china_provinces,northern mindanao,0
+china_provinces,nanchang,0
+china_provinces,tang,0
+china_provinces,southern bug,0
+china_provinces,peninsular malaysia,0
+china_provinces,huizhou,0
+china_provinces,central highlands,0
+china_provinces,southern ming,0
+china_provinces,southern qi,0
+china_provinces,northern virginia,0
+china_provinces,hainan province,1
+china_provinces,liuzhou,0
+china_provinces,qinghai province,1
+china_provinces,northern line,0
+china_provinces,selangor,0
+china_provinces,foshan,0
+china_provinces,centralia,0
+china_provinces,taishan,0
+china_provinces,central macedonia,0
+us_states,New York,0
+us_states,Delaware,1
+us_states,American Samoa,0
+us_states,eastern Kentucky,0
+us_states,New Brunswick,0
+us_states,western Virginia,1
+us_states,western North Carolina,0
+us_states,Washington DC,0
+us_states,Chicago,0
+us_states,Victoria,0
+us_states,Panama,0
+us_states,western Kentucky,0
+us_states,northern Arizona,0
+us_states,Notre Dame,0
+us_states,Indian Territory,0
+us_states,Boston,0
+us_states,Washington Territory,0
+us_states,Detroit,0
+us_states,Miami,0
+us_states,southeastern Arizona,0
+us_states,Lake Erie,0
+us_states,Syracuse,0
+us_states,Western Canada,0
+us_states,southwestern Minnesota,0
+us_states,Silicon Valley,0
+us_states,Yosemite,0
+us_states,Appalachia,0
+us_states,St Louis,0
+us_states,Utah Territory,0
+us_states,Harlem,0
+us_states,southeastern Oregon,0
+us_states,Jefferson Parish,0
+us_states,Idaho Territory,0
+us_states,NY,0
+us_states,Yellowstone National Park,0
+us_states,Minneapolis,0
+us_states,Lake Ontario,0
+us_states,northwestern Mexico,0
+us_states,Michigan Territory,0
+us_states,southern Alberta,0
+us_states,Mid Atlantic,0
+us_states,Kansas Territory,0
+us_states,Acadia,0
+us_states,Ottawa,0
+us_states,Richmond,0
+us_states,Dakota Territory,0
+us_states,Phoenix,0
+us_states,New Mexico Territory,0
+us_states,Las Vegas,0
+us_states,Rapides Parish,0
+us_states,Oklahoma Territory,0
+us_states,Rochester,0
+us_states,Glacier National Park,0
+us_states,NJ,1
+us_states,Iowa State,1
+us_states,southwestern Utah,0
+us_states,Santa Clara,0
+us_states,San Jose,0
+us_states,Upper Canada,0
+us_states,Yosemite National Park,0
+us_states,Florida State,1
+us_states,Mexico City,0
+us_states,PA,1
+us_states,Milwaukee,0
+us_states,Grand Teton National Park,0
+us_states,Arizona Territory,0
+us_states,Vanderbilt,0
+us_states,western Massachusetts,0
+us_states,northern Baja California,0
+us_states,NYC,0
+us_states,Middle Tennessee,0
+us_states,Brooklyn,0
+us_states,Coahuila,0
+us_states,Duquesne,0
+us_states,Durango,0
+us_states,,0
+us_states,Magellan,0
+us_states,Miranda,0
+us_states,questioning,0
+us_states,Long Island,0
+us_states,Guatemala,0
+us_states,Mojave Desert,0
+us_states,Lamar,0
+us_states,lifestyle,0
+us_states,1665,0
+us_states,Amazon,0
+us_states,1713,0
+us_states,Deutsche Eishockey Liga,0
+us_states,Lake Tahoe,0
+us_states,June,0
+us_states,Liechtenstein,0
+us_states,Los Angeles County,0
+us_states,Icelandic,0
+us_states,McPherson,0
+us_states,Rye,0
+us_states,institutional,0
+us_states,harsh,0
+us_states,ocean,0
+us_states,Staten Island,0
+us_states,ethnicity,0
+us_states,Grand Canyon,0
+us_states,Lowestoft,0
+us_states,Little Rock,0
+us_states,Calhoun,0
+us_states,currency,0
+us_states,Bohemians,0
+us_states,Tijuana,0
+us_states,depths,0
+us_states,Arroyo,0
+us_states,FC,0
+us_states,at,0
+us_states,Feyenoord,0
+us_states,reserve team,0
+us_states,sovereignty,0
+us_states,informally,0
+us_states,Venezuela,0
+us_states,Parish Church,0
+us_states,5.5,0
+us_states,Deputy Prime Minister,0
+us_states,Honduras,0
+us_states,Cape Cod,0
+us_states,official languages,0
+us_states,Cortes,0
+us_states,Mirren,0
+us_states,Mesa,0
+us_states,Rodolfo,0
+us_states,Severn,0
+us_states,Bronx,0
+us_states,Puritans,0
+us_states,organisations,0
+us_states,transfers,0
+us_states,where,0
+us_states,tunnels,0
+us_states,sporting,0
+us_states,Sonoma County,0
+us_states,Flushing,0
+us_states,far-right,0
+us_states,Gravesend,0
+us_states,home ground,0
+us_states,with,0
+us_states,qualifiers,0
+us_states,Peru,0
+us_states,Death Valley,0
+us_states,Savannah,0
+us_states,Confederate,0
+us_states,Transit,0
+us_states,Turnpike,0
+us_states,Stamford,0
+us_states,Borussia Dortmund,0
+us_states,Shreveport,0
+us_states,Faroe Islands,0
+us_states,Guillermo,0
+us_states,Pedro,0
+us_states,Oyster,0
+us_states,Palau,0
+us_states,Connecticut River,0
+us_states,San Pedro,0
+us_states,Tenerife,0
+us_states,Derry City,0
+us_states,November,0
+us_states,became,0
+us_states,East River,0
+us_states,Macon,0
+us_states,Afterward,0
+us_states,Harold Wilson,0
+us_states,elegant,0
+us_states,Memphis,0
+us_states,King Charles II,0
+us_states,Dutch Republic,0
+us_states,Jackson,0
+us_states,FA,0
+us_states,January,0
+us_states,Cerro,0
+us_states,cure,0
+us_states,ski,0
+us_states,prostate cancer,0
+us_states,Westchester County,0
+us_states,Delaware River,0
+us_states,internationals,0
+us_states,Lenin,0
+us_states,Witnesses,0
+us_states,Great Basin,0
+us_states,Atlanta,0
+us_states,Vicksburg,0
+us_states,Marlborough,0
+us_states,Sierra,0
+us_states,Disneyland,0
+us_states,Federal Republic of Germany,0
+us_states,Essex,0
+us_states,users,0
+us_states,Vista,0
+us_states,Baton Rouge,0
+us_states,Corinth,0
+us_states,Tranmere Rovers,0
+us_states,Canyon,0
+us_states,Shelbourne,0
+us_states,Dominicans,0
+us_states,1664,0
+us_states,Waltham,0
+us_states,and,0
+us_states,Knoxville,0
+us_states,Chile,0
+us_states,borough,0
+us_states,was,0
+us_states,Herrera,0
+us_states,Arnold Schwarzenegger,0
+us_states,El Salvador,0
+us_states,Easton,0
+us_states,Queens,0
+us_states,Chattanooga,0
+us_states,tendencies,0
+us_states,Lake Champlain,0
+us_states,humour,0
+us_states,December,0
+us_states,Tonga,0
+us_states,Rembrandt,0
+us_states,2006 FIFA World Cup,0
+us_states,cope,0
+us_states,Isle of Wight,0
+us_states,contractors,0
+us_states,Manhattan,0
+us_states,boroughs,0
+us_states,major,0
+us_states,San Francisco Bay,0
+us_states,Saint Nicholas,0
+us_states,later,0
+us_states,Ecuadorian,0
+us_states,purportedly,0
+us_states,Long Island Sound,0
+us_states,Explorer,0
+us_states,from,0
+us_states,Euro,0
+us_states,criticisms,0
+us_states,Pacific Ocean,0
+us_states,Hudson,0
+us_states,Protestants,0
+us_states,A&amp;M,0
+us_states,May,0
+us_states,Paris Saint-Germain,0
+us_states,national football,0
+us_states,Moffat,0
+us_states,Koln,0
+us_states,1699,0
+us_states,Sir George,0
+us_states,then,0
+us_states,Barony,0
+us_states,Galapagos Islands,0
+us_states,Hoboken,0
+us_states,Knowles,0
+us_states,Sierra Nevada,0
+us_states,Hudson River,0
+us_states,New Hampshire,1
+us_states,Manitoba,1
+us_states,Michigan State,1
+us_states,Delawares,1
+us_states,Wisconsin,1
+us_states,Rhode Island,1
+us_states,Maryland,1
+us_states,Mississippi,1
+us_states,Oklahoma,1
+us_states,New Jersey,1
+us_states,Indiana,1
+us_states,Kansas State,1
+us_states,Illinois,1
+us_states,Montana,1
+us_states,Arkansas,1
+us_states,Connecticut,1
+us_states,Georgia,1
+us_states,Maine,1
+us_states,Alaska,1
+us_states,Ohio State,1
+us_states,Iowa,1
+us_states,Tennessee,1
+us_states,Dakotas,1
+us_states,Arizona State,1
+us_states,Wyoming,1
+us_states,State of Colorado,1
+us_states,New Yorks,1
+us_states,Kansas,1
+us_states,Nevada,1
+us_states,California,1
+us_states,Carolinas,1
+us_states,Nebraska,1
+us_states,Michigan,1
+us_states,North Carolina,1
+us_states,Louisville,1
+us_states,New York state,1
+us_states,South Dakota,1
+us_states,Alabama,1
+us_states,South Carolina,1
+us_states,Washington,1
+us_states,Utah,1
+us_states,Vermont,1
+us_states,Washington state,1
+us_states,Florida,1
+us_states,West Virginia,1
+us_states,Idaho,1
+us_states,Texas,1
+us_states,Massachusetts,1
+us_states,Oregon,1
+us_states,Oregon State,1
+us_states,Minnesota,1
+us_states,North Dakota,1
+us_states,Arizona,1
+us_states,Kentucky,1
+us_states,Ohio,1
+us_states,Louisiana,1
+us_states,Colorados,1
+us_states,Hawaii,1
+us_states,Virginia,1
+us_states,Missouri,1
+us_states,New Mexico,1
+us_states,Pennsylvania,1
+us_states,Alberta,0
+us_states,Cornell University,0
+us_states,Moldova,0
+us_states,Latvia,0
+us_states,College Station,0
+us_states,Mississippi river,0
+us_states,Buffalo Sabres,0
+us_states,Kenya,0
+us_states,Texarkana,0
+us_states,Mississippi State University,0
+us_states,Timra IK,0
+us_states,"Macon , Georgia",0
+us_states,Brown University,0
+us_states,UC Santa Barbara,0
+us_states,Pasadena,0
+us_states,Newfoundland,0
+us_states,Oregon State University,0
+us_states,Ecuador,0
+us_states,Newfoundland and Labrador,0
+us_states,Humboldt County,0
+us_states,Floyd County,0
+us_states,Vassar College,0
+us_states,Ethiopia,0
+us_states,UCLA,0
+us_states,Denmark,0
+us_states,Fayette County,0
+us_states,District of Columbia,0
+us_states,Cuyahoga County,0
+us_states,Slovakia,0
+us_states,Ontario,0
+us_states,American Civil War,0
+us_states,"Ontario , Canada",0
+us_states,Howard County,0
+us_states,Fort Lewis,0
+us_states,East Carolina University,0
+us_states,Switzerland,0
+us_states,Puerto Rico,0
+us_states,Slovenia,0
+us_states,Manchester,0
+us_states,Lithuania,0
+us_states,Indiana University of Pennsylvania,0
+us_states,Surrey,0
+us_states,West Texas,0
+us_states,Indianapolis,0
+us_states,"Emmanuel College , Cambridge",0
+us_states,"Indianapolis , Indiana",0
+us_states,Central America,0
+us_states,Kern counties,0
+us_states,Tallahassee,0
+us_states,"Tallahassee , Florida",0
+us_states,Hattiesburg,0
+us_states,British Columbia,0
+us_states,Tucson,0
+us_states,"Washington , D.C.",0
+us_states,North America,0
+us_states,Tucuman,0
+us_states,Quebec,0
+us_states,Wilkes-Barre,0
+us_states,"Washington , DC",0
+us_states,LSU,0
+us_states,Bangladesh,0
+us_states,Bulgaria,0
+us_states,University of Texas at Austin,0
+us_states,"Albuquerque , New Mexico",0
+us_states,Southern California,0
+us_states,Lewis County,0
+us_states,Fulton County,0
+us_states,Corrientes,0
+us_states,"Washington County , Maryland",0
+us_states,Gainesville,0
+us_states,James River,0
+us_states,"New Orleans , Louisiana",0
+us_states,Jalisco,0
+us_states,Central Florida,0
+us_states,Colombia,0
+us_states,"Prince George 's County , Maryland",0
+us_states,Thailand,0
+us_states,Northwestern University,0
+us_states,Nigeria,0
+us_states,Baja California,0
+us_states,Baja California Sur,0
+us_states,"Saratoga County , New York",0
+us_states,"Alameda County , California",0
+us_states,Greenlands,0
+us_states,Denver,0
+us_states,"Denver , Colorado",0
+us_states,Tamaulipas,0
+us_states,Kansas City,0
+us_states,Southern Methodist University,0
+us_states,"Kansas City , Missouri",0
+us_states,"Midland , Texas",0
+us_states,"Orlando , Florida",0
+us_states,Fort Worth,0
+us_states,Uganda,0
+us_states,Trinidad and Tobago,0
+us_states,Baker County,0
+us_states,Lansing,0
+us_states,chihuahua,0
+us_states,Lexington,0
+us_states,Washington State University,0
+us_states,Madison,0
+us_states,Western Australia,0
+us_states,Yale University,0
+us_states,North Carolina State University,0
+us_states,Paraguay,0
+us_states,Drexel University,0
+us_states,Perry County,0
+us_states,Madison counties,0
+us_states,Devon,0
+us_states,Tulsa,0
+us_states,Tamil nadu,0
+us_states,Namibia,0
+us_states,Greenville,0
+us_states,Kansas State University,0
+us_states,"Greenville , South Carolina",0
+us_states,Ashland,0
+us_states,southern United States,0
+us_states,Patagonia,0
+us_states,Us,0
+us_states,Huntsville,0
+us_states,Tabasco,0
+us_states,Tampa,0
+us_states,midwest,0
+us_states,Parana,0
+us_states,chile,0
+us_states,BYU,0
+us_states,Zimbabwe,0
+us_states,Ukraine,0
+us_states,Colorado River,0
+us_states,Costa Rica,0
+us_states,Colorado Rockies,0
+us_states,Bogazici University,0
+us_states,Mendoza province,0
+us_states,Colorado Springs,0
+us_states,San Antonio,0
+us_states,Morgan County,0
+us_states,"San Antonio , Texas",0
+us_states,Colorado State University,0
+us_states,Austin,0
+us_states,"Austin , Texas",0
+us_states,Nobles County,0
+us_states,East Tennessee,0
+us_states,Stockholm University,0
+us_states,South America,0
+us_states,Purdue,0
+us_states,Western New York,0
+us_states,Atlantas,0
+us_states,Clemson,0
+us_states,Fresno,0
+us_states,Western Pennsylvania,0
+us_states,Himachal Pradesh,0
+us_states,Morgantown,0
+us_states,Hertfordshire,0
+us_states,Saskatchewan,0
+us_states,U.S.,0
+us_states,South Australia,0
+us_states,Uruguay,0
+us_states,Riverside County,0
+us_states,Mexico,0
+us_states,Asia,0
+us_states,DeKalb County,0
+us_states,Queensland,0
+us_states,Jackson State University,0
+us_states,San Diego,0
+us_states,New York city,0
+us_states,Malawi,0
+us_states,"Rockland County , New York",0
+us_states,United States,0
+us_states,Anne Arundel County,0
+us_states,Jacksonville,0
+us_states,Cuba,0
+us_states,Stafford County,0
+us_states,Portland,0
+us_states,Romania,0
+us_states,Victorians,0
+us_states,"Portland , Maine",0
+us_states,"Portland , Oregon",0
+us_states,Escambia County,0
+us_states,Cameroons,0
+us_states,Winston-Salem,0
+us_states,University of Michigan,0
+us_states,Volusia County,0
+us_states,Azerbaijan,0
+us_states,Arizona State University,0
+us_states,Guyanas,0
+us_states,Columbus,0
+us_states,University of Minnesota,0
+us_states,Penn State University,0
+us_states,"Columbus , Ohio",0
+us_states,San Francisco,0
+us_states,Belize,0
+us_states,New York Knicks,0
+us_states,Neuquen Province,0
+us_states,Roanoke,0
+us_states,Liberia,0
+us_states,Zambia,0
+us_states,Omaha,0
+us_states,San Francisco bay area,0
+us_states,Shanxi,0
+us_states,"Omaha , Nebraska",0
+us_states,Miamis,0
+us_states,"Miami , Florida",0
+us_states,Santa Cruz,0
+us_states,Benton County,0
+us_states,Oakland,0
+us_states,"Oakland , California",0
+us_states,bolivars,0
+us_states,Bolivia,0
+us_states,Santa Fe,0
+us_states,Nova Scotia,0
+us_states,Andhra pradesh,0
+us_states,US states,0
+us_states,"Louisville , Kentucky",0
+us_states,Tanzania,0
+us_states,South Florida,0
+us_states,Turkmenistan,0
+us_states,University of Notre Dame,0
+us_states,Dallas,0
+us_states,Albania,0
+us_states,Cape Girardeau,0
+us_states,Uttar pradesh,0
+us_states,North Texas,0
+us_states,Saudi Arabia,0
+us_states,"Phoenix , Arizona",0
+us_states,Uttaranchal,0
+us_states,"Marshall , Texas",0
+us_states,Albany,0
+us_states,Espirito Santo,0
+us_states,Virginia Tech,0
+us_states,Raleigh,0
+us_states,"Orange County , California",0
+us_states,Nebraska Cornhuskers,0
+us_states,USA,0
+us_states,Sam Houston State University,0
+us_states,Oklahoma State University,0
+us_states,Las Cruces,0
+us_states,Princeton Theological Seminary,0
+us_states,Princeton university,0
+us_states,Amazonia,0
+us_states,Taiwan,0
+us_states,Marshall University,0
+us_states,"Las Vegas , Nevada",0
+us_states,Kyrgyzstan,0
+us_states,Seattle,0
+us_states,Hamilton Academical,0
+us_states,"Seattle , Washington",0
+us_states,Vanderbilt University,0
+us_states,Hamilton County,0
+us_states,Charlotte,0
+us_states,Los Angeles,0
+us_states,"Charlotte , North Carolina",0
+us_states,"King County , Washington",0
+us_states,George Washington University,0
+us_states,San Jose Sabercats,0
+us_states,"Dutchess County , New York",0
+us_states,"Los Angeles , California",0
+us_states,USC,0
+us_states,Brigham Young University,0
+us_states,Los Angeles county,0
+us_states,Kazakhstan,0
+us_states,"Beaumont , Texas",0
+us_states,Michigan State Spartans,0
+us_states,Michigan State University,0
+us_states,"Savannah , Georgia",0
+us_states,chaco,0
+us_states,Maharashtra,0
+us_states,Stanford University,0
+us_states,Mozambique,0
+us_states,San Luis,0
+us_states,Michoacan,0
+us_states,Senegal,0
+us_states,Auburn,0
+us_states,Inyo County,0
+us_states,Jefferson County,0
+us_states,Cincinnati,0
+us_states,"Montgomery , Alabama",0
+us_states,Minas Gerais,0
+us_states,United States of America,0
+us_states,"Cincinnati , Ohio",0
+us_states,West Germany,0
+us_states,Auburn University,0
+us_states,Brooklyn College,0
+us_states,Chivas USA,0
+us_states,"Montgomery County , Maryland",0
+us_states,San Mateo County,0
+us_states,Sacramento,0
+us_states,Rio Grande do Sul,0
+us_states,Hampshire,0
+us_states,"Sacramento , California",0
+us_states,Sonoma,0
+us_states,University of Wisconsin-Madison,0
+us_states,Sonora,0
+us_states,Guam,0
+us_states,Kent,0
+us_states,gulf coast,0
+us_states,New England,0
+us_states,Northern California,0
+us_states,Rio Negro,0
+us_states,Nashville,0
+us_states,panhandle,0
+us_states,Gulf of Mexico,0
+us_states,"Mesa , Arizona",0
+us_states,Estonia,0
+us_states,Houston,0
+us_states,Mojave,0
+us_states,"Chicago , Illinois",0
+us_states,Mojave desert,0
+us_states,Angola,0
+us_states,his country,0
+us_states,Houston Rockets,0
+us_states,Wheeling,0
+us_states,Ghana,0
+us_states,"Nassau County , New York",0
+us_states,St. Louis,0
+us_states,Rutgers University,0
+us_states,north carolina,0
+us_states,west texas,0
+us_states,north texas,0
+us_states,northern california,0
+us_states,central california,0
+us_states,west tennessee,0
+us_states,colorado,1
+us_states,central texas,0
+us_states,north louisiana,0
+us_states,new hampshire,0
+us_states,central missouri,0
+us_states,west michigan,0
+us_states,southeast texas,0
+us_states,west virginia,0
+us_states,"ontario , canada",0
+us_states,central louisiana,0
+us_states,southern california,0
+us_states,western pennsylvania,0
+us_states,east texas,0
+us_states,northeast texas,0
+us_states,central oklahoma,0
+us_states,new jersey,1
+us_states,west georgia,0
+us_states,southeast missouri,0
+us_states,south texas,0
+us_states,rhode island,0
+us_states,south dakota,0
+us_states,"washington , dc",0
+us_states,northern state,0
+us_states,columbia,0
+us_states,washington state,1
+us_states,colorado state,1
+us_states,northern michigan,0
+us_states,new mexico,1
+us_states,central washington,0
+us_states,southern indiana,0
+us_states,northeast louisiana,0
+us_states,central state,0
+us_states,jefferson,0
+us_states,united states,0
+us_states,central michigan,0
+us_states,"oakland , california",0
+us_states,central oregon,0
+us_states,east tennessee,0
+us_states,lafayette,0
+us_states,northern ontario,0
+us_states,louisiana state,0
+us_states,north dakota,1
+us_states,montgomery,0
+us_states,central ontario,0
+us_states,"kansas city , missouri",0
+us_states,"louisville , kentucky",0
+us_states,"savannah , georgia",0
+us_states,west florida,0
+us_states,northern virginia,0
+us_states,springfield,0
+us_states,clinton,0
+us_states,indiana state,0
+us_states,northern iowa,0
+us_states,dayton,0
+us_states,"albuquerque , new mexico",0
+us_states,"midland , texas",0
+us_states,southern utah,0
+us_states,georgetown,0
+us_states,western new york,0
+us_states,salem,0
+us_states,kansas city,0
+us_states,southeast michigan,0
+us_states,northern colorado,0
+us_states,texas city,0
+us_states,"portland , oregon",0
+us_states,michigan state,0
+us_states,ames,0
+us_states,north florida,0
+us_states,central florida,0
+us_states,oklahoma state,0
+us_states,western washington,0
+us_states,"new orleans , louisiana",0
+us_states,"charlotte , north carolina",0
+us_states,"chicago , illinois",0
+us_states,western michigan,0
+us_states,"omaha , nebraska",0
+us_states,"denver , colorado",0
+us_states,southern maryland,0
+us_states,southern michigan,0
+us_states,salina,0
+us_states,southern oregon,0
+us_states,"washington county , maryland",0
+us_states,"columbus , ohio",0
+us_states,ogden,0
+us_states,western maryland,0
+us_states,western oregon,0
+us_states,jasper,0
+us_states,"miami , florida",0
+us_states,baltimore,0
+us_states,northern canada,0
+us_states,northern illinois,0
+us_states,oklahoma city,0
+us_states,colorado city,0
+us_states,"seattle , washington",0
+us_states,"cincinnati , ohio",0
+us_states,northeastern pennsylvania,0
+us_states,tennessee state,0
+us_states,buffalo,0
+us_states,orange county,0
+us_states,"indianapolis , indiana",0
+us_states,"austin , texas",0
+us_states,"sacramento , california",0
+us_states,utah state,0
+us_states,south florida,0
+us_states,covington,0
+us_states,mississippi state,0
+us_states,"macon , georgia",0
+us_states,new orleans,0
+us_states,southern ontario,0
+us_states,eastern washington,0
+us_states,marietta,0
+us_states,central canada,0
+us_states,wilmington,0
+us_states,missouri city,0
+us_states,central arkansas,0
+us_states,"phoenix , arizona",0
+us_states,western ontario,0
+us_states,prairie,0
+us_states,northern kentucky,0
+us_states,nebraska city,0
+us_states,stillwater,0
+us_states,missouri kansas,0
+us_states,augusta,0
+us_states,"orange county , california",0
+us_states,brownsville,0
+us_states,southwestern louisiana,0
+us_states,quincy,0
+us_states,west alabama,0
+us_states,"montgomery , alabama",0
+us_states,philadelphia,0
+us_states,"reno , nevada",0
+us_states,eastern michigan,0
+us_states,central illinois,0
+us_states,upstate new york,0
+us_states,stockton,0
+us_states,southern illinois,0
+us_states,southeastern pennsylvania,0
+us_states,pittsburgh,0
+us_states,states,0
+us_states,eastern oregon,0
+us_states,new york state,0
+us_states,concord,0
+us_states,"eugene , oregon",0
+companies,McDonalds,1
+companies,Wal Mart,1
+companies,Dow Chemical,1
+companies,British Airways,1
+companies,L'Oreal,1
+companies,Alienware,0
+companies,Taco Bell,1
+companies,NCR,1
+companies,T Mobile,1
+companies,Fairchild Semiconductor,1
+companies,Revlon,1
+companies,Michelin,1
+companies,Rolls Royce,1
+companies,Cadillac,0
+companies,Lehman Brothers,1
+companies,Kraft,0
+companies,Mercedes,0
+companies,Anheuser Busch,1
+companies,Mercedes Benz,0
+companies,VMware,1
+companies,Daimler,1
+companies,PSA Peugeot Citroen,1
+companies,Isuzu,1
+companies,LG Electronics,1
+companies,Broadcom,1
+companies,Virgin Atlantic,1
+companies,Esso,1
+companies,IKEA,1
+companies,Tandem Computers,1
+companies,Frito Lay,0
+companies,Montgomery Ward,1
+companies,DaimlerChrysler,0
+companies,Western Digital,1
+companies,British Petroleum,1
+companies,SAP AG,1
+companies,Union Carbide,1
+companies,Wyeth,0
+companies,Bristol Myers Squibb,0
+companies,Smirnoff,0
+companies,NASA,1
+companies,Royal Flying Corps,0
+companies,Mac OS,0
+companies,worn,0
+companies,article,0
+companies,decorations,0
+companies,extending,0
+companies,Brook,0
+companies,MySpace,0
+companies,Commodore 64,0
+companies,Lewis Hamilton,0
+companies,main line,0
+companies,west,0
+companies,Dodge,0
+companies,Windows Vista,0
+companies,Rocky,0
+companies,north-west,0
+companies,orange,0
+companies,killed in action,0
+companies,drivers,0
+companies,Pike,0
+companies,Commanding Officer,0
+companies,Computer,0
+companies,colonel,0
+companies,Navy,0
+companies,hills,0
+companies,coastline,0
+companies,United States Army,1
+companies,Apple II,0
+companies,regions,0
+companies,mixture,0
+companies,Old Trafford,0
+companies,connection,0
+companies,Mill,0
+companies,consoles,0
+companies,Lola,0
+companies,Reservoir,0
+companies,passenger service,0
+companies,mountain range,0
+companies,lieutenant,0
+companies,cadets,0
+companies,Rivers,0
+companies,second lieutenant,0
+companies,Lieutenant,0
+companies,Linux,0
+companies,Windows 7,0
+companies,chassis,0
+companies,Fernando Alonso,0
+companies,areas,0
+companies,Logic,0
+companies,Deep,0
+companies,bounded,0
+companies,transatlantic,0
+companies,Crossing,0
+companies,bordering,0
+companies,westernmost,0
+companies,drunk,0
+companies,enlisted,0
+companies,officer,0
+companies,e-mail,0
+companies,comments,0
+companies,routes,0
+companies,Basingstoke,0
+companies,passenger trains,0
+companies,hourly,0
+companies,hub,0
+companies,branch line,0
+companies,Canadian Army,0
+companies,north,0
+companies,mainline,0
+companies,shield,0
+companies,midshipman,0
+companies,decorated,0
+companies,SpongeBob SquarePants,0
+companies,flows into,0
+companies,plateau,0
+companies,stretching,0
+companies,Ferrari,0
+companies,Hollywood Reporter,0
+companies,Sports Illustrated,0
+companies,Chase,0
+companies,Croydon,0
+companies,YouTube,0
+companies,colored,0
+companies,Lock,0
+companies,synthesizer,0
+companies,railway,0
+companies,rear,0
+companies,Salt,0
+companies,Bridge,0
+companies,Creek,0
+companies,instructors,0
+companies,passenger services,0
+companies,United States Marine Corps,0
+companies,David Coulthard,0
+companies,video games,0
+companies,online,0
+companies,Landing,0
+companies,pilot,0
+companies,Captain,0
+companies,foothills,0
+companies,south-west,0
+companies,Amstrad CPC,0
+companies,United States Air Force,0
+companies,colors,0
+companies,brown,0
+companies,corporal,0
+companies,Super Nintendo Entertainment System,0
+companies,Weston-super-Mare,0
+companies,north west,0
+companies,Johns,0
+companies,flows,0
+companies,neighbouring,0
+companies,Fox News,0
+companies,railways,0
+companies,yellow,0
+companies,armor,0
+companies,initials,0
+companies,River,0
+companies,pole position,0
+companies,Battalion,0
+companies,operating systems,0
+companies,Delaware River,0
+companies,world championship,0
+companies,east,0
+companies,pink,0
+companies,Run,0
+companies,Second Lieutenant,0
+companies,north-east,0
+companies,Tony Stewart,0
+companies,Larry King Live,0
+companies,Marne,0
+companies,station,0
+companies,westbound,0
+companies,CART,0
+companies,south-east,0
+companies,Maserati,0
+companies,borders,0
+companies,Falls,0
+companies,element,0
+companies,south,0
+companies,State Park,0
+companies,Pond,0
+companies,Army Air Corps,0
+companies,Hampton,0
+companies,wings,0
+companies,Hits,0
+companies,website,0
+companies,Infantry Regiment,0
+companies,ranges,0
+companies,airline,0
+companies,Royal Navy,0
+companies,oak,0
+companies,rail,0
+companies,email,0
+companies,Headingley,0
+companies,resembled,0
+companies,Alfa Romeo,0
+companies,rail line,0
+companies,airports,0
+companies,Sherwood,0
+companies,Yahoo,0
+companies,page,0
+companies,destinations,0
+companies,Facebook,1
+companies,standard gauge,0
+companies,northern,0
+companies,United States Navy,0
+companies,Aston Martin,0
+companies,destination,0
+companies,Lieutenant Colonel,0
+companies,flights,0
+companies,stylized,0
+companies,modified,0
+companies,driving,0
+companies,blogs,0
+companies,Halls,0
+companies,UNIX,0
+companies,red,0
+companies,patch,0
+companies,grey,0
+companies,24 Hours of Le Mans,0
+companies,USA Today,0
+companies,Kyle Busch,0
+companies,racing,0
+companies,social networking,0
+companies,operated,0
+companies,Sarah Palin,0
+companies,Nintendo 64,0
+companies,S-Bahn,0
+companies,Windows,0
+companies,NASDAQ,0
+companies,American Airlines,1
+companies,Televisa,1
+companies,Zellers,1
+companies,HBO,1
+companies,Twitter,1
+companies,Intercity,1
+companies,Microsoft,1
+companies,CNBC,1
+companies,Land Rovers,1
+companies,Radio-Canada,1
+companies,Prodigy,1
+companies,Siemens,1
+companies,Siemens AG,1
+companies,CNet,1
+companies,UBS,1
+companies,UBS AG,1
+companies,BBC One,1
+companies,Texaco,1
+companies,CNN,1
+companies,Lenovo,1
+companies,Telus,1
+companies,College of Arms,1
+companies,Adams,1
+companies,Viacom,1
+companies,AOL,1
+companies,Neiman Marcus,1
+companies,Staples,1
+companies,Unilever,1
+companies,Worldcom,1
+companies,National Semiconductor,1
+companies,BBC worldwide,1
+companies,Atari,1
+companies,Saks Fifth Avenue,1
+companies,THQ,1
+companies,Blizzard Entertainment,1
+companies,Avaya,1
+companies,WB,1
+companies,Toyota,1
+companies,Nascar,1
+companies,Macromedia,1
+companies,Lego,1
+companies,Rogers Communications,1
+companies,Qualcomm,1
+companies,Metacritic,1
+companies,Genentech,1
+companies,Fujitsu,1
+companies,Telstra,1
+companies,The Guardians,1
+companies,Canadian National Railways,1
+companies,LG,1
+companies,Texas Instruments,1
+companies,Nasdaq,1
+companies,Samsung,1
+companies,Blockbusters,1
+companies,Samsung Electronics,1
+companies,Safeway,1
+companies,Vivendi,1
+companies,Canadian Pacific Railway,1
+companies,SM Prime Holdings,1
+companies,Macy 's,1
+companies,Cisco Systems,1
+companies,British Aerospace,1
+companies,Albertsons,1
+companies,Freescale,1
+companies,Rite Aid,1
+companies,"Toys "" R "" Us",1
+companies,KFC,1
+companies,Enron,1
+companies,Kmart,1
+companies,Union Pacific Railroad,1
+companies,20th Century Fox,1
+companies,Sequoia Capital,1
+companies,General Dynamics,1
+companies,Deutsche Bank,1
+companies,BET,1
+companies,Philips,1
+companies,General Electric,1
+companies,Citigroup,1
+companies,Citibank,1
+companies,SNK,1
+companies,Japan Airlines,1
+companies,Nortel Networks,1
+companies,NBC,1
+companies,Syfy,1
+companies,No Limit Records,1
+companies,Sybase,1
+companies,Northrop Grumman,1
+companies,Lockheed Martin,1
+companies,Caterpillars,1
+companies,BHP Billiton,1
+companies,News Corporation,1
+companies,apples,1
+companies,Apple 's,1
+companies,American Express,1
+companies,Vauxhall,1
+companies,Motorola,1
+companies,KLM,1
+companies,Ubisoft,1
+companies,Apple computers,1
+companies,Reebok,1
+companies,digg,1
+companies,Motown,1
+companies,Apple Inc.,1
+companies,sp,1
+companies,Citroen,1
+companies,Cox Communications,1
+companies,Northwest Airlines,1
+companies,KPMG,1
+companies,Asda,1
+companies,Digital Equipment Corporation,1
+companies,border,1
+companies,Bloomingdale 's,1
+companies,Yahoo !,1
+companies,FedEx,1
+companies,Digital Research,1
+companies,Wrexham,1
+companies,TiVo,1
+companies,Dark Horse Comics,1
+companies,Porsche,1
+companies,Digital Spy,1
+companies,General Mills,1
+companies,Unisys,1
+companies,Sotheby 's,1
+companies,General Motors,1
+companies,Mitsubishi,1
+companies,Starbucks,1
+companies,Air New Zealand,1
+companies,BMW,1
+companies,shells,1
+companies,Image comics,1
+companies,Mitsubishi Motors,1
+companies,Shell Oil,1
+companies,Harrises,1
+companies,AT&amp;T,1
+companies,Philip Morris,1
+companies,Metro-Goldwyn-Mayer,1
+companies,EADS,1
+companies,Bank of America,1
+companies,American International Group,1
+companies,Mitsui,1
+companies,Compaq,1
+companies,NEC,1
+companies,Pizza Hut,1
+companies,Wells Fargo,1
+companies,MGM,1
+companies,Daewoo,1
+companies,LucasArts,1
+companies,Boeing,1
+companies,The Home Depot,1
+companies,Dillard 's,1
+companies,Rolling stone,1
+companies,African Development Bank,1
+companies,Chrysler,1
+companies,Office Depot,1
+companies,Lucent,1
+companies,Namco,1
+companies,BP,1
+companies,opera,1
+companies,RCA,1
+companies,Sainsbury 's,1
+companies,Logitech,1
+companies,Goldman Sachs,1
+companies,Spike TV,1
+companies,Coca-cola,1
+companies,Clear Channel Communications,1
+companies,Carrefour,1
+companies,Coca-Cola Company,1
+companies,Urban Outfitters,1
+companies,Marks and Spencers,1
+companies,sun,1
+companies,Compuserve,1
+companies,Sourceforge,1
+companies,O'Reilly Media,1
+companies,Bt,1
+companies,Mediacorp,1
+companies,Menards,1
+companies,Borland,1
+companies,Paramount Pictures,1
+companies,Western Electric,1
+companies,Channel 4,1
+companies,Vodafone,1
+companies,Sun Microsystems,1
+companies,British Sky Broadcasting,1
+companies,Wachovia,1
+companies,De Beers,1
+companies,Raytheon,1
+companies,Silicon Graphics,1
+companies,British Telecom,1
+companies,Schlumberger,1
+companies,EMC,1
+companies,Nike,1
+companies,UPN,1
+companies,canons,1
+companies,Kodak,1
+companies,UPS,1
+companies,Cablevision,1
+companies,EMI,1
+companies,Nestle,1
+companies,John Hancock,1
+companies,Symantec,1
+companies,Costco,1
+companies,Victoria 's Secret,1
+companies,Kraft Foods,1
+companies,Salomon Brothers,1
+companies,Bayer,1
+companies,Huawei,1
+companies,Excel,1
+companies,Morgan Stanley,1
+companies,GS,1
+companies,Infosys,1
+companies,GlaxoSmithKline,1
+companies,juniper,1
+companies,IBM,1
+companies,Netflix,1
+companies,Mobil,1
+companies,Adidas,1
+companies,Star TV,1
+companies,Epson,1
+companies,Matsushita,1
+companies,Kohl 's,1
+companies,Gateways,1
+companies,Fannie Mae,1
+companies,Suzuki,1
+companies,Volkswagen,1
+companies,Halliburton,1
+companies,MSNBC,1
+companies,Royal Dutch Shell,1
+companies,ESPN,1
+companies,Hallmark Cards,1
+companies,Netscape,1
+companies,Burger King,1
+companies,US Airways,1
+companies,Bioware,1
+companies,Kimberleys,1
+companies,Monsanto,1
+companies,Monsanto Company,1
+companies,Rockwell International,1
+companies,Asian Development Bank,1
+companies,Diageo,1
+companies,Petrobras,1
+companies,Interplay,1
+companies,Freddie Mac,1
+companies,ABB,1
+companies,Gucci,1
+companies,Hudson Soft,1
+companies,blackberry,1
+companies,NPR,1
+companies,Dupont,1
+companies,Best Buy,1
+companies,Accenture,1
+companies,Fox Broadcasting Company,1
+companies,Dow Chemicals,1
+companies,Westinghouse,1
+companies,Livejournal,1
+companies,Playboys,1
+companies,Civilian Conservation Corps,1
+companies,The Rolling Stones,1
+companies,Volvo,1
+companies,Game Rankings,1
+companies,Fox Film Corporation,1
+companies,ABC television,1
+companies,Nokia,1
+companies,RTE,1
+companies,Fords,1
+companies,Reuters,1
+companies,Capcom,1
+companies,Deloitte,1
+companies,The Age,1
+companies,Virgin Media,1
+companies,Acclaim Entertainment,1
+companies,Gamespy,1
+companies,Woolworths,1
+companies,Belk,1
+companies,Delphi,1
+companies,Youtube,1
+companies,ABN Amro,1
+companies,Credit Suisse,1
+companies,myspace,1
+companies,IGN,1
+companies,Data General,1
+companies,Hewlett Packard,1
+companies,Next,1
+companies,Hewlett-Packard,1
+companies,Bell Canada,1
+companies,J.C. Penney,1
+companies,Toshiba,1
+companies,Bell Laboratory,1
+companies,Gap,1
+companies,NTT,1
+companies,Bear Stearns,1
+companies,Google,1
+companies,Hp,1
+companies,Electronic Arts,1
+companies,Ford Motor Company,1
+companies,Foxtel,1
+companies,Oracle,1
+companies,Nvidia,1
+companies,Oracle Corporation,1
+companies,Bellsouth,1
+companies,Wordpress,1
+companies,Linkedin,1
+companies,Ge,1
+companies,Novartis,1
+companies,Morrisons,1
+companies,Verizon,1
+companies,Pfizer,1
+companies,Marshalls,1
+companies,HSBC,1
+companies,subway,1
+companies,Verizon Wireless,1
+companies,J.P. Morgan,1
+companies,Wal-mart,1
+companies,Comcast,1
+companies,Exxonmobil,1
+companies,XM satellite radio,1
+companies,The New York Times,1
+companies,Walmart,1
+companies,Novell,1
+companies,Mattel,1
+companies,Lufthansa,1
+companies,Sears,1
+companies,Flickr,1
+companies,Amazons,1
+companies,Napster,1
+companies,Tottenham Hotspur,1
+companies,Sap,1
+companies,Zara,1
+companies,Amazon.com,1
+companies,Coles,1
+companies,Konami,1
+companies,Dick 's Sporting Goods,1
+companies,GMS,1
+companies,AEG,1
+companies,sprints,1
+companies,Standard Chartered Bank,1
+companies,CdS,1
+companies,Bergdorf Goodman,1
+companies,JCPenney,1
+companies,Barclays,1
+companies,GMA Network,1
+companies,Home Depot,1
+companies,France Telecom,1
+companies,Kroger,1
+companies,Funimation,1
+companies,Thomson Reuters,1
+companies,Skype,1
+companies,The Gap,1
+companies,Chevrolet,1
+companies,Simon Property Group,1
+companies,Walgreens,1
+companies,eBay,1
+companies,Target,1
+companies,T-mobile,1
+companies,Panasonic,1
+companies,Merrill Lynch,1
+companies,Irix,1
+companies,Mazda,1
+companies,Nintendo,1
+companies,Chevron,1
+companies,Chevron Corporation,1
+companies,Eli Lilly and Company,1
+companies,the Walt Disney Company,1
+companies,Ralph Lauren,1
+companies,Square Enix,1
+companies,Nabisco,1
+companies,Paypal,1
+companies,Nordstrom,1
+companies,JPMorgan Chase,1
+companies,Warner Bros,1
+companies,Warner Bros .,1
+companies,Herald Sun,1
+companies,Warner Bros.,1
+companies,DEC,1
+companies,QVC,1
+companies,Lacoste,1
+companies,Debenhams,1
+companies,Xerox,1
+companies,Dells,1
+companies,Red Hat,1
+companies,Time Warner,1
+companies,Tesco,1
+companies,AIG,1
+companies,Hyundai,1
+companies,Sega,1
+companies,Berkshire Hathaway,1
+companies,AIM,1
+companies,Discogs,1
+companies,Bebo,1
+companies,McAfee,1
+companies,Montgomery Wards,1
+companies,facebook,1
+companies,Wizards of the Coast,1
+companies,GTE,1
+companies,Honda,1
+companies,ConocoPhillips,1
+companies,Renault,1
+companies,Frontline,1
+companies,Vh1,1
+companies,DHL,1
+companies,Lloyd 's of London,1
+companies,Lowe 's,1
+companies,Autodesk,1
+companies,Directv,1
+companies,Advanced Micro Devices,1
+companies,Hasbro,1
+companies,PricewaterhouseCoopers,1
+companies,Dish Network,1
+companies,Gulf Oil,1
+companies,Audi,1
+companies,K-mart,1
+companies,Hitachi,1
+companies,Sanyo,1
+companies,Visa,1
+companies,Ericsson,1
+companies,SGI,1
+companies,Sony,1
+companies,BAE Systems,1
+companies,Alcoa,1
+companies,3Com,1
+companies,Chase Manhattan Bank,1
+companies,Hulu,1
+companies,ciscoes,1
+companies,Disney,1
+companies,Sony Ericsson,1
+companies,Univision,1
+companies,Old Navy,1
+companies,3M,1
+companies,Pepsi,1
+companies,Intel,1
+companies,Duke Energy,1
+companies,Nissan,1
+companies,Intel Corporation,1
+companies,Lloyds Banking Group,1
+companies,America Online,1
+companies,Lloyds TSB,1
+companies,Sony Online Entertainment,1
+companies,Pepsico,1
+companies,McDonald 's,1
+companies,BASF,1
+companies,AMD,1
+companies,Universal Music Group,1
+companies,Showtime,1
+companies,Honeywell,1
+companies,Universal Records,1
+companies,BBC,1
+companies,Universal Studios,1
+companies,Court TV,0
+companies,BBC Four,0
+companies,Swindon Town,0
+companies,Bristol Rovers,0
+companies,BBC News Online,0
+companies,Second Life,0
+companies,Microsoft Outlook,0
+companies,Microsoft SQL server,0
+companies,software,0
+companies,management,0
+companies,The Los Angeles Times,0
+companies,BBC Three,0
+companies,BBC Two,0
+companies,Hong Kong Stock Exchange,0
+companies,Aston Villa,0
+companies,Met Office,0
+companies,Safari,0
+companies,Tate Modern,0
+companies,BBC1,0
+companies,BBC2,0
+companies,Comecon,0
+companies,Macs,0
+companies,Time magazine,0
+companies,SM Caen,0
+companies,blogger,0
+companies,The Pirate Bay,0
+companies,Pitchfork Media,0
+companies,Indiana University,0
+companies,Anime News Network,0
+companies,Powerpoint,0
+companies,web,0
+companies,Island Records,0
+companies,"University College , Oxford",0
+companies,Ontario New Democratic Party,0
+companies,Rivals.com,0
+companies,About.com,0
+companies,Project Gutenberg,0
+companies,Reprise Records,0
+companies,Newsarama,0
+companies,Ubuntu,0
+companies,Newsweek,0
+companies,Howard University,0
+companies,Middlesbrough,0
+companies,SQL Server,0
+companies,Wellesley College,0
+companies,SQLite,0
+companies,Wolverhampton Wanderers,0
+companies,E4,0
+companies,The History Channel,0
+companies,The Boston Globes,0
+companies,New Scientist,0
+companies,Windows 2000,0
+companies,Awami League,0
+companies,Bradford City,0
+companies,Rock band,0
+companies,Random House,0
+companies,Windows Mobile,0
+companies,Anna Dravida Munnetra Kazhagam,0
+companies,Epic Records,0
+companies,Windows Phone 7,0
+companies,The Huffington Post,0
+companies,International Monetary Fund,0
+companies,Midway,0
+companies,Unix,0
+companies,Mediabase,0
+companies,Voice of America,0
+companies,Irish Parliamentary Party,0
+companies,Php,0
+companies,Salons,0
+companies,Salon.com,0
+companies,Allmusic,0
+companies,Informix,0
+companies,The Insider,0
+companies,mobile phones,0
+companies,Arista Records,0
+companies,MSN,0
+companies,Belgian Armed Forces,0
+companies,United States,0
+companies,Cartoon Network,0
+companies,Netscape Navigator,0
+companies,Internet,0
+companies,ESPN.com,0
+companies,Flash,0
+companies,Internet Explorer,0
+companies,Columbia records,0
+companies,ICQ,0
+companies,Mormonism,0
+companies,Network Ten,0
+companies,Mtv,0
+companies,"Christ Church , Oxford",0
+companies,Atlantic records,0
+companies,BeOS,0
+companies,The Nation,0
+companies,The Christian Science Monitor,0
+companies,NSA,0
+companies,MTV2,0
+companies,New York Institute of Technology,0
+companies,Eurogamer,0
+companies,Blackburn Rovers,0
+companies,Huffington Post,0
+companies,RTE Two,0
+companies,Gamerankings,0
+companies,Gamespot,0
+companies,Broadway,0
+companies,New York magazine,0
+companies,MySQL,0
+companies,Hello !,0
+companies,Gamesradar,0
+companies,Adobe Systems,0
+companies,X11,0
+companies,Case Western Reserve University,0
+companies,Google Chrome,0
+companies,Google Earth,0
+companies,Wired News,0
+companies,Google Maps,0
+companies,foxes,0
+companies,Fox news,0
+companies,The New Yorker,0
+companies,Imdb,0
+companies,Burnley,0
+companies,IMF,0
+companies,USA,0
+companies,Bolton Wanderers,0
+companies,foreign ministries,0
+companies,finance,0
+companies,Cbeebies,0
+companies,USA today,0
+companies,Comedy Central,0
+companies,West Bromwich Albion,0
+companies,Javascript,0
+companies,Mac OS X,0
+companies,FTP,0
+companies,Bard College,0
+companies,World Bank,0
+companies,The Village Voices,0
+companies,DB2,0
+companies,GMTV,0
+companies,Gmail,0
+companies,Rotten tomatoes,0
+companies,independents,0
+companies,iPhone,0
+companies,Harvard Medical School,0
+companies,Amnesty international,0
+companies,Michigan State University,0
+companies,Last .,0
+companies,The Wall Street Journals,0
+companies,Slant Magazine,0
+companies,Wii,0
+companies,Slashdot,0
+companies,Slate,0
+companies,Wikileaks,0
+companies,wikipedia,0
+companies,Mozilla Firefox,0
+companies,The Washington Posts,0
+companies,Mozilla Thunderbird,0
+companies,University of Ulster,0
+companies,PostgreSQL,0
+companies,Los Angeles Times,0
+companies,Brooklyn College,0
+companies,World Health Organization,0
+companies,ITV,0
+companies,Discovery channel,0
+companies,ITV1,0
+companies,iTunes,0
+companies,iTunes Store,0
+companies,Active Directory,0
+companies,web browser,0
+companies,Activision,0
+companies,National Parks Service,0
+companies,Montpellier,0
+companies,Popmatters,0
+companies,blog,0
+companies,Sparta,0
+companies,Business Week,0
+companies,Indian National Congress,0
+companies,Disney Channel,0
+companies,Radio Disney,0
+companies,National Public Radio,0
+companies,Firefox,0
+companies,apple,1
+companies,corporation,0
+companies,venture,0
+companies,company,0
+companies,digital,0
+companies,mobile,0
+companies,brand,0
+companies,dell,1
+companies,amazon,1
+companies,caterpillar,1
+companies,licensed,0
+companies,consumer,0
+companies,cisco,1
+companies,sony corporation,1
+companies,coca cola,1
+companies,tata group,1
+companies,wireless,0
+companies,entertainment,0
+companies,bombardier,1
+companies,samsung electronics,1
+companies,electronic,0
+companies,products,0
+companies,virgin group,1
+companies,trademark,0
+companies,subsidiary,0
+companies,cards,0
+companies,north american,0
+companies,telephone,0
+companies,tata motors,1
+companies,technology,0
+companies,american international group,0
+companies,samsung group,0
+companies,apple inc,1
+companies,sony music,1
+companies,silicon valley,0
+companies,diamond,1
+companies,general electric,1
+companies,ibm corporation,1
+companies,industry,0
+companies,sony music entertainment,1
+companies,acorn,1
+companies,sony entertainment,1
+companies,ford,1
+companies,global,0
+companies,bombardier aerospace,1
+companies,hallmark,1
+companies,bt group,0
+companies,media,0
+companies,target corporation,1
+companies,microsoft corporation,1
+companies,marketing,0
+companies,airbus,1
+companies,satellite,1
+companies,ford australia,1
+companies,ea,0
+companies,virgin,0
+companies,watch,0
+companies,eclipse,1
+companies,consumer electronics,0
+companies,card,0
+companies,universal,0
+companies,virgin games,1
+companies,alternative,0
+companies,low cost,0
+companies,universal international,1
+companies,fiat,0
+companies,itt,1
+companies,apple music,0
+companies,american international,0
+companies,ibm research,1
+companies,intel corporation,1
+companies,virgin interactive,1
+companies,bits,0
+companies,sony music japan,0
+companies,ford motor company,1
+companies,sony records,0
+companies,sony music australia,1
+companies,universal music group,1
+companies,consortium,0
+companies,virgin australia,1
+companies,bmw group,1
+companies,dolphin,1
+companies,trident,1
+companies,philips electronics,1
+companies,retail,0
+companies,cad,0
+companies,sony computer entertainment,0
+companies,us,0
+companies,disney music group,1
+companies,business,0
+companies,ford models,0
+companies,joint venture,0
+companies,microsoft research,1
+companies,mail,0
+companies,pacific electric,0
+companies,major,0
+companies,national power corporation,1
+companies,volkswagen group,1
+companies,big apple,0
+companies,produced,0
+companies,advertising,0
+companies,virgin music,1
+companies,amc,1
+companies,ims,1
+companies,ge healthcare,0
+companies,stand alone,0
+companies,american financial group,1
+companies,sony pictures,1
+companies,kia motors,1
+companies,high,0
+companies,america,0
+companies,warner music group,1
+companies,world bank group,1
+companies,firm,0
+companies,model,0
+companies,multinational,0
+companies,apple mac,0
+companies,sony bmg,0
+companies,boeing boeing,0
+companies,stock,0
+companies,shell oil,1
+companies,texas instruments,1
+companies,ge energy,1
+companies,puma,1
+companies,jvc,1
+companies,american tobacco,0
+companies,fax,0
+companies,american electric power,1
+companies,gm,1
+companies,elf,1
+companies,virgin america,1
+companies,publishing,0
+companies,western electric,1
+companies,ge capital,0
+companies,american express,1
+companies,china radio international,1
+companies,american motors corporation,1
+companies,logo,1
+companies,sco group,0
+companies,pinnacle,1
+companies,psa international,1
+companies,steel,0
+companies,apple computers,0
+companies,universal healthcare,1
+companies,cloud,0
+companies,electronics,0
+companies,nec corporation,1
+companies,compass,1
+companies,energy,0
+companies,hyundai group,1
+tv_channels,C SPAN,1
+tv_channels,CNN Headline News,0
+tv_channels,Logo,0
+tv_channels,Oprah,0
+tv_channels,Fox Family,1
+tv_channels,Dateline,1
+tv_channels,Disney XD,1
+tv_channels,CBS Radio,1
+tv_channels,Sony,0
+tv_channels,Deutsche Welle,1
+tv_channels,CBS Evening News,0
+tv_channels,Virgin Media,1
+tv_channels,YouTube,0
+tv_channels,Performance Racing Network,1
+tv_channels,Paramount Pictures,0
+tv_channels,NHK,1
+tv_channels,QVC,0
+tv_channels,Paramount,0
+tv_channels,Sony Pictures Television,0
+tv_channels,DreamWorks,0
+tv_channels,WNET,1
+tv_channels,ITN,1
+tv_channels,Google,0
+tv_channels,Turner Network Television,1
+tv_channels,Public Radio International,1
+tv_channels,Discovery Communications,0
+tv_channels,Premiere Radio Networks,1
+tv_channels,FSN,1
+tv_channels,Clear Channel Communications,0
+tv_channels,Sesame Street,0
+tv_channels,XM,0
+tv_channels,WGBH,1
+tv_channels,CBS Morning News,0
+tv_channels,Black Entertainment Television,1
+tv_channels,NY1,1
+tv_channels,Great American Country,0
+tv_channels,AOL,0
+tv_channels,Dish Network,0
+tv_channels,Star TV,1
+tv_channels,Coca Cola,0
+tv_channels,Endemol,0
+tv_channels,Universal,0
+tv_channels,Setanta Sports,1
+tv_channels,News Corporation,0
+tv_channels,TeenNick,1
+tv_channels,Air America Radio,1
+tv_channels,Sony Pictures,0
+tv_channels,Warner Bros,0
+tv_channels,KABC,1
+tv_channels,ABS CBN,1
+tv_channels,RTL,1
+tv_channels,Manitoba,0
+tv_channels,Top Gear,0
+tv_channels,Paul Martin,0
+tv_channels,Andy Griffith,0
+tv_channels,Australian Broadcasting Corporation,0
+tv_channels,NSW,0
+tv_channels,Saturday Night Live,0
+tv_channels,Canadian,0
+tv_channels,FOX,1
+tv_channels,sitcom,0
+tv_channels,Mike Harris,0
+tv_channels,dramas,0
+tv_channels,Edmonton,0
+tv_channels,NYPD Blue,0
+tv_channels,on-air,0
+tv_channels,Heartbeat,0
+tv_channels,Deep Space,0
+tv_channels,current affairs,0
+tv_channels,Globe and Mail,0
+tv_channels,columnist,0
+tv_channels,Dick Cheney,0
+tv_channels,Sopranos,0
+tv_channels,Darwin,0
+tv_channels,Pierre Trudeau,0
+tv_channels,television sitcom,0
+tv_channels,broadcaster,0
+tv_channels,drama,0
+tv_channels,long-running,0
+tv_channels,radio,0
+tv_channels,Canada,0
+tv_channels,Adelaide,0
+tv_channels,Hillary Clinton,0
+tv_channels,reporter,0
+tv_channels,Frasier,0
+tv_channels,Ottawa,0
+tv_channels,radio station,0
+tv_channels,blogger,0
+tv_channels,Emmerdale,0
+tv_channels,airs,0
+tv_channels,evening,0
+tv_channels,Coronation Street,0
+tv_channels,Good Friday,0
+tv_channels,Young and the Restless,0
+tv_channels,PM,0
+tv_channels,television series,0
+tv_channels,Tony Blair,0
+tv_channels,Sunday,0
+tv_channels,Australian,0
+tv_channels,Australian Capital Territory,0
+tv_channels,television channel,0
+tv_channels,pm,0
+tv_channels,serial,0
+tv_channels,British Columbia,0
+tv_channels,Hobart,0
+tv_channels,Canberra,0
+tv_channels,guest starred,0
+tv_channels,co-host,0
+tv_channels,updates,0
+tv_channels,commentator,0
+tv_channels,ABC News,1
+tv_channels,Scrubs,0
+tv_channels,serials,0
+tv_channels,Alberta,0
+tv_channels,Alice Springs,0
+tv_channels,weekday,0
+tv_channels,Queensland,0
+tv_channels,New South Wales,0
+tv_channels,ceremonies,0
+tv_channels,Citytv,1
+tv_channels,Desperate Housewives,0
+tv_channels,All My Children,0
+tv_channels,Toronto,0
+tv_channels,Chief Executive,0
+tv_channels,CBC Television,1
+tv_channels,Hollyoaks,0
+tv_channels,Nickelodeon,1
+tv_channels,Stargate SG-1,0
+tv_channels,Buffy the Vampire Slayer,0
+tv_channels,crime drama,0
+tv_channels,Montreal,0
+tv_channels,Need,0
+tv_channels,guest-starred,0
+tv_channels,Melbourne,0
+tv_channels,Simon Fraser University,0
+tv_channels,Fremantle,0
+tv_channels,90210,0
+tv_channels,Gold Coast,0
+tv_channels,Howard Stern,0
+tv_channels,South Australia,0
+tv_channels,programme,0
+tv_channels,presenter,0
+tv_channels,television network,0
+tv_channels,Australia,0
+tv_channels,Casualty,0
+tv_channels,Bendigo,0
+tv_channels,programmes,0
+tv_channels,Gordon Brown,0
+tv_channels,Fredericton,0
+tv_channels,Breakfast,0
+tv_channels,Irish language,0
+tv_channels,Fox News,1
+tv_channels,EastEnders,0
+tv_channels,Tuesday,0
+tv_channels,News,0
+tv_channels,Northern Territory,0
+tv_channels,sitcoms,0
+tv_channels,programming,0
+tv_channels,weekends,0
+tv_channels,Canadian Broadcasting Corporation,1
+tv_channels,pundit,0
+tv_channels,Prince Edward Island,0
+tv_channels,Neighbours,0
+tv_channels,Economist,0
+tv_channels,guest,0
+tv_channels,West Wing,0
+tv_channels,series,0
+tv_channels,Sydney Morning Herald,0
+tv_channels,Thursday,0
+tv_channels,Doctor Who,0
+tv_channels,FM,0
+tv_channels,Granada Television,0
+tv_channels,Ballarat,0
+tv_channels,one-off,0
+tv_channels,Horses,0
+tv_channels,Late Show with David Letterman,0
+tv_channels,BBC Radio 4,0
+tv_channels,JAG,0
+tv_channels,Victoria,0
+tv_channels,Calgary,0
+tv_channels,Vancouver,0
+tv_channels,Tasmania,0
+tv_channels,Winnipeg,0
+tv_channels,broadcasts,0
+tv_channels,Friday,0
+tv_channels,Radio,0
+tv_channels,MuchMusic,0
+tv_channels,Holby City,0
+tv_channels,Riverina,0
+tv_channels,Saskatchewan,0
+tv_channels,schedule,0
+tv_channels,anchor,0
+tv_channels,Toronto Star,0
+tv_channels,Saturday,0
+tv_channels,Oprah Winfrey,0
+tv_channels,airing,0
+tv_channels,Fox,1
+tv_channels,telecast,0
+tv_channels,Ontario,0
+tv_channels,celebrity,0
+tv_channels,NCIS,0
+tv_channels,Sydney,0
+tv_channels,guest star,0
+tv_channels,Wollongong,0
+tv_channels,bulletins,0
+tv_channels,televised,0
+tv_channels,Cold Case,0
+tv_channels,Blackadder,0
+tv_channels,Brisbane,0
+tv_channels,Sky,1
+tv_channels,CBC Radio,0
+tv_channels,Seinfeld,0
+tv_channels,NRL,0
+tv_channels,Quebec City,0
+tv_channels,Quebec,0
+tv_channels,Western Australia,0
+tv_channels,listeners,0
+tv_channels,broadcasters,0
+tv_channels,Twelfth Night,0
+tv_channels,BBC News,1
+tv_channels,Programme,0
+tv_channels,Trois-Rivieres,0
+tv_channels,BBC 2,1
+tv_channels,BBC America,1
+tv_channels,Court TV,1
+tv_channels,Televisa,1
+tv_channels,CMT,1
+tv_channels,HBO,1
+tv_channels,BBC Four,1
+tv_channels,Television New Zealand,1
+tv_channels,BBC HD,1
+tv_channels,CNBC,1
+tv_channels,BBC News 24,1
+tv_channels,E !,1
+tv_channels,BBC Northern Ireland,1
+tv_channels,BBC One,1
+tv_channels,CNN,1
+tv_channels,CNN International,1
+tv_channels,Viacom,1
+tv_channels,TF1,1
+tv_channels,BBC Sport,1
+tv_channels,BBC TV,1
+tv_channels,BBC television,1
+tv_channels,TG4,1
+tv_channels,BBC Three,1
+tv_channels,Staples,1
+tv_channels,BBC Two,1
+tv_channels,Fuji TV,1
+tv_channels,Sky Sports,1
+tv_channels,BBC World,1
+tv_channels,BBC World News,1
+tv_channels,WB,1
+tv_channels,BBC1,1
+tv_channels,BBC2,1
+tv_channels,American Broadcasting Company,1
+tv_channels,Rogers Sportsnet,1
+tv_channels,Rede Globo,1
+tv_channels,Animal Planet,1
+tv_channels,HDnet,1
+tv_channels,TLC,1
+tv_channels,boomerang,1
+tv_channels,Freeview,1
+tv_channels,HGTV,1
+tv_channels,Catania,1
+tv_channels,TNT,1
+tv_channels,20th Century Fox,1
+tv_channels,YTV,1
+tv_channels,MBC,1
+tv_channels,Muchmusic,1
+tv_channels,ARD,1
+tv_channels,BET,1
+tv_channels,NBA TV,1
+tv_channels,Logos,1
+tv_channels,history,1
+tv_channels,NBC,1
+tv_channels,Syfy,1
+tv_channels,NBC News,1
+tv_channels,Arte,1
+tv_channels,NBC Universal,1
+tv_channels,Canal +,1
+tv_channels,TSN,1
+tv_channels,Bloomberg,1
+tv_channels,Space,1
+tv_channels,Speed Channel,1
+tv_channels,TV Asahi,1
+tv_channels,E4,1
+tv_channels,The History Channel,1
+tv_channels,TV Land,1
+tv_channels,TV Tokyo,1
+tv_channels,Pb,1
+tv_channels,TV2,1
+tv_channels,TV3,1
+tv_channels,UKTV,1
+tv_channels,CTV,1
+tv_channels,TV4,1
+tv_channels,TVB,1
+tv_channels,TVNZ,1
+tv_channels,TVOntario,1
+tv_channels,ZDF,1
+tv_channels,Spike,1
+tv_channels,Thames Television,1
+tv_channels,Trinity Broadcasting Network,1
+tv_channels,Spike TV,1
+tv_channels,Bravo,1
+tv_channels,NFL Network,1
+tv_channels,Fuse TV,1
+tv_channels,RDS,1
+tv_channels,C-Span,1
+tv_channels,Channel 4,1
+tv_channels,Channel 5,1
+tv_channels,Starz,1
+tv_channels,Channel Four,1
+tv_channels,Food Network,1
+tv_channels,Channel Nine,1
+tv_channels,The CW,1
+tv_channels,Channel Seven,1
+tv_channels,five,1
+tv_channels,UPN,1
+tv_channels,Yorkshire Television,1
+tv_channels,Star Plus,1
+tv_channels,syndication,1
+tv_channels,MSNBC,1
+tv_channels,One HD,1
+tv_channels,ESPN,1
+tv_channels,ESPN Classic,1
+tv_channels,Hallmark Channel,1
+tv_channels,Cartoon Network,1
+tv_channels,ESPN.com,1
+tv_channels,ESPN2,1
+tv_channels,ESPNews,1
+tv_channels,ESPNU,1
+tv_channels,Travel Channel,1
+tv_channels,TechTV,1
+tv_channels,STV,1
+tv_channels,Network Ten,1
+tv_channels,Mtv,1
+tv_channels,ABC,1
+tv_channels,NPR,1
+tv_channels,ABC Family,1
+tv_channels,Eurosport,1
+tv_channels,ABC news,1
+tv_channels,Fox Broadcasting Company,1
+tv_channels,ABC radio,1
+tv_channels,ABC Sports,1
+tv_channels,Big Ten,1
+tv_channels,Game Show Network,1
+tv_channels,MTV2,1
+tv_channels,MTV3,1
+tv_channels,ABC TV,1
+tv_channels,ABC television,1
+tv_channels,RTE,1
+tv_channels,Fox Kids,1
+tv_channels,RTE One,1
+tv_channels,Fox network,1
+tv_channels,RTE Two,1
+tv_channels,Fox News Channel,1
+tv_channels,ABC1,1
+tv_channels,ABC2,1
+tv_channels,ABC3,1
+tv_channels,G4,1
+tv_channels,MyNetworkTV,1
+tv_channels,NTV,1
+tv_channels,S4C,1
+tv_channels,Sci-fi Channel,1
+tv_channels,CBBC,1
+tv_channels,CBC,1
+tv_channels,National Geographic,1
+tv_channels,National Geographic Channel,1
+tv_channels,CBC Newsworld,1
+tv_channels,CBC television,1
+tv_channels,CBS,1
+tv_channels,Comcast SportsNet,1
+tv_channels,CBS News,1
+tv_channels,Turners,1
+tv_channels,foxes,1
+tv_channels,London Weekend Television,1
+tv_channels,Fox news,1
+tv_channels,Fox Sports,1
+tv_channels,CBS Sports,1
+tv_channels,Fox Sports Net,1
+tv_channels,Fox8,1
+tv_channels,Turner Entertainment,1
+tv_channels,Sky News,1
+tv_channels,Sky One,1
+tv_channels,Nine Network,1
+tv_channels,USA Networks,1
+tv_channels,Cbeebies,1
+tv_channels,Sky Sports News,1
+tv_channels,Comedy Central,1
+tv_channels,Sky1,1
+tv_channels,The Score,1
+tv_channels,Sat .1,1
+tv_channels,Seven Network,1
+tv_channels,France 2,1
+tv_channels,SBS,1
+tv_channels,France 3,1
+tv_channels,GMA Network,1
+tv_channels,SBT,1
+tv_channels,Fx,1
+tv_channels,GMTV,1
+tv_channels,Global Television Network,1
+tv_channels,the WB,1
+tv_channels,The Learning Channel,1
+tv_channels,Versus,1
+tv_channels,GSN,1
+tv_channels,ITV,1
+tv_channels,History Channel,1
+tv_channels,Discovery,1
+tv_channels,The Weather Channel,1
+tv_channels,Discovery channel,1
+tv_channels,Adult Swim,1
+tv_channels,ITV1,1
+tv_channels,Vh1,1
+tv_channels,ITV2,1
+tv_channels,ITV4,1
+tv_channels,Discovery Kids,1
+tv_channels,Zee TV,1
+tv_channels,Directv,1
+tv_channels,Disney,1
+tv_channels,Univision,1
+tv_channels,CiTV,1
+tv_channels,Cinemax,1
+tv_channels,lifetime,1
+tv_channels,Public Broadcasting Service,1
+tv_channels,Lifetime Television,1
+tv_channels,Telemundo,1
+tv_channels,Disney Channel,1
+tv_channels,TBS,1
+tv_channels,Showtime,1
+tv_channels,BBC,1
+tv_channels,BBC 1,1
+tv_channels,Grey 's Anatomy,0
+tv_channels,Monday Night Football,0
+tv_channels,Monday Night Raw,0
+tv_channels,Hollywoods,0
+tv_channels,Stavanger,0
+tv_channels,Sirius Satellite Radio,0
+tv_channels,Scout.com,0
+tv_channels,ESPN Radio,0
+tv_channels,The View,0
+tv_channels,penguin,0
+tv_channels,global,0
+tv_channels,James Madison University,0
+tv_channels,How Do You Solve a Problem Like Maria ?,0
+tv_channels,Atletico Madrid,0
+tv_channels,Columbia records,0
+tv_channels,The Early Show,0
+tv_channels,Hollywood Squares,0
+tv_channels,The O'Reilly Factor,0
+tv_channels,Good Morning America,0
+tv_channels,CW,0
+tv_channels,Argentinians,0
+tv_channels,Norwegians,0
+tv_channels,New Zealand,0
+tv_channels,Australians,0
+tv_channels,nickelodeons,0
+tv_channels,The Office,0
+tv_channels,My Name is Earl,0
+tv_channels,RCA records,0
+tv_channels,Sporting de Gijon,0
+tv_channels,British,0
+tv_channels,The Wall Street Journals,0
+tv_channels,the Today Show,0
+tv_channels,Madison Square Gardens,0
+tv_channels,Nightline,0
+tv_channels,Access Hollywood,0
+tv_channels,"Reno , Nevada",0
+tv_channels,Sportscenter,0
+tv_channels,Reuters,0
+tv_channels,Ghost Hunters,0
+tv_channels,Charlton Athletic,0
+tv_channels,Sirius XM Radio,0
+tv_channels,Warner Bros.,0
+tv_channels,Al Jazeera,0
+tv_channels,Antiques Roadshow,0
+tv_channels,Al Jazeera English,0
+tv_channels,Unicef,0
+tv_channels,Us,0
+tv_channels,All Things Considered,0
+tv_channels,The Oprah Winfrey Show,0
+tv_channels,Charmed,0
+tv_channels,Time Warner,0
+tv_channels,Time Warner Cable,0
+tv_channels,Today Show,0
+tv_channels,Fleischer Studios,0
+tv_channels,Dateline NBC,0
+tv_channels,Hockey Night in Canada,0
+tv_channels,Southend United,0
+tv_channels,Foxtel,0
+tv_channels,Cablevision,0
+tv_channels,NBC Nightly News,0
+tv_channels,60 Minutes,0
+tv_channels,Wide World of Sports,0
+tv_channels,A Current Affair,0
+tv_channels,CBC radio,0
+tv_channels,Masterpiece Theatre,0
+tv_channels,Earache Records,0
+tv_channels,Headline News,0
+tv_channels,The Simpsons,0
+tv_channels,Entertainment Tonight,0
+tv_channels,This Morning,0
+tv_channels,Super Bowl,0
+tv_channels,Verizon FiOS,0
+tv_channels,Wal-mart,0
+tv_channels,Comcast,0
+tv_channels,XM satellite radio,0
+tv_channels,The New York Times,0
+tv_channels,Cox Communications,0
+tv_channels,Hulu,0
+tv_channels,This Week,0
+tv_channels,Decca,0
+tv_channels,Turner Classic Movies,0
+tv_channels,ERS,0
+tv_channels,AMC,0
+tv_channels,Sunday Night Heat,0
+tv_channels,USA today,0
+tv_channels,Livorno,0
+tv_channels,american,0
+tv_channels,National Public Radio,0
+tv_channels,Arista Records,0
+tv_channels,Westwood One,0
+tv_channels,American Idols,0
+tv_channels,Countdown with Keith Olbermann,0
+tv_channels,broadcast,0
+tv_channels,tv,0
+tv_channels,bbc news channel,1
+tv_channels,channel four,1
+tv_channels,bbc tv,1
+tv_channels,bbc one,1
+tv_channels,sky news,1
+tv_channels,bbc television,1
+tv_channels,bbc two,1
+tv_channels,bbc world news,1
+tv_channels,bbc news,1
+tv_channels,sky news radio,0
+tv_channels,abc tv,1
+tv_channels,television,0
+tv_channels,bbc online,1
+tv_channels,bbc news online,1
+tv_channels,half hour,0
+tv_channels,late night,0
+tv_channels,bbc music magazine,0
+tv_channels,channel,0
+tv_channels,itv news channel,1
+tv_channels,sky one,1
+tv_channels,sunday morning,0
+tv_channels,discovery channel,1
+tv_channels,bbc radio 4,1
+tv_channels,pbs,0
+tv_channels,bbc radio 2,0
+tv_channels,bbc radio,0
+tv_channels,channel 4,1
+tv_channels,abc news radio,0
+tv_channels,australian broadcasting corporation,0
+tv_channels,sky sports news,1
+tv_channels,bbc three,1
+tv_channels,bbc radio 1,0
+tv_channels,channel 4 television,0
+tv_channels,channel nine,1
+tv_channels,bbc entertainment,1
+tv_channels,bbc radio scotland,0
+tv_channels,bbc four,1
+tv_channels,nine network,1
+tv_channels,abc television,1
+tv_channels,bbc scotland,0
+tv_channels,fox news channel,1
+tv_channels,bbc world,1
+tv_channels,bbc radio 3,0
+tv_channels,bbc prime,1
+tv_channels,saturday morning,0
+tv_channels,this morning,0
+tv_channels,bbc america,0
+tv_channels,bbc worldwide,0
+tv_channels,bbc music,0
+tv_channels,seven network,0
+tv_channels,fox news radio,0
+tv_channels,bbc kids,1
+tv_channels,talk,0
+tv_channels,bbc tv series,0
+tv_channels,abc news,0
+tv_channels,itv television,1
+tv_channels,bbc weather,0
+tv_channels,the weather channel,1
+tv_channels,television program,0
+tv_channels,hour long,0
+tv_channels,nbc tv,1
+tv_channels,the history channel,1
+tv_channels,sky news australia,0
+tv_channels,60 minutes,0
+tv_channels,network ten,1
+tv_channels,cbs radio news,0
+tv_channels,television news,0
+tv_channels,cbs television network,0
+tv_channels,good morning,0
+tv_channels,granada television,0
+tv_channels,nbc television network,0
+tv_channels,current affair,0
+tv_channels,bbc hd,0
+tv_channels,itv news,0
+tv_channels,live television,0
+tv_channels,cbs radio network,0
+tv_channels,abc world news,0
+tv_channels,global television network,0
+tv_channels,cnn international,0
+tv_channels,bbc breakfast,0
+tv_channels,a current affair,0
+tv_channels,bbc choice,0
+tv_channels,bbc radio wales,0
+tv_channels,cbc radio,0
+tv_channels,bbc world service,0
+tv_channels,documentaries,0
+tv_channels,newsmagazine,0
+tv_channels,bbc london news,0
+tv_channels,national geographic channel,1
+tv_channels,cbs news,0
+tv_channels,sky sports,1
+tv_channels,bbc radio london,0
+tv_channels,british television channel,1
+tv_channels,light entertainment,0
+tv_channels,bbc television series,0
+tv_channels,itv granada,0
+tv_channels,panorama,0
+tv_channels,universal music tv,0
+tv_channels,bbc local radio,0
+tv_channels,abc online,0
+tv_channels,evening news,0
+tv_channels,bbc wales,0
+tv_channels,ctv news channel,1
+tv_channels,canadian broadcasting corporation,0
+tv_channels,blue peter,0
+tv_channels,bbc television drama,0
+tv_channels,thames television,0
+tv_channels,rte one,1
+tv_channels,big brother,0
+tv_channels,fox sports radio,0
+tv_channels,countdown,0
+tv_channels,news magazine,0
+tv_channels,sky digital,0
+tv_channels,local radio,0
+tv_channels,bbc television service,0
+tv_channels,bbc asian network,0
+tv_channels,fox news live,0
+tv_channels,channel 4 news,0
+tv_channels,bbc films,0
+tv_channels,cbs television,0
+tv_channels,history channel,1
+tv_channels,bbc documentary,0
+tv_channels,mtv news,0
+tv_channels,ctv television network,0
+tv_channels,disney channel,1
+tv_channels,cbs tv,0
+tv_channels,this week,0
+tv_channels,comedy central,0
+tv_channels,sky sport,0
+tv_channels,bbc television centre,0
+tv_channels,national public radio,0
+tv_channels,friday night,0
+tv_channels,fox news,1
+tv_channels,global television,0
+tv_channels,regular appearances,0
+tv_channels,scottish television,0
+tv_channels,morning show,0
+tv_channels,bbc canada,0
+tv_channels,nbc television,0
+tv_channels,bbc soap,0
+tv_channels,sony entertainment television,0
+tv_channels,pbs television,0
+tv_channels,gameshow,0
+tv_channels,itv sport,0
+tv_channels,soap,0
+tv_channels,usa network,0
+tv_channels,sky television plc,0
+tv_channels,the sporting news,0
+tv_channels,quiz show,0
+tv_channels,the today show,0
+tv_channels,fox family channel,0
+tv_channels,sky movies,0
+tv_channels,24 hour,0
+tv_channels,sunday night,0
+tv_channels,sunrise,0
+diseases,measle,1
+diseases,multiple sclerosis,1
+diseases,typhoid,1
+diseases,chronic obstructive pulmonary disease,1
+diseases,osteoporosis,1
+diseases,dengue fever,1
+diseases,dysentery,1
+diseases,rheumatism,1
+diseases,diarrhoea,1
+diseases,epilepsy,1
+diseases,rheumatoid arthritis,1
+diseases,ulcerative colitis,1
+diseases,HIV infection,1
+diseases,typhoid fever,1
+diseases,irritable bowel syndrome,1
+diseases,anxiety disorder,1
+diseases,typhus,1
+diseases,atherosclerosis,1
+diseases,HIV / AIDS,1
+diseases,headache,1
+diseases,melanoma,1
+diseases,rabie,1
+diseases,sore throat,0
+diseases,dehydration,0
+diseases,amyotrophic lateral sclerosis,1
+diseases,attention deficit hyperactivity disorder,1
+diseases,syphili,1
+diseases,respiratory failure,0
+diseases,dizziness,0
+diseases,dyslexia,1
+diseases,coronary artery disease,1
+diseases,major depression,1
+diseases,sepsis,0
+diseases,convulsion,0
+diseases,diabete,1
+diseases,congestive heart failure,1
+diseases,autoimmunity,1
+diseases,lethargy,0
+diseases,diabete mellitus,1
+diseases,low blood pressure,0
+diseases,inflammatory bowel disease,1
+diseases,encephalitis,1
+diseases,malaise,0
+diseases,deep vein thrombosis,1
+diseases,metabolic acidosis,1
+diseases,autoimmune disease,1
+diseases,birth defect,0
+diseases,osteoarthritis,1
+diseases,spina bifida,1
+diseases,diabetes mellitus,1
+diseases,infertility,0
+diseases,hemophilia,1
+diseases,pleurisy,1
+diseases,eczema,1
+diseases,anaphylaxi,1
+diseases,tremor,0
+diseases,dyspepsia,1
+diseases,personality disorder,1
+diseases,major depressive disorder,0
+diseases,Tourette syndrome,1
+diseases,angina,1
+diseases,pulmonary hypertension,1
+diseases,sickle cell anemia,1
+diseases,alopecia,1
+diseases,dengue,1
+diseases,panic disorder,1
+diseases,oncology,0
+diseases,burnt,0
+diseases,imprisoned,0
+diseases,heart attack,0
+diseases,excessive,0
+diseases,devastated,0
+diseases,Branch,0
+diseases,freed,0
+diseases,weakness,0
+diseases,awareness,0
+diseases,96,0
+diseases,2002,0
+diseases,escaped,0
+diseases,characterised,0
+diseases,grassroots,0
+diseases,103,0
+diseases,),0
+diseases,Amnesty International,0
+diseases,wounded,0
+diseases,outbreak,0
+diseases,Parkway,0
+diseases,monuments,0
+diseases,synthesis,0
+diseases,survivors,0
+diseases,heavy,0
+diseases,76,0
+diseases,blood,0
+diseases,refuge,0
+diseases,arrived,0
+diseases,91,0
+diseases,severe,0
+diseases,2007,0
+diseases,unrest,0
+diseases,captured,0
+diseases,non-governmental,0
+diseases,projects,0
+diseases,rescued,0
+diseases,lack,0
+diseases,disorder,0
+diseases,75,0
+diseases,2004,0
+diseases,broadcaster,0
+diseases,tumors,0
+diseases,fleeing,0
+diseases,betrayed,0
+diseases,cells,0
+diseases,tensions,0
+diseases,66,0
+diseases,difficulties,0
+diseases,conquered,0
+diseases,certain,0
+diseases,2008,0
+diseases,natural causes,0
+diseases,fault,0
+diseases,hampered,0
+diseases,have,0
+diseases,managed to escape,0
+diseases,nausea,0
+diseases,occupied,0
+diseases,oxygen,0
+diseases,pancreas,0
+diseases,body,0
+diseases,glucose,0
+diseases,activists,0
+diseases,radio personality,0
+diseases,Station,0
+diseases,recent years,0
+diseases,PR,0
+diseases,experts,0
+diseases,confusion,0
+diseases,destruction,0
+diseases,human,0
+diseases,western suburbs,0
+diseases,.,0
+diseases,executive director,0
+diseases,Tiverton,0
+diseases,died,0
+diseases,concern,0
+diseases,mild,0
+diseases,87,0
+diseases,interviews,0
+diseases,low,0
+diseases,delayed,0
+diseases,cultures,0
+diseases,tumor,0
+diseases,molecule,0
+diseases,due,0
+diseases,increasing,0
+diseases,surrendered,0
+diseases,ill,0
+diseases,exile,0
+diseases,taken prisoner,0
+diseases,dopamine,0
+diseases,tissue,0
+diseases,exiled,0
+diseases,limb,0
+diseases,problem,0
+diseases,rapid transit,0
+diseases,organizations,0
+diseases,stress,0
+diseases,86,0
+diseases,94,0
+diseases,nerve,0
+diseases,85,0
+diseases,journals,0
+diseases,LGBT,0
+diseases,initiatives,0
+diseases,has,0
+diseases,failure,0
+diseases,journalists,0
+diseases,skin,0
+diseases,serotonin,0
+diseases,suffered,0
+diseases,artery,0
+diseases,fled,0
+diseases,problems,0
+diseases,pain,0
+diseases,necrosis,0
+diseases,inadequate,0
+diseases,symptoms,0
+diseases,tension,0
+diseases,destroyed,0
+diseases,hydrogen,0
+diseases,colon,0
+diseases,footballers,0
+diseases,artists,0
+diseases,killed,0
+diseases,UNICEF,0
+diseases,documentaries,0
+diseases,external,0
+diseases,concerns,0
+diseases,TIME,0
+diseases,expression,0
+diseases,81,0
+diseases,2009,0
+diseases,2006,0
+diseases,cerebellum,0
+diseases,athletes,0
+diseases,characterized,0
+diseases,pressures,0
+diseases,DNA,0
+diseases,politician,0
+diseases,abbreviated,0
+diseases,Monmouth County,0
+diseases,meteorologist,0
+diseases,seized,0
+diseases,besieged,0
+diseases,brain,0
+diseases,lateral,0
+diseases,receptors,0
+diseases,burned,0
+diseases,79,0
+diseases,caused,0
+diseases,Kreis,0
+diseases,websites,0
+diseases,ongoing,0
+diseases,organism,0
+diseases,including,0
+diseases,pneumonia,0
+diseases,Expressway,0
+diseases,metabolism,0
+diseases,recaptured,0
+diseases,complications,0
+diseases,heart,0
+diseases,illness,0
+diseases,epidemic,0
+diseases,59,0
+diseases,publications,0
+diseases,facility located,0
+diseases,siege,0
+diseases,binding,0
+diseases,internal,0
+diseases,Twitter,0
+diseases,ravaged,0
+diseases,immune,0
+diseases,lungs,0
+diseases,SC,0
+diseases,asylum,0
+diseases,internationally,0
+diseases,(,0
+diseases,capture,0
+diseases,Siege,0
+diseases,blog,0
+diseases,fluid,0
+diseases,writers,0
+diseases,2005,0
+diseases,tissues,0
+diseases,feeling,0
+diseases,Lyme disease,1
+diseases,attention-deficit hyperactivity disorder,1
+diseases,fever,1
+diseases,lymphoma,1
+diseases,cholera,1
+diseases,leukemia,1
+diseases,high blood pressure,1
+diseases,insomnia,1
+diseases,mental illness,1
+diseases,sinusitis,1
+diseases,diabetes,1
+diseases,West Nile virus,1
+diseases,mental retardation,1
+diseases,arthritis,1
+diseases,dissociative identity disorder,1
+diseases,botulism,1
+diseases,asthma,1
+diseases,multiple myeloma,1
+diseases,sarcoidosis,1
+diseases,syphilis,1
+diseases,ischemia,1
+diseases,obesity,1
+diseases,thrombocytopenia,1
+diseases,muscular dystrophy,1
+diseases,Bright 's disease,1
+diseases,thrombosis,1
+diseases,cough,1
+diseases,hepatitis,1
+diseases,hepatitis B,1
+diseases,hepatocellular carcinoma,1
+diseases,gastroenteritis,1
+diseases,cirrhosis,1
+diseases,abscess,1
+diseases,cerebral palsy,1
+diseases,cerebral hemorrhage,1
+diseases,drug abuse,1
+diseases,Crohn 's disease,1
+diseases,drug addiction,1
+diseases,Tourettes syndrome,1
+diseases,Addison 's disease,1
+diseases,bipolar disorder,1
+diseases,throat cancer,1
+diseases,endocarditis,1
+diseases,hypercholesterolemia,1
+diseases,peritonitis,1
+diseases,anxiety,1
+diseases,psoriasis,1
+diseases,fibromyalgia,1
+diseases,flatulence,1
+diseases,myocardial infarction,1
+diseases,anaphylaxis,1
+diseases,plague,1
+diseases,vomiting,1
+diseases,tachycardia,1
+diseases,ulcers,1
+diseases,myopia,1
+diseases,Huntington 's disease,1
+diseases,concussion,1
+diseases,diarrhea,1
+diseases,hypertension,1
+diseases,Holocaust,1
+diseases,schizophrenia,1
+diseases,mumps,1
+diseases,ataxia,1
+diseases,aneurysm,1
+diseases,Downs syndrome,1
+diseases,narcolepsy,1
+diseases,obsessive-compulsive disorder,1
+diseases,hypoglycemia,1
+diseases,heart attacks,1
+diseases,bronchitis,1
+diseases,dystonia,1
+diseases,pulmonary edema,1
+diseases,anemia,1
+diseases,pulmonary embolism,1
+diseases,conjunctivitis,1
+diseases,heart failure,1
+diseases,AIDS,1
+diseases,strabismus,1
+diseases,psychosis,1
+diseases,ovarian cancer,1
+diseases,hydrocephalus,1
+diseases,vertigo,1
+diseases,cardiac arrest,1
+diseases,tuberculosis,1
+diseases,renal failure,1
+diseases,infection,1
+diseases,lung cancer,1
+diseases,constipation,1
+diseases,esophageal cancer,1
+diseases,autism,1
+diseases,clinical depression,1
+diseases,chlamydia,1
+diseases,anorexia,1
+diseases,HIV,1
+diseases,hypogonadism,1
+diseases,bubonic plague,1
+diseases,hypokalemia,1
+diseases,emphysema,1
+diseases,miscarriage,1
+diseases,Clostridium difficile,1
+diseases,hypothyroidism,1
+diseases,hypotension,1
+diseases,hypotonia,1
+diseases,HIV/Aids,1
+diseases,breast cancers,1
+diseases,inflammation,1
+diseases,Hodgkin 's disease,1
+diseases,Hodgkin 's lymphoma,1
+diseases,Parkinson 's disease,1
+diseases,scoliosis,1
+diseases,tetanus,1
+diseases,edema,1
+diseases,colorectal cancer,1
+diseases,lupus,1
+diseases,Als,1
+diseases,sleep apnea,1
+diseases,pancreatic cancer,1
+diseases,strokes,1
+diseases,meningitis,1
+diseases,pancreatitis,1
+diseases,insulin resistance,1
+diseases,scurvy,1
+diseases,bladder cancer,1
+diseases,peripheral neuropathy,1
+diseases,brain tumor,1
+diseases,liver failure,1
+diseases,hay fever,1
+diseases,paralysis,1
+diseases,aphasia,1
+diseases,diphtheria,1
+diseases,appendicitis,1
+diseases,Asperger syndrome,1
+diseases,ADHD,1
+diseases,jaundice,1
+diseases,migraine,1
+diseases,depressions,1
+diseases,Guillain-Barre syndrome,1
+diseases,Alzheimer 's disease,1
+diseases,gonorrhea,1
+diseases,SARS,1
+diseases,smallpox,1
+diseases,spinal cord injury,1
+diseases,gout,1
+diseases,cancer,1
+diseases,alcoholism,1
+diseases,malaria,1
+diseases,Hollywoods,0
+diseases,Helicobacter pylori,0
+diseases,"Hollywood , California",0
+diseases,Los Angeles,0
+diseases,songwriter,0
+diseases,directors,0
+diseases,Internet,0
+diseases,"Los Angeles , California",0
+diseases,cartoonist,0
+diseases,producers,0
+diseases,"Kansas City , Missouri",0
+diseases,diagnosis,0
+diseases,addictions,0
+diseases,hermits,0
+diseases,Harvard Medical School,0
+diseases,"September 11 , 2001 attacks",0
+diseases,gene therapy,0
+diseases,"Santa Barbara , California",0
+diseases,Boy Scouts of America,0
+diseases,breast,0
+diseases,psychologists,0
+diseases,surgery,0
+diseases,San Francisco,0
+diseases,hypoxia,0
+diseases,Streptococcus pneumoniae,0
+diseases,pilots,0
+diseases,"Miami , Florida",0
+diseases,research,0
+diseases,chemotherapy,0
+diseases,author,0
+diseases,Silicon Valley,0
+diseases,horses,0
+diseases,medicine,0
+diseases,sexual dysfunction,0
+diseases,aviation,0
+diseases,"Washington , DC",0
+diseases,allergy,0
+diseases,Americas,0
+diseases,drug overdose,0
+diseases,liver,0
+diseases,New Year 's Eve,0
+diseases,radiation therapy,0
+diseases,spleen,0
+diseases,thymus,0
+diseases,terrorism,0
+diseases,consultant,0
+diseases,Washington DC,0
+diseases,falcon,0
+diseases,human rights,0
+diseases,Alzheimer 's,0
+diseases,public relations,0
+diseases,Gallup poll,0
+diseases,"Silver Spring , Maryland",0
+diseases,St. Louis,0
+diseases,stand-up comedy,0
+diseases,disease,0
+diseases,liver cancer,1
+diseases,kidney cancer,1
+diseases,depression,0
+diseases,lung,0
+diseases,skin cancer,1
+diseases,rash,0
+diseases,breast cancer,1
+diseases,heart disease,1
+diseases,prostate cancer,1
+diseases,bone cancer,1
+diseases,kidney,0
+diseases,coma,1
+diseases,liver disease,1
+diseases,stroke,1
+diseases,lung disease,1
+diseases,thyroid cancer,1
+diseases,risk,0
+diseases,kidney disease,1
+diseases,polio,1
+diseases,brain damage,1
+diseases,stomach cancer,1
+diseases,colon cancer,1
+diseases,eye disease,1
+diseases,brain cancer,1
+diseases,alzheimer 's disease,1
+diseases,skin rash,1
+diseases,rabies,1
+diseases,chronic kidney disease,1
+diseases,prostate,0
+diseases,thyroid disease,1
+diseases,chronic liver disease,1
+diseases,respiratory disease,1
+diseases,renal disease,1
+diseases,bone,0
+diseases,pregnancy,0
+diseases,drug,0
+diseases,influenza,1
+diseases,malnutrition,1
+diseases,infectious disease,0
+diseases,blood transfusion,0
+diseases,pulmonary disease,0
+diseases,cardiovascular disease,0
+diseases,dementia,1
+diseases,childbirth,0
+diseases,sleep,0
+diseases,congenital heart disease,1
+diseases,virus,0
+diseases,heart surgery,0
+diseases,thyroiditis,1
+diseases,alzheimer 's,1
+diseases,alcohol abuse,1
+diseases,cervical cancer,1
+diseases,nervous,0
+diseases,muscle,0
+diseases,oral cancer,1
+diseases,thyroid,1
+diseases,eye surgery,0
+diseases,psychiatric,0
+diseases,vascular disease,0
+diseases,cell,0
+diseases,peripheral artery disease,1
+diseases,parkinson,1
+diseases,bone fracture,1
+diseases,hair,0
+diseases,anal cancer,1
+diseases,leprosy,1
+diseases,drugs,0
+diseases,cardiac,0
+diseases,parkinson 's disease,1
+diseases,down syndrome,1
+diseases,stomach,0
+diseases,mitochondrial disease,1
+diseases,chronic fatigue syndrome,1
+diseases,muscle pain,0
+diseases,infectious diseases,0
+diseases,weight loss,0
+diseases,vaccination,0
+diseases,peripheral vascular disease,1
+diseases,cardiac surgery,0
+diseases,animal,0
+diseases,kidney failure,1
+diseases,substance abuse,1
+diseases,alcohol,0
+diseases,foot and mouth disease,1
+diseases,liver transplant,0
+diseases,respiratory depression,0
+diseases,multiple organ dysfunction syndrome,1
+diseases,yellow fever,1
+diseases,chest pain,0
+diseases,genetic disease,0
+diseases,heart transplant,0
+diseases,insanity,0
+diseases,heart murmur,0
+diseases,liver cells,0
+diseases,white blood cells,0
+diseases,medical,0
+diseases,heart defect,0
+diseases,amnesia,1
+diseases,red blood cells,0
+diseases,abdominal pain,0
+diseases,traumatic brain injury,1
+diseases,multiple organ failure,1
+diseases,alzheimer,1
+diseases,canine,0
+diseases,kidney transplant,0
+diseases,cigarette,0
+diseases,common cause,0
+diseases,birth defects,0
+diseases,plastic surgery,0
+diseases,dental surgery,0
+diseases,cystic fibrosis,1
+diseases,pcp,1
+diseases,toxic shock syndrome,1
+diseases,nasal,0
+diseases,inflammatory,0
+diseases,alzheimer disease,1
+diseases,heart valve,0
+diseases,blue bloods,0
+diseases,brain injury,0
+diseases,fat,0
+diseases,chronic pain,0
+diseases,cataract,1
+diseases,systemic disease,0
+diseases,starvation,0
+diseases,cannabis,0
+diseases,acute kidney injury,0
+diseases,metabolic syndrome,1
+diseases,bacterial pneumonia,1
+diseases,rare disease,0
+diseases,disability,0
+diseases,multiple personality disorder,1
+diseases,viral,0
+diseases,poverty,0
+diseases,health,0
+diseases,renal,0
+countries,Burma,1
+countries,Lesotho,0
+countries,Tibet,0
+countries,Nauru,0
+countries,Guinea Bissau,0
+countries,Greenland,0
+countries,Palau,0
+countries,New Guinea,0
+countries,Dubai,0
+countries,Siberia,0
+countries,Borneo,0
+countries,Persia,0
+countries,mainland China,0
+countries,Central Asia,0
+countries,Zanzibar,0
+countries,Guadeloupe,0
+countries,enlarged,0
+countries,South Bohemian Region,0
+countries,Jacques,0
+countries,ratification,0
+countries,communes,0
+countries,Russell,0
+countries,Harrison,0
+countries,Virgin Islands,0
+countries,Tortricidae,0
+countries,Vojvodina,0
+countries,Croatian,0
+countries,Breton,0
+countries,Sikkim,0
+countries,Allison,0
+countries,Samuel,0
+countries,shrub,0
+countries,French Guiana,0
+countries,Belgrade,0
+countries,convened,0
+countries,Mato Grosso,0
+countries,Bosnian,0
+countries,Cancellariidae,0
+countries,Twelfth Air Force,0
+countries,Tijuana,0
+countries,Bombardment Group,0
+countries,de,0
+countries,Saxony,0
+countries,Podgorica,0
+countries,Burgenland,0
+countries,Maranhao,0
+countries,Bahia,0
+countries,San Juan,0
+countries,Tactical Air Command,0
+countries,Slovene,0
+countries,Kauai,0
+countries,southern Mexico,0
+countries,West Africa,0
+countries,Macedonian,0
+countries,Paraiba,0
+countries,Tyrol,0
+countries,Lambert,0
+countries,Slovenian,0
+countries,Goddard,0
+countries,Bombardment Wing,0
+countries,Carinthia,0
+countries,Austrian Empire,0
+countries,Burton,0
+countries,Putnam,0
+countries,Burkina Faso,1
+countries,Lower Austria,0
+countries,Creole,0
+countries,Serbian,0
+countries,Guinea,0
+countries,Indonesian,0
+countries,Hungarian,0
+countries,French-speaking,0
+countries,Rio Grande do Sul,0
+countries,Antigua,0
+countries,Occitan,0
+countries,Guangxi,0
+countries,upper house,0
+countries,Cayman Islands,0
+countries,Minas Gerais,0
+countries,Dodd,0
+countries,Shan,0
+countries,Saint-Etienne,0
+countries,Daniels,0
+countries,Bassett,0
+countries,Hispaniola,0
+countries,Innsbruck,0
+countries,lies approximately,0
+countries,Laval,0
+countries,Serbian Cyrillic,0
+countries,Malagasy,0
+countries,Executive Committee,0
+countries,Santo Domingo,0
+countries,Panel,0
+countries,Guinea-Bissau,0
+countries,Local Government Area,0
+countries,H.,0
+countries,respond,0
+countries,Macau,0
+countries,Gordon,0
+countries,Intelligence,0
+countries,Assam,0
+countries,Guizhou,0
+countries,Herzegovina,0
+countries,Baldwin,0
+countries,departement,0
+countries,Amherst,0
+countries,Nunatak,0
+countries,Skopje,0
+countries,Austro-Hungarian Empire,0
+countries,Silesia,0
+countries,Yugoslav,0
+countries,Andean,0
+countries,Mali,0
+countries,west-northwest,0
+countries,Mead,0
+countries,Rosario,0
+countries,of,0
+countries,Malay,0
+countries,constitutional,0
+countries,Amazon Basin,0
+countries,Sarawak,0
+countries,Rene,0
+countries,Chile,0
+countries,Montenegrin,0
+countries,Barclay,0
+countries,Gambia,0
+countries,spearheaded,0
+countries,Styria,0
+countries,San Jose,0
+countries,du,0
+countries,Dominica,0
+countries,Guangdong,0
+countries,Pratt,0
+countries,Ivo,0
+countries,Bahamas,0
+countries,Greenwood,0
+countries,Tate,0
+countries,Central American,0
+countries,Reuben,0
+countries,Parana,0
+countries,Backa,0
+countries,Sibenik,0
+countries,Bordeaux,0
+countries,Cory,0
+countries,pipeline,0
+countries,Gavin,0
+countries,et,0
+countries,Butler,0
+countries,Hudson,0
+countries,Guyana,0
+countries,Andes,0
+countries,Zagreb,0
+countries,Ljubljana,0
+countries,Albanian,0
+countries,Hainan,0
+countries,SFR Yugoslavia,0
+countries,Salzburg,0
+countries,Benin,0
+countries,Cyrillic,0
+countries,Upper Austria,0
+countries,England,1
+countries,South Korea,1
+countries,Russia,1
+countries,Nigeria,1
+countries,Argentina,1
+countries,Australia,1
+countries,North Korea,1
+countries,Ireland,1
+countries,Malawi,1
+countries,Republic of Macedonia,1
+countries,Korea,1
+countries,Guatemala,1
+countries,United Arab Emirates,1
+countries,United States,1
+countries,Wales,1
+countries,UAE,1
+countries,Botswana,1
+countries,Moldova,1
+countries,Republic of Moldova,1
+countries,Latvia,1
+countries,Jamaica,1
+countries,niger,1
+countries,Ceylon,1
+countries,United States .,1
+countries,Republic of South Africa,1
+countries,Egypt,1
+countries,Kenya,1
+countries,Fiji,1
+countries,Swaziland,1
+countries,Bosnia,1
+countries,Cuba,1
+countries,Trinidad,1
+countries,Bosnia and Herzegovina,1
+countries,Brazil,1
+countries,Austria,1
+countries,Belgium,1
+countries,Panama,1
+countries,Norway,1
+countries,Malaysia,1
+countries,Uganda,1
+countries,Britain,1
+countries,Romania,1
+countries,Lebanon,1
+countries,Montenegro,1
+countries,Trinidad and Tobago,1
+countries,Tajikistan,1
+countries,Sweden,1
+countries,Kazakhstan,1
+countries,Nepal,1
+countries,Singapore,1
+countries,Brunei,1
+countries,Great Britain,1
+countries,Liechtenstein,1
+countries,Algeria,1
+countries,Bavaria,1
+countries,New Zealand,1
+countries,Israel,1
+countries,Barbados,1
+countries,Finland,1
+countries,Ecuador,1
+countries,Paraguay,1
+countries,Cameroons,1
+countries,Cyprus,1
+countries,St. Lucia,1
+countries,turkeys,1
+countries,Ethiopia,1
+countries,Syria,1
+countries,the Philippines,1
+countries,Dominican Republic,1
+countries,Djibouti,1
+countries,Saint Lucia,1
+countries,Namibia,1
+countries,Denmark,1
+countries,Laos,1
+countries,Armenia,1
+countries,Mozambique,1
+countries,Scotland,1
+countries,Jordan,1
+countries,Luxembourg,1
+countries,Mongolia,1
+countries,Azerbaijan,1
+countries,Morocco,1
+countries,Guyanas,1
+countries,El Salvador,1
+countries,curacao,1
+countries,United Kingdom,1
+countries,Vanuatu,1
+countries,Belize,1
+countries,Slovakia,1
+countries,India,1
+countries,Malta,1
+countries,Suriname,1
+countries,Veracruz,1
+countries,Russian SFSR,1
+countries,Surinam,1
+countries,Senegal,1
+countries,Irish,1
+countries,"India ,",1
+countries,Iran,1
+countries,Us,1
+countries,San Marino,1
+countries,Switzerland,1
+countries,The Bahamas,1
+countries,the Netherlands,1
+countries,United States of America,1
+countries,West Germany,1
+countries,Slovenia,1
+countries,Rwanda,1
+countries,Iceland,1
+countries,Lithuania,1
+countries,Italy,1
+countries,South Africa,1
+countries,chile,1
+countries,Canada,1
+countries,Myanmar,1
+countries,Yemen,1
+countries,Bahrain,1
+countries,Japan,1
+countries,Togo,1
+countries,Madagascar,1
+countries,Oman,1
+countries,Macedonia,1
+countries,Bolivia,1
+countries,Zimbabwe,1
+countries,Cambodia,1
+countries,Ukraine,1
+countries,Costa Rica,1
+countries,Belarus,1
+countries,germany,1
+countries,Pakistan,1
+countries,Tanzania,1
+countries,Bhutan,1
+countries,Haiti,1
+countries,Turkmenistan,1
+countries,Tunisia,1
+countries,Albania,1
+countries,Holland,1
+countries,Sri Lanka,1
+countries,Jersey,1
+countries,Serbia,1
+countries,Qatar,1
+countries,Andorra,1
+countries,Mauritania,1
+countries,Grenada,1
+countries,Monaco,1
+countries,Serbia and Montenegro,1
+countries,Yugoslavia,1
+countries,Ivory Coast,1
+countries,Mauritius,1
+countries,Bangladesh,1
+countries,Imperial Japan,1
+countries,Bulgaria,1
+countries,Estonia,1
+countries,Saudi Arabia,1
+countries,Iraq,1
+countries,Americas,1
+countries,Somalia,1
+countries,East Timor,1
+countries,Seychelles,1
+countries,Portugal,1
+countries,Cote d'Ivoire,1
+countries,Philippines,1
+countries,U.K.,1
+countries,Republic of Ireland,1
+countries,Czech Republic,1
+countries,Poland,1
+countries,Honduras,1
+countries,Afghanistan,1
+countries,Kosovo,1
+countries,East Germany,1
+countries,Nicaragua,1
+countries,Angola,1
+countries,Venezuela,1
+countries,Libya,1
+countries,Papua New Guinea,1
+countries,Republic of China,1
+countries,Aruba,1
+countries,U.S.,1
+countries,USA,1
+countries,Croatia,1
+countries,Uruguay,1
+countries,UK,1
+countries,Netherlands,1
+countries,Northern Ireland,1
+countries,Greece,1
+countries,U.S.A.,1
+countries,China,1
+countries,Peru,1
+countries,Saint Vincent and the Grenadines,1
+countries,Vietnams,1
+countries,Timor-Leste,1
+countries,Hungary,1
+countries,Mexico,1
+countries,Indonesia,1
+countries,Kuwait,1
+countries,Cape Verde,1
+countries,Ghana,1
+countries,Czechoslovakia,1
+countries,Colombia,1
+countries,British Guiana,1
+countries,Frances,1
+countries,Spain,1
+countries,Thailand,1
+countries,Sudan,1
+countries,Uzbekistan,1
+countries,New Hampshire,0
+countries,United,0
+countries,Alberta,0
+countries,Bermuda,0
+countries,Winnipeg,0
+countries,Africa,0
+countries,Baja California,0
+countries,Belgians,0
+countries,New York city,0
+countries,western United States,0
+countries,North Yorkshire,0
+countries,West Midlands,0
+countries,FIFA World Cup,0
+countries,Bern,0
+countries,Wyoming,0
+countries,Basque country,0
+countries,commonwealth,0
+countries,Soviet Union,0
+countries,Eindhoven,0
+countries,North Carolina,0
+countries,Walsall,0
+countries,country,0
+countries,Baltic states,0
+countries,Sakhalin island,0
+countries,Valencia,0
+countries,federal government,0
+countries,Baltic region,0
+countries,Andalucia,0
+countries,Korean peninsula,0
+countries,"Eugene , Oregon",0
+countries,Gibraltar,0
+countries,Staffordshire,0
+countries,Newfoundland,0
+countries,Western Australia,0
+countries,Pacific Northwest,0
+countries,Hawaii,0
+countries,Newfoundland and Labrador,0
+countries,Southeast Asia,0
+countries,Sardinia,0
+countries,Benelux,0
+countries,Nottingham,0
+countries,Devon,0
+countries,Sheffield,0
+countries,Moscow,0
+countries,Indiana,0
+countries,New Jersey,0
+countries,Western Canada,0
+countries,Guadalajara,0
+countries,Tennessee,0
+countries,Eastern Europe,0
+countries,Coventry,0
+countries,New Caledonia,0
+countries,Edinburgh,0
+countries,San Luis Potosi,0
+countries,Scandinavia,0
+countries,Liverpool,0
+countries,Utah,0
+countries,Adelaide,0
+countries,Boston,0
+countries,Northern Territory,0
+countries,USSR,0
+countries,1989 Nabisco Grand Prix,0
+countries,Chorzow,0
+countries,Catalonia,0
+countries,Seville,0
+countries,Vatican City,0
+countries,Warwickshire,0
+countries,Europe,0
+countries,Puerto Rico,0
+countries,Merseyside,0
+countries,Western Europe,0
+countries,"St. John 's , Newfoundland",0
+countries,Pennsylvania,0
+countries,Geneva,0
+countries,Chinese Taipei,0
+countries,Arkansas,0
+countries,Aucklands,0
+countries,german,0
+countries,Zealand,0
+countries,Central America,0
+countries,Yorkshire,0
+countries,middle east,0
+countries,states,0
+countries,Cheshire,0
+countries,Nevada,0
+countries,Dusseldorf,0
+countries,Palencia,0
+countries,Strasbourg,0
+countries,Berlin,0
+countries,Lancashire,0
+countries,British Columbia,0
+countries,Hamburg,0
+countries,North Africa,0
+countries,Guam,0
+countries,Palestine,0
+countries,New England,0
+countries,Ottawas,0
+countries,Gloucestershire,0
+countries,North America,0
+countries,Vienna,0
+countries,Greater Sudbury,0
+countries,Torontos,0
+countries,Quebec,0
+countries,Victorias,0
+countries,Bath,0
+countries,"Toronto , Ontario",0
+countries,Oklahoma,0
+countries,South America,0
+countries,Dutchess,0
+countries,West Indies,0
+countries,German Democratic Republic,0
+countries,Southern California,0
+countries,Birmingham,0
+countries,Wiltshire,0
+countries,Vancouver,0
+countries,Latin America,0
+countries,Northern Europe,0
+countries,Toluca,0
+countries,La Paz,0
+countries,Sydney,0
+countries,Georgia,0
+countries,Genoa,0
+countries,Sicily,0
+countries,New Yorks,0
+countries,Hertfordshire,0
+countries,Canary islands,0
+countries,California,0
+countries,Nebraska,0
+countries,Milton Keynes,0
+countries,Iberian peninsula,0
+countries,Vancouver Island,0
+countries,Karlsruhe,0
+countries,Burnley,0
+countries,Buenos Aires,0
+countries,province of A Coruna,0
+countries,Bohemia,0
+countries,Netherlands Antilles,0
+countries,Southern Europe,0
+countries,Central Europe,0
+countries,Oregon,0
+countries,Beijing,0
+countries,Dresden,0
+countries,Pyrenees,0
+countries,Mesopotamia,0
+countries,Newcastle,0
+countries,Kentucky,0
+countries,Frankfurt,0
+countries,Asia,0
+countries,Taiwan,0
+countries,London,0
+countries,Shanghai,0
+countries,Hong Kong,0
+countries,chad,1
+countries,zaire,1
+countries,trinidad and tobago,1
+countries,west africa,0
+countries,"india ,",0
+countries,southern sudan,0
+countries,turkey,1
+countries,east africa,0
+countries,maldives,1
+countries,cote d'ivoire,1
+countries,eritrea,1
+countries,comoros,1
+countries,vietnam,1
+countries,central africa,0
+countries,south africa,1
+countries,dr congo,1
+countries,french congo,0
+countries,france,1
+countries,south jordan,0
+countries,south america,0
+countries,south yemen,0
+countries,saudi arabia,1
+countries,sub saharan africa,0
+countries,neighboring countries,0
+countries,caribbean,0
+countries,french sudan,0
+countries,papua new guinea,1
+countries,african countries,0
+countries,african continent,0
+countries,the philippines,1
+countries,gabon,1
+countries,sierra leone,1
+countries,east timor,1
+countries,serbia and montenegro,1
+countries,east african,0
+countries,neighbouring countries,0
+countries,republic,0
+countries,french india,0
+countries,south lebanon,0
+countries,french guyana,0
+countries,el salvador,1
+countries,zambia,1
+countries,south sudan,0
+countries,west african,0
+countries,congo,1
+countries,dominican republic,1
+countries,french morocco,0
+countries,tonga,1
+countries,southeast asia,0
+countries,french algeria,0
+countries,timor leste,1
+countries,liberia,1
+countries,kyrgyzstan,1
+countries,south east asia,0
+countries,the bahamas,1
+countries,samoa,1
+countries,western africa,0
+countries,southern africa,0
+countries,south india,0
+countries,ethiopian,0
+countries,french guinea,0
+countries,south american,0
+countries,portuguese mozambique,0
+countries,republic of south africa,1
+countries,southern somalia,0
+countries,portuguese india,0
+countries,antilles,0
+countries,eastern europe,0
+countries,cameroon,1
+countries,north yemen,0
+countries,southern lebanon,0
+countries,south asia,0
+countries,belgian congo,0
+countries,western europe,0
+countries,"ontario , canada",0
+countries,south china,0
+countries,south vietnam,0
+countries,martinique,0
+countries,possibly tanzania,0
+countries,puerto rico,0
+countries,netherlands antilles,0
+parties,Christian Democratic Appeal,1
+parties,Communist Refoundation Party,1
+parties,Vlaams Belang,1
+parties,Shiv Sena,1
+parties,Likud,1
+parties,Janata Dal,1
+parties,Herut,1
+parties,Samajwadi Party,1
+parties,Mapam,1
+parties,Fabian Society,0
+parties,Mapai,1
+parties,Shinui,1
+parties,Nepali Congress,1
+parties,Co operative Commonwealth Federation,1
+parties,NCP,1
+parties,pq,0
+parties,Indian National Congress,1
+parties,Croatian Peasant Party,1
+parties,Basque Nationalist Party,1
+parties,Armenian Revolutionary Federation,1
+parties,Radical Civic Union,0
+parties,Meretz,1
+parties,trade union,0
+parties,Union,0
+parties,Moderate Party,1
+parties,Italian Social Movement,1
+parties,United Left,0
+parties,Shas,1
+parties,minor party,0
+parties,Gahal,0
+parties,Trinamool Congress,1
+parties,Pakistan Peoples Party,1
+parties,African National Congress,1
+parties,Parti Keadilan Rakyat,0
+parties,social liberal,1
+parties,Social Democratic Federation,1
+parties,Janatha Vimukthi Peramuna,1
+parties,Bharatiya Lok Dal,1
+parties,DMK,1
+parties,United Malays National Organisation,1
+parties,UKIP,1
+parties,JD,1
+parties,Democratic Left Alliance,0
+parties,Socialist International,0
+parties,Kadima,0
+parties,fascist,0
+parties,Menshevik,0
+parties,SDLP,1
+parties,UMP,1
+parties,Ahdut HaAvoda,0
+parties,SWAPO,1
+parties,Clann na Talmhan,1
+parties,Sovereignty,0
+parties,lebanese Forces,0
+parties,Palestine Liberation Organization,1
+parties,UNITA,0
+parties,South African Communist Party,1
+parties,Pacifist Socialist Party,1
+parties,General Zionists,0
+parties,SPO,1
+parties,RJD,1
+parties,Hamas,0
+parties,PPP,1
+parties,AIADMK,1
+parties,Venstre,0
+parties,SDF,1
+parties,Nasjonal Samling,0
+parties,Forward Bloc,0
+parties,Peronist,0
+parties,UPA,1
+parties,Unionist,1
+parties,Comintern,0
+parties,Liberation Army,0
+parties,Konigsberg,0
+parties,General Election,0
+parties,Essen,0
+parties,Taliban,0
+parties,1885 general election,0
+parties,John McCain,0
+parties,fighters,0
+parties,Gottingen,0
+parties,resistance,0
+parties,Workers,0
+parties,GDR,0
+parties,Communist Party,1
+parties,Karlsruhe,0
+parties,Liberal Democrat,0
+parties,Home Secretary,0
+parties,general election,0
+parties,Imperial Japanese Army,0
+parties,rebel,0
+parties,Left,0
+parties,Banking,0
+parties,stood down,0
+parties,civilians,0
+parties,co-founded,0
+parties,founding member,0
+parties,guerrilla,0
+parties,Liberal,0
+parties,constituency,0
+parties,coup,0
+parties,gubernatorial,0
+parties,Labour Party,1
+parties,communist,1
+parties,Member,0
+parties,candidacy,0
+parties,Chinese Civil War,0
+parties,German forces,0
+parties,Conservative,0
+parties,Chechen,0
+parties,1945 general election,0
+parties,Hillary Clinton,0
+parties,Democrat,0
+parties,subsidiary,0
+parties,Labour,0
+parties,Saxony,0
+parties,Bank,0
+parties,German Democratic Republic,0
+parties,Congressman,0
+parties,ground forces,0
+parties,Baden-Wurttemberg,0
+parties,uprising,0
+parties,und,0
+parties,Bund,0
+parties,armed,0
+parties,Marburg,0
+parties,East Germany,0
+parties,headed,0
+parties,Tory,0
+parties,Commons,0
+parties,Bavarian,0
+parties,ran unsuccessfully,0
+parties,Lords,0
+parties,Workers Party,1
+parties,Weimar,0
+parties,parliamentary,0
+parties,North Rhine-Westphalia,0
+parties,ticket,0
+parties,chaired,0
+parties,president,0
+parties,Republican,0
+parties,Leipzig,0
+parties,Bethnal Green,0
+parties,Thuringia,0
+parties,merged,0
+parties,running mate,0
+parties,Mutual,0
+parties,Cooperative,0
+parties,German,0
+parties,Inc,0
+parties,Representative,0
+parties,presidential candidate,0
+parties,Liberal Party,1
+parties,Nuremberg,0
+parties,Socialist,1
+parties,civil war,0
+parties,Wurttemberg,0
+parties,Saxony-Anhalt,0
+parties,merging,0
+parties,Industries,0
+parties,invading,0
+parties,Committee,0
+parties,Aachen,0
+parties,rebels,0
+parties,Solidarity,0
+parties,nominee,0
+parties,presidential,0
+parties,Erfurt,0
+parties,faction,0
+parties,presidential elections,0
+parties,nationalist,1
+parties,Radical,0
+parties,Munchen,0
+parties,Chiang Kai-shek,0
+parties,candidate,0
+parties,factions,0
+parties,re-election,0
+parties,John Kerry,0
+parties,Progressive Party,0
+parties,Democratic,1
+parties,North Vietnam,0
+parties,branch,0
+parties,nomination,0
+parties,Democratic Party,1
+parties,Richard Nixon,0
+parties,GOP,1
+parties,Republican Party,1
+parties,Red Army,0
+parties,SNP,1
+parties,Freiburg,0
+parties,Nazi Germany,0
+parties,insurgents,0
+parties,Democracy,0
+parties,Communists,0
+parties,Bonn,0
+parties,special election,0
+parties,joined,0
+parties,Conservatives,0
+parties,1918 general election,0
+parties,election,0
+parties,Revolutionary,0
+parties,Dail,0
+parties,Hesse,0
+parties,Alliance,0
+parties,Viet Cong,0
+parties,primaries,0
+parties,Bavaria,0
+parties,reelection,0
+parties,Stuttgart,0
+parties,Mainz,0
+parties,Socialist Party,1
+parties,parliament,0
+parties,MP,0
+parties,revolutionary,0
+parties,Senator,0
+parties,board of directors,0
+parties,reelected,0
+parties,Party,0
+parties,Federation,0
+parties,Dail Eireann,0
+parties,Communist,1
+parties,Lower Saxony,0
+parties,Barack Obama,0
+parties,Brandenburg,0
+parties,Magdeburg,0
+parties,regime,0
+parties,guerrillas,0
+parties,Parliament,0
+parties,1922 general election,0
+parties,British forces,0
+parties,Brotherhood,0
+parties,forces,0
+parties,Conservative Party,1
+parties,Third Reich,0
+parties,Sarah Palin,0
+parties,Berlin,0
+parties,presidential election,0
+parties,Deutsche,0
+parties,Second Sino-Japanese War,0
+parties,Ohio House of Representatives,0
+parties,endorsed,0
+parties,Russian Civil War,0
+parties,Bremen,0
+parties,Vice President,0
+parties,senator,0
+parties,overthrow,0
+parties,Augsburg,0
+parties,political party,0
+parties,Nazi Party,1
+parties,social democratic,1
+parties,United,1
+parties,Party of European Socialists,1
+parties,United Russia,1
+parties,Democrats,1
+parties,Social Democratic Party,1
+parties,conservatives,1
+parties,Democrats of the Left,1
+parties,Reform party,1
+parties,democratic,1
+parties,Democratic Alliance,1
+parties,Manitoba Liberal Party,1
+parties,National Religious Party,1
+parties,Reform Party of Canada,1
+parties,Jacksonian,1
+parties,Conservative party,1
+parties,Social Democratic Party of Germany,1
+parties,Conservative Party of Canada,1
+parties,NDP,1
+parties,Social Democratic and Labour Party,1
+parties,Cooperative Commonwealth Federation,1
+parties,Alberta Liberal Party,1
+parties,Democratic Labor Party,1
+parties,United Australia Party,1
+parties,solidarity,1
+parties,Civic Democratic Party,1
+parties,Democratic Left,1
+parties,Fine Gael,1
+parties,The People of Freedom,1
+parties,Rhodesian Front,1
+parties,Fiji Labour Party,1
+parties,Fianna Fail,1
+parties,Democratic party,1
+parties,Independence party,1
+parties,reformists,1
+parties,PS,1
+parties,independents,1
+parties,socialists,1
+parties,CDU,1
+parties,Country Liberal Party,1
+parties,CVP,1
+parties,liberals,1
+parties,Janata Party,1
+parties,Liberal Democrats,1
+parties,Christian Social Union of Bavaria,1
+parties,national,1
+parties,Liberal Democratic Party,1
+parties,Country Party,1
+parties,republican,1
+parties,Independent Labour Party,1
+parties,British National Party,1
+parties,socialist party,1
+parties,quaker,1
+parties,Socialist Party of America,1
+parties,Liberal party,1
+parties,Liberal Party of Australia,1
+parties,Liberal Party of Canada,1
+parties,National Action Party,1
+parties,Bharatiya Janata Party,1
+parties,Bloc Quebecois,1
+parties,Republican party,1
+parties,Ticino League,1
+parties,Liberal People 's Party,1
+parties,Nazi party,1
+parties,Croatian Democratic Union,1
+parties,Calvinists,1
+parties,Democratic Unionist Party,1
+parties,Liberal Unionists,1
+parties,National Liberal Party,1
+parties,greens,1
+parties,National Democratic Congress,1
+parties,National Alliance,1
+parties,Plaid Cymru,1
+parties,Liberal-Conservative,1
+parties,New Zealand First,1
+parties,Democratic-Republican,1
+parties,Whigs,1
+parties,Whig party,1
+parties,Liberal-Progressive,1
+parties,SVP,1
+parties,People 's Democratic Party,1
+parties,communists,1
+parties,Norwegian Labour Party,1
+parties,New Zealand Labour Party,1
+parties,Ulster Unionists,1
+parties,Ulster Unionist Party,1
+parties,Prawo i Sprawiedliwosc,1
+parties,ChristianUnion,1
+parties,communist party,1
+parties,Spanish Socialist Workers ' Party,1
+parties,Barisan Nasional,1
+parties,SDP,1
+parties,United Kingdom Independence Party,1
+parties,People 's Party,1
+parties,People 's Party for Freedom and Democracy,1
+parties,tories,1
+parties,Australian Democrats,1
+parties,Dravida Munnetra Kazhagam,1
+parties,Union Nationale,1
+parties,Golkar,1
+parties,Progress Party,1
+parties,Communist Party of Canada,1
+parties,American Party,1
+parties,Communist Party of China,1
+parties,progressive,1
+parties,Libertarian,1
+parties,Federalists,1
+parties,Libertarian party,1
+parties,Forza Italia,1
+parties,Progressive Conservatives,1
+parties,Popular Front,1
+parties,Progressive Conservative party,1
+parties,Ontario Liberal Party,1
+parties,Progressive Conservative Party of Canada,1
+parties,Communist Party of Germany,1
+parties,Communist Party of India ( Marxist ),1
+parties,Progressive Conservative Party of Ontario,1
+parties,Ontario New Democratic Party,1
+parties,Communist Party of Great Britain,1
+parties,Socialist Workers Party,1
+parties,Progressive Democrats,1
+parties,New Democracy,1
+parties,New Democratic,1
+parties,New Democratic Party,1
+parties,Australian Greens,1
+parties,Progressives Party,1
+parties,Co-operative Commonwealth Federation,1
+parties,populist,1
+parties,Militant tendency,1
+parties,Irish Labour Party,1
+parties,National Front,1
+parties,Prohibition Party,1
+parties,Action democratique du Quebec,1
+parties,United National Party,1
+parties,Parti Quebecois,1
+parties,social democrats,1
+parties,Centre Party,1
+parties,Australian Labor Party,1
+parties,Green party,1
+parties,Christian Democracy,1
+parties,Sinn Fein,1
+parties,Christian Democrats,1
+parties,Irish Parliamentary Party,1
+parties,Green Party of Canada,1
+parties,Green Party of England and Wales,1
+parties,Law and Justice,1
+parties,Chartists,1
+parties,Methodists,1
+parties,Sri Lanka Freedom Party,1
+parties,Christian Democratic party,1
+parties,Federalist party,1
+parties,Christian Democratic Union,1
+parties,Maoists,1
+parties,Panhellenic Socialist Movement,1
+parties,Constitution Party,1
+parties,Scottish National Party,1
+parties,FDP,1
+parties,German Democratic Party,1
+parties,BJP,1
+parties,Quebec Liberal Party,1
+parties,Maoris,1
+parties,Italian Communist Party,1
+parties,One Nation,1
+parties,sp,1
+parties,National party,1
+parties,Workers ' Party,1
+parties,National Party of Australia,1
+parties,Left Party,1
+parties,Alliance ' 90/The Greens,1
+parties,European People 's Party,1
+parties,VVD,1
+parties,Hungarian Socialist Party,1
+parties,radicals,1
+parties,SPD,1
+parties,unionists,1
+parties,Scottish Socialist Party,1
+parties,Unionist Party,1
+parties,labor,1
+parties,Justicialist Party,1
+parties,nationalists,1
+parties,Alliance Party,1
+parties,GreenLeft,1
+parties,French Communist Party,1
+parties,Nationalist Party,1
+parties,Labor party,1
+parties,Italian Republican Party,1
+parties,Canadian Alliance,1
+parties,FPO,1
+parties,labor unions,1
+parties,SPS,1
+parties,Cumann na nGaedheal,1
+parties,Lega Nord,1
+parties,Kuomintang,1
+parties,Italian Socialist Party,1
+parties,labour,1
+parties,CSP,1
+parties,Northern Ireland Labour Party,1
+parties,Labour party,1
+parties,Congress party,1
+parties,CCF,1
+parties,Social Credit party,1
+parties,Social Credit Party of Canada,1
+parties,Reform,1
+parties,Rashtriya Janata Dal,1
+parties,Speaker of the House,0
+parties,Speakers of the House of Commons,0
+parties,American Association for the Advancement of Science,0
+parties,James Madison,0
+parties,Buffalo Sabres,0
+parties,Philadelphia 76ers,0
+parties,1997 general election,0
+parties,American Astronomical Society,0
+parties,Canadian House of Commons,0
+parties,Enoch Powell,0
+parties,Wilfrid Laurier,0
+parties,Prime Minister of the United Kingdom,0
+parties,American Bar Association,0
+parties,Philadelphia Flyers,0
+parties,2011 election,0
+parties,New Jersey Devils,0
+parties,Detroit Pistons,0
+parties,Charles Kennedy,0
+parties,Detroit Red Wings,0
+parties,British Academy,0
+parties,New Jersey Nets,0
+parties,Jean Charest,0
+parties,Jewish-American,0
+parties,Indiana Pacers,0
+parties,1975 elections,0
+parties,British army,0
+parties,Ontario legislature,0
+parties,secretary of state,0
+parties,1921 federal election,0
+parties,Harold Wilson,0
+parties,Carolina Hurricanes,0
+parties,Ramsay Macdonald,0
+parties,by-election,0
+parties,1977 elections,0
+parties,members,0
+parties,Southern Baptist Convention,0
+parties,members of parliament,0
+parties,Members of Provincial Parliament,0
+parties,Quebec Major Junior Hockey League,0
+parties,French Academy of Sciences,0
+parties,Washington Capitals,0
+parties,Pittsburgh Penguins,0
+parties,Jack Layton,0
+parties,Ottawa Senators,0
+parties,trade unions,0
+parties,Central Committee,0
+parties,Gary Filmon,0
+parties,2006 federal elections,0
+parties,American Historical Association,0
+parties,Chancellors of the Exchequer,0
+parties,1979 federal election,0
+parties,1979 general election,0
+parties,British House of Commons,0
+parties,barrister,0
+parties,1931 general election,0
+parties,Greenpeace,0
+parties,Zanu-PF,0
+parties,Kansas City Royals,0
+parties,Ernie Eves,0
+parties,Norwegians,0
+parties,Nature Conservancy,0
+parties,National Academy of Sciences,0
+parties,National Academy of Design,0
+parties,National Academy of Engineering,0
+parties,1935 general election,0
+parties,1935 elections,0
+parties,Minnesota North Stars,0
+parties,American Mathematical Society,0
+parties,Lord John Russell,0
+parties,American Museum of Natural History,0
+parties,John Quincy Adams,0
+parties,Protestants,0
+parties,Colorado Avalanche,0
+parties,American Philosophical Society,0
+parties,Thomas Jefferson,0
+parties,American Physical Society,0
+parties,cabinets,0
+parties,Tampa Bay Lightning,0
+parties,Roman Catholic church,0
+parties,National Association of Evangelicals,0
+parties,1984 federal elections,0
+parties,British and Foreign Bible Society,0
+parties,Edward Schreyer,0
+parties,Episcopalians,0
+parties,Kim Campbell,0
+parties,San Antonio Spurs,0
+parties,MPs,0
+parties,Baptists,0
+parties,premier,0
+parties,Royal College of Surgeons,0
+parties,Toronto Maple Leafs,0
+parties,Atlanta Falcons,0
+parties,Atlanta Hawks,0
+parties,Mensheviks,0
+parties,American Statistical Association,0
+parties,Atlanta Thrashers,0
+parties,Hanseatic league,0
+parties,Ohio Senate,0
+parties,London Assembly,0
+parties,1987 elections,0
+parties,Jacksonville Jaguars,0
+parties,Royal Geographical Society,0
+parties,presbyterian,0
+parties,Romanian Academy,0
+parties,Legislative Assembly of Manitoba,0
+parties,2000 federal elections,0
+parties,Legislative Assembly of Ontario,0
+parties,Legislative Council,0
+parties,lawyers,0
+parties,Royal Institute of British Architects,0
+parties,Provisional Irish Republican Army,0
+parties,New York Islanders,0
+parties,judge,0
+parties,New York Jets,0
+parties,Columbus Blue Jackets,0
+parties,New York Knicks,0
+parties,state senate,0
+parties,opposition,0
+parties,Boston Bruins,0
+parties,Boston Celtics,0
+parties,Council on Foreign Relations,0
+parties,New York Rangers,0
+parties,councillor,0
+parties,1990 provincial election,0
+parties,Dutchess,0
+parties,Phoenix Coyotes,0
+parties,Dallas Mavericks,0
+parties,alliance,0
+parties,John C. Calhoun,0
+parties,Vancouver Canucks,0
+parties,Dallas Stars,0
+parties,U.S. House of Representatives,0
+parties,parliaments,0
+parties,Australian Senate,0
+parties,Phoenix Suns,0
+parties,United States House of Representatives,0
+parties,Congregationalists,0
+parties,Social Credit,0
+parties,United States National Academy of Sciences,0
+parties,Edmonton Oilers,0
+parties,Movement for Democratic Change,0
+parties,1963 elections,0
+parties,incumbent,0
+parties,Royal Society of Arts,0
+parties,Royal Society of Canada,0
+parties,Milwaukee Bucks,0
+parties,San Jose Sharks,0
+parties,Royal Swedish Academy of Sciences,0
+parties,senate,0
+parties,Democratic National Committee,0
+parties,Seattle Seahawks,0
+parties,1964 general election,0
+parties,attorney general,0
+parties,socialism,0
+parties,Los Angeles Clippers,0
+parties,Mike Harris,0
+parties,William Ewart Gladstone,0
+parties,David Owen,0
+parties,senators,0
+parties,Seventh-day Adventist Church,0
+parties,Institut de France,0
+parties,Austrian Academy of Sciences,0
+parties,United States Senate,0
+parties,1993 elections,0
+parties,Los Angeles Kings,0
+parties,Los Angeles Lakers,0
+parties,House of Lords,0
+parties,Houses of Commons,0
+parties,2004 federal elections,0
+parties,H. H. Asquith,0
+parties,Institute of Medicine,0
+parties,Association for Computing Machinery,0
+parties,House of Representatives,0
+parties,privy council,0
+parties,1892,0
+parties,Stanley Baldwin,0
+parties,Calgary Flames,0
+parties,1895,0
+parties,Robert Borden,0
+parties,John Major,0
+parties,Nashville Predators,0
+parties,Society of the Cincinnati,0
+parties,1995 provincial election,0
+parties,Alexander Hamilton,0
+parties,National Physical Laboratory,0
+parties,Montreal Canadiens,0
+parties,William Hague,0
+parties,Houston Oilers,0
+parties,Chicago Blackhawks,0
+parties,party,0
+parties,American Academy of Arts and Letters,0
+parties,American Academy of Arts and Sciences,0
+parties,2005 general elections,0
+parties,green party,1
+parties,european green party,1
+parties,german green party,1
+parties,people 's party,1
+parties,alliance party,1
+parties,labour party,1
+parties,united socialist party,1
+parties,national democratic party,1
+parties,social democrat,1
+parties,national socialist party,1
+parties,national front,1
+parties,national alliance,1
+parties,liberal democratic party,1
+parties,progressive party,1
+parties,democratic socialist party,1
+parties,united national party,1
+parties,national party,1
+parties,christian democrats,1
+parties,democratic labour party,1
+parties,national liberal party,1
+parties,new democratic party,1
+parties,democratic alliance,1
+parties,european democratic party,1
+parties,epp,1
+parties,christian democratic party,1
+parties,scottish green party,1
+parties,governing coalition,0
+parties,liberal party,1
+parties,conservative party,1
+parties,liberal national party,1
+parties,independence party,1
+parties,independent labour party,1
+parties,democratic liberal party,1
+parties,pvda,0
+parties,democratic party,1
+parties,political parties,0
+parties,national alliance party,1
+parties,right wing,0
+parties,progressive socialist party,1
+parties,democratic progressive party,1
+parties,coalition government,1
+parties,german democratic party,1
+parties,liberal conservative party,1
+parties,democratic labor party,1
+parties,nationalist party,0
+parties,ruling party,0
+parties,civic democratic party,1
+parties,british national party,1
+parties,green movement,0
+parties,freedom party,1
+parties,socialist left party,1
+parties,british socialist party,1
+parties,national coalition party,1
+parties,free democratic party,1
+parties,progressive conservative party,1
+parties,opposition parties,0
+parties,social liberal party,1
+parties,reform party,1
+parties,left wing,0
+parties,liberal conservative,1
+parties,green parties,1
+parties,united federal party,1
+parties,socialist political party,1
+parties,social democratic and labour party,1
+parties,main opposition party,1
+parties,workers ' party,1
+parties,socialist workers party,1
+parties,popular democratic party,1
+parties,european parliament,0
+parties,socialist unity party,1
+parties,green,0
+parties,labor party,1
+parties,liberal parties,0
+parties,australian greens,1
+parties,national christian party,1
+parties,party list,0
+parties,scottish socialist party,1
+parties,parliamentary leader,0
+parties,centre party,1
+parties,workers party,1
+parties,deputy leader,0
+parties,left party,0
+parties,ruling coalition,0
+parties,socialist labor party,1
+parties,national labor party,1
+parties,bloc,0
+parties,one nation,0
+parties,liberal political party,1
+parties,national republican party,1
+parties,social democratic labour party,1
+parties,alp,0
+parties,parliamentary party,1
+parties,independent,0
+parties,jorg haider,0
+parties,civic party,1
+parties,republican socialist party,1
+parties,social democratic political party,1
+parties,german social democratic party,1
+parties,electoral alliance,1
+parties,national unity,1
+parties,democratic republican party,1
+parties,democratic union,1
+parties,cda,1
+parties,democratic society party,1
+parties,national action party,1
+parties,democratic action party,1
+parties,freedom socialist party,1
+parties,green league,1
+parties,european political party,1
+parties,opposition party,1
+parties,labour union,1
+parties,scottish national party,1
+parties,ecological democratic party,1
+parties,norwegian labour party,1
+parties,democrats of the left,1
+parties,united democratic movement,1
+parties,christian democratic,1
+parties,national independence party,1
+parties,scottish labour party,1
+parties,united australia party,1
+parties,italian socialist party,1
+parties,united kingdom independence party,1
+parties,splinter group,1
+parties,united development party,1
+parties,labour movement,0
+parties,single party,0
+parties,democratic socialist,0
+parties,alternative democratic reform party,1
+parties,social democracy,0
+parties,australian labor party,1
+parties,french socialist party,1
+parties,national democratic alliance,1
+parties,opposition leader,0
+parties,national assembly,0
+parties,reform party of canada,1
+parties,national socialist movement,0
+parties,new zealand labour party,1
+parties,federal new democratic party,1
+parties,caucus,0
+parties,progress party,1
+parties,assembly,0
+parties,local elections,0
+parties,fiji labour party,1
+parties,christian democratic union,1
+parties,japan socialist party,1
+parties,political alliance,0
+parties,american independent party,1
+parties,landslide,0
+parties,christian democrat,0
+parties,liberal reformist party,1
+parties,clp,0
+parties,scottish conservative party,1
+parties,progressive federal party,1
+parties,radical party,1
+parties,italian communist party,1
+parties,swedish social democratic party,1
+parties,french communist party,1
+parties,united national movement,0
+parties,peace and democracy party,1
+parties,italian democratic socialist party,1
+parties,social democratic party of germany,1
+parties,ontario new democratic party,1
+parties,parliamentary labour party,1
+parties,pro independence,0
+parties,national federation party,1
+sportsleagues,Ontario Hockey Association,0
+sportsleagues,EHL,1
+sportsleagues,USL Second Division,1
+sportsleagues,Elitserien,1
+sportsleagues,af2,1
+sportsleagues,SM liiga,1
+sportsleagues,Swedish Elitserien,1
+sportsleagues,OHA,0
+sportsleagues,HockeyAllsvenskan,0
+sportsleagues,Atlantic Coast Hockey League,1
+sportsleagues,SM Liiga,1
+sportsleagues,Manitoba Junior Hockey League,1
+sportsleagues,European Super League,1
+sportsleagues,Elite Ice Hockey League,1
+sportsleagues,UAAP,0
+sportsleagues,Western Athletic Conference,0
+sportsleagues,United Soccer Association,0
+sportsleagues,Big East Conference,0
+sportsleagues,UEFA Cup,0
+sportsleagues,Portuguese Liga,1
+sportsleagues,Ivy League,0
+sportsleagues,Big 12 Conference,0
+sportsleagues,Welsh Rugby Union,0
+sportsleagues,Turkish Super Lig,1
+sportsleagues,PBL,1
+sportsleagues,United States Soccer Federation,0
+sportsleagues,Mid American Conference,0
+sportsleagues,2nd Bundesliga,1
+sportsleagues,IPL,1
+sportsleagues,Colonial Athletic Association,0
+sportsleagues,Western Collegiate Hockey Association,0
+sportsleagues,W League,1
+sportsleagues,Conference USA,0
+sportsleagues,Atlantic 10 Conference,0
+sportsleagues,WCHL,1
+sportsleagues,WFL,1
+sportsleagues,Roller Hockey International,0
+sportsleagues,Mountain West Conference,0
+sportsleagues,San Miguel Beermen,0
+sportsleagues,Big Sky Conference,0
+sportsleagues,Minnesota Fighting Saints,0
+sportsleagues,all Star,0
+sportsleagues,PCHA,0
+sportsleagues,Central Collegiate Hockey Association,0
+sportsleagues,Pacific 10 Conference,0
+sportsleagues,playoff,0
+sportsleagues,Southwest Conference,0
+sportsleagues,Memorial Cup,0
+sportsleagues,Big East,0
+sportsleagues,Russian Super League,1
+sportsleagues,WAC,0
+sportsleagues,Scottish Cup,0
+sportsleagues,Sun Belt Conference,0
+sportsleagues,Serie C,1
+sportsleagues,NCAA Division III,1
+sportsleagues,West Coast Conference,0
+sportsleagues,Eastern College Athletic Conference,0
+sportsleagues,Mountain West,0
+sportsleagues,SEC,0
+sportsleagues,Southeastern Conference,0
+sportsleagues,Horizon League,1
+sportsleagues,big 12 Conference,0
+sportsleagues,Challenge Cup,0
+sportsleagues,Dutch Eredivisie,1
+sportsleagues,now defunct,0
+sportsleagues,USBL,1
+sportsleagues,RSL,1
+sportsleagues,Football Alliance,0
+sportsleagues,Missouri Valley Conference,0
+sportsleagues,National Collegiate Athletic Association,0
+sportsleagues,Chevrolet,0
+sportsleagues,Gremio,0
+sportsleagues,White Sox,0
+sportsleagues,effort,0
+sportsleagues,is an urban-rural gmina,0
+sportsleagues,Bears,0
+sportsleagues,40th,0
+sportsleagues,affiliate,0
+sportsleagues,Double-A,0
+sportsleagues,Juventus,0
+sportsleagues,Islanders,0
+sportsleagues,North Carolina,0
+sportsleagues,Washington Senators,0
+sportsleagues,former Australian rules footballer,0
+sportsleagues,Livorno,0
+sportsleagues,NL,1
+sportsleagues,pennant,0
+sportsleagues,progressed,0
+sportsleagues,Lazio,0
+sportsleagues,no-hitter,0
+sportsleagues,culminated,0
+sportsleagues,coup,0
+sportsleagues,strikeouts,0
+sportsleagues,drivers,0
+sportsleagues,Renault,0
+sportsleagues,Fiorentina,0
+sportsleagues,FIA,0
+sportsleagues,retired professional ice hockey player,0
+sportsleagues,Big Ten,0
+sportsleagues,Triple-A,0
+sportsleagues,millennium,0
+sportsleagues,25th,0
+sportsleagues,Racing,0
+sportsleagues,AL,0
+sportsleagues,motorcycle,0
+sportsleagues,Florida Panthers,0
+sportsleagues,chassis,0
+sportsleagues,Drivers,0
+sportsleagues,Serie,0
+sportsleagues,pushed,0
+sportsleagues,Kontinental Hockey League,0
+sportsleagues,Perugia,0
+sportsleagues,within Ketrzyn County,0
+sportsleagues,Genoa,0
+sportsleagues,Cruzeiro,0
+sportsleagues,defenceman,0
+sportsleagues,Lincoln Center,0
+sportsleagues,Mets,0
+sportsleagues,Vitoria,0
+sportsleagues,Reconstruction,0
+sportsleagues,raced,0
+sportsleagues,dynasties,0
+sportsleagues,Treviso,0
+sportsleagues,Red Sox,0
+sportsleagues,Dynasty,0
+sportsleagues,Ferrari,0
+sportsleagues,F1,0
+sportsleagues,motor racing,0
+sportsleagues,Bologna,0
+sportsleagues,Napoli,0
+sportsleagues,culmination,0
+sportsleagues,driver,0
+sportsleagues,Udinese,0
+sportsleagues,home run,0
+sportsleagues,All-America,0
+sportsleagues,pitching,0
+sportsleagues,Southeastern,0
+sportsleagues,Cubs,0
+sportsleagues,junta,0
+sportsleagues,northern Poland,0
+sportsleagues,Porto,0
+sportsleagues,AC Milan,0
+sportsleagues,Roll Hall of Fame,0
+sportsleagues,Sampdoria,0
+sportsleagues,advances,0
+sportsleagues,Mobile,0
+sportsleagues,showcase,0
+sportsleagues,Serie C2,0
+sportsleagues,shortstop,0
+sportsleagues,Honda,0
+sportsleagues,Warmian-Masurian Voivodeship,0
+sportsleagues,24th,0
+sportsleagues,tense,0
+sportsleagues,pitcher,0
+sportsleagues,baseball team,0
+sportsleagues,Vicenza,0
+sportsleagues,winners,0
+sportsleagues,106,0
+sportsleagues,Piacenza,0
+sportsleagues,Dodgers,0
+sportsleagues,Qin,0
+sportsleagues,NASCAR,1
+sportsleagues,spring training,0
+sportsleagues,retired Canadian,0
+sportsleagues,b,0
+sportsleagues,allocated,0
+sportsleagues,race,0
+sportsleagues,CART,0
+sportsleagues,Suharto,0
+sportsleagues,Sauber,0
+sportsleagues,Maserati,0
+sportsleagues,50th,0
+sportsleagues,Asheville,0
+sportsleagues,Louis Cardinals,0
+sportsleagues,Han Dynasty,0
+sportsleagues,ERA,0
+sportsleagues,Pescara,0
+sportsleagues,Freshman,0
+sportsleagues,minor league baseball,1
+sportsleagues,an Australian rules footballer,0
+sportsleagues,Tuscaloosa,0
+sportsleagues,Coppa Italia,0
+sportsleagues,Truck,0
+sportsleagues,Calcio,0
+sportsleagues,Mercedes-Benz,0
+sportsleagues,Nurburgring,0
+sportsleagues,A.S.,0
+sportsleagues,Alfa Romeo,0
+sportsleagues,Palermo,0
+sportsleagues,59th,0
+sportsleagues,Cagliari,0
+sportsleagues,Anaheim Ducks,0
+sportsleagues,home runs,0
+sportsleagues,Washington Nationals,0
+sportsleagues,Aston Martin,0
+sportsleagues,defenseman,0
+sportsleagues,minor league,0
+sportsleagues,staging,0
+sportsleagues,RBI,0
+sportsleagues,phases,0
+sportsleagues,21st century,0
+sportsleagues,Internazionale,0
+sportsleagues,ice hockey,0
+sportsleagues,49th,0
+sportsleagues,Indy,0
+sportsleagues,Torino,0
+sportsleagues,BMW,0
+sportsleagues,Final,0
+sportsleagues,stages,0
+sportsleagues,Flamengo,0
+sportsleagues,24 Hours of Le Mans,0
+sportsleagues,kowo,0
+sportsleagues,Grand Prix,0
+sportsleagues,racing,0
+sportsleagues,Yankees,0
+sportsleagues,A.C.,0
+sportsleagues,car,0
+sportsleagues,nominees,0
+sportsleagues,Raleigh,0
+sportsleagues,Atalanta,0
+sportsleagues,Real Zaragoza,0
+sportsleagues,sports car,0
+sportsleagues,progress,0
+sportsleagues,National League,0
+sportsleagues,farm team,0
+sportsleagues,Awards,0
+sportsleagues,Indian Premier League,1
+sportsleagues,Central Hockey League,1
+sportsleagues,Isthmian League,1
+sportsleagues,Major League Lacrosse,1
+sportsleagues,Major League Soccer,1
+sportsleagues,Essendon Football Club,1
+sportsleagues,Isthmian League Premier Division,1
+sportsleagues,Hanseatic league,1
+sportsleagues,American Indoor Soccer Association,1
+sportsleagues,Super League,1
+sportsleagues,United Soccer Leagues,1
+sportsleagues,Queensland Cup,1
+sportsleagues,Super League Greece,1
+sportsleagues,Pacific Coast Hockey Association,1
+sportsleagues,Pacific Coast League,1
+sportsleagues,Southern Leagues,1
+sportsleagues,Auckland Rugby League,1
+sportsleagues,Northern League,1
+sportsleagues,Continental Basketball Association,1
+sportsleagues,Jupiler League,1
+sportsleagues,American Association,1
+sportsleagues,Indoor Football League,1
+sportsleagues,Canadian Football League,1
+sportsleagues,Yugoslav First League,1
+sportsleagues,Rugby Football League,1
+sportsleagues,Soviet Top League,1
+sportsleagues,Central League,1
+sportsleagues,Lebanese Basketball League,1
+sportsleagues,Continental Indoor Football League,1
+sportsleagues,Continental Indoor Soccer League,1
+sportsleagues,Danish Superliga,1
+sportsleagues,Alpha Ethniki,1
+sportsleagues,National Rugby League,1
+sportsleagues,Olympic games,1
+sportsleagues,Argentine Primera Division,1
+sportsleagues,New York-Penn League,1
+sportsleagues,Elite League,1
+sportsleagues,Canadian Hockey League,1
+sportsleagues,California League,1
+sportsleagues,National Lacrosse League,1
+sportsleagues,Women 's Football Alliance,1
+sportsleagues,International Hockey League,1
+sportsleagues,American League,1
+sportsleagues,FA Premier League,1
+sportsleagues,Aba,1
+sportsleagues,AFL,1
+sportsleagues,WAFL,1
+sportsleagues,Victorian Football Association,1
+sportsleagues,Victorian Football Leagues,1
+sportsleagues,American League East,1
+sportsleagues,Atlantic League,1
+sportsleagues,Professional Arena Soccer League,1
+sportsleagues,Cuban National Series,1
+sportsleagues,American Bar Association,1
+sportsleagues,USFL,1
+sportsleagues,Northern Premier League Premier Division,1
+sportsleagues,Ligue 1,1
+sportsleagues,ECHL,1
+sportsleagues,American Basketball Association,1
+sportsleagues,American League West,1
+sportsleagues,British National League,1
+sportsleagues,Women 's National Basketball Association,1
+sportsleagues,American Basketball League,1
+sportsleagues,Women 's National Basketball League,1
+sportsleagues,national league,1
+sportsleagues,Victorian Premier League,1
+sportsleagues,USHL,1
+sportsleagues,Federal League,1
+sportsleagues,USISL,1
+sportsleagues,Women 's Premier Soccer League,1
+sportsleagues,NFL,1
+sportsleagues,National Soccer League,1
+sportsleagues,USL First Division,1
+sportsleagues,English Premiership,1
+sportsleagues,Austrian Football Bundesliga,1
+sportsleagues,USL Premier Development League,1
+sportsleagues,Primera Division,1
+sportsleagues,United Football League,1
+sportsleagues,Union Association,1
+sportsleagues,WBC,1
+sportsleagues,NFL Europe,1
+sportsleagues,NFL Europa,1
+sportsleagues,Primera Division de Mexico,1
+sportsleagues,NRL,1
+sportsleagues,Western Canada Hockey League,1
+sportsleagues,United Hockey League,1
+sportsleagues,Welsh Premier League,1
+sportsleagues,Allsvenskan,1
+sportsleagues,Big Ten Conference,1
+sportsleagues,International League,1
+sportsleagues,Swiss Super League,1
+sportsleagues,New Zealand Football Championship,1
+sportsleagues,Texas League,1
+sportsleagues,QMJHL,1
+sportsleagues,NASL,1
+sportsleagues,Eredivisie,1
+sportsleagues,Players ' League,1
+sportsleagues,SM-liiga,1
+sportsleagues,NSL,1
+sportsleagues,Bundesliga,1
+sportsleagues,New South Wales Rugby League,1
+sportsleagues,New South Wales Rugby Football League premiership,1
+sportsleagues,AHL,1
+sportsleagues,CFL,1
+sportsleagues,A-league,1
+sportsleagues,Premier Development League,1
+sportsleagues,Russian Superleague,1
+sportsleagues,Premier Division,1
+sportsleagues,UEFA,1
+sportsleagues,Maltese Premier League,1
+sportsleagues,LKL,1
+sportsleagues,World Football League,1
+sportsleagues,Uefa Champions League,1
+sportsleagues,Conference National,1
+sportsleagues,Eastern League,1
+sportsleagues,EIHL,1
+sportsleagues,NBA,1
+sportsleagues,MLS,1
+sportsleagues,Canadian Soccer League,1
+sportsleagues,Conference South,1
+sportsleagues,Norwegian Premier League,1
+sportsleagues,MLB,1
+sportsleagues,Formula One,1
+sportsleagues,NSWRL Premier League,1
+sportsleagues,Ontario Hockey League,1
+sportsleagues,NBA D-League,1
+sportsleagues,Appalachian League,1
+sportsleagues,NBA Development League,1
+sportsleagues,La Liga,1
+sportsleagues,Midwest League,1
+sportsleagues,IHL,1
+sportsleagues,Israeli Premier League,1
+sportsleagues,World Hockey Association,1
+sportsleagues,East Coast Hockey League,1
+sportsleagues,British Basketball League,1
+sportsleagues,Minor league baseball,1
+sportsleagues,Australian Football League,1
+sportsleagues,Leagues One,1
+sportsleagues,KHL,1
+sportsleagues,Nippon Professional Baseball,1
+sportsleagues,League Two,1
+sportsleagues,Co-operative Championship,1
+sportsleagues,National Football league,1
+sportsleagues,Magners League,1
+sportsleagues,American Professional Soccer League,1
+sportsleagues,W-League,1
+sportsleagues,NHL,1
+sportsleagues,Western Hockey League,1
+sportsleagues,VFA,1
+sportsleagues,VFL,1
+sportsleagues,World League of American Football,1
+sportsleagues,Scottish Football League,1
+sportsleagues,WHA,1
+sportsleagues,Pioneer League,1
+sportsleagues,WHL,1
+sportsleagues,VFL/AFL,1
+sportsleagues,Negro league baseball,1
+sportsleagues,Negro leagues,1
+sportsleagues,CHL,1
+sportsleagues,UFC,1
+sportsleagues,All-America Football Conference,1
+sportsleagues,Ekstraklasa,1
+sportsleagues,Carolina League,1
+sportsleagues,Champions league,1
+sportsleagues,The Football League,1
+sportsleagues,League of Ireland,1
+sportsleagues,Lancashire League,1
+sportsleagues,XFL,1
+sportsleagues,CBA,1
+sportsleagues,Gulf Coast League,1
+sportsleagues,Western League,1
+sportsleagues,Scottish league,1
+sportsleagues,Southern Association,1
+sportsleagues,Arena Football League,1
+sportsleagues,Ukrainian Premier League,1
+sportsleagues,K-league,1
+sportsleagues,Golden Baseball League,1
+sportsleagues,NBDL,1
+sportsleagues,NBL,1
+sportsleagues,European Cups,1
+sportsleagues,Quebec Major Junior Hockey League,1
+sportsleagues,West Australian Football League,1
+sportsleagues,World Series,1
+sportsleagues,American Football Conference,1
+sportsleagues,American Football League,1
+sportsleagues,Kent League,1
+sportsleagues,National Basketball Association,1
+sportsleagues,Iba,1
+sportsleagues,Scottish Premier League,1
+sportsleagues,national basketball league,1
+sportsleagues,American Soccer League,1
+sportsleagues,North American Soccer League,1
+sportsleagues,NCAA,1
+sportsleagues,Mexican League,1
+sportsleagues,Philippine Basketball Association,1
+sportsleagues,football league,1
+sportsleagues,Serie A,1
+sportsleagues,Australian rugby league,1
+sportsleagues,Football League Championship,1
+sportsleagues,United States Football League,1
+sportsleagues,Scottish Second Division,1
+sportsleagues,Football League Two,1
+sportsleagues,WNBA,1
+sportsleagues,Serie B,1
+sportsleagues,Football League Fourth Division,1
+sportsleagues,Football Leagues One,1
+sportsleagues,National Hockey Association,1
+sportsleagues,Football League Third Division,1
+sportsleagues,South Atlantic League,1
+sportsleagues,Serie C1,1
+sportsleagues,National Hockey League,1
+sportsleagues,Northwest League,1
+sportsleagues,Serie D,1
+sportsleagues,SANFL,1
+sportsleagues,United States Hockey League,1
+sportsleagues,OHL,1
+sportsleagues,premier league,1
+sportsleagues,Florida State League,1
+sportsleagues,Nationalliga A,1
+sportsleagues,National Premier Soccer League,1
+sportsleagues,Lega Pro Prima Divisione,1
+sportsleagues,Liga I,1
+sportsleagues,National Hurling League,1
+sportsleagues,American Hockey League,1
+sportsleagues,South Australian National Football League,1
+sportsleagues,New York - Penn League,1
+sportsleagues,National Professional Soccer League,1
+sportsleagues,Major Indoor Soccer League,1
+sportsleagues,National Indoor Football League,1
+sportsleagues,Celtic League,1
+sportsleagues,Southern Football League,1
+sportsleagues,Western Soccer Alliance,1
+sportsleagues,Premier Soccer League,1
+sportsleagues,major league baseball,1
+sportsleagues,Basketball Association of America,1
+sportsleagues,second division,0
+sportsleagues,Buffalo Bills,0
+sportsleagues,Chicago Fire,0
+sportsleagues,Party of European Socialists,0
+sportsleagues,Buffalo Bisons,0
+sportsleagues,Newcastle United,0
+sportsleagues,St. Louis Blues,0
+sportsleagues,Buffalo Braves,0
+sportsleagues,St. Louis Cardinals,0
+sportsleagues,American Association for the Advancement of Science,0
+sportsleagues,1973,0
+sportsleagues,grand final,0
+sportsleagues,NAIA,0
+sportsleagues,Buffalo Sabres,0
+sportsleagues,California Golden Seals,0
+sportsleagues,Philadelphia 76ers,0
+sportsleagues,St. Louis Hawks,0
+sportsleagues,Jewish,0
+sportsleagues,FA cup,0
+sportsleagues,St. Louis Rams,0
+sportsleagues,Northern Premier League Division One North,0
+sportsleagues,Philadelphia Eagles,0
+sportsleagues,1974,0
+sportsleagues,Philadelphia Flyers,0
+sportsleagues,Chicago White Sox,0
+sportsleagues,Dominican Republic,0
+sportsleagues,Nascar,0
+sportsleagues,Chicago Wolves,0
+sportsleagues,Detroit Lions,0
+sportsleagues,Boy Scouts of America,0
+sportsleagues,Philadelphia Phillies,0
+sportsleagues,Mid-American Conference,0
+sportsleagues,New Jersey Devils,0
+sportsleagues,1975,0
+sportsleagues,Detroit Pistons,0
+sportsleagues,Detroit Red Wings,0
+sportsleagues,Bahamas,0
+sportsleagues,British Academy,0
+sportsleagues,New Jersey Nets,0
+sportsleagues,Cronulla-Sutherland Sharks,0
+sportsleagues,Minister of Health,0
+sportsleagues,Green Bay Packers,0
+sportsleagues,Sheffield Shield,0
+sportsleagues,Detroit Tigers,0
+sportsleagues,BC Lions,0
+sportsleagues,Philadelphia Wings,0
+sportsleagues,Texas Rangers,0
+sportsleagues,Indiana Pacers,0
+sportsleagues,international,0
+sportsleagues,University of Cambridge,0
+sportsleagues,University of Paris,0
+sportsleagues,scottish,0
+sportsleagues,1976,0
+sportsleagues,Grand Rapids Griffins,0
+sportsleagues,British army,0
+sportsleagues,first division,0
+sportsleagues,The Sporting News,0
+sportsleagues,Indianapolis,0
+sportsleagues,Wests Tigers,0
+sportsleagues,top division,0
+sportsleagues,UEFA Super Cup,0
+sportsleagues,Indianapolis Colts,0
+sportsleagues,Deutsche Eishockey Liga,0
+sportsleagues,Scottish First Division,0
+sportsleagues,Collingwood Football Club,0
+sportsleagues,Carolina Hurricanes,0
+sportsleagues,Carolina Panthers,0
+sportsleagues,championships,0
+sportsleagues,Methodists,0
+sportsleagues,Division I-A,0
+sportsleagues,American Federation of Labor,0
+sportsleagues,Wilkes-Barre/Scranton Penguins,0
+sportsleagues,University of Arizona,0
+sportsleagues,University of Texas at Austin,0
+sportsleagues,Pittsburgh Hornets,0
+sportsleagues,Quebec Nordiques,0
+sportsleagues,American Football Coaches Association,0
+sportsleagues,Washington Bullets,0
+sportsleagues,Washington Capitals,0
+sportsleagues,Republic of Ireland,0
+sportsleagues,Pittsburgh Penguins,0
+sportsleagues,Ottawa Renegades,0
+sportsleagues,Pittsburgh Pirates,0
+sportsleagues,Ottawa Rough Riders,0
+sportsleagues,Ottawa Senators,0
+sportsleagues,British empire,0
+sportsleagues,Pittsburgh Steelers,0
+sportsleagues,NCAA Division II,0
+sportsleagues,University of Alabama,0
+sportsleagues,Canberra Raiders,0
+sportsleagues,unitarians,0
+sportsleagues,major leagues,0
+sportsleagues,Richmond Football Club,0
+sportsleagues,New Orleans Hornets,0
+sportsleagues,top level,0
+sportsleagues,University of Arkansas,0
+sportsleagues,Port Adelaide Football Club,0
+sportsleagues,Monday Night Football,0
+sportsleagues,American Institute of Architects,0
+sportsleagues,Memphis Grizzlies,0
+sportsleagues,lutheran,0
+sportsleagues,British Isles,0
+sportsleagues,Washington Redskins,0
+sportsleagues,Golden State Warriors,0
+sportsleagues,University of Berlin,0
+sportsleagues,University of Birmingham,0
+sportsleagues,Rugby League Conference,0
+sportsleagues,Denver Broncos,0
+sportsleagues,1981,0
+sportsleagues,Sydney Roosters,0
+sportsleagues,City University of New York,0
+sportsleagues,Sydney Swans,0
+sportsleagues,Kansas City Chiefs,0
+sportsleagues,University of British Columbia,0
+sportsleagues,Denver Nuggets,0
+sportsleagues,Orlando Magic,0
+sportsleagues,Rochester Americans,0
+sportsleagues,"University of California , Berkeley",0
+sportsleagues,American League Championship Series,0
+sportsleagues,St Kilda Football Club,0
+sportsleagues,Kansas City Royals,0
+sportsleagues,Kansas City Scouts,0
+sportsleagues,National Academy of Sciences,0
+sportsleagues,Rochester Red Wings,0
+sportsleagues,Rochester Royals,0
+sportsleagues,National Academy of Engineering,0
+sportsleagues,Washington Wizards,0
+sportsleagues,Minnesota North Stars,0
+sportsleagues,Republican party,0
+sportsleagues,Western Bulldogs,0
+sportsleagues,Tulsa Oilers,0
+sportsleagues,American Mathematical Society,0
+sportsleagues,Harrogate Town,0
+sportsleagues,Royal Air Force,0
+sportsleagues,Fortuna Dusseldorf,0
+sportsleagues,Metropolitan Opera,0
+sportsleagues,University of Chicago,0
+sportsleagues,Minnesota Twins,0
+sportsleagues,New South Wales Rugby League premiership,0
+sportsleagues,Minnesota Vikings,0
+sportsleagues,Protestants,0
+sportsleagues,Minnesota Wild,0
+sportsleagues,catholic,0
+sportsleagues,Colorado Avalanche,0
+sportsleagues,University of Connecticut,0
+sportsleagues,Catholic Church,0
+sportsleagues,Fitzroy,0
+sportsleagues,Fitzroy Football Club,0
+sportsleagues,American Philosophical Society,0
+sportsleagues,American Physical Society,0
+sportsleagues,Tampa Bay Buccaneers,0
+sportsleagues,minor leagues,0
+sportsleagues,Tampa Bay Lightning,0
+sportsleagues,City of London,0
+sportsleagues,Tampa Bay Rays,0
+sportsleagues,University of East Anglia,0
+sportsleagues,University of Edinburgh,0
+sportsleagues,Colorado Rockies,0
+sportsleagues,American Psychological Association,0
+sportsleagues,Irish League,0
+sportsleagues,University of Exeter,0
+sportsleagues,University of Florida,0
+sportsleagues,Winfield Cup,0
+sportsleagues,University of Georgia,0
+sportsleagues,San Antonio Rampage,0
+sportsleagues,1985,0
+sportsleagues,San Antonio Silver Stars,0
+sportsleagues,San Antonio Spurs,0
+sportsleagues,Hawthorn Football Club,0
+sportsleagues,Toronto Argonauts,0
+sportsleagues,hurricane,0
+sportsleagues,University of Glasgow,0
+sportsleagues,all-star game,0
+sportsleagues,Toronto Blue Jays,0
+sportsleagues,Czech Extraliga,0
+sportsleagues,Hershey Bears,0
+sportsleagues,Providence Bruins,0
+sportsleagues,rangers,0
+sportsleagues,Perth Glory,0
+sportsleagues,Baptists,0
+sportsleagues,Toronto FC,0
+sportsleagues,Mighty Ducks of Anaheim,0
+sportsleagues,Atlanta Braves,0
+sportsleagues,University of Houston,0
+sportsleagues,1986,0
+sportsleagues,Perth Wildcats,0
+sportsleagues,Toronto Maple Leafs,0
+sportsleagues,Atlanta Falcons,0
+sportsleagues,Atlanta Flames,0
+sportsleagues,Binghamton Senators,0
+sportsleagues,FIBA,0
+sportsleagues,Pottsville Maroons,0
+sportsleagues,Football Writers Association of America,0
+sportsleagues,University of Iowa,0
+sportsleagues,Toronto Toros,0
+sportsleagues,Atlanta Thrashers,0
+sportsleagues,University of Kansas,0
+sportsleagues,Footscray,0
+sportsleagues,Canton Bulldogs,0
+sportsleagues,University of Kentucky,0
+sportsleagues,FIFA,0
+sportsleagues,premierships,0
+sportsleagues,Huddersfield Giants,0
+sportsleagues,Manitoba Moose,0
+sportsleagues,San Diego Chargers,0
+sportsleagues,University of Leipzig,0
+sportsleagues,Queensland Reds,0
+sportsleagues,Cleveland Browns,0
+sportsleagues,University of London,0
+sportsleagues,Jacksonville Jaguars,0
+sportsleagues,U.S. Army,0
+sportsleagues,Phillies,0
+sportsleagues,Atlantic Coast Conference,0
+sportsleagues,Cleveland Crusaders,0
+sportsleagues,San Diego Padres,0
+sportsleagues,presbyterian,0
+sportsleagues,Cleveland Indians,0
+sportsleagues,Real Salt Lake,0
+sportsleagues,Syracuse Chiefs,0
+sportsleagues,Syracuse Crunch,0
+sportsleagues,Syracuse Nationals,0
+sportsleagues,University of Maryland,0
+sportsleagues,Copa Libertadores,0
+sportsleagues,play-off,0
+sportsleagues,United States Army,0
+sportsleagues,Eastern Conference,0
+sportsleagues,Arizona Diamondbacks,0
+sportsleagues,Hapoel Be'er Sheva,0
+sportsleagues,University of Melbourne,0
+sportsleagues,Royal Institute of British Architects,0
+sportsleagues,Portland Pirates,0
+sportsleagues,University of Miami,0
+sportsleagues,New York Giants,0
+sportsleagues,University of Michigan,0
+sportsleagues,Alaska Aces,0
+sportsleagues,Portland Trail Blazers,0
+sportsleagues,Council of Europe,0
+sportsleagues,University of Minnesota,0
+sportsleagues,New York Islanders,0
+sportsleagues,New York Jets,0
+sportsleagues,University of Missouri,0
+sportsleagues,North Queensland Cowboys,0
+sportsleagues,Columbus Blue Jackets,0
+sportsleagues,New York Knicks,0
+sportsleagues,Broadway,0
+sportsleagues,San Francisco 49ers,0
+sportsleagues,Boston Braves,0
+sportsleagues,New York Mets,0
+sportsleagues,Conference North,0
+sportsleagues,Boston Bruins,0
+sportsleagues,Christians,0
+sportsleagues,Boston Bulldogs,0
+sportsleagues,councils of state,0
+sportsleagues,Boston Celtics,0
+sportsleagues,Ultimate Fighting Championship,0
+sportsleagues,Miami Dolphins,0
+sportsleagues,Europeans,0
+sportsleagues,San Francisco Giants,0
+sportsleagues,Oakland Athletics,0
+sportsleagues,Council on Foreign Relations,0
+sportsleagues,New York Rangers,0
+sportsleagues,University of North Carolina at Chapel Hill,0
+sportsleagues,Oakland Raiders,0
+sportsleagues,Boston Patriots,0
+sportsleagues,1960,0
+sportsleagues,University of Notre Dame,0
+sportsleagues,University of Oklahoma,0
+sportsleagues,London School of Economics,0
+sportsleagues,Boston Red Sox,0
+sportsleagues,University of Oregon,0
+sportsleagues,Super 12,0
+sportsleagues,Super 14,0
+sportsleagues,University of Oxford,0
+sportsleagues,Albanian Superliga,0
+sportsleagues,Dallas Cowboys,0
+sportsleagues,Super Bowl,0
+sportsleagues,Akron Pros,0
+sportsleagues,1961,0
+sportsleagues,Phoenix Coyotes,0
+sportsleagues,University of Pennsylvania,0
+sportsleagues,Hartford Whalers,0
+sportsleagues,Hartford Wolf Pack,0
+sportsleagues,Vancouver Canucks,0
+sportsleagues,Dallas Stars,0
+sportsleagues,Dallas Texans,0
+sportsleagues,University of Pittsburgh,0
+sportsleagues,Phoenix Suns,0
+sportsleagues,Hartlepool United,0
+sportsleagues,Springfield Indians,0
+sportsleagues,United States Marine Corps,0
+sportsleagues,New York Titans,0
+sportsleagues,University of Rochester,0
+sportsleagues,Pan American Games,0
+sportsleagues,Seven Network,0
+sportsleagues,England,0
+sportsleagues,Essendon,0
+sportsleagues,Seattle,0
+sportsleagues,United States National Academy of Sciences,0
+sportsleagues,Royal Society,0
+sportsleagues,Edmonton Oilers,0
+sportsleagues,Social Democratic Party,0
+sportsleagues,New York Yankees,0
+sportsleagues,Hamilton Bulldogs,0
+sportsleagues,San Jose Earthquakes,0
+sportsleagues,Milwaukee Braves,0
+sportsleagues,Milwaukee Brewers,0
+sportsleagues,Royal Society of Arts,0
+sportsleagues,Royal Society of Canada,0
+sportsleagues,Milwaukee Bucks,0
+sportsleagues,Wales,0
+sportsleagues,United States navy,0
+sportsleagues,San Jose Sharks,0
+sportsleagues,West Coast Eagles,0
+sportsleagues,crickets,0
+sportsleagues,Royal Swedish Academy of Sciences,0
+sportsleagues,Los Angeles Angels of Anaheim,0
+sportsleagues,Seattle Seahawks,0
+sportsleagues,Democratic National Committee,0
+sportsleagues,Seattle Sounders FC,0
+sportsleagues,University of Southern California,0
+sportsleagues,St. George Dragons,0
+sportsleagues,Hamilton Tiger-Cats,0
+sportsleagues,St. George Illawarra Dragons,0
+sportsleagues,Los Angeles Clippers,0
+sportsleagues,European Union,0
+sportsleagues,Charlotte Hornets,0
+sportsleagues,South Melbourne,0
+sportsleagues,third division,0
+sportsleagues,Super Rugby,0
+sportsleagues,Third Division North,0
+sportsleagues,Third Division South,0
+sportsleagues,University of Sydney,0
+sportsleagues,Institut de France,0
+sportsleagues,Los Angeles Dodgers,0
+sportsleagues,Baltimore Blast,0
+sportsleagues,University of Tennessee,0
+sportsleagues,Geelong,0
+sportsleagues,National League East,0
+sportsleagues,Baltimore Colts,0
+sportsleagues,Geelong Football Club,0
+sportsleagues,National League West,0
+sportsleagues,west end,0
+sportsleagues,1993-94,0
+sportsleagues,Los Angeles Kings,0
+sportsleagues,Baltimore Orioles,0
+sportsleagues,Spanish league,0
+sportsleagues,english,0
+sportsleagues,county championship,0
+sportsleagues,Russian Premier League,0
+sportsleagues,House of Lords,0
+sportsleagues,University of Toronto,0
+sportsleagues,Los Angeles Raiders,0
+sportsleagues,1967,0
+sportsleagues,Los Angeles Rams,0
+sportsleagues,University of Utah,0
+sportsleagues,University of Vienna,0
+sportsleagues,University of Virginia,0
+sportsleagues,Cincinnati Bengals,0
+sportsleagues,1968,0
+sportsleagues,Anglican communion,0
+sportsleagues,leagues,0
+sportsleagues,Melbourne,0
+sportsleagues,Cincinnati Cyclones,0
+sportsleagues,"Melbourne , Australia",0
+sportsleagues,League cup,0
+sportsleagues,Association for Computing Machinery,0
+sportsleagues,Auckland Blues,0
+sportsleagues,Cincinnati Reds,0
+sportsleagues,Currie Cup,0
+sportsleagues,Melbourne Cricket Ground,0
+sportsleagues,Carlton Football Club,0
+sportsleagues,Sacramento Kings,0
+sportsleagues,University of Wisconsin-Madison,0
+sportsleagues,Institution of Civil Engineers,0
+sportsleagues,Calgary Flames,0
+sportsleagues,League of Nations,0
+sportsleagues,Calgary Stampeders,0
+sportsleagues,Stanley Cup Finals,0
+sportsleagues,New England Patriots,0
+sportsleagues,Nashville Predators,0
+sportsleagues,West Indies,0
+sportsleagues,Brisbane Lions,0
+sportsleagues,Houston Aeros,0
+sportsleagues,Houston Astros,0
+sportsleagues,TAC Cup,0
+sportsleagues,Montreal Alouettes,0
+sportsleagues,Montreal Canadiens,0
+sportsleagues,Florida panther,0
+sportsleagues,Montreal Expos,0
+sportsleagues,Chicago Bears,0
+sportsleagues,Houston Oilers,0
+sportsleagues,Chicago Blackhawks,0
+sportsleagues,Chicago Black Hawks,0
+sportsleagues,Chicago Bulls,0
+sportsleagues,1972,0
+sportsleagues,American Academy of Arts and Letters,0
+sportsleagues,American Academy of Arts and Sciences,0
+sportsleagues,Chicago Cubs,0
+sportsleagues,pagans,0
+sportsleagues,american league,1
+sportsleagues,season,0
+sportsleagues,1992 93,0
+sportsleagues,central league,1
+sportsleagues,inaugural season,0
+sportsleagues,american soccer league,1
+sportsleagues,southern league,1
+sportsleagues,1994 95,0
+sportsleagues,northern league,1
+sportsleagues,games,0
+sportsleagues,eastern league,1
+sportsleagues,their inaugural season,0
+sportsleagues,2005 06,0
+sportsleagues,national soccer league,1
+sportsleagues,1990 91,0
+sportsleagues,2002 03,0
+sportsleagues,american football league,1
+sportsleagues,1996 97,0
+sportsleagues,american hockey league,1
+sportsleagues,1998 99,0
+sportsleagues,canadian soccer league,1
+sportsleagues,british league,1
+sportsleagues,1986 87,0
+sportsleagues,conference league,1
+sportsleagues,2006 07,0
+sportsleagues,elite league,1
+sportsleagues,1985 86,0
+sportsleagues,national conference league,1
+sportsleagues,1983 84,0
+sportsleagues,atlantic league,1
+sportsleagues,hornets,0
+sportsleagues,1982 83,0
+sportsleagues,united soccer league,1
+sportsleagues,1993 94 season,0
+sportsleagues,southern league cup,0
+sportsleagues,tigers,0
+sportsleagues,championship,0
+sportsleagues,national football league,1
+sportsleagues,super league,1
+sportsleagues,national hockey league,1
+sportsleagues,giants,0
+sportsleagues,1978 79,0
+sportsleagues,1996 97 season,0
+sportsleagues,international soccer league,1
+sportsleagues,western soccer league,1
+sportsleagues,1995 96 season,0
+sportsleagues,the football league,1
+sportsleagues,1981 82,0
+sportsleagues,british national league,1
+sportsleagues,2007 08,0
+sportsleagues,carolina league,1
+sportsleagues,1974 75 season,0
+sportsleagues,midwest league,1
+sportsleagues,northeast league,1
+sportsleagues,1970 71,0
+sportsleagues,central hockey league,1
+sportsleagues,2004 05,0
+sportsleagues,south,0
+sportsleagues,2008 09,0
+sportsleagues,european league,1
+sportsleagues,2003 04,0
+sportsleagues,international league,1
+sportsleagues,1975 76 season,0
+sportsleagues,southern football league,1
+sportsleagues,consecutive seasons,0
+sportsleagues,junior league,1
+sportsleagues,canadian football league,1
+sportsleagues,1995 96,0
+sportsleagues,2005 06 season,0
+sportsleagues,northern premier league,1
+sportsleagues,2001 02 season,0
+sportsleagues,canadian hockey league,1
+sportsleagues,1988 89,0
+sportsleagues,united hockey league,1
+sportsleagues,1997 98 season,0
+sportsleagues,english league,1
+sportsleagues,1967 68,0
+sportsleagues,2004 05 season,0
+sportsleagues,scottish league,1
+sportsleagues,1978 79 season,0
+sportsleagues,southern conference,0
+sportsleagues,federal league,1
+sportsleagues,2000 01 season,0
+sportsleagues,eastern football league,1
+sportsleagues,international hockey league,1
+sportsleagues,amateur,0
+sportsleagues,british hockey league,1
+sportsleagues,1987 88,0
+sportsleagues,eastern hockey league,1
+sportsleagues,1997 98,0
+sportsleagues,united football league,1
+sportsleagues,eastern conference,0
+sportsleagues,1972 73,0
+sportsleagues,french league,1
+sportsleagues,north american soccer league,1
+sportsleagues,1971 72,0
+sportsleagues,league championship,0
+sportsleagues,1977 78,0
+sportsleagues,1993 94,0
+sportsleagues,1973 74,0
+sportsleagues,greek league,1
+sportsleagues,central baseball league,1
+sportsleagues,lions,0
+sportsleagues,american basketball league,1
+sportsleagues,1965 66,0
+sportsleagues,1994 95 season,0
+sportsleagues,spanish league,1
+sportsleagues,western hockey league,1
+sportsleagues,professional,0
+sportsleagues,world football league,1
+sportsleagues,american south,0
+sportsleagues,regional league,1
+sportsleagues,royals,0
+sportsleagues,2003 04 season,0
+sportsleagues,canadian national soccer league,1
+sportsleagues,senators,0
+sportsleagues,devils,0
+sportsleagues,western football league,1
+sportsleagues,1969 70,0
+sportsleagues,north atlantic league,1
+sportsleagues,previous season,0
+sportsleagues,caribbean,0
+sportsleagues,bruins,0
+sportsleagues,american professional soccer league,1
+sportsleagues,portuguese league,1
+sportsleagues,1998 99 season,0
+sportsleagues,national lacrosse league,1
+sportsleagues,bulls,0
+sportsleagues,2002 03 season,0
+sportsleagues,northern football league,1
+sportsleagues,major league,0
+sportsleagues,a league,0
+sportsleagues,north american football league,1
+sportsleagues,english national league,1
+sportsleagues,1988 89 season,0
+sportsleagues,regular season,0
+sportsleagues,premier soccer league,1
+sportsleagues,national professional soccer league,1
+sportsleagues,spartan league,1
+sportsleagues,1980 81 season,0
+sportsleagues,continental league,0
+sportsleagues,fourth consecutive,0
+sportsleagues,hockey,0
+sportsleagues,majors,0
+sportsleagues,division,0
+sportsleagues,northwest league,1
+sportsleagues,texas league,1
+sportsleagues,english premier league,1
+sportsleagues,mexican league,1
+sportsleagues,national premier soccer league,1
+sportsleagues,nba development league,1
+sportsleagues,north american hockey league,1
+sportsleagues,dutch league,1
+sportsleagues,big league,0
+sportsleagues,mls cup,0
+sportsleagues,football,0
+sportsleagues,2008 09 season,0
+sportsleagues,polish league,1
+sportsleagues,1961 62 season,0
+sportsleagues,national football,0
+sportsleagues,western baseball league,1
+sportsleagues,scottish league cup,0
+sportsleagues,pacific league,1
+sportsleagues,4th place,0
+sportsleagues,1976 77 season,0
+sportsleagues,premier,0
+sportsleagues,2000 01,0
+sportsleagues,english football league,1
+sportsleagues,canadian professional soccer league,1
+sportsleagues,nfl championship,0
+sportsleagues,game,0
+sportsleagues,western international league,1
+sportsleagues,euroleague,1
+sportsleagues,conference league cup,0
+sportsleagues,adriatic league,1
+sportsleagues,reds,0
+sportsleagues,cup finals,0
+sportsleagues,1962 63,0
+sportsleagues,european football league,1
+sportsleagues,rugby league,1
+sportsleagues,continental football league,1

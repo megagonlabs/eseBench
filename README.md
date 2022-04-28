@@ -63,9 +63,9 @@ data/$DATA
 
 # Benchmark Details
 
-We have made four benchmark datasets public: apr, tripadvisor, wiki, and yelp, which can be accessed [here](https://drive.google.com/drive/folders/1qXg-UHxJffjHpbHumxo4UJtt1Rl_ecd6). The directory structure of each dataset is as follows:
+We have made four benchmark datasets public: apr, tripadvisor, wiki, and yelp, which can be accessed from the `Bencrmark` folder under project root. The directory structure of each dataset is as follows:
 ```
-Release-dataset/$DATA
+Benchmark/$DATA
 └── entity_candidates.txt: frequency distribution of entity candidates
 └── final_benchmark.csv: the ground truth labels of entity candidates
 └── entity_properties.csv: the characteristics of is positive entity candidates (multifcated=`y/n`, vague=`y/n`,non-named=`y/n`)

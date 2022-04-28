@@ -1,0 +1,9 @@
+alignedCategoryName,unalignedCategoryName,generalizations,seedInstances
+countries,countries,,"['ghana', 'sri lanka', 'bahrain', 'turkeys', 'bolivia', 'croatia', 'montenegro', 'costa rica', 'niger', 'mauritania', 'somalia']"
+parties,parties,,"['greenleft', ""people 's party for freedom and democracy"", 'communists', 'janata party', 'democratic left', 'liberal democrats', 'social democratic party', 'new zealand first', 'spd', 'green party of canada']"
+us_states,us states,,"['south carolina', 'delaware', 'kansas', 'arizona']"
+china_provinces,china provinces,,"['guangdong', 'sichuan', 'fujian']"
+companies,companies,,"['canadian pacific railway', 'border', 'japan airlines', 'berkshire hathaway', 'the gap', 'shells', 'tivo', 'acclaim entertainment', 'irix', 'no limit records', 'morrisons', 'america online', 'facebook', 'boeing', 'northrop grumman', 'kodak', ""mcdonald 's"", 'sanyo', 'mitsubishi', 'qualcomm', 'gma network', 'vivendi', 'honeywell']"
+tv_channels,tv channels,,"['lifetime television', 'bbc sport', 'cbc television', 'nbc news', 'rte', 'abc radio', 'bbc news 24', 'gmtv', 'syfy', 'bbc northern ireland', 'boomerang']"
+diseases,diseases,,"['gout', 'drug abuse', 'anorexia', 'hay fever', 'plague', 'brain tumor', 'colorectal cancer']"
+sportsleagues,sports leagues,,"['serie c1', 'western league', 'new south wales rugby football league premiership', 'khl', 'formula one', 'quebec major junior hockey league', 'champions league', 'american league west', 'national league', 'south atlantic league']"

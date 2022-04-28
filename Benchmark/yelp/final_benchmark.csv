@@ -1,0 +1,7871 @@
+concept,neighbor,gt_label
+ambience,an eclectic,1
+ambience,an intimate,1
+ambience,an old school,1
+ambience,an upscale,1
+ambience,artsy,1
+ambience,bright,1
+ambience,bright and airy,1
+ambience,bright and cheerful,1
+ambience,bright and clean,1
+ambience,bright and colorful,1
+ambience,bright and modern,1
+ambience,casual,1
+ambience,casual and comfortable,1
+ambience,casual and relaxed,1
+ambience,casual atmosphere,1
+ambience,casual dining,1
+ambience,casual environment,1
+ambience,casual setting,1
+ambience,casual_dining experience,1
+ambience,charming atmosphere,1
+ambience,chic,1
+ambience,chic atmosphere,1
+ambience,chill,1
+ambience,chill environment,1
+ambience,chill vibe,1
+ambience,classical,1
+ambience,clean and bright,1
+ambience,clean and comfortable,1
+ambience,clean and modern,1
+ambience,comfortable and relaxing,1
+ambience,comfortable atmosphere,1
+ambience,comfortable environment,1
+ambience,comfortable vibe,1
+ambience,cool atmosphere,1
+ambience,cool vibe,1
+ambience,cosmopolitan,1
+ambience,cozy and comfortable,1
+ambience,cozy and romantic,1
+ambience,cozy cafe,1
+ambience,cute and cozy,1
+ambience,dimly lit,1
+ambience,eclectic,1
+ambience,elegant,1
+ambience,elegant atmosphere,1
+ambience,energetic,1
+ambience,energy,1
+ambience,fast casual,1
+ambience,first class,1
+ambience,formal,1
+ambience,friendly,1
+ambience,fun,1
+ambience,fun and lively,1
+ambience,fun and upbeat,1
+ambience,fun atmosphere,1
+ambience,fun environment,1
+ambience,fun loving,1
+ambience,fun vibe,1
+ambience,funky,1
+ambience,glam,1
+ambience,groovy,1
+ambience,high class,1
+ambience,high energy,1
+ambience,higher end,1
+ambience,hip,1
+ambience,hip ambiance,1
+ambience,hip and modern,1
+ambience,hipster,1
+ambience,hipster vibe,1
+ambience,homey,1
+ambience,homey feeling,1
+ambience,informal,1
+ambience,intimate and romantic,1
+ambience,intimate setting,1
+ambience,intimate vibe,1
+ambience,intricate,1
+ambience,inviting and comfortable,1
+ambience,laid back,1
+ambience,laid back atmosphere,1
+ambience,light,1
+ambience,lively,1
+ambience,low_key atmosphere,1
+ambience,luxurious,1
+ambience,minimalist,1
+ambience,minimalistic,1
+ambience,modern,1
+ambience,modern and clean,1
+ambience,modern and hip,1
+ambience,modern and rustic,1
+ambience,modern and upscale,1
+ambience,modern feel,1
+ambience,new age,1
+ambience,nice,1
+ambience,no frills,1
+ambience,old school,1
+ambience,old timey,1
+ambience,old world charm,1
+ambience,pleasant environment,1
+ambience,posh,1
+ambience,pretty chill,1
+ambience,private,1
+ambience,quaint little,1
+ambience,quiet,1
+ambience,quiet and peaceful,1
+ambience,quiet and relaxing,1
+ambience,quiet atmosphere,1
+ambience,quirky,1
+ambience,relaxed,1
+ambience,relaxed and casual,1
+ambience,relaxed and comfortable,1
+ambience,relaxed atmosphere,1
+ambience,relaxed vibe,1
+ambience,relaxing and enjoyable,1
+ambience,renovated,1
+ambience,retro,1
+ambience,rich and hearty,1
+ambience,rich and smooth,1
+ambience,romantic,1
+ambience,romantic atmosphere,1
+ambience,romantics,1
+ambience,smooth and rich,1
+ambience,social atmosphere,1
+ambience,sophisticated,1
+ambience,such a great vibe,1
+ambience,super cool,1
+ambience,trendy,1
+ambience,trendy spot,1
+ambience,unique,1
+ambience,upbeat and fun,1
+ambience,upscale,1
+ambience,urban,1
+ambience,very friendly and cheerful,1
+ambience,vintage,1
+ambience,warm and comforting,1
+ambience,warm and cozy,1
+ambience,warm and inviting,1
+ambience,warm and welcoming,1
+ambience,warm lighting,1
+ambience,welcoming atmosphere,1
+ambience,well lit,1
+ambience,whimsical,1
+ambience,zen,1
+ambience,24 7,0
+ambience,absolutely beautiful,0
+ambience,accents,0
+ambience,aesthetic,0
+ambience,aesthetics,0
+ambience,album,0
+ambience,all the makings,0
+ambience,almond,0
+ambience,amazing views,0
+ambience,ambient,0
+ambience,american,0
+ambience,americana,0
+ambience,an adorable,0
+ambience,an amazing view,0
+ambience,an old house,0
+ambience,an outdoor,0
+ambience,anniversary,0
+ambience,anniversary dinner,0
+ambience,apple,0
+ambience,apricot,0
+ambience,art,0
+ambience,artichoke,0
+ambience,artichoke heart,0
+ambience,artwork,0
+ambience,asian,0
+ambience,asparagus,0
+ambience,atmosphere,0
+ambience,bachelorette,0
+ambience,bacon,0
+ambience,bacon bit,0
+ambience,banana,0
+ambience,bar lounge,0
+ambience,barbecue,0
+ambience,beach,0
+ambience,beautiful patio,0
+ambience,beautiful space,0
+ambience,beautifully decorated,0
+ambience,beef,0
+ambience,beef brisket,0
+ambience,beef stew,0
+ambience,big groups,0
+ambience,birthday celebration,0
+ambience,birthday dinner,0
+ambience,birthdays,0
+ambience,bistro,0
+ambience,bite to eat,0
+ambience,black olive,0
+ambience,blueberry,0
+ambience,both hot and cold,0
+ambience,bread,0
+ambience,breakfast brunch,0
+ambience,breathtaking,0
+ambience,brie,0
+ambience,brisket,0
+ambience,british pub,0
+ambience,broad menu,0
+ambience,broccoli,0
+ambience,bros,0
+ambience,burntwood,0
+ambience,butter,0
+ambience,butter chicken,0
+ambience,cabbage,0
+ambience,caliber,0
+ambience,candles,0
+ambience,canoe,0
+ambience,caramel,0
+ambience,carnevino,0
+ambience,carnitas,0
+ambience,carrot,0
+ambience,cashew,0
+ambience,cashew chicken,0
+ambience,casual conversation,0
+ambience,catch a game,0
+ambience,catch up,0
+ambience,catching up,0
+ambience,cauliflower,0
+ambience,ceiling,0
+ambience,ceilings,0
+ambience,celebrating,0
+ambience,celebrations,0
+ambience,celebrity chef,0
+ambience,celery,0
+ambience,chain restaurant,0
+ambience,chain restaurants,0
+ambience,chandelier,0
+ambience,chandeliers,0
+ambience,chat,0
+ambience,cheese,0
+ambience,cherry,0
+ambience,chicken breast,0
+ambience,chickpea,0
+ambience,chile,0
+ambience,chili,0
+ambience,chimichurri,0
+ambience,chipotle mayo,0
+ambience,chipotle sauce,0
+ambience,chocolate,0
+ambience,chorizo,0
+ambience,cilantro,0
+ambience,clam,0
+ambience,classier,0
+ambience,coconut,0
+ambience,coffeehouse,0
+ambience,coleslaw,0
+ambience,cool art,0
+ambience,cool decor,0
+ambience,coriander,0
+ambience,corn,0
+ambience,corn bread,0
+ambience,corn salsa,0
+ambience,cornbread,0
+ambience,couples,0
+ambience,cranberry,0
+ambience,crema,0
+ambience,cucumber,0
+ambience,cucumber salad,0
+ambience,cultural,0
+ambience,cup of joe,0
+ambience,curry,0
+ambience,cute cafe,0
+ambience,cute little,0
+ambience,d cor,0
+ambience,dance,0
+ambience,dark color,0
+ambience,dark wood,0
+ambience,date,0
+ambience,date night,0
+ambience,date nights,0
+ambience,date spot,0
+ambience,decor,0
+ambience,decor is modern,0
+ambience,decoration,0
+ambience,design,0
+ambience,dill,0
+ambience,dim lighting,0
+ambience,diner,0
+ambience,dog friendly,0
+ambience,duck,0
+ambience,duck confit,0
+ambience,easy to read,0
+ambience,eateries,0
+ambience,eatery,0
+ambience,edamame,0
+ambience,egg,0
+ambience,eggplant,0
+ambience,elegantly,0
+ambience,entertainment,0
+ambience,establishments,0
+ambience,european,0
+ambience,exterior,0
+ambience,eye catching,0
+ambience,facade,0
+ambience,falafel,0
+ambience,family,0
+ambience,fancier,0
+ambience,fare,0
+ambience,fennel,0
+ambience,feta,0
+ambience,fine dining,0
+ambience,fine dining experience,0
+ambience,fine dining restaurant,0
+ambience,fixtures,0
+ambience,floor to ceiling,0
+ambience,floral,0
+ambience,flour,0
+ambience,flour tortilla,0
+ambience,fluffy and light,0
+ambience,food,0
+ambience,free entertainment,0
+ambience,french bistro,0
+ambience,garlic,0
+ambience,garlic bread,0
+ambience,garlic naan,0
+ambience,garlic sauce,0
+ambience,gastropub,0
+ambience,gathering,0
+ambience,gatherings,0
+ambience,ginger,0
+ambience,girls night,0
+ambience,girls night out,0
+ambience,glass noodle,0
+ambience,gnocchi,0
+ambience,go tos,0
+ambience,goat,0
+ambience,gorgeous,0
+ambience,gorgeous view,0
+ambience,gorgonzola,0
+ambience,gouda,0
+ambience,grab a bite,0
+ambience,grab a quick,0
+ambience,grab a quick bite,0
+ambience,granola,0
+ambience,grape,0
+ambience,gravy,0
+ambience,great place for a date,0
+ambience,great place to grab,0
+ambience,great place to relax,0
+ambience,greek salad,0
+ambience,green onion,0
+ambience,green pepper,0
+ambience,grille,0
+ambience,group of friends,0
+ambience,groups,0
+ambience,guacamole,0
+ambience,hamburger,0
+ambience,hangout,0
+ambience,happy holidays,0
+ambience,hawaiian,0
+ambience,hazelnut,0
+ambience,herb,0
+ambience,high ceilings,0
+ambience,hipsters,0
+ambience,honey,0
+ambience,horseradish,0
+ambience,hot and humid,0
+ambience,hot and steamy,0
+ambience,hot chocolates,0
+ambience,hummus,0
+ambience,humus,0
+ambience,iceberg lettuce,0
+ambience,impeccable service,0
+ambience,industrial,0
+ambience,interior,0
+ambience,interior decor,0
+ambience,interior design,0
+ambience,intimate,0
+ambience,intimate dinner,0
+ambience,irish music,0
+ambience,irish pub,0
+ambience,izakaya,0
+ambience,jalape o,0
+ambience,jerk chicken,0
+ambience,kale,0
+ambience,ketchup,0
+ambience,kielbasa,0
+ambience,kimchi,0
+ambience,landscape,0
+ambience,large groups,0
+ambience,latin music,0
+ambience,layout,0
+ambience,leek,0
+ambience,lemon,0
+ambience,lemon pepper,0
+ambience,lemongrass,0
+ambience,lentil,0
+ambience,lettuce,0
+ambience,light fixtures,0
+ambience,light fluffy,0
+ambience,live,0
+ambience,live entertainment,0
+ambience,live jazz,0
+ambience,live music,0
+ambience,liver,0
+ambience,local diner,0
+ambience,lot of fun,0
+ambience,lovely patio,0
+ambience,mac n cheese,0
+ambience,macaroni salad,0
+ambience,mango,0
+ambience,marble,0
+ambience,mayo,0
+ambience,mayonnaise,0
+ambience,meatball,0
+ambience,meatloaf,0
+ambience,mediterranean,0
+ambience,meet friends,0
+ambience,meet up with,0
+ambience,meetings,0
+ambience,melon,0
+ambience,men and women,0
+ambience,michael mina,0
+ambience,mini,0
+ambience,mirror,0
+ambience,mirrors,0
+ambience,mochi,0
+ambience,modern decor,0
+ambience,mom and pop,0
+ambience,mongolian beef,0
+ambience,mozzarella,0
+ambience,mozzarella cheese,0
+ambience,mushroom,0
+ambience,music,0
+ambience,my go tos,0
+ambience,naan,0
+ambience,neighborhood,0
+ambience,neon lights,0
+ambience,night out with friends,0
+ambience,no nonsense,0
+ambience,noodle,0
+ambience,nutella,0
+ambience,ohio city,0
+ambience,okra,0
+ambience,old fashions,0
+ambience,old school diner,0
+ambience,old school vegas,0
+ambience,old town scottsdale,0
+ambience,olive,0
+ambience,onion,0
+ambience,open space,0
+ambience,ordering system,0
+ambience,oxtail,0
+ambience,p.f,0
+ambience,paintings,0
+ambience,pancetta,0
+ambience,papaya,0
+ambience,papaya salad,0
+ambience,parisian,0
+ambience,parsley,0
+ambience,peach,0
+ambience,peanut,0
+ambience,pear,0
+ambience,pepperoni,0
+ambience,perfect setting,0
+ambience,personalized service,0
+ambience,pesto,0
+ambience,piano music,0
+ambience,pineapple,0
+ambience,pita,0
+ambience,place to meet up,0
+ambience,played,0
+ambience,playlist,0
+ambience,pleasant conversation,0
+ambience,plush,0
+ambience,pork,0
+ambience,potato,0
+ambience,prawn,0
+ambience,prosciutto,0
+ambience,protein,0
+ambience,provolone,0
+ambience,provolone cheese,0
+ambience,pub,0
+ambience,pumpkin,0
+ambience,quick and easy,0
+ambience,quiet conversation,0
+ambience,quinoa,0
+ambience,radish,0
+ambience,raisin,0
+ambience,raspberry,0
+ambience,read a book,0
+ambience,real italian food,0
+ambience,reasonably priced,0
+ambience,red bean,0
+ambience,red curry,0
+ambience,red onion,0
+ambience,red pepper,0
+ambience,red sauce,0
+ambience,rehearsal dinner,0
+ambience,relax,0
+ambience,relaxing evening,0
+ambience,relish,0
+ambience,restaurant,0
+ambience,restaurants,0
+ambience,retro decor,0
+ambience,rice,0
+ambience,ricotta,0
+ambience,risotto,0
+ambience,romance,0
+ambience,romantic date,0
+ambience,roosevelt,0
+ambience,saffron rice,0
+ambience,salad,0
+ambience,salami,0
+ambience,salsa,0
+ambience,sanctuary,0
+ambience,sauce,0
+ambience,sauerkraut,0
+ambience,sausage,0
+ambience,scallion,0
+ambience,sea food,0
+ambience,seaweed,0
+ambience,seaweed salad,0
+ambience,sesame,0
+ambience,sesame chicken,0
+ambience,signage,0
+ambience,sleek,0
+ambience,small groups,0
+ambience,snow crab,0
+ambience,soft and fluffy,0
+ambience,songs,0
+ambience,southern cooking,0
+ambience,spanish music,0
+ambience,spartan,0
+ambience,speakeasy,0
+ambience,special occasion,0
+ambience,special occasions,0
+ambience,spinach,0
+ambience,sports,0
+ambience,spot to grab,0
+ambience,squash,0
+ambience,staff are friendly,0
+ambience,stained,0
+ambience,statues,0
+ambience,steak,0
+ambience,steakhouse,0
+ambience,steakhouses,0
+ambience,stellar,0
+ambience,step above,0
+ambience,storefront,0
+ambience,strawberry,0
+ambience,studying,0
+ambience,stunning,0
+ambience,such a fun experience,0
+ambience,such a great experience,0
+ambience,such a nice guy,0
+ambience,sweet and sour pork,0
+ambience,swiss,0
+ambience,taro,0
+ambience,tavern,0
+ambience,tempura,0
+ambience,teriyaki,0
+ambience,teriyaki chicken,0
+ambience,these types,0
+ambience,throwback,0
+ambience,thyme,0
+ambience,tofu,0
+ambience,tomato,0
+ambience,tomato soup,0
+ambience,tomatoes,0
+ambience,tortilla,0
+ambience,trendy decor,0
+ambience,tuna salad,0
+ambience,turkey,0
+ambience,turnip,0
+ambience,vanilla,0
+ambience,veal,0
+ambience,velvet,0
+ambience,venues,0
+ambience,vermicelli,0
+ambience,vibe,0
+ambience,vibes,0
+ambience,walnut,0
+ambience,warm smile,0
+ambience,warm summer night,0
+ambience,warm welcome,0
+ambience,wasabi,0
+ambience,water chestnut,0
+ambience,watermelon,0
+ambience,wedding reception,0
+ambience,well decorated,0
+ambience,wolfgang puck,0
+ambience,wooden,0
+ambience,yogurt,0
+ambience,zucchini,0
+amenities,aquarium,1
+amenities,arcade,1
+amenities,band,1
+amenities,bar lounge,1
+amenities,barbecue,1
+amenities,beach,1
+amenities,big screen,1
+amenities,big screens,1
+amenities,bike parking,1
+amenities,board games,1
+amenities,book,1
+amenities,bowling,1
+amenities,brewery,1
+amenities,cable,1
+amenities,cafeteria,1
+amenities,carousel,1
+amenities,casino,1
+amenities,coffees,1
+amenities,computers,1
+amenities,convenient parking,1
+amenities,credit card machine,1
+amenities,cup of coffee,1
+amenities,dj,1
+amenities,elevator,1
+amenities,entertainment,1
+amenities,flat screen tv,1
+amenities,flat screen tvs,1
+amenities,flat screens,1
+amenities,fountain,1
+amenities,free entertainment,1
+amenities,free internet,1
+amenities,free parking,1
+amenities,free valet,1
+amenities,free wifi,1
+amenities,game,1
+amenities,games,1
+amenities,garage,1
+amenities,gym,1
+amenities,hookah,1
+amenities,internet,1
+amenities,jukebox,1
+amenities,karaoke,1
+amenities,kid friendly,1
+amenities,kids play area,1
+amenities,ladies room,1
+amenities,library,1
+amenities,live band,1
+amenities,live entertainment,1
+amenities,lottery,1
+amenities,massage,1
+amenities,media,1
+amenities,music,1
+amenities,outdoor bar,1
+amenities,parking garage,1
+amenities,parking spot,1
+amenities,parking spots,1
+amenities,piano,1
+amenities,play,1
+amenities,play area,1
+amenities,play games,1
+amenities,playground,1
+amenities,plenty of tv,1
+amenities,plenty of tvs,1
+amenities,poker,1
+amenities,pool table,1
+amenities,pool tables,1
+amenities,radio,1
+amenities,self park,1
+amenities,self parking,1
+amenities,slide,1
+amenities,sports book,1
+amenities,sports games,1
+amenities,sports tv,1
+amenities,stroller,1
+amenities,t.v,1
+amenities,telephone,1
+amenities,telephones,1
+amenities,television,1
+amenities,televisions,1
+amenities,theater,1
+amenities,theatre,1
+amenities,tv,1
+amenities,tvs,1
+amenities,valet,1
+amenities,valet park,1
+amenities,valet parking,1
+amenities,video games,1
+amenities,water,1
+amenities,water fountain,1
+amenities,wheelchair,1
+amenities,wi fi,1
+amenities,wifi,1
+amenities,wireless,1
+amenities,yoga,1
+amenities,2 adults,0
+amenities,24 hour,0
+amenities,24 hours,0
+amenities,24 hr,0
+amenities,6 year old,0
+amenities,8 year old,0
+amenities,access,0
+amenities,accessible,0
+amenities,action,0
+amenities,adult,0
+amenities,adult meals,0
+amenities,adults,0
+amenities,airport,0
+amenities,alcohol,0
+amenities,all ages,0
+amenities,almond milk,0
+amenities,americano,0
+amenities,an outdoor,0
+amenities,appetizer,0
+amenities,area,0
+amenities,arrangement,0
+amenities,art,0
+amenities,artichoke,0
+amenities,atm,0
+amenities,atmosphere,0
+amenities,auto shop,0
+amenities,babies,0
+amenities,bacon,0
+amenities,bagel,0
+amenities,bakery,0
+amenities,baklava,0
+amenities,barbacoa,0
+amenities,barista,0
+amenities,baseball,0
+amenities,basketball,0
+amenities,bath,0
+amenities,bear,0
+amenities,beautiful patio,0
+amenities,beef,0
+amenities,beef brisket,0
+amenities,beef stew,0
+amenities,beehive,0
+amenities,beer,0
+amenities,beer pong,0
+amenities,behind,0
+amenities,bibimbap,0
+amenities,bicycle,0
+amenities,bicycles,0
+amenities,bikes,0
+amenities,biscuit,0
+amenities,black cod,0
+amenities,blocked,0
+amenities,blocking,0
+amenities,booth or table,0
+amenities,bourbon,0
+amenities,bread,0
+amenities,brisket,0
+amenities,broccoli,0
+amenities,bruschetta,0
+amenities,buffet,0
+amenities,bulgogi,0
+amenities,bus,0
+amenities,bus station,0
+amenities,butter chicken,0
+amenities,caffeine,0
+amenities,camping,0
+amenities,cappuccino,0
+amenities,car,0
+amenities,card,0
+amenities,cardinals,0
+amenities,cards,0
+amenities,carnitas,0
+amenities,cash,0
+amenities,cashew chicken,0
+amenities,cat,0
+amenities,caters,0
+amenities,catfish,0
+amenities,cauliflower,0
+amenities,caviar,0
+amenities,cc,0
+amenities,celebrity,0
+amenities,ceviche,0
+amenities,chai latte,0
+amenities,chai tea,0
+amenities,chai tea latte,0
+amenities,champagne,0
+amenities,channels,0
+amenities,cheddar,0
+amenities,cheese,0
+amenities,cheesecake,0
+amenities,chicken,0
+amenities,chicken satay,0
+amenities,chicken strip,0
+amenities,chicken teriyaki,0
+amenities,child,0
+amenities,children,0
+amenities,chili,0
+amenities,chinese restaurant,0
+amenities,chipotle,0
+amenities,chocolate,0
+amenities,chorizo,0
+amenities,cider,0
+amenities,cigar,0
+amenities,clam,0
+amenities,clean and comfortable,0
+amenities,clean and modern,0
+amenities,cocktail,0
+amenities,coconut shrimp,0
+amenities,cod,0
+amenities,coffee,0
+amenities,coffeehouse,0
+amenities,cold brew,0
+amenities,coleslaw,0
+amenities,comfy chairs,0
+amenities,company,0
+amenities,computer,0
+amenities,computer system,0
+amenities,congee,0
+amenities,corn bread,0
+amenities,cornbread,0
+amenities,cornhole,0
+amenities,couples,0
+amenities,cover,0
+amenities,crab,0
+amenities,crab cake,0
+amenities,crab rangoon,0
+amenities,crawfish,0
+amenities,credit card,0
+amenities,cucumber salad,0
+amenities,curry,0
+amenities,curry goat,0
+amenities,cycling,0
+amenities,cyclist,0
+amenities,dance,0
+amenities,darts,0
+amenities,daughter,0
+amenities,daughters,0
+amenities,debit,0
+amenities,debit card,0
+amenities,desert,0
+amenities,diner,0
+amenities,directing,0
+amenities,direction,0
+amenities,directly across,0
+amenities,dog,0
+amenities,dogs,0
+amenities,door,0
+amenities,doughnut,0
+amenities,download,0
+amenities,downtown,0
+amenities,driveway,0
+amenities,duck,0
+amenities,duck confit,0
+amenities,dumpling,0
+amenities,edamame,0
+amenities,eel,0
+amenities,egg,0
+amenities,elderly,0
+amenities,electricity,0
+amenities,electronics,0
+amenities,emergency room,0
+amenities,energy,0
+amenities,entrance,0
+amenities,escort,0
+amenities,espresso,0
+amenities,exit,0
+amenities,exiting,0
+amenities,facing,0
+amenities,falafel,0
+amenities,families,0
+amenities,family,0
+amenities,fast and friendly service,0
+amenities,few feet,0
+amenities,fish,0
+amenities,fish taco,0
+amenities,flan,0
+amenities,flat white,0
+amenities,food,0
+amenities,food trucks,0
+amenities,football,0
+amenities,football games,0
+amenities,free,0
+amenities,free refill,0
+amenities,free shuttle,0
+amenities,front,0
+amenities,front door,0
+amenities,fry,0
+amenities,function,0
+amenities,gambling,0
+amenities,garlic bread,0
+amenities,garlic naan,0
+amenities,gas,0
+amenities,gas station,0
+amenities,geared towards,0
+amenities,gelato,0
+amenities,gnocchi,0
+amenities,go tos,0
+amenities,goat,0
+amenities,golf,0
+amenities,grandparents,0
+amenities,grandson,0
+amenities,gravy,0
+amenities,great place to watch,0
+amenities,greek salad,0
+amenities,green tea ice cream,0
+amenities,grocery shop,0
+amenities,guacamole,0
+amenities,guard,0
+amenities,guests,0
+amenities,gumbo,0
+amenities,gymnasium,0
+amenities,halibut,0
+amenities,hamburger,0
+amenities,handicapped,0
+amenities,health,0
+amenities,high chairs,0
+amenities,high tea,0
+amenities,hip and modern,0
+amenities,hockey,0
+amenities,hostel,0
+amenities,hot and sour soup,0
+amenities,hot yoga,0
+amenities,hotel,0
+amenities,ice,0
+amenities,ice tea,0
+amenities,ikea,0
+amenities,in tow,0
+amenities,indian food,0
+amenities,jambalaya,0
+amenities,jenga,0
+amenities,jerk chicken,0
+amenities,juice,0
+amenities,keg,0
+amenities,keno,0
+amenities,ketchup,0
+amenities,kid,0
+amenities,kiddos,0
+amenities,kids,0
+amenities,kids meals,0
+amenities,kids',0
+amenities,kielbasa,0
+amenities,kimchi,0
+amenities,kombucha,0
+amenities,laptop,0
+amenities,laptops,0
+amenities,large groups,0
+amenities,latte,0
+amenities,lemonade,0
+amenities,live,0
+amenities,lobster,0
+amenities,lounge club,0
+amenities,lovely patio,0
+amenities,mac n cheese,0
+amenities,macaroni salad,0
+amenities,macchiato,0
+amenities,machine,0
+amenities,mall,0
+amenities,mango lassi,0
+amenities,mango salad,0
+amenities,mayo,0
+amenities,meat,0
+amenities,meatball,0
+amenities,meatloaf,0
+amenities,mechanical bull,0
+amenities,milk tea,0
+amenities,mimosa,0
+amenities,miso,0
+amenities,mobile,0
+amenities,mom and dad,0
+amenities,mongolian beef,0
+amenities,month old,0
+amenities,motorcycle,0
+amenities,movie,0
+amenities,movies,0
+amenities,muffin,0
+amenities,museum,0
+amenities,mushroom,0
+amenities,music videos,0
+amenities,mussel,0
+amenities,my daughter loves,0
+amenities,naan,0
+amenities,narrow,0
+amenities,navigate,0
+amenities,news,0
+amenities,next door,0
+amenities,nfl,0
+amenities,nightclub,0
+amenities,noodle,0
+amenities,octopus,0
+amenities,office park,0
+amenities,okra,0
+amenities,other businesses,0
+amenities,out of town guests,0
+amenities,outlets,0
+amenities,outside patio,0
+amenities,outside seating,0
+amenities,oxtail,0
+amenities,oyster,0
+amenities,pancake,0
+amenities,panini,0
+amenities,papaya salad,0
+amenities,parent,0
+amenities,parents,0
+amenities,park,0
+amenities,parked,0
+amenities,parking,0
+amenities,parking lot,0
+amenities,parking situation,0
+amenities,parking spaces,0
+amenities,parking structure,0
+amenities,password,0
+amenities,pasta,0
+amenities,pastrami,0
+amenities,pastry,0
+amenities,patient and helpful,0
+amenities,patio seating,0
+amenities,pepperoni pizza,0
+amenities,pepsi,0
+amenities,personal phone,0
+amenities,pesto,0
+amenities,pharmacy,0
+amenities,picky eaters,0
+amenities,picnic,0
+amenities,ping pong,0
+amenities,pirates,0
+amenities,pita,0
+amenities,pizza,0
+amenities,playing,0
+amenities,playoffs,0
+amenities,plenty of parking,0
+amenities,plugs,0
+amenities,polenta,0
+amenities,pop,0
+amenities,popcorn,0
+amenities,popcorn chicken,0
+amenities,pork,0
+amenities,potato,0
+amenities,poutine,0
+amenities,prawn,0
+amenities,pretzel,0
+amenities,private,0
+amenities,property,0
+amenities,pub,0
+amenities,public,0
+amenities,pumpkin,0
+amenities,quiche,0
+amenities,quick and easy,0
+amenities,quick and friendly service,0
+amenities,raman,0
+amenities,ramp,0
+amenities,ranch,0
+amenities,reading,0
+amenities,rear,0
+amenities,red curry,0
+amenities,red sauce,0
+amenities,resort,0
+amenities,restaurant,0
+amenities,rewards,0
+amenities,rice,0
+amenities,risotto,0
+amenities,rum,0
+amenities,saag paneer,0
+amenities,sake,0
+amenities,salad,0
+amenities,salami,0
+amenities,salmon,0
+amenities,salmon sashimi,0
+amenities,salsa,0
+amenities,sandwich,0
+amenities,sangria,0
+amenities,sanitation,0
+amenities,sashimi,0
+amenities,sauce,0
+amenities,sauerkraut,0
+amenities,sausage,0
+amenities,scallop,0
+amenities,school cafeteria,0
+amenities,screen,0
+amenities,screens,0
+amenities,sea food,0
+amenities,seaweed salad,0
+amenities,security,0
+amenities,security guards,0
+amenities,self seating,0
+amenities,seniors,0
+amenities,sesame chicken,0
+amenities,shrimp,0
+amenities,shrimp cocktail,0
+amenities,shuffleboard,0
+amenities,shuttle bus,0
+amenities,singles,0
+amenities,slider,0
+amenities,small children,0
+amenities,small space,0
+amenities,smoothie,0
+amenities,snow crab,0
+amenities,soccer,0
+amenities,soju,0
+amenities,son loved,0
+amenities,soup,0
+amenities,soy latte,0
+amenities,soy milk,0
+amenities,sport,0
+amenities,sporting event,0
+amenities,sporting events,0
+amenities,sports,0
+amenities,sports bar,0
+amenities,sports betting,0
+amenities,squid,0
+amenities,stadium,0
+amenities,stamp,0
+amenities,starbucks,0
+amenities,steak,0
+amenities,steak house,0
+amenities,steelers,0
+amenities,street,0
+amenities,street parking,0
+amenities,study,0
+amenities,subway,0
+amenities,suitable for,0
+amenities,sushi,0
+amenities,sweet and sour chicken,0
+amenities,sweet and sour pork,0
+amenities,sweet potato fry,0
+amenities,sweetener,0
+amenities,swimming,0
+amenities,taco,0
+amenities,target,0
+amenities,technology,0
+amenities,teenagers,0
+amenities,teens,0
+amenities,tempura,0
+amenities,teriyaki,0
+amenities,teriyaki chicken,0
+amenities,thai tea,0
+amenities,ti,0
+amenities,tilapia,0
+amenities,tiramisu,0
+amenities,toddler,0
+amenities,toddlers,0
+amenities,tofu,0
+amenities,toilet water,0
+amenities,tomato soup,0
+amenities,tortilla,0
+amenities,tour bus,0
+amenities,train,0
+amenities,transport,0
+amenities,truffle,0
+amenities,truffle fry,0
+amenities,trump,0
+amenities,tuna,0
+amenities,tuna salad,0
+amenities,turkey,0
+amenities,udon,0
+amenities,ufc,0
+amenities,veal,0
+amenities,vegetarian,0
+amenities,video,0
+amenities,viewing,0
+amenities,visa,0
+amenities,vodka,0
+amenities,waffle,0
+amenities,waiting area,0
+amenities,walk,0
+amenities,walkway,0
+amenities,walnut shrimp,0
+amenities,watch,0
+amenities,watching,0
+amenities,wine,0
+amenities,wonton soup,0
+amenities,year old,0
+amenities,year olds,0
+amenities,young children,0
+amenities,young kids,0
+amenities,younger,0
+amenities,youngest,0
+amenities,your laptop,0
+amenities,zoo,0
+customers,big group,1
+customers,big parties,1
+customers,business men,1
+customers,celebrity,1
+customers,club member,1
+customers,co workers,1
+customers,college student,1
+customers,company,1
+customers,doctors,1
+customers,family member,1
+customers,first timer,1
+customers,first timers,1
+customers,foodie friends,1
+customers,friday night,1
+customers,friend or family member,1
+customers,gang,1
+customers,general public,1
+customers,girlfriends,1
+customers,group of 4,1
+customers,group of 6,1
+customers,group of 8,1
+customers,hotel guest,1
+customers,large group,1
+customers,large groups,1
+customers,large parties,1
+customers,large party,1
+customers,larger group,1
+customers,larger groups,1
+customers,larger party,1
+customers,lawyer,1
+customers,lawyers,1
+customers,local residents,1
+customers,member,1
+customers,men and women,1
+customers,office workers,1
+customers,older couple,1
+customers,other couples,1
+customers,other patrons,1
+customers,place to meet up,1
+customers,police,1
+customers,regular customers,1
+customers,several members,1
+customers,singles,1
+customers,small groups,1
+customers,student,1
+customers,teacher,1
+customers,tourist,1
+customers,town visiting family,1
+customers,two other couples,1
+customers,visiting family,1
+customers,work colleague,1
+customers,work colleagues,1
+customers,work mates,1
+customers,young couple,1
+customers,young families,1
+customers,young professionals,1
+customers,2 other couples,0
+customers,24 hour,0
+customers,a 10 discount,0
+customers,a 20,0
+customers,action,0
+customers,ad,0
+customers,adventure,0
+customers,age group,0
+customers,age groups,0
+customers,ahead of us,0
+customers,amex,0
+customers,amy,0
+customers,an adult,0
+customers,an event,0
+customers,anybody who,0
+customers,artist,0
+customers,artwork,0
+customers,asian fusion,0
+customers,at least twice a week,0
+customers,atmosphere,0
+customers,au gratin,0
+customers,aunt,0
+customers,austin,0
+customers,az,0
+customers,baby shower,0
+customers,background,0
+customers,bakery,0
+customers,balloons,0
+customers,bank,0
+customers,bar tender,0
+customers,barbecue,0
+customers,barista,0
+customers,barrio,0
+customers,bartender,0
+customers,bass,0
+customers,bear,0
+customers,bears,0
+customers,beef ribs,0
+customers,bell peppers,0
+customers,bellhop,0
+customers,benihana,0
+customers,big portion,0
+customers,bird,0
+customers,bistro,0
+customers,black_bear diner,0
+customers,bland,0
+customers,blt,0
+customers,blue moon,0
+customers,bogo,0
+customers,book,0
+customers,boss,0
+customers,bread,0
+customers,brewery,0
+customers,brisket,0
+customers,brunch,0
+customers,bruschetta,0
+customers,buca,0
+customers,buffalo,0
+customers,buffet,0
+customers,burrito,0
+customers,bus,0
+customers,busboy,0
+customers,business,0
+customers,business cards,0
+customers,business center,0
+customers,business travel,0
+customers,business trip,0
+customers,business trips,0
+customers,butter chicken,0
+customers,buy one get one,0
+customers,ca n't resist,0
+customers,caesar,0
+customers,cake,0
+customers,canadian,0
+customers,cannoli,0
+customers,caper,0
+customers,cappuccino,0
+customers,card,0
+customers,cards,0
+customers,carnitas,0
+customers,carnitas taco,0
+customers,carnivore,0
+customers,casino,0
+customers,cat,0
+customers,catering business,0
+customers,ceviche,0
+customers,cheesecake,0
+customers,cheesesteak,0
+customers,chef,0
+customers,chelsea,0
+customers,chicago dog,0
+customers,chicken,0
+customers,chili,0
+customers,chill,0
+customers,chill atmosphere,0
+customers,chimichurri,0
+customers,chinese buffet,0
+customers,chinese restaurant,0
+customers,chipotle,0
+customers,choc,0
+customers,chops,0
+customers,christian,0
+customers,christmas,0
+customers,church,0
+customers,citrus,0
+customers,clients,0
+customers,co owner,0
+customers,co worker,0
+customers,colleague,0
+customers,colleagues,0
+customers,college,0
+customers,community,0
+customers,concierge,0
+customers,congee,0
+customers,consumer,0
+customers,cornish pasty,0
+customers,corporate event,0
+customers,corporate needs,0
+customers,corporate offices,0
+customers,could n't even finish,0
+customers,country,0
+customers,couple months ago,0
+customers,coupon,0
+customers,coupons,0
+customers,cowboy,0
+customers,coworker,0
+customers,coworkers,0
+customers,crab cake,0
+customers,credit,0
+customers,credits,0
+customers,cruise,0
+customers,cubano,0
+customers,cupcake,0
+customers,curry,0
+customers,date,0
+customers,dd,0
+customers,decorate,0
+customers,deep dish pizza,0
+customers,delivery man,0
+customers,dessert station,0
+customers,did n't taste like,0
+customers,dimmed,0
+customers,dinner rush,0
+customers,discount,0
+customers,discounts,0
+customers,dishwasher,0
+customers,district manager,0
+customers,dj,0
+customers,dog,0
+customers,dogs,0
+customers,dollar,0
+customers,dragon,0
+customers,drake,0
+customers,duck,0
+customers,educated staff,0
+customers,elaborate,0
+customers,empty tables,0
+customers,enjoyed it very much,0
+customers,entire staff,0
+customers,espresso,0
+customers,extremely tender,0
+customers,fairly empty,0
+customers,falafel,0
+customers,farm,0
+customers,fell off,0
+customers,fellow,0
+customers,female,0
+customers,female employees,0
+customers,female owner,0
+customers,female server,0
+customers,festival,0
+customers,few dollars,0
+customers,filipino,0
+customers,financial district,0
+customers,fine dining,0
+customers,first come first serve,0
+customers,five guy,0
+customers,flan,0
+customers,flavor,0
+customers,flemings,0
+customers,food trucks,0
+customers,foodie,0
+customers,former employee,0
+customers,free wifi,0
+customers,french bistro,0
+customers,friday evening,0
+customers,friendly staff,0
+customers,front desk,0
+customers,fun atmosphere,0
+customers,fun environment,0
+customers,function,0
+customers,fusion,0
+customers,fuzzy,0
+customers,gamble,0
+customers,gambling,0
+customers,game,0
+customers,gamey,0
+customers,garden,0
+customers,gastropub,0
+customers,gender,0
+customers,general,0
+customers,gently,0
+customers,gift cards,0
+customers,gift certificate,0
+customers,glowing,0
+customers,gm,0
+customers,gnocchi,0
+customers,gourmet,0
+customers,government,0
+customers,grabs,0
+customers,grandma,0
+customers,grandmother,0
+customers,grandpa,0
+customers,great place to meet,0
+customers,greek salad,0
+customers,group,0
+customers,group of 7,0
+customers,group of four,0
+customers,groupon,0
+customers,guacamole,0
+customers,gym,0
+customers,had zero flavor,0
+customers,halloween,0
+customers,hamburger,0
+customers,hard to describe,0
+customers,health department,0
+customers,high tea,0
+customers,hippie,0
+customers,hookah,0
+customers,horchata,0
+customers,hospital,0
+customers,hospitality business,0
+customers,hotel,0
+customers,house,0
+customers,hummus,0
+customers,hung,0
+customers,hungarian,0
+customers,hunter,0
+customers,ice cream shop,0
+customers,ihop,0
+customers,independent business,0
+customers,industry,0
+customers,insomnia,0
+customers,ipa,0
+customers,irish pub,0
+customers,island,0
+customers,israeli,0
+customers,italian restaurant,0
+customers,izakaya,0
+customers,japanese restaurant,0
+customers,jerk,0
+customers,jus,0
+customers,kabuki,0
+customers,karaoke,0
+customers,keg,0
+customers,kfc,0
+customers,king,0
+customers,korean,0
+customers,lacked flavor,0
+customers,lacking flavor,0
+customers,lacking in flavor,0
+customers,lacks flavor,0
+customers,large crowd,0
+customers,last friday,0
+customers,last minute,0
+customers,last night,0
+customers,latte,0
+customers,laura,0
+customers,lead,0
+customers,lemonade,0
+customers,liberty,0
+customers,library,0
+customers,lip,0
+customers,live music,0
+customers,loaded fries,0
+customers,lobster,0
+customers,local business,0
+customers,local community,0
+customers,local farm,0
+customers,local small business,0
+customers,lots to choose,0
+customers,lovely lady,0
+customers,loves this place,0
+customers,loyalty card,0
+customers,mac n cheese,0
+customers,mail,0
+customers,male server,0
+customers,mama,0
+customers,management,0
+customers,manager,0
+customers,many other restaurants,0
+customers,marathon,0
+customers,marketing,0
+customers,marshmallows,0
+customers,mcdonald,0
+customers,meatball,0
+customers,meatloaf,0
+customers,media,0
+customers,meet up with,0
+customers,meeting friends,0
+customers,membership,0
+customers,merlot,0
+customers,mexican,0
+customers,mexican restaurant,0
+customers,mgr,0
+customers,military,0
+customers,military discount,0
+customers,milkshake,0
+customers,mimosa,0
+customers,mississauga,0
+customers,mlife,0
+customers,momma,0
+customers,movie,0
+customers,multiple employees,0
+customers,my fiancee,0
+customers,nachos,0
+customers,native,0
+customers,navy,0
+customers,needed salt,0
+customers,neighborhood,0
+customers,neighbours,0
+customers,new management,0
+customers,new owner,0
+customers,new ownership,0
+customers,new yorker,0
+customers,news,0
+customers,next door,0
+customers,no frill,0
+customers,non members,0
+customers,noodle,0
+customers,nurse,0
+customers,old fashioned,0
+customers,old fashions,0
+customers,old school,0
+customers,old school style,0
+customers,omelet house,0
+customers,on a saturday night,0
+customers,organization,0
+customers,other businesses,0
+customers,other countries,0
+customers,other establishments,0
+customers,other locations,0
+customers,other parties,0
+customers,other patron,0
+customers,other places,0
+customers,other stores,0
+customers,other users,0
+customers,oyster,0
+customers,paella,0
+customers,parties,0
+customers,partner,0
+customers,party,0
+customers,pasta,0
+customers,pasty,0
+customers,pedro,0
+customers,peers,0
+customers,perks,0
+customers,personal chef,0
+customers,pharmacist,0
+customers,photos,0
+customers,picture,0
+customers,pictures,0
+customers,pig,0
+customers,play,0
+customers,player,0
+customers,players card,0
+customers,poutine,0
+customers,pretzel,0
+customers,previous review,0
+customers,prince,0
+customers,private parties,0
+customers,private party,0
+customers,productive,0
+customers,professional,0
+customers,program,0
+customers,public,0
+customers,pulled pork sandwich,0
+customers,purchases,0
+customers,queen,0
+customers,queens,0
+customers,quesadilla,0
+customers,quietly,0
+customers,rabbit,0
+customers,race,0
+customers,raman,0
+customers,ramen,0
+customers,ranch,0
+customers,read a book,0
+customers,reads,0
+customers,really wanted to love this place,0
+customers,red rock,0
+customers,redeem,0
+customers,reese,0
+customers,refer,0
+customers,refried,0
+customers,regular customer,0
+customers,reservation,0
+customers,reservations,0
+customers,resort,0
+customers,restaurant,0
+customers,restaurant industry,0
+customers,restaurateur,0
+customers,rewards,0
+customers,rewards card,0
+customers,rewards program,0
+customers,rick,0
+customers,riesling,0
+customers,right amount of spice,0
+customers,risotto,0
+customers,ritz,0
+customers,roasted tomato,0
+customers,rodeo,0
+customers,ron,0
+customers,round table,0
+customers,sake,0
+customers,sakura,0
+customers,salad,0
+customers,salmon,0
+customers,salsa,0
+customers,sangria,0
+customers,santa,0
+customers,sashimi,0
+customers,sauce,0
+customers,savings,0
+customers,school,0
+customers,seasonings,0
+customers,seat,0
+customers,seated,0
+customers,seated immediately,0
+customers,seated right away,0
+customers,seating,0
+customers,seats available,0
+customers,security,0
+customers,security guard,0
+customers,several other restaurants,0
+customers,several tvs,0
+customers,shawarma,0
+customers,short,0
+customers,showcase,0
+customers,shredded chicken,0
+customers,singer,0
+customers,slots,0
+customers,small business owner,0
+customers,small family business,0
+customers,small plate,0
+customers,smashed potatoes,0
+customers,smear,0
+customers,smoke flavor,0
+customers,smoky flavor,0
+customers,smoothie,0
+customers,society,0
+customers,soft opening,0
+customers,sommelier,0
+customers,southern,0
+customers,speak,0
+customers,speakeasy,0
+customers,spirit,0
+customers,sports tv,0
+customers,squad,0
+customers,stamp,0
+customers,starbucks,0
+customers,state,0
+customers,station,0
+customers,steak,0
+customers,stuffed cabbage,0
+customers,subway,0
+customers,successful business,0
+customers,super flavorful,0
+customers,super tender,0
+customers,supermarket,0
+customers,sushi chef,0
+customers,t bone,0
+customers,taco,0
+customers,taco truck,0
+customers,tavern,0
+customers,tempura,0
+customers,thai tea,0
+customers,thanksgiving,0
+customers,theater,0
+customers,their wives,0
+customers,they do n't take reservations,0
+customers,tiramisu,0
+customers,tomato paste,0
+customers,tone,0
+customers,tour,0
+customers,trade,0
+customers,trainer,0
+customers,truck,0
+customers,twins,0
+customers,two brothers,0
+customers,two other parties,0
+customers,uncle,0
+customers,various meats,0
+customers,venture,0
+customers,victoria,0
+customers,village pub,0
+customers,volcano,0
+customers,voucher,0
+customers,vouchers,0
+customers,waffle,0
+customers,waiting for a table,0
+customers,waiting list,0
+customers,walgreen,0
+customers,watch,0
+customers,way too salty,0
+customers,we were seated,0
+customers,we were seated quickly,0
+customers,wedding,0
+customers,wedding party,0
+customers,when we arrived,0
+customers,white castle,0
+customers,wifi,0
+customers,work related,0
+customers,yogurt,0
+drinks,alcohol,1
+drinks,ale,1
+drinks,americano,1
+drinks,an americano,1
+drinks,beer,1
+drinks,black tea,1
+drinks,boba,1
+drinks,bottle of water,1
+drinks,bottle of wine,1
+drinks,bottled sodas,1
+drinks,bottles of wine,1
+drinks,bourbon,1
+drinks,brandy,1
+drinks,brews,1
+drinks,bubble tea,1
+drinks,cabernet,1
+drinks,cappuccino,1
+drinks,carrot juice,1
+drinks,cereal milk,1
+drinks,chai latte,1
+drinks,champagne,1
+drinks,chardonnay,1
+drinks,chianti,1
+drinks,chocolate milk,1
+drinks,cider,1
+drinks,cocktail,1
+drinks,cocktails,1
+drinks,coconut juice,1
+drinks,coffee,1
+drinks,coke,1
+drinks,coke products,1
+drinks,cold brew,1
+drinks,craft beer,1
+drinks,craft beers,1
+drinks,cream soda,1
+drinks,cup of coffee,1
+drinks,cup of water,1
+drinks,decaf,1
+drinks,diet coke,1
+drinks,drip coffee,1
+drinks,earl grey,1
+drinks,espresso,1
+drinks,fountain drink,1
+drinks,french_press coffee,1
+drinks,fresh orange_juice,1
+drinks,fresh squeezed juice,1
+drinks,fruity drinks,1
+drinks,gin,1
+drinks,ginger juice,1
+drinks,ginger tea,1
+drinks,green juice,1
+drinks,green tea,1
+drinks,honey boba,1
+drinks,horchata,1
+drinks,hot chocolate,1
+drinks,hot chocolates,1
+drinks,hot green_tea,1
+drinks,ice milk,1
+drinks,ice tea,1
+drinks,ice water,1
+drinks,iced coffee,1
+drinks,jamba juice,1
+drinks,jicama,1
+drinks,juice,1
+drinks,kombucha,1
+drinks,kool aid,1
+drinks,kung fu tea,1
+drinks,lager,1
+drinks,latte,1
+drinks,lattes,1
+drinks,lemonade,1
+drinks,lime margaritas,1
+drinks,limoncello,1
+drinks,local beers,1
+drinks,macchiato,1
+drinks,mango juice,1
+drinks,mango lassi,1
+drinks,merlot,1
+drinks,milk,1
+drinks,milk tea,1
+drinks,milkshake,1
+drinks,mimosa,1
+drinks,mocha,1
+drinks,mochas,1
+drinks,moonshine,1
+drinks,olive juice,1
+drinks,oolong,1
+drinks,orange soda,1
+drinks,pale ale,1
+drinks,peach tea,1
+drinks,pepsi,1
+drinks,pinot,1
+drinks,pinot noir,1
+drinks,red wine,1
+drinks,root beer,1
+drinks,rum,1
+drinks,sago,1
+drinks,sake,1
+drinks,saki,1
+drinks,sangria,1
+drinks,sapporo,1
+drinks,selection of beers,1
+drinks,smoothie,1
+drinks,smoothies,1
+drinks,soda,1
+drinks,soda fountain,1
+drinks,soda water,1
+drinks,sodas,1
+drinks,soy latte,1
+drinks,sparkling water,1
+drinks,specialty coffee drinks,1
+drinks,specialty coffees,1
+drinks,spirits,1
+drinks,sprite,1
+drinks,strawberry juice,1
+drinks,strawberry lemonade,1
+drinks,strawberry milk,1
+drinks,tapioca,1
+drinks,tequila,1
+drinks,thai tea,1
+drinks,toro,1
+drinks,vietnamese coffee,1
+drinks,vodka,1
+drinks,water,1
+drinks,water bottle,1
+drinks,whisky,1
+drinks,white mocha,1
+drinks,white wine,1
+drinks,wine,1
+drinks,wines,1
+drinks,wines by the glass,1
+drinks,acai,0
+drinks,acai bowl,0
+drinks,ace,0
+drinks,alcoholic,0
+drinks,amd,0
+drinks,an old fashioned,0
+drinks,appetizer,0
+drinks,apple,0
+drinks,artichoke,0
+drinks,bagel,0
+drinks,bagel sandwiches,0
+drinks,bagels,0
+drinks,baked breads,0
+drinks,bakery,0
+drinks,baklava,0
+drinks,banana bread,0
+drinks,banana cream,0
+drinks,barbacoa,0
+drinks,barbecue,0
+drinks,barista,0
+drinks,baristas,0
+drinks,bbt,0
+drinks,bear,0
+drinks,beef brisket,0
+drinks,beef stew,0
+drinks,beer list,0
+drinks,beers on tap,0
+drinks,bibimbap,0
+drinks,bingsu,0
+drinks,biscuit,0
+drinks,black cod,0
+drinks,black olives,0
+drinks,blueberries,0
+drinks,boat,0
+drinks,bottle,0
+drinks,bottles,0
+drinks,braise beef,0
+drinks,brazilian,0
+drinks,bread,0
+drinks,breakfast sandwich,0
+drinks,breakfast sandwiches,0
+drinks,breweries,0
+drinks,brie,0
+drinks,broccoli,0
+drinks,bruschetta,0
+drinks,buffet,0
+drinks,bulgogi,0
+drinks,burrito,0
+drinks,butter,0
+drinks,butter cake,0
+drinks,butter chicken,0
+drinks,butter cream,0
+drinks,cabbage,0
+drinks,cabbage salad,0
+drinks,cactus,0
+drinks,cajun fry,0
+drinks,cake,0
+drinks,canadian,0
+drinks,candy,0
+drinks,cannoli,0
+drinks,cap,0
+drinks,carrot,0
+drinks,carrot cake,0
+drinks,cashew chicken,0
+drinks,cauliflower,0
+drinks,cellar,0
+drinks,chatime,0
+drinks,cheddar,0
+drinks,cheese,0
+drinks,cheesecake,0
+drinks,cheesesteak,0
+drinks,chicken,0
+drinks,chicken biryani,0
+drinks,chicken breast,0
+drinks,chicken nugget,0
+drinks,chicken satay,0
+drinks,chicken shawarma,0
+drinks,chicken strip,0
+drinks,chicken teriyaki,0
+drinks,chicken vindaloo,0
+drinks,chickpeas,0
+drinks,chili cheese,0
+drinks,chimichurri,0
+drinks,chipotle sauce,0
+drinks,chocolate,0
+drinks,chocolate almond,0
+drinks,chocolate banana,0
+drinks,chocolate cream,0
+drinks,cigar,0
+drinks,cigars,0
+drinks,cinnamon sugar,0
+drinks,clam,0
+drinks,cocktail shrimps,0
+drinks,coconut rice,0
+drinks,combination fried rice,0
+drinks,condensed milk,0
+drinks,congee,0
+drinks,cookies and cream,0
+drinks,cookies cream,0
+drinks,corkage fee,0
+drinks,corn bread,0
+drinks,corn tortilla,0
+drinks,cornbread,0
+drinks,cortado,0
+drinks,crab cake,0
+drinks,crab rangoon,0
+drinks,crawfish,0
+drinks,cream sauce,0
+drinks,croissant,0
+drinks,cucumber,0
+drinks,cucumber salad,0
+drinks,cupcake,0
+drinks,curry,0
+drinks,curry goat,0
+drinks,custard,0
+drinks,daily,0
+drinks,dark roast,0
+drinks,desert,0
+drinks,deserts,0
+drinks,dessert,0
+drinks,dispenser,0
+drinks,dispensers,0
+drinks,dog,0
+drinks,dogs,0
+drinks,domestic,0
+drinks,donburi,0
+drinks,dosa,0
+drinks,doubles,0
+drinks,doughnut,0
+drinks,doughnuts,0
+drinks,draft,0
+drinks,draft selection,0
+drinks,drafts,0
+drinks,dragon,0
+drinks,dragon roll,0
+drinks,duck confit,0
+drinks,dumpling,0
+drinks,durian,0
+drinks,dynamite roll,0
+drinks,eel,0
+drinks,egg,0
+drinks,eggplant,0
+drinks,escargot,0
+drinks,feta,0
+drinks,feta cheese,0
+drinks,flat breads,0
+drinks,flat white,0
+drinks,food,0
+drinks,free,0
+drinks,fresh bread and butter,0
+drinks,fresh fruit,0
+drinks,fruit,0
+drinks,fruit preserves,0
+drinks,fruits,0
+drinks,fry,0
+drinks,garlic,0
+drinks,garlic bread,0
+drinks,garlic sauce,0
+drinks,gelato,0
+drinks,ginger,0
+drinks,ginger lemon,0
+drinks,glass noodle,0
+drinks,gnocchi,0
+drinks,goat,0
+drinks,goodies,0
+drinks,granola,0
+drinks,grass jelly,0
+drinks,great lakes,0
+drinks,greek salad,0
+drinks,green curry,0
+drinks,green olives,0
+drinks,green onion,0
+drinks,grigio,0
+drinks,growlers,0
+drinks,guacamole,0
+drinks,guinness,0
+drinks,gumbo,0
+drinks,gyoza,0
+drinks,ham and cheese,0
+drinks,ham and cheese sandwich,0
+drinks,hamburger,0
+drinks,hamburgers,0
+drinks,hand rolls,0
+drinks,hefeweizen,0
+drinks,hokkaido,0
+drinks,honey,0
+drinks,honey butter,0
+drinks,honey lemon,0
+drinks,honey syrup,0
+drinks,honey toast,0
+drinks,hookah,0
+drinks,hot and sour soup,0
+drinks,house,0
+drinks,humus,0
+drinks,hurricane,0
+drinks,ice,0
+drinks,iced,0
+drinks,ipa,0
+drinks,ipas,0
+drinks,irish,0
+drinks,island,0
+drinks,jambalaya,0
+drinks,java,0
+drinks,jerk chicken,0
+drinks,juice bar,0
+drinks,kale,0
+drinks,ketchup,0
+drinks,kids meal,0
+drinks,kielbasa,0
+drinks,kiwi,0
+drinks,latte art,0
+drinks,lemon,0
+drinks,lemon butter,0
+drinks,lemon cake,0
+drinks,lemon cream,0
+drinks,lemon ginger,0
+drinks,lemongrass,0
+drinks,lentil,0
+drinks,lentil soup,0
+drinks,liquid chocolate,0
+drinks,local brewery,0
+drinks,low fat,0
+drinks,lychee,0
+drinks,lychee jelly,0
+drinks,mac and cheese,0
+drinks,macaroni salad,0
+drinks,maki,0
+drinks,malbec,0
+drinks,mango salad,0
+drinks,mangoes,0
+drinks,manhattan,0
+drinks,matcha,0
+drinks,mayo,0
+drinks,meat,0
+drinks,meatball,0
+drinks,meatloaf,0
+drinks,mexican,0
+drinks,milk chocolate,0
+drinks,miso,0
+drinks,miso soup,0
+drinks,mochi,0
+drinks,mongolian beef,0
+drinks,mozzarella,0
+drinks,muffin,0
+drinks,mushroom,0
+drinks,naan bread,0
+drinks,nigiri,0
+drinks,nigiri sushi,0
+drinks,noodle,0
+drinks,oatmeal,0
+drinks,okra,0
+drinks,old fashion,0
+drinks,old fashioned,0
+drinks,on tap,0
+drinks,onion,0
+drinks,orange cream,0
+drinks,packets,0
+drinks,pancake,0
+drinks,pancetta,0
+drinks,pandan,0
+drinks,paneer,0
+drinks,panini,0
+drinks,papaya,0
+drinks,papaya salad,0
+drinks,parfait,0
+drinks,pasta,0
+drinks,pastas and pizzas,0
+drinks,pasties,0
+drinks,pastrami,0
+drinks,pastry,0
+drinks,pear,0
+drinks,pearls,0
+drinks,perch,0
+drinks,pesto,0
+drinks,pint,0
+drinks,pizza,0
+drinks,plastic cups,0
+drinks,poke bowl,0
+drinks,polenta,0
+drinks,polish,0
+drinks,pop,0
+drinks,popcorn,0
+drinks,popcorn chicken,0
+drinks,pork,0
+drinks,pork dumpling,0
+drinks,port,0
+drinks,pot pies,0
+drinks,potato soup,0
+drinks,pours,0
+drinks,poutine,0
+drinks,prawn,0
+drinks,pretzel,0
+drinks,prosciutto,0
+drinks,protein,0
+drinks,quinoa,0
+drinks,rainbow roll,0
+drinks,raman,0
+drinks,ramen,0
+drinks,ranch,0
+drinks,ratatouille,0
+drinks,red bean,0
+drinks,red curry,0
+drinks,reds,0
+drinks,refill,0
+drinks,refills,0
+drinks,rice,0
+drinks,rice bowl,0
+drinks,rice pilaf,0
+drinks,ripe,0
+drinks,risotto,0
+drinks,romaine lettuce,0
+drinks,rose,0
+drinks,roti,0
+drinks,royal,0
+drinks,rum cake,0
+drinks,saag paneer,0
+drinks,salad,0
+drinks,salami,0
+drinks,salmon roll,0
+drinks,salmon sashimi,0
+drinks,salsa,0
+drinks,sandwich,0
+drinks,sandwiches,0
+drinks,sashimi,0
+drinks,sauerkraut,0
+drinks,sausage,0
+drinks,scallion pancake,0
+drinks,schnitzel,0
+drinks,scone,0
+drinks,seafood pancake,0
+drinks,seafood pasta,0
+drinks,serve yourself,0
+drinks,sesame chicken,0
+drinks,shaved ice,0
+drinks,shawarma,0
+drinks,sidecar,0
+drinks,sliced meats,0
+drinks,slider,0
+drinks,small plates,0
+drinks,snow crab,0
+drinks,soda machine,0
+drinks,soju,0
+drinks,sommelier,0
+drinks,soup,0
+drinks,soup dumpling,0
+drinks,special rolls,0
+drinks,specialty rolls,0
+drinks,spicy tuna roll,0
+drinks,spider roll,0
+drinks,spinach,0
+drinks,squash,0
+drinks,squid,0
+drinks,stout,0
+drinks,stouts,0
+drinks,straws,0
+drinks,stromboli,0
+drinks,sugar,0
+drinks,sugar syrup,0
+drinks,sushi,0
+drinks,sushi roll,0
+drinks,sushi rolls,0
+drinks,sushi sashimi,0
+drinks,sweet and sour,0
+drinks,sweet and sour chicken,0
+drinks,sweet and sour pork,0
+drinks,sweet potato fry,0
+drinks,syrup,0
+drinks,taco,0
+drinks,takoyaki,0
+drinks,tap,0
+drinks,tapas,0
+drinks,taps,0
+drinks,taro,0
+drinks,tataki,0
+drinks,tempura shrimp,0
+drinks,teriyaki,0
+drinks,teriyaki chicken,0
+drinks,their specialty,0
+drinks,tilapia,0
+drinks,tiramisu,0
+drinks,tomato,0
+drinks,tomato cream,0
+drinks,tomato soup,0
+drinks,top shelf,0
+drinks,top sirloin,0
+drinks,tostone,0
+drinks,tropical,0
+drinks,truffle,0
+drinks,truffle fry,0
+drinks,tuna salad,0
+drinks,tzatziki sauce,0
+drinks,ube,0
+drinks,udon,0
+drinks,unagi,0
+drinks,vanilla syrup,0
+drinks,various meats,0
+drinks,veal,0
+drinks,vegan,0
+drinks,vermicelli,0
+drinks,vodka sauce,0
+drinks,waffle,0
+drinks,walnut shrimp,0
+drinks,water chestnuts,0
+drinks,white sauce,0
+drinks,wine glasses,0
+drinks,wine list,0
+drinks,wine pairings,0
+drinks,wine tasting,0
+drinks,winery,0
+drinks,wonton soup,0
+drinks,yellow tail,0
+drinks,yogurt,0
+drinks,zucchini,0
+food_category,cantonese,1
+food_category,chinese,1
+food_category,chinese cuisine,1
+food_category,chinese style,1
+food_category,hong kong style,1
+food_category,japanese,1
+food_category,korean,1
+food_category,mexican,1
+food_category,mexican food,1
+food_category,mexican style,1
+food_category,swiss cheese,1
+food_category,szechwan,1
+food_category,thai,1
+food_category,thai cuisine,1
+food_category,thai style,1
+food_category,vietnamese,1
+food_category,0.5,0
+food_category,0.875,0
+food_category,31,0
+food_category,77,0
+food_category,800,0
+food_category,2 adults,0
+food_category,absinthe,0
+food_category,acai,0
+food_category,acai bowl,0
+food_category,acai bowls,0
+food_category,adults,0
+food_category,almond milk,0
+food_category,angelo,0
+food_category,apricot,0
+food_category,authentic mexican food,0
+food_category,avoid at all costs,0
+food_category,baguette,0
+food_category,baguettes,0
+food_category,balsamic,0
+food_category,balsamic vinegar,0
+food_category,basmati rice,0
+food_category,beans and rice,0
+food_category,black beans,0
+food_category,bloomfield,0
+food_category,blt,0
+food_category,bread,0
+food_category,breads,0
+food_category,brioche,0
+food_category,broadway,0
+food_category,burritos,0
+food_category,burro,0
+food_category,butters,0
+food_category,calzones,0
+food_category,candied walnuts,0
+food_category,carne asada,0
+food_category,carne asada burrito,0
+food_category,carnitas,0
+food_category,chicago style,0
+food_category,chickpea,0
+food_category,chickpeas,0
+food_category,chili verde,0
+food_category,chimi,0
+food_category,chimichanga,0
+food_category,china,0
+food_category,chinatown,0
+food_category,chips and salsa,0
+food_category,chorizo,0
+food_category,chutney,0
+food_category,chutneys,0
+food_category,ciabatta bread,0
+food_category,cici,0
+food_category,cold brew,0
+food_category,complimentary chips and salsa,0
+food_category,cottage cheese,0
+food_category,crackers,0
+food_category,cranberry sauce,0
+food_category,creamer,0
+food_category,crispy duck,0
+food_category,crying,0
+food_category,dairy,0
+food_category,danger,0
+food_category,dill,0
+food_category,driver,0
+food_category,east,0
+food_category,enchilada,0
+food_category,enchiladas,0
+food_category,escort,0
+food_category,exhausted,0
+food_category,fattening,0
+food_category,flautas,0
+food_category,fresh baked,0
+food_category,freshly baked,0
+food_category,fried rice,0
+food_category,gluten free bread,0
+food_category,guac,0
+food_category,guacamole,0
+food_category,hard boiled egg,0
+food_category,health conscious,0
+food_category,healthier,0
+food_category,healthy options,0
+food_category,herb,0
+food_category,herbs,0
+food_category,hills,0
+food_category,homemade ice cream,0
+food_category,hot chocolate,0
+food_category,ichiban,0
+food_category,including tax and tip,0
+food_category,independence,0
+food_category,injera,0
+food_category,jet,0
+food_category,kung fu,0
+food_category,lanes,0
+food_category,lavender,0
+food_category,le thai,0
+food_category,lemonade,0
+food_category,lemonades,0
+food_category,lentil,0
+food_category,lentils,0
+food_category,loaf,0
+food_category,loaves,0
+food_category,lotus,0
+food_category,low fat,0
+food_category,machaca,0
+food_category,markham,0
+food_category,miles away,0
+food_category,mob,0
+food_category,mochas,0
+food_category,mole,0
+food_category,multigrain,0
+food_category,naan,0
+food_category,nello,0
+food_category,nj,0
+food_category,noodle dish,0
+food_category,ny style pizza,0
+food_category,oils,0
+food_category,olive,0
+food_category,on our way home,0
+food_category,on spring mountain,0
+food_category,open until,0
+food_category,pacific,0
+food_category,pai,0
+food_category,papa johns,0
+food_category,parma,0
+food_category,pico,0
+food_category,pico de gallo,0
+food_category,pinto beans,0
+food_category,pita bread,0
+food_category,queso,0
+food_category,queso fresco,0
+food_category,raisin,0
+food_category,raisins,0
+food_category,refried beans,0
+food_category,report,0
+food_category,rosemary,0
+food_category,rye,0
+food_category,salsa,0
+food_category,seoul,0
+food_category,shanghai,0
+food_category,shredded beef,0
+food_category,siam,0
+food_category,simple syrup,0
+food_category,singaporean,0
+food_category,siu mai,0
+food_category,skinnyfats,0
+food_category,sober,0
+food_category,sopes,0
+food_category,sour cream,0
+food_category,spicy salsa,0
+food_category,spread,0
+food_category,spreads,0
+food_category,stir fried,0
+food_category,stumble,0
+food_category,sumo,0
+food_category,sweetener,0
+food_category,syrup,0
+food_category,syrups,0
+food_category,tahini,0
+food_category,tai,0
+food_category,taiwan,0
+food_category,taiwanese,0
+food_category,tex mex,0
+food_category,tiger,0
+food_category,toasted,0
+food_category,tokyo,0
+food_category,tomatillo,0
+food_category,tortilla,0
+food_category,tortillas,0
+food_category,tostada,0
+food_category,trail,0
+food_category,vancouver,0
+food_category,ve lived,0
+food_category,veggie sandwich,0
+food_category,viet,0
+food_category,villa,0
+food_category,wheat,0
+food_category,whipped butter,0
+food_category,white bread,0
+food_category,whole grain,0
+food_category,whole wheat,0
+food_category,wok,0
+food_category,wonder,0
+food_category,yang,0
+food_category,year olds,0
+food_category,yummiest,0
+food_dish,bean sprouts,1
+food_dish,birthday cake,1
+food_dish,bok choy,1
+food_dish,burger,1
+food_dish,cake pops,1
+food_dish,cakes,1
+food_dish,cheese curds,1
+food_dish,cheeseburger,1
+food_dish,cheeseburgers,1
+food_dish,cheesecake,1
+food_dish,chicago style pizza,1
+food_dish,chocolate,1
+food_dish,chocolates,1
+food_dish,chow mein,1
+food_dish,chow mien,1
+food_dish,cookies,1
+food_dish,corn beef hash,1
+food_dish,creme brulee,1
+food_dish,cupcakes,1
+food_dish,dan dan noodles,1
+food_dish,dark chocolate,1
+food_dish,deep dish,1
+food_dish,deep dish pizza,1
+food_dish,eclairs,1
+food_dish,focaccia,1
+food_dish,fresh cut fries,1
+food_dish,fried noodles,1
+food_dish,fried pickles,1
+food_dish,fried rice,1
+food_dish,fries,1
+food_dish,gelato,1
+food_dish,grilled onions,1
+food_dish,honey mustard,1
+food_dish,ice cream,1
+food_dish,icecream,1
+food_dish,kung pao chicken,1
+food_dish,macarons,1
+food_dish,macaroons,1
+food_dish,mochi,1
+food_dish,mousse,1
+food_dish,noodle,1
+food_dish,noodle dish,1
+food_dish,noodle soup,1
+food_dish,noodles,1
+food_dish,ny style pizza,1
+food_dish,onion rings,1
+food_dish,onion straws,1
+food_dish,pan fried dumplings,1
+food_dish,panna cotta,1
+food_dish,pizza,1
+food_dish,plain rice,1
+food_dish,pretzel bun,1
+food_dish,pudding,1
+food_dish,regular fries,1
+food_dish,rice noodles,1
+food_dish,scones,1
+food_dish,shaved ice,1
+food_dish,sherbet,1
+food_dish,skinny fries,1
+food_dish,sorbet,1
+food_dish,soy sauce,1
+food_dish,spring roll,1
+food_dish,steamed rice,1
+food_dish,sticky toffee pudding,1
+food_dish,sugar cookies,1
+food_dish,sundae,1
+food_dish,sweet potato fries,1
+food_dish,sweet potato tots,1
+food_dish,tarts,1
+food_dish,tater tots,1
+food_dish,tator tots,1
+food_dish,texas toast,1
+food_dish,tiramisu,1
+food_dish,toasted bread,1
+food_dish,toffee,1
+food_dish,vermicelli,1
+food_dish,wedding cake,1
+food_dish,wonton,1
+food_dish,wontons,1
+food_dish,20 dollars,0
+food_dish,27th,0
+food_dish,alittle,0
+food_dish,animal style,0
+food_dish,baby shower,0
+food_dish,baker,0
+food_dish,bakers,0
+food_dish,bakery,0
+food_dish,barro,0
+food_dish,bbq sauce,0
+food_dish,bianca,0
+food_dish,birthday party,0
+food_dish,breakfast or lunch,0
+food_dish,brown sauce,0
+food_dish,buckwheat,0
+food_dish,came here yesterday,0
+food_dish,can be difficult,0
+food_dish,carbs,0
+food_dish,catering,0
+food_dish,celebrate our anniversary,0
+food_dish,chow fun,0
+food_dish,creme br l e,0
+food_dish,crispy crust,0
+food_dish,crust is thin,0
+food_dish,crust was thin,0
+food_dish,crusty,0
+food_dish,cupcakery,0
+food_dish,directly,0
+food_dish,domino,0
+food_dish,dominos,0
+food_dish,doused,0
+food_dish,drawer,0
+food_dish,eager to please,0
+food_dish,european style,0
+food_dish,expert,0
+food_dish,extra noodles,0
+food_dish,few bites,0
+food_dish,few days,0
+food_dish,fish sauce,0
+food_dish,freed,0
+food_dish,fry sauce,0
+food_dish,gelatos,0
+food_dish,gets really busy,0
+food_dish,gifts,0
+food_dish,gigi,0
+food_dish,grimaldi,0
+food_dish,hand tossed,0
+food_dish,hired,0
+food_dish,hot and sour,0
+food_dish,hot fudge,0
+food_dish,in a bad mood,0
+food_dish,jar,0
+food_dish,ketchup,0
+food_dish,licking,0
+food_dish,lighter,0
+food_dish,lo mein,0
+food_dish,margherita,0
+food_dish,mediocre at best,0
+food_dish,menu changes,0
+food_dish,metro,0
+food_dish,minus one star,0
+food_dish,mozarella,0
+food_dish,msg,0
+food_dish,mustard,0
+food_dish,napoli,0
+food_dish,neapolitan,0
+food_dish,neighbor,0
+food_dish,ny style,0
+food_dish,nypd,0
+food_dish,olive oil,0
+food_dish,oreo,0
+food_dish,passion fruit,0
+food_dish,pepper jack,0
+food_dish,pepperoni,0
+food_dish,pickles,0
+food_dish,pies,0
+food_dish,pistachio,0
+food_dish,pizza hut,0
+food_dish,pizza joint,0
+food_dish,pizza joints,0
+food_dish,pizzeria,0
+food_dish,pizzeria bianco,0
+food_dish,po',0
+food_dish,pomo,0
+food_dish,poured over,0
+food_dish,pretty damn,0
+food_dish,pretty popular,0
+food_dish,reception,0
+food_dish,ritz,0
+food_dish,room for dessert,0
+food_dish,room temp,0
+food_dish,room temperature,0
+food_dish,salted caramel,0
+food_dish,seasoned nicely,0
+food_dish,shoestring,0
+food_dish,signed up,0
+food_dish,sinful,0
+food_dish,singapore,0
+food_dish,six,0
+food_dish,smooth and creamy,0
+food_dish,sometime,0
+food_dish,stir fried,0
+food_dish,sweet and sour,0
+food_dish,sweet chili,0
+food_dish,than,0
+food_dish,there is always a line,0
+food_dish,thick crust,0
+food_dish,thin crust,0
+food_dish,this place gets packed,0
+food_dish,tolerable,0
+food_dish,tomatoe,0
+food_dish,tots,0
+food_dish,tray,0
+food_dish,uneaten,0
+food_dish,unlike any,0
+food_dish,vey,0
+food_dish,waffle cone,0
+food_dish,warmer,0
+food_dish,wedding,0
+food_dish,white wine,0
+food_dish,you might have to wait,0
+ingredient,agave,1
+ingredient,aioli,1
+ingredient,apple fritters,1
+ingredient,artichoke,1
+ingredient,artichokes,1
+ingredient,arugula,1
+ingredient,asiago,1
+ingredient,asparagus,1
+ingredient,bbq sauce,1
+ingredient,bell peppers,1
+ingredient,cajun,1
+ingredient,caramel,1
+ingredient,chili,1
+ingredient,chili sauce,1
+ingredient,chives,1
+ingredient,chocolate,1
+ingredient,cucumber,1
+ingredient,feta,1
+ingredient,feta cheese,1
+ingredient,fresh mozzarella,1
+ingredient,goat cheese,1
+ingredient,gorgonzola,1
+ingredient,grapefruit,1
+ingredient,green peppers,1
+ingredient,habanero,1
+ingredient,hot salsa,1
+ingredient,italian sausage,1
+ingredient,jalapeno,1
+ingredient,jalapenos,1
+ingredient,jalepeno,1
+ingredient,jalepenos,1
+ingredient,kiwi,1
+ingredient,lime juice,1
+ingredient,lychee,1
+ingredient,mint,1
+ingredient,mozzarella,1
+ingredient,mushroom,1
+ingredient,mushrooms,1
+ingredient,olives,1
+ingredient,onions,1
+ingredient,parmesan,1
+ingredient,passion fruit,1
+ingredient,passionfruit,1
+ingredient,peach,1
+ingredient,pecorino,1
+ingredient,peppers,1
+ingredient,pomegranate,1
+ingredient,prosciutto,1
+ingredient,provolone,1
+ingredient,raspberry,1
+ingredient,ricotta,1
+ingredient,roasted garlic,1
+ingredient,roasted peppers,1
+ingredient,roasted red peppers,1
+ingredient,salted caramel,1
+ingredient,scallion,1
+ingredient,simple syrup,1
+ingredient,siracha,1
+ingredient,spinach,1
+ingredient,sriracha,1
+ingredient,strawberry,1
+ingredient,sun dried tomatoes,1
+ingredient,tomatillo,1
+ingredient,tomato,1
+ingredient,tomatoes,1
+ingredient,tomatos,1
+ingredient,watermelon,1
+ingredient,apologizing,0
+ingredient,bao,0
+ingredient,bbq pork buns,0
+ingredient,blaming,0
+ingredient,boiled,0
+ingredient,bosa,0
+ingredient,bothering,0
+ingredient,breakfasts,0
+ingredient,brownie sundae,0
+ingredient,candy store,0
+ingredient,caramelized onions,0
+ingredient,char siu,0
+ingredient,checked up on,0
+ingredient,checking up on,0
+ingredient,cheesecake,0
+ingredient,chile,0
+ingredient,churro,0
+ingredient,coffee refills,0
+ingredient,complained to the manager,0
+ingredient,congee,0
+ingredient,continuously,0
+ingredient,cookie,0
+ingredient,corona,0
+ingredient,cronut,0
+ingredient,cupcake,0
+ingredient,cupcakes,0
+ingredient,daiquiri,0
+ingredient,dirty plates,0
+ingredient,donut,0
+ingredient,donut shop,0
+ingredient,donuts,0
+ingredient,doughnut,0
+ingredient,doughnuts,0
+ingredient,dry rub,0
+ingredient,dulce de leche,0
+ingredient,dumpling,0
+ingredient,dumplings,0
+ingredient,dunkin,0
+ingredient,dunkin donuts,0
+ingredient,during our meal,0
+ingredient,eclairs,0
+ingredient,egg roll,0
+ingredient,entire time we were,0
+ingredient,extra spicy,0
+ingredient,extremely slow,0
+ingredient,fish balls,0
+ingredient,fried dough,0
+ingredient,fried noodles,0
+ingredient,frosting,0
+ingredient,fudge,0
+ingredient,genuine,0
+ingredient,gin,0
+ingredient,gin and tonic,0
+ingredient,good,0
+ingredient,gyoza,0
+ingredient,har gow,0
+ingredient,heat,0
+ingredient,heat level,0
+ingredient,hibiscus,0
+ingredient,hot sauce,0
+ingredient,hotness,0
+ingredient,hotter,0
+ingredient,ice cream,0
+ingredient,ice cream shop,0
+ingredient,icecream,0
+ingredient,iced tea,0
+ingredient,icing,0
+ingredient,in a timely manner,0
+ingredient,interrupting,0
+ingredient,jalape os,0
+ingredient,kalamata,0
+ingredient,kick,0
+ingredient,kimchi,0
+ingredient,krispy kreme,0
+ingredient,large crowd,0
+ingredient,lemonade,0
+ingredient,lousy,0
+ingredient,macaroons,0
+ingredient,mild,0
+ingredient,mojito,0
+ingredient,mojitos,0
+ingredient,muddled,0
+ingredient,neglect,0
+ingredient,never refilled,0
+ingredient,orchid,0
+ingredient,our waitress was very nice,0
+ingredient,our waters,0
+ingredient,pan fried,0
+ingredient,pan fried dumplings,0
+ingredient,peking duck,0
+ingredient,pina colada,0
+ingredient,pink box,0
+ingredient,poor service,0
+ingredient,pork belly,0
+ingredient,pork bun,0
+ingredient,pork buns,0
+ingredient,refilled,0
+ingredient,refilling,0
+ingredient,refilling our,0
+ingredient,refills,0
+ingredient,refreshing,0
+ingredient,rice cake,0
+ingredient,rice cakes,0
+ingredient,roast duck,0
+ingredient,roast pork,0
+ingredient,rum,0
+ingredient,service,0
+ingredient,services,0
+ingredient,shanghai,0
+ingredient,shu mai,0
+ingredient,shumai,0
+ingredient,siu mai,0
+ingredient,smothered,0
+ingredient,sorbet,0
+ingredient,spice,0
+ingredient,spicey,0
+ingredient,spicier,0
+ingredient,spicier than,0
+ingredient,spicy,0
+ingredient,spicy salsa,0
+ingredient,steamed,0
+ingredient,substandard,0
+ingredient,sundae,0
+ingredient,sweet republic,0
+ingredient,sweet treat,0
+ingredient,tequila,0
+ingredient,throughout the evening,0
+ingredient,timely,0
+ingredient,tots,0
+ingredient,tropical,0
+ingredient,water refills,0
+ingredient,wonton,0
+ingredient,wontons,0
+food_category,afghan,1
+food_category,american,1
+food_category,american chinese,1
+food_category,american mexican,1
+food_category,arabic,1
+food_category,argentine,1
+food_category,armenian,1
+food_category,artisan,1
+food_category,asian,1
+food_category,asian fusion,1
+food_category,australian,1
+food_category,authentic indian,1
+food_category,authentic japanese,1
+food_category,barbecue,1
+food_category,belgian,1
+food_category,both japanese and korean,1
+food_category,brazilian,1
+food_category,british,1
+food_category,cambodian,1
+food_category,cambodian food,1
+food_category,canadian,1
+food_category,caribbean,1
+food_category,caribbean food,1
+food_category,catalan,1
+food_category,chinese bakery,1
+food_category,chinese buffet,1
+food_category,chinese cultural,1
+food_category,chinese fusion,1
+food_category,chinese restaurant,1
+food_category,chinese restaurants,1
+food_category,colombian,1
+food_category,danish,1
+food_category,dominican,1
+food_category,dutch,1
+food_category,egyptian,1
+food_category,english,1
+food_category,european,1
+food_category,filipino,1
+food_category,filipino food,1
+food_category,french bakery,1
+food_category,fusion,1
+food_category,german,1
+food_category,gourmet,1
+food_category,greek,1
+food_category,greek mediterranean,1
+food_category,halal,1
+food_category,hawaiian,1
+food_category,hispanic,1
+food_category,hungarian,1
+food_category,indian food,1
+food_category,indian restaurant,1
+food_category,iranian,1
+food_category,irish,1
+food_category,island,1
+food_category,japanese fusion,1
+food_category,japanese korean,1
+food_category,japanese restaurant,1
+food_category,japanese restaurants,1
+food_category,jewish,1
+food_category,korean barbecue,1
+food_category,korean fusion,1
+food_category,korean japanese,1
+food_category,korean restaurants,1
+food_category,latin,1
+food_category,latino,1
+food_category,lebanese,1
+food_category,lebanese food,1
+food_category,malaysian,1
+food_category,mediterranean,1
+food_category,mediterranean greek,1
+food_category,mexican american,1
+food_category,mexican fusion,1
+food_category,mexican restaurant,1
+food_category,mexican restaurants,1
+food_category,mongolian,1
+food_category,moroccan,1
+food_category,nepalese,1
+food_category,non vegetarian,1
+food_category,norwegian,1
+food_category,organic,1
+food_category,other indian restaurants,1
+food_category,other korean restaurants,1
+food_category,other mexican restaurants,1
+food_category,pakistani food,1
+food_category,persian,1
+food_category,peruvian,1
+food_category,polish,1
+food_category,portuguese,1
+food_category,raman,1
+food_category,real italian,1
+food_category,roman,1
+food_category,russian,1
+food_category,salad,1
+food_category,scandinavian,1
+food_category,sea food,1
+food_category,seafood,1
+food_category,southern,1
+food_category,southern indian,1
+food_category,spanish,1
+food_category,swedish,1
+food_category,swiss,1
+food_category,szechuan,1
+food_category,tibetan,1
+food_category,tibetan food,1
+food_category,traditional french,1
+food_category,traditional german,1
+food_category,traditional indian,1
+food_category,traditional italian,1
+food_category,traditional korean,1
+food_category,traditional spanish,1
+food_category,traditional vietnamese,1
+food_category,true italian,1
+food_category,turkish,1
+food_category,vegan vegetarian,1
+food_category,vegetarian,1
+food_category,vegetarian vegan,1
+food_category,venezuelan,1
+food_category,western,1
+food_category,appetizer,0
+food_category,artichoke,0
+food_category,bacon,0
+food_category,bagel,0
+food_category,bakery,0
+food_category,baklava,0
+food_category,basic,0
+food_category,beef,0
+food_category,beef brisket,0
+food_category,beef stew,0
+food_category,belgian chocolate,0
+food_category,bibimbap,0
+food_category,biscuit,0
+food_category,black cod,0
+food_category,boa,0
+food_category,boat,0
+food_category,brisket,0
+food_category,broccoli,0
+food_category,bruschetta,0
+food_category,bulgogi,0
+food_category,cabbage,0
+food_category,cactus,0
+food_category,california,0
+food_category,cashew chicken,0
+food_category,cauliflower,0
+food_category,ceviche,0
+food_category,cheese,0
+food_category,cheesecake,0
+food_category,chicken,0
+food_category,chicken biryani,0
+food_category,chicken breast,0
+food_category,chicken satay,0
+food_category,chicken shawarma,0
+food_category,chicken strip,0
+food_category,chicken teriyaki,0
+food_category,chinese supermarket,0
+food_category,chipotle,0
+food_category,chocolate,0
+food_category,coconut shrimp,0
+food_category,coffee,0
+food_category,coleslaw,0
+food_category,combination fried rice,0
+food_category,congee,0
+food_category,corn bread,0
+food_category,cornbread,0
+food_category,country,0
+food_category,crab cake,0
+food_category,crab rangoon,0
+food_category,cucumber salad,0
+food_category,daily,0
+food_category,desert,0
+food_category,dessert,0
+food_category,duck,0
+food_category,dumpling,0
+food_category,edamame,0
+food_category,egg,0
+food_category,eggplant,0
+food_category,escargot,0
+food_category,ethnic,0
+food_category,euro,0
+food_category,falafel,0
+food_category,farm,0
+food_category,fast_food style,0
+food_category,fiesta,0
+food_category,filipino restaurant,0
+food_category,fish taco,0
+food_category,flan,0
+food_category,flatbread,0
+food_category,french pastry,0
+food_category,fry,0
+food_category,garden,0
+food_category,garlic bread,0
+food_category,garlic naan,0
+food_category,gelato,0
+food_category,general,0
+food_category,german beer,0
+food_category,german chocolate,0
+food_category,gnocchi,0
+food_category,goat,0
+food_category,gravy,0
+food_category,greek salad,0
+food_category,green curry,0
+food_category,gringo,0
+food_category,gumbo,0
+food_category,hakka,0
+food_category,hamburger,0
+food_category,hebrew,0
+food_category,hot and sour soup,0
+food_category,house,0
+food_category,hunan,0
+food_category,indian spices,0
+food_category,israeli,0
+food_category,jambalaya,0
+food_category,japanese culture,0
+food_category,japanese curry,0
+food_category,japanese ramen,0
+food_category,java,0
+food_category,jerk chicken,0
+food_category,jerk pork,0
+food_category,kimchi,0
+food_category,kobe,0
+food_category,korean supermarket,0
+food_category,kosher,0
+food_category,lao,0
+food_category,lentil soup,0
+food_category,local bakery,0
+food_category,local grocery,0
+food_category,louisiana,0
+food_category,mac and cheese,0
+food_category,mac n cheese,0
+food_category,macaroni salad,0
+food_category,mango salad,0
+food_category,meat,0
+food_category,meatball,0
+food_category,meatloaf,0
+food_category,mini,0
+food_category,miso,0
+food_category,mongolian beef,0
+food_category,moroccan chicken,0
+food_category,muffin,0
+food_category,new mexico,0
+food_category,new orleans,0
+food_category,new york,0
+food_category,non traditional,0
+food_category,noodle,0
+food_category,ny,0
+food_category,okra,0
+food_category,old fashioned,0
+food_category,oxtail,0
+food_category,pancake,0
+food_category,paneer,0
+food_category,panini,0
+food_category,papaya salad,0
+food_category,pasta,0
+food_category,pasties,0
+food_category,pastrami,0
+food_category,pastry,0
+food_category,pierogi,0
+food_category,pita,0
+food_category,pizza,0
+food_category,polenta,0
+food_category,popcorn,0
+food_category,popcorn chicken,0
+food_category,pork,0
+food_category,portuguese chicken,0
+food_category,potato,0
+food_category,poutine,0
+food_category,prawn,0
+food_category,pretzel,0
+food_category,protein,0
+food_category,quebec,0
+food_category,quiche,0
+food_category,ramen,0
+food_category,red curry,0
+food_category,rice,0
+food_category,rice pilaf,0
+food_category,risotto,0
+food_category,roti,0
+food_category,royal,0
+food_category,saag paneer,0
+food_category,salmon sashimi,0
+food_category,sandwich,0
+food_category,sashimi,0
+food_category,sausage,0
+food_category,scallion pancake,0
+food_category,schnitzel,0
+food_category,seafood pasta,0
+food_category,seaweed salad,0
+food_category,sesame chicken,0
+food_category,shawarma,0
+food_category,shrimp cocktail,0
+food_category,shrimp tempura,0
+food_category,sizzler,0
+food_category,slider,0
+food_category,smokehouse,0
+food_category,soup,0
+food_category,soup dumpling,0
+food_category,spanish rice,0
+food_category,spin,0
+food_category,steak,0
+food_category,straight up,0
+food_category,sushi,0
+food_category,sushi sashimi,0
+food_category,swedish fish,0
+food_category,sweet and sour chicken,0
+food_category,sweet potato fry,0
+food_category,taco,0
+food_category,takoyaki,0
+food_category,tapa,0
+food_category,tapas,0
+food_category,tea,0
+food_category,tempura,0
+food_category,tempura shrimp,0
+food_category,teppanyaki,0
+food_category,teriyaki chicken,0
+food_category,tiramisu,0
+food_category,tofu,0
+food_category,tomato soup,0
+food_category,top sirloin,0
+food_category,traditional style,0
+food_category,truffle,0
+food_category,tuna salad,0
+food_category,turkey,0
+food_category,udon,0
+food_category,veal,0
+food_category,vegetable,0
+food_category,vermicelli,0
+food_category,vietnamese coffee,0
+food_category,volcano,0
+food_category,waffle,0
+food_category,walnut shrimp,0
+food_category,white pizza,0
+food_category,wisconsin,0
+food_category,wonton soup,0
+food_category,zen,0
+food_dish,ahi tuna salad,1
+food_dish,almond cake,1
+food_dish,antipasto,1
+food_dish,apple cake,1
+food_dish,bacon cheeseburger,1
+food_dish,baklava,1
+food_dish,banana cream,1
+food_dish,banana pancakes,1
+food_dish,banchan,1
+food_dish,barbecue chicken,1
+food_dish,basil fried rice,1
+food_dish,bbq bean,1
+food_dish,bbq_chicken pizza,1
+food_dish,bbq_chicken sandwich,1
+food_dish,bean burrito,1
+food_dish,bean soup,1
+food_dish,beef carpaccio,1
+food_dish,beef teriyaki,1
+food_dish,belgian waffle,1
+food_dish,bibimbap,1
+food_dish,black cod,1
+food_dish,blt,1
+food_dish,blueberry pancake,1
+food_dish,borscht,1
+food_dish,bread,1
+food_dish,brisket,1
+food_dish,brisket sandwich,1
+food_dish,bruschetta,1
+food_dish,bulgogi,1
+food_dish,burrito,1
+food_dish,burrito bowl,1
+food_dish,butter cake,1
+food_dish,butter chicken,1
+food_dish,cabbage salad,1
+food_dish,cajun fries,1
+food_dish,cake,1
+food_dish,calzone,1
+food_dish,cannoli,1
+food_dish,carnitas taco,1
+food_dish,carpaccio,1
+food_dish,carrot cake,1
+food_dish,catfish,1
+food_dish,cheese fondue,1
+food_dish,chicken breast,1
+food_dish,chicken cutlet,1
+food_dish,chicken marsala,1
+food_dish,chicken quesadilla,1
+food_dish,chicken satay,1
+food_dish,chicken shawarma,1
+food_dish,chicken souvlaki,1
+food_dish,chicken strips,1
+food_dish,chicken teriyaki,1
+food_dish,chicken vindaloo,1
+food_dish,chili,1
+food_dish,chili cheese,1
+food_dish,chopped chicken salad,1
+food_dish,chowder,1
+food_dish,churro,1
+food_dish,coconut cake,1
+food_dish,coconut rice,1
+food_dish,coconut shrimp,1
+food_dish,coconut soup,1
+food_dish,congee,1
+food_dish,corn bread,1
+food_dish,cornbread,1
+food_dish,couscous,1
+food_dish,crab cake,1
+food_dish,crab rangoon,1
+food_dish,cream corn,1
+food_dish,croissant,1
+food_dish,cucumber salad,1
+food_dish,curry goat,1
+food_dish,desert,1
+food_dish,dumpling,1
+food_dish,egg noodles,1
+food_dish,escargot,1
+food_dish,falafel,1
+food_dish,fish taco,1
+food_dish,flan,1
+food_dish,flatbread,1
+food_dish,flatbread pizza,1
+food_dish,fondue,1
+food_dish,fresh baked bread,1
+food_dish,fresh baked breads,1
+food_dish,fried chicken sandwich,1
+food_dish,frittata,1
+food_dish,garden salad,1
+food_dish,garlic bread,1
+food_dish,garlic edamame,1
+food_dish,garlic fries,1
+food_dish,garlic naan,1
+food_dish,gazpacho,1
+food_dish,gnocchi,1
+food_dish,goat curry,1
+food_dish,greek fry,1
+food_dish,greek salad,1
+food_dish,green curry,1
+food_dish,green_tea ice_cream,1
+food_dish,grill beef,1
+food_dish,grilled cheese sandwich,1
+food_dish,grilled_cheese sandwich,1
+food_dish,grilled_chicken sandwich,1
+food_dish,guacamole,1
+food_dish,gumbo,1
+food_dish,gyro,1
+food_dish,ham and cheese,1
+food_dish,ham and cheese sandwich,1
+food_dish,hamburger,1
+food_dish,hangar steak,1
+food_dish,hot and sour soup,1
+food_dish,jambalaya,1
+food_dish,jerk chicken,1
+food_dish,kale salad,1
+food_dish,katsu chicken,1
+food_dish,kimchi,1
+food_dish,lamb chop,1
+food_dish,lamb kabob,1
+food_dish,las vegas roll,1
+food_dish,lemon butter,1
+food_dish,lentil soup,1
+food_dish,lobster ravioli,1
+food_dish,lobster risotto,1
+food_dish,lumpia,1
+food_dish,mac and cheese,1
+food_dish,mac n cheese,1
+food_dish,mango curry,1
+food_dish,mango salad,1
+food_dish,mango salsa,1
+food_dish,meatball,1
+food_dish,meatball sandwich,1
+food_dish,meatloaf,1
+food_dish,mediterranean salad,1
+food_dish,menudo,1
+food_dish,minestrone soup,1
+food_dish,miso,1
+food_dish,miso salmon,1
+food_dish,mongolian beef,1
+food_dish,monkey bread,1
+food_dish,muffin,1
+food_dish,mushroom pasta,1
+food_dish,mushroom risotto,1
+food_dish,mushroom soup,1
+food_dish,naan,1
+food_dish,naan bread,1
+food_dish,nachos,1
+food_dish,new york steak,1
+food_dish,noodle bowl,1
+food_dish,ny steak,1
+food_dish,ny strip,1
+food_dish,oatmeal,1
+food_dish,octopus salad,1
+food_dish,olive bread,1
+food_dish,omelette,1
+food_dish,onion pancakes,1
+food_dish,onion soup,1
+food_dish,orange beef,1
+food_dish,paella,1
+food_dish,pancake,1
+food_dish,pancakes,1
+food_dish,panini,1
+food_dish,papaya salad,1
+food_dish,pasta,1
+food_dish,pate,1
+food_dish,peanut chicken,1
+food_dish,pear salad,1
+food_dish,penne,1
+food_dish,pierogi,1
+food_dish,polenta,1
+food_dish,popcorn,1
+food_dish,popcorn chicken,1
+food_dish,pork belly taco,1
+food_dish,pork dumpling,1
+food_dish,pork raman,1
+food_dish,pork sausage,1
+food_dish,potato pancake,1
+food_dish,potato pancakes,1
+food_dish,potato soup,1
+food_dish,poutine,1
+food_dish,pozole,1
+food_dish,pretzel,1
+food_dish,prosciutto pizza,1
+food_dish,pulled pork sandwich,1
+food_dish,pulled_pork sandwich,1
+food_dish,pumpkin bread,1
+food_dish,pumpkin curry,1
+food_dish,pumpkin soup,1
+food_dish,quesadilla,1
+food_dish,quiche,1
+food_dish,quinoa salad,1
+food_dish,raman,1
+food_dish,raman noodle,1
+food_dish,ravioli,1
+food_dish,red curry,1
+food_dish,rice,1
+food_dish,rice bowl,1
+food_dish,risotto,1
+food_dish,roast_beef sandwich,1
+food_dish,rotisserie chicken,1
+food_dish,salad,1
+food_dish,salmon,1
+food_dish,salmon sashimi,1
+food_dish,samosa,1
+food_dish,sandwich,1
+food_dish,sashimi,1
+food_dish,sauerkraut,1
+food_dish,sausage,1
+food_dish,sausage gravy,1
+food_dish,scallion pancake,1
+food_dish,schnitzel,1
+food_dish,seafood pancake,1
+food_dish,seafood pasta,1
+food_dish,seaweed salad,1
+food_dish,sesame chicken,1
+food_dish,shawarma,1
+food_dish,shredded beef taco,1
+food_dish,shrimp ceviche,1
+food_dish,shrimp cocktail,1
+food_dish,shrimp dumpling,1
+food_dish,shrimp tacos,1
+food_dish,singapore noodle,1
+food_dish,slider,1
+food_dish,sliders,1
+food_dish,soba noodle,1
+food_dish,soup,1
+food_dish,souvlaki,1
+food_dish,spicy beef soup,1
+food_dish,spicy chicken sandwich,1
+food_dish,spicy rice cake,1
+food_dish,spinach salad,1
+food_dish,squash soup,1
+food_dish,steak,1
+food_dish,stew,1
+food_dish,strawberry butter,1
+food_dish,strawberry cake,1
+food_dish,strawberry milk,1
+food_dish,sweet and sour chicken,1
+food_dish,sweet_potato fries,1
+food_dish,taco,1
+food_dish,takoyaki,1
+food_dish,tempura,1
+food_dish,tempura shrimp,1
+food_dish,teriyaki beef,1
+food_dish,teriyaki bowl,1
+food_dish,teriyaki chicken,1
+food_dish,tofu soup,1
+food_dish,tom kha,1
+food_dish,tomato cream,1
+food_dish,tomato salsa,1
+food_dish,tomato soup,1
+food_dish,torta,1
+food_dish,tortellini,1
+food_dish,truffle fries,1
+food_dish,truffle fry,1
+food_dish,tuna salad,1
+food_dish,tuna sandwich,1
+food_dish,tuna sashimi,1
+food_dish,tuna taco,1
+food_dish,turkey bacon,1
+food_dish,turkey sandwich,1
+food_dish,turkey sausage,1
+food_dish,udon,1
+food_dish,udon noodle,1
+food_dish,vanilla cake,1
+food_dish,vegetable tempura,1
+food_dish,waffle,1
+food_dish,waffle fries,1
+food_dish,walnut bread,1
+food_dish,walnut cake,1
+food_dish,wheat bread,1
+food_dish,wheat noodles,1
+food_dish,white pizza,1
+food_dish,wonton soup,1
+food_dish,yakisoba,1
+food_dish,yakitori,1
+food_dish,appetizer,0
+food_dish,banana,0
+food_dish,banana pepper,0
+food_dish,banana strawberry,0
+food_dish,bolognese,0
+food_dish,brussels,0
+food_dish,cabbage,0
+food_dish,cappuccino,0
+food_dish,cheese,0
+food_dish,cherry,0
+food_dish,cherry lemon,0
+food_dish,cherry tomato,0
+food_dish,cherry tomatoes,0
+food_dish,chicken,0
+food_dish,chinese broccoli,0
+food_dish,chocolate banana,0
+food_dish,chocolate cherry,0
+food_dish,coffee,0
+food_dish,duck,0
+food_dish,edamame,0
+food_dish,egg,0
+food_dish,eggs,0
+food_dish,fish,0
+food_dish,french bread,0
+food_dish,fruit,0
+food_dish,fry,0
+food_dish,garlic,0
+food_dish,garlic butter,0
+food_dish,garlic sauce,0
+food_dish,ginger tea,0
+food_dish,gravy,0
+food_dish,grouper,0
+food_dish,haddock,0
+food_dish,juice,0
+food_dish,lemon,0
+food_dish,lemon ginger,0
+food_dish,lemonade,0
+food_dish,mango,0
+food_dish,mango coconut,0
+food_dish,mango juice,0
+food_dish,mushroom,0
+food_dish,mushrooms,0
+food_dish,onion,0
+food_dish,pastry,0
+food_dish,potato,0
+food_dish,potatoes,0
+food_dish,pumpkin,0
+food_dish,quail,0
+food_dish,quail egg,0
+food_dish,rabbit,0
+food_dish,ranch,0
+food_dish,sangria,0
+food_dish,strawberry,0
+food_dish,strawberry banana,0
+food_dish,strawberry mango,0
+food_dish,tomato,0
+food_dish,tomatoes,0
+food_dish,trout,0
+ingredient,almond,1
+ingredient,anchovy,1
+ingredient,andouille sausage,1
+ingredient,apple,1
+ingredient,apples,1
+ingredient,apricot,1
+ingredient,artichoke heart,1
+ingredient,avocado,1
+ingredient,banana leaves,1
+ingredient,banana pepper,1
+ingredient,bananas,1
+ingredient,bean,1
+ingredient,beef,1
+ingredient,black bean,1
+ingredient,black garlic,1
+ingredient,black olive,1
+ingredient,black olives,1
+ingredient,black sesame,1
+ingredient,blackberry,1
+ingredient,blueberry,1
+ingredient,bread,1
+ingredient,brie,1
+ingredient,broccoli,1
+ingredient,burnt sugar,1
+ingredient,butter,1
+ingredient,buttermilk,1
+ingredient,cabbage,1
+ingredient,cantaloupe,1
+ingredient,carrot,1
+ingredient,carrots,1
+ingredient,cashew,1
+ingredient,catfish,1
+ingredient,cauliflower,1
+ingredient,celery,1
+ingredient,cheese,1
+ingredient,cherry,1
+ingredient,cherry tomato,1
+ingredient,chestnut,1
+ingredient,chicken,1
+ingredient,chickpea,1
+ingredient,chili oil,1
+ingredient,chive,1
+ingredient,chorizo,1
+ingredient,cilantro,1
+ingredient,cinnamon sugar,1
+ingredient,citrus,1
+ingredient,clam,1
+ingredient,coleslaw,1
+ingredient,coriander,1
+ingredient,corn,1
+ingredient,crab,1
+ingredient,cranberry,1
+ingredient,crawfish,1
+ingredient,cream,1
+ingredient,daikon,1
+ingredient,dill,1
+ingredient,duck,1
+ingredient,edamame,1
+ingredient,egg,1
+ingredient,eggplant,1
+ingredient,fennel,1
+ingredient,flour,1
+ingredient,garlic,1
+ingredient,garlic butter,1
+ingredient,garlic oil,1
+ingredient,ginger,1
+ingredient,ginger lemon,1
+ingredient,glass noodle,1
+ingredient,goat,1
+ingredient,gouda,1
+ingredient,granola,1
+ingredient,grape,1
+ingredient,gravy,1
+ingredient,green apple,1
+ingredient,green chilis,1
+ingredient,green leaf,1
+ingredient,green olive,1
+ingredient,green olives,1
+ingredient,green onion,1
+ingredient,green pepper,1
+ingredient,green tomatoes,1
+ingredient,guacamole,1
+ingredient,hazelnut,1
+ingredient,herb,1
+ingredient,honey,1
+ingredient,horseradish,1
+ingredient,hummus,1
+ingredient,iceberg lettuce,1
+ingredient,jackfruit,1
+ingredient,jalape o,1
+ingredient,kalamata olive,1
+ingredient,kale,1
+ingredient,ketchup,1
+ingredient,kielbasa,1
+ingredient,leek,1
+ingredient,lemon,1
+ingredient,lemon butter,1
+ingredient,lemon ginger,1
+ingredient,lemon pepper,1
+ingredient,lemongrass,1
+ingredient,lentil,1
+ingredient,lettuce,1
+ingredient,lime,1
+ingredient,liver,1
+ingredient,lobster,1
+ingredient,macadamia,1
+ingredient,mango,1
+ingredient,maple,1
+ingredient,marmalade,1
+ingredient,marshmallow,1
+ingredient,matcha,1
+ingredient,mayo,1
+ingredient,mayonnaise,1
+ingredient,melon,1
+ingredient,miso,1
+ingredient,mozzarella cheese,1
+ingredient,mussel,1
+ingredient,noodle,1
+ingredient,nori,1
+ingredient,nutella,1
+ingredient,octopus,1
+ingredient,okra,1
+ingredient,olive,1
+ingredient,onion,1
+ingredient,pancetta,1
+ingredient,papaya,1
+ingredient,parsley,1
+ingredient,parsnip,1
+ingredient,peanut,1
+ingredient,peanuts,1
+ingredient,pear,1
+ingredient,pecan,1
+ingredient,pepper,1
+ingredient,pepperoni,1
+ingredient,pesto sauce,1
+ingredient,pine nuts,1
+ingredient,pineapple,1
+ingredient,pink pepper,1
+ingredient,pistachio,1
+ingredient,plantain,1
+ingredient,plum,1
+ingredient,polenta,1
+ingredient,pork,1
+ingredient,potato,1
+ingredient,provolone cheese,1
+ingredient,pumpkin,1
+ingredient,quinoa,1
+ingredient,radish,1
+ingredient,raisin,1
+ingredient,red bean,1
+ingredient,red onion,1
+ingredient,red pepper,1
+ingredient,red potatoes,1
+ingredient,red sauce,1
+ingredient,relish,1
+ingredient,rhubarb,1
+ingredient,rice,1
+ingredient,roasted onion,1
+ingredient,rock sugar,1
+ingredient,saffron,1
+ingredient,salad,1
+ingredient,salami,1
+ingredient,salsa,1
+ingredient,salt pepper,1
+ingredient,sauerkraut,1
+ingredient,sausage,1
+ingredient,scallop,1
+ingredient,seaweed,1
+ingredient,sesame,1
+ingredient,shiitake mushroom,1
+ingredient,shrimp,1
+ingredient,snow crab,1
+ingredient,sourdough,1
+ingredient,squash,1
+ingredient,squid,1
+ingredient,sugar,1
+ingredient,tahini,1
+ingredient,tamarind,1
+ingredient,tangerine,1
+ingredient,taro,1
+ingredient,thyme,1
+ingredient,tofu,1
+ingredient,truffle,1
+ingredient,truffle oil,1
+ingredient,turkey,1
+ingredient,turnip,1
+ingredient,vanilla,1
+ingredient,vanilla bean,1
+ingredient,veal,1
+ingredient,vegetable,1
+ingredient,vermicelli,1
+ingredient,vinegar,1
+ingredient,walnut,1
+ingredient,wasabi,1
+ingredient,water chestnut,1
+ingredient,white bean,1
+ingredient,white onion,1
+ingredient,white pepper,1
+ingredient,whole wheat,1
+ingredient,yuzu,1
+ingredient,zucchini,1
+ingredient,almond butter,0
+ingredient,apple cinnamon,0
+ingredient,bacon,0
+ingredient,bacon bit,0
+ingredient,banana bread,0
+ingredient,banana cream,0
+ingredient,banana strawberry,0
+ingredient,banana walnut,0
+ingredient,bean sauce,0
+ingredient,beef brisket,0
+ingredient,brioche,0
+ingredient,carnitas,0
+ingredient,cashew chicken,0
+ingredient,casserole,0
+ingredient,ceviche,0
+ingredient,cherry lemon,0
+ingredient,chili cheese,0
+ingredient,chimichurri,0
+ingredient,chipotle sauce,0
+ingredient,chocolate almond,0
+ingredient,chocolate banana,0
+ingredient,chocolate cherry,0
+ingredient,cinnamon apple,0
+ingredient,coconut curry,0
+ingredient,coconut mango,0
+ingredient,coconut rice,0
+ingredient,coffee,0
+ingredient,corn bread,0
+ingredient,corn salsa,0
+ingredient,crema,0
+ingredient,cucumber salad,0
+ingredient,curry,0
+ingredient,custard,0
+ingredient,duck confit,0
+ingredient,falafel,0
+ingredient,flour tortilla,0
+ingredient,fried onion,0
+ingredient,garlic bread,0
+ingredient,garlic naan,0
+ingredient,garlic sauce,0
+ingredient,ginger beef,0
+ingredient,ginger tea,0
+ingredient,gnocchi,0
+ingredient,green,0
+ingredient,green curry,0
+ingredient,green sauce,0
+ingredient,ham and cheese,0
+ingredient,honey almond,0
+ingredient,honey butter,0
+ingredient,honey garlic,0
+ingredient,honey lemon,0
+ingredient,humus,0
+ingredient,jerk chicken,0
+ingredient,lemon blueberry,0
+ingredient,lemon cake,0
+ingredient,lemon coconut,0
+ingredient,lemon cream,0
+ingredient,lox,0
+ingredient,mac n cheese,0
+ingredient,macaroni salad,0
+ingredient,mango coconut,0
+ingredient,mango curry,0
+ingredient,mango salsa,0
+ingredient,meatball,0
+ingredient,mochi,0
+ingredient,mongolian beef,0
+ingredient,mousse,0
+ingredient,naan,0
+ingredient,orange beef,0
+ingredient,peach mango,0
+ingredient,pesto,0
+ingredient,pita,0
+ingredient,pork sausage,0
+ingredient,red,0
+ingredient,red curry,0
+ingredient,risotto,0
+ingredient,roasted beans,0
+ingredient,roasted potato,0
+ingredient,rose tea,0
+ingredient,saffron rice,0
+ingredient,sauce,0
+ingredient,sesame chicken,0
+ingredient,spicy green sauce,0
+ingredient,spicy red sauce,0
+ingredient,strawberry banana,0
+ingredient,strawberry mango,0
+ingredient,sugar syrup,0
+ingredient,sweet and sour,0
+ingredient,swiss,0
+ingredient,tempura,0
+ingredient,teriyaki,0
+ingredient,tomato salsa,0
+ingredient,tomato soup,0
+ingredient,tortilla,0
+ingredient,vanilla almond,0
+ingredient,white sauce,0
+meals_served,3 course meal,1
+meals_served,4 course meal,1
+meals_served,an afternoon_snack,1
+meals_served,an early dinner,1
+meals_served,an early lunch,1
+meals_served,birthday dinners,1
+meals_served,breakfast,1
+meals_served,breakfast and lunch items,1
+meals_served,breakfast and lunch options,1
+meals_served,breakfast and lunch spot,1
+meals_served,breakfast lunch and dinner,1
+meals_served,breakfast or lunch,1
+meals_served,brunch,1
+meals_served,buffet,1
+meals_served,celebration dinner,1
+meals_served,co worker,1
+meals_served,early dinner,1
+meals_served,early evening,1
+meals_served,four course meal,1
+meals_served,high tea,1
+meals_served,last supper,1
+meals_served,late dinner,1
+meals_served,late lunch early dinner,1
+meals_served,lunch,1
+meals_served,lunch and dinner menus,1
+meals_served,lunch and dinner specials,1
+meals_served,lunch combo,1
+meals_served,lunch special,1
+meals_served,lunch specials,1
+meals_served,luncheon,1
+meals_served,lunches,1
+meals_served,lunchtime,1
+meals_served,mid day,1
+meals_served,mid meal,1
+meals_served,quick lunch,1
+meals_served,quick lunches,1
+meals_served,quick snack,1
+meals_served,seafood buffet,1
+meals_served,singer,1
+meals_served,sweet treat,1
+meals_served,three course meal,1
+meals_served,0.08333333333,0
+meals_served,0.1666666667,0
+meals_served,0.2083333333,0
+meals_served,0.2916666667,0
+meals_served,0.3333333333,0
+meals_served,0.375,0
+meals_served,0.4166666667,0
+meals_served,0.5,0
+meals_served,0.5416666667,0
+meals_served,0.5833333333,0
+meals_served,0.625,0
+meals_served,0.6666666667,0
+meals_served,0.7083333333,0
+meals_served,0.75,0
+meals_served,0.8333333333,0
+meals_served,0.875,0
+meals_served,0.9166666667,0
+meals_served,0.9583333333,0
+meals_served,44530,0
+meals_served,44560,0
+meals_served,11 00,0
+meals_served,2 large pizzas,0
+meals_served,24 hour,0
+meals_served,24 hours,0
+meals_served,30am,0
+meals_served,30pm,0
+meals_served,6 30pm,0
+meals_served,8 00,0
+meals_served,a.m,0
+meals_served,adventure,0
+meals_served,after midnight,0
+meals_served,afternoon,0
+meals_served,airport,0
+meals_served,all the makings,0
+meals_served,almond,0
+meals_served,an after dinner drink,0
+meals_served,an alternative,0
+meals_served,an appointment,0
+meals_served,an english muffin,0
+meals_served,an event,0
+meals_served,an occasional,0
+meals_served,appetizer,0
+meals_served,apple,0
+meals_served,area,0
+meals_served,around 10 30,0
+meals_served,around 11am,0
+meals_served,around 9 30,0
+meals_served,artichoke,0
+meals_served,artichoke heart,0
+meals_served,asparagus,0
+meals_served,at 10am,0
+meals_served,at 8am,0
+meals_served,avocado,0
+meals_served,az,0
+meals_served,bachelorette,0
+meals_served,bachelorette party,0
+meals_served,bacon,0
+meals_served,bag of chips,0
+meals_served,bagel,0
+meals_served,baked breads,0
+meals_served,bakery,0
+meals_served,banana,0
+meals_served,barbacoa,0
+meals_served,barrio,0
+meals_served,basketball,0
+meals_served,bay,0
+meals_served,bday,0
+meals_served,beef,0
+meals_served,beef brisket,0
+meals_served,beer,0
+meals_served,benedict,0
+meals_served,benedicts,0
+meals_served,bento,0
+meals_served,bento box,0
+meals_served,big group,0
+meals_served,birthday celebration,0
+meals_served,birthdays,0
+meals_served,biscuit,0
+meals_served,biscuits and gravy,0
+meals_served,biscuits gravy,0
+meals_served,bistro,0
+meals_served,black olive,0
+meals_served,blue adobe,0
+meals_served,blueberry,0
+meals_served,book,0
+meals_served,bowling,0
+meals_served,bread,0
+meals_served,breakfast bagel sandwich,0
+meals_served,breakfast joint,0
+meals_served,breakfast or brunch,0
+meals_served,breakfast pot _ pie,0
+meals_served,breakfast potatoes,0
+meals_served,brewery,0
+meals_served,brie,0
+meals_served,brisket,0
+meals_served,broccoli,0
+meals_served,brown rice,0
+meals_served,bruschetta,0
+meals_served,buca,0
+meals_served,butter,0
+meals_served,cabbage,0
+meals_served,caesar salads,0
+meals_served,cajun fry,0
+meals_served,came here for breakfast,0
+meals_served,came here for brunch,0
+meals_served,came here to celebrate,0
+meals_served,carnitas,0
+meals_served,carrot,0
+meals_served,carry out,0
+meals_served,cashew,0
+meals_served,cashew chicken,0
+meals_served,catfish,0
+meals_served,cauliflower,0
+meals_served,celebrate,0
+meals_served,celebration,0
+meals_served,celery,0
+meals_served,ceviche,0
+meals_served,champagne brunch,0
+meals_served,cheddar,0
+meals_served,cheese,0
+meals_served,cherry,0
+meals_served,chicken,0
+meals_served,chicken kabob,0
+meals_served,chicken pot pies,0
+meals_served,chicken wrap,0
+meals_served,chickpea,0
+meals_served,chili,0
+meals_served,chimichurri,0
+meals_served,chinese buffet,0
+meals_served,chinese restaurant,0
+meals_served,chipotle sauce,0
+meals_served,chorizo,0
+meals_served,christmas,0
+meals_served,church,0
+meals_served,cilantro,0
+meals_served,cinnamon,0
+meals_served,clam,0
+meals_served,co workers,0
+meals_served,coconut,0
+meals_served,cod,0
+meals_served,coffe,0
+meals_served,coffee,0
+meals_served,coffee cup,0
+meals_served,coleslaw,0
+meals_served,comedy,0
+meals_served,company,0
+meals_served,concert,0
+meals_served,congee,0
+meals_served,corn,0
+meals_served,corn beef hash,0
+meals_served,corn bread,0
+meals_served,cornbread,0
+meals_served,corned beef hash,0
+meals_served,cranberry,0
+meals_served,crawfish,0
+meals_served,cream,0
+meals_served,croque monsieur,0
+meals_served,cruise,0
+meals_served,cucumber,0
+meals_served,cucumber salad,0
+meals_served,curry,0
+meals_served,daily soups,0
+meals_served,dancers,0
+meals_served,date night,0
+meals_served,dd,0
+meals_served,desert,0
+meals_served,dessert,0
+meals_served,dill,0
+meals_served,diner,0
+meals_served,dinner combos,0
+meals_served,dinner outing,0
+meals_served,dinner plans,0
+meals_served,dinner rush,0
+meals_served,dj,0
+meals_served,downtown,0
+meals_served,duck,0
+meals_served,duck confit,0
+meals_served,dumpling,0
+meals_served,during lunch,0
+meals_served,early _ morning breakfast,0
+meals_served,early afternoon,0
+meals_served,early in the morning,0
+meals_served,early morning,0
+meals_served,early one morning,0
+meals_served,early or late,0
+meals_served,edamame,0
+meals_served,egg,0
+meals_served,egg white,0
+meals_served,egg whites,0
+meals_served,eggplant,0
+meals_served,eggs,0
+meals_served,eggs benedict,0
+meals_served,entertainment,0
+meals_served,evening,0
+meals_served,event,0
+meals_served,falafel,0
+meals_served,falafel wrap,0
+meals_served,falafels,0
+meals_served,family,0
+meals_served,fast and friendly service,0
+meals_served,festival,0
+meals_served,feta,0
+meals_served,firefly,0
+meals_served,first timer,0
+meals_served,fish,0
+meals_served,fish taco,0
+meals_served,five dollar,0
+meals_served,flat breads,0
+meals_served,flour,0
+meals_served,flour tortilla,0
+meals_served,food,0
+meals_served,football,0
+meals_served,french toast,0
+meals_served,fresh baked breads,0
+meals_served,fresh bread and butter,0
+meals_served,fresh squeezed oj,0
+meals_served,fresh squeezed orange juice,0
+meals_served,friday and saturday,0
+meals_served,friday evening,0
+meals_served,friday night,0
+meals_served,friday or saturday,0
+meals_served,friends,0
+meals_served,fry,0
+meals_served,fuel,0
+meals_served,function,0
+meals_served,gambling,0
+meals_served,game,0
+meals_served,garlic,0
+meals_served,garlic bread,0
+meals_served,garlic naan,0
+meals_served,garlic sauce,0
+meals_served,gelato,0
+meals_served,ginger,0
+meals_served,glass noodle,0
+meals_served,gnocchi,0
+meals_served,goat,0
+meals_served,gouda,0
+meals_served,grape,0
+meals_served,grassroots,0
+meals_served,gravy,0
+meals_served,greek salad,0
+meals_served,green onion,0
+meals_served,guacamole,0
+meals_served,gym,0
+meals_served,gyro,0
+meals_served,ham and cheese,0
+meals_served,ham and cheese sandwich,0
+meals_served,hamburger,0
+meals_served,hangover cure,0
+meals_served,hash,0
+meals_served,hash brown,0
+meals_served,hash browns,0
+meals_served,hashbrowns,0
+meals_served,healthy option,0
+meals_served,hearty breakfast,0
+meals_served,herb,0
+meals_served,hockey,0
+meals_served,hollandaise,0
+meals_served,hollandaise sauce,0
+meals_served,home cooked breakfast,0
+meals_served,home cooked meal,0
+meals_served,home cooked meals,0
+meals_served,home fries,0
+meals_served,honey,0
+meals_served,hookah,0
+meals_served,horseradish,0
+meals_served,hot and cold sandwiches,0
+meals_served,hot and sour soup,0
+meals_served,hot and steamy,0
+meals_served,hot chocolates,0
+meals_served,hot food section,0
+meals_served,hot or cold,0
+meals_served,hotcakes,0
+meals_served,hrs,0
+meals_served,ihop,0
+meals_served,indian food,0
+meals_served,intimate dinner,0
+meals_served,ipic,0
+meals_served,italian sausages,0
+meals_served,jalape o,0
+meals_served,jam,0
+meals_served,jerk chicken,0
+meals_served,juice,0
+meals_served,kabuki,0
+meals_served,kale,0
+meals_served,karaoke,0
+meals_served,keg,0
+meals_served,ketchup,0
+meals_served,kielbasa,0
+meals_served,kimchi,0
+meals_served,ladies night,0
+meals_served,large group,0
+meals_served,last minute,0
+meals_served,last night,0
+meals_served,late one night,0
+meals_served,late saturday afternoon,0
+meals_served,late_night cravings,0
+meals_served,layover,0
+meals_served,lemongrass,0
+meals_served,lettuce,0
+meals_served,liberty,0
+meals_served,liver,0
+meals_served,lunch and dinner hours,0
+meals_served,lunch break,0
+meals_served,lunch breaks,0
+meals_served,lunch outing,0
+meals_served,lunch time rush,0
+meals_served,lunch today,0
+meals_served,mac n cheese,0
+meals_served,macaroni salad,0
+meals_served,make or break,0
+meals_served,mango,0
+meals_served,maple syrup,0
+meals_served,marathon,0
+meals_served,mayo,0
+meals_served,mayonnaise,0
+meals_served,meat,0
+meals_served,meatball,0
+meals_served,meatloaf,0
+meals_served,mexican restaurant,0
+meals_served,mid afternoon,0
+meals_served,midnight,0
+meals_served,milk,0
+meals_served,milk tea,0
+meals_served,mochi,0
+meals_served,monday night,0
+meals_served,mongolian beef,0
+meals_served,morning,0
+meals_served,movie,0
+meals_served,mozzarella,0
+meals_served,muffin,0
+meals_served,mushroom,0
+meals_served,mussel,0
+meals_served,my co workers,0
+meals_served,my go tos,0
+meals_served,naan,0
+meals_served,neighborhood,0
+meals_served,new years eve,0
+meals_served,next door,0
+meals_served,nfl,0
+meals_served,night club,0
+meals_served,nights,0
+meals_served,nite,0
+meals_served,no coffee pot,0
+meals_served,noodle,0
+meals_served,noon,0
+meals_served,nutella,0
+meals_served,o'clock,0
+meals_served,octopus,0
+meals_served,office,0
+meals_served,oj,0
+meals_served,okra,0
+meals_served,old town scottsdale,0
+meals_served,olive,0
+meals_served,omelet,0
+meals_served,omelette,0
+meals_served,on a friday morning,0
+meals_served,on a saturday morning,0
+meals_served,on my lunch break,0
+meals_served,one or two items,0
+meals_served,onion,0
+meals_served,open until,0
+meals_served,orange juice,0
+meals_served,original milk tea,0
+meals_served,our anniversary,0
+meals_served,outback,0
+meals_served,oxtail,0
+meals_served,p.m,0
+meals_served,pancake,0
+meals_served,pancakes,0
+meals_served,pancetta,0
+meals_served,panera,0
+meals_served,papaya salad,0
+meals_served,parsley,0
+meals_served,pass,0
+meals_served,pasta,0
+meals_served,pastas and pizzas,0
+meals_served,pastry,0
+meals_served,peameal bacon,0
+meals_served,peanut,0
+meals_served,pear,0
+meals_served,pepperoni,0
+meals_served,pesto,0
+meals_served,ph,0
+meals_served,pineapple,0
+meals_served,pita,0
+meals_served,pita jungle,0
+meals_served,pizza,0
+meals_served,play,0
+meals_served,played,0
+meals_served,playing,0
+meals_served,pm,0
+meals_served,poached eggs,0
+meals_served,poke bowls,0
+meals_served,poker,0
+meals_served,pork,0
+meals_served,potato,0
+meals_served,poutine,0
+meals_served,prawn,0
+meals_served,pretzel,0
+meals_served,prime dinner time,0
+meals_served,prime steaks,0
+meals_served,prosciutto,0
+meals_served,provolone,0
+meals_served,pub,0
+meals_served,pumpkin,0
+meals_served,qc,0
+meals_served,quick and easy,0
+meals_served,quick and friendly service,0
+meals_served,quinoa,0
+meals_served,radish,0
+meals_served,raman,0
+meals_served,ranch,0
+meals_served,rang me up,0
+meals_served,real maple syrup,0
+meals_served,red lobster,0
+meals_served,red rock,0
+meals_served,red velvet pancakes,0
+meals_served,regular lunch spot,0
+meals_served,regular milk tea,0
+meals_served,relish,0
+meals_served,restaurant,0
+meals_served,rice,0
+meals_served,ricotta,0
+meals_served,risotto,0
+meals_served,ritual,0
+meals_served,rose tea,0
+meals_served,safeway,0
+meals_served,salad,0
+meals_served,salami,0
+meals_served,salsa,0
+meals_served,sandwich,0
+meals_served,sashimi,0
+meals_served,saturday afternoon,0
+meals_served,saturday evening,0
+meals_served,saturday morning,0
+meals_served,saturday night,0
+meals_served,saturday or sunday,0
+meals_served,sauce,0
+meals_served,sauerkraut,0
+meals_served,sausage,0
+meals_served,scrambled eggs,0
+meals_served,scrambler,0
+meals_served,seasonal salads,0
+meals_served,seaweed,0
+meals_served,seaweed salad,0
+meals_served,sesame chicken,0
+meals_served,shawarma,0
+meals_served,shawarmas,0
+meals_served,short,0
+meals_served,short stack,0
+meals_served,singing,0
+meals_served,small servings,0
+meals_served,snow crab,0
+meals_served,society,0
+meals_served,soft opening,0
+meals_served,song,0
+meals_served,songs,0
+meals_served,soup,0
+meals_served,specialty coffee drinks,0
+meals_served,specialty coffees,0
+meals_served,spinach,0
+meals_served,spring roll,0
+meals_served,squash,0
+meals_served,squid,0
+meals_served,starbucks,0
+meals_served,steak,0
+meals_served,steak house,0
+meals_served,steakhouse,0
+meals_served,stopped in for lunch,0
+meals_served,stuffed french toast,0
+meals_served,sub,0
+meals_served,subs,0
+meals_served,subway,0
+meals_served,sunday afternoon,0
+meals_served,sunday and monday,0
+meals_served,sunday evening,0
+meals_served,sunday morning,0
+meals_served,sunday night,0
+meals_served,sushi,0
+meals_served,sweet and sour chicken,0
+meals_served,sweet and sour pork,0
+meals_served,sweet potato fry,0
+meals_served,swiss,0
+meals_served,t bones,0
+meals_served,taco,0
+meals_served,taco truck,0
+meals_served,takeout,0
+meals_served,taro,0
+meals_served,tavern,0
+meals_served,tea,0
+meals_served,tempura,0
+meals_served,teppanyaki,0
+meals_served,teriyaki,0
+meals_served,teriyaki chicken,0
+meals_served,thanksgiving,0
+meals_served,thursday night,0
+meals_served,toast,0
+meals_served,today,0
+meals_served,tofu,0
+meals_served,tomato,0
+meals_served,tomato soup,0
+meals_served,tortilla,0
+meals_served,tour,0
+meals_served,trivia,0
+meals_served,trivia night,0
+meals_served,truck,0
+meals_served,truffle,0
+meals_served,tuesdays and wednesdays,0
+meals_served,tuna,0
+meals_served,tuna salad,0
+meals_served,turkey,0
+meals_served,turnip,0
+meals_served,two and a half hours,0
+meals_served,two egg breakfast,0
+meals_served,two large pizzas,0
+meals_served,two or three,0
+meals_served,tzatziki sauce,0
+meals_served,udon,0
+meals_served,ufc,0
+meals_served,various meats,0
+meals_served,veal,0
+meals_served,veggie sandwich,0
+meals_served,venture,0
+meals_served,waffle,0
+meals_served,walnut,0
+meals_served,warm and toasty,0
+meals_served,wasabi,0
+meals_served,watch,0
+meals_served,watermelon,0
+meals_served,wednesday night,0
+meals_served,weekend morning,0
+meals_served,weeknight,0
+meals_served,went there for lunch,0
+meals_served,wing night,0
+meals_served,wrap,0
+meals_served,wraps,0
+meals_served,yesterday,0
+meals_served,yogurt,0
+meals_served,yolks,0
+meals_served,zucchini,0
+occasion,30th birthday,1
+occasion,an intimate date,1
+occasion,anniversary,1
+occasion,anniversary dinner,1
+occasion,bachelorette party,1
+occasion,bar hopping,1
+occasion,bday,1
+occasion,birthday,1
+occasion,birthday celebration,1
+occasion,birthday celebrations,1
+occasion,birthday dinner,1
+occasion,birthday gathering,1
+occasion,birthday party,1
+occasion,business,1
+occasion,business trip,1
+occasion,carnival,1
+occasion,casual date_night,1
+occasion,casual dining,1
+occasion,celebrate my birthday,1
+occasion,celebrate our anniversary,1
+occasion,celebration dinner,1
+occasion,christmas,1
+occasion,christmas party,1
+occasion,company event,1
+occasion,corporate event,1
+occasion,date spot,1
+occasion,dinner outing,1
+occasion,double date,1
+occasion,family outing,1
+occasion,festival,1
+occasion,function,1
+occasion,girls_night out,1
+occasion,group outing,1
+occasion,halloween,1
+occasion,hangout spot,1
+occasion,his birthday,1
+occasion,holiday,1
+occasion,homecoming,1
+occasion,honeymoon,1
+occasion,intimate dining,1
+occasion,intimate dinner,1
+occasion,little getaway,1
+occasion,lunch outing,1
+occasion,marriage,1
+occasion,new years eve,1
+occasion,our anniversary,1
+occasion,our anniversary dinner,1
+occasion,our honeymoon,1
+occasion,our wedding day,1
+occasion,party,1
+occasion,picnic,1
+occasion,private,1
+occasion,private function,1
+occasion,private parties,1
+occasion,private party,1
+occasion,prom,1
+occasion,quick lunch,1
+occasion,reading,1
+occasion,relaxing evening,1
+occasion,restaurant week menu,1
+occasion,special occasion,1
+occasion,special occasions,1
+occasion,special treat,1
+occasion,special trip,1
+occasion,study spot,1
+occasion,summer evening,1
+occasion,sweet treat,1
+occasion,valentine,1
+occasion,visiting family,1
+occasion,wedding,1
+occasion,wedding anniversary,1
+occasion,wedding party,1
+occasion,weekend trip,1
+occasion,year anniversary,1
+occasion,0.5416666667,0
+occasion,0.8333333333,0
+occasion,0.875,0
+occasion,2010,0
+occasion,2011,0
+occasion,2012,0
+occasion,2013,0
+occasion,2014,0
+occasion,2015,0
+occasion,2017,0
+occasion,2018,0
+occasion,44377,0
+occasion,44407,0
+occasion,44438,0
+occasion,44469,0
+occasion,10th,0
+occasion,11th,0
+occasion,14th,0
+occasion,15th,0
+occasion,16th,0
+occasion,18th,0
+occasion,19th,0
+occasion,20th,0
+occasion,21st,0
+occasion,24th,0
+occasion,25th,0
+occasion,27th,0
+occasion,28th,0
+occasion,30th,0
+occasion,5th,0
+occasion,6th,0
+occasion,7th,0
+occasion,8th,0
+occasion,a 20 minute wait,0
+occasion,about a week ago,0
+occasion,advertisement,0
+occasion,ahead of time,0
+occasion,alcohol,0
+occasion,an early dinner,0
+occasion,an event,0
+occasion,an ideal,0
+occasion,an informal,0
+occasion,an intimate,0
+occasion,an irish pub,0
+occasion,an off night,0
+occasion,appetizer,0
+occasion,april,0
+occasion,aquarium,0
+occasion,arcade,0
+occasion,around 11 30,0
+occasion,around 12 30,0
+occasion,around 3pm,0
+occasion,around 6 30,0
+occasion,around 7pm,0
+occasion,around 9pm,0
+occasion,around midnight,0
+occasion,arrived at 6,0
+occasion,arrived early,0
+occasion,art,0
+occasion,at 11 30,0
+occasion,at 12 30,0
+occasion,at 5 30pm,0
+occasion,at 6 30,0
+occasion,at 6 30pm,0
+occasion,at 6 pm,0
+occasion,at 7 pm,0
+occasion,ate here for the first time,0
+occasion,atmosphere,0
+occasion,attended,0
+occasion,august,0
+occasion,bagel,0
+occasion,bakery,0
+occasion,baklava,0
+occasion,banana cream pie,0
+occasion,band,0
+occasion,barbecue,0
+occasion,baseball,0
+occasion,basketball,0
+occasion,basketball game,0
+occasion,beach,0
+occasion,beautiful patio,0
+occasion,beautifully decorated,0
+occasion,beer,0
+occasion,big group,0
+occasion,birthday card,0
+occasion,birthday dinners,0
+occasion,birthday present,0
+occasion,book,0
+occasion,booked,0
+occasion,bourbon,0
+occasion,bowling,0
+occasion,bread,0
+occasion,breakfast brunch,0
+occasion,breakfast lunch and dinner,0
+occasion,brewery,0
+occasion,brulee,0
+occasion,brunch,0
+occasion,bruschetta,0
+occasion,buffet,0
+occasion,business travel,0
+occasion,caf,0
+occasion,cake,0
+occasion,called ahead,0
+occasion,calzone,0
+occasion,came here for dinner,0
+occasion,came here on a friday night,0
+occasion,came here with a group,0
+occasion,candle,0
+occasion,candy,0
+occasion,capital grille,0
+occasion,cappuccino,0
+occasion,casino,0
+occasion,casual and relaxed,0
+occasion,casual conversation,0
+occasion,casual setting,0
+occasion,casual_dining experience,0
+occasion,celebrate,0
+occasion,celebrated our,0
+occasion,celebrating,0
+occasion,century,0
+occasion,ceviche,0
+occasion,champagne,0
+occasion,cheesecake,0
+occasion,chicken,0
+occasion,chile relleno,0
+occasion,chill environment,0
+occasion,chill spot,0
+occasion,chinese,0
+occasion,chipotle,0
+occasion,church,0
+occasion,cider,0
+occasion,cigar,0
+occasion,classy joint,0
+occasion,cocktail,0
+occasion,coconut cream pie,0
+occasion,coffee,0
+occasion,college,0
+occasion,comedy,0
+occasion,company,0
+occasion,concert,0
+occasion,congratulations,0
+occasion,cooking,0
+occasion,couple weeks ago,0
+occasion,cr me,0
+occasion,crappy service,0
+occasion,cultural,0
+occasion,culture,0
+occasion,cute cafe,0
+occasion,dance,0
+occasion,dec,0
+occasion,december,0
+occasion,decided to come here,0
+occasion,desert,0
+occasion,dessert,0
+occasion,diner,0
+occasion,dinner rush,0
+occasion,dj,0
+occasion,dog,0
+occasion,doughnut,0
+occasion,downtown,0
+occasion,downtown area,0
+occasion,downtown tempe,0
+occasion,duck,0
+occasion,dusty,0
+occasion,early dinner,0
+occasion,early evening,0
+occasion,elegant and classy,0
+occasion,entertainment,0
+occasion,era,0
+occasion,espresso,0
+occasion,eve,0
+occasion,fahrenheit,0
+occasion,family,0
+occasion,family member,0
+occasion,fast and friendly service,0
+occasion,february,0
+occasion,film,0
+occasion,fine dining,0
+occasion,fine print,0
+occasion,fine_dining experience,0
+occasion,first official,0
+occasion,fish,0
+occasion,fish taco,0
+occasion,flower,0
+occasion,food truck,0
+occasion,football,0
+occasion,football game,0
+occasion,for an early dinner,0
+occasion,free entertainment,0
+occasion,free wifi,0
+occasion,friday evening,0
+occasion,friday night,0
+occasion,friend or family member,0
+occasion,friends,0
+occasion,fry,0
+occasion,fun atmosphere,0
+occasion,gambling,0
+occasion,game,0
+occasion,garlic bread,0
+occasion,gas station,0
+occasion,gastropub,0
+occasion,gelato,0
+occasion,general public,0
+occasion,golf,0
+occasion,got married,0
+occasion,grand marnier,0
+occasion,great date spot,0
+occasion,group of 7,0
+occasion,group of 8,0
+occasion,group of 9,0
+occasion,guacamole,0
+occasion,gym,0
+occasion,gyro,0
+occasion,hamburger,0
+occasion,hangover cure,0
+occasion,happy anniversary,0
+occasion,hearty breakfast,0
+occasion,high tea,0
+occasion,history,0
+occasion,hockey,0
+occasion,hockey game,0
+occasion,horse,0
+occasion,hosted,0
+occasion,hot sunny day,0
+occasion,hotel,0
+occasion,house,0
+occasion,huge portion,0
+occasion,hugo,0
+occasion,hummus,0
+occasion,ihop,0
+occasion,indian food,0
+occasion,internet,0
+occasion,intimate and romantic,0
+occasion,intimate setting,0
+occasion,irish pub,0
+occasion,january,0
+occasion,japanese tapas,0
+occasion,jazz,0
+occasion,juice,0
+occasion,jukebox,0
+occasion,july,0
+occasion,june,0
+occasion,karaoke,0
+occasion,keno,0
+occasion,kfc,0
+occasion,kiss,0
+occasion,kombucha,0
+occasion,laid back,0
+occasion,laid back atmosphere,0
+occasion,large group,0
+occasion,large groups,0
+occasion,large party,0
+occasion,larger group,0
+occasion,last minute,0
+occasion,last night,0
+occasion,last visit,0
+occasion,last weekend,0
+occasion,late dinner,0
+occasion,late lunch,0
+occasion,late one night,0
+occasion,late_night bite,0
+occasion,leisurely dinner,0
+occasion,leisurely lunch,0
+occasion,leisurely meal,0
+occasion,library,0
+occasion,little quieter,0
+occasion,live,0
+occasion,live band,0
+occasion,live dj,0
+occasion,live entertainment,0
+occasion,live jazz,0
+occasion,live music,0
+occasion,local business,0
+occasion,local diner,0
+occasion,local spot,0
+occasion,love,0
+occasion,low price,0
+occasion,low_key atmosphere,0
+occasion,low_key spot,0
+occasion,lunch and dinner hours,0
+occasion,lunch or dinner,0
+occasion,made a reservation,0
+occasion,made reservations,0
+occasion,magazine,0
+occasion,make a reservation,0
+occasion,management,0
+occasion,march,0
+occasion,married couple,0
+occasion,massage,0
+occasion,mcdonalds,0
+occasion,meat,0
+occasion,mexican,0
+occasion,mexican restaurant,0
+occasion,mid day,0
+occasion,middle eastern food,0
+occasion,mimosa,0
+occasion,minute wait,0
+occasion,monday night,0
+occasion,more formal,0
+occasion,more intimate setting,0
+occasion,mother in law,0
+occasion,movie,0
+occasion,museum,0
+occasion,music,0
+occasion,musical,0
+occasion,my father in law,0
+occasion,my first and last visit,0
+occasion,my husband,0
+occasion,my mother in law,0
+occasion,nascar,0
+occasion,neighborhood,0
+occasion,neighbourhood,0
+occasion,next time we are in vegas,0
+occasion,night cap,0
+occasion,nightclub,0
+occasion,noodle,0
+occasion,november,0
+occasion,nye,0
+occasion,october,0
+occasion,old town,0
+occasion,old town scottsdale,0
+occasion,on a couple occasions,0
+occasion,on a friday afternoon,0
+occasion,on a friday night,0
+occasion,on a monday night,0
+occasion,on a saturday night,0
+occasion,on a sunday night,0
+occasion,on a thursday night,0
+occasion,on a tuesday night,0
+occasion,on a wednesday night,0
+occasion,on a weeknight,0
+occasion,only one other couple,0
+occasion,opening night,0
+occasion,opentable,0
+occasion,opera,0
+occasion,oscar,0
+occasion,our next visit,0
+occasion,oyster,0
+occasion,p.m,0
+occasion,paella,0
+occasion,painting,0
+occasion,pancake,0
+occasion,pancho,0
+occasion,panna cotta,0
+occasion,pasta,0
+occasion,pastry,0
+occasion,pasty,0
+occasion,patio seating,0
+occasion,perfect setting,0
+occasion,permanent,0
+occasion,personal conversation,0
+occasion,pharmacy,0
+occasion,pinball,0
+occasion,pizza,0
+occasion,pm,0
+occasion,poker,0
+occasion,pool table,0
+occasion,poor service,0
+occasion,popcorn,0
+occasion,popular spot,0
+occasion,poutine,0
+occasion,pretzel,0
+occasion,printed,0
+occasion,private conversation,0
+occasion,private room,0
+occasion,prix fixe menu,0
+occasion,professional,0
+occasion,project,0
+occasion,pub,0
+occasion,public,0
+occasion,quick and friendly service,0
+occasion,quick fix,0
+occasion,quick snack,0
+occasion,quiet conversation,0
+occasion,quiznos,0
+occasion,raman,0
+occasion,ranch,0
+occasion,reservation,0
+occasion,reservations,0
+occasion,reserved,0
+occasion,reserved a table,0
+occasion,resort,0
+occasion,restaurant,0
+occasion,restaurant week,0
+occasion,romance,0
+occasion,romantic,0
+occasion,romantic atmosphere,0
+occasion,roof,0
+occasion,rsvp,0
+occasion,sake,0
+occasion,salad,0
+occasion,salsa,0
+occasion,sandwich,0
+occasion,sangria,0
+occasion,sashimi,0
+occasion,saturday evening,0
+occasion,saturday night,0
+occasion,sauce,0
+occasion,school,0
+occasion,sea food,0
+occasion,seafood,0
+occasion,seasons,0
+occasion,seated immediately,0
+occasion,seated quickly,0
+occasion,second cup,0
+occasion,separate occasion,0
+occasion,september,0
+occasion,short,0
+occasion,short period,0
+occasion,showed up,0
+occasion,shrimp cocktail,0
+occasion,shuffleboard,0
+occasion,singing,0
+occasion,single,0
+occasion,sit down,0
+occasion,slide,0
+occasion,small family business,0
+occasion,small group,0
+occasion,small plate,0
+occasion,smoothie,0
+occasion,soccer,0
+occasion,soft opening,0
+occasion,soup,0
+occasion,speakeasy,0
+occasion,special,0
+occasion,special treatment,0
+occasion,sport,0
+occasion,spring,0
+occasion,starbuck,0
+occasion,starbucks,0
+occasion,steak,0
+occasion,stromboli,0
+occasion,subway,0
+occasion,such a great experience,0
+occasion,sugar cookies,0
+occasion,summer afternoon,0
+occasion,sunday evening,0
+occasion,sunday funday,0
+occasion,sunday night,0
+occasion,sunny day,0
+occasion,sushi,0
+occasion,taco,0
+occasion,tapa,0
+occasion,target,0
+occasion,tavern,0
+occasion,tea,0
+occasion,tequila,0
+occasion,theater,0
+occasion,theatre,0
+occasion,there was no line,0
+occasion,third party,0
+occasion,this past sunday,0
+occasion,thursday night,0
+occasion,tiramisu,0
+occasion,told it would be,0
+occasion,tour,0
+occasion,tourist,0
+occasion,tv,0
+occasion,ufc,0
+occasion,unexpected surprise,0
+occasion,upscale dining,0
+occasion,valet,0
+occasion,vegan,0
+occasion,vegetarian,0
+occasion,waffle cones,0
+occasion,waited about 15,0
+occasion,waited about 20,0
+occasion,warm summer day,0
+occasion,warm summer night,0
+occasion,water,0
+occasion,we were celebrating,0
+occasion,we were seated,0
+occasion,we were seated quickly,0
+occasion,weather,0
+occasion,wednesday night,0
+occasion,week in advance,0
+occasion,weekend afternoon,0
+occasion,went,0
+occasion,went here for dinner,0
+occasion,were seated promptly,0
+occasion,when we arrived,0
+occasion,wifi,0
+occasion,wine,0
+occasion,wine pairing,0
+occasion,yearly,0
+occasion,yoga,0
+occasion,yogurt,0
+occasion,zoo,0
+parking,adequate parking,1
+parking,balcony,1
+parking,convenient parking,1
+parking,drive thru,1
+parking,elevator,1
+parking,free parking,1
+parking,free valet,1
+parking,garage,1
+parking,parking garage,1
+parking,parking spaces,1
+parking,parking structure,1
+parking,self park,1
+parking,street corner,1
+parking,valet park,1
+parking,valet parking,1
+parking,24 7,0
+parking,24 hour,0
+parking,24 hr,0
+parking,5 star,0
+parking,able to accommodate,0
+parking,accept,0
+parking,accepted,0
+parking,accommodated,0
+parking,accommodation,0
+parking,action,0
+parking,ad,0
+parking,advertising,0
+parking,airplane,0
+parking,airport,0
+parking,airport shuttle,0
+parking,airy space,0
+parking,aisle,0
+parking,ale house,0
+parking,ambulance,0
+parking,amc,0
+parking,amex,0
+parking,an atm,0
+parking,an office park,0
+parking,an upgrade,0
+parking,antique,0
+parking,apartment,0
+parking,apartments,0
+parking,apologies,0
+parking,aquarium,0
+parking,arcade,0
+parking,area,0
+parking,asian fusion,0
+parking,asked if i could,0
+parking,assistance,0
+parking,auto shop,0
+parking,automobile,0
+parking,awkwardly,0
+parking,b b,0
+parking,bank,0
+parking,banks,0
+parking,bar lounge,0
+parking,bar tender,0
+parking,barista,0
+parking,bartender,0
+parking,baskin robbins,0
+parking,bear,0
+parking,beautiful space,0
+parking,bedroom,0
+parking,beds,0
+parking,behind,0
+parking,beside,0
+parking,between,0
+parking,bicycle,0
+parking,bicycles,0
+parking,big open space,0
+parking,bikes,0
+parking,bingo,0
+parking,birkdale,0
+parking,bistro,0
+parking,blizzard,0
+parking,blocks,0
+parking,boat,0
+parking,bogo,0
+parking,book,0
+parking,booked,0
+parking,bottom level,0
+parking,box office,0
+parking,bp,0
+parking,brasserie,0
+parking,brazilian steakhouse,0
+parking,brewery,0
+parking,brewing,0
+parking,brewing company,0
+parking,bridge,0
+parking,brunch,0
+parking,bs,0
+parking,buffet,0
+parking,building itself,0
+parking,buildings,0
+parking,burger priest,0
+parking,bus,0
+parking,bus person,0
+parking,bus station,0
+parking,buses,0
+parking,business,0
+parking,business center,0
+parking,busing,0
+parking,cab ride,0
+parking,caf,0
+parking,cafeteria,0
+parking,caffe,0
+parking,camping,0
+parking,canceled,0
+parking,car,0
+parking,card,0
+parking,carousel,0
+parking,casino,0
+parking,casinos,0
+parking,casual dining,0
+parking,cat,0
+parking,ceiling,0
+parking,celebrity,0
+parking,chandelier,0
+parking,charged,0
+parking,charges,0
+parking,cheese enchiladas,0
+parking,chef,0
+parking,chinese buffet,0
+parking,chinese restaurant,0
+parking,chocolate fountain,0
+parking,church,0
+parking,circle,0
+parking,circus,0
+parking,co op,0
+parking,coach,0
+parking,coach house,0
+parking,coffeehouse,0
+parking,com certificate,0
+parking,community,0
+parking,confirmation,0
+parking,construction,0
+parking,conveniently located,0
+parking,copper,0
+parking,cornish pasty,0
+parking,couches,0
+parking,coupons,0
+parking,court,0
+parking,courtyard,0
+parking,coventry,0
+parking,cover,0
+parking,creamery,0
+parking,credit,0
+parking,credit card,0
+parking,curb,0
+parking,custard,0
+parking,cute cafe,0
+parking,cvs,0
+parking,cycling,0
+parking,cyclist,0
+parking,d cor,0
+parking,dd,0
+parking,denied,0
+parking,deposit,0
+parking,design,0
+parking,dessert station,0
+parking,dhaba,0
+parking,diamond,0
+parking,did n't even offer,0
+parking,did n't have to pay,0
+parking,diner,0
+parking,dining establishment,0
+parking,discount,0
+parking,dj,0
+parking,dog,0
+parking,don tortaco,0
+parking,donut shop,0
+parking,downstairs,0
+parking,downtown,0
+parking,downtown area,0
+parking,downtown core,0
+parking,drive up window,0
+parking,driver,0
+parking,driveway,0
+parking,dundas,0
+parking,earlier than,0
+parking,east side,0
+parking,easy to miss,0
+parking,egg tarts,0
+parking,electricity,0
+parking,elevators,0
+parking,elvis,0
+parking,emailed,0
+parking,emergency room,0
+parking,empire,0
+parking,english pub,0
+parking,epicenter,0
+parking,era,0
+parking,excalibur,0
+parking,extremely accommodating,0
+parking,family owne restaurant,0
+parking,ferry,0
+parking,fez,0
+parking,filipino restaurant,0
+parking,finch,0
+parking,fish tank,0
+parking,five guy,0
+parking,flamingo,0
+parking,food,0
+parking,food trucks,0
+parking,food_court area,0
+parking,foodie,0
+parking,fountain,0
+parking,four season,0
+parking,fox,0
+parking,free internet,0
+parking,free wifi,0
+parking,freeway,0
+parking,french bakery,0
+parking,french bistro,0
+parking,frog,0
+parking,from where i live,0
+parking,front,0
+parking,front desk,0
+parking,front door,0
+parking,front entrance,0
+parking,fuel,0
+parking,furniture,0
+parking,fusion,0
+parking,garden,0
+parking,garden court,0
+parking,gas,0
+parking,gas station,0
+parking,gastropub,0
+parking,gaucho,0
+parking,gelato,0
+parking,general public,0
+parking,ghetto,0
+parking,gift card,0
+parking,gift cards,0
+parking,go tos,0
+parking,golf,0
+parking,gourmet,0
+parking,gps,0
+parking,graffiti,0
+parking,grateful,0
+parking,gravel,0
+parking,greenhouse,0
+parking,grocery shop,0
+parking,grounds,0
+parking,groupon,0
+parking,guaranteed,0
+parking,gym,0
+parking,gymnasium,0
+parking,hall,0
+parking,hallway,0
+parking,hallways,0
+parking,hassle,0
+parking,highway,0
+parking,hmm,0
+parking,honored,0
+parking,horse,0
+parking,hospital,0
+parking,hostel,0
+parking,hot food section,0
+parking,hotel,0
+parking,hotel casino,0
+parking,hotel rooms,0
+parking,hotels,0
+parking,hurricane,0
+parking,hyatt,0
+parking,ice cream,0
+parking,ice cream shop,0
+parking,imperial palace,0
+parking,indian buffet,0
+parking,indoor area,0
+parking,industrial area,0
+parking,industry,0
+parking,information,0
+parking,inn,0
+parking,inside,0
+parking,internet,0
+parking,intersection,0
+parking,ipa,0
+parking,irish pub,0
+parking,island,0
+parking,japanese fusion,0
+parking,japanese restaurant,0
+parking,jet,0
+parking,jogging,0
+parking,jr,0
+parking,jukebox,0
+parking,keg,0
+parking,kennedy,0
+parking,king,0
+parking,kiosk,0
+parking,lady room,0
+parking,lake mead,0
+parking,lcbo,0
+parking,legend,0
+parking,leslie,0
+parking,leslieville,0
+parking,lesson,0
+parking,library,0
+parking,limited seating,0
+parking,limousine,0
+parking,lion,0
+parking,little gem,0
+parking,living room,0
+parking,lobby,0
+parking,local business,0
+parking,local spot,0
+parking,located,0
+parking,located in a strip mall,0
+parking,lottery,0
+parking,lounge,0
+parking,lounge chairs,0
+parking,lyft,0
+parking,macarons,0
+parking,main entrance,0
+parking,main street,0
+parking,mall,0
+parking,management,0
+parking,mandalay bay,0
+parking,mansion,0
+parking,marketing,0
+parking,maze,0
+parking,meat department,0
+parking,meds,0
+parking,merchant,0
+parking,mexican restaurant,0
+parking,mgm,0
+parking,mgm grand,0
+parking,mirage,0
+parking,mirrors,0
+parking,mobile,0
+parking,monkey,0
+parking,monorail,0
+parking,motel,0
+parking,motorcycle,0
+parking,motorcycles,0
+parking,movie theatre,0
+parking,museum,0
+parking,muy,0
+parking,near,0
+parking,neighborhood,0
+parking,neighbourhood,0
+parking,new management,0
+parking,new ownership,0
+parking,nightclub,0
+parking,no problem,0
+parking,no questions asked,0
+parking,non smoking,0
+parking,noodle house,0
+parking,north side,0
+parking,not too sweet,0
+parking,ny pizza,0
+parking,oasis,0
+parking,office buildings,0
+parking,office park,0
+parking,old fashion,0
+parking,old school,0
+parking,omb,0
+parking,open and airy,0
+parking,open space,0
+parking,orchard,0
+parking,organization,0
+parking,orleans,0
+parking,other businesses,0
+parking,other casinos,0
+parking,other hotels,0
+parking,other store,0
+parking,outback,0
+parking,outdoor bar,0
+parking,outside patio,0
+parking,outside seating,0
+parking,overlooks,0
+parking,palace,0
+parking,paradise,0
+parking,paris,0
+parking,park,0
+parking,park road,0
+parking,parking spot,0
+parking,pastry,0
+parking,pay full price,0
+parking,penguin,0
+parking,permit,0
+parking,person on the phone,0
+parking,pharmacist,0
+parking,pharmacy,0
+parking,phone number,0
+parking,picnic area,0
+parking,pinball,0
+parking,pinball machines,0
+parking,playground,0
+parking,plenty of seats,0
+parking,pluses,0
+parking,plush,0
+parking,pool area,0
+parking,priest,0
+parking,prime spot,0
+parking,private area,0
+parking,production,0
+parking,promenade,0
+parking,property,0
+parking,public,0
+parking,pump,0
+parking,pyramid,0
+parking,rain,0
+parking,rd,0
+parking,recently opened,0
+parking,red bean paste,0
+parking,redbox,0
+parking,refund,0
+parking,refunded,0
+parking,relieved,0
+parking,renovating,0
+parking,resort,0
+parking,restaurant,0
+parking,restaurants,0
+parking,retail,0
+parking,retail area,0
+parking,retro,0
+parking,revolution,0
+parking,richmond,0
+parking,richmond hill,0
+parking,right,0
+parking,ritual,0
+parking,road,0
+parking,road construction,0
+parking,rock,0
+parking,room,0
+parking,rooms,0
+parking,rooster,0
+parking,rose,0
+parking,round of drinks,0
+parking,ruby,0
+parking,saloon,0
+parking,samba,0
+parking,sansotei,0
+parking,school,0
+parking,school cafeteria,0
+parking,seafood buffet,0
+parking,seat yourself,0
+parking,seating inside,0
+parking,second floor,0
+parking,security,0
+parking,self checkout,0
+parking,send,0
+parking,separate checks,0
+parking,sheppard,0
+parking,shopping area,0
+parking,shopping plaza,0
+parking,showed up,0
+parking,shrimp fajitas,0
+parking,shuttle,0
+parking,shuttle bus,0
+parking,side streets,0
+parking,sits,0
+parking,slots,0
+parking,small space,0
+parking,smith,0
+parking,society,0
+parking,sofa,0
+parking,soft opening,0
+parking,soup nazi,0
+parking,spadina,0
+parking,speakeasy,0
+parking,spirit,0
+parking,sport book,0
+parking,sports book,0
+parking,sportsbook,0
+parking,square,0
+parking,stadium,0
+parking,standing,0
+parking,starbucks,0
+parking,station,0
+parking,steak house,0
+parking,steakhouse,0
+parking,steel city,0
+parking,steeles,0
+parking,steps away,0
+parking,stools,0
+parking,stratosphere,0
+parking,street,0
+parking,streetcar,0
+parking,strip,0
+parking,strip center,0
+parking,stripper,0
+parking,student,0
+parking,sub shop,0
+parking,subway,0
+parking,subway station,0
+parking,sugar factory,0
+parking,suite,0
+parking,suites,0
+parking,sun,0
+parking,supermarket,0
+parking,sushi chef,0
+parking,suv,0
+parking,tables,0
+parking,taco truck,0
+parking,target,0
+parking,tavern,0
+parking,taxi,0
+parking,tea house,0
+parking,telephone,0
+parking,text,0
+parking,text message,0
+parking,thank,0
+parking,theater,0
+parking,theatre,0
+parking,they were able to accommodate,0
+parking,tiles,0
+parking,tim horton,0
+parking,toilet water,0
+parking,tolerance,0
+parking,tornado,0
+parking,tour bus,0
+parking,tourist,0
+parking,tourist area,0
+parking,touristy area,0
+parking,track,0
+parking,trail,0
+parking,train,0
+parking,tram,0
+parking,tree,0
+parking,trinity,0
+parking,truck,0
+parking,trump,0
+parking,trump hotel,0
+parking,ttc,0
+parking,tunnel,0
+parking,uber,0
+parking,union station,0
+parking,university area,0
+parking,unlv,0
+parking,upstairs,0
+parking,valet,0
+parking,venetian,0
+parking,very accommodating,0
+parking,villa,0
+parking,villa pizza,0
+parking,village inn,0
+parking,vintage,0
+parking,vip area,0
+parking,volcano,0
+parking,vons,0
+parking,voucher,0
+parking,walgreen,0
+parking,walgreens,0
+parking,walk up window,0
+parking,wallet,0
+parking,wallpaper,0
+parking,walls,0
+parking,walmart,0
+parking,warehouse,0
+parking,water fountain,0
+parking,wheelchair,0
+parking,wifi,0
+parking,willing to pay,0
+parking,winery,0
+parking,wireless,0
+parking,yonge,0
+parking,yonge st,0
+parking,zoo,0
+restaurant_name,apple,1
+restaurant_name,aria,1
+restaurant_name,ayce kbbq,1
+restaurant_name,baby stacks,1
+restaurant_name,barrio,1
+restaurant_name,barrio queen,1
+restaurant_name,benihana,1
+restaurant_name,black dog,1
+restaurant_name,black_bear diner,1
+restaurant_name,bobbie,1
+restaurant_name,buca,1
+restaurant_name,cactus garden,1
+restaurant_name,cafe zupas,1
+restaurant_name,cajun queen,1
+restaurant_name,cheesecake factory,1
+restaurant_name,cherry,1
+restaurant_name,china king,1
+restaurant_name,china town,1
+restaurant_name,chinatown,1
+restaurant_name,chinese fusion,1
+restaurant_name,cj,1
+restaurant_name,cosmopolitan,1
+restaurant_name,dragon pearl,1
+restaurant_name,empire,1
+restaurant_name,excalibur,1
+restaurant_name,fez,1
+restaurant_name,firefly,1
+restaurant_name,firehouse,1
+restaurant_name,five guy,1
+restaurant_name,five guys,1
+restaurant_name,flamingo,1
+restaurant_name,flemings,1
+restaurant_name,four peaks,1
+restaurant_name,fox,1
+restaurant_name,gary,1
+restaurant_name,grassroots,1
+restaurant_name,green valley,1
+restaurant_name,henry,1
+restaurant_name,hickory tavern,1
+restaurant_name,holly,1
+restaurant_name,honey salt,1
+restaurant_name,hudson,1
+restaurant_name,ihop,1
+restaurant_name,india garden,1
+restaurant_name,india palace,1
+restaurant_name,jade palace,1
+restaurant_name,jersey mike,1
+restaurant_name,jersey mikes,1
+restaurant_name,jimmy john,1
+restaurant_name,kabuki,1
+restaurant_name,keg,1
+restaurant_name,kent,1
+restaurant_name,la bocca,1
+restaurant_name,lawrenceville,1
+restaurant_name,lawry,1
+restaurant_name,lion,1
+restaurant_name,little italy,1
+restaurant_name,lolita,1
+restaurant_name,lotus,1
+restaurant_name,lotus leaf,1
+restaurant_name,mango tango,1
+restaurant_name,margaritaville,1
+restaurant_name,max brenner,1
+restaurant_name,mcdonalds,1
+restaurant_name,meat lovers,1
+restaurant_name,mesa,1
+restaurant_name,mesa grill,1
+restaurant_name,michael mina,1
+restaurant_name,midwood,1
+restaurant_name,midwood smokehouse,1
+restaurant_name,momofuku,1
+restaurant_name,monarch,1
+restaurant_name,native new yorker,1
+restaurant_name,nola,1
+restaurant_name,nypd,1
+restaurant_name,oasis,1
+restaurant_name,olive ivy,1
+restaurant_name,omelet house,1
+restaurant_name,opera,1
+restaurant_name,orchid,1
+restaurant_name,orchids garden,1
+restaurant_name,orient,1
+restaurant_name,palace,1
+restaurant_name,palace station,1
+restaurant_name,paradise,1
+restaurant_name,paradise bakery,1
+restaurant_name,paramount,1
+restaurant_name,paris,1
+restaurant_name,pastas and pizzas,1
+restaurant_name,pearl,1
+restaurant_name,pei wei,1
+restaurant_name,peter_piper pizza,1
+restaurant_name,phoenix,1
+restaurant_name,phoenix palace,1
+restaurant_name,pink taco,1
+restaurant_name,provolone,1
+restaurant_name,quiznos,1
+restaurant_name,rainbow,1
+restaurant_name,red,1
+restaurant_name,red curry,1
+restaurant_name,red delicious,1
+restaurant_name,red dragon,1
+restaurant_name,red lobster,1
+restaurant_name,red rock,1
+restaurant_name,red rose,1
+restaurant_name,roast pork,1
+restaurant_name,roma,1
+restaurant_name,rose,1
+restaurant_name,rose garden,1
+restaurant_name,safari,1
+restaurant_name,salad king,1
+restaurant_name,sammich,1
+restaurant_name,sammie,1
+restaurant_name,scottsdale,1
+restaurant_name,serendipity,1
+restaurant_name,shibuya,1
+restaurant_name,starbucks,1
+restaurant_name,subway,1
+restaurant_name,subways,1
+restaurant_name,sugar factory,1
+restaurant_name,sun,1
+restaurant_name,sun city,1
+restaurant_name,sunrise,1
+restaurant_name,sunrise coffee,1
+restaurant_name,sysco,1
+restaurant_name,t bones,1
+restaurant_name,tea station,1
+restaurant_name,thai elephant,1
+restaurant_name,ti,1
+restaurant_name,tiger,1
+restaurant_name,top golf,1
+restaurant_name,two hippies,1
+restaurant_name,vegas,1
+restaurant_name,victoria,1
+restaurant_name,village inn,1
+restaurant_name,village pub,1
+restaurant_name,white castle,1
+restaurant_name,whole foods,1
+restaurant_name,windsor,1
+restaurant_name,yama,1
+restaurant_name,yorkdale,1
+restaurant_name,z tejas,1
+restaurant_name,0,0
+restaurant_name,5,0
+restaurant_name,8,0
+restaurant_name,800,0
+restaurant_name,2 hrs,0
+restaurant_name,20 30 minutes,0
+restaurant_name,300 east,0
+restaurant_name,5 star hotel,0
+restaurant_name,adventure,0
+restaurant_name,agreed,0
+restaurant_name,agrees,0
+restaurant_name,aka,0
+restaurant_name,akron,0
+restaurant_name,alabama,0
+restaurant_name,alberta,0
+restaurant_name,albuquerque,0
+restaurant_name,all the makings,0
+restaurant_name,america,0
+restaurant_name,amuse bouche,0
+restaurant_name,an apology,0
+restaurant_name,an asian restaurant,0
+restaurant_name,an event,0
+restaurant_name,an indian restaurant,0
+restaurant_name,an italian restaurant,0
+restaurant_name,an old house,0
+restaurant_name,anaheim,0
+restaurant_name,arcadia,0
+restaurant_name,arizona,0
+restaurant_name,asheville,0
+restaurant_name,asia,0
+restaurant_name,at your own risk,0
+restaurant_name,atlanta,0
+restaurant_name,attendants,0
+restaurant_name,au jus,0
+restaurant_name,aurora,0
+restaurant_name,austin,0
+restaurant_name,az,0
+restaurant_name,baguette,0
+restaurant_name,bakery,0
+restaurant_name,baltimore,0
+restaurant_name,barely ate,0
+restaurant_name,beachwood,0
+restaurant_name,beans and rice,0
+restaurant_name,belgium,0
+restaurant_name,bellagio,0
+restaurant_name,belmont,0
+restaurant_name,beloved,0
+restaurant_name,below average,0
+restaurant_name,berea,0
+restaurant_name,berkeley,0
+restaurant_name,big enough to share,0
+restaurant_name,big portions,0
+restaurant_name,bland,0
+restaurant_name,boca park,0
+restaurant_name,boston,0
+restaurant_name,both red and white,0
+restaurant_name,brampton,0
+restaurant_name,brats,0
+restaurant_name,brooklyn,0
+restaurant_name,brown bag,0
+restaurant_name,brunch,0
+restaurant_name,brunches,0
+restaurant_name,business,0
+restaurant_name,calgary,0
+restaurant_name,cali,0
+restaurant_name,california,0
+restaurant_name,canada,0
+restaurant_name,capriotti,0
+restaurant_name,caribbean food,0
+restaurant_name,casino hotel,0
+restaurant_name,celebrity chef,0
+restaurant_name,champaign,0
+restaurant_name,charleston,0
+restaurant_name,charlotte,0
+restaurant_name,chicago,0
+restaurant_name,chicken alfredo,0
+restaurant_name,china,0
+restaurant_name,chinese,0
+restaurant_name,chinese bakery,0
+restaurant_name,chinese buffet,0
+restaurant_name,chinese restaurant,0
+restaurant_name,chinese restaurants,0
+restaurant_name,chocolate,0
+restaurant_name,chocolate cherry,0
+restaurant_name,cincinnati,0
+restaurant_name,cleveland,0
+restaurant_name,coffee,0
+restaurant_name,cold cuts,0
+restaurant_name,college,0
+restaurant_name,colorado,0
+restaurant_name,columbia,0
+restaurant_name,columbus,0
+restaurant_name,combo,0
+restaurant_name,company,0
+restaurant_name,concord,0
+restaurant_name,confuse,0
+restaurant_name,connecticut,0
+restaurant_name,corned beef,0
+restaurant_name,corned beef sandwich,0
+restaurant_name,cornish pasty,0
+restaurant_name,cosmopolitan hotel,0
+restaurant_name,could n't finish,0
+restaurant_name,could not finish,0
+restaurant_name,could only eat half,0
+restaurant_name,country fried steak,0
+restaurant_name,couple times,0
+restaurant_name,crazy,0
+restaurant_name,culinary dropout,0
+restaurant_name,d rate,0
+restaurant_name,dallas,0
+restaurant_name,dc,0
+restaurant_name,deff,0
+restaurant_name,definitely not worth the price,0
+restaurant_name,delay,0
+restaurant_name,deli,0
+restaurant_name,deli and bakery,0
+restaurant_name,deli meat,0
+restaurant_name,delis,0
+restaurant_name,denver,0
+restaurant_name,detroit,0
+restaurant_name,did n't have much flavor,0
+restaurant_name,donut shop,0
+restaurant_name,downtown,0
+restaurant_name,downtown scottsdale,0
+restaurant_name,downtown summerlin,0
+restaurant_name,dry,0
+restaurant_name,dry rub,0
+restaurant_name,earl,0
+restaurant_name,england,0
+restaurant_name,enjoyed their meals,0
+restaurant_name,entrees,0
+restaurant_name,ethiopian coffee,0
+restaurant_name,ethiopian food,0
+restaurant_name,ethiopian restaurant,0
+restaurant_name,etobicoke,0
+restaurant_name,europe,0
+restaurant_name,even,0
+restaurant_name,everyone enjoyed their,0
+restaurant_name,favorite chinese restaurant,0
+restaurant_name,few years ago,0
+restaurant_name,filipino food,0
+restaurant_name,fitchburg,0
+restaurant_name,five star hotel,0
+restaurant_name,fl,0
+restaurant_name,flagstaff,0
+restaurant_name,flavor,0
+restaurant_name,flavorless,0
+restaurant_name,florida,0
+restaurant_name,france,0
+restaurant_name,french toast,0
+restaurant_name,front counter,0
+restaurant_name,ga,0
+restaurant_name,garden,0
+restaurant_name,gastonia,0
+restaurant_name,georgia,0
+restaurant_name,germany,0
+restaurant_name,glendale,0
+restaurant_name,gordon ramsay,0
+restaurant_name,gordon ramsey,0
+restaurant_name,gordon_ramsay steak,0
+restaurant_name,grand lux,0
+restaurant_name,greece,0
+restaurant_name,had a lot of flavor,0
+restaurant_name,hamilton,0
+restaurant_name,hawaii,0
+restaurant_name,high tea,0
+restaurant_name,hoagie,0
+restaurant_name,hollywood,0
+restaurant_name,honolulu,0
+restaurant_name,hotcakes,0
+restaurant_name,hotel,0
+restaurant_name,hotel casino,0
+restaurant_name,houston,0
+restaurant_name,hubby,0
+restaurant_name,huge portions,0
+restaurant_name,huntersville,0
+restaurant_name,idaho,0
+restaurant_name,identical,0
+restaurant_name,illinois,0
+restaurant_name,india,0
+restaurant_name,indian food,0
+restaurant_name,indian restaurant,0
+restaurant_name,indiana,0
+restaurant_name,insomnia,0
+restaurant_name,iowa,0
+restaurant_name,italian restaurant,0
+restaurant_name,italy,0
+restaurant_name,japan,0
+restaurant_name,japanese restaurant,0
+restaurant_name,jersey,0
+restaurant_name,just,0
+restaurant_name,kansas,0
+restaurant_name,kensington,0
+restaurant_name,kentucky,0
+restaurant_name,korea,0
+restaurant_name,koreatown,0
+restaurant_name,l'atelier,0
+restaurant_name,lacking flavor,0
+restaurant_name,lasagne,0
+restaurant_name,last night,0
+restaurant_name,lebanese food,0
+restaurant_name,left overs,0
+restaurant_name,legend,0
+restaurant_name,leslieville,0
+restaurant_name,life,0
+restaurant_name,london,0
+restaurant_name,longer than,0
+restaurant_name,louisiana,0
+restaurant_name,loved every bite,0
+restaurant_name,lunch tomorrow,0
+restaurant_name,mac and cheese,0
+restaurant_name,mac n cheese,0
+restaurant_name,macaroni,0
+restaurant_name,madison,0
+restaurant_name,maine,0
+restaurant_name,mandarin,0
+restaurant_name,mango,0
+restaurant_name,manhattan,0
+restaurant_name,markham,0
+restaurant_name,maryland,0
+restaurant_name,massachusetts,0
+restaurant_name,meals,0
+restaurant_name,meat lover,0
+restaurant_name,medina,0
+restaurant_name,memphis,0
+restaurant_name,mess up,0
+restaurant_name,mexican restaurant,0
+restaurant_name,mexico,0
+restaurant_name,mgm,0
+restaurant_name,miami,0
+restaurant_name,michigan,0
+restaurant_name,middle_eastern food,0
+restaurant_name,milwaukee,0
+restaurant_name,mine,0
+restaurant_name,minneapolis,0
+restaurant_name,minnesota,0
+restaurant_name,mirage hotel,0
+restaurant_name,mississauga,0
+restaurant_name,mn,0
+restaurant_name,modified,0
+restaurant_name,montreal,0
+restaurant_name,munich,0
+restaurant_name,mustard,0
+restaurant_name,my first visit,0
+restaurant_name,my go tos,0
+restaurant_name,my last visit,0
+restaurant_name,nachos,0
+restaurant_name,naple,0
+restaurant_name,nashville,0
+restaurant_name,nc,0
+restaurant_name,nebraska,0
+restaurant_name,nevada,0
+restaurant_name,new england,0
+restaurant_name,new jersey,0
+restaurant_name,new mexico,0
+restaurant_name,new orleans,0
+restaurant_name,new york,0
+restaurant_name,new york city,0
+restaurant_name,new york new york,0
+restaurant_name,newer,0
+restaurant_name,newmarket,0
+restaurant_name,nj,0
+restaurant_name,no,0
+restaurant_name,no complaints,0
+restaurant_name,no exception,0
+restaurant_name,noda,0
+restaurant_name,ny,0
+restaurant_name,nyc,0
+restaurant_name,oahu,0
+restaurant_name,oakland,0
+restaurant_name,oakville,0
+restaurant_name,of this caliber,0
+restaurant_name,ohio,0
+restaurant_name,ohio city,0
+restaurant_name,ok,0
+restaurant_name,oklahoma,0
+restaurant_name,old fashions,0
+restaurant_name,old montreal,0
+restaurant_name,old town,0
+restaurant_name,old town scottsdale,0
+restaurant_name,only ate half,0
+restaurant_name,ontario,0
+restaurant_name,oregon,0
+restaurant_name,orlando,0
+restaurant_name,osaka,0
+restaurant_name,ottawa,0
+restaurant_name,our first round,0
+restaurant_name,our first visit,0
+restaurant_name,out,0
+restaurant_name,outback,0
+restaurant_name,pa,0
+restaurant_name,panini,0
+restaurant_name,paris hotel,0
+restaurant_name,parma,0
+restaurant_name,pastrami,0
+restaurant_name,pennsylvania,0
+restaurant_name,peoria,0
+restaurant_name,perfectly toasted,0
+restaurant_name,peruvian food,0
+restaurant_name,philadelphia,0
+restaurant_name,pineville,0
+restaurant_name,pittsburgh,0
+restaurant_name,pizza,0
+restaurant_name,platter,0
+restaurant_name,portion,0
+restaurant_name,portion is huge,0
+restaurant_name,portions,0
+restaurant_name,portions are big,0
+restaurant_name,portland,0
+restaurant_name,press,0
+restaurant_name,pretty darn good,0
+restaurant_name,pulled,0
+restaurant_name,quebec,0
+restaurant_name,queen,0
+restaurant_name,queens,0
+restaurant_name,ramsay,0
+restaurant_name,ramsey,0
+restaurant_name,real italian food,0
+restaurant_name,reasonable amount of,0
+restaurant_name,red chili,0
+restaurant_name,renaissance hotel,0
+restaurant_name,reno,0
+restaurant_name,renovated,0
+restaurant_name,restaurant,0
+restaurant_name,reuben,0
+restaurant_name,rib tips,0
+restaurant_name,richmond station,0
+restaurant_name,rio hotel,0
+restaurant_name,roast beef,0
+restaurant_name,roma tomato,0
+restaurant_name,rome,0
+restaurant_name,rose tea,0
+restaurant_name,roy,0
+restaurant_name,rubs,0
+restaurant_name,rye,0
+restaurant_name,rye bread,0
+restaurant_name,sacramento,0
+restaurant_name,sahara,0
+restaurant_name,sandwich,0
+restaurant_name,sandwich shops,0
+restaurant_name,sauce,0
+restaurant_name,sauerkraut,0
+restaurant_name,seattle,0
+restaurant_name,sedona,0
+restaurant_name,seoul,0
+restaurant_name,shameful,0
+restaurant_name,shanghai,0
+restaurant_name,share,0
+restaurant_name,shared,0
+restaurant_name,shoulder,0
+restaurant_name,sister restaurant,0
+restaurant_name,size portion,0
+restaurant_name,sizzler,0
+restaurant_name,skeptical at first,0
+restaurant_name,skip this place,0
+restaurant_name,slightly better than,0
+restaurant_name,smaller size,0
+restaurant_name,smoke ring,0
+restaurant_name,smoked meat,0
+restaurant_name,smoked turkey,0
+restaurant_name,soho,0
+restaurant_name,solon,0
+restaurant_name,son,0
+restaurant_name,sourdough,0
+restaurant_name,south charlotte,0
+restaurant_name,southern highland,0
+restaurant_name,spago,0
+restaurant_name,spain,0
+restaurant_name,spicy mustard,0
+restaurant_name,spit,0
+restaurant_name,star,0
+restaurant_name,strawberry,0
+restaurant_name,streetsville,0
+restaurant_name,strip view,0
+restaurant_name,stuffed,0
+restaurant_name,stuffed cabbage,0
+restaurant_name,sub,0
+restaurant_name,subs,0
+restaurant_name,sucking,0
+restaurant_name,summerlin,0
+restaurant_name,sweet and sour soup,0
+restaurant_name,sweet and tangy,0
+restaurant_name,sweet peppers,0
+restaurant_name,swiss,0
+restaurant_name,swiss cheese,0
+restaurant_name,taiwan,0
+restaurant_name,tasted awful,0
+restaurant_name,tasted like,0
+restaurant_name,tea,0
+restaurant_name,tempe,0
+restaurant_name,tennessee,0
+restaurant_name,terrible,0
+restaurant_name,texas,0
+restaurant_name,thai,0
+restaurant_name,thai tea,0
+restaurant_name,thailand,0
+restaurant_name,this little gem,0
+restaurant_name,this particular location,0
+restaurant_name,this specific location,0
+restaurant_name,threw,0
+restaurant_name,tip jar,0
+restaurant_name,toasted,0
+restaurant_name,toasting,0
+restaurant_name,toasty,0
+restaurant_name,tokyo,0
+restaurant_name,tomato paste,0
+restaurant_name,took a little longer,0
+restaurant_name,toronto,0
+restaurant_name,trash,0
+restaurant_name,tropical smoothie,0
+restaurant_name,tucson,0
+restaurant_name,turkey,0
+restaurant_name,tuscany,0
+restaurant_name,tx,0
+restaurant_name,underwhelmed by,0
+restaurant_name,upstate ny,0
+restaurant_name,utah,0
+restaurant_name,vancouver,0
+restaurant_name,vaughan,0
+restaurant_name,ve had in vegas,0
+restaurant_name,venetian hotel,0
+restaurant_name,venice,0
+restaurant_name,verona,0
+restaurant_name,vietnam,0
+restaurant_name,vietnamese restaurant,0
+restaurant_name,virginia,0
+restaurant_name,wad,0
+restaurant_name,walmart,0
+restaurant_name,way too high,0
+restaurant_name,white bread,0
+restaurant_name,whole food,0
+restaurant_name,wing stop,0
+restaurant_name,wisconsin,0
+restaurant_name,women who,0
+restaurant_name,wondering where,0
+restaurant_name,yelp,0
+restaurant_name,yum,0
+restaurant_type,24 hour,1
+restaurant_type,bar lounge,1
+restaurant_type,brew house,1
+restaurant_type,brewery,1
+restaurant_type,buffet,1
+restaurant_type,casino,1
+restaurant_type,catering business,1
+restaurant_type,chinese bakery,1
+restaurant_type,coffeehouse,1
+restaurant_type,french bakery,1
+restaurant_type,gastropub,1
+restaurant_type,grocery shop,1
+restaurant_type,hospital cafeteria,1
+restaurant_type,izakaya,1
+restaurant_type,local bakery,1
+restaurant_type,local diner,1
+restaurant_type,local tavern,1
+restaurant_type,lounge club,1
+restaurant_type,noodle house,1
+restaurant_type,outdoor bar,1
+restaurant_type,pub,1
+restaurant_type,restaurant,1
+restaurant_type,school cafeteria,1
+restaurant_type,steak house,1
+restaurant_type,steakhouse,1
+restaurant_type,supermarket,1
+restaurant_type,taco truck,1
+restaurant_type,tavern,1
+restaurant_type,24 7,0
+restaurant_type,ace,0
+restaurant_type,alternative,0
+restaurant_type,an italian restaurant,0
+restaurant_type,appetizer,0
+restaurant_type,apple,0
+restaurant_type,artichoke,0
+restaurant_type,asian fusion,0
+restaurant_type,auto shop,0
+restaurant_type,az,0
+restaurant_type,bacon,0
+restaurant_type,bagel,0
+restaurant_type,bakery department,0
+restaurant_type,banana,0
+restaurant_type,bar hop,0
+restaurant_type,bar tender,0
+restaurant_type,barbecue,0
+restaurant_type,bathroom stalls,0
+restaurant_type,bay,0
+restaurant_type,beach,0
+restaurant_type,bear,0
+restaurant_type,beef,0
+restaurant_type,beef brisket,0
+restaurant_type,beef stew,0
+restaurant_type,beer,0
+restaurant_type,benihana,0
+restaurant_type,big servings,0
+restaurant_type,boat,0
+restaurant_type,boba shop,0
+restaurant_type,booth or table,0
+restaurant_type,brand,0
+restaurant_type,bread,0
+restaurant_type,brie,0
+restaurant_type,brisket,0
+restaurant_type,british,0
+restaurant_type,broccoli,0
+restaurant_type,bruschetta,0
+restaurant_type,butcher,0
+restaurant_type,butter,0
+restaurant_type,cabaret,0
+restaurant_type,cabbage,0
+restaurant_type,cajun fry,0
+restaurant_type,canadian,0
+restaurant_type,carnitas,0
+restaurant_type,carnival,0
+restaurant_type,carrot,0
+restaurant_type,cashew,0
+restaurant_type,cashew chicken,0
+restaurant_type,casino hotel,0
+restaurant_type,castle,0
+restaurant_type,casual dining,0
+restaurant_type,catfish,0
+restaurant_type,cauliflower,0
+restaurant_type,caviar,0
+restaurant_type,celery,0
+restaurant_type,ceviche,0
+restaurant_type,cheddar,0
+restaurant_type,cheese,0
+restaurant_type,chemist,0
+restaurant_type,cherry,0
+restaurant_type,chicken,0
+restaurant_type,chicken breast,0
+restaurant_type,chicken teriyaki,0
+restaurant_type,chickpea,0
+restaurant_type,chili,0
+restaurant_type,chimichurri,0
+restaurant_type,china,0
+restaurant_type,chinese,0
+restaurant_type,chinese buffet,0
+restaurant_type,chinese restaurant,0
+restaurant_type,chinese restaurants,0
+restaurant_type,chinese supermarket,0
+restaurant_type,chipotle sauce,0
+restaurant_type,chorizo,0
+restaurant_type,cilantro,0
+restaurant_type,city,0
+restaurant_type,clam,0
+restaurant_type,cocktail,0
+restaurant_type,coconut,0
+restaurant_type,cod,0
+restaurant_type,coffee,0
+restaurant_type,coleslaw,0
+restaurant_type,congee,0
+restaurant_type,corn,0
+restaurant_type,corn bread,0
+restaurant_type,costco,0
+restaurant_type,country,0
+restaurant_type,county,0
+restaurant_type,crab,0
+restaurant_type,craft sodas,0
+restaurant_type,crawfish,0
+restaurant_type,cream,0
+restaurant_type,cucumber,0
+restaurant_type,cucumber salad,0
+restaurant_type,curry,0
+restaurant_type,cute coffee shop,0
+restaurant_type,cute little,0
+restaurant_type,daily soups,0
+restaurant_type,dairy,0
+restaurant_type,deluxe room,0
+restaurant_type,desert,0
+restaurant_type,dessert,0
+restaurant_type,different cuisines,0
+restaurant_type,dining establishment,0
+restaurant_type,donut shop,0
+restaurant_type,downtown,0
+restaurant_type,duck,0
+restaurant_type,duck confit,0
+restaurant_type,dumpling,0
+restaurant_type,edamame,0
+restaurant_type,eel,0
+restaurant_type,egg,0
+restaurant_type,elephant,0
+restaurant_type,emergency room,0
+restaurant_type,entertainment center,0
+restaurant_type,espresso,0
+restaurant_type,factory,0
+restaurant_type,falafel,0
+restaurant_type,fantasy,0
+restaurant_type,farm house,0
+restaurant_type,fashion,0
+restaurant_type,feta,0
+restaurant_type,filipino,0
+restaurant_type,filipino restaurant,0
+restaurant_type,fine dining,0
+restaurant_type,fish taco,0
+restaurant_type,flour,0
+restaurant_type,foodie,0
+restaurant_type,fox restaurant,0
+restaurant_type,french,0
+restaurant_type,fry,0
+restaurant_type,garage,0
+restaurant_type,garden,0
+restaurant_type,garlic,0
+restaurant_type,garlic bread,0
+restaurant_type,garlic naan,0
+restaurant_type,garlic sauce,0
+restaurant_type,gas station,0
+restaurant_type,gelato,0
+restaurant_type,ginger,0
+restaurant_type,gnocchi,0
+restaurant_type,goat,0
+restaurant_type,gouda,0
+restaurant_type,gravy,0
+restaurant_type,greek salad,0
+restaurant_type,green onion,0
+restaurant_type,grocery section,0
+restaurant_type,guacamole,0
+restaurant_type,gym,0
+restaurant_type,halibut,0
+restaurant_type,hamburger,0
+restaurant_type,heart,0
+restaurant_type,herb,0
+restaurant_type,hippie,0
+restaurant_type,honey,0
+restaurant_type,horseradish,0
+restaurant_type,hot and sour soup,0
+restaurant_type,hot chocolates,0
+restaurant_type,hot food section,0
+restaurant_type,hotel,0
+restaurant_type,hotel casino,0
+restaurant_type,hotel guest,0
+restaurant_type,house,0
+restaurant_type,hummus,0
+restaurant_type,ikea,0
+restaurant_type,indian,0
+restaurant_type,indian restaurant,0
+restaurant_type,inn,0
+restaurant_type,irish pub,0
+restaurant_type,island,0
+restaurant_type,italian,0
+restaurant_type,italian restaurant,0
+restaurant_type,italian restaurants,0
+restaurant_type,jalape o,0
+restaurant_type,japanese restaurant,0
+restaurant_type,jerk chicken,0
+restaurant_type,juice,0
+restaurant_type,kale,0
+restaurant_type,keg,0
+restaurant_type,ketchup,0
+restaurant_type,kielbasa,0
+restaurant_type,kimchi,0
+restaurant_type,king,0
+restaurant_type,kitchenette,0
+restaurant_type,ladies room,0
+restaurant_type,large servings,0
+restaurant_type,lemongrass,0
+restaurant_type,lentil,0
+restaurant_type,lettuce,0
+restaurant_type,liberty,0
+restaurant_type,library,0
+restaurant_type,liver,0
+restaurant_type,lobster,0
+restaurant_type,local grocery,0
+restaurant_type,lunch or dinner,0
+restaurant_type,mac n cheese,0
+restaurant_type,macaroni salad,0
+restaurant_type,mackerel,0
+restaurant_type,mango,0
+restaurant_type,mayo,0
+restaurant_type,meat,0
+restaurant_type,meat department,0
+restaurant_type,meatball,0
+restaurant_type,meatloaf,0
+restaurant_type,meats,0
+restaurant_type,mexican,0
+restaurant_type,mexican restaurant,0
+restaurant_type,midwest,0
+restaurant_type,mochi,0
+restaurant_type,modern market,0
+restaurant_type,mongolian beef,0
+restaurant_type,motel,0
+restaurant_type,mozzarella,0
+restaurant_type,muffin,0
+restaurant_type,mushroom,0
+restaurant_type,mussel,0
+restaurant_type,naan,0
+restaurant_type,neighborhood,0
+restaurant_type,neighbourhood,0
+restaurant_type,new orleans,0
+restaurant_type,nightclub,0
+restaurant_type,no frills,0
+restaurant_type,noodle,0
+restaurant_type,ny,0
+restaurant_type,nyc,0
+restaurant_type,oak,0
+restaurant_type,octopus,0
+restaurant_type,ohio city,0
+restaurant_type,okra,0
+restaurant_type,old fashioned,0
+restaurant_type,old fashions,0
+restaurant_type,old school,0
+restaurant_type,olive,0
+restaurant_type,onion,0
+restaurant_type,open space,0
+restaurant_type,other buffets,0
+restaurant_type,other diners,0
+restaurant_type,oxtail,0
+restaurant_type,oyster,0
+restaurant_type,pancake,0
+restaurant_type,pancetta,0
+restaurant_type,papaya salad,0
+restaurant_type,paradise,0
+restaurant_type,paris,0
+restaurant_type,pasta,0
+restaurant_type,pastas and pizzas,0
+restaurant_type,pastry,0
+restaurant_type,peanut,0
+restaurant_type,pear,0
+restaurant_type,pepperoni,0
+restaurant_type,pesto,0
+restaurant_type,pharmacy,0
+restaurant_type,pineapple,0
+restaurant_type,pita,0
+restaurant_type,pizza,0
+restaurant_type,polish,0
+restaurant_type,pork,0
+restaurant_type,post club,0
+restaurant_type,potato,0
+restaurant_type,poutine,0
+restaurant_type,prawn,0
+restaurant_type,pretzel,0
+restaurant_type,private area,0
+restaurant_type,prosciutto,0
+restaurant_type,protein,0
+restaurant_type,provolone,0
+restaurant_type,pumpkin,0
+restaurant_type,queen,0
+restaurant_type,quinoa,0
+restaurant_type,radish,0
+restaurant_type,ranch,0
+restaurant_type,relish,0
+restaurant_type,restaurant industry,0
+restaurant_type,restaurants,0
+restaurant_type,retail area,0
+restaurant_type,rice,0
+restaurant_type,risotto,0
+restaurant_type,sake,0
+restaurant_type,salad,0
+restaurant_type,salami,0
+restaurant_type,salmon,0
+restaurant_type,salmon sashimi,0
+restaurant_type,salsa,0
+restaurant_type,sandwich,0
+restaurant_type,sashimi,0
+restaurant_type,sauce,0
+restaurant_type,sauerkraut,0
+restaurant_type,sausage,0
+restaurant_type,scallop,0
+restaurant_type,seafood buffet,0
+restaurant_type,seafood station,0
+restaurant_type,seaweed,0
+restaurant_type,separate room,0
+restaurant_type,sesame chicken,0
+restaurant_type,several tvs,0
+restaurant_type,shrimp,0
+restaurant_type,shrimp cocktail,0
+restaurant_type,signature pizzas,0
+restaurant_type,sizzler,0
+restaurant_type,slider,0
+restaurant_type,small servings,0
+restaurant_type,small space,0
+restaurant_type,snow crab,0
+restaurant_type,soul,0
+restaurant_type,soup,0
+restaurant_type,soups,0
+restaurant_type,spanish tapas,0
+restaurant_type,specialty coffee drinks,0
+restaurant_type,specialty coffees,0
+restaurant_type,spinach,0
+restaurant_type,spirit,0
+restaurant_type,squash,0
+restaurant_type,squid,0
+restaurant_type,starbucks,0
+restaurant_type,steak,0
+restaurant_type,sub shop,0
+restaurant_type,subway,0
+restaurant_type,sushi,0
+restaurant_type,sweet and sour pork,0
+restaurant_type,sweet potato fry,0
+restaurant_type,swiss,0
+restaurant_type,taco,0
+restaurant_type,tapas,0
+restaurant_type,taro,0
+restaurant_type,tea,0
+restaurant_type,tea station,0
+restaurant_type,tempura,0
+restaurant_type,teppanyaki,0
+restaurant_type,teriyaki,0
+restaurant_type,teriyaki chicken,0
+restaurant_type,theater,0
+restaurant_type,themed bar,0
+restaurant_type,tofu,0
+restaurant_type,tokyo,0
+restaurant_type,tomato,0
+restaurant_type,tomato soup,0
+restaurant_type,top tier,0
+restaurant_type,tornado,0
+restaurant_type,tortilla,0
+restaurant_type,tourist area,0
+restaurant_type,tree,0
+restaurant_type,true food kitchen,0
+restaurant_type,truffle,0
+restaurant_type,tuna,0
+restaurant_type,tuna salad,0
+restaurant_type,turkey,0
+restaurant_type,udon,0
+restaurant_type,urban,0
+restaurant_type,various meats,0
+restaurant_type,veal,0
+restaurant_type,vermicelli,0
+restaurant_type,vietnamese restaurant,0
+restaurant_type,village,0
+restaurant_type,waffle,0
+restaurant_type,walnut,0
+restaurant_type,walnut shrimp,0
+restaurant_type,warehouse,0
+restaurant_type,wasabi,0
+restaurant_type,watermelon,0
+restaurant_type,western,0
+restaurant_type,wine,0
+restaurant_type,wine tower,0
+restaurant_type,wisconsin,0
+restaurant_type,yogurt,0
+restaurant_type,zen,0
+restaurant_type,artsy,1
+restaurant_type,bakeries,1
+restaurant_type,bakery,1
+restaurant_type,bistro,1
+restaurant_type,boutique,1
+restaurant_type,breakfast joint,1
+restaurant_type,cafe,1
+restaurant_type,cafeteria,1
+restaurant_type,cafeteria style,1
+restaurant_type,chic,1
+restaurant_type,deli,1
+restaurant_type,diner,1
+restaurant_type,diner style,1
+restaurant_type,fast food joint,1
+restaurant_type,fast food restaurant,1
+restaurant_type,fast food type,1
+restaurant_type,food court,1
+restaurant_type,modern,1
+restaurant_type,patisserie,1
+restaurant_type,sit down,1
+restaurant_type,sophisticated,1
+restaurant_type,albertson,0
+restaurant_type,albertsons,0
+restaurant_type,aluminum,0
+restaurant_type,ambiance,0
+restaurant_type,ambience,0
+restaurant_type,apple fritters,0
+restaurant_type,assembled,0
+restaurant_type,assembly line,0
+restaurant_type,bagels,0
+restaurant_type,bagged,0
+restaurant_type,baked goods,0
+restaurant_type,baker,0
+restaurant_type,bakers,0
+restaurant_type,benedict,0
+restaurant_type,benedicts,0
+restaurant_type,big mac,0
+restaurant_type,biscuits,0
+restaurant_type,biscuits and gravy,0
+restaurant_type,biscuits gravy,0
+restaurant_type,brasserie,0
+restaurant_type,breakfast,0
+restaurant_type,breakfast brunch,0
+restaurant_type,breakfast fare,0
+restaurant_type,breakfast potatoes,0
+restaurant_type,breakfasts,0
+restaurant_type,browns,0
+restaurant_type,brunch,0
+restaurant_type,caf,0
+restaurant_type,cardboard,0
+restaurant_type,casual,0
+restaurant_type,charming,0
+restaurant_type,chicken fried steak,0
+restaurant_type,chocolate chip pancakes,0
+restaurant_type,classy,0
+restaurant_type,containers,0
+restaurant_type,cookies,0
+restaurant_type,corn beef hash,0
+restaurant_type,corned beef hash,0
+restaurant_type,cosy,0
+restaurant_type,counter,0
+restaurant_type,country fried steak,0
+restaurant_type,cozy,0
+restaurant_type,cream puffs,0
+restaurant_type,croissants,0
+restaurant_type,cuisine,0
+restaurant_type,cupcakes,0
+restaurant_type,decor,0
+restaurant_type,denny,0
+restaurant_type,disposable,0
+restaurant_type,donuts,0
+restaurant_type,doughnut,0
+restaurant_type,dunkin,0
+restaurant_type,eatery,0
+restaurant_type,eggs,0
+restaurant_type,eggs benedict,0
+restaurant_type,eggs benny,0
+restaurant_type,elegant,0
+restaurant_type,european,0
+restaurant_type,fast food,0
+restaurant_type,france,0
+restaurant_type,freezer,0
+restaurant_type,french toast,0
+restaurant_type,garbage,0
+restaurant_type,gem,0
+restaurant_type,giant eagle,0
+restaurant_type,glorified,0
+restaurant_type,greasy spoon,0
+restaurant_type,grocery,0
+restaurant_type,grocery store,0
+restaurant_type,haphazardly,0
+restaurant_type,harris teeter,0
+restaurant_type,hash,0
+restaurant_type,hash brown,0
+restaurant_type,hash browns,0
+restaurant_type,hash house,0
+restaurant_type,hashbrowns,0
+restaurant_type,heat lamp,0
+restaurant_type,heated up,0
+restaurant_type,hidden gem,0
+restaurant_type,hip,0
+restaurant_type,home fries,0
+restaurant_type,homefries,0
+restaurant_type,homestyle,0
+restaurant_type,hot foods,0
+restaurant_type,huevos rancheros,0
+restaurant_type,ihop,0
+restaurant_type,interior design,0
+restaurant_type,jose andres,0
+restaurant_type,krispy kreme,0
+restaurant_type,le cirque,0
+restaurant_type,lids,0
+restaurant_type,little italy,0
+restaurant_type,loblaws,0
+restaurant_type,lukewarm,0
+restaurant_type,macaroons,0
+restaurant_type,market,0
+restaurant_type,marketplace,0
+restaurant_type,mcdonald,0
+restaurant_type,mcdonalds,0
+restaurant_type,messy,0
+restaurant_type,microwave,0
+restaurant_type,mile end,0
+restaurant_type,modern decor,0
+restaurant_type,nova,0
+restaurant_type,old montreal,0
+restaurant_type,omelet,0
+restaurant_type,omelets,0
+restaurant_type,omelette,0
+restaurant_type,omelettes,0
+restaurant_type,other stores,0
+restaurant_type,pancakes,0
+restaurant_type,parisian,0
+restaurant_type,picnic,0
+restaurant_type,plastic,0
+restaurant_type,posh,0
+restaurant_type,pre made,0
+restaurant_type,pre packaged,0
+restaurant_type,premade,0
+restaurant_type,prepared foods,0
+restaurant_type,prepped,0
+restaurant_type,produce,0
+restaurant_type,produce section,0
+restaurant_type,publix,0
+restaurant_type,quaint,0
+restaurant_type,reheated,0
+restaurant_type,resto,0
+restaurant_type,ristorante,0
+restaurant_type,romantic,0
+restaurant_type,rustic,0
+restaurant_type,rye toast,0
+restaurant_type,safeway,0
+restaurant_type,sausage links,0
+restaurant_type,scrambled eggs,0
+restaurant_type,scrambler,0
+restaurant_type,seating area,0
+restaurant_type,self serve,0
+restaurant_type,serve yourself,0
+restaurant_type,shop,0
+restaurant_type,shopper,0
+restaurant_type,sitting,0
+restaurant_type,sitting on the counter,0
+restaurant_type,sitting under,0
+restaurant_type,smith,0
+restaurant_type,smiths,0
+restaurant_type,stainless steel,0
+restaurant_type,store,0
+restaurant_type,store bought,0
+restaurant_type,stores,0
+restaurant_type,stylish,0
+restaurant_type,styrofoam,0
+restaurant_type,superstore,0
+restaurant_type,swiss chalet,0
+restaurant_type,tent,0
+restaurant_type,toast,0
+restaurant_type,trader joe,0
+restaurant_type,trader joes,0
+restaurant_type,trattoria,0
+restaurant_type,trendy,0
+restaurant_type,understated,0
+restaurant_type,unpretentious,0
+restaurant_type,unseasoned,0
+restaurant_type,veggie omelet,0
+restaurant_type,waffle house,0
+restaurant_type,wal mart,0
+restaurant_type,walgreens,0
+restaurant_type,walmart,0
+restaurant_type,well decorated,0
+restaurant_type,wendy,0
+restaurant_type,whole foods,0
+restaurant_type,winco,0
+restaurant_type,wine bar,0
+restaurant_type,yorkville,0
+seating_arrangement,an open_kitchen,1
+seating_arrangement,an outdoor table,1
+seating_arrangement,an outdoor_patio,1
+seating_arrangement,an upstairs area,1
+seating_arrangement,arena,1
+seating_arrangement,auditorium,1
+seating_arrangement,bar lounge,1
+seating_arrangement,bar lounge _ area,1
+seating_arrangement,bar style seating,1
+seating_arrangement,beach,1
+seating_arrangement,beautiful patio,1
+seating_arrangement,booth or table,1
+seating_arrangement,booth seating,1
+seating_arrangement,bowling area,1
+seating_arrangement,cafeteria,1
+seating_arrangement,canal,1
+seating_arrangement,casino,1
+seating_arrangement,comfy booths,1
+seating_arrangement,courtyard,1
+seating_arrangement,courtyard area,1
+seating_arrangement,covered patio,1
+seating_arrangement,dining room,1
+seating_arrangement,fire pit,1
+seating_arrangement,front porch,1
+seating_arrangement,front yard,1
+seating_arrangement,garden,1
+seating_arrangement,high top tables,1
+seating_arrangement,indoor,1
+seating_arrangement,indoor _ seating area,1
+seating_arrangement,indoor and outdoor,1
+seating_arrangement,indoor_seating area,1
+seating_arrangement,indoors,1
+seating_arrangement,inside and outside seating,1
+seating_arrangement,interior space,1
+seating_arrangement,jacuzzi,1
+seating_arrangement,lake,1
+seating_arrangement,large outdoor_patio,1
+seating_arrangement,large seating _ area,1
+seating_arrangement,large seating_area,1
+seating_arrangement,lounge bar _ area,1
+seating_arrangement,lounge club,1
+seating_arrangement,lovely patio,1
+seating_arrangement,main dining_area,1
+seating_arrangement,main dining_room,1
+seating_arrangement,main pool,1
+seating_arrangement,many open tables,1
+seating_arrangement,open seats,1
+seating_arrangement,open_air bar,1
+seating_arrangement,out door seating,1
+seating_arrangement,outdoor,1
+seating_arrangement,outdoor _ patio area,1
+seating_arrangement,outdoor _ seating area,1
+seating_arrangement,outdoor _ seating areas,1
+seating_arrangement,outdoor area,1
+seating_arrangement,outdoor bar,1
+seating_arrangement,outdoor patio,1
+seating_arrangement,outdoor seating,1
+seating_arrangement,outdoor_patio area,1
+seating_arrangement,outdoor_patio seating,1
+seating_arrangement,outdoor_seating area,1
+seating_arrangement,outside deck,1
+seating_arrangement,outside eating area,1
+seating_arrangement,outside patio,1
+seating_arrangement,outside patio _ area,1
+seating_arrangement,outside patio_area,1
+seating_arrangement,outside seating,1
+seating_arrangement,outside seating _ area,1
+seating_arrangement,outside seating area,1
+seating_arrangement,outside seating_area,1
+seating_arrangement,outside terrace,1
+seating_arrangement,patio,1
+seating_arrangement,patio _ seating area,1
+seating_arrangement,patio area,1
+seating_arrangement,patio_seating area,1
+seating_arrangement,picnic area,1
+seating_arrangement,picnic tables,1
+seating_arrangement,pond,1
+seating_arrangement,pool deck,1
+seating_arrangement,pool table,1
+seating_arrangement,pool tables,1
+seating_arrangement,porch,1
+seating_arrangement,private area,1
+seating_arrangement,river,1
+seating_arrangement,rooftop,1
+seating_arrangement,rooftop deck,1
+seating_arrangement,rooftop patio,1
+seating_arrangement,separate room,1
+seating_arrangement,several open tables,1
+seating_arrangement,sit on the patio,1
+seating_arrangement,sit outside,1
+seating_arrangement,small seating _ area,1
+seating_arrangement,small seating_area,1
+seating_arrangement,smoking floor,1
+seating_arrangement,stadium seating,1
+seating_arrangement,upstairs area,1
+seating_arrangement,upstairs patio,1
+seating_arrangement,veranda,1
+seating_arrangement,verandah,1
+seating_arrangement,vip area,1
+seating_arrangement,vip seating,1
+seating_arrangement,water fountain,1
+seating_arrangement,window seat,1
+seating_arrangement,wood tables,1
+seating_arrangement,wooden table,1
+seating_arrangement,20 min,0
+seating_arrangement,3rd floor,0
+seating_arrangement,absolutely phenomenal,0
+seating_arrangement,after placing,0
+seating_arrangement,ahi tuna salad,0
+seating_arrangement,ale,0
+seating_arrangement,an amazing view,0
+seating_arrangement,an awesome view,0
+seating_arrangement,an open_air,0
+seating_arrangement,an outdoor,0
+seating_arrangement,anchor,0
+seating_arrangement,another 5 minutes,0
+seating_arrangement,antipasto,0
+seating_arrangement,appetizer,0
+seating_arrangement,aquarium,0
+seating_arrangement,arcade,0
+seating_arrangement,arcade games,0
+seating_arrangement,area,0
+seating_arrangement,aria,0
+seating_arrangement,art,0
+seating_arrangement,asked him,0
+seating_arrangement,asu,0
+seating_arrangement,atmosphere,0
+seating_arrangement,awesome,0
+seating_arrangement,bacon,0
+seating_arrangement,bagel,0
+seating_arrangement,bakery,0
+seating_arrangement,baklava,0
+seating_arrangement,balcony,0
+seating_arrangement,banana bread,0
+seating_arrangement,banchan,0
+seating_arrangement,bar area,0
+seating_arrangement,bar stools,0
+seating_arrangement,barbecue,0
+seating_arrangement,bathroom door,0
+seating_arrangement,bathroom floor,0
+seating_arrangement,bathroom sink,0
+seating_arrangement,bbq chicken pizza,0
+seating_arrangement,beautiful view,0
+seating_arrangement,beef,0
+seating_arrangement,beef brisket,0
+seating_arrangement,beef carpaccio,0
+seating_arrangement,beef stew,0
+seating_arrangement,beer,0
+seating_arrangement,beer selections,0
+seating_arrangement,bellagio,0
+seating_arrangement,bellagio fountains,0
+seating_arrangement,bench seat,0
+seating_arrangement,benches,0
+seating_arrangement,bibimbap,0
+seating_arrangement,big open space,0
+seating_arrangement,biting,0
+seating_arrangement,black cod,0
+seating_arrangement,blt,0
+seating_arrangement,blueberry pancake,0
+seating_arrangement,board games,0
+seating_arrangement,bolognese,0
+seating_arrangement,bottom floor,0
+seating_arrangement,bowling,0
+seating_arrangement,box office,0
+seating_arrangement,bread,0
+seating_arrangement,breathtaking,0
+seating_arrangement,brew,0
+seating_arrangement,breweries,0
+seating_arrangement,brewing,0
+seating_arrangement,brews,0
+seating_arrangement,brisket,0
+seating_arrangement,brunch,0
+seating_arrangement,bruschetta,0
+seating_arrangement,bud light,0
+seating_arrangement,buffet,0
+seating_arrangement,bulgogi,0
+seating_arrangement,burrito bowl,0
+seating_arrangement,butter chicken,0
+seating_arrangement,butterflies,0
+seating_arrangement,butts,0
+seating_arrangement,cajun fry,0
+seating_arrangement,cake,0
+seating_arrangement,calzone,0
+seating_arrangement,cannoli,0
+seating_arrangement,capitol,0
+seating_arrangement,cappuccino,0
+seating_arrangement,carnitas,0
+seating_arrangement,carrot cake,0
+seating_arrangement,cashew chicken,0
+seating_arrangement,cats,0
+seating_arrangement,cauliflower,0
+seating_arrangement,ceviche,0
+seating_arrangement,chairs,0
+seating_arrangement,chairs and tables,0
+seating_arrangement,champagne,0
+seating_arrangement,chandelier,0
+seating_arrangement,cheese,0
+seating_arrangement,cheesecake,0
+seating_arrangement,chicken,0
+seating_arrangement,chicken satay,0
+seating_arrangement,chili,0
+seating_arrangement,chili dog,0
+seating_arrangement,chilly,0
+seating_arrangement,chinese,0
+seating_arrangement,chorizo,0
+seating_arrangement,cigar,0
+seating_arrangement,clarified,0
+seating_arrangement,cocktail,0
+seating_arrangement,coconut shrimp,0
+seating_arrangement,coffee,0
+seating_arrangement,cold winter,0
+seating_arrangement,coleslaw,0
+seating_arrangement,comfy,0
+seating_arrangement,comfy couches,0
+seating_arrangement,communal table,0
+seating_arrangement,company,0
+seating_arrangement,concrete,0
+seating_arrangement,congee,0
+seating_arrangement,cool,0
+seating_arrangement,corn,0
+seating_arrangement,corn bread,0
+seating_arrangement,corn hole,0
+seating_arrangement,cornhole,0
+seating_arrangement,cosmo,0
+seating_arrangement,cosmopolitan,0
+seating_arrangement,couches,0
+seating_arrangement,covered,0
+seating_arrangement,crab rangoon,0
+seating_arrangement,craft beer,0
+seating_arrangement,craft beer selection,0
+seating_arrangement,cucumber salad,0
+seating_arrangement,curry,0
+seating_arrangement,cute,0
+seating_arrangement,d cor,0
+seating_arrangement,desert,0
+seating_arrangement,dog friendly,0
+seating_arrangement,doughnut,0
+seating_arrangement,downtown area,0
+seating_arrangement,draft beer selection,0
+seating_arrangement,driver,0
+seating_arrangement,dropped off,0
+seating_arrangement,duck,0
+seating_arrangement,dumpling,0
+seating_arrangement,edamame,0
+seating_arrangement,elevator,0
+seating_arrangement,empty plates,0
+seating_arrangement,entertainment,0
+seating_arrangement,entire party,0
+seating_arrangement,entr e,0
+seating_arrangement,escargot,0
+seating_arrangement,esp,0
+seating_arrangement,falafel,0
+seating_arrangement,fall,0
+seating_arrangement,fire pits,0
+seating_arrangement,fireplace,0
+seating_arrangement,fish,0
+seating_arrangement,fish taco,0
+seating_arrangement,fish tank,0
+seating_arrangement,flan,0
+seating_arrangement,flat screen tv,0
+seating_arrangement,flat screens,0
+seating_arrangement,flatbread,0
+seating_arrangement,fountain,0
+seating_arrangement,four peaks,0
+seating_arrangement,free wifi,0
+seating_arrangement,freemont street,0
+seating_arrangement,fried chicken sandwich,0
+seating_arrangement,front entrance,0
+seating_arrangement,front window,0
+seating_arrangement,front windows,0
+seating_arrangement,fruit,0
+seating_arrangement,fry,0
+seating_arrangement,fun,0
+seating_arrangement,furious,0
+seating_arrangement,garage,0
+seating_arrangement,garden court,0
+seating_arrangement,gardens,0
+seating_arrangement,garlic bread,0
+seating_arrangement,garlic fry,0
+seating_arrangement,garlic naan,0
+seating_arrangement,gelato,0
+seating_arrangement,generously,0
+seating_arrangement,gift shop,0
+seating_arrangement,glass windows,0
+seating_arrangement,gnocchi,0
+seating_arrangement,golf,0
+seating_arrangement,gorgeous,0
+seating_arrangement,gorgeous view,0
+seating_arrangement,gravy,0
+seating_arrangement,greek salad,0
+seating_arrangement,greenhouse,0
+seating_arrangement,growler,0
+seating_arrangement,growlers,0
+seating_arrangement,guacamole,0
+seating_arrangement,guinness,0
+seating_arrangement,gumbo,0
+seating_arrangement,gym,0
+seating_arrangement,gymnasium,0
+seating_arrangement,gyro,0
+seating_arrangement,hamburger,0
+seating_arrangement,handed me,0
+seating_arrangement,heaters,0
+seating_arrangement,hefeweizen,0
+seating_arrangement,high ceilings,0
+seating_arrangement,high top table,0
+seating_arrangement,high tops,0
+seating_arrangement,hippie,0
+seating_arrangement,hops,0
+seating_arrangement,hot and sour soup,0
+seating_arrangement,hot food section,0
+seating_arrangement,hot summer,0
+seating_arrangement,hotel,0
+seating_arrangement,huge windows,0
+seating_arrangement,hula,0
+seating_arrangement,hummus,0
+seating_arrangement,industrial area,0
+seating_arrangement,internet,0
+seating_arrangement,intimate seating,0
+seating_arrangement,intimate setting,0
+seating_arrangement,ipa,0
+seating_arrangement,jambalaya,0
+seating_arrangement,jenga,0
+seating_arrangement,jerk chicken,0
+seating_arrangement,juice,0
+seating_arrangement,kale salad,0
+seating_arrangement,karaoke,0
+seating_arrangement,kids play area,0
+seating_arrangement,kimchi,0
+seating_arrangement,kitchenette,0
+seating_arrangement,knick knacks,0
+seating_arrangement,lager,0
+seating_arrangement,lamps,0
+seating_arrangement,large round tables,0
+seating_arrangement,lasagne,0
+seating_arrangement,lemonade,0
+seating_arrangement,library,0
+seating_arrangement,little nook,0
+seating_arrangement,live band,0
+seating_arrangement,live entertainment,0
+seating_arrangement,live jazz,0
+seating_arrangement,live music,0
+seating_arrangement,lobster,0
+seating_arrangement,local beers,0
+seating_arrangement,local brewery,0
+seating_arrangement,lounges,0
+seating_arrangement,lovely view,0
+seating_arrangement,lumpia,0
+seating_arrangement,luxor,0
+seating_arrangement,mac n cheese,0
+seating_arrangement,main entrance,0
+seating_arrangement,main level,0
+seating_arrangement,main lobby,0
+seating_arrangement,mandalay bay,0
+seating_arrangement,mango salad,0
+seating_arrangement,marble tables,0
+seating_arrangement,meat,0
+seating_arrangement,meatball,0
+seating_arrangement,meatball sandwich,0
+seating_arrangement,meatloaf,0
+seating_arrangement,mediterranean salad,0
+seating_arrangement,memorabilia,0
+seating_arrangement,menudo,0
+seating_arrangement,milkshake,0
+seating_arrangement,miller,0
+seating_arrangement,mimosa,0
+seating_arrangement,miso,0
+seating_arrangement,misters,0
+seating_arrangement,mochi,0
+seating_arrangement,mongolian beef,0
+seating_arrangement,movie theatre,0
+seating_arrangement,muffin,0
+seating_arrangement,music,0
+seating_arrangement,naan,0
+seating_arrangement,nachos,0
+seating_arrangement,natural light,0
+seating_arrangement,nightclub,0
+seating_arrangement,nightlife,0
+seating_arrangement,no apology,0
+seating_arrangement,no changing table,0
+seating_arrangement,noda,0
+seating_arrangement,noodle,0
+seating_arrangement,office park,0
+seating_arrangement,okra,0
+seating_arrangement,olive,0
+seating_arrangement,on tap,0
+seating_arrangement,onion soup,0
+seating_arrangement,open and airy,0
+seating_arrangement,open layout,0
+seating_arrangement,open space,0
+seating_arrangement,open windows,0
+seating_arrangement,other buffets,0
+seating_arrangement,overlooking,0
+seating_arrangement,own private,0
+seating_arrangement,oxtail,0
+seating_arrangement,paella,0
+seating_arrangement,pancake,0
+seating_arrangement,panini,0
+seating_arrangement,papaya salad,0
+seating_arrangement,park,0
+seating_arrangement,pasta,0
+seating_arrangement,pastrami,0
+seating_arrangement,pastry,0
+seating_arrangement,pasty,0
+seating_arrangement,pavilion,0
+seating_arrangement,payment,0
+seating_arrangement,pet,0
+seating_arrangement,picnic,0
+seating_arrangement,pineapple,0
+seating_arrangement,ping pong,0
+seating_arrangement,piping hot,0
+seating_arrangement,pita,0
+seating_arrangement,pizza,0
+seating_arrangement,play,0
+seating_arrangement,play area,0
+seating_arrangement,playground,0
+seating_arrangement,plenty of room,0
+seating_arrangement,pool,0
+seating_arrangement,poor service,0
+seating_arrangement,pop,0
+seating_arrangement,popcorn,0
+seating_arrangement,popcorn chicken,0
+seating_arrangement,pork,0
+seating_arrangement,potato,0
+seating_arrangement,poutine,0
+seating_arrangement,pretty neat,0
+seating_arrangement,pretzel,0
+seating_arrangement,privacy,0
+seating_arrangement,private,0
+seating_arrangement,property,0
+seating_arrangement,pulled pork sandwich,0
+seating_arrangement,puzzled,0
+seating_arrangement,queen street,0
+seating_arrangement,quiche,0
+seating_arrangement,quirky,0
+seating_arrangement,rainy,0
+seating_arrangement,rainy day,0
+seating_arrangement,raman,0
+seating_arrangement,ranch,0
+seating_arrangement,ravioli,0
+seating_arrangement,receives,0
+seating_arrangement,removed from,0
+seating_arrangement,resort,0
+seating_arrangement,restaurant,0
+seating_arrangement,restaurants,0
+seating_arrangement,retail area,0
+seating_arrangement,returns,0
+seating_arrangement,rice,0
+seating_arrangement,rice bowl,0
+seating_arrangement,risotto,0
+seating_arrangement,roomy,0
+seating_arrangement,sake,0
+seating_arrangement,salad,0
+seating_arrangement,salsa,0
+seating_arrangement,sanctuary,0
+seating_arrangement,sandwich,0
+seating_arrangement,sangria,0
+seating_arrangement,sashimi,0
+seating_arrangement,satisfaction,0
+seating_arrangement,sauce,0
+seating_arrangement,sausage,0
+seating_arrangement,scanned,0
+seating_arrangement,schnitzel,0
+seating_arrangement,screamed,0
+seating_arrangement,seafood,0
+seating_arrangement,seaweed salad,0
+seating_arrangement,second floor,0
+seating_arrangement,selection of beers,0
+seating_arrangement,self seating,0
+seating_arrangement,sensational,0
+seating_arrangement,sesame chicken,0
+seating_arrangement,shaded,0
+seating_arrangement,shawarma,0
+seating_arrangement,shrimp cocktail,0
+seating_arrangement,shuffleboard,0
+seating_arrangement,silently,0
+seating_arrangement,slide,0
+seating_arrangement,slider,0
+seating_arrangement,small plate,0
+seating_arrangement,small space,0
+seating_arrangement,smoothie,0
+seating_arrangement,sofas,0
+seating_arrangement,sorbet,0
+seating_arrangement,soup,0
+seating_arrangement,southwest area,0
+seating_arrangement,spacious seating,0
+seating_arrangement,spectacular view,0
+seating_arrangement,sports book,0
+seating_arrangement,spring,0
+seating_arrangement,stadium,0
+seating_arrangement,stared,0
+seating_arrangement,statement,0
+seating_arrangement,statue,0
+seating_arrangement,steak,0
+seating_arrangement,stk,0
+seating_arrangement,street corner,0
+seating_arrangement,strip,0
+seating_arrangement,stunning,0
+seating_arrangement,summer,0
+seating_arrangement,sun,0
+seating_arrangement,sunglasses,0
+seating_arrangement,sunlight,0
+seating_arrangement,sunny,0
+seating_arrangement,sunny day,0
+seating_arrangement,sushi,0
+seating_arrangement,sweater,0
+seating_arrangement,sweet and sour chicken,0
+seating_arrangement,sweet potato fry,0
+seating_arrangement,table behind us,0
+seating_arrangement,tables and booths,0
+seating_arrangement,taco,0
+seating_arrangement,tap,0
+seating_arrangement,tap room,0
+seating_arrangement,tapa,0
+seating_arrangement,tea,0
+seating_arrangement,televisions,0
+seating_arrangement,tempe,0
+seating_arrangement,tempe marketplace,0
+seating_arrangement,tempura,0
+seating_arrangement,teriyaki,0
+seating_arrangement,teriyaki chicken,0
+seating_arrangement,terrace,0
+seating_arrangement,terrasse,0
+seating_arrangement,theater,0
+seating_arrangement,theatre,0
+seating_arrangement,themed,0
+seating_arrangement,themed bar,0
+seating_arrangement,third floor,0
+seating_arrangement,throwback,0
+seating_arrangement,tick,0
+seating_arrangement,tiesto,0
+seating_arrangement,tiramisu,0
+seating_arrangement,tofu,0
+seating_arrangement,tomato soup,0
+seating_arrangement,tortilla,0
+seating_arrangement,tower,0
+seating_arrangement,toys,0
+seating_arrangement,trees,0
+seating_arrangement,trinkets,0
+seating_arrangement,truffle fry,0
+seating_arrangement,tuesday,0
+seating_arrangement,tuna salad,0
+seating_arrangement,turkey,0
+seating_arrangement,tv,0
+seating_arrangement,two large pizzas,0
+seating_arrangement,two levels,0
+seating_arrangement,two other tables,0
+seating_arrangement,udon,0
+seating_arrangement,umbrellas,0
+seating_arrangement,untouched,0
+seating_arrangement,utmost,0
+seating_arrangement,veal,0
+seating_arrangement,vegetarian,0
+seating_arrangement,venetian,0
+seating_arrangement,video games,0
+seating_arrangement,videos,0
+seating_arrangement,view,0
+seating_arrangement,view of the city,0
+seating_arrangement,view of the strip,0
+seating_arrangement,views,0
+seating_arrangement,waffle,0
+seating_arrangement,waffle fry,0
+seating_arrangement,walks,0
+seating_arrangement,warm weather,0
+seating_arrangement,warmer,0
+seating_arrangement,water glass,0
+seating_arrangement,waterfall,0
+seating_arrangement,weather,0
+seating_arrangement,weekday,0
+seating_arrangement,when the weather is nice,0
+seating_arrangement,wifi,0
+seating_arrangement,windows,0
+seating_arrangement,windy,0
+seating_arrangement,wine,0
+seating_arrangement,winter,0
+seating_arrangement,without question,0
+seating_arrangement,wonton soup,0
+seating_arrangement,wynn,0
+seating_arrangement,yakitori,0
+seating_arrangement,yogurt,0
+seating_arrangement,young man who,0
+service,an online order,1
+service,carry out,1
+service,carryout,1
+service,cater,1
+service,catering,1
+service,concierge,1
+service,custom orders,1
+service,customer services,1
+service,delivery,1
+service,delivery services,1
+service,drive thru,1
+service,drive up window,1
+service,front counter,1
+service,grocery delivery,1
+service,guest services,1
+service,kiosk,1
+service,kung pao,1
+service,mobile order,1
+service,mobile orders,1
+service,online orders,1
+service,ordering delivery,1
+service,ordering online,1
+service,phone call,1
+service,phone orders,1
+service,pickup,1
+service,take out orders,1
+service,takeaway,1
+service,takeout,1
+service,takeout orders,1
+service,togo order,1
+service,transport,1
+service,website,1
+service,1 hr,0
+service,1 or 2,0
+service,15 min,0
+service,15 minute,0
+service,15mins,0
+service,2 hours,0
+service,20 minutes,0
+service,25 min,0
+service,25 minutes,0
+service,3 or 4,0
+service,30 min,0
+service,30 minute,0
+service,30 minute_wait,0
+service,30 minutes,0
+service,30mins,0
+service,4 star rating,0
+service,45 minutes,0
+service,45min,0
+service,5 mins,0
+service,90 minutes,0
+service,aaa,0
+service,according,0
+service,action,0
+service,ad,0
+service,airport,0
+service,airport shuttle,0
+service,albertsons,0
+service,alcohol,0
+service,all the makings,0
+service,amazon,0
+service,an additional,0
+service,an alternative,0
+service,an egg roll,0
+service,an event,0
+service,an upgrade,0
+service,andr s,0
+service,anniversary,0
+service,appetizer,0
+service,apple,0
+service,applies,0
+service,area,0
+service,asparagus,0
+service,auto shop,0
+service,avocado,0
+service,babies,0
+service,bachelor,0
+service,bachelorette,0
+service,bacon,0
+service,bagel,0
+service,bagging,0
+service,bakery,0
+service,baklava,0
+service,bank,0
+service,banquet,0
+service,barbacoa,0
+service,based on,0
+service,based upon,0
+service,bay,0
+service,beef,0
+service,beef brisket,0
+service,beef stew,0
+service,beer,0
+service,below,0
+service,bento,0
+service,bento box,0
+service,bibimbap,0
+service,big group,0
+service,bills,0
+service,birthday party,0
+service,birthdays,0
+service,biryani,0
+service,biscuit,0
+service,black cod,0
+service,boarding,0
+service,boarding pass,0
+service,boast,0
+service,book,0
+service,box office,0
+service,bp,0
+service,bread,0
+service,brisket,0
+service,broccoli,0
+service,bruschetta,0
+service,buffet,0
+service,bumped,0
+service,bus,0
+service,bus station,0
+service,business,0
+service,business cards,0
+service,business travel,0
+service,butter chicken,0
+service,butterscotch,0
+service,cabbage,0
+service,cajun fry,0
+service,cake,0
+service,call a cab,0
+service,call ahead,0
+service,calling,0
+service,cappuccino,0
+service,car,0
+service,cargo,0
+service,carnitas,0
+service,cashew chicken,0
+service,cashing out,0
+service,catch up,0
+service,catered,0
+service,catfish,0
+service,cattle drive,0
+service,cauliflower,0
+service,caviar,0
+service,celebrating,0
+service,celebration,0
+service,celebrations,0
+service,cette,0
+service,ceviche,0
+service,champagne,0
+service,charter,0
+service,cheese,0
+service,cheque,0
+service,chicken,0
+service,chicken biryani,0
+service,chicken breast,0
+service,chicken lo mein,0
+service,chicken satay,0
+service,children,0
+service,chili,0
+service,chocolate,0
+service,choose from,0
+service,chorizo,0
+service,chose,0
+service,chow mein,0
+service,church,0
+service,clam,0
+service,clock,0
+service,cocktail,0
+service,coconut shrimp,0
+service,cod,0
+service,coffee,0
+service,coleslaw,0
+service,company,0
+service,congee,0
+service,cooking,0
+service,corn,0
+service,corn bread,0
+service,cornbread,0
+service,couples,0
+service,crab,0
+service,crab rangoon,0
+service,crawfish,0
+service,cucumber,0
+service,cucumber salad,0
+service,curries,0
+service,curry,0
+service,de montr al,0
+service,delivery charge,0
+service,delivery driver,0
+service,delivery guy,0
+service,delivery man,0
+service,delivery range,0
+service,desert,0
+service,dominos,0
+service,double check,0
+service,dough,0
+service,doughnut,0
+service,dreaming about,0
+service,drink orders,0
+service,driver,0
+service,driving home,0
+service,duck,0
+service,duck confit,0
+service,dumpling,0
+service,during lunch,0
+service,edamame,0
+service,eel,0
+service,egg,0
+service,elite,0
+service,emergency room,0
+service,endroit,0
+service,engagement,0
+service,entertainment,0
+service,entr e,0
+service,escalator,0
+service,event,0
+service,events,0
+service,exact same,0
+service,export,0
+service,falafel,0
+service,families,0
+service,family,0
+service,fast and friendly service,0
+service,filtered,0
+service,finance,0
+service,fish taco,0
+service,flags,0
+service,flan,0
+service,fly,0
+service,food,0
+service,food trucks,0
+service,front desk,0
+service,front door,0
+service,fruit,0
+service,fry,0
+service,fuel,0
+service,function,0
+service,functions,0
+service,galement,0
+service,garlic bread,0
+service,garlic naan,0
+service,gas station,0
+service,gathering,0
+service,gatherings,0
+service,gelato,0
+service,general tao,0
+service,general tao chicken,0
+service,ginger,0
+service,given,0
+service,gnocchi,0
+service,go tos,0
+service,goat,0
+service,gold,0
+service,gold standard,0
+service,graduation,0
+service,gravy,0
+service,greek salad,0
+service,grocery shop,0
+service,group,0
+service,groupon,0
+service,groups,0
+service,grub hub,0
+service,grubhub,0
+service,guacamole,0
+service,guests,0
+service,gumbo,0
+service,gym,0
+service,gyro,0
+service,hakka,0
+service,half empty,0
+service,halibut,0
+service,hamburger,0
+service,hang out,0
+service,hassle,0
+service,high,0
+service,high marks,0
+service,high tea,0
+service,higher than,0
+service,highest,0
+service,hospital,0
+service,hospitality business,0
+service,host station,0
+service,hosted,0
+service,hosting,0
+service,hot and sour,0
+service,hot and sour soup,0
+service,hot sour soup,0
+service,hotel,0
+service,hotel guest,0
+service,hummus,0
+service,hunan,0
+service,indian cuisine,0
+service,indonesian,0
+service,initial order,0
+service,insurance,0
+service,internet,0
+service,ipad,0
+service,jerk chicken,0
+service,kale,0
+service,keg,0
+service,kimchi,0
+service,kung pao chicken,0
+service,large crowd,0
+service,large group,0
+service,large groups,0
+service,larger group,0
+service,larger party,0
+service,lasagne,0
+service,last minute,0
+service,lead,0
+service,lease,0
+service,lemon,0
+service,lentil,0
+service,liberty,0
+service,link,0
+service,lobster,0
+service,local business,0
+service,local small business,0
+service,logistics,0
+service,lowest,0
+service,lunch buffet,0
+service,lunch special,0
+service,lunch specials,0
+service,luncheon,0
+service,mac n cheese,0
+service,macaroni salad,0
+service,mail,0
+service,make or break,0
+service,malaysian,0
+service,mango,0
+service,mango salad,0
+service,manor,0
+service,marketing,0
+service,meat,0
+service,meatball,0
+service,meatloaf,0
+service,meats,0
+service,meet up,0
+service,meeting,0
+service,meetings,0
+service,member,0
+service,members,0
+service,merchant,0
+service,miso,0
+service,mobile,0
+service,mochi,0
+service,mongolian,0
+service,mongolian beef,0
+service,movie,0
+service,mozzarella,0
+service,muffin,0
+service,multiple orders,0
+service,mushroom,0
+service,mussel,0
+service,my go tos,0
+service,naan,0
+service,next door,0
+service,no problem,0
+service,noodle,0
+service,noodle dish,0
+service,octopus,0
+service,okra,0
+service,olive,0
+service,one or two items,0
+service,onion,0
+service,open and airy,0
+service,orange chicken,0
+service,order,0
+service,order online,0
+service,ordering from them,0
+service,orleans,0
+service,other diners,0
+service,out of the oven,0
+service,out of town guests,0
+service,outing,0
+service,oven,0
+service,oxtail,0
+service,oyster,0
+service,packing,0
+service,pad see ew,0
+service,pad thai,0
+service,pakora,0
+service,panang,0
+service,panang curry,0
+service,pancake,0
+service,panini,0
+service,papa johns,0
+service,papaya salad,0
+service,parent,0
+service,parties,0
+service,party,0
+service,pass,0
+service,pasta,0
+service,pastrami,0
+service,pastry,0
+service,peanut,0
+service,pei wei,0
+service,personal phone,0
+service,pesto,0
+service,ph,0
+service,pharmacy,0
+service,phone calls,0
+service,picking up,0
+service,pineapple,0
+service,pita,0
+service,pizza hut,0
+service,placed an order,0
+service,placed my order,0
+service,placing,0
+service,play,0
+service,pop,0
+service,popcorn,0
+service,popcorn chicken,0
+service,pork,0
+service,portable,0
+service,post club,0
+service,postmates,0
+service,potato,0
+service,potato puree,0
+service,poutine,0
+service,prawn,0
+service,prep work,0
+service,pretzel,0
+service,private,0
+service,private party,0
+service,private room,0
+service,production,0
+service,prosciutto,0
+service,protein,0
+service,pulled pork sandwich,0
+service,pumpkin,0
+service,quick and friendly service,0
+service,quick search,0
+service,quinoa,0
+service,quoted,0
+service,raman,0
+service,ranch,0
+service,ranging from,0
+service,rank,0
+service,ranked,0
+service,rate,0
+service,rated,0
+service,rating,0
+service,ratings,0
+service,red curry,0
+service,rehearsal dinner,0
+service,restaurant,0
+service,retail,0
+service,reunion,0
+service,rice,0
+service,rights,0
+service,ringing,0
+service,risotto,0
+service,ritual,0
+service,roti,0
+service,rush,0
+service,sake,0
+service,salad,0
+service,sale items,0
+service,salmon,0
+service,salmon sashimi,0
+service,salsa,0
+service,same exact,0
+service,sandwich,0
+service,sangria,0
+service,sashimi,0
+service,sauce,0
+service,sausage,0
+service,scallop,0
+service,schnitzel,0
+service,scores,0
+service,scraping,0
+service,seaweed,0
+service,seaweed salad,0
+service,second cup,0
+service,secondary,0
+service,security,0
+service,sesame chicken,0
+service,shawarma,0
+service,short,0
+service,short drive,0
+service,shrimp,0
+service,shrimp cocktail,0
+service,shuttle,0
+service,shuttle bus,0
+service,slice of pizza,0
+service,slider,0
+service,small children,0
+service,small servings,0
+service,snow crab,0
+service,sold out,0
+service,soup,0
+service,speaker,0
+service,specialty coffees,0
+service,spicy basil,0
+service,spinach,0
+service,sporting,0
+service,spring roll,0
+service,squid,0
+service,starbucks,0
+service,station,0
+service,steak,0
+service,steamed rice,0
+service,stir fry,0
+service,store credit,0
+service,store layout,0
+service,strawberry,0
+service,sub shop,0
+service,super easy,0
+service,sushi,0
+service,sweet and sour,0
+service,sweet and sour chicken,0
+service,sweet and sour pork,0
+service,sweet potato fry,0
+service,syrups,0
+service,tablet,0
+service,taco,0
+service,taco truck,0
+service,take care,0
+service,take out box,0
+service,take out boxes,0
+service,take out container,0
+service,tapa,0
+service,target,0
+service,tea,0
+service,team,0
+service,telephone,0
+service,telephones,0
+service,tempura,0
+service,teriyaki,0
+service,teriyaki chicken,0
+service,thai curry,0
+service,thali,0
+service,theater,0
+service,they have a full bar,0
+service,third party,0
+service,three or four,0
+service,tikka masala,0
+service,till,0
+service,time frame,0
+service,tofu,0
+service,togo,0
+service,tom kha soup,0
+service,tomato soup,0
+service,tortilla,0
+service,toujours,0
+service,tour,0
+service,tour bus,0
+service,trade,0
+service,train,0
+service,troubles,0
+service,truck,0
+service,truffle,0
+service,trusted,0
+service,tso,0
+service,tube,0
+service,tubes,0
+service,tuna,0
+service,tuna salad,0
+service,turkey,0
+service,two separate,0
+service,typing,0
+service,ubereats,0
+service,udon,0
+service,valet,0
+service,various meats,0
+service,veal,0
+service,vegetable,0
+service,vegetarian,0
+service,vermicelli,0
+service,vouchers,0
+service,waffle,0
+service,wait staffs,0
+service,walk up window,0
+service,walnut shrimp,0
+service,warehouse,0
+service,watch,0
+service,water,0
+service,wedding,0
+service,wedding reception,0
+service,weddings,0
+service,weigh,0
+service,where,0
+service,will not be ordering,0
+service,wine,0
+service,within 30 minutes,0
+service,wonton soup,0
+service,yellow curry,0
+service,yogurt,0
+service,zucchini,0

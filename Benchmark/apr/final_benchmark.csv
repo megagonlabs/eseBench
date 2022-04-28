@@ -1,0 +1,4051 @@
+concept,neighbor,gt_label
+countries,united states,1
+countries,us,1
+countries,north korea,1
+countries,england,1
+countries,iceland,1
+countries,czech republic,1
+countries,romania,1
+countries,liberia,1
+countries,the yemen,1
+countries,kenya,1
+countries,russian federation,1
+countries,mozambique,1
+countries,botswana,1
+countries,belgium,1
+countries,france,1
+countries,sweden,1
+countries,united arab emirates,1
+countries,uk,1
+countries,somalia,1
+countries,macedonia,1
+countries,bulgaria,1
+countries,finland,1
+countries,israel,1
+countries,uae,1
+countries,egypt,1
+countries,sri lanka,1
+countries,united sates,1
+countries,kuwaitis,1
+countries,rwanda,1
+countries,south africa,1
+countries,ireland,1
+countries,saudis,1
+countries,angola,1
+countries,trinidad and tobago,1
+countries,qatar,1
+countries,nigerias,1
+countries,hungary,1
+countries,niger,1
+countries,slovenia,1
+countries,uzbekistan,1
+countries,bahrain,1
+countries,democratic republic of the congo,1
+countries,republic of china,1
+countries,kiribati,1
+countries,madagascar,1
+countries,jamaica,1
+countries,burkina faso,1
+countries,islamic republic of afghanistan,1
+countries,usa,1
+countries,laos,1
+countries,argentina,1
+countries,turkey,1
+countries,cuba,1
+countries,iran,1
+countries,uruguay,1
+countries,fiji,1
+countries,germany,1
+countries,samoas,1
+countries,chiles,1
+countries,mexicos,1
+countries,tunisia,1
+countries,peru,1
+countries,u s,1
+countries,n korea,1
+countries,japans,1
+countries,switzerlands,1
+countries,ukraine,1
+countries,uganda,1
+countries,northern ireland,1
+countries,albania,1
+countries,oman,1
+countries,eritrea,1
+countries,croatia,1
+countries,cyprus,1
+countries,guyana,1
+countries,cameroon,1
+countries,burundi,1
+countries,colombia,1
+countries,armenia,1
+countries,scotland,1
+countries,united kingdom,1
+countries,republic of ireland,1
+countries,the united states,1
+countries,tanzania,1
+countries,iraq,1
+countries,serbia,1
+countries,bahamas,1
+countries,netherlands,1
+countries,mali,1
+countries,luxembourg,1
+countries,austria,1
+countries,united states of america,1
+countries,poland,1
+countries,canada,1
+countries,dominican republic,1
+countries,kingdom of saudi arabia,1
+countries,syria,1
+countries,yemens,1
+countries,kuwait,1
+countries,nepal,1
+countries,slovakia,1
+countries,thailand,1
+countries,the united states of america,1
+countries,belarus,1
+countries,sierra leone,1
+countries,pakistan,1
+countries,britain,1
+countries,australia,1
+countries,democratic republic of congo,1
+countries,gambia,1
+countries,indonesia,1
+countries,honduras,1
+countries,singapore,1
+countries,morocco,1
+countries,china,1
+countries,libya,1
+countries,cape verde,1
+countries,iraqi kurdistan,1
+countries,ecuador,1
+countries,guinea,1
+countries,republic of congo,1
+countries,papua new guinea,1
+countries,greece,1
+countries,philippines,1
+countries,the united kingdom,1
+countries,haiti,1
+countries,the uae,1
+countries,the united arab emirates,1
+countries,lebanon,1
+countries,chad,1
+countries,south korea,1
+countries,central african republic,1
+countries,tajikistan,1
+countries,saudi arabia,1
+countries,norway,1
+countries,spain,1
+countries,taiwan,1
+countries,brazil,1
+countries,denmark,1
+countries,sudan,1
+countries,costa rica,1
+countries,south sudan,1
+countries,ethiopia,1
+countries,venezuela,1
+countries,myanmar,1
+countries,vanuatu,1
+countries,ivory coast,1
+countries,panama,1
+countries,malaysia,1
+countries,portugal,1
+countries,el salvador,1
+countries,new zealand,1
+countries,tuvalu,1
+countries,indias,1
+countries,afghans,1
+countries,vietnam,1
+countries,burma,1
+countries,zambia,1
+countries,the philippines,1
+countries,mongolia,1
+countries,malta,1
+countries,malawi,1
+countries,kazakhstan,1
+countries,the czech republic,1
+countries,algeria,1
+countries,russia,1
+countries,islamic republic of iran,1
+countries,vatican,1
+usstates,tx,1
+usstates,louisiana,1
+usstates,iowa,1
+usstates,michigan state,1
+usstates,colorados,1
+usstates,oregon,1
+usstates,maryland,1
+usstates,rhode island,1
+usstates,michigan,1
+usstates,vt,1
+usstates,alabama,1
+usstates,fl,1
+usstates,mi,1
+usstates,new mexico,1
+usstates,alaska,1
+usstates,wisc,1
+usstates,oklahoma,1
+usstates,tennessee,1
+usstates,texas,1
+usstates,va,1
+usstates,pennsylvania,1
+usstates,ut,1
+usstates,wy,1
+usstates,missouri,1
+usstates,kansas,1
+usstates,florida,1
+usstates,il,1
+usstates,nc,1
+usstates,utah,1
+usstates,wv,1
+usstates,connecticut,1
+usstates,illinois,1
+usstates,ohio,1
+usstates,vermont,1
+usstates,md,1
+usstates,nevada,1
+usstates,south carolina,1
+usstates,new jersey,1
+usstates,mississippi,1
+usstates,ny,1
+usstates,wisconsin,1
+usstates,penn,1
+usstates,massachusetts,1
+usstates,arizona,1
+usstates,georgia,1
+usstates,north dakota,1
+usstates,kentucky,1
+usstates,wyoming,1
+usstates,nv,1
+usstates,north carolina,1
+usstates,south dakota,1
+usstates,indiana,1
+usstates,virginia,1
+usstates,sc,1
+usstates,new hampshire,1
+usstates,ak,1
+usstates,az,1
+usstates,delawares,1
+usstates,maine,1
+usstates,minnesota,1
+usstates,idaho,1
+usstates,montana,1
+usstates,californias,1
+usstates,arkansas,1
+usstates,nebraska,1
+usstates,ks,1
+usstates,west virginia,1
+usstates,hawaii,1
+parties,renewal,1
+parties,the uk independence party,1
+parties,new hampshire gop,1
+parties,hatnua,1
+parties,the snp,1
+parties,florida gop,1
+parties,kmt,1
+parties,national alliance,1
+parties,the democratic party,1
+parties,tory,1
+parties,meretz,1
+parties,hezbollah,1
+parties,nazis,1
+parties,democratic progressive party,1
+parties,bangladesh nationalist party,1
+parties,uk independence party,1
+parties,likud,1
+parties,sweden democrats,1
+parties,iowa republicans,1
+parties,new hampshire republicans,1
+parties,kurdistan workers party,1
+parties,the republicans,1
+parties,liberals,1
+parties,republican party,1
+parties,black panthers,1
+parties,gop,1
+parties,yisrael beitenu,1
+parties,democrat party,1
+parties,alternative for germany,1
+parties,tea party republicans,1
+parties,national league for democracy,1
+parties,podemos,1
+parties,komeito,1
+parties,to potami,1
+parties,republican party of iowa,1
+parties,iowa gop,1
+parties,bayit yehudi,1
+parties,progressive party,1
+parties,missouri republican party,1
+parties,republicans,1
+parties,anc,1
+parties,labor party,1
+parties,lib dem,1
+parties,south carolina republicans,1
+parties,zionist union,1
+parties,yesh atid,1
+parties,national republicans,1
+parties,freedom caucus,1
+parties,pakistan tehreek - e - insaf,1
+parties,democratic,1
+parties,liberation party - front,1
+parties,ppp,1
+parties,labour,1
+parties,socialist party,1
+parties,liberty union party,1
+parties,pis,1
+parties,black panther party,1
+parties,lib dems,1
+parties,labour party,1
+parties,peoples democratic party,1
+parties,new democracy,1
+parties,michigan republican party,1
+parties,social democratic party,1
+parties,spd,1
+parties,national front,1
+parties,the republican party,1
+parties,joint list,1
+parties,the liberal democrats,1
+parties,arizona republican,1
+parties,dpp,1
+parties,christian social union,1
+parties,likud party,1
+parties,ukip,1
+parties,kentucky gop,1
+parties,working family party,1
+parties,aam aadmi party,1
+parties,jobbik,1
+parties,iowa republican party,1
+parties,tea party patriots,1
+parties,ndp,1
+parties,new hampshire republican party,1
+parties,communist party,1
+parties,ndc,1
+parties,bharatiya janata party,1
+parties,south carolina gop,1
+parties,united torah judaism,1
+parties,yisrael beytenu,1
+parties,christian democratic union,1
+parties,justice and development party,1
+parties,cdu,1
+parties,troika,1
+parties,kentucky republican,1
+parties,democratic party,1
+parties,tea party,1
+parties,fatah party,1
+parties,greens,1
+parties,florida republicans,1
+parties,national democratic front,1
+parties,united kingdom independence party,1
+parties,liberal party,1
+parties,jewish home,1
+parties,independent greeks,1
+parties,nidaa tounes,1
+parties,barisan nasional,1
+parties,kulanu,1
+parties,liberal democratic party,1
+parties,united national party,1
+parties,baath party,1
+parties,scottish national party,1
+parties,plaid cymru,1
+parties,kuomintang,1
+parties,bjp,1
+parties,greens party,1
+parties,nazi party,1
+parties,fine gael,1
+parties,pkk,1
+parties,popular alliance,1
+parties,chinese communist party,1
+parties,liberal democrats,1
+parties,nationalist party,1
+parties,al - mourabitoun,1
+parties,iowa democratic party,1
+parties,democratic party of japan,1
+parties,balad,1
+parties,rafi,1
+parties,syriza,1
+parties,ak party,1
+parties,kurdish democratic union party,1
+parties,tami,1
+parties,conservative party,1
+parties,pasok,1
+parties,national coalition,1
+usstates,north chicago,0
+usstates,louisville kentucky,0
+usstates,america,0
+usstates,press conference,0
+usstates,abc news,0
+usstates,anaheim,0
+usstates,nye_county,0
+usstates,crete,0
+usstates,track,0
+usstates,temple,0
+usstates,texan,0
+usstates,lewis,0
+usstates,monday night,0
+usstates,capitol,0
+usstates,northern iowa,0
+usstates,south alabama,0
+usstates,bristol,0
+usstates,green_county,0
+usstates,northern colorado,0
+usstates,arkansas county,0
+usstates,monday evening,0
+usstates,hull,0
+usstates,portland,0
+usstates,bay area,0
+usstates,south florida,0
+usstates,washington college,0
+usstates,berkeley california,0
+usstates,southern new hampshire,0
+usstates,oklahoma county,0
+usstates,mr bush,0
+usstates,park,0
+usstates,boise,0
+usstates,florida georgia line,0
+usstates,brookline,0
+usstates,northern province,0
+usstates,champaign,0
+usstates,california governor,0
+usstates,wests,0
+usstates,friends,0
+usstates,half hour,0
+usstates,saginaw,0
+usstates,former_alaska_gov_sarah_palin,0
+usstates,northeast oklahoma,0
+usstates,englewood,0
+usstates,south plains,0
+usstates,northwest territories,0
+usstates,aurora,0
+usstates,southeast michigan,0
+usstates,native,0
+usstates,west monroe,0
+usstates,toronto canada,0
+usstates,western pennsylvania,0
+usstates,windsor,0
+usstates,missoula,0
+usstates,lawrence_township,0
+usstates,kansas city missouri,0
+usstates,american,0
+usstates,southwestern michigan,0
+usstates,nova_scotia,0
+usstates,north louisiana,0
+usstates,black,0
+usstates,paper,0
+usstates,state,0
+usstates,northwestern connecticut,0
+usstates,north dallas,0
+usstates,massachusetts colony,0
+usstates,independent_vermont,0
+usstates,vallejo,0
+usstates,rising star,0
+usstates,late december,0
+usstates,northern germany,0
+usstates,bedford,0
+usstates,south dakota state,0
+usstates,twin cities,0
+usstates,colorado rockies,0
+usstates,eastern north carolina,0
+usstates,southern_indiana,0
+usstates,christie,0
+usstates,cbs news,0
+usstates,west germany,0
+usstates,ventura_county,0
+usstates,north jersey,0
+usstates,central michigan,0
+usstates,range,0
+usstates,western_kansas,0
+usstates,punjab_province,0
+usstates,southeastern louisiana,0
+usstates,alabama territory,0
+usstates,santa_ana,0
+usstates,montana state,0
+usstates,landscape,0
+usstates,thomas_massie,0
+usstates,north_carolina,0
+usstates,bahia,0
+usstates,mexico city mexico,0
+usstates,west sacramento,0
+usstates,eastern_canada,0
+usstates,sweeney_todd,0
+usstates,alaska governor,0
+usstates,function,0
+usstates,colorado,1
+usstates,montgomery,0
+usstates,haiti,0
+usstates,cleburne,0
+usstates,northwest england,0
+usstates,south_east_asian,0
+usstates,southwest florida,0
+usstates,northland,0
+usstates,lake area,0
+usstates,west philadelphia,0
+usstates,friday morning,0
+usstates,late october,0
+usstates,school,0
+usstates,tandem,0
+usstates,school_choice,0
+usstates,sunday morning,0
+usstates,wixom,0
+usstates,labor union,0
+usstates,lawrence_technological_university,0
+usstates,web site,0
+usstates,split,0
+usstates,australian,0
+usstates,north omaha,0
+usstates,atlantic,0
+usstates,advocate,0
+usstates,southeastern wisconsin,0
+usstates,farmer,0
+usstates,centralia,0
+usstates,virginia beach,0
+usstates,david,0
+usstates,george washington,0
+usstates,south portland,0
+usstates,marist_college,0
+usstates,sergei_magnitsky,0
+usstates,new south wales,0
+usstates,rural oregon,0
+usstates,breed,0
+usstates,plum,0
+usstates,campaign events,0
+usstates,northern kentucky,0
+usstates,morgan_state_university,0
+usstates,salt lake,0
+usstates,hamlet,0
+usstates,eastern_illinois,0
+usstates,norfolk state,0
+usstates,wire,0
+usstates,new_orleans,0
+usstates,northern mexico,0
+usstates,northern_illinois,0
+usstates,plymouth,0
+usstates,new york gov andrew cuomo,0
+usstates,central arkansas,0
+usstates,veteran,0
+usstates,south lebanon,0
+usstates,guntersville,0
+usstates,south bend,0
+usstates,capitol hill,0
+usstates,north_avenue,0
+usstates,light,0
+usstates,kennedy,0
+usstates,speaker,0
+usstates,syria,0
+usstates,south pacific,0
+usstates,south_dakota,1
+usstates,new jersey gov chris christie,0
+usstates,dutchess_county,0
+usstates,coastal_maine,0
+usstates,columbia,0
+usstates,troy,0
+usstates,bracken,0
+usstates,upstate_new_york,0
+usstates,thursday night,0
+usstates,worcestershire,0
+usstates,eastern nebraska,0
+usstates,idaho state,1
+usstates,senator,0
+usstates,dallas texas,0
+usstates,western australia,0
+usstates,oregon coast,0
+usstates,southern leyte,0
+usstates,clay,0
+usstates,portsmouth,0
+usstates,east_cleveland,0
+usstates,jacob,0
+usstates,missouri_southern_state_university,0
+usstates,philly,0
+usstates,yemen,0
+usstates,delaware_state,0
+usstates,friendly,0
+usstates,southeastern oregon,0
+usstates,northern_germany,0
+usstates,joe_namath,0
+usstates,portland oregon,0
+usstates,egyptian_baher_mohamed,0
+usstates,cherry,0
+usstates,west sussex,0
+usstates,tarrytown,0
+usstates,southeast_nebraska,0
+usstates,indonesia,0
+usstates,northwestern state,0
+usstates,nagano_city,0
+usstates,north alabama,0
+usstates,bagels,0
+usstates,salem,0
+usstates,south west england,0
+usstates,safety,0
+usstates,gravesend,0
+usstates,troup,0
+usstates,western maryland,0
+usstates,history,0
+usstates,western mexico,0
+usstates,southeastern pennsylvania,0
+usstates,party,0
+usstates,bill_cosby,0
+usstates,white,0
+usstates,wednesday afternoon,0
+usstates,billionaire,0
+usstates,detroit,0
+usstates,east texas,0
+usstates,top tier,0
+usstates,central oregon,0
+usstates,puerto_rico,0
+usstates,new_hampshire,0
+usstates,southeast nebraska,0
+usstates,ringsted,0
+usstates,republican governor,0
+usstates,north augusta,0
+usstates,boxer,0
+usstates,mississippi delta,0
+usstates,eugene,0
+usstates,vice president,0
+usstates,southern indiana,0
+usstates,eastern maine,0
+usstates,nizhny_novgorod_oblast,0
+usstates,closely watched,0
+usstates,mong_kok,0
+usstates,orange california,0
+usstates,west memphis,0
+usstates,southwestern mexico,0
+usstates,portland state,0
+usstates,president clinton,0
+usstates,brass,0
+usstates,wall street journal,0
+usstates,hawaiian,0
+usstates,southern rock,0
+usstates,major,0
+usstates,indian american,0
+usstates,new jersey governor,0
+usstates,gov christie,0
+usstates,oregon territory,0
+usstates,corvette,0
+usstates,west michigan,0
+usstates,hammond,0
+usstates,taiwan,0
+usstates,tennessee valley,0
+usstates,small group,0
+usstates,northeast louisiana,0
+usstates,lower michigan,0
+usstates,circle,0
+usstates,burlington,0
+usstates,green,0
+usstates,atlanta georgia,0
+usstates,saturday night,0
+usstates,southern oregon,0
+usstates,northwest ohio,0
+usstates,washington metropolitan area,0
+usstates,sergipe,0
+usstates,kanab,0
+usstates,nj,1
+usstates,itta_bena,0
+usstates,north adams,0
+usstates,north_texas,0
+usstates,tallahassee,0
+usstates,northeastern japan,0
+usstates,brooklyn,0
+usstates,chicago,0
+usstates,heart,0
+usstates,white house,0
+usstates,north philadelphia,0
+usstates,winnipeg,0
+usstates,nyc,0
+usstates,early stages,0
+usstates,colfax,0
+usstates,multimillion dollar,0
+usstates,selangor,0
+usstates,central oklahoma,0
+usstates,north shore,0
+usstates,liberty,0
+usstates,east tennessee,0
+usstates,management,0
+usstates,port jefferson,0
+usstates,christian,0
+usstates,northeast england,0
+usstates,roseburg,0
+usstates,southwest ohio,0
+usstates,alaska range,0
+usstates,house,0
+usstates,western pacific,0
+usstates,asphyxia,0
+usstates,upstate new york,0
+usstates,fells_point,0
+usstates,thursday afternoon,0
+usstates,bird,0
+usstates,saskatchewan,0
+usstates,garden,0
+usstates,kentucky_republican,0
+usstates,south carolina state,0
+usstates,california democrat,0
+usstates,southern new england,0
+usstates,northwestern pakistan,0
+usstates,louisville,0
+usstates,southern michigan,0
+usstates,irish,0
+usstates,sterling_heights,0
+usstates,northern_mexico,0
+usstates,clark_county,0
+usstates,columbia south carolina,0
+usstates,eastern oregon,0
+usstates,ohio county,0
+usstates,northern_pennsylvania,0
+usstates,uss oklahoma,0
+usstates,virginia peninsula,0
+usstates,eastland county,0
+usstates,matter,0
+usstates,charlotte,0
+usstates,ancient_mesopotamia,0
+usstates,miami dade county,0
+usstates,washington_dc,0
+usstates,heretical,0
+usstates,north miami,0
+usstates,president george hw bush,0
+usstates,fresno,0
+usstates,critical_condition,0
+usstates,silver,0
+usstates,sacramento,0
+usstates,west coast,0
+usstates,florida atlantic,0
+usstates,slate,0
+usstates,south india,0
+usstates,monday afternoon,0
+usstates,france,0
+usstates,pat_mccrory,0
+usstates,dean,0
+usstates,gloria_macapagal_arroyo,0
+usstates,hyderabad,0
+usstates,election,0
+usstates,bills,0
+usstates,central missouri,0
+usstates,north america,0
+usstates,brigham_young,0
+usstates,juneau,0
+usstates,monday morning,0
+usstates,southern utah,0
+usstates,clinton iowa,0
+usstates,cedar rapids,0
+usstates,delaware north,0
+usstates,parker_county,0
+usstates,late july,0
+usstates,indiana county,0
+usstates,south shore,0
+usstates,nixon,0
+usstates,los_angeles,0
+usstates,gov andrew cuomo,0
+usstates,pickens_county,0
+usstates,international_affairs,0
+usstates,cleveland,0
+usstates,badakhshan,0
+usstates,howard county,0
+usstates,wisc_tv,0
+usstates,northern sierra,0
+usstates,iowa territory,0
+usstates,cloud,0
+usstates,oceanside,0
+usstates,single,0
+usstates,south island,0
+usstates,nye county,0
+usstates,san_bernadino,0
+usstates,community college,0
+usstates,political,0
+usstates,central_michigan,0
+usstates,cornwall,0
+usstates,legal_limbo,0
+usstates,lost,0
+usstates,teaneck,0
+usstates,southern ontario,0
+usstates,leadership,0
+usstates,high_school_football,0
+usstates,french montana,0
+usstates,georgia state,1
+usstates,eastern_kentucky,0
+usstates,southeastern_wisconsin,0
+usstates,cedar falls,0
+usstates,chile,0
+usstates,california,0
+usstates,south beach,0
+usstates,usa,0
+usstates,louisiana lafayette,0
+usstates,northville,0
+usstates,southern taiwan,0
+usstates,charleston,0
+usstates,cuba,0
+usstates,ohio_state,1
+usstates,early january,0
+usstates,north vietnam,0
+usstates,recent history,0
+usstates,st paul,0
+usstates,walter washington,0
+usstates,oscar_wilde,0
+usstates,strategic_dialogue,0
+usstates,southern mexico,0
+usstates,southeastern oklahoma,0
+usstates,south australia,0
+usstates,allen_park,0
+usstates,conservative,0
+usstates,south_florida,0
+usstates,sioux_falls,0
+usstates,northport,0
+usstates,sioux city,0
+usstates,springfield illinois,0
+usstates,charity,0
+usstates,corn,0
+usstates,central california,0
+usstates,kingston,0
+usstates,oriental_studies,0
+usstates,north china,0
+usstates,ames,0
+usstates,lake district,0
+usstates,swedish,0
+usstates,north central texas,0
+usstates,northwestern town,0
+usstates,senior staff,0
+usstates,oregon state,0
+usstates,st_augustine,0
+usstates,appeal,0
+usstates,northern illinois,0
+usstates,northeast ohio,0
+usstates,west liberty,0
+usstates,champaign_county,0
+usstates,boston,0
+usstates,federal,0
+usstates,bakersfield,0
+usstates,grass,0
+usstates,southeastern massachusetts,0
+usstates,greenville,0
+usstates,west pakistan,0
+usstates,new caledonia,0
+usstates,upper,0
+usstates,tangy,0
+usstates,san_mateo,0
+usstates,central alberta,0
+usstates,south_carolina,0
+usstates,south boston,0
+usstates,middle tennessee,0
+usstates,washington dc,0
+usstates,republican presidential candidate,0
+usstates,jacksonville,0
+usstates,delaware state,0
+usstates,physician,0
+usstates,north london,0
+usstates,cleveland ohio,0
+usstates,coastal maine,0
+usstates,massachusetts bay colony,0
+usstates,tasmania australia,0
+usstates,roanoke,0
+usstates,flint,0
+usstates,fair,0
+usstates,manitowoc,0
+usstates,northern syria,0
+usstates,phoenix arizona,0
+usstates,memphis,0
+usstates,denver,0
+usstates,canada,0
+usstates,lansing,0
+usstates,palm beach,0
+usstates,riverside california,0
+usstates,immigrant,0
+usstates,spokane,0
+usstates,disney world,0
+usstates,caribou,0
+usstates,akron,0
+usstates,northern rockies,0
+usstates,wednesday morning,0
+usstates,western michigan,0
+usstates,garcia,0
+usstates,polk_county,0
+usstates,oklahoma city,0
+usstates,northern india,0
+usstates,eastern pacific,0
+usstates,gun violence,0
+usstates,grand_rapids,0
+usstates,tour,0
+usstates,gene,0
+usstates,mississippi college,0
+usstates,dade_county,0
+usstates,southern district,0
+usstates,central_oklahoma,0
+usstates,harney county,0
+usstates,lincoln_financial_field,0
+usstates,file_photograph,0
+usstates,southfield,0
+usstates,north charleston,0
+usstates,city,0
+usstates,english,0
+usstates,south arkansas,0
+usstates,peoria_county,0
+usstates,businessman,0
+usstates,alexandria,0
+usstates,la county,0
+usstates,san jose,0
+usstates,baghlan_province,0
+usstates,fellow,0
+usstates,ok,0
+usstates,target,0
+usstates,north beach,0
+usstates,oklahoma city oklahoma,0
+usstates,northeast texas,0
+usstates,westport,0
+usstates,division,0
+usstates,intelligence_committee_chairman,0
+usstates,falls,0
+usstates,north bay,0
+usstates,keith washington,0
+usstates,northern new jersey,0
+usstates,lake ontario,0
+usstates,south orange,0
+usstates,bush,0
+usstates,south brooklyn,0
+usstates,civil rights,0
+usstates,western iraq,0
+usstates,republican presidential candidates,0
+usstates,small town,0
+usstates,general washington,0
+usstates,clinton,0
+usstates,west chester,0
+usstates,atlantic canada,0
+usstates,northern new england,0
+usstates,south,0
+usstates,northeast china,0
+usstates,presidential candidates,0
+usstates,significant amount,0
+usstates,joyce,0
+usstates,orlando,0
+usstates,new castle county,0
+usstates,springfield,0
+usstates,st louis,0
+usstates,roseville,0
+usstates,rhode_island,0
+usstates,television,0
+usstates,south omaha,0
+usstates,governors,0
+usstates,public,0
+usstates,variety,0
+usstates,saturday morning,0
+usstates,central connecticut,0
+usstates,hudson,0
+usstates,voter registration,0
+usstates,turkmenistan,0
+usstates,presidential candidate,0
+usstates,north georgia mountains,0
+usstates,manager,0
+usstates,uss utah,0
+usstates,southeastern michigan,0
+usstates,venezuela,0
+usstates,virginia commonwealth,0
+usstates,southwest houston,0
+usstates,west branch,0
+usstates,law,0
+usstates,washington,1
+usstates,alamosa,0
+usstates,kogi,0
+usstates,berkeley,0
+usstates,minn,0
+usstates,west texas,0
+usstates,lake victoria,0
+usstates,southern province,0
+usstates,ford,0
+usstates,vancouver,0
+usstates,central queensland,0
+usstates,herb,0
+usstates,southern california,0
+usstates,saint_nazaire,0
+usstates,western province,0
+usstates,eastern massachusetts,0
+usstates,fox news,0
+usstates,washington state,0
+usstates,senior citizens,0
+usstates,blue,0
+usstates,free state,0
+usstates,caucus,0
+usstates,property,0
+usstates,forward,0
+usstates,marin_county,0
+usstates,northern sierra nevada,0
+usstates,center,0
+usstates,wyoming county,0
+usstates,western district,0
+usstates,cascade,0
+usstates,commonwealth,0
+usstates,friday afternoon,0
+usstates,newbie,0
+usstates,sunday night,0
+usstates,charter school,0
+usstates,northeastern state,0
+usstates,miami florida,0
+usstates,western kentucky,0
+usstates,western oregon,0
+usstates,eastern washington,0
+usstates,port richmond,0
+usstates,president,0
+usstates,cleveland state,0
+usstates,pacific,0
+usstates,chicago illinois,0
+usstates,waits,0
+usstates,reagan,0
+usstates,northern arizona,0
+usstates,albuquerque,0
+usstates,oklahoma city area,0
+usstates,central pacific,0
+usstates,northern alberta,0
+usstates,south bronx,0
+usstates,northern california,0
+usstates,northern europe,0
+usstates,double_digit,0
+usstates,western massachusetts,0
+usstates,grand_haven,0
+usstates,dubuque_county,0
+usstates,education,0
+usstates,southern maryland,0
+usstates,eastern kentucky,0
+usstates,alaskan,0
+usstates,boston globe,0
+usstates,washington_state,0
+usstates,north and south america,0
+usstates,missouri southern,0
+usstates,western north carolina,0
+usstates,ogden,0
+usstates,south atlantic,0
+usstates,southwestern oklahoma,0
+usstates,western kansas,0
+usstates,southern england,0
+usstates,muscle,0
+usstates,ii,0
+usstates,los angeles,0
+usstates,mansion,0
+usstates,bentley,0
+usstates,tabasco,0
+usstates,colorado state,0
+usstates,scottsdale,0
+usstates,ghazni_province,0
+usstates,san_francisco,0
+usstates,northern_indiana,0
+usstates,wood,0
+usstates,bear,0
+usstates,hotel california,0
+usstates,wolfeboro,0
+usstates,south texas,0
+usstates,south vietnam,0
+usstates,jenkintown,0
+usstates,evangelical christian,0
+usstates,degree,0
+usstates,hazleton,0
+usstates,north_florida,0
+usstates,nuevo_laredo,0
+usstates,huntsville,0
+usstates,sussex,0
+usstates,dearborn,0
+usstates,lake nicaragua,0
+usstates,marietta,0
+usstates,western canada,0
+usstates,western illinois,0
+usstates,politics,0
+usstates,mississippi valley,0
+usstates,atlanta,0
+usstates,university,0
+usstates,mammoth,0
+usstates,wynnewood,0
+usstates,decorah,0
+usstates,reno,0
+usstates,baja california,0
+usstates,sheldon_silver,0
+usstates,omaha,0
+usstates,north bend,0
+usstates,northeast washington dc,0
+usstates,honolulu,0
+usstates,northern territory,0
+usstates,greenbelt,0
+usstates,paul_gosar,0
+usstates,pontiac,0
+usstates,orange county,0
+usstates,new england,0
+usstates,alberta,0
+usstates,waterloo,0
+usstates,spin,0
+usstates,south america,0
+usstates,truman,0
+usstates,bastrop,0
+usstates,princeton,0
+usstates,alpharetta,0
+usstates,eastern_north_carolina,0
+usstates,michael_brown,0
+usstates,salahuddin_province,0
+usstates,lifetime,0
+usstates,president obama,0
+usstates,western_new_york,0
+usstates,lewiston,0
+usstates,action,0
+usstates,ohio state,1
+usstates,brookhaven,0
+usstates,fort worth,0
+usstates,gage_county,0
+usstates,northern italy,0
+usstates,the dream,0
+usstates,thursday morning,0
+usstates,southern mississippi,0
+usstates,central state,0
+usstates,professional,0
+usstates,rochester,0
+usstates,east carolina,0
+usstates,obama,0
+usstates,spectrum,0
+usstates,owosso,0
+usstates,mary_fallin,0
+usstates,michigan_state,1
+usstates,rachelle_bond,0
+usstates,international_maritime,0
+usstates,western ontario,0
+usstates,southwestern_oklahoma,0
+usstates,north texas,0
+usstates,southern maine,0
+usstates,northridge,0
+usstates,philadelphia,0
+usstates,lunenburg,0
+usstates,florida state,0
+usstates,san_marcos,0
+usstates,northern ireland,0
+usstates,florida bay,0
+usstates,north florida,0
+usstates,county,0
+usstates,hunting,0
+usstates,north yemen,0
+usstates,federal government,0
+usstates,radio,0
+usstates,district,0
+usstates,komo,0
+usstates,utah county,0
+usstates,provincetown,0
+usstates,northwestern syria,0
+usstates,community,0
+usstates,northern_new_england,0
+usstates,westerville,0
+usstates,mineral_wells,0
+usstates,first lady,0
+usstates,little rock,0
+usstates,utah valley,0
+usstates,reading,0
+usstates,baton rouge,0
+usstates,washington heights,0
+usstates,thursday evening,0
+usstates,mississippi state,1
+usstates,norman,0
+usstates,easton,0
+usstates,south central pennsylvania,0
+usstates,initiative,0
+usstates,moline,0
+usstates,science,0
+usstates,western_kentucky,0
+usstates,jalalabad,0
+usstates,state governor,0
+usstates,public relations,0
+usstates,heat,0
+usstates,swift,0
+usstates,doug_ducey,0
+usstates,huckabee,0
+usstates,david_wright,0
+usstates,lower,0
+usstates,reserve,0
+usstates,salt lake city,0
+usstates,west baltimore,0
+usstates,tucson,0
+usstates,virginia mayo,0
+usstates,news,0
+usstates,anchorage,0
+usstates,lafayette,0
+usstates,northwest washington,0
+usstates,wichita,0
+usstates,lakeville,0
+usstates,bergen_county,0
+usstates,manatee,0
+usstates,texas southern,0
+usstates,jon_hamm,0
+usstates,roadblock,0
+usstates,northern plains,0
+usstates,central_missouri,0
+usstates,catonsville,0
+usstates,yellowstone_national_park,0
+usstates,norther,0
+usstates,west orange,0
+usstates,louisiana territory,0
+usstates,baltimore,0
+usstates,austin_base,0
+usstates,lincoln,0
+usstates,iowa state,1
+usstates,attorney general,0
+usstates,western virginia,0
+usstates,winston_salem,0
+usstates,eastern illinois,0
+usstates,kent,0
+usstates,toledo,0
+usstates,denver colorado,0
+usstates,austin texas,0
+usstates,nh,1
+usstates,northern_virginia,0
+usstates,northern pennsylvania,0
+usstates,nashua,0
+usstates,southeast texas,0
+usstates,north lincolnshire,0
+usstates,nangarhar_province,0
+usstates,south_boston,0
+usstates,commissioner,0
+usstates,traverse_city,0
+usstates,central chile,0
+usstates,hawk,0
+usstates,talk,0
+usstates,short,0
+usstates,south tibet,0
+usstates,arizona state,0
+usstates,oregon legislature,0
+usstates,gov jerry brown,0
+usstates,eastern michigan,0
+usstates,nbc news,0
+usstates,northern indiana,0
+usstates,oregon state bar,0
+usstates,arena,0
+usstates,waltz,0
+usstates,cheshire,0
+usstates,dole,0
+usstates,dallas,0
+usstates,football,0
+usstates,justice,0
+usstates,north africa,0
+usstates,metropolitan,0
+usstates,manitoba,0
+usstates,florida governor,0
+usstates,east_germany,0
+usstates,eastern ontario,0
+usstates,louisiana state,0
+usstates,pediatrics,0
+usstates,lone,0
+usstates,mid january,0
+usstates,northern ontario,0
+usstates,hillsborough_county,0
+usstates,king,0
+usstates,hainan_province,0
+usstates,guam,0
+usstates,madison,0
+usstates,kunduz,0
+usstates,college,0
+usstates,gov_bill_haslam,0
+usstates,oakland california,0
+usstates,concord,0
+usstates,northern state,0
+usstates,south central chile,0
+usstates,northeastern province,0
+usstates,south jersey,0
+usstates,late november,0
+usstates,mercer,0
+usstates,west hills,0
+usstates,ontario,0
+usstates,central illinois,0
+usstates,dnc,0
+usstates,baltimore maryland,0
+usstates,evergreen,0
+usstates,port washington,0
+usstates,richmond,0
+usstates,west_texas,0
+usstates,carroll_county,0
+usstates,lake county,0
+usstates,utah state,1
+usstates,des moines,0
+usstates,daily,0
+usstates,central philippines,0
+usstates,americans,0
+usstates,new orleans,0
+usstates,life,0
+usstates,rush,0
+usstates,santa_rosa_county,0
+usstates,ellisville,0
+usstates,mid december,0
+usstates,fewer than,0
+usstates,austin,0
+usstates,north queensland,0
+usstates,joe montana,0
+usstates,tallapoosa,0
+usstates,panama,0
+usstates,neighboring vermont,0
+usstates,oakland county,0
+usstates,west jordan,0
+usstates,casino,0
+usstates,organization,0
+usstates,hampden,0
+usstates,north_dakota,1
+usstates,cook_county,0
+usstates,mayor,0
+usstates,florida southern college,0
+usstates,western new york,0
+usstates,queens,0
+usstates,james_obergefell,0
+usstates,wilmington,0
+usstates,gov andrew m cuomo,0
+usstates,lansing michigan,0
+usstates,south_arkansas,0
+usstates,nc state,1
+usstates,sierra nevada,0
+usstates,planned parenthood,0
+usstates,palmetto state,0
+usstates,northern mountains,0
+usstates,northeastern pennsylvania,0
+usstates,southwest virginia,0
+usstates,mr christie,0
+usstates,urban,0
+usstates,shield,0
+usstates,badakhshan_province,0
+usstates,dominica,0
+usstates,vinita,0
+usstates,northern district,0
+usstates,assembly,0
+usstates,monmouth,0
+usstates,indianapolis_public_schools,0
+usstates,rochester_hills,0
+usstates,north point,0
+usstates,results,0
+usstates,dynel_lane,0
+usstates,eastern canada,0
+usstates,republican national convention,0
+usstates,governor,0
+usstates,southern illinois,0
+usstates,central ontario,0
+usstates,yeganeh_salehi,0
+usstates,congressmen,0
+usstates,republican,0
+usstates,iowa county,0
+usstates,space_studies,0
+usstates,houston texas,0
+usstates,west lafayette,0
+usstates,south jamaica,0
+usstates,momentum,0
+usstates,gov chris christie,0
+usstates,phoenix,0
+usstates,kansas state,1
+usstates,buryatia,0
+usstates,santiago,0
+usstates,coastal california,0
+usstates,atlantic city,0
+usstates,napa_valley,0
+usstates,west java,0
+usstates,annapolis,0
+usstates,member,0
+usstates,holon,0
+usstates,hillary clinton,0
+usstates,west valley,0
+usstates,plainfield,0
+usstates,fort washington,0
+usstates,deep south,0
+usstates,northern england,0
+usstates,private,0
+usstates,north pacific,0
+usstates,south park,0
+usstates,northern idaho,0
+usstates,public_policy,0
+usstates,lake,0
+usstates,mobile_county,0
+usstates,high,0
+usstates,bloomfield_hills,0
+usstates,late january,0
+usstates,eastern_oregon,0
+usstates,manchester,0
+usstates,south miami,0
+usstates,west berlin,0
+usstates,latino,0
+usstates,woodland,0
+usstates,wb,0
+usstates,secaucus,0
+usstates,northern_michigan,0
+usstates,california legislature,0
+usstates,vice president joe biden,0
+usstates,sanford florida,0
+usstates,devon_alexander,0
+usstates,dubai,0
+usstates,technology,0
+usstates,west vancouver,0
+usstates,boise state,0
+usstates,alhambra,0
+usstates,new_york,1
+usstates,woodhaven,0
+usstates,south africa,0
+usstates,wednesday evening,0
+usstates,manhattan,0
+usstates,period,0
+usstates,r_p_singh,0
+usstates,cal state,0
+usstates,west tennessee,0
+usstates,stern,0
+usstates,milestone,0
+usstates,oklahoma_city,0
+usstates,north west england,0
+usstates,trail,0
+usstates,midwestern,0
+usstates,central_florida,0
+usstates,northern michigan,0
+usstates,nevada legislature,0
+usstates,lapeer,0
+usstates,columbus,0
+usstates,yahoo,0
+usstates,southern_illinois,0
+usstates,nadine_pellegrini,0
+usstates,hoffman_estates,0
+usstates,yaroslavl,0
+usstates,northeast_texas,0
+usstates,alan_nunnelee,0
+usstates,african american,0
+usstates,cover oregon,0
+usstates,southern philippines,0
+usstates,central florida,0
+usstates,fundraising,0
+usstates,stockton,0
+usstates,stream,0
+usstates,middlesex,0
+usstates,newport_beach,0
+usstates,south_delhi,0
+usstates,wednesday night,0
+usstates,hispanic,0
+usstates,hour long,0
+usstates,upstate,0
+usstates,southwest missouri,0
+usstates,dinah washington,0
+usstates,north central west virginia,0
+usstates,ohio valley,0
+usstates,west_baltimore,0
+usstates,southeast alaska,0
+usstates,minneapolis,0
+usstates,cnn,0
+usstates,north dakota state,0
+usstates,rural arkansas,0
+usstates,north myrtle,0
+usstates,tompkins_county,0
+usstates,northern areas,0
+usstates,northwest indiana,0
+usstates,central_ontario,0
+usstates,des_moines,0
+usstates,peekskill,0
+usstates,road,0
+usstates,columbus georgia,0
+usstates,backs,0
+usstates,argentine,0
+usstates,union,0
+usstates,fund raising,0
+usstates,tuesday morning,0
+usstates,independent,0
+usstates,seattle,0
+usstates,merrimack,0
+usstates,garissa_county,0
+usstates,clackamas_county,0
+usstates,feb_6,0
+usstates,rockaway_beach,0
+usstates,south buffalo,0
+usstates,south london,0
+usstates,san francisco,0
+usstates,european_university_institute,0
+usstates,weld_county,0
+usstates,commerce,0
+usstates,north fulton,0
+usstates,msn,0
+usstates,north island,0
+usstates,delaware,1
+usstates,lexington,0
+usstates,dominion,0
+usstates,central texas,0
+usstates,mojave_national_preserve,0
+usstates,canadian,0
+usstates,business,0
+usstates,myrtle beach,0
+usstates,anbar_province,0
+usstates,southern_helmand_province,0
+usstates,bremen,0
+usstates,californian,0
+usstates,former_fifa_vice_president_jack_warner,0
+usstates,incoming_freshman,0
+usstates,mandatory,0
+usstates,north atlantic,0
+usstates,alberta canada,0
+usstates,northern canada,0
+usstates,newly elected,0
+usstates,real_life,0
+usstates,jeopardy,0
+usstates,mexico,0
+usstates,heavyweight,0
+usstates,indiana state,0
+usstates,farmington_hills,0
+usstates,central massachusetts,0
+usstates,arkansas state,0
+usstates,e,0
+usstates,south dallas,0
+usstates,california desert,0
+usstates,portland maine,0
+usstates,tampa,0
+usstates,order,0
+usstates,farm,0
+usstates,wyoming valley,0
+usstates,stamp,0
+usstates,gary_cooper,0
+usstates,democratic_activist,0
+usstates,martha washington,0
+usstates,las vegas review journal,0
+usstates,central washington,0
+usstates,lake michigan,0
+usstates,denton_county,0
+usstates,northern iraq,0
+usstates,journal,0
+usstates,jerry brown,0
+usstates,sydney,0
+usstates,first_lady_chirlane_mccray,0
+usstates,west_virginia,0
+usstates,free,0
+usstates,falls_church,0
+usstates,northern pacific,0
+usstates,nassau county,0
+usstates,mr cuomo,0
+usstates,comedy,0
+usstates,northern nigeria,0
+usstates,indianola,0
+usstates,birmingham,0
+usstates,australia,0
+usstates,new_jersey,0
+usstates,michigan_attorney_general,0
+usstates,long,0
+usstates,gov rick scott,0
+usstates,west milford,0
+usstates,uss arizona,0
+usstates,chicago state,0
+usstates,new york,1
+usstates,north india,0
+usstates,west chicago,0
+usstates,knoxville tennessee,0
+usstates,central canada,0
+usstates,bay,0
+usstates,north central florida,0
+usstates,west shore,0
+usstates,north german,0
+usstates,newton,0
+usstates,jackson_county,0
+usstates,st_louis_county,0
+usstates,tuesday night,0
+usstates,southern west virginia,0
+usstates,georgia southern,0
+usstates,london,0
+usstates,north indian,0
+usstates,globo,0
+usstates,hershey,0
+usstates,nevada democrat,0
+usstates,red,0
+usstates,miyagi_prefecture,0
+usstates,steam,0
+usstates,north minneapolis,0
+usstates,hollywood,0
+usstates,pacific island,0
+usstates,southwest alaska,0
+usstates,las vegas,0
+usstates,virginia governor,0
+usstates,albany,0
+usstates,southern chile,0
+usstates,central louisiana,0
+usstates,money,0
+usstates,nevada county,0
+usstates,jackson state,0
+usstates,western washington,0
+usstates,san diego,0
+usstates,southern italy,0
+usstates,secondary,0
+usstates,west alabama,0
+usstates,west lake,0
+usstates,pacific basin,0
+usstates,oregon city,0
+usstates,lake_orion,0
+usstates,staff members,0
+usstates,valenzuela_city,0
+usstates,mayors,0
+usstates,boston area,0
+usstates,tijuana,0
+usstates,northern virginia,0
+usstates,family,0
+usstates,altus,0
+usstates,half dozen,0
+usstates,long island,0
+usstates,romulus,0
+usstates,tennessee state,0
+usstates,nashville tennessee,0
+usstates,north sinai,0
+usstates,central_washington,0
+usstates,monaco,0
+usstates,manbij,0
+usstates,hyon_yong_chol,0
+usstates,increasingly_crowd,0
+usstates,library,0
+usstates,san antonio,0
+usstates,neighbour_libya,0
+usstates,dc,0
+usstates,south wales,0
+usstates,houston,0
+usstates,iowa city,0
+usstates,plano,0
+usstates,malcolm_london,0
+usstates,camden,0
+usstates,south china,0
+usstates,west point,0
+usstates,idaho county,0
+usstates,north central illinois,0
+usstates,sentinel_prime,0
+usstates,salt lake county,0
+usstates,resort,0
+usstates,north carolina state,1
+usstates,livonia,0
+usstates,northwest arkansas,0
+usstates,north andover,0
+usstates,alternative,0
+usstates,northern kenya,0
+usstates,davenport,0
+usstates,chelsea,0
+usstates,northern_kentucky,0
+usstates,test,0
+usstates,eastern_nebraska,0
+usstates,miami,0
+usstates,milwaukee,0
+usstates,northwest_indiana,0
+usstates,opelika,0
+usstates,lake jackson,0
+usstates,kansas city,0
+usstates,troubles,0
+usstates,south philadelphia,0
+usstates,sunshine state,0
+usstates,french_literature,0
+usstates,barack obama,0
+usstates,congressman,0
+usstates,northwestern province,0
+usstates,downtown washington,0
+usstates,queensland state,0
+usstates,virtually every,0
+usstates,race,0
+usstates,oregonian,0
+usstates,brian_jones,0
+usstates,marathon,0
+usstates,florida_state,1
+usstates,philadelphia_magazine,0
+usstates,model,0
+countries,azerbaijan,1
+countries,saccharin,0
+countries,armed conflict,0
+countries,america,1
+countries,south_america,0
+countries,geneva switzerland,0
+countries,pyongyang,0
+countries,arms,0
+countries,madrid spain,0
+countries,moscow russia,0
+countries,tens of thousands,0
+countries,west_london,0
+countries,communist,0
+countries,prime minister shinzo abe,0
+countries,monday evening,0
+countries,costa_rica,0
+countries,polish,0
+countries,brazil national team,0
+countries,idlib,0
+countries,civil society,0
+countries,park,0
+countries,smuggling,0
+countries,interpol,0
+countries,mediterranean,0
+countries,henan_province,0
+countries,kiev,0
+countries,concrete,0
+countries,latin american,0
+countries,central and eastern europe,0
+countries,china resources,0
+countries,police scotland,0
+countries,east africa,0
+countries,south bank,0
+countries,northern yemen,0
+countries,zabul_province,0
+countries,libyan,0
+countries,vice news,0
+countries,greater israel,0
+countries,toronto canada,0
+countries,east_timor,0
+countries,swaziland,0
+countries,american,0
+countries,rome,0
+countries,luxemburg,0
+countries,las_vegas,0
+countries,saint_vincent,0
+countries,china post,0
+countries,hong kong island,0
+countries,sub_saharan_africa,0
+countries,state,0
+countries,tunis tunisia,0
+countries,bermuda,1
+countries,moldova,1
+countries,capital,0
+countries,egyptians,0
+countries,siberia,0
+countries,western,0
+countries,turkish republic,0
+countries,marrakech,0
+countries,northern germany,0
+countries,st_lucia,1
+countries,late december,0
+countries,congo republic,0
+countries,american samoa,0
+countries,nazi_germany,0
+countries,china telecom,0
+countries,neighbor_kenya,0
+countries,both sides,0
+countries,qatar university,0
+countries,west germany,0
+countries,france 24,0
+countries,independence,0
+countries,lebanese hezbollah,0
+countries,mid april,0
+countries,terrorist attacks,0
+countries,human rights watch,0
+countries,caracas venezuela,0
+countries,security chiefs,0
+countries,sydney australia,0
+countries,guardian,0
+countries,north_carolina,0
+countries,west asia,0
+countries,mexico city mexico,0
+countries,seoul,0
+countries,delegation,0
+countries,neighbor_turkey,0
+countries,sweeney_todd,0
+countries,exile,0
+countries,coming days,0
+countries,ngos,0
+countries,east india company,0
+countries,far flung,0
+countries,south korean,0
+countries,barcelona spain,0
+countries,target canada,0
+countries,continent,0
+countries,southern thailand,0
+countries,soil,0
+countries,past week,0
+countries,late october,0
+countries,china times,0
+countries,army,0
+countries,west africa,0
+countries,greater albania,0
+countries,australian,0
+countries,cape_verde,0
+countries,african_nation,0
+countries,central_africa,0
+countries,seychelles,1
+countries,observer,0
+countries,refugee,0
+countries,south african government,0
+countries,nationals,0
+countries,havana,0
+countries,new south wales,0
+countries,us virgin islands,0
+countries,lausanne switzerland,0
+countries,budapest,0
+countries,russian president vladimir putin,0
+countries,saudi_arabia,1
+countries,newspapers,0
+countries,northern and western iraq,0
+countries,helmand,0
+countries,national turkey federation,0
+countries,northern mexico,0
+countries,south lebanon,0
+countries,china national radio,0
+countries,togo,0
+countries,latin_america,0
+countries,rome italy,0
+countries,g 20 summit,0
+countries,embassy,0
+countries,gulf_arab_state,0
+countries,heightened security,0
+countries,light,0
+countries,gibraltar,0
+countries,toll,0
+countries,air china,0
+countries,punjab and haryana,0
+countries,nepal army,0
+countries,hong kong,0
+countries,north_korea,0
+countries,european nations,0
+countries,local residents,0
+countries,central serbia,0
+countries,cabinet,0
+countries,asian,0
+countries,normandy,0
+countries,nato,0
+countries,defense secretary ashton b carter,0
+countries,western australia,0
+countries,northwestern syria,0
+countries,neighbouring_country,0
+countries,australians,0
+countries,prime minister najib razak,0
+countries,logistics,0
+countries,southern,0
+countries,former_soviet_republic,0
+countries,german,0
+countries,friendly,0
+countries,yemen,0
+countries,south_africa,0
+countries,bhutan,0
+countries,-pron-_homeland,0
+countries,bengaluru,0
+countries,beijing,0
+countries,east african country,0
+countries,thai,0
+countries,greek,0
+countries,great britain,0
+countries,south west england,0
+countries,islamic state militant group,0
+countries,history,0
+countries,western mexico,0
+countries,terror attacks,0
+countries,china mobile,0
+countries,indiana,0
+countries,puerto_rico,0
+countries,new_hampshire,0
+countries,tahiti,0
+countries,chinese navy,0
+countries,dar_es_salaam,0
+countries,zabiullah_mujahid,0
+countries,bosnia,0
+countries,africa,0
+countries,islamic,0
+countries,counterterrorism,0
+countries,foreign dignitaries,0
+countries,tonga,0
+countries,doha,0
+countries,statistics canada,0
+countries,african nation,0
+countries,venezuelan,0
+countries,island,0
+countries,martinique,0
+countries,caucasus,0
+countries,major,0
+countries,south sumatra,0
+countries,qatari government,0
+countries,central_america,0
+countries,hammond,0
+countries,nicaraguan,0
+countries,central_kalimantan,0
+countries,south ] korea,0
+countries,tourist,0
+countries,fresh round,0
+countries,normalize_relation,0
+countries,yunnan_province,0
+countries,neighboring turkey,0
+countries,mr kerry,0
+countries,south_korean,0
+countries,sanctuary,0
+countries,trinidad,0
+countries,berlin,0
+countries,financial support,0
+countries,republic,0
+countries,marathon,0
+countries,jean_monnet,0
+countries,mid_february,0
+countries,cape verde islands,0
+countries,pakistan army,0
+countries,close ally,0
+countries,northeastern japan,0
+countries,chicago,0
+countries,south african army,0
+countries,swiss national bank,0
+countries,benin,0
+countries,highest level,0
+countries,north and south korea,0
+countries,east pakistan,0
+countries,al jazeera,0
+countries,united_states,1
+countries,christian,0
+countries,east germany,0
+countries,paraguay,0
+countries,hot spots,0
+countries,tripoli,0
+countries,israel police,0
+countries,south carolina state,0
+countries,nigeria,0
+countries,tokyo,0
+countries,southern new england,0
+countries,northern_ireland,0
+countries,antalya,0
+countries,east malaysia,0
+countries,media,0
+countries,northwestern pakistan,0
+countries,vulnerable_area,0
+countries,nato_combat_mission,0
+countries,transport,0
+countries,amsterdam,0
+countries,general_john_campbell,0
+countries,southern lebanon,0
+countries,close ties,0
+countries,french republic,0
+countries,malaysian chinese,0
+countries,civil war,0
+countries,region,0
+countries,paris,0
+countries,bavaria,0
+countries,southeast turkey,0
+countries,saudi,0
+countries,qatar airways,0
+countries,soviet / russian,0
+countries,north_waziristan,0
+countries,johannesburg,0
+countries,neighboring belgium,0
+countries,singapore dollar,0
+countries,united ireland,0
+countries,french guiana,0
+countries,italy,1
+countries,south india,0
+countries,austria hungary,0
+countries,nicaragua,0
+countries,intelligence,0
+countries,hezbollah,0
+countries,wide ranging,0
+countries,egyptian government,0
+countries,indian,0
+countries,gabon,0
+countries,vincennes,0
+countries,neighbours,0
+countries,communication,0
+countries,french_special_force,0
+countries,restoration,0
+countries,armed forces,0
+countries,ny,0
+countries,southern_yemen,0
+countries,borders,0
+countries,japan airlines,0
+countries,latakia,0
+countries,los_angeles_county,0
+countries,antarctica,0
+countries,dimension,0
+countries,peace,0
+countries,south asian country,0
+countries,east ukraine,0
+countries,jalal_talabani,0
+countries,virginia,0
+countries,cape town,0
+countries,south island,0
+countries,fiji airways,0
+countries,antwerp,0
+countries,jalisco,0
+countries,namibia,0
+countries,north eastern nigeria,0
+countries,isis,0
+countries,minnesota,0
+countries,americas,0
+countries,new delhi,0
+countries,persian gulf,0
+countries,southern yemeni,0
+countries,hurghada,0
+countries,french montana,0
+countries,beirut lebanon,0
+countries,santiago_del_estero_province,0
+countries,haitian,0
+countries,new_zealand,1
+countries,south china sea,0
+countries,chile,1
+countries,ground_combat,0
+countries,ghana,1
+countries,california,0
+countries,recent weeks,0
+countries,qatar foundation,0
+countries,early january,0
+countries,north vietnam,0
+countries,djibouti,0
+countries,un secretary general,0
+countries,united mexican states,0
+countries,national australia bank,0
+countries,solidarity,0
+countries,south australia,0
+countries,southern mexico,0
+countries,british,0
+countries,czech_republic,0
+countries,anti,0
+countries,bbc scotland,0
+countries,kosovo,0
+countries,senior official,0
+countries,russi,0
+countries,belize,1
+countries,korea,0
+countries,south_florida,0
+countries,east china,0
+countries,south holland,0
+countries,surprise visit,0
+countries,muslim,0
+countries,kingston,0
+countries,north african,0
+countries,anti terrorism,0
+countries,eastern_germany,0
+countries,north china,0
+countries,philippine islands,0
+countries,west country,0
+countries,swedish,0
+countries,shah,0
+countries,western ukraine,0
+countries,somali,0
+countries,grenada,0
+countries,telephone,0
+countries,assad,0
+countries,radio canada,0
+countries,usaid,0
+countries,west pakistan,0
+countries,nepal police,0
+countries,defense minister,0
+countries,faroe islands,0
+countries,cnn philippines,0
+countries,south_carolina,0
+countries,foreign minister,0
+countries,united states navy,0
+countries,prussia,0
+countries,istanbul turkey,0
+countries,italian,0
+countries,jakarta,0
+countries,customs,0
+countries,opec,0
+countries,arsenal,0
+countries,arrangement,0
+countries,irish republic,0
+countries,india,0
+countries,higher level,0
+countries,asia,0
+countries,face the nation,0
+countries,afghanistan,0
+countries,tasmania australia,0
+countries,south asian,0
+countries,india office,0
+countries,local officials,0
+countries,caribbean,0
+countries,andaman islands,0
+countries,northern syria,0
+countries,great_britain,0
+countries,asia / pacific,0
+countries,de facto,0
+countries,north african country,0
+countries,barbados,1
+countries,canadians,0
+countries,guatemala,0
+countries,terrorism,0
+countries,guinea_bissau,1
+countries,ottoman turkey,0
+countries,president franois hollande,0
+countries,wednesday morning,0
+countries,palestine,1
+countries,full fledged,0
+countries,new_delhi,0
+countries,north china plain,0
+countries,senegal,1
+countries,northern india,0
+countries,russian parliament,0
+countries,port,0
+countries,sicily,0
+countries,moscow,0
+countries,paris terror attacks,0
+countries,pope,0
+countries,european countries,0
+countries,china film group,0
+countries,berlin germany,0
+countries,city,0
+countries,northeast india,0
+countries,english,0
+countries,indonesian government,0
+countries,sinai,0
+countries,greater china,0
+countries,north and central america,0
+countries,western_asia,0
+countries,kumanovo,0
+countries,latin_american,0
+countries,madeleine_mccann,0
+countries,europe,0
+countries,catherine_howard,0
+countries,kogi_state,0
+countries,ngo,0
+countries,neighbor_yemen,0
+countries,hundreds of thousands,0
+countries,mosul_iraq,0
+countries,neighbor_libya,0
+countries,kerry,0
+countries,central and southern areas,0
+countries,bangui,0
+countries,target,0
+countries,close proximity,0
+countries,moscow_russia,0
+countries,united states embassy,0
+countries,turkish government,0
+countries,cayman islands,0
+countries,ivory_coast,1
+countries,spanish,0
+countries,israeli,0
+countries,montserrat,0
+countries,western iraq,0
+countries,parliament,0
+countries,central_europe,0
+countries,southeast asian,0
+countries,northern new england,0
+countries,former french colony,0
+countries,burkina_faso,0
+countries,south,0
+countries,eastern_europe,0
+countries,northeast china,0
+countries,human rights,0
+countries,nazi germany,0
+countries,eastern philippines,0
+countries,bbc,0
+countries,minister,0
+countries,television,0
+countries,japan,1
+countries,east china sea,0
+countries,soviet armenia,0
+countries,public,0
+countries,toronto_canada,0
+countries,turkmenistan,1
+countries,west bengal,0
+countries,united national party,0
+countries,dr congo,1
+countries,indo china,0
+countries,texas,0
+countries,russian republic,0
+countries,france 3,0
+countries,jiangsu_province,0
+countries,pak,0
+countries,chinese government,0
+countries,brisbane,0
+countries,washington,0
+countries,carlotta_sami,0
+countries,multinational,0
+countries,neighbor_saudi_arabia,0
+countries,news agency,0
+countries,friday night,0
+countries,radio france,0
+countries,french and indian war,0
+countries,american_forest,0
+countries,air india,0
+countries,tehran,0
+countries,safe haven,0
+countries,asparagus,0
+countries,pakistan taliban,0
+countries,tokyo japan,0
+countries,oslo,0
+countries,bangkok thailand,0
+countries,men and women,0
+countries,european_power,0
+countries,china_telecom,0
+countries,paris france,0
+countries,neighbouring india,0
+countries,center,0
+countries,south indian,0
+countries,root,0
+countries,portuguese,0
+countries,geneva,0
+countries,south_sudan,0
+countries,cambodia,0
+countries,south african police,0
+countries,pacific,0
+countries,donbas,0
+countries,northern_india,0
+countries,colombo sri lanka,0
+countries,turkish,0
+countries,mr abe,0
+countries,channel,0
+countries,grain,0
+countries,eastern europe,0
+countries,korean,0
+countries,high risk,0
+countries,relief,0
+countries,oregon,0
+countries,pressure,0
+countries,scandinavian,0
+countries,international concern,0
+countries,chinese mainland,0
+countries,carter_williams,0
+countries,continental united states,0
+countries,political parties,0
+countries,abu dhabi,0
+countries,western_europe,0
+countries,south east asia,0
+countries,beijing china,0
+countries,japan tobacco,0
+countries,lesotho,0
+countries,gen_john_f_campbell,0
+countries,istanbul_turkey,0
+countries,northeast kenya,0
+countries,military intelligence,0
+countries,washington_state,0
+countries,north and south america,0
+countries,greek central bank,0
+countries,general,0
+countries,ambassador,0
+countries,west african country,0
+countries,palace,0
+countries,south dublin,0
+countries,okinawa,0
+countries,large scale,0
+countries,main focus,0
+countries,new_caledonia,0
+countries,san_francisco,0
+countries,mr putin,0
+countries,neighboring kenya,0
+countries,czech,0
+countries,south african media,0
+countries,islamabad,0
+countries,south texas,0
+countries,mauritius,0
+countries,south vietnam,0
+countries,yemen arab republic,0
+countries,pakistanis,0
+countries,australia group,0
+countries,peruvian,0
+countries,stream,0
+countries,tibet,0
+countries,north korean,0
+countries,congo,1
+countries,western canada,0
+countries,foday_sankoh,0
+countries,latvia,0
+countries,late_september,0
+countries,pakistan railways,0
+countries,saudia,0
+countries,current crisis,0
+countries,central american,0
+countries,gombe_state,0
+countries,bihar_state,0
+countries,recent months,0
+countries,sri_lanka,0
+countries,pakistan navy,0
+countries,bosnia_herzegovina,0
+countries,united russia,0
+countries,colonial india,0
+countries,tihar_jail,0
+countries,several thousand,0
+countries,cairo,0
+countries,egyptian,0
+countries,north sumatra,0
+countries,reconstruction,0
+countries,mainland ] china,0
+countries,new england,0
+countries,northern mali,0
+countries,saitama_prefecture,0
+countries,south america,0
+countries,kiev ukraine,0
+countries,southeast asia,0
+countries,damascus,0
+countries,coup,0
+countries,philippine,1
+countries,russian,0
+countries,western hemisphere,0
+countries,action,0
+countries,south vietnamese,0
+countries,north asia,0
+countries,hostage crisis,0
+countries,latest round,0
+countries,mid march,0
+countries,northern italy,0
+countries,peninsula,0
+countries,thursday morning,0
+countries,china daily,0
+countries,western africa,0
+countries,japanese government,0
+countries,northwest china,0
+countries,british east india company,0
+countries,mainland chinese,0
+countries,northeastern_syria,0
+countries,eastern united states,0
+countries,risk,0
+countries,russian central bank,0
+countries,jerusalem,0
+countries,greater syria,0
+countries,defence minister,0
+countries,british national party,0
+countries,mauritania,0
+countries,west sumatra,0
+countries,tackle_climate_change,0
+countries,palestinian_territory,0
+countries,turkeys,0
+countries,southeast_asia,0
+countries,eu,0
+countries,french parliament,0
+countries,wgbh,0
+countries,al_sham,0
+countries,country,0
+countries,middle east,0
+countries,free france,0
+countries,north yemen,0
+countries,arizona,0
+countries,dublin ireland,0
+countries,british virgin islands,0
+countries,southern united states,0
+countries,warm welcome,0
+countries,district,0
+countries,ashraf_ghani,0
+countries,montenegro,0
+countries,beirut,0
+countries,syrian refugee,0
+countries,un secretary general ban ki moon,0
+countries,tide,0
+countries,late_october,0
+countries,mr hollande,0
+countries,mexicans,0
+countries,islamic extremism,0
+countries,yunnan,0
+countries,abdullah_abdullah,0
+countries,lima peru,0
+countries,english language,0
+countries,south mumbai,0
+countries,thursday evening,0
+countries,pakistan military,0
+countries,jalalabad,0
+countries,world leaders,0
+countries,rhodes,0
+countries,neighboring pakistan,0
+countries,russian navy,0
+countries,neighbor_pakistan,0
+countries,large number,0
+countries,terror threats,0
+countries,south african,0
+countries,desert,0
+countries,deadly terrorist attack,0
+countries,qatari officials,0
+countries,lasting_damage,0
+countries,vienna,0
+countries,hong_kong,0
+countries,brussel,0
+countries,foreign nationals,0
+countries,gulf_region,0
+countries,baltimore,0
+countries,bangladesh,1
+countries,small number,0
+countries,singapore general hospital,0
+countries,former yugoslavia,0
+countries,vietnamese,0
+countries,el_salvador,0
+countries,mexican government,0
+countries,papua_new_guinea,0
+countries,japanese prime minister shinzo abe,0
+countries,south_asia,0
+countries,central chile,0
+countries,dutch,0
+countries,pentagon,0
+countries,hubei_province,0
+countries,gen_nakatani,0
+countries,bolivia,0
+countries,south tibet,0
+countries,adamawa_state,0
+countries,terror attack,0
+countries,direct_negotiation,0
+countries,italians,0
+countries,cricket australia,0
+countries,lithuania,0
+countries,neighbor_syria,0
+countries,east_asia,0
+countries,singapore airlines,0
+countries,french_polynesia,0
+countries,diyala_province,0
+countries,bangkok,0
+countries,air france,0
+countries,northern united states,0
+countries,syrian refugees,0
+countries,singapore democratic party,0
+countries,russians,0
+countries,south australian,0
+countries,istanbul,0
+countries,dallas,0
+countries,strike,0
+countries,north africa,0
+countries,migrant workers,0
+countries,east_germany,0
+countries,south delhi,0
+countries,beijing_china,0
+countries,eastern_ukraine,0
+countries,guam,0
+countries,hawaii,0
+countries,french guyana,0
+countries,south east england,0
+countries,oceania,0
+countries,mexico city,0
+countries,south central chile,0
+countries,malaysian,0
+countries,kuwaiti,0
+countries,south jersey,0
+countries,late november,0
+countries,mainland_china,0
+countries,northeast nigeria,0
+countries,activist,0
+countries,brazilian,0
+countries,stockholm_sweden,0
+countries,stockholm sweden,0
+countries,newspaper,0
+countries,macau,0
+countries,past two weeks,0
+countries,fighter,0
+countries,central and south america,0
+countries,china airlines,0
+countries,parties,0
+countries,central philippines,0
+countries,visiting cuba,0
+countries,corruption,0
+countries,central mali,0
+countries,central_african_republic,0
+countries,diplomatic mission,0
+countries,civilian,0
+countries,organization,0
+countries,deadlock,0
+countries,santos,0
+countries,west jordan,0
+countries,palau,0
+countries,tokyo_japan,0
+countries,central asia,0
+countries,south east queensland,0
+countries,british prime minister david cameron,0
+countries,palm_springs,0
+countries,canberra australia,0
+countries,united_arab_emirates,1
+countries,new englanders,0
+countries,riyadh,0
+countries,chinese,0
+countries,mogadishu,0
+countries,ankara,0
+countries,hudson_valley_foie_gras,0
+countries,diplomat,0
+countries,pakistan television,0
+countries,jordan,1
+countries,middle eastern,0
+countries,kenya police,0
+countries,maldives,1
+countries,japan times,0
+countries,nimes,0
+countries,new south wales state,0
+countries,jersey,0
+countries,foreign aid,0
+countries,south jamaica,0
+countries,switzerland,1
+countries,borno_state,0
+countries,persian,0
+countries,southeastern_ukraine,0
+countries,arch,0
+countries,member,0
+countries,air force,0
+countries,headquarters,0
+countries,royal_navy,0
+countries,mexican,0
+countries,south yemen,0
+countries,sabotage,0
+countries,rangoon,0
+countries,greater iran,0
+countries,florida,0
+countries,jakarta_indonesia,0
+countries,mother india,0
+countries,central_asia,0
+countries,jerusalem israel,0
+countries,high,0
+countries,wave,0
+countries,late january,0
+countries,south asia,0
+countries,northwest pakistan,0
+countries,copenhagen,0
+countries,radio nepal,0
+countries,omani,0
+countries,athens greece,0
+countries,dubai,0
+countries,quebec,0
+countries,south american,0
+countries,radio australia,0
+countries,surveillance,0
+countries,manhattan,0
+countries,suriname,0
+countries,west_africa,0
+countries,manila,0
+countries,northern ireland assembly,0
+countries,yarmouk,0
+countries,propaganda,0
+countries,neighboring india,0
+countries,rakhine_state,0
+countries,brussels,0
+countries,stern,0
+countries,north_east_nigeria,0
+countries,bobigny,0
+countries,south korean island,0
+countries,radio pakistan,0
+countries,north west england,0
+countries,xinjiang,0
+countries,police forces,0
+countries,late september,0
+countries,neighboring_country,0
+countries,south east asian,0
+countries,central macedonia,0
+countries,past few days,0
+countries,andorra,0
+countries,holland,0
+countries,russia today,0
+countries,london_gatwick,0
+countries,southern philippines,0
+countries,western_culture,0
+countries,casualty,0
+countries,latin america,0
+countries,north east india,0
+countries,malaysia airlines,0
+countries,samoa,0
+countries,maryland,0
+countries,danish,0
+countries,american diplomat,0
+countries,vichy france,0
+countries,castro,0
+countries,arab,0
+countries,abu_dhabi,0
+countries,humanitarian aid,0
+countries,northern_syria,0
+countries,kyrgyzstan,0
+countries,scandinavia,0
+countries,eastern germany,0
+countries,chechnya,0
+countries,sierra_leone,0
+countries,argentine,0
+countries,counter terrorism,0
+countries,timbuktu,0
+countries,swiss,0
+countries,kharkiv,0
+countries,garissa_county,0
+countries,solomon islands,1
+countries,united states territory,0
+countries,south london,0
+countries,philippine government,0
+countries,al_qaeda,0
+countries,embattled,0
+countries,qatari,0
+countries,lower_michigan,0
+countries,central africa,0
+countries,zuma,0
+countries,muscat,0
+countries,large numbers,0
+countries,security,0
+countries,india today,0
+countries,islamabad pakistan,0
+countries,french,0
+countries,canadian,0
+countries,wales,0
+countries,ceylon,0
+countries,african countries,0
+countries,pre planned,0
+countries,south west africa,0
+countries,singaporean,0
+countries,river_state,0
+countries,hong kong china,0
+countries,alberta canada,0
+countries,northern canada,0
+countries,danes,0
+countries,coalition_force,0
+countries,european union,0
+countries,goa,0
+countries,mexico,1
+countries,european_nation,0
+countries,eastern kenya,0
+countries,nicholas_haysom,0
+countries,order,0
+countries,mainland china,0
+countries,soviet ukraine,0
+countries,athens,0
+countries,france 2,0
+countries,british government,0
+countries,northern iraq,0
+countries,greater germany,0
+countries,recife,0
+countries,sydney,0
+countries,pennsylvania,0
+countries,refugees,0
+countries,prime minister,0
+countries,neighbor_afghanistan,0
+countries,northern nigeria,0
+countries,northeastern india,0
+countries,german government,0
+countries,new_jersey,0
+countries,recent days,0
+countries,long,0
+countries,australian government,0
+countries,former soviet republic,0
+countries,past month,0
+countries,gulf,0
+countries,north india,0
+countries,european_union,0
+countries,news media,0
+countries,central canada,0
+countries,brasil,0
+countries,neighboring_state,0
+countries,peninsular malaysia,0
+countries,brussels belgium,0
+countries,south_korea,0
+countries,georgia,0
+countries,katsina_state,0
+countries,eastern belgium,0
+countries,ottawa,0
+countries,israel radio,0
+countries,european,0
+countries,military,0
+countries,clash,0
+countries,london,0
+countries,government,0
+countries,czechoslovakia,0
+countries,brunei,1
+countries,northern_iraq,0
+countries,liechtenstein,1
+countries,greenland,0
+countries,recent_month,0
+countries,japanese,0
+countries,nagaland,0
+countries,virgin australia,0
+countries,southwest china,0
+countries,mass,0
+countries,southern italy,0
+countries,madrid,0
+countries,terrorist,0
+countries,seoul south korea,0
+countries,secretary general,0
+countries,abuja,0
+countries,newfoundland,0
+countries,area,0
+countries,belgian congo,0
+countries,zimbabwe,1
+countries,monaco,1
+countries,soviet russia,0
+countries,iranian,0
+countries,summit,0
+countries,north_africa,0
+countries,neighbour_libya,0
+countries,neighbour_syria,0
+countries,south wales,0
+countries,goodluck_jonathan,0
+countries,yugoslavia,0
+countries,hainan,0
+countries,stanford,0
+countries,capital city,0
+countries,south china,0
+countries,village,0
+countries,tourism,0
+countries,prime_minister_sharif,0
+countries,neighbor_somalia,0
+countries,mexico border,0
+countries,taipei taiwan,0
+countries,war,0
+countries,romanian,0
+countries,northern kenya,0
+countries,united nations,0
+countries,south koreans,0
+countries,norwegian,0
+countries,test,0
+countries,miami,0
+countries,western united states,0
+countries,current situation,0
+countries,united_kingdom,0
+countries,mandalay,0
+countries,french navy,0
+countries,terror threat,0
+countries,western europe,0
+countries,president francois hollande,0
+countries,north east nigeria,0
+countries,china trade,0
+countries,estonia,0
+countries,ambassadors,0
+countries,violence,0
+countries,east_africa,0
+countries,munich,0
+countries,southwest united states,0
+countries,revolution,0
+countries,neighbor_belgium,0
+countries,cuban government,0
+parties,hotel_de_ville,0
+parties,nationalist movement party,1
+parties,cuban communist party,1
+parties,resounding victory,0
+parties,house_ethic,0
+parties,financial reforms,0
+parties,communist,0
+parties,moderate party,1
+parties,minority government,0
+parties,prime minister david cameron,0
+parties,quota_system,0
+parties,independents,0
+parties,re_election_bid,0
+parties,eventual_republican_nominee,0
+parties,islamophobia,0
+parties,sturgeon,0
+parties,widely_circulate,0
+parties,african christian democratic party,1
+parties,desperate attempt,0
+parties,american,0
+parties,nepalese,0
+parties,houthis,0
+parties,strong stance,0
+parties,staunch supporter,0
+parties,liberation movement,0
+parties,internationally_recognize,0
+parties,democrats,0
+parties,small_party,1
+parties,inner circle,0
+parties,potent political,0
+parties,independence,0
+parties,tougher stance,0
+parties,jordanian_f_16,0
+parties,catalyst,0
+parties,council members,0
+parties,foreign policy,0
+parties,presidential and parliamentary elections,0
+parties,sideshow,0
+parties,national mood,0
+parties,school,0
+parties,brent_scowcroft,0
+parties,hawkish_foreign,0
+parties,radicalize_muslim,0
+parties,united states government,0
+parties,positive tone,0
+parties,irish independent,0
+parties,all progressives congress,0
+parties,communist revolution,0
+parties,fidesz,0
+parties,japanese communist party,1
+parties,texas republican party,1
+parties,civic_platform,0
+parties,ennahda,0
+parties,independent city,0
+parties,young_paul,0
+parties,conservative coalition,0
+parties,national jewish democratic council,0
+parties,army_sergeant,0
+parties,german,0
+parties,political landscape,0
+parties,independent conservative,0
+parties,monarch,0
+parties,immigration,0
+parties,scorched earth,0
+parties,anti_assad,0
+parties,history,0
+parties,lib_dem,0
+parties,main_opposition,0
+parties,california republican party,1
+parties,isil,0
+parties,social change,0
+parties,left_wing_syriza,0
+parties,liberty party,1
+parties,moderate opposition,0
+parties,prohibition,0
+parties,blue_legend,0
+parties,taiwan,0
+parties,christian_social_union,0
+parties,post war,0
+parties,wcco,0
+parties,liberal_democrats,0
+parties,green,0
+parties,environmental_movement,0
+parties,liberal national party,1
+parties,white nationalist,0
+parties,heart,0
+parties,global affairs,0
+parties,christian,0
+parties,emergency_service,0
+parties,incident_response_team,0
+parties,social democratic and labour party,1
+parties,pro_moscow,0
+parties,yisrael_beytenu,0
+parties,large turnout,0
+parties,orf,0
+parties,social movement,0
+parties,anti_apartheid,0
+parties,congress hall,0
+parties,south carolina democratic party,1
+parties,french_socialist_party,1
+parties,congressional_democrats,0
+parties,national football league,0
+parties,lead,0
+parties,hindu nationalist party,1
+parties,dissident,0
+parties,green_party,1
+parties,coalition partner,0
+parties,teachers union,0
+parties,outspoken critic,0
+parties,grassroots movement,0
+parties,institutional revolutionary party,1
+parties,rising popularity,0
+parties,ultra_orthodox,0
+parties,postwar,0
+parties,jewish_christian,0
+parties,european_commission,0
+parties,solidarity,0
+parties,conservative,0
+parties,opposition leaders,0
+parties,deputy prime minister nick clegg,0
+parties,anti_war_movement,0
+parties,policy_chief_federica_mogherini,0
+parties,coalition partners,0
+parties,irish_nationalist,0
+parties,serbian progressive party,1
+parties,communist government,0
+parties,economic and social council,0
+parties,social_conservative,0
+parties,confrontational approach,0
+parties,republican jewish coalition,0
+parties,senate democrats,0
+parties,de facto,0
+parties,current climate,0
+parties,communist ] party,1
+parties,national reconciliation,0
+parties,opposition labour party,0
+parties,paraguayan,0
+parties,austerity,0
+parties,ulster unionist party,1
+parties,second_baseman,0
+parties,prominent figure,0
+parties,right wing,0
+parties,pro_kremlin,0
+parties,powerful figures,0
+parties,provincial government,0
+parties,ms rousseff,0
+parties,tangible results,0
+parties,opposition parties,0
+parties,national resistance movement,0
+parties,hutu,0
+parties,national party,1
+parties,scottish_national_party,1
+parties,sinaloa_cartel,0
+parties,conservatives,0
+parties,national post,0
+parties,sunni,0
+parties,liberal democracy,0
+parties,canadian national,0
+parties,senior figures,0
+parties,minister,0
+parties,public,0
+parties,previous elections,0
+parties,backstreet_boys,0
+parties,dissolution,0
+parties,socialist state,0
+parties,heritage foundation,0
+parties,national unity,0
+parties,socialist international,0
+parties,labor government,0
+parties,united states football league,0
+parties,college democrats,0
+parties,golden_dawn_party,1
+parties,anti refugee,0
+parties,newstalk,0
+parties,working class,0
+parties,divisive rhetoric,0
+parties,jewish christian,0
+parties,democracy alliance,0
+parties,democratic rally,0
+parties,al_iraqiya,0
+parties,conservative republicans,0
+parties,jamaat_e_islami_party,1
+parties,deputy prime minister,0
+parties,senior figure,0
+parties,newly appointed,0
+parties,gop frontrunner,0
+parties,eyewitness_news,0
+parties,maasai,0
+parties,peoples_democratic_party,1
+parties,impeachment,0
+parties,lower house,0
+parties,large crowds,0
+parties,pro israel,0
+parties,ride_share_company,0
+parties,independent democrat,0
+parties,deeply religious,0
+parties,republican national committee,0
+parties,radical islamic,0
+parties,pacifist,0
+parties,democratic socialist,0
+parties,cell,0
+parties,minority rights,0
+parties,national_education_association,0
+parties,rheinische_post,0
+parties,radical_left,0
+parties,radical_leftist,0
+parties,independent spirit,0
+parties,christian church,0
+parties,parks_department,0
+parties,gamut,0
+parties,michigan_state,0
+parties,left_wing,0
+parties,newly announced,0
+parties,african national congress,0
+parties,religious parties,0
+parties,district,0
+parties,european_parliament,0
+parties,mr miliband,0
+parties,neutral third party,0
+parties,tea party movement,0
+parties,isaac_herzog,0
+parties,trade union,0
+parties,anti communist,0
+parties,junior partner,0
+parties,social democratic union,1
+parties,rebel alliance,0
+parties,rebel movement,0
+parties,general election,0
+parties,republican_majority,0
+parties,language,0
+parties,legislative_action,0
+parties,ottoman_turkish,0
+parties,jihadist_group,0
+parties,awami_league,0
+parties,singapore democratic party,1
+parties,dead_include,0
+parties,cabinet minister,0
+parties,communist_party,1
+parties,opposition labour,0
+parties,ardent supporters,0
+parties,finance minister,0
+parties,york_county,0
+parties,christian heritage,0
+parties,local government association,0
+parties,officially_sanction,0
+parties,pro_settler,0
+parties,loud applause,0
+parties,suu kyi,0
+parties,national symbol,0
+parties,golden dawn,0
+parties,funding_deadline,0
+parties,unity government,0
+parties,organization,0
+parties,republican,0
+parties,governing coalition,0
+parties,independent women,0
+parties,specter,0
+parties,baath_party,1
+parties,radical left,0
+parties,tense relationship,0
+parties,opposition_coalition,0
+parties,hard_left,0
+parties,coen_brothers,0
+parties,parliamentary,0
+parties,republican national convention,0
+parties,olive branch,0
+parties,strained relationship,0
+parties,national power,0
+parties,students union,0
+parties,louisiana democratic party,0
+parties,congress_party,1
+parties,tamil national alliance,1
+parties,rallying,0
+parties,difficult position,0
+parties,open door,0
+parties,ruling coalition,0
+parties,domestic politics,0
+parties,close relationship,0
+parties,counterweight,0
+parties,stunning victory,0
+parties,highly_respected,0
+parties,democratic whip,0
+parties,central party school,1
+parties,sergio_massa,0
+parties,al_shabab,0
+parties,democratic party chairman,1
+parties,freedom act,0
+parties,mr_herzog,0
+parties,erosion,0
+parties,sharp criticism,0
+parties,block party,1
+parties,national student association,0
+parties,border_patrol,0
+parties,socio economic,0
+parties,asylum_rule,0
+parties,yisrael_beiteinu,0
+parties,popular figure,0
+parties,nda_government,0
+parties,political spectrum,0
+parties,leftist party,1
+parties,fair_labor_standards_act,0
+parties,national association,0
+parties,liberal reform,0
+parties,muslim world,0
+parties,christian conservatives,0
+parties,prime minister,0
+parties,economic union,0
+parties,national republican party,1
+parties,establishment_republicans,0
+parties,public sphere,0
+parties,test case,0
+parties,final stretch,0
+parties,government,0
+parties,black nationalist,0
+parties,frenchman,0
+parties,evidence_base,0
+parties,japanese,0
+parties,opposition_labour_party,0
+parties,sunni_arab,0
+parties,first_latin_american_pope,0
+parties,varying degrees,0
+parties,mass,0
+parties,national liberal club,0
+parties,national division,0
+parties,rapidly_grow,0
+parties,tf_1,0
+parties,australian labor party,1
+parties,national mall,0
+parties,political union,0
+parties,status quo,0
+parties,big business,0
+parties,decades long,0
+parties,foreseeable future,0
+parties,united national congress,0
+parties,united_torah_judaism,0
+parties,south carolina republican party,1
+parties,united soccer league,0
+parties,quarterback,0
+parties,civil union,0
+parties,revolution,0
+parties,dictator,0
+parties,christian values,0
+parties,harsh criticism,0
+parties,architect,0
+parties,fascist,0
+parties,international_community,0
+parties,nazi_german,0
+parties,turbulence,0
+parties,national language,0
+parties,symbol,0
+parties,democratic action party,1
+parties,jewish_state,0
+parties,alliance party,1
+parties,russian communist party,1
+parties,grim_reaper,0
+parties,labor,0
+parties,transportation_security_administration,0
+parties,state,0
+parties,close_adviser,0
+parties,political gridlock,0
+parties,hack_incident,0
+parties,incumbent president,0
+parties,dzmm,0
+parties,ideology,0
+parties,armed_force,0
+parties,magic_leap,0
+parties,generational shift,0
+parties,deeply conservative,0
+parties,key players,0
+parties,labor union,0
+parties,undecided voters,0
+parties,prime_minister_antonis_samaras,0
+parties,nationals,0
+parties,nationalization,0
+parties,anti_corruption,0
+parties,bona fides,0
+parties,haaretz,0
+parties,lobby group,0
+parties,irish nationalist,0
+parties,respect party,1
+parties,republican party chairman,1
+parties,marxist,0
+parties,prime_minister_ewa_kopacz,0
+parties,socialist_party,1
+parties,united socialist party,1
+parties,executive_committee,0
+parties,national security,0
+parties,democratic left alliance,0
+parties,pakistan peoples party,1
+parties,united states congress,0
+parties,hard liners,0
+parties,indian national congress,0
+parties,political party,1
+parties,national security council,0
+parties,collider,0
+parties,music,0
+parties,military_occupation,0
+parties,plaid_cymru,0
+parties,communist parties,0
+parties,indian national congress party,1
+parties,islamic,0
+parties,social conservatives,0
+parties,defence_system,0
+parties,hindu muslim,0
+parties,politician,0
+parties,hunting party,1
+parties,political alliance,0
+parties,venezuelan,0
+parties,quick_think,0
+parties,foreign affairs,0
+parties,snp,0
+parties,major,0
+parties,tabare_vazquez,0
+parties,constituency,0
+parties,president_ali_abdullah_saleh,0
+parties,social progress,0
+parties,lib_dems,0
+parties,opposition_leader,0
+parties,upmc,0
+parties,national parliament,0
+parties,centre left,0
+parties,greeks,0
+parties,fealty,0
+parties,european movement,0
+parties,incirlik,0
+parties,naha,0
+parties,tough talk,0
+parties,republican congress,0
+parties,u turn,0
+parties,national trust,0
+parties,jermaine_jones,0
+parties,islamic republic,0
+parties,french socialist party,1
+parties,fundamental change,0
+parties,election,0
+parties,christian coalition,0
+parties,politburo,0
+parties,govern_coalition,0
+parties,iraqi communist party,1
+parties,political,0
+parties,critical moment,0
+parties,senior government officials,0
+parties,scots,0
+parties,launch_window,0
+parties,ruling liberal democratic party,1
+parties,arkansas,0
+parties,broad support,0
+parties,syriza_party,1
+parties,liberal democrat,0
+parties,reformed,0
+parties,governing majority,0
+parties,radical_sunni,0
+parties,liberal,0
+parties,france_24,0
+parties,christian religion,0
+parties,plutonium_reactor,0
+parties,nationalist government,0
+parties,pan green,0
+parties,political culture,0
+parties,multiculturalism,0
+parties,rhetorical,0
+parties,hamas,0
+parties,congress,0
+parties,long history,0
+parties,chief executives,0
+parties,broad based,0
+parties,grass,0
+parties,opposition party,1
+parties,liberal_democratic_party,1
+parties,failed attempts,0
+parties,national institute,0
+parties,backbencher,0
+parties,social conservative,0
+parties,yesh_atid,0
+parties,hashemite_monarchy,0
+parties,united methodist,0
+parties,conciliatory tone,0
+parties,feminist movement,0
+parties,bad_idea,0
+parties,ruling liberal party,1
+parties,dup,0
+parties,revelation,0
+parties,massachusetts republican party,1
+parties,fellow,0
+parties,social democratic,0
+parties,target,0
+parties,aggressive_foreign_policy,0
+parties,standing_committee,0
+parties,mantra,0
+parties,scottish_labour,0
+parties,union government,0
+parties,blackmail,0
+parties,macedonian,0
+parties,progressive conservative party,1
+parties,indian government,0
+parties,congressional democrats,0
+parties,populism,0
+parties,free democratic party,1
+parties,grassroots democracy,0
+parties,weekly meeting,0
+parties,aggressive approach,0
+parties,cia_inspector_general,0
+parties,sinn_fein,0
+parties,overseas_chinese,0
+parties,mr juncker,0
+parties,sri lanka freedom party,1
+parties,left wing,0
+parties,hindu nationalist,0
+parties,mr buhari,0
+parties,neoconservative,0
+parties,moral authority,0
+parties,bicameral,0
+parties,pressure,0
+parties,national socialist,0
+parties,national urban league,0
+parties,icc_prosecutor,0
+parties,ethnic,0
+parties,closet,0
+parties,lashkar_e_taiba,0
+parties,iraqi national congress,0
+parties,social equality,0
+parties,national convention,0
+parties,kazakhstani,0
+parties,buddhist,0
+parties,muscle,0
+parties,julian_assange,0
+parties,sri lankan,0
+parties,refrain,0
+parties,policy_prescription,0
+parties,station,0
+parties,progressive politics,0
+parties,eurosceptic,0
+parties,cairo,0
+parties,president obama,0
+parties,civic trust,0
+parties,fail_safe,0
+parties,citizens union,0
+parties,catholic action,0
+parties,national interests,0
+parties,al_qaida,0
+parties,british national party,1
+parties,president_viktor_yanukovych,0
+parties,freedom_caucus,0
+parties,country,0
+parties,warm welcome,0
+parties,electoral alliance,0
+parties,electoral victory,0
+parties,allied democratic forces,0
+parties,national list,0
+parties,power struggle,0
+parties,sexiest_man,0
+parties,defence_industry,0
+parties,centrist party,1
+parties,soviet communist party,1
+parties,intra party,0
+parties,increasingly_vocal,0
+parties,ump,0
+parties,mr nazarbayev,0
+parties,national defence commission,0
+parties,dhs,0
+parties,counterpoint,0
+parties,vocal critic,0
+parties,kurdistan democratic party,1
+parties,competition_commissioner,0
+parties,labour movement,0
+parties,christmas_eve,0
+parties,democratic presidential,0
+parties,pakistan_tehreek_e_insaf,0
+parties,jewish federation,0
+parties,anti immigrant,0
+parties,suspected_al_qaeda,0
+parties,anti_bailout,0
+parties,theologically_conservative,0
+parties,mr_gulen,0
+parties,al_hayat,0
+parties,working families party,0
+parties,economic problems,0
+parties,northern alliance,0
+parties,citizens united,0
+parties,labor party leader,1
+parties,socialist action,0
+parties,yisrael_beitenu,1
+parties,social welfare,0
+parties,parties,0
+parties,intense criticism,0
+parties,kitchen sink,0
+parties,longtime allies,0
+parties,conservative christians,0
+parties,national city,0
+parties,pop_culture,0
+parties,social liberal party,1
+parties,alabama republican party,1
+parties,deadlock,0
+parties,libertarian party,1
+parties,conservative jewish,0
+parties,watershed,0
+parties,cambodian,0
+parties,margaret thatcher,0
+parties,progressive alliance,0
+parties,anti austerity,0
+parties,highly_decorate,0
+parties,republican_party,1
+parties,united center,0
+parties,welsh,0
+parties,assembly,0
+parties,russia,0
+parties,union forces,0
+parties,bitterly_divide,0
+parties,ruling party,1
+parties,activism,0
+parties,national championship,0
+parties,hard core,0
+parties,member,0
+parties,socialist worker,0
+parties,rasmussen_reports,0
+parties,prominent voice,0
+parties,widely_criticize,0
+parties,internationally_recognise,0
+parties,al_masirah,0
+parties,clinton_foundation,0
+parties,mr_kenyatta,0
+parties,opposition_party,1
+parties,militia,0
+parties,manila,0
+parties,right_wing_likud_party,1
+parties,oklahoma democratic party,1
+parties,suspect_gunman,0
+parties,newly_elect,0
+parties,progressive socialist party,1
+parties,national democratic alliance,0
+parties,foreign intervention,0
+parties,barometer,0
+parties,elected leaders,0
+parties,zionist union party,1
+parties,democratic education,0
+parties,national league east,0
+parties,rule_coalition,0
+parties,susan_b_anthony_list,0
+parties,communist bloc,0
+parties,advocacy_group,0
+parties,incumbent democratic,0
+parties,florida_senator,0
+parties,hysteria,0
+parties,liberal national,0
+parties,president barack obama,0
+parties,code_pink,0
+parties,tough stance,0
+parties,large numbers,0
+parties,french,0
+parties,canadian,0
+parties,brazilian_national_team,0
+parties,national pride,0
+parties,conservative_party,1
+parties,european union,0
+parties,scottish labour party,1
+parties,le pen,0
+parties,russian_orthodox_church,0
+parties,russian_church,0
+parties,high_negotiations_committee,0
+parties,economic issues,0
+parties,large chunk,0
+parties,separatism,0
+parties,sydney,0
+parties,governing party,1
+parties,right flank,0
+parties,heavy handed,0
+parties,uk_independence_party,1
+parties,highest office,0
+parties,larger role,0
+parties,nuns,0
+parties,sharp contrast,0
+parties,democratic national committee,0
+parties,downing street,0
+parties,opposition bloc,0
+parties,ms merkel,0
+parties,rising tide,0
+parties,hardball,0
+parties,anti immigration,0
+parties,united society,0
+parties,leadership,0
+parties,patronage,0
+parties,small minority,0
+parties,congress party,1
+parties,environmental movement,0
+parties,justice society,0
+parties,union league club,0
+parties,reclusive_nation,0
+parties,conservative bloc,0
+parties,yesh_atid_party,1
+parties,united church,0
+parties,green league,0
+parties,alternative,0
+parties,society,0
+parties,labour leader,0
+parties,united_kingdom,0
+parties,socially conservative,0
+parties,boston_herald,0
+parties,terror threat,0
+parties,melbourne,0
+parties,nidaa_tounes,0
+parties,independent senator,0
+parties,democratic rival,0
+parties,mr herzog,0
+parties,south_australian,0
+parties,kingmaker,0
+parties,social liberal,0
+parties,british_parliament,0
+parties,aam_aadmi_party,1
+parties,civil society,0
+parties,low key,0
+parties,moscow_friendly,0
+parties,michigan democratic party,1
+parties,spanish_league,0
+parties,moderate muslim,0
+parties,powerful message,0
+parties,single party,1
+parties,conservative_republicans,0
+parties,multi party,1
+parties,trade union movement,0
+parties,caucasus_emirate,0
+parties,civic party,1
+parties,national security division,0
+parties,bharatiya_janata_party,1
+parties,navy,0
+parties,local elections,0
+parties,moshe_kahlon,0
+parties,young communist league,0
+parties,tehrik_e_taliban,0
+parties,upper house,0
+parties,ttp,0
+parties,national economic council,0
+parties,national rifle association,0
+parties,australian republican movement,0
+parties,main_opposition_party,1
+parties,hard line,0
+parties,latest setback,0
+parties,conservative democrat,0
+parties,labour mp,0
+parties,green revolution,0
+parties,muslim_brotherhood,0
+parties,alberta party,1
+parties,socialist government,0
+parties,california democratic party,1
+parties,referendum,0
+parties,economic interests,0
+parties,early february,0
+parties,xenophobia,0
+parties,national hockey league,0
+parties,social_group,0
+parties,pessimism,0
+parties,alexis_tsipras,0
+parties,home turf,0
+parties,democratic socialists,0
+parties,leftist_syriza_party,1
+parties,coalition government,0
+parties,jan_19,0
+parties,health secretary,0
+parties,cpi,0
+parties,national league,0
+parties,food_product,0
+parties,social security,0
+parties,economic freedom,0
+parties,communist party leadership,0
+parties,national guard,0
+parties,kfi,0
+parties,civic_platform_party,1
+parties,national conservative,1
+parties,business_friendly,0
+parties,fop,0
+parties,ultranationalist,0
+parties,catholic worker movement,0
+parties,golden_dawn,0
+parties,all_progressives_congress,0
+parties,south_korean,0
+parties,financial support,0
+parties,jeremy corbyn,0
+parties,close ally,0
+parties,hard fought,0
+parties,justice_and_development_party,1
+parties,green flag,0
+parties,authoritarianism,0
+parties,west_german,0
+parties,revolutionary government,0
+parties,economic policy,0
+parties,intense pressure,0
+parties,president_karen_lewis,0
+parties,close ties,0
+parties,arab_party,1
+parties,mr obama,0
+parties,tajik,0
+parties,earliest days,0
+parties,catalan,0
+parties,political islam,0
+parties,civic center,0
+parties,defeat_incumbent,0
+parties,ms le,0
+parties,conservative_likud_party,1
+parties,wide ranging,0
+parties,pre election,0
+parties,rights activists,0
+parties,major political parties,0
+parties,incumbent democrat,0
+parties,scottish liberal democrats,1
+parties,national farmers union,0
+parties,past eight years,0
+parties,lock step,0
+parties,anti_austerity,0
+parties,lightning rod,0
+parties,technocratic,0
+parties,democratic leadership council,0
+parties,socially_liberal,1
+parties,bloc,0
+parties,anti,0
+parties,progress party,1
+parties,corriere_della_sera,0
+parties,secularism,0
+parties,local_muslim_community,0
+parties,prime ministers,0
+parties,national broadcaster,0
+parties,cobra,0
+parties,peace movement,0
+parties,treasure_valley,0
+parties,decade long,0
+parties,all party parliamentary group,1
+parties,economic agenda,0
+parties,president_goodluck_jonathan,0
+parties,democratic candidates,0
+parties,national development and reform commission,0
+parties,islamic society,0
+parties,union solidarity and development party,1
+parties,joint_list,0
+parties,greenpeace,0
+parties,full fledged,0
+parties,asian_football_confederation,0
+parties,freedom party,1
+parties,ajnad_misr,0
+parties,independence movement,0
+parties,national service,0
+parties,muslim rebel group,0
+parties,income equality,0
+parties,unp,1
+parties,businessman,0
+parties,upa,0
+parties,progressive movement,0
+parties,united opposition,0
+parties,constitution party,1
+parties,liberal_democrat,0
+parties,saudi_back,0
+parties,mr samaras,0
+parties,non aligned movement,0
+parties,deep seated,0
+parties,fortify_border,0
+parties,national soccer league,0
+parties,contentious issue,0
+parties,kulanu_party,1
+parties,british parliament,0
+parties,political_party,0
+parties,democratic national convention,0
+parties,tainan_city,0
+parties,bbc,0
+parties,widespread support,0
+parties,elected officials,0
+parties,prominent role,0
+parties,american communist party,1
+parties,civics,0
+parties,hobby_horse,0
+parties,democratic republic,0
+parties,indian parliament,0
+parties,law,0
+parties,mosque,0
+parties,greatest threat,0
+parties,success story,0
+parties,policy differences,0
+parties,balancing act,0
+parties,opposition coalition,0
+parties,national socialism,0
+parties,work_related_email,0
+parties,congressional,0
+parties,social democratic federation,0
+parties,liberal conservative,1
+parties,national peace council,0
+parties,president,0
+parties,croatian_government,0
+parties,leave_lean,0
+parties,passions,0
+parties,sensitive issue,0
+parties,national press club,0
+parties,political parties,0
+parties,black power movement,0
+parties,democratic convention,0
+parties,islamic terrorism,0
+parties,azov_battalion,0
+parties,islamic_revolution,0
+parties,syntagma_square,0
+parties,hard left,0
+parties,mr putin,0
+parties,stipend,0
+parties,third_reich,0
+parties,peruvian,0
+parties,skepticism,0
+parties,catholic,0
+parties,muslim students association,0
+parties,coordinated effort,0
+parties,environmental_agenda,0
+parties,fatah_party,1
+parties,national democratic party,1
+parties,russian,0
+parties,military strategy,0
+parties,indian_express,0
+parties,constitution,0
+parties,socially liberal,0
+parties,white_american,0
+parties,muslim community,0
+parties,international_maritime,0
+parties,jazz_singer,0
+parties,northern ireland,0
+parties,northern_irish,0
+parties,main opposition,0
+parties,independent institute,0
+parties,historic victory,0
+parties,grand coalition,0
+parties,central group,0
+parties,hindu,0
+parties,european jewish congress,0
+parties,coups,0
+parties,caspian,0
+parties,political scandal,0
+parties,world leaders,0
+parties,maoist,0
+parties,party platform,1
+parties,large number,0
+parties,centrist_party,1
+parties,prejudice,0
+parties,independent national electoral commission,0
+parties,right leaning,0
+parties,herzog,0
+parties,election_manifesto,0
+parties,former prime minister tony blair,0
+parties,collision course,0
+parties,force_feeding,0
+parties,reformist party,1
+parties,high_court,0
+parties,heated debate,0
+parties,suspected_islamist,0
+parties,aipac,0
+parties,leftist_party,1
+parties,solvency,0
+parties,bay_area,0
+parties,left wing party,1
+parties,islamist,0
+parties,united nation,0
+parties,united_kingdom_independence_party,1
+parties,buddhism,0
+parties,notable exception,0
+parties,libertarian,0
+parties,mep,0
+parties,unicameral_legislature,0
+parties,majority government,0
+parties,thinly veiled,0
+parties,resistance movement,0
+parties,civic platform,0
+parties,tell_wcbs,0
+parties,popular_science,0
+parties,ayatollah,0
+parties,umbrella movement,0
+parties,key figures,0
+parties,benghazi_select_committee,0
+parties,economic reform,0
+parties,mr_samaras,0
+parties,progressive conservative,0
+parties,likud_party,1
+parties,bastion,0
+parties,middle eastern,0
+parties,united malays national organisation,0
+parties,fierce criticism,0
+parties,strong opposition,0
+parties,national assembly,0
+parties,mr erdogan,0
+parties,international solidarity movement,0
+parties,constitutional crisis,0
+parties,internal_market,0
+parties,commons,0
+parties,evangelical_christian,0
+parties,students association,0
+parties,opposition forces,0
+parties,college green,0
+parties,ruling communist party,1
+parties,mr netanyahu,0
+parties,sinn fein,0
+parties,reform party,1
+parties,jewish,0
+parties,nationalist,0
+parties,ultra_orthodox_party,1
+parties,political freedom,0
+parties,houthi,0
+parties,rhetoric,0
+parties,litany,0
+parties,union,0
+parties,single party state,1
+parties,kadima,0
+parties,opposition labor party,1
+parties,al_qaeda,0
+parties,zuma,0
+parties,national_party,1
+parties,independent_greeks_party,1
+parties,deep divisions,0
+parties,right_lean,0
+parties,scotland,0
+parties,christian science,0
+parties,international_atomic_energy_agency,0
+parties,reactionary,0
+parties,progressive_party,1
+parties,international socialist organization,0
+parties,bailout,0
+parties,british government,0
+parties,latest chapter,0
+parties,left leaning,0
+parties,wbbm,0
+parties,arab parties,0
+parties,opposition alliance,0
+parties,moderate republicans,0
+parties,brazilian democratic movement party,1
+parties,tea party conservatives,1
+parties,heartland_collegiate_athletic_conference,0
+parties,chancellor_angela_merkel,0
+parties,liberation party / front,1
+parties,google,0
+parties,secular,0
+parties,broad spectrum,0
+parties,green movement,0
+parties,solidarity party,1
+parties,main_kurdish,0
+parties,catholic university,0
+parties,widely expected,0
+parties,vote counting,0
+parties,liberation party front,1
+parties,electoral process,0
+parties,hardline_sunni,0
+parties,green party,1
+parties,united_national_party,1
+parties,fatah,0
+parties,chancellor angela merkel,0
+parties,opposition leader,0
+parties,democratic rep,0
+parties,stark contrast,0
+parties,presidential election,0
+parties,religious freedom,0
+parties,irrawaddy,0
+parties,fine line,0
+parties,longtime ally,0
+parties,strong position,0
+parties,war,0
+parties,democratic incumbent,0
+parties,closing days,0
+parties,eld_paul,0
+parties,togolese,0
+parties,islamic dawa party,1
+parties,supreme national security council,0
+parties,dramatic shift,0
+parties,prime minster,0
+parties,minority groups,0
+parties,parliamentary democracy,0
+parties,talking points,0
+parties,spanish_state,0
+parties,indian congress,0
+parties,indian national lok dal,0
+parties,national unity government,0
+parties,republican_leadership,0
+parties,power broker,0
+parties,national defence,0
+parties,main political parties,0
+parties,national democratic institute,0
+parties,wedding party,1
+parties,great_patriotic_war,0
+parties,labour_party,1
+parties,mr abbott,0
+parties,bangladesh_nationalist_party,1
+parties,full blown,0
+parties,cornerstone,0
+parties,family ties,0
+parties,young democrats,0
+parties,indian independence,0
+parties,poll results,0
+parties,presidential forum,0
+parties,labor_party,1
+parties,nationalist republican alliance,0
+parties,surprise announcement,0
+parties,swing_producer,0
+parties,umbrella group,0
+parties,important issue,0
+parties,deep concerns,0
+parties,sweden_democrats,0
+parties,dim view,0
+parties,electoral_alliance,0
+parties,introspection,0
+parties,bayit_yehudi,0
+parties,anti_immigrant,0
+parties,student union,0
+parties,peace agreement,0
+parties,zionist movement,0
+parties,veteran,0
+parties,conservative mp,0
+parties,union army,0
+parties,mr clegg,0
+parties,columbia,0
+parties,ancient_history,0
+parties,cabinet,0
+parties,independent greeks party,1
+parties,sanaa,0
+parties,neo nazi,0
+parties,nation building,0
+parties,common ground,0
+parties,orthodox christian,0
+parties,nationwide movement,0
+parties,party,1
+parties,marine le pen,0
+parties,santa_rita_mountain,0
+parties,game,0
+parties,socialist popular alliance party,1
+parties,passion,0
+parties,scottish,0
+parties,pap,0
+parties,beach,0
+parties,patriotism,0
+parties,taboo,0
+parties,independence hall,0
+parties,united progressive alliance,0
+parties,fresh round,0
+parties,youtube,0
+parties,stinging rebuke,0
+parties,mr cameron,0
+parties,ekho_moskvy,0
+parties,starbucks,0
+parties,national constitution center,0
+parties,communist country,0
+parties,empire_state,0
+parties,social_democratic,1
+parties,difficult task,0
+parties,nationalist_party,1
+parties,world view,0
+parties,latest polls,0
+parties,progressive alternative,1
+parties,shas,0
+parties,david cameron,0
+parties,mr rajapaksa,0
+parties,austrian,0
+parties,orange democratic movement,0
+parties,liberal progressive,0
+parties,jewish community,0
+parties,pakistan muslim league,0
+parties,county_attorney,0
+parties,national dialogue,0
+parties,harmony,0
+parties,judiciary,0
+parties,tough line,0
+parties,strong_than_expect,0
+parties,peace,0
+parties,national church,0
+parties,southern_baptist,0
+parties,maltese,0
+parties,florida democratic party,0
+parties,political action,0
+parties,power structure,0
+parties,cw_network,0
+parties,anti corruption,0
+parties,socialist,0
+parties,peronist,0
+parties,heated rhetoric,0
+parties,recent weeks,0
+parties,humiliating defeat,0
+parties,british,0
+parties,social justice,0
+parties,country party,1
+parties,scale_back,0
+parties,young activists,0
+parties,slow pace,0
+parties,european union association agreement,0
+parties,islamophobic,0
+parties,federal,0
+parties,cocktail party,0
+parties,technology_industry,0
+parties,catholic association,0
+parties,think tank,0
+parties,southern democrats,0
+parties,campaign promise,0
+parties,el sisi,0
+parties,biggest threat,0
+parties,african_national_congress,1
+parties,american party,1
+parties,mr blair,0
+parties,immigrant,0
+parties,crushing defeat,0
+parties,american conservative union,0
+parties,golden dawn party,1
+parties,constitutional reform,0
+parties,field_ambulance,0
+parties,harvard_business_school,0
+parties,lucha_libre,0
+parties,newly minted,0
+parties,independent_greeks,0
+parties,architects,0
+parties,israeli,0
+parties,moderate democrats,0
+parties,parliament,0
+parties,union college,0
+parties,national executive committee,0
+parties,politically charged,0
+parties,nationalist congress party,1
+parties,nusra_front,0
+parties,founding_principle,0
+parties,open government,0
+parties,dhkp_c,0
+parties,dec_19,0
+parties,netroot,0
+parties,national taxpayers union,0
+parties,dpj,1
+parties,liberal_party,1
+parties,monarchy,0
+parties,record_academy,0
+parties,republican_study_committee,0
+parties,pan_arab,0
+parties,venezuelan_government,0
+parties,international relations,0
+parties,tna,0
+parties,hindi,0
+parties,trade unions,0
+parties,louisiana,0
+parties,concatenation,0
+parties,opinion polls,0
+parties,ethiopian_israeli,0
+parties,alaskan,0
+parties,stanza,0
+parties,drug,0
+parties,general,0
+parties,political risk,0
+parties,general national congress,1
+parties,ussr,0
+parties,progressive democrats,0
+parties,significant change,0
+parties,craven,0
+parties,newly_form,0
+parties,biggest challenge,0
+parties,politics,0
+parties,environment minister,0
+parties,rare moment,0
+parties,united_launch_alliance,0
+parties,coup,0
+parties,conservative christian,0
+parties,opportunism,0
+parties,british politics,0
+parties,british national,0
+parties,italian_american,0
+parties,communications minister,0
+parties,maoists,0
+parties,social network,0
+parties,rule_liberal_democratic_party,1
+parties,envoy_catherine_ashton,0
+parties,closest allies,0
+parties,beach party,1
+parties,brady_campaign,0
+parties,union league,0
+parties,islamic extremism,0
+parties,mid_atlantic_region,0
+parties,argentine_forensic,0
+parties,pre emptive,0
+parties,cuban_american,0
+parties,niaid,0
+parties,f_4_phantom,0
+parties,optics,0
+parties,enormous pressure,0
+parties,theocratic,0
+parties,civic platform party,1
+parties,prominent_jewish,0
+parties,anti_immigration,0
+parties,exit_door,0
+parties,democratic_party,1
+parties,nepali congress,1
+parties,stop_gap,0
+parties,amnesty,0
+parties,libertarian_party,1
+parties,male_dominate,0
+parties,ms livni,0
+parties,living standards,0
+parties,freedom house,0
+parties,washington_supreme_court,0
+parties,justice,0
+parties,democratic socialism,0
+parties,deeply divided,0
+parties,foreign_minister,0
+parties,democratic unionist party,1
+parties,defense_spending,0
+parties,indian nationals,0
+parties,newspaper,0
+parties,concerted effort,0
+parties,anti muslim,0
+parties,welfare reform,0
+parties,corruption,0
+parties,growing pressure,0
+parties,centrist_liberal_democrats,0
+parties,28_member_bloc,0
+parties,carter_center,0
+parties,real test,0
+parties,rubber stamp,0
+parties,tea party caucus,1
+parties,protest movement,0
+parties,presidential elections,0
+parties,ballot box,0
+parties,an apparent reference,0
+parties,cautious_approach,0
+parties,poll ratings,0
+parties,il_messaggero,0
+parties,self_radicalize,0
+parties,moderate republican,0
+parties,alarm bells,0
+parties,stuttgart,0
+parties,labour party leader,1
+parties,rule_party,1
+parties,badr_organization,0
+parties,fraser_government,0
+parties,main rival,0
+parties,samaras,0
+parties,netanyahu,0
+parties,dark_hour,0
+parties,right_wing,0
+parties,democratic leaning,0
+parties,democracy,0
+parties,hamburger_abendblatt,0
+parties,cavalier_king_charles_spaniel,0
+parties,aisle,0
+parties,zionist_union,0
+parties,partisans,0
+parties,sphere,0
+parties,freedomworks,0
+parties,parliamentary labour party,1
+parties,politically_correct,0
+parties,independent,0
+parties,tamil_national_alliance,0
+parties,main_objective,0
+parties,vocal opposition,0
+parties,social_democratic_party,1
+parties,foil,0
+parties,bachelor party,1
+parties,civil_society,0
+parties,democratic unionist,0
+parties,orthodox union,0
+parties,chinese_communist,0
+parties,birthday party,1
+parties,constitutional change,0
+parties,farmington_hills,0
+parties,ohio republican party,0
+parties,soviet_union,0
+parties,democratic senator,0
+parties,tea_party,0
+parties,religious_party,0
+parties,hard pressed,0
+parties,universal,0
+parties,abbott_government,0
+parties,kurdistan_workers_party,1
+parties,main opposition party,0
+parties,democratic leader,0
+parties,britain,0
+parties,sunday times,0
+parties,long,0
+parties,national action network,0
+parties,mr duda,0
+parties,left_wing_party,1
+parties,european_union,0
+parties,independent film,0
+parties,adolf hitler,0
+parties,internal debate,0
+parties,orthodox,0
+parties,democrat,0
+parties,tehreek_e_taliban_pakistan,0
+parties,clear mandate,0
+parties,inter parliamentary union,0
+parties,democratic activist,0
+parties,nationally televised,0
+parties,national education association,0
+parties,islamic state group,0
+parties,mr sirisena,0
+parties,european parliament,0
+parties,competition_committee,0
+parties,arab nationalist,0
+parties,democratic_unionist_party,1
+parties,indian constitution,0
+parties,patriot league,0
+parties,magna_international,0
+parties,govern_party,1
+parties,civil and political rights,0
+parties,close allies,0
+parties,social liberals,0
+parties,ethnic_chinese,0
+parties,national bar association,0
+parties,conservative political action conference,0
+parties,simple message,0
+parties,republican ] party,1
+parties,business community,0
+parties,jamaat_e_islami,0
+parties,coalition_partner,0
+parties,broadside,0
+parties,tamil,0
+parties,justice league,0
+parties,election results,0
+parties,free speech movement,0
