@@ -75,11 +75,19 @@ Benchmark/$DATA
 # Citation and Contact
 For more details on the benchmark and experiments read our technical paper at [NAACL 2022](https://openreview.net/forum?id=r3GMppibH-c). Cite our work as follows: 
 ```
-@article{shao2022ese,
-  title={Low-resource Entity Set Expansion: A Comprehensive Study on User-generated Text},
-  author={Shao, Yutong and Bhutani, Nikita and Rahman, Sajjadur and Hruschka, Estevam},
-  journal={Findings of NAACL 2022},
-  year={2022}
+@inproceedings{shao-etal-2022-low,
+    title = "Low-resource Entity Set Expansion: A Comprehensive Study on User-generated Text",
+    author = "Shao, Yutong  and
+      Bhutani, Nikita  and
+      Rahman, Sajjadur  and
+      Hruschka, Estevam",
+    booktitle = "Findings of the Association for Computational Linguistics: NAACL 2022",
+    month = jul,
+    year = "2022",
+    address = "Seattle, United States",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.findings-naacl.100",
+    pages = "1343--1353"
 }
 ```
 
